@@ -1,0 +1,4 @@
+Category,Feature Name,Description,Linked Route(s),Component,Tags
+Design & Aesthetic,Wardrobe & Outfit Planner,Catalog clothes; suggest 'Sensory Safe Now' outfits; AI dress‑up link.,/wardrobe,WardrobePlanner,"wardrobe,outfits"
+Design & Aesthetic,Spotify Routine,Start 'Slumber with the Piano' at 10:30PM (Dimple → shuffle).,/settings/spotify,SpotifyAutomation,"spotify,sleep"
+Design & Aesthetic,Themes,"Gothic dark, Clean Witchy Minimal, Grayscale print.",/settings,DashboardHome,"theme,ui"

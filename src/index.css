@@ -1,0 +1,147 @@
+/* -----------------------------------------------------------
+   KolHub OS v3
+   Unified Hybrid Styling - Gothic Dark Theme
+----------------------------------------------------------- */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --kol-bg: #0d0d0d;
+  --kol-surface: #1a1a1a;
+  --kol-accent: #6b00b3;
+  --kol-accent-hover: #8b00e8;
+  --kol-text-primary: #e5e5e5;
+  --kol-text-secondary: #a1a1a1;
+  --kol-border: #2a2a2a;
+  --kol-radius: 0.75rem;
+  --kol-transition: 0.25s ease-in-out;
+  color-scheme: dark;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--kol-bg);
+  color: var(--kol-text-primary);
+  font-family: 'Inter', 'JetBrains Mono', 'Segoe UI', system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--kol-accent);
+  border-radius: var(--kol-radius);
+}
+::-webkit-scrollbar-track {
+  background-color: var(--kol-surface);
+}
+
+a {
+  color: var(--kol-accent);
+  transition: color var(--kol-transition);
+}
+a:hover {
+  color: var(--kol-accent-hover);
+}
+
+.btn {
+  background: var(--kol-accent);
+  color: #fff;
+  font-weight: 500;
+  padding: 0.6rem 1.2rem;
+  border-radius: var(--kol-radius);
+  transition: all var(--kol-transition);
+}
+.btn:hover {
+  background: var(--kol-accent-hover);
+  transform: translateY(-1px);
+}
+
+.card {
+  background: var(--kol-surface);
+  border: 1px solid var(--kol-border);
+  border-radius: var(--kol-radius);
+  padding: 1rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.35);
+  transition: all var(--kol-transition);
+}
+.card:hover {
+  border-color: var(--kol-accent);
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 600;
+  color: var(--kol-text-primary);
+}
+
+input, textarea {
+  background-color: var(--kol-surface);
+  border: 1px solid var(--kol-border);
+  color: var(--kol-text-primary);
+  padding: 0.6rem;
+  border-radius: var(--kol-radius);
+  width: 100%;
+  transition: border var(--kol-transition);
+}
+input:focus, textarea:focus {
+  border-color: var(--kol-accent);
+  outline: none;
+}
+
+.navbar {
+  background: rgba(10, 10, 10, 0.9);
+  border-bottom: 1px solid var(--kol-border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1.5rem;
+  backdrop-filter: blur(10px);
+}
+
+.footer {
+  background-color: var(--kol-surface);
+  color: var(--kol-text-secondary);
+  text-align: center;
+  padding: 1rem;
+  border-top: 1px solid var(--kol-border);
+  font-size: 0.9rem;
+}
+
+.glow {
+  text-shadow: 0 0 8px var(--kol-accent);
+}
+
+/* ✅ Fixed here — proper keyframes bracket closure */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.8s ease-out;
+}
+
+@media (max-width: 768px) {
+  .card {
+    padding: 0.75rem;
+  }
+  .btn {
+    padding: 0.5rem 1rem;
+  }
+}
+
+/* -----------------------------------------------------------
+   KolHub OS - Gothic Dark Core CSS
+----------------------------------------------------------- */

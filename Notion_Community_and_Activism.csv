@@ -1,0 +1,3 @@
+Category,Feature Name,Description,Linked Route(s),Component,Tags
+Community & Activism,Activism Expansion Model,"500 activists, 300 micro‑actions; track orgs and impact.",/community/activism,ActivismModel,"activism,impact"
+Community & Activism,Event Finder,Accessible event suggestions by energy/cost/topic.,/community/events,EventFinder,"events,accessibility"

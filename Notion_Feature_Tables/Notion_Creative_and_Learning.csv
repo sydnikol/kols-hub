@@ -1,0 +1,3 @@
+Category,Feature Name,Description,Linked Route(s),Component,Tags
+Creative & Learning,Idea Libraries,"Seeded libraries for art, sewing, hoodoo, UI, learning, etc.",/create/ideas,IdeaLibraries,"ideas,library"
+Creative & Learning,Entertainment Linked Hub,Movies/TV/comics/games with mood tags and sources.,/entertainment,EntertainmentLinked,"media,library"

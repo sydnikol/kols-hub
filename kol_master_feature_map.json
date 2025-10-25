@@ -1,0 +1,1009 @@
+{
+  "app": {
+    "name": "KolsHub",
+    "version": "1.0.0",
+    "timezone": "America/Chicago",
+    "themes": {
+      "default": "gothic_dark",
+      "options": [
+        "gothic_dark",
+        "clean_witchy_minimal",
+        "grayscale_print"
+      ]
+    }
+  },
+  "meta": {
+    "generated_at_utc": "2025-10-10T22:00:03.571082Z",
+    "author": "Kol + GPT-5 Thinking",
+    "notes": [
+      "This file maps features → routes → components → data collections.",
+      "Fields marked with `_example` are illustrative and safe to remove."
+    ]
+  },
+  "routes": [
+    {
+      "path": "/",
+      "component": "DashboardHome"
+    },
+    {
+      "path": "/health",
+      "component": "HealthHome"
+    },
+    {
+      "path": "/health/meds",
+      "component": "MedsTracker"
+    },
+    {
+      "path": "/health/vitals",
+      "component": "VitalsTracker"
+    },
+    {
+      "path": "/health/hydration",
+      "component": "HydrationSodium"
+    },
+    {
+      "path": "/health/body-weather",
+      "component": "BodyWeather"
+    },
+    {
+      "path": "/health/pt",
+      "component": "PhysicalTherapy"
+    },
+    {
+      "path": "/health/emergency",
+      "component": "EmergencySuite"
+    },
+    {
+      "path": "/support",
+      "component": "SupportNetwork"
+    },
+    {
+      "path": "/support/handbooks",
+      "component": "SupportHandbooks"
+    },
+    {
+      "path": "/support/quick-glance",
+      "component": "QuickGlanceGuide"
+    },
+    {
+      "path": "/advocacy/scripts",
+      "component": "AdvocacyCoach"
+    },
+    {
+      "path": "/relationships/partners",
+      "component": "PartnerComms"
+    },
+    {
+      "path": "/daily",
+      "component": "DailyPlanner"
+    },
+    {
+      "path": "/daily/household",
+      "component": "HouseholdRotation"
+    },
+    {
+      "path": "/daily/pets",
+      "component": "PetCare"
+    },
+    {
+      "path": "/meals",
+      "component": "MealsNourish"
+    },
+    {
+      "path": "/money",
+      "component": "FinanceAdvisor"
+    },
+    {
+      "path": "/money/passive",
+      "component": "PassiveIncomeLibrary"
+    },
+    {
+      "path": "/create/ideas",
+      "component": "IdeaLibraries"
+    },
+    {
+      "path": "/entertainment",
+      "component": "EntertainmentLinked"
+    },
+    {
+      "path": "/boardgames",
+      "component": "BoardgameHub"
+    },
+    {
+      "path": "/dnd",
+      "component": "DnDHub"
+    },
+    {
+      "path": "/community/activism",
+      "component": "ActivismModel"
+    },
+    {
+      "path": "/community/events",
+      "component": "EventFinder"
+    },
+    {
+      "path": "/ai/chronomuse",
+      "component": "ChronoMuse"
+    },
+    {
+      "path": "/wardrobe",
+      "component": "WardrobePlanner"
+    },
+    {
+      "path": "/settings/spotify",
+      "component": "SpotifyAutomation"
+    },
+    {
+      "path": "/glossary",
+      "component": "GlossaryKB"
+    },
+    {
+      "path": "/settings/privacy",
+      "component": "PrivacyCenter"
+    }
+  ],
+  "schemas": {
+    "User": {
+      "id": "string",
+      "name": "string",
+      "pronouns": "string",
+      "age": "number",
+      "identities": [
+        "string"
+      ],
+      "conditions": [
+        "string"
+      ],
+      "preferences": {
+        "no_foods": [
+          "string"
+        ],
+        "cuisine_likes": [
+          "string"
+        ],
+        "leftovers_ok": "boolean",
+        "gluten_free_pref": "boolean",
+        "dairy_free_pref": "boolean",
+        "printing_theme": "string"
+      }
+    },
+    "Partner": {
+      "id": "string",
+      "name": "string",
+      "role": "string",
+      "phone": "string",
+      "notes": "string"
+    },
+    "CareContact": {
+      "id": "string",
+      "name": "string",
+      "role": "string",
+      "organization": "string",
+      "phone": "string"
+    },
+    "Medication": {
+      "id": "string",
+      "name": "string",
+      "dose": "string",
+      "schedule": "string",
+      "indication": "string",
+      "notes": "string",
+      "requires_meal": "boolean"
+    },
+    "VitalLog": {
+      "id": "string",
+      "timestamp": "string",
+      "bp_systolic": "number",
+      "bp_diastolic": "number",
+      "heart_rate": "number",
+      "spo2": "number",
+      "notes": "string"
+    },
+    "HydrationLog": {
+      "id": "string",
+      "timestamp": "string",
+      "ml": "number",
+      "electrolytes_mg_sodium": "number",
+      "beverage": "string"
+    },
+    "BodyWeather": {
+      "id": "string",
+      "date": "string",
+      "pain_0_10": "number",
+      "energy_0_10": "number",
+      "mood_0_10": "number",
+      "notes": "string",
+      "weather_tag": "string"
+    },
+    "PTExercise": {
+      "id": "string",
+      "name": "string",
+      "instructions": "string",
+      "reps": "number",
+      "sets": "number",
+      "safety_notes": "string"
+    },
+    "EmergencyCard": {
+      "id": "string",
+      "title": "string",
+      "conditions": [
+        "string"
+      ],
+      "meds_list": [
+        "string"
+      ],
+      "contacts": [
+        {
+          "name": "string",
+          "role": "string",
+          "phone": "string"
+        }
+      ],
+      "freeze_protocol_steps": [
+        "string"
+      ]
+    },
+    "SupportHandbook": {
+      "id": "string",
+      "audience": "string",
+      "sections": [
+        {
+          "title": "string",
+          "bullets": [
+            "string"
+          ]
+        }
+      ]
+    },
+    "AdvocacyScript": {
+      "id": "string",
+      "context": "string",
+      "tone": "string",
+      "script": "string"
+    },
+    "DailyTask": {
+      "id": "string",
+      "title": "string",
+      "category": "string",
+      "energy_mode": [
+        "string"
+      ],
+      "due_rule": "string",
+      "assign_to": [
+        "string"
+      ],
+      "done": "boolean"
+    },
+    "PetTask": {
+      "id": "string",
+      "animal": "string",
+      "task": "string",
+      "schedule": "string",
+      "notes": "string"
+    },
+    "Meal": {
+      "id": "string",
+      "title": "string",
+      "cuisine": [
+        "string"
+      ],
+      "gluten_free": "boolean",
+      "dairy_free": "boolean",
+      "ingredients": [
+        "string"
+      ],
+      "steps": [
+        "string"
+      ],
+      "substitutions": [
+        {
+          "ingredient": "string",
+          "subs": [
+            "string"
+          ]
+        }
+      ]
+    },
+    "FinanceAccount": {
+      "id": "string",
+      "name": "string",
+      "type": "string",
+      "balance": "number"
+    },
+    "Bill": {
+      "id": "string",
+      "name": "string",
+      "amount": "number",
+      "due_day": "number",
+      "autopay": "boolean",
+      "category": "string"
+    },
+    "PassiveIdea": {
+      "id": "string",
+      "title": "string",
+      "category": [
+        "string"
+      ],
+      "startup_cost_estimate": "number",
+      "energy_required": "string",
+      "roi_notes": "string"
+    },
+    "Idea": {
+      "id": "string",
+      "library": "string",
+      "title": "string",
+      "tags": [
+        "string"
+      ],
+      "steps": [
+        "string"
+      ]
+    },
+    "MediaItem": {
+      "id": "string",
+      "type": "string",
+      "title": "string",
+      "tags": [
+        "string"
+      ],
+      "where_to_watch": [
+        "string"
+      ]
+    },
+    "Boardgame": {
+      "id": "string",
+      "name": "string",
+      "play_modes": [
+        "string"
+      ],
+      "setup_time_min": "number",
+      "weight": "string"
+    },
+    "DnDIdea": {
+      "id": "string",
+      "title": "string",
+      "use_with": [
+        "string"
+      ],
+      "notes": "string"
+    },
+    "ActivismRecord": {
+      "id": "string",
+      "name": "string",
+      "type": "string",
+      "actions": [
+        "string"
+      ],
+      "impact_notes": "string"
+    },
+    "Event": {
+      "id": "string",
+      "title": "string",
+      "datetime_local": "string",
+      "location": "string",
+      "virtual": "boolean",
+      "accessibility": [
+        "string"
+      ],
+      "energy_cost": "string"
+    },
+    "WardrobeItem": {
+      "id": "string",
+      "name": "string",
+      "type": "string",
+      "materials": [
+        "string"
+      ],
+      "sensory_safe": "boolean",
+      "tags": [
+        "string"
+      ]
+    },
+    "Outfit": {
+      "id": "string",
+      "name": "string",
+      "items": [
+        "string"
+      ],
+      "tags": [
+        "string"
+      ]
+    },
+    "Automation": {
+      "id": "string",
+      "name": "string",
+      "trigger": {
+        "type": "string",
+        "value": "string"
+      },
+      "action": {
+        "type": "string",
+        "value": "string"
+      },
+      "enabled": "boolean"
+    },
+    "GlossaryItem": {
+      "id": "string",
+      "term": "string",
+      "definition": "string",
+      "category": "string"
+    }
+  },
+  "settings": {
+    "health": {
+      "hydration_daily_ml_goal": 2500,
+      "sodium_daily_mg_goal": 4000,
+      "remind_hourly": true
+    },
+    "spotify": {
+      "nightly_routine": {
+        "enabled": true,
+        "time_local": "22:30",
+        "device_name": "Kohl's Hub",
+        "playlist_name": "Slumber with the Piano",
+        "start_with_track": "Dimple",
+        "then_shuffle": true
+      }
+    },
+    "aesthetics": {
+      "seasonal_auto_rotate": true,
+      "quarterly_cues": true
+    },
+    "privacy": {
+      "share_emergency_subset": true,
+      "end_to_end_encryption": true
+    }
+  },
+  "seeds": {
+    "user": {
+      "name": "Kol",
+      "pronouns": "they/she",
+      "age": 26,
+      "identities": [
+        "Black",
+        "nonbinary",
+        "bi",
+        "disabled",
+        "neurodivergent"
+      ],
+      "conditions": [
+        "hEDS",
+        "POTS",
+        "CPTSD",
+        "Chronic Pain",
+        "Asthma"
+      ],
+      "preferences": {
+        "no_foods": [
+          "cheese",
+          "boiled eggs",
+          "applesauce",
+          "hummus"
+        ],
+        "cuisine_likes": [
+          "Asian",
+          "Mexican",
+          "Italian",
+          "African",
+          "Soul Food"
+        ],
+        "leftovers_ok": false,
+        "gluten_free_pref": false,
+        "dairy_free_pref": true,
+        "printing_theme": "grayscale_print"
+      }
+    },
+    "partners": [
+      {
+        "id": "quincy",
+        "name": "Quincy",
+        "role": "Partner",
+        "phone": "+1-913-408-8749",
+        "notes": "Primary emergency support, financial/mental health protector"
+      },
+      {
+        "id": "daveon",
+        "name": "Da’Veon",
+        "role": "Partner",
+        "phone": "+1-913-293-6589",
+        "notes": "Medical support, appointment transport, physical backup"
+      }
+    ],
+    "care_contacts": [
+      {
+        "id": "mom",
+        "name": "Linda Jones",
+        "role": "Mom",
+        "organization": "",
+        "phone": "+1-913-219-9470"
+      },
+      {
+        "id": "pcp",
+        "name": "Amanda Sommerville",
+        "role": "Primary Care",
+        "organization": "Truman Medical",
+        "phone": "+1-816-404-4862"
+      },
+      {
+        "id": "cardio",
+        "name": "John Lee",
+        "role": "Cardiology",
+        "organization": "Saint Luke’s",
+        "phone": "+1-816-931-1883"
+      }
+    ],
+    "medications": [
+      {
+        "id": "gabapentin",
+        "name": "Gabapentin",
+        "dose": "300 mg (1 AM, 2 PM)",
+        "schedule": "AM/PM",
+        "indication": "Pain",
+        "notes": "",
+        "requires_meal": false
+      },
+      {
+        "id": "propranolol",
+        "name": "Propranolol",
+        "dose": "per Rx",
+        "schedule": "daily",
+        "indication": "POTS/HR",
+        "notes": "",
+        "requires_meal": false
+      },
+      {
+        "id": "methotrexate",
+        "name": "Methotrexate",
+        "dose": "2.5 mg x5 once weekly",
+        "schedule": "weekly:Mon",
+        "indication": "Arthritis",
+        "notes": "Avoid folic acid on MTX day",
+        "requires_meal": false
+      },
+      {
+        "id": "symbicort",
+        "name": "Symbicort",
+        "dose": "160/4.5 2x/day",
+        "schedule": "AM/PM",
+        "indication": "Asthma",
+        "notes": "",
+        "requires_meal": false
+      },
+      {
+        "id": "albuterol",
+        "name": "Albuterol",
+        "dose": "PRN",
+        "schedule": "prn",
+        "indication": "Asthma rescue",
+        "notes": "",
+        "requires_meal": false
+      },
+      {
+        "id": "ondansetron",
+        "name": "Ondansetron ODT",
+        "dose": "PRN",
+        "schedule": "prn",
+        "indication": "Nausea",
+        "notes": "",
+        "requires_meal": false
+      },
+      {
+        "id": "vitd3",
+        "name": "Vitamin D3",
+        "dose": "per Rx",
+        "schedule": "daily",
+        "indication": "Supplement",
+        "notes": "",
+        "requires_meal": false
+      },
+      {
+        "id": "famotidine",
+        "name": "Famotidine",
+        "dose": "per Rx",
+        "schedule": "daily",
+        "indication": "GI",
+        "notes": "",
+        "requires_meal": false
+      }
+    ],
+    "pt_exercises": [
+      {
+        "id": "sidekick",
+        "name": "Sidekick",
+        "instructions": "Lying on side; pelvis neutral; swing top leg forward/back, avoid back arching.",
+        "reps": 8,
+        "sets": 1,
+        "safety_notes": "Stop if pain spikes"
+      },
+      {
+        "id": "bridge",
+        "name": "Bridge",
+        "instructions": "Squeeze glutes, lift hips, hold 5s.",
+        "reps": 10,
+        "sets": 3,
+        "safety_notes": "Neutral spine"
+      },
+      {
+        "id": "heel_slides",
+        "name": "Heel slides",
+        "instructions": "Slide leg straight and return; pelvis still.",
+        "reps": 20,
+        "sets": 1,
+        "safety_notes": ""
+      }
+    ],
+    "emergency_cards": [
+      {
+        "id": "phone_wallpaper",
+        "title": "Emergency Info",
+        "conditions": [
+          "hEDS",
+          "POTS",
+          "CPTSD",
+          "Chronic Pain",
+          "Neurodivergent",
+          "Trauma history"
+        ],
+        "meds_list": [
+          "Gabapentin",
+          "Propranolol",
+          "Methotrexate",
+          "Symbicort",
+          "Albuterol",
+          "Ondansetron",
+          "Vit D3",
+          "Famotidine"
+        ],
+        "contacts": [
+          {
+            "name": "Quincy",
+            "role": "Partner",
+            "phone": "+1-913-408-8749"
+          },
+          {
+            "name": "Da’Veon",
+            "role": "Partner",
+            "phone": "+1-913-293-6589"
+          },
+          {
+            "name": "Mom",
+            "role": "Backup",
+            "phone": "+1-913-219-9470"
+          }
+        ],
+        "freeze_protocol_steps": [
+          "Speak slowly, stay calm.",
+          "Offer water, remind to breathe.",
+          "Ask YES/NO questions.",
+          "Move to a quiet space if public.",
+          "Call Quincy or Da’Veon.",
+          "If medical: Call 911 + notify contacts."
+        ]
+      }
+    ],
+    "support_handbooks": [
+      {
+        "id": "hb_quincy",
+        "audience": "Quincy",
+        "sections": [
+          {
+            "title": "Emotional Support",
+            "bullets": [
+              "Say: 'We’re in this together' or 'I’m proud of you.'",
+              "Offer grounding: soft words, eye contact, touch."
+            ]
+          },
+          {
+            "title": "Long-Distance & Travel",
+            "bullets": [
+              "Short check-ins while away; share wins; plan rituals before/after trips."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hb_daveon",
+        "audience": "Da’Veon",
+        "sections": [
+          {
+            "title": "Practical & Medical",
+            "bullets": [
+              "Drive to appointments; help ask questions if I freeze.",
+              "Suggest breaks when I push my body too hard."
+            ]
+          }
+        ]
+      }
+    ],
+    "advocacy_scripts": [
+      {
+        "id": "doc_dismiss_calm",
+        "context": "Doctor Visit",
+        "tone": "Calm",
+        "script": "I understand you may not see it, but this is a daily problem and it needs to be documented in my chart."
+      },
+      {
+        "id": "ins_escalate_firm",
+        "context": "Insurance Appeal",
+        "tone": "Firm",
+        "script": "I need this decision explained in writing. Please escalate if you cannot provide it."
+      }
+    ],
+    "daily_tasks": [
+      {
+        "id": "tidy10",
+        "title": "10‑minute tidy",
+        "category": "household",
+        "energy_mode": [
+          "low",
+          "medium"
+        ],
+        "due_rule": "Daily",
+        "assign_to": [],
+        "done": false
+      },
+      {
+        "id": "roomba1",
+        "title": "Empty Roomba",
+        "category": "household",
+        "energy_mode": [
+          "low"
+        ],
+        "due_rule": "Daily 09:30",
+        "assign_to": [],
+        "done": false
+      },
+      {
+        "id": "roomba2",
+        "title": "Empty Roomba (end of day)",
+        "category": "household",
+        "energy_mode": [
+          "low"
+        ],
+        "due_rule": "Daily 21:00",
+        "assign_to": [],
+        "done": false
+      }
+    ],
+    "pet_tasks": [
+      {
+        "id": "dog_walk",
+        "animal": "dog",
+        "task": "Walk / potty",
+        "schedule": "2x/day",
+        "notes": "Watch for dizziness"
+      },
+      {
+        "id": "cat_litter",
+        "animal": "cat",
+        "task": "Scoop litter",
+        "schedule": "Daily",
+        "notes": ""
+      }
+    ],
+    "meals": [
+      {
+        "id": "no_leftovers_rice_bowl",
+        "title": "Ginger Chicken Rice Bowl",
+        "cuisine": [
+          "Asian"
+        ],
+        "gluten_free": true,
+        "dairy_free": true,
+        "ingredients": [
+          "chicken",
+          "ginger",
+          "garlic",
+          "rice",
+          "tamari",
+          "scallions"
+        ],
+        "steps": [
+          "Pan-sear chicken",
+          "Add aromatics",
+          "Steam rice",
+          "Combine & season"
+        ],
+        "substitutions": [
+          {
+            "ingredient": "chicken",
+            "subs": [
+              "tofu"
+            ]
+          }
+        ]
+      }
+    ],
+    "finance_accounts": [
+      {
+        "id": "checking",
+        "name": "Checking",
+        "type": "bank",
+        "balance": 0.0
+      }
+    ],
+    "bills": [
+      {
+        "id": "rent",
+        "name": "Rent",
+        "amount": 0,
+        "due_day": 1,
+        "autopay": false,
+        "category": "housing"
+      }
+    ],
+    "passive_ideas": [
+      {
+        "id": "pi_printables",
+        "title": "Gothic Notion/Planner Printables",
+        "category": [
+          "digital",
+          "design"
+        ],
+        "startup_cost_estimate": 25,
+        "energy_required": "low",
+        "roi_notes": "Etsy + Gumroad"
+      },
+      {
+        "id": "pi_stock_photos",
+        "title": "Goth alt stock photo packs",
+        "category": [
+          "photo",
+          "digital"
+        ],
+        "startup_cost_estimate": 0,
+        "energy_required": "low",
+        "roi_notes": "Capture on good days"
+      }
+    ],
+    "ideas": [
+      {
+        "id": "art_ink_wash",
+        "library": "art",
+        "title": "Monochrome ink-wash portraits",
+        "tags": [
+          "goth",
+          "grayscale"
+        ],
+        "steps": [
+          "Thumbnail",
+          "Ink wash",
+          "Scan",
+          "Share"
+        ]
+      }
+    ],
+    "media": [
+      {
+        "id": "anime_comfort",
+        "type": "anime",
+        "title": "Comfort show rotation",
+        "tags": [
+          "low-spoon"
+        ],
+        "where_to_watch": [
+          "Crunchyroll",
+          "Netflix"
+        ]
+      }
+    ],
+    "boardgames": [
+      {
+        "id": "bg_azul",
+        "name": "Azul",
+        "play_modes": [
+          "solo",
+          "coop"
+        ],
+        "setup_time_min": 5,
+        "weight": "light"
+      }
+    ],
+    "dnd": [
+      {
+        "id": "dnd_solo_prompts",
+        "title": "Solo dungeon prompts",
+        "use_with": [
+          "Free tools"
+        ],
+        "notes": "Cards or tables"
+      }
+    ],
+    "activism": [
+      {
+        "id": "act_mutual_aid",
+        "name": "Neighborhood Mutual Aid",
+        "type": "org",
+        "actions": [
+          "donate",
+          "check-in"
+        ],
+        "impact_notes": "Track hours"
+      }
+    ],
+    "events": [
+      {
+        "id": "evt_poetry_night",
+        "title": "Accessible Poetry Night",
+        "datetime_local": "2025-11-01T19:00:00",
+        "location": "Local Cafe",
+        "virtual": false,
+        "accessibility": [
+          "seating",
+          "quiet corner"
+        ],
+        "energy_cost": "low"
+      }
+    ],
+    "wardrobe": [
+      {
+        "id": "w_top_fishnet",
+        "name": "Black fishnet top",
+        "type": "top",
+        "materials": [
+          "nylon"
+        ],
+        "sensory_safe": true,
+        "tags": [
+          "goth",
+          "layering"
+        ]
+      }
+    ],
+    "outfits": [
+      {
+        "id": "fit_sensory_safe_now",
+        "name": "Sensory Safe Now",
+        "items": [
+          "w_top_fishnet"
+        ],
+        "tags": [
+          "low-spoon",
+          "soft"
+        ]
+      }
+    ],
+    "automations": [
+      {
+        "id": "auto_spotify_2230",
+        "name": "Nightly Spotify Start",
+        "trigger": {
+          "type": "time",
+          "value": "22:30"
+        },
+        "action": {
+          "type": "spotify.playlist",
+          "value": "Slumber with the Piano|Dimple|shuffle"
+        },
+        "enabled": true
+      },
+      {
+        "id": "auto_water_hourly",
+        "name": "Hourly Water Reminder",
+        "trigger": {
+          "type": "interval",
+          "value": "60m"
+        },
+        "action": {
+          "type": "notify",
+          "value": "Sip water + electrolytes"
+        },
+        "enabled": true
+      }
+    ],
+    "glossary": [
+      {
+        "id": "gloss_heds",
+        "term": "hEDS",
+        "definition": "Hypermobile Ehlers-Danlos Syndrome.",
+        "category": "health"
+      },
+      {
+        "id": "gloss_spoon",
+        "term": "Spoon Theory",
+        "definition": "Energy as a finite daily currency.",
+        "category": "disability"
+      }
+    ]
+  }
+}

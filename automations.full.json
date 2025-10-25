@@ -1,0 +1,5866 @@
+{
+  "automations": [
+    {
+      "id": "health-&-body-001",
+      "name": "Health & Body • Hydration #1",
+      "description": "Auto-generated Health & Body automation (Hydration).",
+      "schedule": "*/90 10-22 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • Hydration #1",
+          "message": "Drink water now"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-002",
+      "name": "Health & Body • Sodium Goal #2",
+      "description": "Auto-generated Health & Body automation (Sodium Goal).",
+      "schedule": "5 20 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • Sodium Goal #2",
+          "goal_mg": 4000
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-003",
+      "name": "Health & Body • Vitals Check #3",
+      "description": "Auto-generated Health & Body automation (Vitals Check).",
+      "schedule": "30 21 * * 0",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • Vitals Check #3"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-004",
+      "name": "Health & Body • PT Exercise #4",
+      "description": "Auto-generated Health & Body automation (PT Exercise).",
+      "schedule": "0 13 8 * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • PT Exercise #4"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-005",
+      "name": "Health & Body • Pain Log #5",
+      "description": "Auto-generated Health & Body automation (Pain Log).",
+      "schedule": "*/120 10-22 * * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • Pain Log #5"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-006",
+      "name": "Health & Body • Symptom Report #6",
+      "description": "Auto-generated Health & Body automation (Symptom Report).",
+      "schedule": "*/90 10-22 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • Symptom Report #6"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-007",
+      "name": "Health & Body • Medication Check #7",
+      "description": "Auto-generated Health & Body automation (Medication Check).",
+      "schedule": "0 21 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • Medication Check #7"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-008",
+      "name": "Health & Body • Refill Audit #8",
+      "description": "Auto-generated Health & Body automation (Refill Audit).",
+      "schedule": "50 20 * * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • Refill Audit #8"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-009",
+      "name": "Health & Body • Rest Mode #9",
+      "description": "Auto-generated Health & Body automation (Rest Mode).",
+      "schedule": "5 18 * * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • Rest Mode #9"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-010",
+      "name": "Health & Body • O2 Check #10",
+      "description": "Auto-generated Health & Body automation (O2 Check).",
+      "schedule": "0 16 * * 4",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • O2 Check #10"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-011",
+      "name": "Health & Body • BP Guard #11",
+      "description": "Auto-generated Health & Body automation (BP Guard).",
+      "schedule": "*/90 10-22 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • BP Guard #11"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-012",
+      "name": "Health & Body • Snack Salt #12",
+      "description": "Auto-generated Health & Body automation (Snack Salt).",
+      "schedule": "*/120 10-22 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • Snack Salt #12"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-013",
+      "name": "Health & Body • Cold Pack #13",
+      "description": "Auto-generated Health & Body automation (Cold Pack).",
+      "schedule": "0 10 * * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • Cold Pack #13"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-014",
+      "name": "Health & Body • Cooling Fan #14",
+      "description": "Auto-generated Health & Body automation (Cooling Fan).",
+      "schedule": "10 13 * * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • Cooling Fan #14"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-015",
+      "name": "Health & Body • Body Scan #15",
+      "description": "Auto-generated Health & Body automation (Body Scan).",
+      "schedule": "40 18 * * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • Body Scan #15"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-016",
+      "name": "Health & Body • Stretch #16",
+      "description": "Auto-generated Health & Body automation (Stretch).",
+      "schedule": "*/90 10-22 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • Stretch #16"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-017",
+      "name": "Health & Body • Breathe #17",
+      "description": "Auto-generated Health & Body automation (Breathe).",
+      "schedule": "15 18 * * 0",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • Breathe #17"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-018",
+      "name": "Health & Body • Electrolytes #18",
+      "description": "Auto-generated Health & Body automation (Electrolytes).",
+      "schedule": "40 20 23 * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • Electrolytes #18"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-019",
+      "name": "Health & Body • Sleep Note #19",
+      "description": "Auto-generated Health & Body automation (Sleep Note).",
+      "schedule": "*/120 10-22 * * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • Sleep Note #19"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-020",
+      "name": "Health & Body • Side Effects #20",
+      "description": "Auto-generated Health & Body automation (Side Effects).",
+      "schedule": "30 18 * * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • Side Effects #20"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-021",
+      "name": "Health & Body • Hydration #21",
+      "description": "Auto-generated Health & Body automation (Hydration).",
+      "schedule": "*/90 10-22 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • Hydration #21",
+          "message": "Drink water now"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-022",
+      "name": "Health & Body • Sodium Goal #22",
+      "description": "Auto-generated Health & Body automation (Sodium Goal).",
+      "schedule": "30 13 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • Sodium Goal #22",
+          "goal_mg": 4000
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-023",
+      "name": "Health & Body • Vitals Check #23",
+      "description": "Auto-generated Health & Body automation (Vitals Check).",
+      "schedule": "20 19 * * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • Vitals Check #23"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-024",
+      "name": "Health & Body • PT Exercise #24",
+      "description": "Auto-generated Health & Body automation (PT Exercise).",
+      "schedule": "15 10 * * 6",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • PT Exercise #24"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-025",
+      "name": "Health & Body • Pain Log #25",
+      "description": "Auto-generated Health & Body automation (Pain Log).",
+      "schedule": "20 16 23 * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • Pain Log #25"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-026",
+      "name": "Health & Body • Symptom Report #26",
+      "description": "Auto-generated Health & Body automation (Symptom Report).",
+      "schedule": "*/90 10-22 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • Symptom Report #26"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-027",
+      "name": "Health & Body • Medication Check #27",
+      "description": "Auto-generated Health & Body automation (Medication Check).",
+      "schedule": "10 14 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • Medication Check #27"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-028",
+      "name": "Health & Body • Refill Audit #28",
+      "description": "Auto-generated Health & Body automation (Refill Audit).",
+      "schedule": "20 13 * * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • Refill Audit #28"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-029",
+      "name": "Health & Body • Rest Mode #29",
+      "description": "Auto-generated Health & Body automation (Rest Mode).",
+      "schedule": "0 11 * * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • Rest Mode #29"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-030",
+      "name": "Health & Body • O2 Check #30",
+      "description": "Auto-generated Health & Body automation (O2 Check).",
+      "schedule": "5 16 * * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • O2 Check #30"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-031",
+      "name": "Health & Body • BP Guard #31",
+      "description": "Auto-generated Health & Body automation (BP Guard).",
+      "schedule": "*/90 10-22 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • BP Guard #31"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-032",
+      "name": "Health & Body • Snack Salt #32",
+      "description": "Auto-generated Health & Body automation (Snack Salt).",
+      "schedule": "40 15 12 * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • Snack Salt #32"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-033",
+      "name": "Health & Body • Cold Pack #33",
+      "description": "Auto-generated Health & Body automation (Cold Pack).",
+      "schedule": "*/120 10-22 * * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • Cold Pack #33"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-034",
+      "name": "Health & Body • Cooling Fan #34",
+      "description": "Auto-generated Health & Body automation (Cooling Fan).",
+      "schedule": "0 14 * * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • Cooling Fan #34"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-035",
+      "name": "Health & Body • Body Scan #35",
+      "description": "Auto-generated Health & Body automation (Body Scan).",
+      "schedule": "30 21 * * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • Body Scan #35"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-036",
+      "name": "Health & Body • Stretch #36",
+      "description": "Auto-generated Health & Body automation (Stretch).",
+      "schedule": "*/90 10-22 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • Stretch #36"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-037",
+      "name": "Health & Body • Breathe #37",
+      "description": "Auto-generated Health & Body automation (Breathe).",
+      "schedule": "5 18 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • Breathe #37"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-038",
+      "name": "Health & Body • Electrolytes #38",
+      "description": "Auto-generated Health & Body automation (Electrolytes).",
+      "schedule": "30 11 * * 3",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • Electrolytes #38"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-039",
+      "name": "Health & Body • Sleep Note #39",
+      "description": "Auto-generated Health & Body automation (Sleep Note).",
+      "schedule": "40 20 27 * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • Sleep Note #39"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "health-&-body-040",
+      "name": "Health & Body • Side Effects #40",
+      "description": "Auto-generated Health & Body automation (Side Effects).",
+      "schedule": "*/120 10-22 * * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Health & Body",
+          "title": "Health & Body • Side Effects #40"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-041",
+      "name": "Caregivers & Partners • Partner Check-in #1",
+      "description": "Auto-generated Caregivers & Partners automation (Partner Check-in).",
+      "schedule": "40 14 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Partner Check-in #1"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-042",
+      "name": "Caregivers & Partners • Care Summary #2",
+      "description": "Auto-generated Caregivers & Partners automation (Care Summary).",
+      "schedule": "5 12 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Care Summary #2"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-043",
+      "name": "Caregivers & Partners • Grocery Ping #3",
+      "description": "Auto-generated Caregivers & Partners automation (Grocery Ping).",
+      "schedule": "15 19 * * 0",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Grocery Ping #3"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-044",
+      "name": "Caregivers & Partners • Ride Offer #4",
+      "description": "Auto-generated Caregivers & Partners automation (Ride Offer).",
+      "schedule": "0 13 25 * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Ride Offer #4"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-045",
+      "name": "Caregivers & Partners • Errand Help #5",
+      "description": "Auto-generated Caregivers & Partners automation (Errand Help).",
+      "schedule": "*/120 9-21 * * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Errand Help #5"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-046",
+      "name": "Caregivers & Partners • Appointment Buddy #6",
+      "description": "Auto-generated Caregivers & Partners automation (Appointment Buddy).",
+      "schedule": "0 12 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Appointment Buddy #6"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-047",
+      "name": "Caregivers & Partners • Energy Share #7",
+      "description": "Auto-generated Caregivers & Partners automation (Energy Share).",
+      "schedule": "20 15 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Energy Share #7"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-048",
+      "name": "Caregivers & Partners • Weekly Plan #8",
+      "description": "Auto-generated Caregivers & Partners automation (Weekly Plan).",
+      "schedule": "50 16 * * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Weekly Plan #8"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-049",
+      "name": "Caregivers & Partners • Kit Refill #9",
+      "description": "Auto-generated Caregivers & Partners automation (Kit Refill).",
+      "schedule": "10 14 * * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Kit Refill #9"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-050",
+      "name": "Caregivers & Partners • Pet Support #10",
+      "description": "Auto-generated Caregivers & Partners automation (Pet Support).",
+      "schedule": "15 14 * * 2",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Pet Support #10"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-051",
+      "name": "Caregivers & Partners • Meal Plan #11",
+      "description": "Auto-generated Caregivers & Partners automation (Meal Plan).",
+      "schedule": "40 13 22 * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Meal Plan #11"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-052",
+      "name": "Caregivers & Partners • Medication Buddy #12",
+      "description": "Auto-generated Caregivers & Partners automation (Medication Buddy).",
+      "schedule": "*/120 9-21 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Medication Buddy #12"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-053",
+      "name": "Caregivers & Partners • Affirmation #13",
+      "description": "Auto-generated Caregivers & Partners automation (Affirmation).",
+      "schedule": "50 19 * * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Affirmation #13"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-054",
+      "name": "Caregivers & Partners • Safety Text #14",
+      "description": "Auto-generated Caregivers & Partners automation (Safety Text).",
+      "schedule": "40 10 * * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Safety Text #14"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-055",
+      "name": "Caregivers & Partners • Quiet Zone #15",
+      "description": "Auto-generated Caregivers & Partners automation (Quiet Zone).",
+      "schedule": "10 19 * * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Quiet Zone #15"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-056",
+      "name": "Caregivers & Partners • Pacing Prompt #16",
+      "description": "Auto-generated Caregivers & Partners automation (Pacing Prompt).",
+      "schedule": "15 17 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Pacing Prompt #16"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-057",
+      "name": "Caregivers & Partners • Gratitude Note #17",
+      "description": "Auto-generated Caregivers & Partners automation (Gratitude Note).",
+      "schedule": "45 16 * * 1",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Gratitude Note #17"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-058",
+      "name": "Caregivers & Partners • Wins Recap #18",
+      "description": "Auto-generated Caregivers & Partners automation (Wins Recap).",
+      "schedule": "40 19 9 * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Wins Recap #18"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-059",
+      "name": "Caregivers & Partners • Rotation Check #19",
+      "description": "Auto-generated Caregivers & Partners automation (Rotation Check).",
+      "schedule": "*/120 9-21 * * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Rotation Check #19"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-060",
+      "name": "Caregivers & Partners • Calendar Sync #20",
+      "description": "Auto-generated Caregivers & Partners automation (Calendar Sync).",
+      "schedule": "10 17 * * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Calendar Sync #20"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-061",
+      "name": "Caregivers & Partners • Partner Check-in #21",
+      "description": "Auto-generated Caregivers & Partners automation (Partner Check-in).",
+      "schedule": "20 19 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Partner Check-in #21"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-062",
+      "name": "Caregivers & Partners • Care Summary #22",
+      "description": "Auto-generated Caregivers & Partners automation (Care Summary).",
+      "schedule": "0 21 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Care Summary #22"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-063",
+      "name": "Caregivers & Partners • Grocery Ping #23",
+      "description": "Auto-generated Caregivers & Partners automation (Grocery Ping).",
+      "schedule": "0 12 * * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Grocery Ping #23"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-064",
+      "name": "Caregivers & Partners • Ride Offer #24",
+      "description": "Auto-generated Caregivers & Partners automation (Ride Offer).",
+      "schedule": "45 14 * * 6",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Ride Offer #24"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-065",
+      "name": "Caregivers & Partners • Errand Help #25",
+      "description": "Auto-generated Caregivers & Partners automation (Errand Help).",
+      "schedule": "0 10 9 * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Errand Help #25"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-066",
+      "name": "Caregivers & Partners • Appointment Buddy #26",
+      "description": "Auto-generated Caregivers & Partners automation (Appointment Buddy).",
+      "schedule": "*/120 9-21 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Appointment Buddy #26"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-067",
+      "name": "Caregivers & Partners • Energy Share #27",
+      "description": "Auto-generated Caregivers & Partners automation (Energy Share).",
+      "schedule": "50 18 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Energy Share #27"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-068",
+      "name": "Caregivers & Partners • Weekly Plan #28",
+      "description": "Auto-generated Caregivers & Partners automation (Weekly Plan).",
+      "schedule": "10 14 * * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Weekly Plan #28"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-069",
+      "name": "Caregivers & Partners • Kit Refill #29",
+      "description": "Auto-generated Caregivers & Partners automation (Kit Refill).",
+      "schedule": "30 19 * * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Kit Refill #29"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-070",
+      "name": "Caregivers & Partners • Pet Support #30",
+      "description": "Auto-generated Caregivers & Partners automation (Pet Support).",
+      "schedule": "50 15 * * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Pet Support #30"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-071",
+      "name": "Caregivers & Partners • Meal Plan #31",
+      "description": "Auto-generated Caregivers & Partners automation (Meal Plan).",
+      "schedule": "15 13 * * 1",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Meal Plan #31"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-072",
+      "name": "Caregivers & Partners • Medication Buddy #32",
+      "description": "Auto-generated Caregivers & Partners automation (Medication Buddy).",
+      "schedule": "40 20 8 * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Medication Buddy #32"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-073",
+      "name": "Caregivers & Partners • Affirmation #33",
+      "description": "Auto-generated Caregivers & Partners automation (Affirmation).",
+      "schedule": "*/120 9-21 * * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Affirmation #33"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-074",
+      "name": "Caregivers & Partners • Safety Text #34",
+      "description": "Auto-generated Caregivers & Partners automation (Safety Text).",
+      "schedule": "20 17 * * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Safety Text #34"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-075",
+      "name": "Caregivers & Partners • Quiet Zone #35",
+      "description": "Auto-generated Caregivers & Partners automation (Quiet Zone).",
+      "schedule": "40 20 * * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Quiet Zone #35"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-076",
+      "name": "Caregivers & Partners • Pacing Prompt #36",
+      "description": "Auto-generated Caregivers & Partners automation (Pacing Prompt).",
+      "schedule": "40 15 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Pacing Prompt #36"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-077",
+      "name": "Caregivers & Partners • Gratitude Note #37",
+      "description": "Auto-generated Caregivers & Partners automation (Gratitude Note).",
+      "schedule": "30 15 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Gratitude Note #37"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-078",
+      "name": "Caregivers & Partners • Wins Recap #38",
+      "description": "Auto-generated Caregivers & Partners automation (Wins Recap).",
+      "schedule": "45 11 * * 1",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Wins Recap #38"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-079",
+      "name": "Caregivers & Partners • Rotation Check #39",
+      "description": "Auto-generated Caregivers & Partners automation (Rotation Check).",
+      "schedule": "0 21 3 * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Rotation Check #39"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "caregivers-&-partners-080",
+      "name": "Caregivers & Partners • Calendar Sync #40",
+      "description": "Auto-generated Caregivers & Partners automation (Calendar Sync).",
+      "schedule": "*/120 9-21 * * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Caregivers & Partners",
+          "title": "Caregivers & Partners • Calendar Sync #40"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 21
+        }
+      }
+    },
+    {
+      "id": "mental-health-081",
+      "name": "Mental Health • Grounding #1",
+      "description": "Auto-generated Mental Health automation (Grounding).",
+      "schedule": "*/90 9-22 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Grounding #1"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-082",
+      "name": "Mental Health • Affirmation #2",
+      "description": "Auto-generated Mental Health automation (Affirmation).",
+      "schedule": "5 22 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Affirmation #2"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-083",
+      "name": "Mental Health • Calm Mode #3",
+      "description": "Auto-generated Mental Health automation (Calm Mode).",
+      "schedule": "15 19 * * 1",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Calm Mode #3"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-084",
+      "name": "Mental Health • Breathing #4",
+      "description": "Auto-generated Mental Health automation (Breathing).",
+      "schedule": "20 19 26 * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Breathing #4"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-085",
+      "name": "Mental Health • Journal #5",
+      "description": "Auto-generated Mental Health automation (Journal).",
+      "schedule": "*/120 9-22 * * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Journal #5"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-086",
+      "name": "Mental Health • Gratitude #6",
+      "description": "Auto-generated Mental Health automation (Gratitude).",
+      "schedule": "*/90 9-22 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Gratitude #6"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-087",
+      "name": "Mental Health • Therapy Prep #7",
+      "description": "Auto-generated Mental Health automation (Therapy Prep).",
+      "schedule": "0 18 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Therapy Prep #7"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-088",
+      "name": "Mental Health • Meltdown Guide #8",
+      "description": "Auto-generated Mental Health automation (Meltdown Guide).",
+      "schedule": "30 15 * * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Meltdown Guide #8"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-089",
+      "name": "Mental Health • Panic Support #9",
+      "description": "Auto-generated Mental Health automation (Panic Support).",
+      "schedule": "50 18 * * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Panic Support #9"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-090",
+      "name": "Mental Health • Sensory Reset #10",
+      "description": "Auto-generated Mental Health automation (Sensory Reset).",
+      "schedule": "0 13 * * 4",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Sensory Reset #10"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-091",
+      "name": "Mental Health • Compassion Note #11",
+      "description": "Auto-generated Mental Health automation (Compassion Note).",
+      "schedule": "*/90 9-22 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Compassion Note #11"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-092",
+      "name": "Mental Health • Mood Log #12",
+      "description": "Auto-generated Mental Health automation (Mood Log).",
+      "schedule": "*/120 9-22 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Mood Log #12",
+          "scale": "Sunny/Cloudy/Stormy"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-093",
+      "name": "Mental Health • Safety Plan #13",
+      "description": "Auto-generated Mental Health automation (Safety Plan).",
+      "schedule": "50 19 * * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Safety Plan #13"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-094",
+      "name": "Mental Health • Mantra #14",
+      "description": "Auto-generated Mental Health automation (Mantra).",
+      "schedule": "50 10 * * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Mantra #14"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-095",
+      "name": "Mental Health • Rest Permission #15",
+      "description": "Auto-generated Mental Health automation (Rest Permission).",
+      "schedule": "20 17 * * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Rest Permission #15"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-096",
+      "name": "Mental Health • Good Thing #16",
+      "description": "Auto-generated Mental Health automation (Good Thing).",
+      "schedule": "*/90 9-22 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Good Thing #16"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-097",
+      "name": "Mental Health • Body Weather #17",
+      "description": "Auto-generated Mental Health automation (Body Weather).",
+      "schedule": "30 19 * * 6",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Body Weather #17",
+          "scale": "Sunny/Cloudy/Stormy"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-098",
+      "name": "Mental Health • RSD Soother #18",
+      "description": "Auto-generated Mental Health automation (RSD Soother).",
+      "schedule": "20 13 4 * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • RSD Soother #18"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-099",
+      "name": "Mental Health • Noise Shield #19",
+      "description": "Auto-generated Mental Health automation (Noise Shield).",
+      "schedule": "*/120 9-22 * * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Noise Shield #19"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-100",
+      "name": "Mental Health • Joy Ping #20",
+      "description": "Auto-generated Mental Health automation (Joy Ping).",
+      "schedule": "30 11 * * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Joy Ping #20"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-101",
+      "name": "Mental Health • Grounding #21",
+      "description": "Auto-generated Mental Health automation (Grounding).",
+      "schedule": "*/90 9-22 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Grounding #21"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-102",
+      "name": "Mental Health • Affirmation #22",
+      "description": "Auto-generated Mental Health automation (Affirmation).",
+      "schedule": "50 9 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Affirmation #22"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-103",
+      "name": "Mental Health • Calm Mode #23",
+      "description": "Auto-generated Mental Health automation (Calm Mode).",
+      "schedule": "20 20 * * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Calm Mode #23"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-104",
+      "name": "Mental Health • Breathing #24",
+      "description": "Auto-generated Mental Health automation (Breathing).",
+      "schedule": "15 21 * * 4",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Breathing #24"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-105",
+      "name": "Mental Health • Journal #25",
+      "description": "Auto-generated Mental Health automation (Journal).",
+      "schedule": "40 10 17 * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Journal #25"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-106",
+      "name": "Mental Health • Gratitude #26",
+      "description": "Auto-generated Mental Health automation (Gratitude).",
+      "schedule": "*/90 9-22 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Gratitude #26"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-107",
+      "name": "Mental Health • Therapy Prep #27",
+      "description": "Auto-generated Mental Health automation (Therapy Prep).",
+      "schedule": "50 13 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Therapy Prep #27"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-108",
+      "name": "Mental Health • Meltdown Guide #28",
+      "description": "Auto-generated Mental Health automation (Meltdown Guide).",
+      "schedule": "40 17 * * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Meltdown Guide #28"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-109",
+      "name": "Mental Health • Panic Support #29",
+      "description": "Auto-generated Mental Health automation (Panic Support).",
+      "schedule": "10 12 * * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Panic Support #29"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-110",
+      "name": "Mental Health • Sensory Reset #30",
+      "description": "Auto-generated Mental Health automation (Sensory Reset).",
+      "schedule": "10 14 * * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Sensory Reset #30"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-111",
+      "name": "Mental Health • Compassion Note #31",
+      "description": "Auto-generated Mental Health automation (Compassion Note).",
+      "schedule": "*/90 9-22 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Compassion Note #31"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-112",
+      "name": "Mental Health • Mood Log #32",
+      "description": "Auto-generated Mental Health automation (Mood Log).",
+      "schedule": "40 21 18 * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Mood Log #32",
+          "scale": "Sunny/Cloudy/Stormy"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-113",
+      "name": "Mental Health • Safety Plan #33",
+      "description": "Auto-generated Mental Health automation (Safety Plan).",
+      "schedule": "*/120 9-22 * * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Safety Plan #33"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-114",
+      "name": "Mental Health • Mantra #34",
+      "description": "Auto-generated Mental Health automation (Mantra).",
+      "schedule": "40 9 * * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Mantra #34"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-115",
+      "name": "Mental Health • Rest Permission #35",
+      "description": "Auto-generated Mental Health automation (Rest Permission).",
+      "schedule": "30 14 * * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Rest Permission #35"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-116",
+      "name": "Mental Health • Good Thing #36",
+      "description": "Auto-generated Mental Health automation (Good Thing).",
+      "schedule": "*/90 9-22 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Good Thing #36"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-117",
+      "name": "Mental Health • Body Weather #37",
+      "description": "Auto-generated Mental Health automation (Body Weather).",
+      "schedule": "5 9 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Body Weather #37",
+          "scale": "Sunny/Cloudy/Stormy"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-118",
+      "name": "Mental Health • RSD Soother #38",
+      "description": "Auto-generated Mental Health automation (RSD Soother).",
+      "schedule": "30 22 * * 2",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • RSD Soother #38"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-119",
+      "name": "Mental Health • Noise Shield #39",
+      "description": "Auto-generated Mental Health automation (Noise Shield).",
+      "schedule": "0 9 8 * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Noise Shield #39"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "mental-health-120",
+      "name": "Mental Health • Joy Ping #40",
+      "description": "Auto-generated Mental Health automation (Joy Ping).",
+      "schedule": "*/120 9-22 * * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Mental Health",
+          "title": "Mental Health • Joy Ping #40"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-121",
+      "name": "Home & Accessibility • Roomba #1",
+      "description": "Auto-generated Home & Accessibility automation (Roomba).",
+      "schedule": "0 18 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Roomba #1",
+          "device": "roomba"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-122",
+      "name": "Home & Accessibility • Brita Refill #2",
+      "description": "Auto-generated Home & Accessibility automation (Brita Refill).",
+      "schedule": "50 10 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Brita Refill #2"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-123",
+      "name": "Home & Accessibility • Temperature #3",
+      "description": "Auto-generated Home & Accessibility automation (Temperature).",
+      "schedule": "15 10 * * 6",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Temperature #3"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-124",
+      "name": "Home & Accessibility • Lighting #4",
+      "description": "Auto-generated Home & Accessibility automation (Lighting).",
+      "schedule": "20 19 5 * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Lighting #4"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-125",
+      "name": "Home & Accessibility • Fridge Clean #5",
+      "description": "Auto-generated Home & Accessibility automation (Fridge Clean).",
+      "schedule": "*/120 9-20 * * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Fridge Clean #5"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-126",
+      "name": "Home & Accessibility • Laundry #6",
+      "description": "Auto-generated Home & Accessibility automation (Laundry).",
+      "schedule": "10 17 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Laundry #6"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-127",
+      "name": "Home & Accessibility • Bathroom Clean #7",
+      "description": "Auto-generated Home & Accessibility automation (Bathroom Clean).",
+      "schedule": "40 13 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Bathroom Clean #7"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-128",
+      "name": "Home & Accessibility • Grocery List #8",
+      "description": "Auto-generated Home & Accessibility automation (Grocery List).",
+      "schedule": "30 18 * * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Grocery List #8"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-129",
+      "name": "Home & Accessibility • Pantry Audit #9",
+      "description": "Auto-generated Home & Accessibility automation (Pantry Audit).",
+      "schedule": "15 12 * * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Pantry Audit #9"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-130",
+      "name": "Home & Accessibility • Pet Feed #10",
+      "description": "Auto-generated Home & Accessibility automation (Pet Feed).",
+      "schedule": "45 13 * * 5",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Pet Feed #10"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-131",
+      "name": "Home & Accessibility • Dishwasher #11",
+      "description": "Auto-generated Home & Accessibility automation (Dishwasher).",
+      "schedule": "20 19 22 * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Dishwasher #11"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-132",
+      "name": "Home & Accessibility • Steam Mop #12",
+      "description": "Auto-generated Home & Accessibility automation (Steam Mop).",
+      "schedule": "*/120 9-20 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Steam Mop #12"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-133",
+      "name": "Home & Accessibility • Trash Day #13",
+      "description": "Auto-generated Home & Accessibility automation (Trash Day).",
+      "schedule": "40 16 * * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Trash Day #13"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-134",
+      "name": "Home & Accessibility • Diffuser #14",
+      "description": "Auto-generated Home & Accessibility automation (Diffuser).",
+      "schedule": "0 16 * * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Diffuser #14"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-135",
+      "name": "Home & Accessibility • Sanitize Bottles #15",
+      "description": "Auto-generated Home & Accessibility automation (Sanitize Bottles).",
+      "schedule": "10 12 * * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Sanitize Bottles #15"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-136",
+      "name": "Home & Accessibility • Declutter #16",
+      "description": "Auto-generated Home & Accessibility automation (Declutter).",
+      "schedule": "30 10 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Declutter #16"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-137",
+      "name": "Home & Accessibility • Accessible Setup #17",
+      "description": "Auto-generated Home & Accessibility automation (Accessible Setup).",
+      "schedule": "15 18 * * 0",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Accessible Setup #17"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-138",
+      "name": "Home & Accessibility • Visitor Mode #18",
+      "description": "Auto-generated Home & Accessibility automation (Visitor Mode).",
+      "schedule": "0 12 19 * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Visitor Mode #18"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-139",
+      "name": "Home & Accessibility • Supplies Order #19",
+      "description": "Auto-generated Home & Accessibility automation (Supplies Order).",
+      "schedule": "*/120 9-20 * * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Supplies Order #19"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-140",
+      "name": "Home & Accessibility • Energy Rest Timer #20",
+      "description": "Auto-generated Home & Accessibility automation (Energy Rest Timer).",
+      "schedule": "50 10 * * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Energy Rest Timer #20"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-141",
+      "name": "Home & Accessibility • Roomba #21",
+      "description": "Auto-generated Home & Accessibility automation (Roomba).",
+      "schedule": "0 19 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Roomba #21",
+          "device": "roomba"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-142",
+      "name": "Home & Accessibility • Brita Refill #22",
+      "description": "Auto-generated Home & Accessibility automation (Brita Refill).",
+      "schedule": "0 12 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Brita Refill #22"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-143",
+      "name": "Home & Accessibility • Temperature #23",
+      "description": "Auto-generated Home & Accessibility automation (Temperature).",
+      "schedule": "30 9 * * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Temperature #23"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-144",
+      "name": "Home & Accessibility • Lighting #24",
+      "description": "Auto-generated Home & Accessibility automation (Lighting).",
+      "schedule": "15 17 * * 0",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Lighting #24"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-145",
+      "name": "Home & Accessibility • Fridge Clean #25",
+      "description": "Auto-generated Home & Accessibility automation (Fridge Clean).",
+      "schedule": "20 19 9 * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Fridge Clean #25"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-146",
+      "name": "Home & Accessibility • Laundry #26",
+      "description": "Auto-generated Home & Accessibility automation (Laundry).",
+      "schedule": "*/120 9-20 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Laundry #26"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-147",
+      "name": "Home & Accessibility • Bathroom Clean #27",
+      "description": "Auto-generated Home & Accessibility automation (Bathroom Clean).",
+      "schedule": "40 12 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Bathroom Clean #27"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-148",
+      "name": "Home & Accessibility • Grocery List #28",
+      "description": "Auto-generated Home & Accessibility automation (Grocery List).",
+      "schedule": "50 11 * * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Grocery List #28"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-149",
+      "name": "Home & Accessibility • Pantry Audit #29",
+      "description": "Auto-generated Home & Accessibility automation (Pantry Audit).",
+      "schedule": "40 18 * * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Pantry Audit #29"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-150",
+      "name": "Home & Accessibility • Pet Feed #30",
+      "description": "Auto-generated Home & Accessibility automation (Pet Feed).",
+      "schedule": "15 16 * * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Pet Feed #30"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-151",
+      "name": "Home & Accessibility • Dishwasher #31",
+      "description": "Auto-generated Home & Accessibility automation (Dishwasher).",
+      "schedule": "45 16 * * 6",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Dishwasher #31"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-152",
+      "name": "Home & Accessibility • Steam Mop #32",
+      "description": "Auto-generated Home & Accessibility automation (Steam Mop).",
+      "schedule": "0 10 7 * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Steam Mop #32"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-153",
+      "name": "Home & Accessibility • Trash Day #33",
+      "description": "Auto-generated Home & Accessibility automation (Trash Day).",
+      "schedule": "*/120 9-20 * * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Trash Day #33"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-154",
+      "name": "Home & Accessibility • Diffuser #34",
+      "description": "Auto-generated Home & Accessibility automation (Diffuser).",
+      "schedule": "30 19 * * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Diffuser #34"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-155",
+      "name": "Home & Accessibility • Sanitize Bottles #35",
+      "description": "Auto-generated Home & Accessibility automation (Sanitize Bottles).",
+      "schedule": "30 14 * * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Sanitize Bottles #35"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-156",
+      "name": "Home & Accessibility • Declutter #36",
+      "description": "Auto-generated Home & Accessibility automation (Declutter).",
+      "schedule": "30 15 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Declutter #36"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-157",
+      "name": "Home & Accessibility • Accessible Setup #37",
+      "description": "Auto-generated Home & Accessibility automation (Accessible Setup).",
+      "schedule": "0 20 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Accessible Setup #37"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-158",
+      "name": "Home & Accessibility • Visitor Mode #38",
+      "description": "Auto-generated Home & Accessibility automation (Visitor Mode).",
+      "schedule": "0 19 * * 5",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Visitor Mode #38"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-159",
+      "name": "Home & Accessibility • Supplies Order #39",
+      "description": "Auto-generated Home & Accessibility automation (Supplies Order).",
+      "schedule": "40 15 2 * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Supplies Order #39"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "home-&-accessibility-160",
+      "name": "Home & Accessibility • Energy Rest Timer #40",
+      "description": "Auto-generated Home & Accessibility automation (Energy Rest Timer).",
+      "schedule": "*/120 9-20 * * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Home & Accessibility",
+          "title": "Home & Accessibility • Energy Rest Timer #40"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 20
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-161",
+      "name": "Relationships & Communication • Love Text #1",
+      "description": "Auto-generated Relationships & Communication automation (Love Text).",
+      "schedule": "0 14 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • Love Text #1"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-162",
+      "name": "Relationships & Communication • Emoji Check #2",
+      "description": "Auto-generated Relationships & Communication automation (Emoji Check).",
+      "schedule": "15 12 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • Emoji Check #2"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-163",
+      "name": "Relationships & Communication • Date Idea #3",
+      "description": "Auto-generated Relationships & Communication automation (Date Idea).",
+      "schedule": "45 17 * * 1",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • Date Idea #3"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-164",
+      "name": "Relationships & Communication • Pet Photo #4",
+      "description": "Auto-generated Relationships & Communication automation (Pet Photo).",
+      "schedule": "0 15 5 * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • Pet Photo #4"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-165",
+      "name": "Relationships & Communication • Video Call #5",
+      "description": "Auto-generated Relationships & Communication automation (Video Call).",
+      "schedule": "*/120 9-22 * * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • Video Call #5"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-166",
+      "name": "Relationships & Communication • Cuddle Time #6",
+      "description": "Auto-generated Relationships & Communication automation (Cuddle Time).",
+      "schedule": "30 13 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • Cuddle Time #6"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-167",
+      "name": "Relationships & Communication • Memory Prompt #7",
+      "description": "Auto-generated Relationships & Communication automation (Memory Prompt).",
+      "schedule": "0 12 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • Memory Prompt #7"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-168",
+      "name": "Relationships & Communication • Playlist Update #8",
+      "description": "Auto-generated Relationships & Communication automation (Playlist Update).",
+      "schedule": "40 16 * * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • Playlist Update #8"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-169",
+      "name": "Relationships & Communication • Appreciation #9",
+      "description": "Auto-generated Relationships & Communication automation (Appreciation).",
+      "schedule": "0 10 * * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • Appreciation #9"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-170",
+      "name": "Relationships & Communication • AM Body Weather #10",
+      "description": "Auto-generated Relationships & Communication automation (AM Body Weather).",
+      "schedule": "0 17 * * 5",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • AM Body Weather #10",
+          "scale": "Sunny/Cloudy/Stormy"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-171",
+      "name": "Relationships & Communication • PM Heart Check #11",
+      "description": "Auto-generated Relationships & Communication automation (PM Heart Check).",
+      "schedule": "0 21 3 * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • PM Heart Check #11"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-172",
+      "name": "Relationships & Communication • Quiet Together #12",
+      "description": "Auto-generated Relationships & Communication automation (Quiet Together).",
+      "schedule": "*/120 9-22 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • Quiet Together #12"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-173",
+      "name": "Relationships & Communication • Affection Note #13",
+      "description": "Auto-generated Relationships & Communication automation (Affection Note).",
+      "schedule": "30 11 * * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • Affection Note #13"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-174",
+      "name": "Relationships & Communication • Ritual Reminder #14",
+      "description": "Auto-generated Relationships & Communication automation (Ritual Reminder).",
+      "schedule": "30 16 * * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • Ritual Reminder #14"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-175",
+      "name": "Relationships & Communication • Anniversary Prep #15",
+      "description": "Auto-generated Relationships & Communication automation (Anniversary Prep).",
+      "schedule": "30 12 * * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • Anniversary Prep #15"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-176",
+      "name": "Relationships & Communication • Birthday Cue #16",
+      "description": "Auto-generated Relationships & Communication automation (Birthday Cue).",
+      "schedule": "10 9 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • Birthday Cue #16"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-177",
+      "name": "Relationships & Communication • Weekly Reflection #17",
+      "description": "Auto-generated Relationships & Communication automation (Weekly Reflection).",
+      "schedule": "45 9 * * 3",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • Weekly Reflection #17"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-178",
+      "name": "Relationships & Communication • Affirmation Archive #18",
+      "description": "Auto-generated Relationships & Communication automation (Affirmation Archive).",
+      "schedule": "20 21 9 * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • Affirmation Archive #18"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-179",
+      "name": "Relationships & Communication • Gratitude Sunday #19",
+      "description": "Auto-generated Relationships & Communication automation (Gratitude Sunday).",
+      "schedule": "*/120 9-22 * * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • Gratitude Sunday #19"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-180",
+      "name": "Relationships & Communication • Fun Plan #20",
+      "description": "Auto-generated Relationships & Communication automation (Fun Plan).",
+      "schedule": "30 13 * * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • Fun Plan #20"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-181",
+      "name": "Relationships & Communication • Love Text #21",
+      "description": "Auto-generated Relationships & Communication automation (Love Text).",
+      "schedule": "50 20 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • Love Text #21"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-182",
+      "name": "Relationships & Communication • Emoji Check #22",
+      "description": "Auto-generated Relationships & Communication automation (Emoji Check).",
+      "schedule": "40 21 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • Emoji Check #22"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-183",
+      "name": "Relationships & Communication • Date Idea #23",
+      "description": "Auto-generated Relationships & Communication automation (Date Idea).",
+      "schedule": "50 19 * * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • Date Idea #23"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-184",
+      "name": "Relationships & Communication • Pet Photo #24",
+      "description": "Auto-generated Relationships & Communication automation (Pet Photo).",
+      "schedule": "30 12 * * 1",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • Pet Photo #24"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-185",
+      "name": "Relationships & Communication • Video Call #25",
+      "description": "Auto-generated Relationships & Communication automation (Video Call).",
+      "schedule": "40 9 7 * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • Video Call #25"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-186",
+      "name": "Relationships & Communication • Cuddle Time #26",
+      "description": "Auto-generated Relationships & Communication automation (Cuddle Time).",
+      "schedule": "*/120 9-22 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • Cuddle Time #26"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-187",
+      "name": "Relationships & Communication • Memory Prompt #27",
+      "description": "Auto-generated Relationships & Communication automation (Memory Prompt).",
+      "schedule": "40 20 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • Memory Prompt #27"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-188",
+      "name": "Relationships & Communication • Playlist Update #28",
+      "description": "Auto-generated Relationships & Communication automation (Playlist Update).",
+      "schedule": "50 9 * * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • Playlist Update #28"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-189",
+      "name": "Relationships & Communication • Appreciation #29",
+      "description": "Auto-generated Relationships & Communication automation (Appreciation).",
+      "schedule": "0 14 * * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • Appreciation #29"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-190",
+      "name": "Relationships & Communication • AM Body Weather #30",
+      "description": "Auto-generated Relationships & Communication automation (AM Body Weather).",
+      "schedule": "50 9 * * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • AM Body Weather #30",
+          "scale": "Sunny/Cloudy/Stormy"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-191",
+      "name": "Relationships & Communication • PM Heart Check #31",
+      "description": "Auto-generated Relationships & Communication automation (PM Heart Check).",
+      "schedule": "15 22 * * 4",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • PM Heart Check #31"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-192",
+      "name": "Relationships & Communication • Quiet Together #32",
+      "description": "Auto-generated Relationships & Communication automation (Quiet Together).",
+      "schedule": "0 17 2 * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • Quiet Together #32"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-193",
+      "name": "Relationships & Communication • Affection Note #33",
+      "description": "Auto-generated Relationships & Communication automation (Affection Note).",
+      "schedule": "*/120 9-22 * * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • Affection Note #33"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-194",
+      "name": "Relationships & Communication • Ritual Reminder #34",
+      "description": "Auto-generated Relationships & Communication automation (Ritual Reminder).",
+      "schedule": "10 22 * * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • Ritual Reminder #34"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-195",
+      "name": "Relationships & Communication • Anniversary Prep #35",
+      "description": "Auto-generated Relationships & Communication automation (Anniversary Prep).",
+      "schedule": "40 10 * * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • Anniversary Prep #35"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-196",
+      "name": "Relationships & Communication • Birthday Cue #36",
+      "description": "Auto-generated Relationships & Communication automation (Birthday Cue).",
+      "schedule": "50 10 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • Birthday Cue #36"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-197",
+      "name": "Relationships & Communication • Weekly Reflection #37",
+      "description": "Auto-generated Relationships & Communication automation (Weekly Reflection).",
+      "schedule": "15 22 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • Weekly Reflection #37"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-198",
+      "name": "Relationships & Communication • Affirmation Archive #38",
+      "description": "Auto-generated Relationships & Communication automation (Affirmation Archive).",
+      "schedule": "15 10 * * 3",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • Affirmation Archive #38"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-199",
+      "name": "Relationships & Communication • Gratitude Sunday #39",
+      "description": "Auto-generated Relationships & Communication automation (Gratitude Sunday).",
+      "schedule": "0 18 19 * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • Gratitude Sunday #39"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "relationships-&-communication-200",
+      "name": "Relationships & Communication • Fun Plan #40",
+      "description": "Auto-generated Relationships & Communication automation (Fun Plan).",
+      "schedule": "*/120 9-22 * * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Relationships & Communication",
+          "title": "Relationships & Communication • Fun Plan #40"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 9,
+          "endHour": 22
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-201",
+      "name": "Community & Advocacy • Advocacy Script #1",
+      "description": "Auto-generated Community & Advocacy automation (Advocacy Script).",
+      "schedule": "30 11 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Advocacy Script #1"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-202",
+      "name": "Community & Advocacy • Grant Check #2",
+      "description": "Auto-generated Community & Advocacy automation (Grant Check).",
+      "schedule": "30 18 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Grant Check #2"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-203",
+      "name": "Community & Advocacy • Hearing Prep #3",
+      "description": "Auto-generated Community & Advocacy automation (Hearing Prep).",
+      "schedule": "30 13 * * 2",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Hearing Prep #3"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-204",
+      "name": "Community & Advocacy • Caseworker Follow-up #4",
+      "description": "Auto-generated Community & Advocacy automation (Caseworker Follow-up).",
+      "schedule": "20 14 8 * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Caseworker Follow-up #4"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-205",
+      "name": "Community & Advocacy • Accessibility Audit #5",
+      "description": "Auto-generated Community & Advocacy automation (Accessibility Audit).",
+      "schedule": "*/120 10-18 * * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Accessibility Audit #5"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-206",
+      "name": "Community & Advocacy • Mutual Aid #6",
+      "description": "Auto-generated Community & Advocacy automation (Mutual Aid).",
+      "schedule": "50 12 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Mutual Aid #6"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-207",
+      "name": "Community & Advocacy • Policy Change #7",
+      "description": "Auto-generated Community & Advocacy automation (Policy Change).",
+      "schedule": "30 14 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Policy Change #7"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-208",
+      "name": "Community & Advocacy • Appeal Draft #8",
+      "description": "Auto-generated Community & Advocacy automation (Appeal Draft).",
+      "schedule": "0 15 * * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Appeal Draft #8"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-209",
+      "name": "Community & Advocacy • Meeting Recap #9",
+      "description": "Auto-generated Community & Advocacy automation (Meeting Recap).",
+      "schedule": "50 10 * * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Meeting Recap #9"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-210",
+      "name": "Community & Advocacy • Deadline Watch #10",
+      "description": "Auto-generated Community & Advocacy automation (Deadline Watch).",
+      "schedule": "0 11 * * 4",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Deadline Watch #10"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-211",
+      "name": "Community & Advocacy • Documentation Request #11",
+      "description": "Auto-generated Community & Advocacy automation (Documentation Request).",
+      "schedule": "40 13 18 * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Documentation Request #11"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-212",
+      "name": "Community & Advocacy • Resource Finder #12",
+      "description": "Auto-generated Community & Advocacy automation (Resource Finder).",
+      "schedule": "*/120 10-18 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Resource Finder #12"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-213",
+      "name": "Community & Advocacy • Transportation Support #13",
+      "description": "Auto-generated Community & Advocacy automation (Transportation Support).",
+      "schedule": "10 14 * * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Transportation Support #13"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-214",
+      "name": "Community & Advocacy • Event Notes #14",
+      "description": "Auto-generated Community & Advocacy automation (Event Notes).",
+      "schedule": "0 15 * * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Event Notes #14"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-215",
+      "name": "Community & Advocacy • Virtual Option #15",
+      "description": "Auto-generated Community & Advocacy automation (Virtual Option).",
+      "schedule": "20 13 * * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Virtual Option #15"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-216",
+      "name": "Community & Advocacy • Organizer Break #16",
+      "description": "Auto-generated Community & Advocacy automation (Organizer Break).",
+      "schedule": "10 14 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Organizer Break #16"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-217",
+      "name": "Community & Advocacy • Burnout Check #17",
+      "description": "Auto-generated Community & Advocacy automation (Burnout Check).",
+      "schedule": "30 18 * * 3",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Burnout Check #17"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-218",
+      "name": "Community & Advocacy • Action Digest #18",
+      "description": "Auto-generated Community & Advocacy automation (Action Digest).",
+      "schedule": "0 18 20 * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Action Digest #18"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-219",
+      "name": "Community & Advocacy • Outreach Email #19",
+      "description": "Auto-generated Community & Advocacy automation (Outreach Email).",
+      "schedule": "*/120 10-18 * * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Outreach Email #19"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-220",
+      "name": "Community & Advocacy • Accessibility Report #20",
+      "description": "Auto-generated Community & Advocacy automation (Accessibility Report).",
+      "schedule": "20 18 * * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Accessibility Report #20"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-221",
+      "name": "Community & Advocacy • Rights Reminder #21",
+      "description": "Auto-generated Community & Advocacy automation (Rights Reminder).",
+      "schedule": "10 11 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Rights Reminder #21"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-222",
+      "name": "Community & Advocacy • Testimony Draft #22",
+      "description": "Auto-generated Community & Advocacy automation (Testimony Draft).",
+      "schedule": "0 14 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Testimony Draft #22"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-223",
+      "name": "Community & Advocacy • Grant Letter #23",
+      "description": "Auto-generated Community & Advocacy automation (Grant Letter).",
+      "schedule": "10 11 * * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Grant Letter #23"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-224",
+      "name": "Community & Advocacy • File Backup #24",
+      "description": "Auto-generated Community & Advocacy automation (File Backup).",
+      "schedule": "15 14 * * 2",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • File Backup #24"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-225",
+      "name": "Community & Advocacy • Contact Tree #25",
+      "description": "Auto-generated Community & Advocacy automation (Contact Tree).",
+      "schedule": "0 15 23 * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Contact Tree #25"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-226",
+      "name": "Community & Advocacy • Win Tracker #26",
+      "description": "Auto-generated Community & Advocacy automation (Win Tracker).",
+      "schedule": "*/120 10-18 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Win Tracker #26"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-227",
+      "name": "Community & Advocacy • Appeal Status #27",
+      "description": "Auto-generated Community & Advocacy automation (Appeal Status).",
+      "schedule": "40 14 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Appeal Status #27"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-228",
+      "name": "Community & Advocacy • Weekly Summary #28",
+      "description": "Auto-generated Community & Advocacy automation (Weekly Summary).",
+      "schedule": "20 17 * * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Weekly Summary #28"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-229",
+      "name": "Community & Advocacy • Petition Update #29",
+      "description": "Auto-generated Community & Advocacy automation (Petition Update).",
+      "schedule": "0 10 * * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Petition Update #29"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-230",
+      "name": "Community & Advocacy • Newsletter #30",
+      "description": "Auto-generated Community & Advocacy automation (Newsletter).",
+      "schedule": "20 16 * * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Newsletter #30"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-231",
+      "name": "Community & Advocacy • Calendar Sync #31",
+      "description": "Auto-generated Community & Advocacy automation (Calendar Sync).",
+      "schedule": "30 10 * * 0",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Calendar Sync #31"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-232",
+      "name": "Community & Advocacy • Notes to Drive #32",
+      "description": "Auto-generated Community & Advocacy automation (Notes to Drive).",
+      "schedule": "40 12 25 * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Notes to Drive #32"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-233",
+      "name": "Community & Advocacy • Thank Ally #33",
+      "description": "Auto-generated Community & Advocacy automation (Thank Ally).",
+      "schedule": "*/120 10-18 * * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Thank Ally #33"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-234",
+      "name": "Community & Advocacy • Auto-Transcribe #34",
+      "description": "Auto-generated Community & Advocacy automation (Auto-Transcribe).",
+      "schedule": "10 14 * * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Auto-Transcribe #34"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-235",
+      "name": "Community & Advocacy • Funding Search #35",
+      "description": "Auto-generated Community & Advocacy automation (Funding Search).",
+      "schedule": "40 17 * * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Funding Search #35"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-236",
+      "name": "Community & Advocacy • Access Checklist #36",
+      "description": "Auto-generated Community & Advocacy automation (Access Checklist).",
+      "schedule": "40 16 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Access Checklist #36"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-237",
+      "name": "Community & Advocacy • Task Split #37",
+      "description": "Auto-generated Community & Advocacy automation (Task Split).",
+      "schedule": "5 10 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Task Split #37"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-238",
+      "name": "Community & Advocacy • Community Check-in #38",
+      "description": "Auto-generated Community & Advocacy automation (Community Check-in).",
+      "schedule": "0 12 * * 0",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Community Check-in #38"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-239",
+      "name": "Community & Advocacy • Joy Moment #39",
+      "description": "Auto-generated Community & Advocacy automation (Joy Moment).",
+      "schedule": "40 15 27 * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Joy Moment #39"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-240",
+      "name": "Community & Advocacy • ASL/Caption Prompt #40",
+      "description": "Auto-generated Community & Advocacy automation (ASL/Caption Prompt).",
+      "schedule": "*/120 10-18 * * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • ASL/Caption Prompt #40"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-241",
+      "name": "Community & Advocacy • Form Autofill #41",
+      "description": "Auto-generated Community & Advocacy automation (Form Autofill).",
+      "schedule": "10 18 * * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Form Autofill #41"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-242",
+      "name": "Community & Advocacy • Policy Digest #42",
+      "description": "Auto-generated Community & Advocacy automation (Policy Digest).",
+      "schedule": "10 16 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Policy Digest #42"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-243",
+      "name": "Community & Advocacy • Agency Score #43",
+      "description": "Auto-generated Community & Advocacy automation (Agency Score).",
+      "schedule": "20 10 * * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Agency Score #43"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-244",
+      "name": "Community & Advocacy • Aid Reminder #44",
+      "description": "Auto-generated Community & Advocacy automation (Aid Reminder).",
+      "schedule": "0 15 * * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Aid Reminder #44"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-245",
+      "name": "Community & Advocacy • Meeting Invite #45",
+      "description": "Auto-generated Community & Advocacy automation (Meeting Invite).",
+      "schedule": "15 13 * * 2",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Meeting Invite #45"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-246",
+      "name": "Community & Advocacy • Report PDF #46",
+      "description": "Auto-generated Community & Advocacy automation (Report PDF).",
+      "schedule": "20 11 22 * *",
+      "action": {
+        "name": "send_webhook",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Report PDF #46"
+        },
+        "target": {
+          "type": "webhook",
+          "url": "https://hooks.zapier.com/xxx",
+          "headers": {
+            "X-App": "KolHub"
+          }
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-247",
+      "name": "Community & Advocacy • Event Reminder #47",
+      "description": "Auto-generated Community & Advocacy automation (Event Reminder).",
+      "schedule": "*/120 10-18 * * *",
+      "action": {
+        "name": "android_tasker_webhook",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Event Reminder #47"
+        },
+        "target": {
+          "type": "android",
+          "url": "https://tasker.yourhook?msg=ok"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-248",
+      "name": "Community & Advocacy • Accessibility Budget #48",
+      "description": "Auto-generated Community & Advocacy automation (Accessibility Budget).",
+      "schedule": "30 18 * * *",
+      "action": {
+        "name": "send_email",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Accessibility Budget #48"
+        },
+        "target": {
+          "type": "email",
+          "to": "kol@example.com",
+          "subject": "Reminder"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-249",
+      "name": "Community & Advocacy • Follow-up Nudge #49",
+      "description": "Auto-generated Community & Advocacy automation (Follow-up Nudge).",
+      "schedule": "10 12 * * *",
+      "action": {
+        "name": "notion_append_log",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Follow-up Nudge #49"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    },
+    {
+      "id": "community-&-advocacy-250",
+      "name": "Community & Advocacy • Weekly Debrief #50",
+      "description": "Auto-generated Community & Advocacy automation (Weekly Debrief).",
+      "schedule": "10 12 * * *",
+      "action": {
+        "name": "notion_create_page",
+        "payload": {
+          "category": "Community & Advocacy",
+          "title": "Community & Advocacy • Weekly Debrief #50"
+        },
+        "target": {
+          "type": "notion"
+        }
+      },
+      "when": {
+        "window": {
+          "startHour": 10,
+          "endHour": 18
+        }
+      }
+    }
+  ]
+}

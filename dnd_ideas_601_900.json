@@ -1,0 +1,4705 @@
+[
+  {
+    "id": 601,
+    "title": "DDB‑Sync Clocks",
+    "category": "Tool‑Integration Systems & Hacks",
+    "modes": [
+      "any"
+    ],
+    "dm": "required",
+    "energy": "low",
+    "tools": [
+      "D&D Beyond",
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 602,
+    "title": "Encounter Builder Shuffle",
+    "category": "Tool‑Integration Systems & Hacks",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "medium",
+    "tools": [
+      "D&D Beyond",
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 603,
+    "title": "TTS QR Card Hybrid",
+    "category": "Tool‑Integration Systems & Hacks",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "high",
+    "tools": [
+      "D&D Beyond",
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 604,
+    "title": "Foundry Macro Prompter",
+    "category": "Tool‑Integration Systems & Hacks",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "low",
+    "tools": [
+      "D&D Beyond",
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 605,
+    "title": "Roll20 Handout Chains",
+    "category": "Tool‑Integration Systems & Hacks",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "medium",
+    "tools": [
+      "D&D Beyond",
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 606,
+    "title": "Compass Overlay Waypoints",
+    "category": "Tool‑Integration Systems & Hacks",
+    "modes": [
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "high",
+    "tools": [
+      "D&D Beyond",
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 607,
+    "title": "Homebrew Twist Item",
+    "category": "Tool‑Integration Systems & Hacks",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "low",
+    "tools": [
+      "D&D Beyond",
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 608,
+    "title": "NPC Line Generator",
+    "category": "Tool‑Integration Systems & Hacks",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "medium",
+    "tools": [
+      "D&D Beyond",
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 609,
+    "title": "Sheets Initiative Webhook",
+    "category": "Tool‑Integration Systems & Hacks",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "high",
+    "tools": [
+      "D&D Beyond",
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 610,
+    "title": "Chat Vote Twist",
+    "category": "Tool‑Integration Systems & Hacks",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "low",
+    "tools": [
+      "D&D Beyond",
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 611,
+    "title": "Fog‑of‑War Mobile Reveal",
+    "category": "Tool‑Integration Systems & Hacks",
+    "modes": [
+      "any"
+    ],
+    "dm": "none",
+    "energy": "medium",
+    "tools": [
+      "D&D Beyond",
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 612,
+    "title": "Deck API Draw",
+    "category": "Tool‑Integration Systems & Hacks",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "high",
+    "tools": [
+      "D&D Beyond",
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 613,
+    "title": "Scene Countdown Timer",
+    "category": "Tool‑Integration Systems & Hacks",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "low",
+    "tools": [
+      "D&D Beyond",
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 614,
+    "title": "Auto Treasure Roller",
+    "category": "Tool‑Integration Systems & Hacks",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "medium",
+    "tools": [
+      "D&D Beyond",
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 615,
+    "title": "Ambient Audio by Tag",
+    "category": "Tool‑Integration Systems & Hacks",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "high",
+    "tools": [
+      "D&D Beyond",
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 616,
+    "title": "PDF Handout Autogen",
+    "category": "Tool‑Integration Systems & Hacks",
+    "modes": [
+      "any"
+    ],
+    "dm": "required",
+    "energy": "low",
+    "tools": [
+      "D&D Beyond",
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 617,
+    "title": "URL Dungeon Builder",
+    "category": "Tool‑Integration Systems & Hacks",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "medium",
+    "tools": [
+      "D&D Beyond",
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 618,
+    "title": "Discord Oracle Bot",
+    "category": "Tool‑Integration Systems & Hacks",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "high",
+    "tools": [
+      "D&D Beyond",
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 619,
+    "title": "Rumor Fetcher",
+    "category": "Tool‑Integration Systems & Hacks",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "low",
+    "tools": [
+      "D&D Beyond",
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 620,
+    "title": "NPC Name API",
+    "category": "Tool‑Integration Systems & Hacks",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "medium",
+    "tools": [
+      "D&D Beyond",
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 621,
+    "title": "Complication Die Overlay",
+    "category": "Tool‑Integration Systems & Hacks",
+    "modes": [
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "high",
+    "tools": [
+      "D&D Beyond",
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 622,
+    "title": "Flashback Macro",
+    "category": "Tool‑Integration Systems & Hacks",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "low",
+    "tools": [
+      "D&D Beyond",
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 623,
+    "title": "Linked Physical/Digital Maps",
+    "category": "Tool‑Integration Systems & Hacks",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "medium",
+    "tools": [
+      "D&D Beyond",
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 624,
+    "title": "Secret Phone Screen",
+    "category": "Tool‑Integration Systems & Hacks",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "high",
+    "tools": [
+      "D&D Beyond",
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 625,
+    "title": "Truth or Trouble Button",
+    "category": "Tool‑Integration Systems & Hacks",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "low",
+    "tools": [
+      "D&D Beyond",
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 626,
+    "title": "DDB Shared Notes Diplomacy",
+    "category": "Social/Intrigue + Digital",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "low",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 627,
+    "title": "Auction House Sim",
+    "category": "Social/Intrigue + Digital",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "medium",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 628,
+    "title": "Reputation Sheet",
+    "category": "Social/Intrigue + Digital",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "high",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 629,
+    "title": "Rumor Bulletin Board",
+    "category": "Social/Intrigue + Digital",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "low",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 630,
+    "title": "Merchant Review Web",
+    "category": "Social/Intrigue + Digital",
+    "modes": [
+      "any"
+    ],
+    "dm": "required",
+    "energy": "medium",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 631,
+    "title": "Tea with an Enemy (DM DMs)",
+    "category": "Social/Intrigue + Digital",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "high",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 632,
+    "title": "Spy Tail Hidden Channels",
+    "category": "Social/Intrigue + Digital",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "low",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 633,
+    "title": "Duel of Wit Ladder Bot",
+    "category": "Social/Intrigue + Digital",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "medium",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 634,
+    "title": "Hidden Agenda Polls",
+    "category": "Social/Intrigue + Digital",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "high",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 635,
+    "title": "Codeword Song Handout",
+    "category": "Social/Intrigue + Digital",
+    "modes": [
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "low",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 636,
+    "title": "Press Conference Stream",
+    "category": "Social/Intrigue + Digital",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "medium",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 637,
+    "title": "Veiled Barbs Contest Bot",
+    "category": "Social/Intrigue + Digital",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "high",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 638,
+    "title": "Parley Neutral Ground Page",
+    "category": "Social/Intrigue + Digital",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "low",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 639,
+    "title": "Whisper Network Map",
+    "category": "Social/Intrigue + Digital",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "medium",
+    "tools": [
+      "D&D Beyond",
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 640,
+    "title": "Trial by Jury Tool",
+    "category": "Social/Intrigue + Digital",
+    "modes": [
+      "any"
+    ],
+    "dm": "none",
+    "energy": "high",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 641,
+    "title": "Secret Letters Mailer",
+    "category": "Social/Intrigue + Digital",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "low",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 642,
+    "title": "Bribe Ledger Web",
+    "category": "Social/Intrigue + Digital",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "medium",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 643,
+    "title": "Expose the Doppel Site",
+    "category": "Social/Intrigue + Digital",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "high",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 644,
+    "title": "Midnight Letters Scheduler",
+    "category": "Social/Intrigue + Digital",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "low",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 645,
+    "title": "Hostage Without Chains App",
+    "category": "Social/Intrigue + Digital",
+    "modes": [
+      "any"
+    ],
+    "dm": "required",
+    "energy": "medium",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 646,
+    "title": "Council Vote Polls",
+    "category": "Social/Intrigue + Digital",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "high",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 647,
+    "title": "Social Graph Visualizer",
+    "category": "Social/Intrigue + Digital",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "low",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 648,
+    "title": "Scandal Cleanup Kanban",
+    "category": "Social/Intrigue + Digital",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "medium",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 649,
+    "title": "Petitions via Forms",
+    "category": "Social/Intrigue + Digital",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "high",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 650,
+    "title": "Civic Simulation Sheet",
+    "category": "Social/Intrigue + Digital",
+    "modes": [
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "low",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 651,
+    "title": "Browser Vault Infiltration",
+    "category": "Heists & Virtual Break‑Ins",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 652,
+    "title": "Grid Hack API Puzzle",
+    "category": "Heists & Virtual Break‑Ins",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 653,
+    "title": "Security Cam Feeds",
+    "category": "Heists & Virtual Break‑Ins",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 654,
+    "title": "TTS Stealth Module",
+    "category": "Heists & Virtual Break‑Ins",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 655,
+    "title": "Server Log Forgery Doc",
+    "category": "Heists & Virtual Break‑Ins",
+    "modes": [
+      "any"
+    ],
+    "dm": "none",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 656,
+    "title": "VR Prison Escape Nodes",
+    "category": "Heists & Virtual Break‑Ins",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 657,
+    "title": "Magical Firewall Bypass",
+    "category": "Heists & Virtual Break‑Ins",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 658,
+    "title": "Rogue Bot Sidekick",
+    "category": "Heists & Virtual Break‑Ins",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 659,
+    "title": "Drone Patrol Overlay",
+    "category": "Heists & Virtual Break‑Ins",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 660,
+    "title": "Decoy ID Generator",
+    "category": "Heists & Virtual Break‑Ins",
+    "modes": [
+      "any"
+    ],
+    "dm": "required",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 661,
+    "title": "Multi‑site Infiltration Planner",
+    "category": "Heists & Virtual Break‑Ins",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 662,
+    "title": "Teleport Node Disruptor",
+    "category": "Heists & Virtual Break‑Ins",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 663,
+    "title": "Shipment Switcher",
+    "category": "Heists & Virtual Break‑Ins",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 664,
+    "title": "Heist Scoreboard",
+    "category": "Heists & Virtual Break‑Ins",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 665,
+    "title": "Mask the Heist UI",
+    "category": "Heists & Virtual Break‑Ins",
+    "modes": [
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 666,
+    "title": "Remote Familiar Camera",
+    "category": "Heists & Virtual Break‑Ins",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 667,
+    "title": "Broadcast Tower Hijack",
+    "category": "Heists & Virtual Break‑Ins",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 668,
+    "title": "Anti‑Magic Shutdown",
+    "category": "Heists & Virtual Break‑Ins",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 669,
+    "title": "Drone Routing Puzzle",
+    "category": "Heists & Virtual Break‑Ins",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 670,
+    "title": "Digital Key Snatch",
+    "category": "Heists & Virtual Break‑Ins",
+    "modes": [
+      "any"
+    ],
+    "dm": "none",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 671,
+    "title": "Disguise Mask Generator",
+    "category": "Heists & Virtual Break‑Ins",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 672,
+    "title": "Lock Crack Visualizer",
+    "category": "Heists & Virtual Break‑Ins",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 673,
+    "title": "Firewall Relay Race",
+    "category": "Heists & Virtual Break‑Ins",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 674,
+    "title": "AI Guard Pattern Exploit",
+    "category": "Heists & Virtual Break‑Ins",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 675,
+    "title": "Cache Drop Map",
+    "category": "Heists & Virtual Break‑Ins",
+    "modes": [
+      "any"
+    ],
+    "dm": "required",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 676,
+    "title": "Azgaar World Map Seed",
+    "category": "Wilderness/Travel + Remote Tools",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 677,
+    "title": "Procedural Wilderness API",
+    "category": "Wilderness/Travel + Remote Tools",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 678,
+    "title": "Real Weather to Storms",
+    "category": "Wilderness/Travel + Remote Tools",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 679,
+    "title": "Wildlife Calls Ambience",
+    "category": "Wilderness/Travel + Remote Tools",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 680,
+    "title": "Night Sounds Playlist",
+    "category": "Wilderness/Travel + Remote Tools",
+    "modes": [
+      "any"
+    ],
+    "dm": "none",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 681,
+    "title": "Satellite Layer Overlay",
+    "category": "Wilderness/Travel + Remote Tools",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 682,
+    "title": "Planet Event Fetcher",
+    "category": "Wilderness/Travel + Remote Tools",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 683,
+    "title": "Day/Night Time Sync",
+    "category": "Wilderness/Travel + Remote Tools",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 684,
+    "title": "Hex Route Planner",
+    "category": "Wilderness/Travel + Remote Tools",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 685,
+    "title": "Flora/Fauna DB Lookup",
+    "category": "Wilderness/Travel + Remote Tools",
+    "modes": [
+      "any"
+    ],
+    "dm": "required",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 686,
+    "title": "Star Map Navigator",
+    "category": "Wilderness/Travel + Remote Tools",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 687,
+    "title": "QR Lore Wayposts",
+    "category": "Wilderness/Travel + Remote Tools",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 688,
+    "title": "Procedural Ruins Genie",
+    "category": "Wilderness/Travel + Remote Tools",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 689,
+    "title": "Wanderer Chat Bot",
+    "category": "Wilderness/Travel + Remote Tools",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 690,
+    "title": "Virtual Compass UI",
+    "category": "Wilderness/Travel + Remote Tools",
+    "modes": [
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 691,
+    "title": "Foraging Yield Roller",
+    "category": "Wilderness/Travel + Remote Tools",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 692,
+    "title": "Hazard Alert Script",
+    "category": "Wilderness/Travel + Remote Tools",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 693,
+    "title": "Terrain Cost Calculator",
+    "category": "Wilderness/Travel + Remote Tools",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 694,
+    "title": "Eco Simulation",
+    "category": "Wilderness/Travel + Remote Tools",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 695,
+    "title": "Drone Spell Recon",
+    "category": "Wilderness/Travel + Remote Tools",
+    "modes": [
+      "any"
+    ],
+    "dm": "none",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 696,
+    "title": "Tile Server Fog",
+    "category": "Wilderness/Travel + Remote Tools",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 697,
+    "title": "Caravan Tracker",
+    "category": "Wilderness/Travel + Remote Tools",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 698,
+    "title": "Seasonal Event Calendar",
+    "category": "Wilderness/Travel + Remote Tools",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 699,
+    "title": "Weather Omen Feed",
+    "category": "Wilderness/Travel + Remote Tools",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 700,
+    "title": "Beacon Network Planner",
+    "category": "Wilderness/Travel + Remote Tools",
+    "modes": [
+      "any"
+    ],
+    "dm": "required",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 701,
+    "title": "Trap Card Plugin",
+    "category": "Enhanced Dungeons & Wonders",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 702,
+    "title": "Blueprint Step Reveal",
+    "category": "Enhanced Dungeons & Wonders",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 703,
+    "title": "Live Mapping Whiteboard",
+    "category": "Enhanced Dungeons & Wonders",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 704,
+    "title": "Spawn Timer",
+    "category": "Enhanced Dungeons & Wonders",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 705,
+    "title": "Dynamic Lighting Triggers",
+    "category": "Enhanced Dungeons & Wonders",
+    "modes": [
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 706,
+    "title": "Monster Chatter Audio",
+    "category": "Enhanced Dungeons & Wonders",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 707,
+    "title": "Hidden Door Flagger",
+    "category": "Enhanced Dungeons & Wonders",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 708,
+    "title": "Corridor Illusions Overlay",
+    "category": "Enhanced Dungeons & Wonders",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 709,
+    "title": "Drag‑Puzzle UI",
+    "category": "Enhanced Dungeons & Wonders",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 710,
+    "title": "Teleport Node Scanner",
+    "category": "Enhanced Dungeons & Wonders",
+    "modes": [
+      "any"
+    ],
+    "dm": "none",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 711,
+    "title": "Tile Shuffle Rooms",
+    "category": "Enhanced Dungeons & Wonders",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 712,
+    "title": "Rotating Level Rings",
+    "category": "Enhanced Dungeons & Wonders",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 713,
+    "title": "Mirror Interlink",
+    "category": "Enhanced Dungeons & Wonders",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 714,
+    "title": "Gravity Flip Zones",
+    "category": "Enhanced Dungeons & Wonders",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 715,
+    "title": "Living Floor Ecosystems",
+    "category": "Enhanced Dungeons & Wonders",
+    "modes": [
+      "any"
+    ],
+    "dm": "required",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 716,
+    "title": "Memory Rooms Randomizer",
+    "category": "Enhanced Dungeons & Wonders",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 717,
+    "title": "Animated Mural Triggers",
+    "category": "Enhanced Dungeons & Wonders",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 718,
+    "title": "Ghost Echo Replays",
+    "category": "Enhanced Dungeons & Wonders",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 719,
+    "title": "Sound‑Per‑Tile Triggers",
+    "category": "Enhanced Dungeons & Wonders",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 720,
+    "title": "Puzzle Mini‑Game",
+    "category": "Enhanced Dungeons & Wonders",
+    "modes": [
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 721,
+    "title": "Pressure Plate GUI",
+    "category": "Enhanced Dungeons & Wonders",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 722,
+    "title": "Voice Door Triggers",
+    "category": "Enhanced Dungeons & Wonders",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 723,
+    "title": "Dynamic Portal Network",
+    "category": "Enhanced Dungeons & Wonders",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 724,
+    "title": "Zone Playlists",
+    "category": "Enhanced Dungeons & Wonders",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 725,
+    "title": "Room Morph Script",
+    "category": "Enhanced Dungeons & Wonders",
+    "modes": [
+      "any"
+    ],
+    "dm": "none",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 726,
+    "title": "Web Spellbook Pages",
+    "category": "Rituals & Magic Interfaces",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 727,
+    "title": "Ritual Circle Builder",
+    "category": "Rituals & Magic Interfaces",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 728,
+    "title": "Spell‑Craft Minigames",
+    "category": "Rituals & Magic Interfaces",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 729,
+    "title": "Pact Contract Generator",
+    "category": "Rituals & Magic Interfaces",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 730,
+    "title": "Glyph Reveal Triggers",
+    "category": "Rituals & Magic Interfaces",
+    "modes": [
+      "any"
+    ],
+    "dm": "none",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 731,
+    "title": "Shared Scroll Doc",
+    "category": "Rituals & Magic Interfaces",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 732,
+    "title": "Spell Template Forge",
+    "category": "Rituals & Magic Interfaces",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 733,
+    "title": "Ritual Chant Timer",
+    "category": "Rituals & Magic Interfaces",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 734,
+    "title": "Rune Puzzles Overlay",
+    "category": "Rituals & Magic Interfaces",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 735,
+    "title": "Portal Warp Script",
+    "category": "Rituals & Magic Interfaces",
+    "modes": [
+      "any"
+    ],
+    "dm": "required",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 736,
+    "title": "API‑Linked Tomes",
+    "category": "Rituals & Magic Interfaces",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 737,
+    "title": "Sigil Drawing Tool",
+    "category": "Rituals & Magic Interfaces",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 738,
+    "title": "Spell‑Ink Designer",
+    "category": "Rituals & Magic Interfaces",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 739,
+    "title": "Arcane Node Network",
+    "category": "Rituals & Magic Interfaces",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 740,
+    "title": "Cursed Object Revealer",
+    "category": "Rituals & Magic Interfaces",
+    "modes": [
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 741,
+    "title": "Blueprint Puzzles",
+    "category": "Rituals & Magic Interfaces",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 742,
+    "title": "Rune Unlocker",
+    "category": "Rituals & Magic Interfaces",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 743,
+    "title": "Mana Pool Tracker",
+    "category": "Rituals & Magic Interfaces",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 744,
+    "title": "Double‑Cast Glitch",
+    "category": "Rituals & Magic Interfaces",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 745,
+    "title": "Elemental Mixer",
+    "category": "Rituals & Magic Interfaces",
+    "modes": [
+      "any"
+    ],
+    "dm": "none",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 746,
+    "title": "Resonance Map",
+    "category": "Rituals & Magic Interfaces",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 747,
+    "title": "Drift Tables Auto‑Roll",
+    "category": "Rituals & Magic Interfaces",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 748,
+    "title": "Performance UI",
+    "category": "Rituals & Magic Interfaces",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 749,
+    "title": "Corruption Counter",
+    "category": "Rituals & Magic Interfaces",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 750,
+    "title": "Scroll Encryption",
+    "category": "Rituals & Magic Interfaces",
+    "modes": [
+      "any"
+    ],
+    "dm": "required",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 751,
+    "title": "Villain Dashboards",
+    "category": "Villains & Rivals Dashboards",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 752,
+    "title": "Rival AI Behaviors",
+    "category": "Villains & Rivals Dashboards",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 753,
+    "title": "Nemesis Web Tracks",
+    "category": "Villains & Rivals Dashboards",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 754,
+    "title": "Image Leak Reveal",
+    "category": "Villains & Rivals Dashboards",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 755,
+    "title": "Monologue Snippets",
+    "category": "Villains & Rivals Dashboards",
+    "modes": [
+      "any"
+    ],
+    "dm": "required",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 756,
+    "title": "Foe Morale Meter",
+    "category": "Villains & Rivals Dashboards",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 757,
+    "title": "War Tracker Overlay",
+    "category": "Villains & Rivals Dashboards",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 758,
+    "title": "Rival Diary Viewer",
+    "category": "Villains & Rivals Dashboards",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 759,
+    "title": "Boss Aura Zones",
+    "category": "Villains & Rivals Dashboards",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 760,
+    "title": "Minion Betrayal Vote",
+    "category": "Villains & Rivals Dashboards",
+    "modes": [
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 761,
+    "title": "Resource Economy Sim",
+    "category": "Villains & Rivals Dashboards",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 762,
+    "title": "Spy Channels",
+    "category": "Villains & Rivals Dashboards",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 763,
+    "title": "Rival Level Tracker",
+    "category": "Villains & Rivals Dashboards",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 764,
+    "title": "Move Predictor",
+    "category": "Villains & Rivals Dashboards",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 765,
+    "title": "Faction Dossiers",
+    "category": "Villains & Rivals Dashboards",
+    "modes": [
+      "any"
+    ],
+    "dm": "none",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 766,
+    "title": "Dynamic Fallback Plans",
+    "category": "Villains & Rivals Dashboards",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 767,
+    "title": "Pressure Event Timers",
+    "category": "Villains & Rivals Dashboards",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 768,
+    "title": "Revolt Trigger Script",
+    "category": "Villains & Rivals Dashboards",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 769,
+    "title": "Propaganda Feeds",
+    "category": "Villains & Rivals Dashboards",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 770,
+    "title": "Cameo Scheduler",
+    "category": "Villains & Rivals Dashboards",
+    "modes": [
+      "any"
+    ],
+    "dm": "required",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 771,
+    "title": "Domain Management UI",
+    "category": "Villains & Rivals Dashboards",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 772,
+    "title": "Influence Zones Map",
+    "category": "Villains & Rivals Dashboards",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 773,
+    "title": "Assassination Mini‑Game",
+    "category": "Villains & Rivals Dashboards",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 774,
+    "title": "Relations Graph",
+    "category": "Villains & Rivals Dashboards",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 775,
+    "title": "Secret Stash Trail",
+    "category": "Villains & Rivals Dashboards",
+    "modes": [
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "automation"
+    ]
+  },
+  {
+    "id": 776,
+    "title": "Influence Slider UI",
+    "category": "Factions/Politics Sim",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "low",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 777,
+    "title": "Voting Simulation",
+    "category": "Factions/Politics Sim",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "medium",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 778,
+    "title": "Alert Webhooks",
+    "category": "Factions/Politics Sim",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "high",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 779,
+    "title": "Loyalty Tracker",
+    "category": "Factions/Politics Sim",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "low",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 780,
+    "title": "Political Map Overlay",
+    "category": "Factions/Politics Sim",
+    "modes": [
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 781,
+    "title": "Press Releases Handouts",
+    "category": "Factions/Politics Sim",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "high",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 782,
+    "title": "Rivalry Heat Map",
+    "category": "Factions/Politics Sim",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 783,
+    "title": "Rebellion Simulator",
+    "category": "Factions/Politics Sim",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "medium",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 784,
+    "title": "Quest Marketplace",
+    "category": "Factions/Politics Sim",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "high",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 785,
+    "title": "Faction HQ Maps",
+    "category": "Factions/Politics Sim",
+    "modes": [
+      "any"
+    ],
+    "dm": "none",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 786,
+    "title": "Branching Missions",
+    "category": "Factions/Politics Sim",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "medium",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 787,
+    "title": "Leader Secrets Bot",
+    "category": "Factions/Politics Sim",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "high",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 788,
+    "title": "Favor Exchange App",
+    "category": "Factions/Politics Sim",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "low",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 789,
+    "title": "Command Tree",
+    "category": "Factions/Politics Sim",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "medium",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 790,
+    "title": "Economy Dashboard",
+    "category": "Factions/Politics Sim",
+    "modes": [
+      "any"
+    ],
+    "dm": "required",
+    "energy": "high",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 791,
+    "title": "Election Campaign Sim",
+    "category": "Factions/Politics Sim",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "low",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 792,
+    "title": "Decree Generator",
+    "category": "Factions/Politics Sim",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "medium",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 793,
+    "title": "Rumor Bot Leaks",
+    "category": "Factions/Politics Sim",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "high",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 794,
+    "title": "Battle Map Tool",
+    "category": "Factions/Politics Sim",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 795,
+    "title": "Alliance Graph",
+    "category": "Factions/Politics Sim",
+    "modes": [
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "medium",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 796,
+    "title": "Scorecards",
+    "category": "Factions/Politics Sim",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "high",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 797,
+    "title": "Hidden Factions Sheets",
+    "category": "Factions/Politics Sim",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "low",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 798,
+    "title": "News Feed",
+    "category": "Factions/Politics Sim",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "medium",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 799,
+    "title": "Project Timers",
+    "category": "Factions/Politics Sim",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "high",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 800,
+    "title": "Event Calendar",
+    "category": "Factions/Politics Sim",
+    "modes": [
+      "any"
+    ],
+    "dm": "none",
+    "energy": "low",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 801,
+    "title": "Quest Board Overlay",
+    "category": "Jobs/Quests Tooling",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "low",
+    "tools": [
+      "D&D Beyond",
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 802,
+    "title": "Dynamic Bounty Gen",
+    "category": "Jobs/Quests Tooling",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "medium",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 803,
+    "title": "Task Chain Planner",
+    "category": "Jobs/Quests Tooling",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "high",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 804,
+    "title": "Temple Donation App",
+    "category": "Jobs/Quests Tooling",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "low",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 805,
+    "title": "Job Timer",
+    "category": "Jobs/Quests Tooling",
+    "modes": [
+      "any"
+    ],
+    "dm": "required",
+    "energy": "medium",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 806,
+    "title": "Reputation Reward Script",
+    "category": "Jobs/Quests Tooling",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "high",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 807,
+    "title": "Quest Tree UI",
+    "category": "Jobs/Quests Tooling",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "low",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 808,
+    "title": "Commission Generator",
+    "category": "Jobs/Quests Tooling",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "medium",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 809,
+    "title": "Acceptance UI",
+    "category": "Jobs/Quests Tooling",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "high",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 810,
+    "title": "Progress Tracker",
+    "category": "Jobs/Quests Tooling",
+    "modes": [
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "low",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 811,
+    "title": "Shared Log Page",
+    "category": "Jobs/Quests Tooling",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "medium",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 812,
+    "title": "Reroll Tokens",
+    "category": "Jobs/Quests Tooling",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "high",
+    "tools": [
+      "D&D Beyond",
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 813,
+    "title": "Chain Module Library",
+    "category": "Jobs/Quests Tooling",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "low",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 814,
+    "title": "Branch Reveal Plugin",
+    "category": "Jobs/Quests Tooling",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "medium",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 815,
+    "title": "Contract Drafting",
+    "category": "Jobs/Quests Tooling",
+    "modes": [
+      "any"
+    ],
+    "dm": "none",
+    "energy": "high",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 816,
+    "title": "Quest Map Pins",
+    "category": "Jobs/Quests Tooling",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "low",
+    "tools": [
+      "D&D Beyond",
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 817,
+    "title": "Difficulty Adjuster",
+    "category": "Jobs/Quests Tooling",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "medium",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 818,
+    "title": "Quest Reminders Bot",
+    "category": "Jobs/Quests Tooling",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "high",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 819,
+    "title": "Daily Bulletin",
+    "category": "Jobs/Quests Tooling",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "low",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 820,
+    "title": "Wanted Poster Maker",
+    "category": "Jobs/Quests Tooling",
+    "modes": [
+      "any"
+    ],
+    "dm": "required",
+    "energy": "medium",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 821,
+    "title": "Escort Route Planner",
+    "category": "Jobs/Quests Tooling",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "high",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 822,
+    "title": "Rumor‑Chain Quest",
+    "category": "Jobs/Quests Tooling",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "low",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 823,
+    "title": "Meta‑Quest UI",
+    "category": "Jobs/Quests Tooling",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "medium",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 824,
+    "title": "Reward Randomizer",
+    "category": "Jobs/Quests Tooling",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "high",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 825,
+    "title": "Destroy the Rumor",
+    "category": "Jobs/Quests Tooling",
+    "modes": [
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "low",
+    "tools": [
+      "D&D Beyond",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 826,
+    "title": "Crafting UI",
+    "category": "Downtime/Crafting Apps",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "low",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 827,
+    "title": "Workshop Scheduler",
+    "category": "Downtime/Crafting Apps",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "medium",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 828,
+    "title": "Town Growth Sim",
+    "category": "Downtime/Crafting Apps",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "high",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 829,
+    "title": "Patron Matcher",
+    "category": "Downtime/Crafting Apps",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "low",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 830,
+    "title": "Donation Tracker",
+    "category": "Downtime/Crafting Apps",
+    "modes": [
+      "any"
+    ],
+    "dm": "required",
+    "energy": "medium",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 831,
+    "title": "Project Board",
+    "category": "Downtime/Crafting Apps",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "high",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 832,
+    "title": "Festival Planner",
+    "category": "Downtime/Crafting Apps",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "low",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 833,
+    "title": "Commission Market",
+    "category": "Downtime/Crafting Apps",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "medium",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 834,
+    "title": "Blueprint Exchange",
+    "category": "Downtime/Crafting Apps",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "high",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 835,
+    "title": "Reputation Scheduler",
+    "category": "Downtime/Crafting Apps",
+    "modes": [
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "low",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 836,
+    "title": "Buff Calculator",
+    "category": "Downtime/Crafting Apps",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "medium",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 837,
+    "title": "Club Membership UI",
+    "category": "Downtime/Crafting Apps",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "high",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 838,
+    "title": "Co‑op Building Mini‑Game",
+    "category": "Downtime/Crafting Apps",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "low",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 839,
+    "title": "Patron Quest Module",
+    "category": "Downtime/Crafting Apps",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "medium",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 840,
+    "title": "Event Countdown",
+    "category": "Downtime/Crafting Apps",
+    "modes": [
+      "any"
+    ],
+    "dm": "none",
+    "energy": "high",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 841,
+    "title": "Craft Puzzle",
+    "category": "Downtime/Crafting Apps",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "low",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 842,
+    "title": "Team Project Tracker",
+    "category": "Downtime/Crafting Apps",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "medium",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 843,
+    "title": "Market Trend Graph",
+    "category": "Downtime/Crafting Apps",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "high",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 844,
+    "title": "Workshop Upgrades",
+    "category": "Downtime/Crafting Apps",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "low",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 845,
+    "title": "Apprentice System",
+    "category": "Downtime/Crafting Apps",
+    "modes": [
+      "any"
+    ],
+    "dm": "required",
+    "energy": "medium",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 846,
+    "title": "Guild Job Board",
+    "category": "Downtime/Crafting Apps",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "high",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 847,
+    "title": "Town Defense Sim",
+    "category": "Downtime/Crafting Apps",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "low",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 848,
+    "title": "Seasonal Timer",
+    "category": "Downtime/Crafting Apps",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "medium",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 849,
+    "title": "Community Performance",
+    "category": "Downtime/Crafting Apps",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "high",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 850,
+    "title": "Shared Journal",
+    "category": "Downtime/Crafting Apps",
+    "modes": [
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "low",
+    "tools": [
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 851,
+    "title": "Evidence Board",
+    "category": "Horror/Mystery Forensics",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 852,
+    "title": "Red‑String Map",
+    "category": "Horror/Mystery Forensics",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 853,
+    "title": "Decoder Tool",
+    "category": "Horror/Mystery Forensics",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 854,
+    "title": "Audio Clue Replay",
+    "category": "Horror/Mystery Forensics",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 855,
+    "title": "Forensics Web App",
+    "category": "Horror/Mystery Forensics",
+    "modes": [
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 856,
+    "title": "Ghost Whisper Overlay",
+    "category": "Horror/Mystery Forensics",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 857,
+    "title": "Timeline Slider",
+    "category": "Horror/Mystery Forensics",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 858,
+    "title": "Suspect Dossiers",
+    "category": "Horror/Mystery Forensics",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 859,
+    "title": "Reveal Clock UI",
+    "category": "Horror/Mystery Forensics",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 860,
+    "title": "Letter Reveal Script",
+    "category": "Horror/Mystery Forensics",
+    "modes": [
+      "any"
+    ],
+    "dm": "none",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 861,
+    "title": "360° Crime Scene",
+    "category": "Horror/Mystery Forensics",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 862,
+    "title": "Shadow Map Overlay",
+    "category": "Horror/Mystery Forensics",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 863,
+    "title": "Flashback Plugin",
+    "category": "Horror/Mystery Forensics",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 864,
+    "title": "Haunted Music Queue",
+    "category": "Horror/Mystery Forensics",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 865,
+    "title": "Psychic Echo Tracker",
+    "category": "Horror/Mystery Forensics",
+    "modes": [
+      "any"
+    ],
+    "dm": "required",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 866,
+    "title": "Mystery Branch Tree",
+    "category": "Horror/Mystery Forensics",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 867,
+    "title": "Invisible Ink Tool",
+    "category": "Horror/Mystery Forensics",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 868,
+    "title": "Clue Collector",
+    "category": "Horror/Mystery Forensics",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 869,
+    "title": "Poltergeist Script",
+    "category": "Horror/Mystery Forensics",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 870,
+    "title": "Voice Distorter",
+    "category": "Horror/Mystery Forensics",
+    "modes": [
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 871,
+    "title": "Night‑Sight Overlay",
+    "category": "Horror/Mystery Forensics",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 872,
+    "title": "Ephemera Generator",
+    "category": "Horror/Mystery Forensics",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 873,
+    "title": "Cold Case Toolkit",
+    "category": "Horror/Mystery Forensics",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 874,
+    "title": "Crowdsource Clues",
+    "category": "Horror/Mystery Forensics",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 875,
+    "title": "Alibi Visualizer",
+    "category": "Horror/Mystery Forensics",
+    "modes": [
+      "any"
+    ],
+    "dm": "none",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 876,
+    "title": "Portal Network UI",
+    "category": "Planar/Cosmic Navigation",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 877,
+    "title": "Astral Map Navigator",
+    "category": "Planar/Cosmic Navigation",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 878,
+    "title": "Star Chart Script",
+    "category": "Planar/Cosmic Navigation",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 879,
+    "title": "Planar Anomaly Gen",
+    "category": "Planar/Cosmic Navigation",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 880,
+    "title": "Cosmic Ambience",
+    "category": "Planar/Cosmic Navigation",
+    "modes": [
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 881,
+    "title": "Multiverse Timeline",
+    "category": "Planar/Cosmic Navigation",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 882,
+    "title": "Reality Shift Script",
+    "category": "Planar/Cosmic Navigation",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "automation",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 883,
+    "title": "Celestial Decree Gen",
+    "category": "Planar/Cosmic Navigation",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 884,
+    "title": "Void Zone Map",
+    "category": "Planar/Cosmic Navigation",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 885,
+    "title": "Dreamwalk Interface",
+    "category": "Planar/Cosmic Navigation",
+    "modes": [
+      "any"
+    ],
+    "dm": "none",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 886,
+    "title": "Fracture Events",
+    "category": "Planar/Cosmic Navigation",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 887,
+    "title": "Orbital City Reveal",
+    "category": "Planar/Cosmic Navigation",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 888,
+    "title": "Pattern Weaving UI",
+    "category": "Planar/Cosmic Navigation",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 889,
+    "title": "Moon Phase Magic",
+    "category": "Planar/Cosmic Navigation",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 890,
+    "title": "Alignment Tracker",
+    "category": "Planar/Cosmic Navigation",
+    "modes": [
+      "any"
+    ],
+    "dm": "required",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 891,
+    "title": "Portal Jump Game",
+    "category": "Planar/Cosmic Navigation",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 892,
+    "title": "Dreamscape Viewer",
+    "category": "Planar/Cosmic Navigation",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 893,
+    "title": "Waking Link App",
+    "category": "Planar/Cosmic Navigation",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 894,
+    "title": "Infinity Echo Map",
+    "category": "Planar/Cosmic Navigation",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 895,
+    "title": "Universe Seed Randomizer",
+    "category": "Planar/Cosmic Navigation",
+    "modes": [
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 896,
+    "title": "Celestial Contract UI",
+    "category": "Planar/Cosmic Navigation",
+    "modes": [
+      "solo",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 897,
+    "title": "Dimensional Echo Map",
+    "category": "Planar/Cosmic Navigation",
+    "modes": [
+      "duet",
+      "any"
+    ],
+    "dm": "none",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 898,
+    "title": "Threat Clock Overlay",
+    "category": "Planar/Cosmic Navigation",
+    "modes": [
+      "trio",
+      "any"
+    ],
+    "dm": "optional",
+    "energy": "medium",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 899,
+    "title": "Time Loop Manager",
+    "category": "Planar/Cosmic Navigation",
+    "modes": [
+      "solo",
+      "duet",
+      "trio",
+      "any"
+    ],
+    "dm": "required",
+    "energy": "high",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  },
+  {
+    "id": 900,
+    "title": "Planar Rest Spots",
+    "category": "Planar/Cosmic Navigation",
+    "modes": [
+      "any"
+    ],
+    "dm": "none",
+    "energy": "low",
+    "tools": [
+      "VTT",
+      "webAPI"
+    ]
+  }
+]

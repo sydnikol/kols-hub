@@ -1,0 +1,3 @@
+Category,Feature Name,Description,Linked Route(s),Component,Tags
+Finance,Friendly Financial Advisor,"Budget, bills, 'where the money goes' visualization.",/money,FinanceAdvisor,"budget,bills"
+Finance,Passive-Income Library,"1000+ ideas filtered by energy, cost, and ROI.",/money/passive,PassiveIncomeLibrary,"income,library"

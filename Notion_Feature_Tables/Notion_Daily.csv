@@ -1,0 +1,5 @@
+Category,Feature Name,Description,Linked Route(s),Component,Tags
+Daily,Daily Planner,Adaptive planner with energy-based modes and rotating tasks.,/daily,DailyPlanner,"adhd,autism,planner"
+Daily,Household Rotation,Low-pressure cleaning rotation with carry-forward tasks.,/daily/household,HouseholdRotation,"home,tasks"
+Daily,Pet Care,"Dog/cats feeding, meds, litter; shared with partners.",/daily/pets,PetCare,pets
+Daily,Meals & Nourish,"No-leftovers meal ideas, sodium-aware, grocery sync.",/meals,MealsNourish,"meals,shopping"

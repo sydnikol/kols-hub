@@ -1,0 +1,4 @@
+Name,Type,Schedule,Timezone,Config,Enabled
+Spotify Bedtime,spotify.playlist,22:30,America/Chicago,"{""playlist"":""Slumber with the Piano"",""firstTrack"":""Dimple"",""shuffle"":true}",true
+Hydration Nudges,notification.hourly,09:00-21:00,America/Chicago,"{""message"":""Sip water 💧""}",true
+Seasonal Cues,notification.quarterly,"Q1,Q2,Q3,Q4",America/Chicago,"{""topic"":""House Nourish""}",true
