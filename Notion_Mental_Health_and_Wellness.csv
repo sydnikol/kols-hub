@@ -1,4 +1,0 @@
-Category,Feature Name,Description,Linked Route(s),Component,Tags
-Mental Health & Wellness,Mental Health Toolkit,"Grounding, breathing sync, sensory first‑aid.",/daily,DailyPlanner,"mental‑health,grounding"
-Mental Health & Wellness,Journaling & Reflection,"Feelings forecast, gratitude jar, symptom ↔ emotion links.",/health/body-weather,BodyWeather,"journaling,reflection"
-Mental Health & Wellness,Sleep System,"Auto-dim routines, playlist start, gentle wake.",/settings/spotify,SpotifyAutomation,"sleep,routine"

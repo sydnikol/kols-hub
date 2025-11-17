@@ -1,40 +1,160 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./icon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
-    <meta name="description" content="Unified Mega App - Support Hub, AI Stylist, KOL Hub, Desktop Tools - Works Offline!" />
-    <meta name="theme-color" content="#6366f1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
     
-    <!-- PWA Meta Tags -->
-    <link rel="manifest" href="./manifest.json" />
-    <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="apple-mobile-web-app-title" content="MegaApp" />
+    <!-- Primary Meta Tags -->
+    <title>KOL Hub - Self-Evolving Personal OS</title>
+    <meta name="title" content="KOL Hub - Self-Evolving Personal OS">
+    <meta name="description" content="Your comprehensive personal operating system for health, creativity, and daily life management. Built with trauma-informed design and energy-aware features.">
+    
+    <!-- Theme & App Meta -->
+    <meta name="theme-color" content="#8b5cf6" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#a78bfa" media="(prefers-color-scheme: light)" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="KOL Hub">
+    <meta name="mobile-web-app-capable" content="yes">
     
     <!-- Icons -->
-    <link rel="apple-touch-icon" href="/icon-192.png" />
-    <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png" />
-    <link rel="icon" type="image/png" sizes="512x512" href="/icon-512.png" />
+    <link rel="icon" type="image/png" href="/kols_hub_logo.png" />
+    <link rel="apple-touch-icon" href="/kols_hub_logo.png" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
     
-    <title>Unified Mega App</title>
+    <!-- Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- Fonts - System UI Stack -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+          'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+          sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        background: #111827;
+        color: #f3f4f6;
+        overflow-x: hidden;
+      }
+      
+      #root {
+        width: 100%;
+        min-height: 100vh;
+      }
+      
+      /* Loading Screen */
+      .app-loading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+      }
+      
+      .app-loading h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        font-weight: 700;
+      }
+      
+      .app-loading p {
+        font-size: 1.1rem;
+        opacity: 0.9;
+      }
+      
+      .spinner {
+        width: 50px;
+        height: 50px;
+        border: 3px solid rgba(255, 255, 255, 0.3);
+        border-top-color: white;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        margin: 2rem 0;
+      }
+      
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index-BAZPqfJJ.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/react-vendor-CMKoNPoj.js">
+    <link rel="modulepreload" crossorigin href="/assets/ui-vendor-DkiJMILD.js">
+    <link rel="modulepreload" crossorigin href="/assets/3d-vendor-zgTvyLvk.js">
+    <link rel="modulepreload" crossorigin href="/assets/data-vendor-CtdLCUbi.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-BfwP1UZY.css">
+  <link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
+  <body>
+    <!-- Loading Screen -->
+    <div id="root">
+      <div class="app-loading">
+        <img src="/kols_hub_logo.png" alt="KOL's Hub" style="width: 120px; height: 120px; object-fit: contain; margin-bottom: 1rem;" />
+        <h1>KOL Hub</h1>
+        <div class="spinner"></div>
+        <p>Self-Evolving Personal OS</p>
+        <p style="opacity: 0.7; font-size: 0.9rem; margin-top: 0.5rem;">Loading your personalized environment...</p>
+      </div>
+    </div>
     
     <!-- Service Worker Registration -->
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
           navigator.serviceWorker.register('/service-worker.js')
-            .then(reg => console.log('✅ Service Worker registered:', reg))
-            .catch(err => console.log('❌ Service Worker registration failed:', err));
+            .then(registration => {
+              console.log('🖤 KOL Hub: Service Worker registered successfully:', registration.scope);
+              
+              // Check for updates
+              registration.addEventListener('updatefound', () => {
+                const newWorker = registration.installing;
+                newWorker.addEventListener('statechange', () => {
+                  if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                    console.log('🖤 KOL Hub: New version available! Reload to update.');
+                    // You can show a notification to the user here
+                  }
+                });
+              });
+            })
+            .catch(error => {
+              console.log('🖤 KOL Hub: Service Worker registration failed:', error);
+            });
         });
       }
+
+      // Install prompt handling
+      let deferredPrompt;
+      window.addEventListener('beforeinstallprompt', (e) => {
+        e.preventDefault();
+        deferredPrompt = e;
+        console.log('🖤 KOL Hub: Can be installed as PWA');
+      });
+
+      // Electron detection
+      window.isElectron = !!(window.electronAPI);
+      
+      // Platform detection
+      window.platform = {
+        isElectron: window.isElectron,
+        isWeb: !window.isElectron && !window.Capacitor,
+        isMobile: !!(window.Capacitor),
+        isIOS: /iPad|iPhone|iPod/.test(navigator.userAgent),
+        isAndroid: /Android/.test(navigator.userAgent),
+        isMacOS: /Mac/.test(navigator.platform),
+        isWindows: /Win/.test(navigator.platform),
+        isLinux: /Linux/.test(navigator.platform)
+      };
+
+      console.log('🖤 KOL Hub: Platform detected:', window.platform);
     </script>
-    <script type="module" crossorigin src="./assets/index-DXTSZmNP.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-FHJmE4qp.css">
-  </head>
-  <body>
-    <div id="root"></div>
+    
+    <!-- React App Entry Point -->
   </body>
 </html>

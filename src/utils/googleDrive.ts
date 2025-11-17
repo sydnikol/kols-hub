@@ -11,7 +11,7 @@ export async function authorizeDrive() {
   window.location.href = authUrl;
 }
 
-export async function uploadToDrive(fileName: string, content: Blob) {
+export async function uploadToDrive(fileName: string, _content: Blob) {
   // Placeholder: show offline-sync notice
   alert(`Simulated upload of ${fileName} to Google Drive.`);
 }

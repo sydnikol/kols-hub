@@ -54,14 +54,14 @@ export default function Travel() {
 
       {/* Saved Destinations */}
       {savedDestinations.length > 0 && (
-        <div className="bg-gradient-to-r from-rose-50 to-pink-50 dark:from-rose-900/20 dark:to-pink-900/20 rounded-xl shadow-lg p-6 border-2 border-rose-200 dark:border-rose-800">
+        <div className="bg-gradient-to-r from-purple-50 to-purple-50 dark:from-purple-900/20 dark:to-purple-900/20 rounded-xl shadow-lg p-6 border-2 border-purple-200 dark:border-purple-800">
           <h3 className="text-xl font-bold mb-4 text-gray-800 dark:text-white flex items-center gap-2">
-            <Heart className="w-5 h-5 text-rose-500 fill-rose-500" />
+            <Heart className="w-5 h-5 text-purple-500 fill-purple-500" />
             Saved Destinations ({savedDestinations.length})
           </h3>
           <div className="flex flex-wrap gap-2">
             {savedDestinations.map((dest, idx) => (
-              <div key={idx} className="bg-white dark:bg-gray-800 px-4 py-2 rounded-full text-sm font-medium text-gray-800 dark:text-white border border-rose-300 dark:border-rose-700">
+              <div key={idx} className="bg-white dark:bg-gray-800 px-4 py-2 rounded-full text-sm font-medium text-gray-800 dark:text-white border border-purple-300 dark:border-purple-700">
                 {dest.name}, {dest.country}
               </div>
             ))}
@@ -73,7 +73,7 @@ export default function Travel() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {filteredDestinations.map((dest, index) => (
           <div key={index} className="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-            <div className="bg-gradient-to-br from-blue-400 to-cyan-400 h-32 flex items-center justify-center">
+            <div className="bg-gradient-to-br from-blue-400 to-blue-400 h-32 flex items-center justify-center">
               <Plane className="w-12 h-12 text-white" />
             </div>
             <div className="p-4">
@@ -90,7 +90,7 @@ export default function Travel() {
                   className="p-2 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg transition-colors"
                 >
                   <Heart 
-                    className={`w-5 h-5 ${dest.saved ? 'fill-rose-500 text-rose-500' : 'text-gray-400'}`}
+                    className={`w-5 h-5 ${dest.saved ? 'fill-purple-500 text-purple-500' : 'text-gray-400'}`}
                   />
                 </button>
               </div>

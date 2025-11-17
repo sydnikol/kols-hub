@@ -9,7 +9,7 @@ export default function KOLHub() {
   return (
     <div className="space-y-6 pb-20">
       {/* Header */}
-      <div className="bg-gradient-to-r from-blue-500 to-cyan-500 rounded-xl shadow-lg p-6 text-white">
+      <div className="bg-gradient-to-r from-blue-500 to-blue-500 rounded-xl shadow-lg p-6 text-white">
         <h2 className="text-3xl font-bold mb-2">📊 KOL Hub</h2>
         <p className="text-blue-100">Manage and track key opinion leaders</p>
       </div>
@@ -73,8 +73,8 @@ export default function KOLHub() {
             <p className="text-2xl font-bold text-blue-600 dark:text-blue-400">{sampleKOLs.length}</p>
             <p className="text-sm text-gray-600 dark:text-gray-300">Total KOLs</p>
           </div>
-          <div className="p-4 bg-cyan-50 dark:bg-cyan-900/30 rounded-lg">
-            <p className="text-2xl font-bold text-cyan-600 dark:text-cyan-400">4.7%</p>
+          <div className="p-4 bg-blue-50 dark:bg-blue-900/30 rounded-lg">
+            <p className="text-2xl font-bold text-blue-600 dark:text-blue-400">4.7%</p>
             <p className="text-sm text-gray-600 dark:text-gray-300">Avg Engagement</p>
           </div>
         </div>

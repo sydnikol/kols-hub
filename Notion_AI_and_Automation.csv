@@ -1,3 +1,0 @@
-Category,Feature Name,Description,Linked Route(s),Component,Tags
-AI & Automation,ChronoMuse (AI Twin),"3D time‑travel companion, dress‑up, scene editor, taste memory.",/ai/chronomuse,ChronoMuse,"ai,avatar,3d"
-AI & Automation,Automations,"Water reminders, Spotify routine, system checkers.",/settings,DashboardHome,"automation,reminders"

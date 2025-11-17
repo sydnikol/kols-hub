@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Home, Shirt, Plane, BookOpen, Heart, Mail, Volume2, VolumeX } from 'lucide-react'
+import { Home, Shirt, Plane, BookOpen, Heart, Mail, Volume2, VolumeX, Music } from 'lucide-react'
 
 interface Room {
   name: string
@@ -20,10 +20,18 @@ const ROOMS: Room[] = [
     description: 'Relax, play games, and connect with your support system'
   },
   {
+    name: 'Music',
+    icon: Music,
+    color: 'violet',
+    gradient: 'from-violet-500 to-purple-600',
+    ambient: 'https://cdn.pixabay.com/audio/2023/02/28/audio_550d815fa5.mp3',
+    description: 'Spotify, YouTube, SoundCloud - all your music in one place'
+  },
+  {
     name: 'Wardrobe',
     icon: Shirt,
-    color: 'pink',
-    gradient: 'from-pink-500 to-rose-500',
+    color: 'purple',
+    gradient: 'from-purple-500 to-purple-500',
     ambient: 'https://cdn.pixabay.com/audio/2022/03/10/audio_c9c5d0c638.mp3',
     description: 'Style yourself, try on outfits, and express your aesthetic'
   },
@@ -31,7 +39,7 @@ const ROOMS: Room[] = [
     name: 'Health',
     icon: Heart,
     color: 'red',
-    gradient: 'from-red-500 to-pink-500',
+    gradient: 'from-red-500 to-purple-500',
     ambient: 'https://cdn.pixabay.com/audio/2022/05/13/audio_257112e87f.mp3',
     description: 'Track medications, monitor vitals, and manage your health'
   },
@@ -39,15 +47,15 @@ const ROOMS: Room[] = [
     name: 'Communications',
     icon: Mail,
     color: 'blue',
-    gradient: 'from-blue-500 to-cyan-500',
+    gradient: 'from-blue-500 to-blue-500',
     ambient: 'https://cdn.pixabay.com/audio/2022/03/15/audio_5e8a0d4461.mp3',
     description: 'Email, contacts, and MyChart - all in one place'
   },
   {
     name: 'Travel',
     icon: Plane,
-    color: 'cyan',
-    gradient: 'from-cyan-500 to-teal-500',
+    color: 'blue',
+    gradient: 'from-blue-500 to-blue-500',
     ambient: 'https://cdn.pixabay.com/audio/2022/03/15/audio_5e8a0d4461.mp3',
     description: 'Plan adventures, explore destinations, and dream of places'
   },
@@ -55,7 +63,7 @@ const ROOMS: Room[] = [
     name: 'Study',
     icon: BookOpen,
     color: 'emerald',
-    gradient: 'from-emerald-500 to-teal-600',
+    gradient: 'from-emerald-500 to-blue-600',
     ambient: 'https://cdn.pixabay.com/audio/2022/05/27/audio_1808fbf07a.mp3',
     description: 'Focus on work, manage projects, and boost productivity'
   }

@@ -1,16 +1,19 @@
 // Simple PWA service worker for offline caching
 const CACHE = "kolhub-v3";
 
-self.addEventListener("install", (event: any) => {
+// Type assertion for service worker context
+const sw = self as any;
+
+sw.addEventListener("install", (event: any) => {
   event.waitUntil(
     caches.open(CACHE).then((cache) =>
       cache.addAll(["/", "/index.html", "/manifest.json", "/favicon.ico"])
     )
   );
-  self.skipWaiting();
+  sw.skipWaiting();
 });
 
-self.addEventListener("activate", (event: any) => {
+sw.addEventListener("activate", (event: any) => {
   event.waitUntil(
     caches.keys().then((keys) =>
       Promise.all(keys.map((key) => key !== CACHE && caches.delete(key)))
@@ -18,7 +21,7 @@ self.addEventListener("activate", (event: any) => {
   );
 });
 
-self.addEventListener("fetch", (event: any) => {
+sw.addEventListener("fetch", (event: any) => {
   event.respondWith(
     caches.match(event.request).then(
       (resp) =>

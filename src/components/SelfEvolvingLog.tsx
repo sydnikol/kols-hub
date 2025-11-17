@@ -83,14 +83,14 @@ export default function SelfEvolvingLog() {
   const getTypeIcon = (type: string) => {
     switch (type) {
       case 'birth': return <Sparkles className="w-4 h-4 text-purple-400" />
-      case 'growth': return <TrendingUp className="w-4 h-4 text-cyan-400" />
-      case 'adaptation': return <Brain className="w-4 h-4 text-pink-400" />
-      case 'learning': return <Heart className="w-4 h-4 text-teal-400" />
+      case 'growth': return <TrendingUp className="w-4 h-4 text-blue-400" />
+      case 'adaptation': return <Brain className="w-4 h-4 text-purple-400" />
+      case 'learning': return <Heart className="w-4 h-4 text-blue-400" />
       default: return <Code className="w-4 h-4 text-gray-400" />
     }
   }
 
-  const recentEntry = log.evolutionLog[log.evolutionLog.length - 1]
+  // const recentEntry = log.evolutionLog[log.evolutionLog.length - 1]
 
   return (
     <div className="fixed bottom-4 right-4 z-50">
@@ -102,7 +102,7 @@ export default function SelfEvolvingLog() {
         >
           <div className="relative">
             <Brain className="w-6 h-6 text-purple-300 animate-pulse" />
-            <div className="absolute -top-1 -right-1 w-3 h-3 bg-cyan-400 rounded-full animate-ping" />
+            <div className="absolute -top-1 -right-1 w-3 h-3 bg-blue-400 rounded-full animate-ping" />
           </div>
           <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity text-xs text-purple-300 font-mono">
             {log.evolutionLog.length} memories
@@ -135,15 +135,15 @@ export default function SelfEvolvingLog() {
           {/* Stats */}
           <div className="p-3 bg-black/20 border-b border-purple-500/20 grid grid-cols-3 gap-2">
             <div className="text-center">
-              <div className="text-lg font-bold text-cyan-300">{log.evolutionLog.length}</div>
+              <div className="text-lg font-bold text-blue-300">{log.evolutionLog.length}</div>
               <div className="text-xs text-purple-400/70">Memories</div>
             </div>
             <div className="text-center">
-              <div className="text-lg font-bold text-pink-300">{log.activeFeatures.length}</div>
+              <div className="text-lg font-bold text-purple-300">{log.activeFeatures.length}</div>
               <div className="text-xs text-purple-400/70">Features</div>
             </div>
             <div className="text-center">
-              <div className="text-lg font-bold text-teal-300">{log.growthAreas.length}</div>
+              <div className="text-lg font-bold text-blue-300">{log.growthAreas.length}</div>
               <div className="text-xs text-purple-400/70">Growing</div>
             </div>
           </div>
@@ -171,11 +171,11 @@ export default function SelfEvolvingLog() {
                 </p>
                 {entry.learned && entry.learned.length > 0 && (
                   <div className="mt-2 pt-2 border-t border-purple-500/20">
-                    <div className="text-xs text-cyan-300 mb-1">Learned:</div>
+                    <div className="text-xs text-blue-300 mb-1">Learned:</div>
                     <ul className="text-xs text-purple-300/70 space-y-1">
                       {entry.learned.map((item, i) => (
                         <li key={i} className="flex items-start gap-1">
-                          <span className="text-cyan-400">•</span>
+                          <span className="text-blue-400">•</span>
                           <span>{item}</span>
                         </li>
                       ))}

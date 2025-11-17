@@ -1,7 +1,0 @@
-Category,Feature Name,Description,Linked Route(s),Component,Tags
-Health,Meds & Vitals Tracker,"Log meds, dosages, vitals; refill alerts and trends.","/health/meds, /health/vitals","MedsTracker,VitalsTracker","health,tracking"
-Health,Hydration + Sodium,2–3L fluids + 4000mg sodium targets with hourly reminders.,/health/hydration,HydrationSodium,"hydration,sodium,reminders"
-Health,Body Weather,Quick daily pain/energy/mood notes; weekly trend graphs.,/health/body-weather,BodyWeather,"journaling,tracking"
-Health,Physical Therapy,Approved PT routines with reps/sets and safety notes.,/health/pt,PhysicalTherapy,"pt,exercise"
-Health,Emergency Suite,"Wallpaper, wallet/support cards, quick-dial & freeze protocol.",/health/emergency,EmergencySuite,"emergency,crisis"
-Health,Medical File Vault,"Store labs, notes, insurance; tag by condition.",/health,HealthHome,"files,docs"

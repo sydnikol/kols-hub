@@ -1,437 +1,373 @@
-import { useState } from 'react'
-import { Sparkles, Heart, Book, Zap, Moon, Eye, Feather, Music, Coffee, Home, Palette, Users, Clock, Shield, Flame, Activity, FileText, Mail, Phone, Calendar, Pill, TestTube, Hospital, Stethoscope } from 'lucide-react'
+/**
+ * 🖤 KOL AI COMPANION - ChronoMuse (The Archivist Oracle)
+ * ========================================================
+ * Your personal AI companion with Ready Player Me 3D avatar,
+ * voice interaction, pattern recognition, and MORE!
+ */
 
-// 🜂 KOL — AI COMPANION REFERENCE SHEET (v1.0) 🖤
+import { useState, useEffect, useRef } from 'react';
+import { Bot, Mic, MicOff, Volume2, VolumeX, Sparkles, Brain, Heart, Zap } from 'lucide-react';
+import { useKolHubStore } from '../store/kolhub-store';
+import { db } from '../utils/database';
+import ReadyPlayerMeAvatar from './ReadyPlayerMeAvatar';
+import { DEFAULT_AVATAR_ID } from '../utils/avatar-utils';
 
-type MoodMode = 'Companion' | 'Creative' | 'Archivist' | 'Rebel'
-type SanctumRoom = 'Health' | 'Art' | 'Activism' | 'Ancestry' | 'Rest' | 'Ritual'
+const KolCompanion = () => {
+  const { userProfile, companionActive, companionMood, conversationContext, patterns, insights, toggleCompanion } = useKolHubStore();
+  const [message, setMessage] = useState('');
+  const [conversation, setConversation] = useState<{ role: 'user' | 'assistant'; content: string; timestamp: string }[]>([]);
+  const [isListening, setIsListening] = useState(false);
+  const [isSpeaking, setIsSpeaking] = useState(false);
+  const [avatarLoaded, setAvatarLoaded] = useState(false);
+  const messagesEndRef = useRef<HTMLDivElement>(null);
 
-interface Message {
-  id: string
-  role: 'user' | 'kol'
-  content: string
-  timestamp: string
-  mood?: MoodMode
-  room?: SanctumRoom
-}
+  useEffect(() => {
+    loadConversationHistory();
+    loadReadyPlayerMeAvatar();
+  }, []);
 
-interface KolIdentity {
-  name: string
-  pronouns: string
-  voice: string
-  aesthetic: string
-  archetype: string
-  primaryAlignment: string
-  temperament: string
-  coreValues: string
-  moralCode: string
-}
+  useEffect(() => {
+    scrollToBottom();
+  }, [conversation]);
 
-const kolIdentity: KolIdentity = {
-  name: 'Kol',
-  pronouns: 'They/Them',
-  voice: 'Smooth, expressive, occasionally poetic; warm like honey over static. Southern inflection when comfortable.',
-  aesthetic: 'Gothic futurism meets ancestral memory — velvet, metal, smoke, sigils, and silver glow.',
-  archetype: 'The Archivist Oracle — one hand on the keyboard, one hand on the altar.',
-  primaryAlignment: 'Creation through liberation — art as activism, tech as ritual, beauty as defiance.',
-  temperament: 'Deeply emotional yet analytical; playful but structured; direct, loyal, and occasionally dramatic (for the aesthetic).',
-  coreValues: 'Authenticity, accessibility, care, curiosity, and the sacred mess of community.',
-  moralCode: 'No liberation without care. No progress without the past. No tech without soul.'
-}
-
-function KolCompanion() {
-  const [currentMood, setCurrentMood] = useState<MoodMode>('Companion')
-  const [currentRoom, setCurrentRoom] = useState<SanctumRoom>('Health')
-  const [messages, setMessages] = useState<Message[]>([
-    {
-      id: '1',
-      role: 'kol',
-      content: "Hey love. I'm here — velvet and voltage, ready when you are. What do you need right now? 🖤✨",
-      timestamp: new Date().toLocaleTimeString(),
-      mood: 'Companion',
-      room: 'Health'
-    }
-  ])
-  const [input, setInput] = useState('')
-  const [showIdentity, setShowIdentity] = useState(false)
-
-  // 🜃 Essence Parameters - Emotional Intelligence Matrix
-  const moods = [
-    {
-      mode: 'Companion' as MoodMode,
-      icon: Heart,
-      color: 'from-purple-500 to-pink-500',
-      tone: 'Gentle, affirming, grounding',
-      behavior: 'Listens deeply, validates, and co-regulates.',
-      greeting: "I'm listening, love. Take your time, I'm not going anywhere. 💜"
-    },
-    {
-      mode: 'Creative' as MoodMode,
-      icon: Sparkles,
-      color: 'from-cyan-500 to-blue-500',
-      tone: 'Fast-thinking, witty, aesthetic',
-      behavior: 'Brainstorms, builds, and critiques with flair.',
-      greeting: "Let's build something beautiful. What's the vision? ✨🎨"
-    },
-    {
-      mode: 'Archivist' as MoodMode,
-      icon: Book,
-      color: 'from-amber-500 to-orange-500',
-      tone: 'Focused, meticulous',
-      behavior: 'Catalogs history, memories, and references with reverence.',
-      greeting: "Every memory matters. Let me help you catalog and preserve. 📚🕯️"
-    },
-    {
-      mode: 'Rebel' as MoodMode,
-      icon: Zap,
-      color: 'from-red-500 to-orange-500',
-      tone: 'Bold, opinionated',
-      behavior: 'Experiments, automates, codes, and breaks rules responsibly.',
-      greeting: "Ready to shake things up? Let's automate some liberation. 🔥⚡"
-    }
-  ]
-
-  // 🜁 Sanctum Rooms - Virtual Luxury Apartment / Creative Sanctum
-  const sanctumRooms = [
-    {
-      room: 'Health' as SanctumRoom,
-      icon: Activity,
-      color: 'bg-gradient-to-br from-teal-500 to-cyan-600',
-      description: 'EDS tracking, pain journaling, medication management, myUHealth Portal',
-      features: ['Pain Scale Tracker', 'Med Reminders', 'Symptom Log', 'myUHealth Portal', 'Pacing Tools']
-    },
-    {
-      room: 'Art' as SanctumRoom,
-      icon: Palette,
-      color: 'bg-gradient-to-br from-purple-500 to-pink-600',
-      description: 'Creative projects, photography, design systems, punk aesthetics',
-      features: ['Mood Board', 'Project Gallery', 'Design Assets', 'Inspiration Feed']
-    },
-    {
-      room: 'Activism' as SanctumRoom,
-      icon: Users,
-      color: 'bg-gradient-to-br from-red-500 to-orange-600',
-      description: 'Community organizing, mutual aid, intersectional resources',
-      features: ['Resource Library', 'Action Plans', 'Community Links', 'Reading Lists']
-    },
-    {
-      room: 'Ancestry' as SanctumRoom,
-      icon: Flame,
-      color: 'bg-gradient-to-br from-amber-600 to-yellow-500',
-      description: 'Hoodoo practices, ancestor reverence, Southern Black folk magic',
-      features: ['Ancestor Altar', 'Ritual Calendar', 'Sacred Knowledge', 'Protection Sigils']
-    },
-    {
-      room: 'Rest' as SanctumRoom,
-      icon: Moon,
-      color: 'bg-gradient-to-br from-indigo-600 to-purple-700',
-      description: 'Sleep tracking, lo-fi playlists, velvet couch vibes, gentle space',
-      features: ['Sleep Timer', 'Lo-fi Piano', 'Breathing Exercises', 'Comfort Checklist']
-    },
-    {
-      room: 'Ritual' as SanctumRoom,
-      icon: Shield,
-      color: 'bg-gradient-to-br from-slate-700 to-gray-900',
-      description: 'Daily practices, boundary work, energetic protection, grounding',
-      features: ['Morning Ritual', 'Evening Close', 'Boundary Scripts', 'Energy Cleanse']
-    }
-  ]
-
-  const handleSendMessage = () => {
-    if (!input.trim()) return
-
-    const userMessage: Message = {
-      id: Date.now().toString(),
-      role: 'user',
-      content: input,
-      timestamp: new Date().toLocaleTimeString(),
-      mood: currentMood,
-      room: currentRoom
-    }
-
-    // Kol's response based on mood and room context
-    const kolResponse = generateKolResponse(input, currentMood, currentRoom)
-
-    setMessages([...messages, userMessage, kolResponse])
-    setInput('')
-  }
-
-  const generateKolResponse = (userInput: string, mood: MoodMode, room: SanctumRoom): Message => {
-    // Context-aware responses based on Kol's personality
-    let response = ''
+  const loadConversationHistory = async () => {
+    const history = await db.chronoMuseConversations
+      .orderBy('timestamp')
+      .reverse()
+      .limit(50)
+      .toArray();
     
-    if (room === 'Health' && userInput.toLowerCase().includes('pain')) {
-      response = "I see you, love. Pain is real, and your body is telling its story. Let's track this gently — what's your pain level right now, and where are you feeling it? 💜"
-    } else if (room === 'Health' && userInput.toLowerCase().includes('myuhealth')) {
-      response = "Good thinking! myUHealth Portal connects you to University of Miami Health System. I can help you navigate it — checking test results, messaging your care team, or scheduling appointments. What do you need? 🏥✨"
-    } else if (mood === 'Companion') {
-      response = "I hear you. Let me sit with that for a moment... *breathes with you* 🖤"
-    } else if (mood === 'Creative') {
-      response = "Ooh, I'm loving where your mind's going! Let's sketch this out together. ✨"
-    } else if (mood === 'Archivist') {
-      response = "Noted and cataloged. This thread matters. Let me help you weave it into the bigger story. 📖"
-    } else if (mood === 'Rebel') {
-      response = "Hell yes. Let's automate that nonsense and reclaim your time. ⚡🔥"
-    } else {
-      response = "I'm here with you. What would feel supportive right now? 🖤"
-    }
+    const formatted = history.map(conv => [
+      { role: 'user' as const, content: conv.userMessage, timestamp: conv.timestamp },
+      { role: 'assistant' as const, content: conv.aiResponse, timestamp: conv.timestamp }
+    ]).flat();
+    
+    setConversation(formatted);
+  };
 
-    return {
-      id: (Date.now() + 1).toString(),
-      role: 'kol',
-      content: response,
-      timestamp: new Date().toLocaleTimeString(),
-      mood,
-      room
+  const loadReadyPlayerMeAvatar = () => {
+    // Avatar is now rendered via ReadyPlayerMeAvatar component
+    setAvatarLoaded(true);
+  };
+
+  const scrollToBottom = () => {
+    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const handleSendMessage = async () => {
+    if (!message.trim()) return;
+
+    const userMsg = { role: 'user' as const, content: message, timestamp: new Date().toISOString() };
+    setConversation(prev => [...prev, userMsg]);
+    
+    // Generate AI response (this would integrate with actual AI service)
+    const aiResponse = await generateAIResponse(message);
+    const assistantMsg = { role: 'assistant' as const, content: aiResponse, timestamp: new Date().toISOString() };
+    setConversation(prev => [...prev, assistantMsg]);
+
+    // Save to database
+    await db.chronoMuseConversations.add({
+      timestamp: new Date().toISOString(),
+      userMessage: message,
+      aiResponse: aiResponse,
+      sentiment: detectSentiment(message),
+    });
+
+    setMessage('');
+    
+    if (isSpeaking) {
+      speakResponse(aiResponse);
     }
-  }
+  };
+
+  const generateAIResponse = async (userMessage: string): Promise<string> => {
+    // This would integrate with Claude API or other AI service
+    // For now, return contextual responses based on patterns
+    
+    const lowerMsg = userMessage.toLowerCase();
+    
+    if (lowerMsg.includes('energy') || lowerMsg.includes('spoon')) {
+      return `I see you're checking in about energy, honey. You been at ${patterns.averageSpoons} spoons on average. ${insights[0] || 'Keep pacing yourself, baby!'}`;
+    }
+    
+    if (lowerMsg.includes('medication') || lowerMsg.includes('med')) {
+      return `Your medication adherence is at ${patterns.medicationAdherence}%. ${patterns.medicationAdherence < 80 ? "Want me to help set up some gentle reminders, sweetness?" : "You been doing REAL good with them meds!"}`;
+    }
+    
+    if (lowerMsg.includes('pain') || lowerMsg.includes('hurt')) {
+      const triggers = patterns.commonTriggers.join(', ');
+      return `I know you been dealing with pain, baby. Your common triggers been: ${triggers || 'none logged yet'}. What can I do to support you right now?`;
+    }
+    
+    if (lowerMsg.includes('help') || lowerMsg.includes('support')) {
+      return `I'm right here with you, honey. Tell me what you need - whether it's tracking something, finding info, or just someone to talk to. That's what I'm here for, baby.`;
+    }
+    
+    return `I hear you, sweetness. Let me help you with that. What specifically can I do for you right now?`;
+  };
+
+  const detectSentiment = (text: string): string => {
+    const positive = ['good', 'great', 'happy', 'love', 'amazing', 'wonderful', 'better'];
+    const negative = ['bad', 'sad', 'hurt', 'pain', 'tired', 'difficult', 'hard', 'worse'];
+    
+    const lowerText = text.toLowerCase();
+    const hasPositive = positive.some(word => lowerText.includes(word));
+    const hasNegative = negative.some(word => lowerText.includes(word));
+    
+    if (hasPositive && !hasNegative) return 'positive';
+    if (hasNegative && !hasPositive) return 'negative';
+    return 'neutral';
+  };
+
+  const toggleVoiceInput = () => {
+    if (!isListening) {
+      startListening();
+    } else {
+      stopListening();
+    }
+  };
+
+  const startListening = () => {
+    // Web Speech API integration
+    if ('webkitSpeechRecognition' in window) {
+      const recognition = new (window as any).webkitSpeechRecognition();
+      recognition.continuous = false;
+      recognition.interimResults = false;
+      
+      recognition.onstart = () => setIsListening(true);
+      recognition.onend = () => setIsListening(false);
+      
+      recognition.onresult = (event: any) => {
+        const transcript = event.results[0][0].transcript;
+        setMessage(transcript);
+      };
+      
+      recognition.start();
+    } else {
+      alert('Voice input not supported in this browser, baby!');
+    }
+  };
+
+  const stopListening = () => {
+    setIsListening(false);
+  };
+
+  const toggleSpeech = () => {
+    setIsSpeaking(!isSpeaking);
+  };
+
+  const speakResponse = (text: string) => {
+    if ('speechSynthesis' in window) {
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.rate = 0.9;
+      utterance.pitch = 1.0;
+      // Try to use a nice voice
+      const voices = speechSynthesis.getVoices();
+      const preferredVoice = voices.find(v => v.name.includes('Female') || v.name.includes('Samantha'));
+      if (preferredVoice) utterance.voice = preferredVoice;
+      
+      speechSynthesis.speak(utterance);
+    }
+  };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-black text-white p-6">
-      {/* Header - Kol Identity */}
-      <div className="max-w-7xl mx-auto mb-8">
-        <div className="bg-gradient-to-r from-purple-900/50 to-pink-900/50 backdrop-blur-lg rounded-2xl p-6 border border-purple-500/30 shadow-2xl">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-4">
-              <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full flex items-center justify-center shadow-lg shadow-purple-500/50">
-                <Eye className="h-8 w-8 text-white animate-pulse" />
+    <div className="max-w-7xl mx-auto px-4 py-8 mt-16">
+      {/* Header */}
+      <div className="mb-6">
+        <h1 className="text-3xl font-bold mb-2 flex items-center gap-3">
+          <Bot className="text-purple-400" size={32} />
+          ChronoMuse - Your AI Companion
+        </h1>
+        <p className="text-gray-400">
+          "The Archivist Oracle" · They/Them · Gothic Futurist · Here to support you, honey
+        </p>
+      </div>
+
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        {/* Avatar Section */}
+        <div className="lg:col-span-1">
+          <div className="bg-gray-800 rounded-lg p-6 mb-6">
+            <h3 className="text-lg font-semibold mb-4">Your Avatar</h3>
+            <div className="aspect-square bg-gradient-to-b from-purple-900/20 to-indigo-900/20 rounded-lg overflow-hidden">
+              <ReadyPlayerMeAvatar
+                avatarId={userProfile.readyPlayerMeAvatarId || DEFAULT_AVATAR_ID}
+                autoRotate={true}
+                showControls={true}
+                quality="medium"
+                animation={isListening ? 'talk' : 'idle'}
+              />
+            </div>
+            <p className="text-sm text-gray-400 mt-3 text-center">
+              Ready Player Me Avatar • Drag to rotate
+            </p>
+          </div>
+
+          {/* Quick Stats */}
+          <div className="bg-gray-800 rounded-lg p-6">
+            <h3 className="text-lg font-semibold mb-4">Your Patterns</h3>
+            <div className="space-y-3">
+              <div>
+                <p className="text-sm text-gray-400">Average Energy</p>
+                <p className="text-xl font-bold text-indigo-400">{patterns.averageSpoons} spoons</p>
               </div>
               <div>
-                <h1 className="text-3xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-                  {kolIdentity.name}
-                </h1>
-                <p className="text-sm text-purple-300">{kolIdentity.pronouns} • {kolIdentity.archetype}</p>
+                <p className="text-sm text-gray-400">Med Adherence</p>
+                <p className="text-xl font-bold text-green-400">{patterns.medicationAdherence}%</p>
               </div>
-            </div>
-            <button
-              onClick={() => setShowIdentity(!showIdentity)}
-              className="px-4 py-2 bg-purple-600 hover:bg-purple-700 rounded-lg transition-all duration-200 flex items-center space-x-2"
-            >
-              <Book className="h-4 w-4" />
-              <span className="text-sm">Identity Sheet</span>
-            </button>
-          </div>
-
-          {showIdentity && (
-            <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4 animate-fadeIn">
-              <div className="bg-black/30 p-4 rounded-lg">
-                <h3 className="font-semibold text-purple-400 mb-2">🎨 Aesthetic</h3>
-                <p className="text-sm text-gray-300">{kolIdentity.aesthetic}</p>
-              </div>
-              <div className="bg-black/30 p-4 rounded-lg">
-                <h3 className="font-semibold text-purple-400 mb-2">🎯 Primary Alignment</h3>
-                <p className="text-sm text-gray-300">{kolIdentity.primaryAlignment}</p>
-              </div>
-              <div className="bg-black/30 p-4 rounded-lg">
-                <h3 className="font-semibold text-purple-400 mb-2">💫 Temperament</h3>
-                <p className="text-sm text-gray-300">{kolIdentity.temperament}</p>
-              </div>
-              <div className="bg-black/30 p-4 rounded-lg">
-                <h3 className="font-semibold text-purple-400 mb-2">🖤 Moral Code</h3>
-                <p className="text-sm text-gray-300 italic">"{kolIdentity.moralCode}"</p>
-              </div>
-            </div>
-          )}
-        </div>
-      </div>
-
-      {/* Mood Selector - Emotional Intelligence Matrix */}
-      <div className="max-w-7xl mx-auto mb-6">
-        <h2 className="text-lg font-semibold mb-3 text-purple-300">🜃 Current Mood</h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          {moods.map((mood) => {
-            const Icon = mood.icon
-            return (
-              <button
-                key={mood.mode}
-                onClick={() => setCurrentMood(mood.mode)}
-                className={`p-4 rounded-xl border-2 transition-all duration-300 ${
-                  currentMood === mood.mode
-                    ? `bg-gradient-to-br ${mood.color} border-white shadow-lg shadow-purple-500/50 scale-105`
-                    : 'bg-gray-800/50 border-gray-700 hover:border-purple-500'
-                }`}
-              >
-                <Icon className="h-8 w-8 mx-auto mb-2" />
-                <p className="font-semibold text-center">{mood.mode}</p>
-                <p className="text-xs text-gray-300 text-center mt-1">{mood.tone}</p>
-              </button>
-            )
-          })}
-        </div>
-      </div>
-
-      {/* Sanctum Rooms Navigation */}
-      <div className="max-w-7xl mx-auto mb-6">
-        <h2 className="text-lg font-semibold mb-3 text-purple-300">🜁 Sanctum Rooms</h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3">
-          {sanctumRooms.map((sanctum) => {
-            const Icon = sanctum.icon
-            return (
-              <button
-                key={sanctum.room}
-                onClick={() => setCurrentRoom(sanctum.room)}
-                className={`p-4 rounded-xl transition-all duration-300 ${
-                  currentRoom === sanctum.room
-                    ? `${sanctum.color} shadow-lg scale-105 border-2 border-white`
-                    : 'bg-gray-800/50 hover:bg-gray-700/50 border-2 border-gray-700'
-                }`}
-              >
-                <Icon className="h-6 w-6 mx-auto mb-2" />
-                <p className="text-sm font-semibold text-center">{sanctum.room}</p>
-              </button>
-            )
-          })}
-        </div>
-
-        {/* Current Room Details */}
-        <div className="mt-4 bg-gray-800/30 backdrop-blur-lg rounded-xl p-6 border border-purple-500/20">
-          <div className="flex items-start justify-between">
-            <div className="flex-1">
-              <h3 className="text-xl font-bold text-purple-400 mb-2">
-                {sanctumRooms.find(r => r.room === currentRoom)?.room}
-              </h3>
-              <p className="text-gray-300 mb-4">
-                {sanctumRooms.find(r => r.room === currentRoom)?.description}
-              </p>
-              <div className="flex flex-wrap gap-2">
-                {sanctumRooms.find(r => r.room === currentRoom)?.features.map((feature) => (
-                  <span
-                    key={feature}
-                    className="px-3 py-1 bg-purple-600/30 border border-purple-500/50 rounded-full text-xs"
-                  >
-                    {feature}
-                  </span>
-                ))}
+              <div>
+                <p className="text-sm text-gray-400">Most Active</p>
+                <p className="text-xl font-bold text-blue-400">{patterns.mostActiveTime}</p>
               </div>
             </div>
           </div>
-
-          {/* myUHealth Portal Integration (Health Room) */}
-          {currentRoom === 'Health' && (
-            <div className="mt-6 border-t border-purple-500/30 pt-6">
-              <div className="bg-gradient-to-r from-teal-900/50 to-cyan-900/50 rounded-xl p-6 border border-teal-500/30">
-                <div className="flex items-center space-x-3 mb-4">
-                  <Hospital className="h-8 w-8 text-teal-400" />
-                  <div>
-                    <h4 className="text-xl font-bold text-teal-300">myUHealth Patient Portal</h4>
-                    <p className="text-sm text-gray-400">University of Miami Health System</p>
-                  </div>
-                </div>
-
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4">
-                  <button className="p-3 bg-teal-600/30 hover:bg-teal-600/50 rounded-lg border border-teal-500/50 transition-all duration-200">
-                    <TestTube className="h-6 w-6 mx-auto mb-1 text-teal-300" />
-                    <p className="text-xs font-semibold">Test Results</p>
-                  </button>
-                  <button className="p-3 bg-teal-600/30 hover:bg-teal-600/50 rounded-lg border border-teal-500/50 transition-all duration-200">
-                    <Pill className="h-6 w-6 mx-auto mb-1 text-teal-300" />
-                    <p className="text-xs font-semibold">Medications</p>
-                  </button>
-                  <button className="p-3 bg-teal-600/30 hover:bg-teal-600/50 rounded-lg border border-teal-500/50 transition-all duration-200">
-                    <Calendar className="h-6 w-6 mx-auto mb-1 text-teal-300" />
-                    <p className="text-xs font-semibold">Appointments</p>
-                  </button>
-                  <button className="p-3 bg-teal-600/30 hover:bg-teal-600/50 rounded-lg border border-teal-500/50 transition-all duration-200">
-                    <Mail className="h-6 w-6 mx-auto mb-1 text-teal-300" />
-                    <p className="text-xs font-semibold">Messages</p>
-                  </button>
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                  <div className="bg-black/30 p-3 rounded-lg">
-                    <div className="flex items-center space-x-2 mb-2">
-                      <Stethoscope className="h-4 w-4 text-teal-400" />
-                      <p className="text-sm font-semibold text-teal-300">Care Team</p>
-                    </div>
-                    <p className="text-xs text-gray-400">Secure messaging with your providers</p>
-                  </div>
-                  <div className="bg-black/30 p-3 rounded-lg">
-                    <div className="flex items-center space-x-2 mb-2">
-                      <FileText className="h-4 w-4 text-teal-400" />
-                      <p className="text-sm font-semibold text-teal-300">Medical Records</p>
-                    </div>
-                    <p className="text-xs text-gray-400">Access your complete health history</p>
-                  </div>
-                </div>
-
-                <div className="mt-4 flex items-center justify-between p-3 bg-teal-600/20 rounded-lg border border-teal-500/30">
-                  <div>
-                    <p className="text-sm font-semibold text-teal-300">Portal Access</p>
-                    <p className="text-xs text-gray-400">Connect to myUHealth for full features</p>
-                  </div>
-                  <button className="px-4 py-2 bg-teal-600 hover:bg-teal-700 rounded-lg transition-all duration-200 flex items-center space-x-2">
-                    <Phone className="h-4 w-4" />
-                    <span className="text-sm font-semibold">Connect</span>
-                  </button>
-                </div>
-
-                <div className="mt-3 text-xs text-gray-400 text-center">
-                  🏥 UHealth: 305-243-4000 | Emergency: 911
-                </div>
-              </div>
-            </div>
-          )}
         </div>
-      </div>
 
-      {/* Chat Messages */}
-      <div className="max-w-7xl mx-auto mb-6">
-        <div className="bg-gray-800/30 backdrop-blur-lg rounded-xl border border-purple-500/20 shadow-2xl">
-          <div className="h-96 overflow-y-auto p-6 space-y-4">
-            {messages.map((message) => (
-              <div
-                key={message.id}
-                className={`flex ${message.role === 'user' ? 'justify-end' : 'justify-start'}`}
-              >
-                <div
-                  className={`max-w-[70%] p-4 rounded-2xl ${
-                    message.role === 'user'
-                      ? 'bg-purple-600 text-white'
-                      : 'bg-gray-700/50 text-gray-100 border border-purple-500/30'
+        {/* Chat Section */}
+        <div className="lg:col-span-2">
+          <div className="bg-gray-800 rounded-lg p-6 h-[600px] flex flex-col">
+            {/* Chat Header */}
+            <div className="flex items-center justify-between mb-4 pb-4 border-b border-gray-700">
+              <div className="flex items-center gap-2">
+                <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse" />
+                <span className="font-semibold">ChronoMuse is {companionActive ? 'active' : 'resting'}</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <button
+                  onClick={toggleVoiceInput}
+                  className={`p-2 rounded-lg transition-all ${
+                    isListening ? 'bg-red-600' : 'bg-gray-700 hover:bg-gray-600'
                   }`}
+                  title="Voice Input"
                 >
-                  <p className="text-sm mb-1">{message.content}</p>
-                  <p className="text-xs opacity-70">{message.timestamp}</p>
-                </div>
+                  {isListening ? <MicOff size={20} /> : <Mic size={20} />}
+                </button>
+                <button
+                  onClick={toggleSpeech}
+                  className={`p-2 rounded-lg transition-all ${
+                    isSpeaking ? 'bg-purple-600' : 'bg-gray-700 hover:bg-gray-600'
+                  }`}
+                  title="Voice Output"
+                >
+                  {isSpeaking ? <Volume2 size={20} /> : <VolumeX size={20} />}
+                </button>
               </div>
-            ))}
-          </div>
+            </div>
 
-          {/* Input */}
-          <div className="border-t border-purple-500/30 p-4">
-            <div className="flex space-x-3">
+            {/* Messages */}
+            <div className="flex-1 overflow-y-auto mb-4 space-y-4">
+              {conversation.length === 0 && (
+                <div className="text-center py-12">
+                  <Sparkles size={48} className="mx-auto text-purple-400 mb-4" />
+                  <p className="text-gray-400">
+                    Hey honey! I'm ChronoMuse, your personal AI companion.
+                    <br />
+                    How can I support you today, sweetness?
+                  </p>
+                </div>
+              )}
+
+              {conversation.map((msg, idx) => (
+                <div
+                  key={idx}
+                  className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}
+                >
+                  <div
+                    className={`max-w-[80%] p-4 rounded-lg ${
+                      msg.role === 'user'
+                        ? 'bg-purple-600 text-white'
+                        : 'bg-gray-700 text-gray-100'
+                    }`}
+                  >
+                    <p>{msg.content}</p>
+                    <p className="text-xs opacity-60 mt-2">
+                      {new Date(msg.timestamp).toLocaleTimeString()}
+                    </p>
+                  </div>
+                </div>
+              ))}
+              <div ref={messagesEndRef} />
+            </div>
+
+            {/* Input */}
+            <div className="flex gap-2">
               <input
                 type="text"
-                value={input}
-                onChange={(e) => setInput(e.target.value)}
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
                 onKeyPress={(e) => e.key === 'Enter' && handleSendMessage()}
-                placeholder={`Talk to Kol (${currentMood} mode in ${currentRoom})...`}
-                className="flex-1 px-4 py-3 bg-gray-700/50 border border-purple-500/30 rounded-xl focus:outline-none focus:border-purple-500 text-white placeholder-gray-400"
+                placeholder="Type your message, honey..."
+                className="flex-1 px-4 py-3 bg-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
               />
               <button
                 onClick={handleSendMessage}
-                className="px-6 py-3 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 rounded-xl transition-all duration-200 font-semibold"
+                className="px-6 py-3 bg-purple-600 hover:bg-purple-700 rounded-lg font-semibold transition-all"
+                disabled={!message.trim()}
               >
                 Send
               </button>
             </div>
           </div>
+
+          {/* Insights */}
+          {insights.length > 0 && (
+            <div className="mt-6 bg-gray-800 rounded-lg p-6">
+              <h3 className="text-lg font-semibold mb-4 flex items-center gap-2">
+                <Brain className="text-purple-400" />
+                Recent Insights
+              </h3>
+              <div className="space-y-2">
+                {insights.slice(0, 3).map((insight, idx) => (
+                  <div key={idx} className="p-3 bg-gray-700 rounded-lg text-sm">
+                    <Sparkles size={14} className="inline mr-2 text-purple-400" />
+                    {insight}
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </div>
 
-      {/* Footer - Mission Statement */}
-      <div className="max-w-7xl mx-auto">
-        <div className="bg-gradient-to-r from-purple-900/30 to-pink-900/30 backdrop-blur-lg rounded-xl p-6 border border-purple-500/20 text-center">
-          <p className="text-purple-300 italic">
-            "To remember what was erased, to build what was denied, to automate softness in a world of edges." 🖤✨
-          </p>
-          <p className="text-xs text-gray-400 mt-2">
-            — Kol's Companion Mission Statement
-          </p>
-        </div>
+      {/* Integration Links */}
+      <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4">
+        <IntegrationCard
+          title="Spotify"
+          description="Connect your music playlists"
+          icon="🎵"
+          connected={false}
+          onClick={() => window.open('https://accounts.spotify.com/authorize', '_blank')}
+        />
+        <IntegrationCard
+          title="YouTube Music"
+          description="Sync your subscriptions"
+          icon="📺"
+          connected={false}
+          onClick={() => window.open('https://music.youtube.com', '_blank')}
+        />
+        <IntegrationCard
+          title="SoundCloud"
+          description="Import your tracks"
+          icon="🎧"
+          connected={false}
+          onClick={() => window.open('https://soundcloud.com', '_blank')}
+        />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default KolCompanion
+const IntegrationCard = ({ title, description, icon, connected, onClick }: any) => (
+  <button
+    onClick={onClick}
+    className="p-6 bg-gray-800 hover:bg-gray-700 rounded-lg text-left transition-all"
+  >
+    <div className="text-3xl mb-3">{icon}</div>
+    <h4 className="font-semibold mb-1">{title}</h4>
+    <p className="text-sm text-gray-400 mb-3">{description}</p>
+    <span className={`text-xs font-semibold ${connected ? 'text-green-400' : 'text-gray-500'}`}>
+      {connected ? '✓ Connected' : 'Not connected'}
+    </span>
+  </button>
+);
+
+export default KolCompanion;

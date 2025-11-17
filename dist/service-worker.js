@@ -1,58 +1,64 @@
-// Service Worker for Offline Support
-const CACHE_NAME = 'unified-mega-app-v1';
+// KOL Hub Service Worker - Offline Support
+// This enables the app to work without internet connection
+
+const CACHE_NAME = 'kolhub-v3.0.0';
 const urlsToCache = [
   '/',
   '/index.html',
   '/manifest.json',
-  '/icon-192.png',
-  '/icon-512.png'
+  '/icon.svg',
+  '/assets/index.css',
+  '/assets/index.js',
 ];
 
-// Install Service Worker
+// Install event - cache critical assets
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then((cache) => {
-        console.log('Opened cache');
+        console.log('🖤 KOL Hub: Service Worker installed, caching assets');
         return cache.addAll(urlsToCache);
       })
+      .catch(err => {
+        console.error('Service Worker install failed:', err);
+      })
   );
-  self.skipWaiting();
+  self.skipWaiting(); // Activate immediately
 });
 
-// Activate Service Worker
+// Activate event - clean up old caches
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys().then((cacheNames) => {
       return Promise.all(
         cacheNames.map((cacheName) => {
           if (cacheName !== CACHE_NAME) {
-            console.log('Deleting old cache:', cacheName);
+            console.log('🖤 KOL Hub: Removing old cache:', cacheName);
             return caches.delete(cacheName);
           }
         })
       );
     })
   );
-  self.clients.claim();
+  return self.clients.claim(); // Take control immediately
 });
 
-// Fetch with Cache-First Strategy
+// Fetch event - serve from cache when offline
 self.addEventListener('fetch', (event) => {
+  // Skip non-GET requests
+  if (event.request.method !== 'GET') return;
+
   event.respondWith(
     caches.match(event.request)
       .then((response) => {
-        // Cache hit - return response
+        // Return cached version or fetch from network
         if (response) {
           return response;
         }
 
-        // Clone the request
-        const fetchRequest = event.request.clone();
-
-        return fetch(fetchRequest).then((response) => {
-          // Check if valid response
-          if (!response || response.status !== 200 || response.type !== 'basic') {
+        return fetch(event.request).then((response) => {
+          // Don't cache if not a valid response
+          if (!response || response.status !== 200 || response.type === 'error') {
             return response;
           }
 
@@ -65,44 +71,20 @@ self.addEventListener('fetch', (event) => {
             });
 
           return response;
-        }).catch(() => {
-          // Return offline page if available
+        }).catch((error) => {
+          console.log('🖤 KOL Hub: Fetch failed, serving offline fallback:', error);
+          // Return a custom offline page if you have one
           return caches.match('/index.html');
         });
       })
   );
 });
 
-// Background Sync
-self.addEventListener('sync', (event) => {
-  if (event.tag === 'sync-data') {
-    event.waitUntil(syncData());
+// Handle messages from the app
+self.addEventListener('message', (event) => {
+  if (event.data && event.data.type === 'SKIP_WAITING') {
+    self.skipWaiting();
   }
 });
 
-async function syncData() {
-  // Implement your sync logic here
-  console.log('Syncing data in background...');
-}
-
-// Push Notifications (optional)
-self.addEventListener('push', (event) => {
-  const options = {
-    body: event.data ? event.data.text() : 'New update available!',
-    icon: '/icon-192.png',
-    badge: '/icon-192.png',
-    vibrate: [200, 100, 200]
-  };
-
-  event.waitUntil(
-    self.registration.showNotification('Unified Mega App', options)
-  );
-});
-
-// Notification Click
-self.addEventListener('notificationclick', (event) => {
-  event.notification.close();
-  event.waitUntil(
-    clients.openWindow('/')
-  );
-});
+console.log('🖤 KOL Hub Service Worker: Ready');

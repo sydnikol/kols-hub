@@ -12,7 +12,7 @@
       "backgroundColor": "#6366f1",
       "androidScaleType": "CENTER_CROP",
       "showSpinner": true,
-      "spinnerColor": "#ffffff"
+      "spinnerColor": "#7f1d1d"
     }
   },
   "ios": {

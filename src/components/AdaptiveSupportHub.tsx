@@ -12,7 +12,7 @@ export default function AdaptiveSupportHub() {
   const quickButtons = [
     { level: 1, label: '😊 Great', color: 'bg-green-500' },
     { level: 3, label: '😐 Okay', color: 'bg-blue-500' },
-    { level: 5, label: '😕 Meh', color: 'bg-yellow-500' },
+    { level: 5, label: '😕 Meh', color: 'bg-indigo-500' },
     { level: 7, label: '😠 Bad', color: 'bg-orange-500' },
     { level: 10, label: '🤬 Worst', color: 'bg-red-500' },
   ]
@@ -20,7 +20,7 @@ export default function AdaptiveSupportHub() {
   return (
     <div className="space-y-6 pb-20">
       {/* Header */}
-      <div className="bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl shadow-lg p-6 text-white">
+      <div className="bg-gradient-to-r from-purple-500 to-purple-500 rounded-xl shadow-lg p-6 text-white">
         <h2 className="text-3xl font-bold mb-2">🧠 Adaptive Support Hub</h2>
         <p className="text-purple-100">Your personal growth companion that learns with you</p>
       </div>

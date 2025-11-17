@@ -1,438 +1,538 @@
-import { useState } from 'react'
-import { Pill, Calendar, Clock, AlertCircle, Plus, Upload, Download, Heart, Activity, TrendingUp, FileText, Bell, CheckCircle, X } from 'lucide-react'
-import * as XLSX from 'xlsx'
+/**
+/**
+ * 🖤 COMPREHENSIVE HEALTH TRACKER
+ * Complete health management for EDS Type 3 + chronic conditions
+ * 
+ * Features:
+ * - Medication tracking with Excel import/export
+ * - Vitals logging (BP, HR, O2, temp)
+ * - Hydration + Sodium tracking (2-3L + 4000mg goals)
+ * - Body Weather (pain/energy/mood journal)
+ * - Physical therapy exercises with EDS safety
+ * - Emergency suite (cards, protocols)
+ */
 
-interface Medication {
-  id: string
-  name: string
-  dosage: string
-  frequency: string
-  time: string[]
-  prescribedBy: string
-  startDate: string
-  endDate?: string
-  refillDate?: string
-  notes?: string
-  sideEffects?: string[]
-  taken: boolean[]
+import React, { useState, useEffect } from 'react';
+import { 
+  Pill, Activity, Droplet, Cloud, Dumbbell, AlertTriangle,
+  Plus, Upload, Download, Calendar, TrendingUp, Heart,
+  ChevronRight, Clock, CheckCircle2, Info, Shield, Thermometer
+} from 'lucide-react';
+import { db } from '../utils/database';
+import { importMedicationsFromExcel, exportMedicationsToExcel } from '../utils/medication-import';
+import type { MedicationRecord } from '../utils/medication-import';
+
+interface HealthTrackerProps {
+  theme: string;
 }
 
-interface HealthMetric {
-  date: string
-  bloodPressure?: string
-  heartRate?: number
-  weight?: number
-  glucose?: number
-  temperature?: number
-  painLevel?: number
-  notes?: string
+interface VitalEntry {
+  id?: number;
+  timestamp: Date;
+  bloodPressureSystolic: number;
+  bloodPressureDiastolic: number;
+  heartRate: number;
+  oxygenLevel: number;
+  temperature: number;
+  notes?: string;
 }
 
-interface EDSSymptom {
-  date: string
-  jointLocation: string
-  severity: number
-  triggers?: string
-  duration: string
-  notes?: string
+interface HydrationEntry {
+  id?: number;
+  timestamp: Date;
+  waterIntake: number; // in mL
+  sodiumIntake: number; // in mg
+  notes?: string;
 }
 
-function HealthTracker() {
-  const [medications, setMedications] = useState<Medication[]>([])
-  const [healthMetrics, setHealthMetrics] = useState<HealthMetric[]>([])
-  const [edsSymptoms, setEdsSymptoms] = useState<EDSSymptom[]>([])
-  const [view, setView] = useState<'medications' | 'metrics' | 'calendar' | 'eds'>('medications')
-  const [showAddMed, setShowAddMed] = useState(false)
-  const [showAddMetric, setShowAddMetric] = useState(false)
-  const [showAddEDS, setShowAddEDS] = useState(false)
+const HealthTracker: React.FC<HealthTrackerProps> = ({ theme }) => {
+  const [activeTab, setActiveTab] = useState('medications');
+  const [medications, setMedications] = useState<MedicationRecord[]>([]);
+  const [showAddMed, setShowAddMed] = useState(false);
+  const [todayVitals, setTodayVitals] = useState<VitalEntry[]>([]);
+  const [todayHydration, setTodayHydration] = useState<HydrationEntry[]>([]);
+  
+  // Load medications on mount
+  useEffect(() => {
+    loadMedications();
+    loadTodayData();
+  }, []);
 
-  // Import medications from Excel file
-  const handleFileUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const file = event.target.files?.[0]
-    if (!file) return
+  const loadMedications = async () => {
+    const meds = await db.medications.toArray();
+    setMedications(meds);
+  };
 
-    const reader = new FileReader()
-    reader.onload = (e) => {
-      const data = new Uint8Array(e.target?.result as ArrayBuffer)
-      const workbook = XLSX.read(data, { type: 'array' })
-      const sheetName = workbook.SheetNames[0]
-      const worksheet = workbook.Sheets[sheetName]
-      const jsonData = XLSX.utils.sheet_to_json(worksheet)
+  const loadTodayData = async () => {
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+    
+    // Load vitals and hydration data for today
+    const vitals = await db.vitals
+      .where('timestamp')
+      .aboveOrEqual(today)
+      .toArray();
+    setTodayVitals(vitals);
+    
+    const hydration = await db.hydration
+      .where('timestamp')
+      .aboveOrEqual(today)
+      .toArray();
+    setTodayHydration(hydration);
+  };
 
-      // Convert Excel data to Medication format
-      const importedMeds: Medication[] = jsonData.map((row: any, index: number) => ({
-        id: `med-${Date.now()}-${index}`,
-        name: row['Medication Name'] || row['Name'] || 'Unknown Medication',
-        dosage: row['Dosage'] || row['Dose'] || '',
-        frequency: row['Frequency'] || row['How Often'] || '',
-        time: row['Time']?.split(',') || ['08:00'],
-        prescribedBy: row['Doctor'] || row['Prescribed By'] || 'Unknown',
-        startDate: row['Start Date'] || new Date().toISOString().split('T')[0],
-        refillDate: row['Refill Date'] || row['Next Refill'] || '',
-        notes: row['Notes'] || row['Instructions'] || '',
-        sideEffects: row['Side Effects']?.split(',') || [],
-        taken: []
-      }))
+  const handleImportExcel = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
 
-      setMedications([...medications, ...importedMeds])
-      alert(`Successfully imported ${importedMeds.length} medications! 💊✨`)
+    const result = await importMedicationsFromExcel(file);
+    if (result.success) {
+      alert(`Successfully imported ${result.imported} medications!`);
+      loadMedications();
+    } else {
+      alert(`Import errors: ${result.errors.join(', ')}`);
     }
-    reader.readAsArrayBuffer(file)
-  }
+  };
 
-  const exportToExcel = () => {
-    const worksheet = XLSX.utils.json_to_sheet(medications.map(med => ({
-      'Medication Name': med.name,
-      'Dosage': med.dosage,
-      'Frequency': med.frequency,
-      'Time': med.time.join(', '),
-      'Prescribed By': med.prescribedBy,
-      'Start Date': med.startDate,
-      'Refill Date': med.refillDate || '',
-      'Notes': med.notes || '',
-      'Side Effects': med.sideEffects?.join(', ') || ''
-    })))
-    const workbook = XLSX.utils.book_new()
-    XLSX.utils.book_append_sheet(workbook, worksheet, 'Medications')
-    XLSX.writeFile(workbook, `medication_list_${new Date().toISOString().split('T')[0]}.xlsx`)
-  }
+  const handleExportExcel = async () => {
+    const blob = await exportMedicationsToExcel();
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `medications_${new Date().toISOString().split('T')[0]}.xlsx`;
+    a.click();
+  };
 
-  const addHealthMetric = (metric: Omit<HealthMetric, 'date'>) => {
-    setHealthMetrics([
-      ...healthMetrics,
-      { ...metric, date: new Date().toISOString().split('T')[0] }
-    ])
-    setShowAddMetric(false)
-  }
+  const tabs = [
+    { id: 'medications', label: 'Medications', icon: Pill },
+    { id: 'vitals', label: 'Vitals', icon: Activity },
+    { id: 'hydration', label: 'Hydration + Sodium', icon: Droplet },
+    { id: 'body-weather', label: 'Body Weather', icon: Cloud },
+    { id: 'pt', label: 'Physical Therapy', icon: Dumbbell },
+    { id: 'emergency', label: 'Emergency', icon: AlertTriangle }
+  ];
 
-  const addEDSSymptom = (symptom: Omit<EDSSymptom, 'date'>) => {
-    setEdsSymptoms([
-      ...edsSymptoms,
-      { ...symptom, date: new Date().toISOString().split('T')[0] }
-    ])
-    setShowAddEDS(false)
-  }
+  const addVitals = async (vitals: Partial<VitalEntry>) => {
+    await db.vitals.add({
+      ...vitals,
+      timestamp: new Date()
+    });
+    loadTodayData();
+  };
 
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-teal-900 via-cyan-900 to-blue-900 p-6">
-      <div className="max-w-7xl mx-auto">
-        {/* Header */}
-        <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 mb-6 border border-white/20">
-          <div className="flex items-center justify-between">
-            <div>
-              <h1 className="text-3xl font-bold text-white mb-2">🏥 Health Tracker</h1>
-              <p className="text-cyan-200">
-                EDS Type 3 Management • Medication Tracking • Pain Journaling
-              </p>
-            </div>
-            <div className="flex space-x-3">
-              <button
-                onClick={() => document.getElementById('file-upload')?.click()}
-                className="px-4 py-2 bg-purple-600 hover:bg-purple-700 rounded-lg transition-all duration-200 flex items-center space-x-2"
-              >
-                <Upload className="h-4 w-4" />
-                <span>Import Excel</span>
-              </button>
-              <input
-                id="file-upload"
-                type="file"
-                accept=".xlsx,.xls"
-                onChange={handleFileUpload}
-                className="hidden"
-              />
-              <button
-                onClick={exportToExcel}
-                className="px-4 py-2 bg-green-600 hover:bg-green-700 rounded-lg transition-all duration-200 flex items-center space-x-2"
-              >
-                <Download className="h-4 w-4" />
-                <span>Export</span>
-              </button>
-            </div>
+  const addHydration = async (water: number, sodium: number) => {
+    await db.hydration.add({
+      timestamp: new Date(),
+      waterIntake: water,
+      sodiumIntake: sodium
+    });
+    loadTodayData();
+  };
+
+  const calculateHydrationProgress = () => {
+    const totalWater = todayHydration.reduce((sum, h) => sum + h.waterIntake, 0);
+    const totalSodium = todayHydration.reduce((sum, h) => sum + h.sodiumIntake, 0);
+    
+    return {
+      water: Math.min((totalWater / 2500) * 100, 100), // 2.5L goal
+      sodium: Math.min((totalSodium / 4000) * 100, 100) // 4000mg goal
+    };
+  };
+
+  const renderMedicationsTab = () => (
+    <div className="space-y-6">
+      {/* Import/Export Actions */}
+      <div className="flex flex-wrap gap-4 p-4 bg-purple-500/10 rounded-lg border border-purple-500/30">
+        <label className="flex items-center gap-2 px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 cursor-pointer transition-colors">
+          <Upload className="w-5 h-5" />
+          Import Excel
+          <input
+            type="file"
+            accept=".xls,.xlsx"
+            onChange={handleImportExcel}
+            className="hidden"
+          />
+        </label>
+        <button
+          onClick={handleExportExcel}
+          className="flex items-center gap-2 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
+        >
+          <Download className="w-5 h-5" />
+          Export Excel
+        </button>
+        <button
+          onClick={() => setShowAddMed(!showAddMed)}
+          className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+        >
+          <Plus className="w-5 h-5" />
+          Add Medication
+        </button>
+      </div>
+
+      {/* Medications List */}
+      <div className="grid gap-4">
+        {medications.length === 0 ? (
+          <div className="text-center py-8 text-gray-500">
+            <Pill className="w-12 h-12 mx-auto mb-3 opacity-50" />
+            <p>No medications tracked yet.</p>
+            <p className="text-sm mt-2">Import your medication list or add manually.</p>
           </div>
-        </div>
-
-        {/* View Selector */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-          <button
-            onClick={() => setView('medications')}
-            className={`p-4 rounded-xl transition-all duration-200 ${
-              view === 'medications'
-                ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white shadow-lg scale-105'
-                : 'bg-white/10 hover:bg-white/20 text-white'
-            }`}
-          >
-            <Pill className="h-6 w-6 mx-auto mb-2" />
-            <p className="font-semibold">Medications</p>
-          </button>
-          <button
-            onClick={() => setView('eds')}
-            className={`p-4 rounded-xl transition-all duration-200 ${
-              view === 'eds'
-                ? 'bg-gradient-to-r from-orange-600 to-red-600 text-white shadow-lg scale-105'
-                : 'bg-white/10 hover:bg-white/20 text-white'
-            }`}
-          >
-            <Activity className="h-6 w-6 mx-auto mb-2" />
-            <p className="font-semibold">EDS Tracking</p>
-          </button>
-          <button
-            onClick={() => setView('metrics')}
-            className={`p-4 rounded-xl transition-all duration-200 ${
-              view === 'metrics'
-                ? 'bg-gradient-to-r from-cyan-600 to-blue-600 text-white shadow-lg scale-105'
-                : 'bg-white/10 hover:bg-white/20 text-white'
-            }`}
-          >
-            <TrendingUp className="h-6 w-6 mx-auto mb-2" />
-            <p className="font-semibold">Health Metrics</p>
-          </button>
-          <button
-            onClick={() => setView('calendar')}
-            className={`p-4 rounded-xl transition-all duration-200 ${
-              view === 'calendar'
-                ? 'bg-gradient-to-r from-green-600 to-emerald-600 text-white shadow-lg scale-105'
-                : 'bg-white/10 hover:bg-white/20 text-white'
-            }`}
-          >
-            <Calendar className="h-6 w-6 mx-auto mb-2" />
-            <p className="font-semibold">Calendar</p>
-          </button>
-        </div>
-
-        {/* Medications View */}
-        {view === 'medications' && (
-          <div className="space-y-4">
-            <div className="flex items-center justify-between mb-4">
-              <h2 className="text-2xl font-bold text-white">💊 Medications ({medications.length})</h2>
-              <button
-                onClick={() => setShowAddMed(true)}
-                className="px-4 py-2 bg-purple-600 hover:bg-purple-700 rounded-lg flex items-center space-x-2"
-              >
-                <Plus className="h-4 w-4" />
-                <span>Add Medication</span>
-              </button>
-            </div>
-
-            {medications.length === 0 ? (
-              <div className="bg-white/10 backdrop-blur-lg rounded-xl p-12 text-center border border-white/20">
-                <Pill className="h-16 w-16 mx-auto mb-4 text-cyan-300 opacity-50" />
-                <h3 className="text-xl font-semibold text-white mb-2">No Medications Yet</h3>
-                <p className="text-cyan-200 mb-6">
-                  Upload your medication list (Excel file) or add medications manually
-                </p>
-                <button
-                  onClick={() => document.getElementById('file-upload')?.click()}
-                  className="px-6 py-3 bg-purple-600 hover:bg-purple-700 rounded-lg font-semibold"
-                >
-                  Import Medication List
-                </button>
-              </div>
-            ) : (
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {medications.map((med) => (
-                  <div
-                    key={med.id}
-                    className="bg-white/10 backdrop-blur-lg rounded-xl p-6 border border-white/20 hover:border-purple-500/50 transition-all duration-200"
-                  >
-                    <div className="flex items-start justify-between mb-4">
-                      <div>
-                        <h3 className="text-xl font-bold text-white">{med.name}</h3>
-                        <p className="text-cyan-200">{med.dosage} • {med.frequency}</p>
-                      </div>
-                      <Pill className="h-6 w-6 text-purple-400" />
-                    </div>
-
-                    <div className="space-y-2 text-sm">
-                      <div className="flex items-center space-x-2 text-gray-300">
-                        <Clock className="h-4 w-4" />
-                        <span>Times: {med.time.join(', ')}</span>
-                      </div>
-                      <div className="flex items-center space-x-2 text-gray-300">
-                        <FileText className="h-4 w-4" />
-                        <span>Prescribed by: {med.prescribedBy}</span>
-                      </div>
-                      {med.refillDate && (
-                        <div className="flex items-center space-x-2 text-gray-300">
-                          <Bell className="h-4 w-4" />
-                          <span>Refill: {med.refillDate}</span>
-                        </div>
-                      )}
-                    </div>
-
-                    {med.notes && (
-                      <div className="mt-4 p-3 bg-cyan-900/30 rounded-lg">
-                        <p className="text-sm text-cyan-100">{med.notes}</p>
-                      </div>
-                    )}
-
-                    {med.sideEffects && med.sideEffects.length > 0 && (
-                      <div className="mt-3 flex flex-wrap gap-2">
-                        {med.sideEffects.map((effect, idx) => (
-                          <span
-                            key={idx}
-                            className="px-2 py-1 bg-orange-600/30 border border-orange-500/50 rounded-full text-xs text-orange-200"
-                          >
-                            {effect}
-                          </span>
-                        ))}
-                      </div>
+        ) : (
+          medications.map((med, index) => (
+            <div key={med.id || index} className="p-4 bg-gray-800 rounded-lg border border-gray-700">
+              <div className="flex justify-between items-start">
+                <div>
+                  <h4 className="font-semibold text-lg">{med.drugName}</h4>
+                  <p className="text-sm text-gray-400">{med.genericName}</p>
+                  <div className="mt-2 space-y-1">
+                    <p className="text-sm">
+                      <span className="text-gray-500">Strength:</span> {med.strength}
+                    </p>
+                    <p className="text-sm">
+                      <span className="text-gray-500">Dosage:</span> {med.dosage}
+                    </p>
+                    <p className="text-sm">
+                      <span className="text-gray-500">Frequency:</span> {med.frequency}
+                    </p>
+                    {med.prescriber && (
+                      <p className="text-sm">
+                        <span className="text-gray-500">Prescriber:</span> {med.prescriber}
+                      </p>
                     )}
                   </div>
-                ))}
-              </div>
-            )}
-          </div>
-        )}
-
-        {/* EDS Tracking View */}
-        {view === 'eds' && (
-          <div className="space-y-4">
-            <div className="flex items-center justify-between mb-4">
-              <div>
-                <h2 className="text-2xl font-bold text-white">🦴 EDS Type 3 Tracking</h2>
-                <p className="text-cyan-200">Ehlers-Danlos Syndrome & Joint Hypermobility Management</p>
-              </div>
-              <button
-                onClick={() => setShowAddEDS(true)}
-                className="px-4 py-2 bg-orange-600 hover:bg-orange-700 rounded-lg flex items-center space-x-2"
-              >
-                <Plus className="h-4 w-4" />
-                <span>Log Symptom</span>
-              </button>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-              <div className="bg-gradient-to-br from-orange-600 to-red-600 rounded-xl p-6 text-white">
-                <Activity className="h-8 w-8 mb-3 opacity-75" />
-                <h3 className="text-3xl font-bold mb-1">{edsSymptoms.length}</h3>
-                <p className="text-sm opacity-90">Symptoms Logged</p>
-              </div>
-              <div className="bg-gradient-to-br from-purple-600 to-pink-600 rounded-xl p-6 text-white">
-                <Heart className="h-8 w-8 mb-3 opacity-75" />
-                <h3 className="text-3xl font-bold mb-1">
-                  {edsSymptoms.length > 0
-                    ? Math.round(
-                        edsSymptoms.reduce((acc, s) => acc + s.severity, 0) / edsSymptoms.length
-                      )
-                    : 0}
-                </h3>
-                <p className="text-sm opacity-90">Avg Pain Level</p>
-              </div>
-              <div className="bg-gradient-to-br from-cyan-600 to-blue-600 rounded-xl p-6 text-white">
-                <Clock className="h-8 w-8 mb-3 opacity-75" />
-                <h3 className="text-3xl font-bold mb-1">
-                  {edsSymptoms.length > 0
-                    ? new Date(edsSymptoms[edsSymptoms.length - 1].date).toLocaleDateString()
-                    : 'N/A'}
-                </h3>
-                <p className="text-sm opacity-90">Last Entry</p>
+                </div>
+                <div className="text-right">
+                  <span className={`inline-flex px-3 py-1 rounded-full text-xs font-semibold
+                    ${med.status === 'Active' ? 'bg-green-500/20 text-green-400' : 'bg-gray-500/20 text-gray-400'}`}>
+                    {med.status}
+                  </span>
+                  {med.refills !== undefined && (
+                    <p className="mt-2 text-sm text-gray-500">
+                      {med.refills} refills
+                    </p>
+                  )}
+                </div>
               </div>
             </div>
-
-            {edsSymptoms.length === 0 ? (
-              <div className="bg-white/10 backdrop-blur-lg rounded-xl p-12 text-center border border-white/20">
-                <Activity className="h-16 w-16 mx-auto mb-4 text-orange-300 opacity-50" />
-                <h3 className="text-xl font-semibold text-white mb-2">Start Tracking EDS Symptoms</h3>
-                <p className="text-cyan-200 mb-6">
-                  Log joint pain, dislocations, and triggers to better understand patterns
-                </p>
-              </div>
-            ) : (
-              <div className="space-y-3">
-                {edsSymptoms.map((symptom, idx) => (
-                  <div
-                    key={idx}
-                    className="bg-white/10 backdrop-blur-lg rounded-xl p-4 border border-white/20"
-                  >
-                    <div className="flex items-center justify-between">
-                      <div className="flex-1">
-                        <div className="flex items-center space-x-3 mb-2">
-                          <span className="font-bold text-white">{symptom.jointLocation}</span>
-                          <span className="px-2 py-1 bg-orange-600/30 rounded-full text-xs">
-                            Pain: {symptom.severity}/10
-                          </span>
-                          <span className="text-sm text-gray-300">{symptom.duration}</span>
-                        </div>
-                        {symptom.triggers && (
-                          <p className="text-sm text-cyan-200">Triggers: {symptom.triggers}</p>
-                        )}
-                        {symptom.notes && (
-                          <p className="text-sm text-gray-300 mt-2">{symptom.notes}</p>
-                        )}
-                      </div>
-                      <span className="text-sm text-gray-400">{symptom.date}</span>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            )}
-          </div>
-        )}
-
-        {/* Health Metrics View */}
-        {view === 'metrics' && (
-          <div className="space-y-4">
-            <div className="flex items-center justify-between mb-4">
-              <h2 className="text-2xl font-bold text-white">📊 Health Metrics</h2>
-              <button
-                onClick={() => setShowAddMetric(true)}
-                className="px-4 py-2 bg-cyan-600 hover:bg-cyan-700 rounded-lg flex items-center space-x-2"
-              >
-                <Plus className="h-4 w-4" />
-                <span>Add Metric</span>
-              </button>
-            </div>
-
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              {healthMetrics.length > 0 && (
-                <>
-                  <div className="bg-gradient-to-br from-red-600 to-pink-600 rounded-xl p-4 text-white">
-                    <Heart className="h-6 w-6 mb-2 opacity-75" />
-                    <p className="text-xs opacity-90 mb-1">Blood Pressure</p>
-                    <p className="text-lg font-bold">
-                      {healthMetrics[healthMetrics.length - 1].bloodPressure || 'N/A'}
-                    </p>
-                  </div>
-                  <div className="bg-gradient-to-br from-blue-600 to-cyan-600 rounded-xl p-4 text-white">
-                    <Activity className="h-6 w-6 mb-2 opacity-75" />
-                    <p className="text-xs opacity-90 mb-1">Heart Rate</p>
-                    <p className="text-lg font-bold">
-                      {healthMetrics[healthMetrics.length - 1].heartRate || 'N/A'} bpm
-                    </p>
-                  </div>
-                  <div className="bg-gradient-to-br from-green-600 to-emerald-600 rounded-xl p-4 text-white">
-                    <TrendingUp className="h-6 w-6 mb-2 opacity-75" />
-                    <p className="text-xs opacity-90 mb-1">Weight</p>
-                    <p className="text-lg font-bold">
-                      {healthMetrics[healthMetrics.length - 1].weight || 'N/A'} lbs
-                    </p>
-                  </div>
-                  <div className="bg-gradient-to-br from-purple-600 to-indigo-600 rounded-xl p-4 text-white">
-                    <Heart className="h-6 w-6 mb-2 opacity-75" />
-                    <p className="text-xs opacity-90 mb-1">Glucose</p>
-                    <p className="text-lg font-bold">
-                      {healthMetrics[healthMetrics.length - 1].glucose || 'N/A'} mg/dL
-                    </p>
-                  </div>
-                </>
-              )}
-            </div>
-          </div>
-        )}
-
-        {/* Calendar View */}
-        {view === 'calendar' && (
-          <div className="bg-white/10 backdrop-blur-lg rounded-xl p-8 border border-white/20 text-center">
-            <Calendar className="h-16 w-16 mx-auto mb-4 text-green-400" />
-            <h3 className="text-2xl font-bold text-white mb-2">Calendar View</h3>
-            <p className="text-cyan-200">
-              Visual calendar of medication schedules, appointments, and health tracking coming soon!
-            </p>
-          </div>
+          ))
         )}
       </div>
     </div>
-  )
-}
+  );
 
-export default HealthTracker
+  const renderVitalsTab = () => (
+    <div className="space-y-6">
+      {/* Quick Entry Form */}
+      <div className="p-4 bg-blue-500/10 rounded-lg border border-blue-500/30">
+        <h3 className="font-semibold mb-4 flex items-center gap-2">
+          <Heart className="w-5 h-5 text-red-500" />
+          Log Vitals
+        </h3>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+          <input
+            type="number"
+            placeholder="Systolic BP"
+            className="px-3 py-2 bg-gray-800 rounded-lg border border-gray-700"
+          />
+          <input
+            type="number"
+            placeholder="Diastolic BP"
+            className="px-3 py-2 bg-gray-800 rounded-lg border border-gray-700"
+          />
+          <input
+            type="number"
+            placeholder="Heart Rate"
+            className="px-3 py-2 bg-gray-800 rounded-lg border border-gray-700"
+          />
+          <input
+            type="number"
+            placeholder="O2 %"
+            className="px-3 py-2 bg-gray-800 rounded-lg border border-gray-700"
+          />
+          <input
+            type="number"
+            step="0.1"
+            placeholder="Temp °F"
+            className="px-3 py-2 bg-gray-800 rounded-lg border border-gray-700"
+          />
+          <button className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+            Log Vitals
+          </button>
+        </div>
+      </div>
+
+      {/* Today's Readings */}
+      <div className="space-y-3">
+        <h3 className="font-semibold text-gray-400">Today's Readings</h3>
+        {todayVitals.length === 0 ? (
+          <p className="text-center py-4 text-gray-500">No vitals logged today</p>
+        ) : (
+          todayVitals.map((vital, index) => (
+            <div key={vital.id || index} className="p-3 bg-gray-800 rounded-lg">
+              <div className="flex justify-between items-center">
+                <div className="flex gap-4 text-sm">
+                  <span>BP: {vital.bloodPressureSystolic}/{vital.bloodPressureDiastolic}</span>
+                  <span>HR: {vital.heartRate}</span>
+                  <span>O2: {vital.oxygenLevel}%</span>
+                  <span>Temp: {vital.temperature}°F</span>
+                </div>
+                <span className="text-xs text-gray-500">
+                  {new Date(vital.timestamp).toLocaleTimeString()}
+                </span>
+              </div>
+            </div>
+          ))
+        )}
+      </div>
+    </div>
+  );
+
+  const renderHydrationTab = () => {
+    const progress = calculateHydrationProgress();
+    
+    return (
+      <div className="space-y-6">
+        {/* Progress Bars */}
+        <div className="space-y-4">
+          <div>
+            <div className="flex justify-between mb-2">
+              <span className="text-sm font-medium">Water (2.5L goal)</span>
+              <span className="text-sm text-gray-400">{progress.water.toFixed(0)}%</span>
+            </div>
+            <div className="w-full bg-gray-700 rounded-full h-3">
+              <div
+                className="bg-blue-500 h-3 rounded-full transition-all duration-500"
+                style={{ width: `${progress.water}%` }}
+              />
+            </div>
+          </div>
+          
+          <div>
+            <div className="flex justify-between mb-2">
+              <span className="text-sm font-medium">Sodium (4000mg goal)</span>
+              <span className="text-sm text-gray-400">{progress.sodium.toFixed(0)}%</span>
+            </div>
+            <div className="w-full bg-gray-700 rounded-full h-3">
+              <div
+                className="bg-orange-500 h-3 rounded-full transition-all duration-500"
+                style={{ width: `${progress.sodium}%` }}
+              />
+            </div>
+          </div>
+        </div>
+
+        {/* Quick Add Buttons */}
+        <div className="grid grid-cols-2 gap-4">
+          <button
+            onClick={() => addHydration(250, 0)}
+            className="p-4 bg-blue-500/20 rounded-lg hover:bg-blue-500/30 transition-colors"
+          >
+            <Droplet className="w-8 h-8 mx-auto mb-2 text-blue-500" />
+            <p className="font-semibold">+250ml Water</p>
+          </button>
+          <button
+            onClick={() => addHydration(0, 500)}
+            className="p-4 bg-orange-500/20 rounded-lg hover:bg-orange-500/30 transition-colors"
+          >
+            <Shield className="w-8 h-8 mx-auto mb-2 text-orange-500" />
+            <p className="font-semibold">+500mg Sodium</p>
+          </button>
+        </div>
+
+        {/* Today's Log */}
+        <div className="space-y-2">
+          <h3 className="font-semibold text-gray-400">Today's Intake</h3>
+          {todayHydration.map((entry, index) => (
+            <div key={entry.id || index} className="flex justify-between p-2 bg-gray-800 rounded">
+              <span className="text-sm">
+                {entry.waterIntake > 0 && `${entry.waterIntake}ml water`}
+                {entry.waterIntake > 0 && entry.sodiumIntake > 0 && ' + '}
+                {entry.sodiumIntake > 0 && `${entry.sodiumIntake}mg sodium`}
+              </span>
+              <span className="text-xs text-gray-500">
+                {new Date(entry.timestamp).toLocaleTimeString()}
+              </span>
+            </div>
+          ))}
+        </div>
+      </div>
+    );
+  };
+
+  const renderBodyWeatherTab = () => (
+    <div className="space-y-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        {/* Pain Level */}
+        <div className="p-4 bg-red-500/10 rounded-lg border border-red-500/30">
+          <h3 className="font-semibold mb-3 text-red-400">Pain Level</h3>
+          <div className="flex justify-between mb-2">
+            {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(level => (
+              <button
+                key={level}
+                className={`w-8 h-8 rounded-full text-xs font-bold transition-all
+                  ${level <= 3 ? 'bg-green-500/20 hover:bg-green-500/40' : ''}
+                  ${level >= 4 && level <= 6 ? 'bg-indigo-500/20 hover:bg-indigo-500/40' : ''}
+                  ${level >= 7 ? 'bg-red-500/20 hover:bg-red-500/40' : ''}`}
+              >
+                {level}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* Energy Level */}
+        <div className="p-4 bg-indigo-500/10 rounded-lg border border-indigo-500/30">
+          <h3 className="font-semibold mb-3 text-indigo-400">Energy (Spoons)</h3>
+          <div className="grid grid-cols-5 gap-2">
+            {[1, 2, 3, 4, 5].map(spoon => (
+              <button
+                key={spoon}
+                className="p-2 bg-indigo-500/20 rounded hover:bg-indigo-500/40 transition-colors"
+              >
+                🥄
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* Mood */}
+        <div className="p-4 bg-purple-500/10 rounded-lg border border-purple-500/30">
+          <h3 className="font-semibold mb-3 text-purple-400">Mood</h3>
+          <div className="grid grid-cols-3 gap-2">
+            {['😔', '😐', '😊'].map((emoji, index) => (
+              <button
+                key={index}
+                className="text-2xl p-2 bg-purple-500/20 rounded hover:bg-purple-500/40 transition-colors"
+              >
+                {emoji}
+              </button>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Journal Entry */}
+      <div className="p-4 bg-gray-800 rounded-lg">
+        <h3 className="font-semibold mb-3">Today's Notes</h3>
+        <textarea
+          className="w-full px-3 py-2 bg-gray-900 rounded-lg border border-gray-700 resize-none"
+          rows={4}
+          placeholder="How are you feeling today? Any flares, triggers, or victories to note?"
+        />
+        <button className="mt-3 px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors">
+          Save Entry
+        </button>
+      </div>
+    </div>
+  );
+
+  const renderPTTab = () => (
+    <div className="space-y-6">
+      <div className="p-4 bg-green-500/10 rounded-lg border border-green-500/30">
+        <h3 className="font-semibold mb-3 text-green-400">EDS-Safe Exercises</h3>
+        <p className="text-sm text-gray-400 mb-4">
+          Low-impact, joint-protective exercises designed for hypermobility
+        </p>
+      </div>
+
+      <div className="grid gap-4">
+        {[
+          { name: 'Isometric Holds', duration: '30 sec', sets: 3, safe: true },
+          { name: 'Gentle Range of Motion', duration: '5 min', sets: 1, safe: true },
+          { name: 'Proprioception Balance', duration: '1 min', sets: 3, safe: true },
+          { name: 'Core Stabilization', duration: '10 reps', sets: 2, safe: true }
+        ].map((exercise, index) => (
+          <div key={index} className="p-4 bg-gray-800 rounded-lg flex justify-between items-center">
+            <div>
+              <h4 className="font-semibold">{exercise.name}</h4>
+              <p className="text-sm text-gray-400">
+                {exercise.duration} × {exercise.sets} sets
+              </p>
+            </div>
+            <button className="px-3 py-1 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors">
+              Complete
+            </button>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+
+  const renderEmergencyTab = () => (
+    <div className="space-y-6">
+      <div className="p-4 bg-red-500/20 rounded-lg border border-red-500">
+        <h3 className="font-bold text-red-400 mb-3 flex items-center gap-2">
+          <AlertTriangle className="w-5 h-5" />
+          Emergency Information
+        </h3>
+        
+        <div className="space-y-3 text-sm">
+          <div>
+            <p className="font-semibold text-gray-300">Primary Conditions:</p>
+            <p>EDS Type 3 (Hypermobile), POTS, Chronic Pain</p>
+          </div>
+          
+          <div>
+            <p className="font-semibold text-gray-300">Emergency Contacts:</p>
+            <p>DaVeon: (stored in phone)</p>
+            <p>Quincy: (stored in phone)</p>
+          </div>
+          
+          <div>
+            <p className="font-semibold text-gray-300">Critical Notes:</p>
+            <ul className="list-disc list-inside mt-1">
+              <li>Joint dislocations possible - handle with care</li>
+              <li>Orthostatic intolerance - do not sit up quickly</li>
+              <li>May need IV fluids for severe POTS episodes</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <button className="w-full p-4 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors font-bold">
+        Generate Emergency Card (PDF)
+      </button>
+    </div>
+  );
+
+  return (
+    <div className="max-w-6xl mx-auto p-6">
+      <div className="mb-8">
+        <h2 className="text-3xl font-bold mb-2">🖤 Health Tracker</h2>
+        <p className="text-gray-400">Comprehensive health management with EDS awareness</p>
+      </div>
+
+      {/* Tab Navigation */}
+      <div className="flex flex-wrap gap-2 mb-6">
+        {tabs.map(tab => {
+          const Icon = tab.icon;
+          return (
+            <button
+              key={tab.id}
+              onClick={() => setActiveTab(tab.id)}
+              className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-all
+                ${activeTab === tab.id 
+                  ? 'bg-purple-600 text-white' 
+                  : 'bg-gray-800 text-gray-400 hover:bg-gray-700'}`}
+            >
+              <Icon className="w-4 h-4" />
+              {tab.label}
+            </button>
+          );
+        })}
+      </div>
+
+      {/* Tab Content */}
+      <div className="bg-gray-900 rounded-xl p-6">
+        {activeTab === 'medications' && renderMedicationsTab()}
+        {activeTab === 'vitals' && renderVitalsTab()}
+        {activeTab === 'hydration' && renderHydrationTab()}
+        {activeTab === 'body-weather' && renderBodyWeatherTab()}
+        {activeTab === 'pt' && renderPTTab()}
+        {activeTab === 'emergency' && renderEmergencyTab()}
+      </div>
+    </div>
+  );
+};
+
+export default HealthTracker;

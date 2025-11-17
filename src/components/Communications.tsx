@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Mail, Send, Inbox, Star, Archive, Trash2, Search, Plus, RefreshCw, User, Calendar, Paperclip, Activity, FileText, Pill, Phone } from 'lucide-react'
+import { Mail, Send, Star, Search, Plus, RefreshCw, User, Calendar, Paperclip, Activity, FileText, Pill, Phone } from 'lucide-react'
 
 interface Email {
   id: string
@@ -46,7 +46,7 @@ function Communications() {
     }
   ])
 
-  const [contacts, setContacts] = useState<Contact[]>([
+  const [contacts] = useState<Contact[]>([
     {
       id: '1',
       name: 'Dr. Smith',
@@ -72,7 +72,7 @@ function Communications() {
   return (
     <div className="space-y-6">
       {/* Header */}
-      <div className="bg-gradient-to-r from-blue-500 to-cyan-500 rounded-2xl p-6 text-white shadow-xl">
+      <div className="bg-gradient-to-r from-blue-500 to-blue-500 rounded-2xl p-6 text-white shadow-xl">
         <div className="flex items-center justify-between">
           <div>
             <h2 className="text-3xl font-bold mb-2">📬 Communications Hub</h2>
@@ -88,7 +88,7 @@ function Communications() {
           onClick={() => setView('email')}
           className={`py-3 px-4 rounded-lg font-semibold transition-all ${
             view === 'email'
-              ? 'bg-gradient-to-r from-blue-500 to-cyan-500 text-white shadow-md'
+              ? 'bg-gradient-to-r from-blue-500 to-blue-500 text-white shadow-md'
               : 'text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700'
           }`}
         >
@@ -99,7 +99,7 @@ function Communications() {
           onClick={() => setView('contacts')}
           className={`py-3 px-4 rounded-lg font-semibold transition-all ${
             view === 'contacts'
-              ? 'bg-gradient-to-r from-blue-500 to-cyan-500 text-white shadow-md'
+              ? 'bg-gradient-to-r from-blue-500 to-blue-500 text-white shadow-md'
               : 'text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700'
           }`}
         >
@@ -110,7 +110,7 @@ function Communications() {
           onClick={() => setView('mychart')}
           className={`py-3 px-4 rounded-lg font-semibold transition-all ${
             view === 'mychart'
-              ? 'bg-gradient-to-r from-blue-500 to-cyan-500 text-white shadow-md'
+              ? 'bg-gradient-to-r from-blue-500 to-blue-500 text-white shadow-md'
               : 'text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700'
           }`}
         >
@@ -121,7 +121,7 @@ function Communications() {
           onClick={() => setView('myuhealth')}
           className={`py-3 px-4 rounded-lg font-semibold transition-all ${
             view === 'myuhealth'
-              ? 'bg-gradient-to-r from-blue-500 to-cyan-500 text-white shadow-md'
+              ? 'bg-gradient-to-r from-blue-500 to-blue-500 text-white shadow-md'
               : 'text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700'
           }`}
         >
@@ -135,7 +135,7 @@ function Communications() {
         <div className="space-y-4">
           {/* Email Actions */}
           <div className="flex space-x-3">
-            <button className="flex items-center px-4 py-2 bg-gradient-to-r from-blue-500 to-cyan-500 text-white rounded-lg hover:from-blue-600 hover:to-cyan-600 transition-all shadow-md">
+            <button className="flex items-center px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-500 text-white rounded-lg hover:from-blue-600 hover:to-blue-600 transition-all shadow-md">
               <Plus className="h-4 w-4 mr-2" />
               Compose
             </button>
@@ -190,7 +190,7 @@ function Communications() {
                       }}
                       className="hover:scale-110 transition-transform"
                     >
-                      <Star className={`h-5 w-5 ${email.starred ? 'fill-yellow-400 text-yellow-400' : 'text-gray-400'}`} />
+                      <Star className={`h-5 w-5 ${email.starred ? 'fill-indigo-400 text-indigo-400' : 'text-gray-400'}`} />
                     </button>
                   </div>
                 </div>
@@ -211,7 +211,7 @@ function Communications() {
       {/* Contacts View */}
       {view === 'contacts' && (
         <div className="space-y-4">
-          <button className="w-full py-4 bg-gradient-to-r from-blue-500 to-cyan-500 text-white rounded-xl font-semibold hover:from-blue-600 hover:to-cyan-600 transition-all shadow-lg flex items-center justify-center space-x-2">
+          <button className="w-full py-4 bg-gradient-to-r from-blue-500 to-blue-500 text-white rounded-xl font-semibold hover:from-blue-600 hover:to-blue-600 transition-all shadow-lg flex items-center justify-center space-x-2">
             <Plus className="h-5 w-5" />
             <span>Add New Contact</span>
           </button>
@@ -223,7 +223,7 @@ function Communications() {
                 className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow border border-gray-200 dark:border-gray-700"
               >
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-cyan-400 rounded-full flex items-center justify-center text-white font-bold text-xl">
+                  <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-blue-400 rounded-full flex items-center justify-center text-white font-bold text-xl">
                     {contact.name[0]}
                   </div>
                   <div className="flex-1">
@@ -274,7 +274,7 @@ function Communications() {
               <p className="text-gray-600 dark:text-gray-400 mb-6">
                 Access your medical records, appointments, test results, and more
               </p>
-              <button className="px-8 py-3 bg-gradient-to-r from-blue-500 to-cyan-500 text-white rounded-lg hover:from-blue-600 hover:to-cyan-600 transition-all shadow-lg font-semibold">
+              <button className="px-8 py-3 bg-gradient-to-r from-blue-500 to-blue-500 text-white rounded-lg hover:from-blue-600 hover:to-blue-600 transition-all shadow-lg font-semibold">
                 Connect MyChart Account
               </button>
             </div>
@@ -313,14 +313,14 @@ function Communications() {
         <div className="space-y-4">
           <div className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg">
             <div className="text-center py-8">
-              <Activity className="h-16 w-16 mx-auto text-teal-500 mb-4" />
+              <Activity className="h-16 w-16 mx-auto text-blue-500 mb-4" />
               <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">
                 Connect to myUHealth Patient Portal
               </h3>
               <p className="text-gray-600 dark:text-gray-400 mb-6">
                 Access University of Miami Health System records, appointments, prescriptions, and secure messaging
               </p>
-              <button className="px-8 py-3 bg-gradient-to-r from-teal-500 to-blue-500 text-white rounded-lg hover:from-teal-600 hover:to-blue-600 transition-all shadow-lg font-semibold">
+              <button className="px-8 py-3 bg-gradient-to-r from-blue-500 to-blue-500 text-white rounded-lg hover:from-blue-600 hover:to-blue-600 transition-all shadow-lg font-semibold">
                 Connect myUHealth Account
               </button>
             </div>
@@ -329,7 +329,7 @@ function Communications() {
           {/* myUHealth Features Preview */}
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
             <div className="bg-white dark:bg-gray-800 rounded-xl p-4 shadow-lg text-center">
-              <Calendar className="h-8 w-8 mx-auto text-teal-500 mb-2" />
+              <Calendar className="h-8 w-8 mx-auto text-blue-500 mb-2" />
               <h4 className="font-semibold text-gray-800 dark:text-white mb-1">Appointments</h4>
               <p className="text-sm text-gray-600 dark:text-gray-400">Schedule & manage</p>
             </div>
@@ -351,7 +351,7 @@ function Communications() {
           </div>
 
           {/* University of Miami Health System Info */}
-          <div className="bg-teal-50 dark:bg-teal-900/20 border-l-4 border-teal-500 p-4 rounded">
+          <div className="bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-500 p-4 rounded">
             <p className="text-sm text-gray-700 dark:text-gray-300">
               <Activity className="h-4 w-4 inline mr-2" />
               <strong>myUHealth Portal:</strong> Connect to University of Miami Health System for complete access to your UHealth medical records, test results, and care team communication!
@@ -360,12 +360,12 @@ function Communications() {
 
           {/* Quick Actions */}
           <div className="grid grid-cols-2 gap-4">
-            <button className="p-4 bg-gradient-to-r from-teal-500 to-blue-500 text-white rounded-xl hover:scale-105 transition-all shadow-lg">
+            <button className="p-4 bg-gradient-to-r from-blue-500 to-blue-500 text-white rounded-xl hover:scale-105 transition-all shadow-lg">
               <Phone className="h-6 w-6 mx-auto mb-2" />
               <p className="font-semibold">Call UHealth</p>
               <p className="text-xs opacity-75 mt-1">305-243-4000</p>
             </button>
-            <button className="p-4 bg-gradient-to-r from-blue-500 to-cyan-500 text-white rounded-xl hover:scale-105 transition-all shadow-lg">
+            <button className="p-4 bg-gradient-to-r from-blue-500 to-blue-500 text-white rounded-xl hover:scale-105 transition-all shadow-lg">
               <Calendar className="h-6 w-6 mx-auto mb-2" />
               <p className="font-semibold">Find a Doctor</p>
               <p className="text-xs opacity-75 mt-1">Search providers</p>

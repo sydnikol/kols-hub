@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react'
-import { Shirt, Camera, Cloud, Save, User, Palette } from 'lucide-react'
+import { Shirt, Camera, Save, User, Palette } from 'lucide-react'
 
 // Clothing Library Data
 const CLOTHING_LIBRARY = {
   tops: [
-    { id: 't1', name: 'White T-Shirt', color: '#FFFFFF', type: 'casual' },
+    { id: 't1', name: 'White T-Shirt', color: '#7f1d1d', type: 'casual' },
     { id: 't2', name: 'Black Blouse', color: '#000000', type: 'formal' },
-    { id: 't3', name: 'Pink Sweater', color: '#FFB6C1', type: 'casual' },
+    { id: 't3', name: 'Pink Sweater', color: '#7f1d1d', type: 'casual' },
     { id: 't4', name: 'Blue Button-Up', color: '#4169E1', type: 'formal' },
   ],
   bottoms: [
@@ -16,7 +16,7 @@ const CLOTHING_LIBRARY = {
     { id: 'b4', name: 'Gray Trousers', color: '#6B7280', type: 'formal' },
   ],
   shoes: [
-    { id: 's1', name: 'White Sneakers', color: '#FFFFFF', type: 'casual' },
+    { id: 's1', name: 'White Sneakers', color: '#7f1d1d', type: 'casual' },
     { id: 's2', name: 'Black Heels', color: '#000000', type: 'formal' },
     { id: 's3', name: 'Brown Boots', color: '#8B4513', type: 'casual' },
   ],
@@ -87,9 +87,9 @@ export default function AIStylist() {
   return (
     <div className="space-y-6 pb-20">
       {/* Header */}
-      <div className="bg-gradient-to-r from-pink-500 to-rose-500 rounded-xl shadow-lg p-6 text-white">
+      <div className="bg-gradient-to-r from-purple-500 to-purple-500 rounded-xl shadow-lg p-6 text-white">
         <h2 className="text-3xl font-bold mb-2">👗 AI Personal Stylist</h2>
-        <p className="text-pink-100">Your virtual wardrobe and style companion</p>
+        <p className="text-purple-100">Your virtual wardrobe and style companion</p>
       </div>
 
       {/* Avatar Display */}
@@ -99,11 +99,11 @@ export default function AIStylist() {
           Your Avatar
         </h3>
         <div className="flex justify-center mb-4">
-          <div className="relative w-64 h-96 bg-gradient-to-b from-pink-50 to-rose-50 dark:from-pink-900/20 dark:to-rose-900/20 rounded-lg border-4 border-pink-300 dark:border-pink-700">
+          <div className="relative w-64 h-96 bg-gradient-to-b from-purple-50 to-purple-50 dark:from-purple-900/20 dark:to-purple-900/20 rounded-lg border-4 border-purple-300 dark:border-purple-700">
             {/* Avatar Character Model */}
             <div className="absolute inset-0 flex flex-col items-center justify-center">
               {/* Head */}
-              <div className="w-20 h-20 bg-amber-200 rounded-full mb-2" />
+              <div className="w-20 h-20 bg-indigo-200 rounded-full mb-2" />
               
               {/* Top */}
               <div 
@@ -147,7 +147,7 @@ export default function AIStylist() {
           />
           <button 
             onClick={saveToUserProfile}
-            className="bg-pink-600 text-white px-6 py-3 rounded-lg hover:bg-pink-700 transition-colors w-full flex items-center justify-center gap-2"
+            className="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition-colors w-full flex items-center justify-center gap-2"
           >
             <Save className="w-5 h-5" />
             Save Current Outfit
@@ -168,8 +168,8 @@ export default function AIStylist() {
               onClick={() => updateAvatarAppearance(item, 'top')}
               className={`p-4 rounded-lg border-2 transition-all ${
                 currentOutfit.top?.id === item.id
-                  ? 'border-pink-500 shadow-lg'
-                  : 'border-gray-200 dark:border-gray-700 hover:border-pink-300'
+                  ? 'border-purple-500 shadow-lg'
+                  : 'border-gray-200 dark:border-gray-700 hover:border-purple-300'
               }`}
             >
               <div 
@@ -196,8 +196,8 @@ export default function AIStylist() {
               onClick={() => updateAvatarAppearance(item, 'bottom')}
               className={`p-4 rounded-lg border-2 transition-all ${
                 currentOutfit.bottom?.id === item.id
-                  ? 'border-pink-500 shadow-lg'
-                  : 'border-gray-200 dark:border-gray-700 hover:border-pink-300'
+                  ? 'border-purple-500 shadow-lg'
+                  : 'border-gray-200 dark:border-gray-700 hover:border-purple-300'
               }`}
             >
               <div 
@@ -224,8 +224,8 @@ export default function AIStylist() {
               onClick={() => updateAvatarAppearance(item, 'shoes')}
               className={`p-4 rounded-lg border-2 transition-all ${
                 currentOutfit.shoes?.id === item.id
-                  ? 'border-pink-500 shadow-lg'
-                  : 'border-gray-200 dark:border-gray-700 hover:border-pink-300'
+                  ? 'border-purple-500 shadow-lg'
+                  : 'border-gray-200 dark:border-gray-700 hover:border-purple-300'
               }`}
             >
               <div 
@@ -286,7 +286,7 @@ export default function AIStylist() {
                 <div className="flex gap-2">
                   <button
                     onClick={() => onUserSelectOutfit(outfit)}
-                    className="flex-1 bg-pink-100 dark:bg-pink-900/30 text-pink-700 dark:text-pink-300 px-3 py-2 rounded text-sm hover:bg-pink-200 dark:hover:bg-pink-900/50 transition-colors"
+                    className="flex-1 bg-purple-100 dark:bg-purple-900/30 text-purple-700 dark:text-purple-300 px-3 py-2 rounded text-sm hover:bg-purple-200 dark:hover:bg-purple-900/50 transition-colors"
                   >
                     Wear This
                   </button>

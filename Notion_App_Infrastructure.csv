@@ -1,3 +1,0 @@
-Category,Feature Name,Description,Linked Route(s),Component,Tags
-App Infrastructure,Routes & Schemas,"All app routes, collections, and seeds tied to modules.",/,DashboardHome,"dev,schema"
-App Infrastructure,Privacy Center,"E2E encryption, emergency-subset sharing controls.",/settings/privacy,PrivacyCenter,"privacy,security"
