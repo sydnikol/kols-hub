@@ -1,0 +1,675 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-11-14",
+    "philosophy": "Learning without trauma. Growth through joy. Skills through lived experience.",
+    "approach": "Micro-lessons embedded in daily app use. No grades, no pressure, no classroom vibes."
+  },
+  "learningPathways": [
+    {
+      "id": "creative_mastery",
+      "name": "Creative Expression Mastery",
+      "category": "Art & Design",
+      "resumeValue": "Digital Media Production, Visual Arts, Creative Direction",
+      "collegeCredit": {
+        "equivalentCourses": ["ART 101: Introduction to Digital Media", "ART 205: Photography Fundamentals", "DES 150: Design Principles"],
+        "creditHours": 9,
+        "institutions": ["Portfolio Schools", "Community Colleges", "CLEP/DSST Equivalency"]
+      },
+      "modules": [
+        {
+          "id": "photo_fundamentals",
+          "name": "Photography & Composition",
+          "skills": ["Rule of thirds", "Lighting theory", "Color theory", "Framing", "Portrait work", "Editorial photography"],
+          "passiveTriggers": [
+            "When viewing photos in ancestor gallery: Tooltip shows composition analysis",
+            "When uploading selfies: AI suggests framing improvements",
+            "Daily photo challenge based on current mood/aesthetic",
+            "When planning outfits: Learn color psychology and cultural symbolism",
+            "While listening to music: Study genre history and cultural movements"
+          ],
+          "learningStyle": "Show, don't tell. Context over lectures.",
+          "progressTracking": "Portfolio-based (collect examples), not test-based",
+          "realWorldApplication": "Build photography portfolio for modeling work, document activism, create visual narratives"
+        },
+        {
+          "id": "digital_design",
+          "name": "UI/UX & Digital Design",
+          "skills": ["Figma basics", "Design systems", "Color theory", "Typography", "Dark UI aesthetics", "Accessibility design"],
+          "passiveTriggers": [
+            "When customizing app themes: Learn design principles in tooltips",
+            "When organizing spaces: Apply visual hierarchy concepts",
+            "Earn badges for creating accessible, beautiful interfaces",
+            "Get design critique on your theme choices (gentle, encouraging)"
+          ],
+          "progressTracking": "Theme portfolio, UI mockups you've created",
+          "realWorldApplication": "Build resume with 'Created 94+ accessible UI themes', design portfolio pieces"
+        },
+        {
+          "id": "visual_storytelling",
+          "name": "Drawing, Painting & Mixed Media",
+          "skills": ["Digital art basics", "Traditional media", "Coloring theory", "Texture work", "Symbolic imagery", "Afro-futurist aesthetics"],
+          "passiveTriggers": [
+            "Daily drawing prompt based on mood/spoons",
+            "Ancestor altar art prompts (draw protective symbols, family portraits)",
+            "Fashion sketch feature when outfit planning",
+            "Mood-based coloring pages (therapeutic + skill-building)"
+          ],
+          "progressTracking": "Art journal, portfolio exports, social media ready pieces",
+          "realWorldApplication": "Sellable art, Etsy shop potential, commission work, therapeutic practice"
+        }
+      ]
+    },
+    {
+      "id": "language_immersion",
+      "name": "Language Learning Through Media",
+      "category": "Languages & Culture",
+      "resumeValue": "Multilingual Communication, Cultural Competency, Translation Skills",
+      "collegeCredit": {
+        "equivalentCourses": ["SPAN 101-102: Elementary Spanish", "JAPN 101-102: Elementary Japanese", "KORE 101-102: Elementary Korean"],
+        "creditHours": 18,
+        "institutions": ["Community Colleges", "State Universities", "CLEP/DSST Equivalency"]
+      },
+      "modules": [
+        {
+          "id": "japanese_through_anime",
+          "name": "Japanese via Anime & Manga",
+          "skills": ["Hiragana/Katakana", "Basic kanji", "Common phrases", "Cultural context", "Honorifics", "Reading comprehension"],
+          "passiveTriggers": [
+            "Subtitle mode in anime tracker: Learn phrases while watching",
+            "Character name meanings explained automatically",
+            "Daily vocabulary from currently watching shows",
+            "Manga reading mode with furigana tooltips",
+            "Cultural notes on rituals, food, traditions shown in media"
+          ],
+          "progressTracking": "Vocabulary flashcards auto-generated from your watchlist",
+          "realWorldApplication": "Travel prep, subtitler/translator work, convention navigation, deeper media appreciation"
+        },
+        {
+          "id": "korean_through_drama",
+          "name": "Korean via K-Dramas",
+          "skills": ["Hangul reading", "Common phrases", "Honorific system", "Cultural understanding", "Listening comprehension"],
+          "passiveTriggers": [
+            "Drama dialogue breakdown while watching",
+            "Food vocabulary from cooking scenes",
+            "Relationship terms from character dynamics",
+            "Location names from travel scenes",
+            "Auto-generated study decks from your favorite shows"
+          ],
+          "progressTracking": "Episode-based learning milestones",
+          "realWorldApplication": "K-beauty industry knowledge, travel readiness, fan translation work"
+        },
+        {
+          "id": "spanish_through_culture",
+          "name": "Spanish via Music & Community",
+          "skills": ["Conversational Spanish", "Regional dialects", "Slang", "Cultural idioms", "Music lyrics comprehension"],
+          "passiveTriggers": [
+            "Song lyrics translation in music player",
+            "Cooking app teaches food vocabulary",
+            "Activism resources in Spanish with translation notes",
+            "Community event descriptions bilingual",
+            "Family history research includes Spanish naming patterns"
+          ],
+          "progressTracking": "Real-world usage journal",
+          "realWorldApplication": "Community organizing, family connections, healthcare navigation, workplace communication"
+        }
+      ]
+    },
+    {
+      "id": "tech_automation",
+      "name": "Tech Skills & Automation",
+      "category": "Technology & Systems",
+      "resumeValue": "Systems Administration, Automation Engineering, Data Management, No-Code/Low-Code Development",
+      "collegeCredit": {
+        "equivalentCourses": ["CIS 101: Introduction to Information Systems", "CIS 205: Database Management", "CS 150: Programming Logic"],
+        "creditHours": 9,
+        "institutions": ["Technical Colleges", "Community Colleges", "CompTIA Certifications"]
+      },
+      "modules": [
+        {
+          "id": "json_data_mastery",
+          "name": "JSON & Data Structures",
+          "skills": ["JSON syntax", "Data modeling", "API concepts", "File management", "Data organization"],
+          "passiveTriggers": [
+            "When viewing app data: See JSON structure with explanations",
+            "Export features teach data formats",
+            "Notion sync shows API concepts",
+            "Creating custom themes teaches JSON editing",
+            "Feature requests teach data structure thinking"
+          ],
+          "progressTracking": "Custom datasets created, API understanding level",
+          "realWorldApplication": "Resume: 'Experience with JSON APIs, data modeling, system architecture'"
+        },
+        {
+          "id": "automation_workflows",
+          "name": "Automation & Workflows",
+          "skills": ["IFTTT logic", "Automation thinking", "System design", "Workflow optimization", "Integration patterns"],
+          "passiveTriggers": [
+            "When scheduling tasks: Learn automation concepts",
+            "Medication reminders teach trigger-action logic",
+            "Music sync teaches API integration",
+            "Cross-platform features show system design",
+            "Suggested automations based on behavior patterns"
+          ],
+          "progressTracking": "Automations created and maintained",
+          "realWorldApplication": "Resume: 'Designed and implemented automated workflows', consulting potential"
+        },
+        {
+          "id": "app_design_basics",
+          "name": "App Development Fundamentals",
+          "skills": ["UI/UX principles", "User flow design", "Feature planning", "Platform differences", "Accessibility standards"],
+          "passiveTriggers": [
+            "Feature idea submission teaches requirements thinking",
+            "Bug reports teach QA concepts",
+            "Theme creation teaches design systems",
+            "Using cross-platform features teaches platform differences",
+            "Accessibility features show WCAG standards"
+          ],
+          "progressTracking": "Feature ideas documented, design portfolio pieces",
+          "realWorldApplication": "Resume: 'Product design experience', portfolio of app concepts"
+        }
+      ]
+    },
+    {
+      "id": "writing_mastery",
+      "name": "Writing & Storytelling",
+      "category": "Communication & Literature",
+      "resumeValue": "Professional Writing, Creative Writing, Content Creation, Editorial Skills",
+      "collegeCredit": {
+        "equivalentCourses": ["ENG 101: Composition I", "ENG 102: Composition II", "ENG 205: Creative Writing", "JOUR 150: Media Writing"],
+        "creditHours": 12,
+        "institutions": ["Community Colleges", "State Universities", "Portfolio-based Credit"]
+      },
+      "modules": [
+        {
+          "id": "poetry_craft",
+          "name": "Poetry & Spoken Word",
+          "skills": ["Form and structure", "Rhythm and meter", "Imagery", "Metaphor", "Performance techniques", "Editing process"],
+          "passiveTriggers": [
+            "Daily poetry prompt based on mood",
+            "Ancestor stories inspire poetry",
+            "Activism section suggests protest poetry",
+            "Music lyrics analysis teaches structure",
+            "Journal entries can become poems with AI suggestions (opt-in)"
+          ],
+          "progressTracking": "Poetry portfolio, performance recordings",
+          "realWorldApplication": "Open mics, published work, teaching workshops, slam competitions"
+        },
+        {
+          "id": "narrative_storytelling",
+          "name": "Narrative & Creative Fiction",
+          "skills": ["Character development", "Plot structure", "Dialogue", "World-building", "Pacing", "Genre conventions"],
+          "passiveTriggers": [
+            "D&D campaign notes teach storytelling structure",
+            "Anime/drama reviews develop critical analysis",
+            "Character profile creation (for roleplay or fiction)",
+            "Story prompts from current interests",
+            "Family history becomes narrative practice"
+          ],
+          "progressTracking": "Story portfolio, word count milestones",
+          "realWorldApplication": "Published fiction, game writing, screenplay adaptation, content creation"
+        },
+        {
+          "id": "advocacy_writing",
+          "name": "Advocacy & Persuasive Writing",
+          "skills": ["Argumentation", "Research skills", "Citation", "Audience awareness", "Call-to-action", "Community organizing language"],
+          "passiveTriggers": [
+            "Activism resources include writing guides",
+            "Social media drafts teach persuasion",
+            "Accessibility advocacy teaches clear communication",
+            "Community organizing guides built in",
+            "Self-advocacy scripts are writing lessons"
+          ],
+          "progressTracking": "Published articles, social media impact, letters written",
+          "realWorldApplication": "Resume: 'Community advocacy', 'Published writer', 'Organizer', grant writing"
+        }
+      ]
+    },
+    {
+      "id": "cultural_studies",
+      "name": "Intersectional Cultural Studies",
+      "category": "History & Social Sciences",
+      "resumeValue": "Cultural Analysis, Diversity & Inclusion Expertise, Historical Research, Critical Theory",
+      "collegeCredit": {
+        "equivalentCourses": ["AFAM 101: Introduction to African American Studies", "HIST 220: Native American History", "SOC 250: Race and Ethnicity", "WMST 101: Introduction to Gender Studies"],
+        "creditHours": 12,
+        "institutions": ["Universities", "Liberal Arts Colleges", "Portfolio Assessment"]
+      },
+      "modules": [
+        {
+          "id": "black_history_deep",
+          "name": "Black History & Afro-Futurism",
+          "skills": ["Historical analysis", "Cultural movements", "Resistance traditions", "Afro-futurist theory", "Contemporary applications"],
+          "passiveTriggers": [
+            "Ancestor section teaches family genealogy methods",
+            "Hoodoo practices explained with historical context",
+            "Music history shows cultural movements",
+            "Fashion history connects to resistance aesthetics",
+            "Daily 'This Day in Black History' notifications"
+          ],
+          "progressTracking": "Research projects, family history documentation",
+          "realWorldApplication": "Teaching, museum work, cultural consulting, family historian"
+        },
+        {
+          "id": "indigenous_studies",
+          "name": "Native American History & Sovereignty",
+          "skills": ["Tribal sovereignty", "Treaties and law", "Cultural preservation", "Contemporary issues", "Respectful engagement"],
+          "passiveTriggers": [
+            "Spiritual practices note Indigenous origins when relevant",
+            "Land acknowledgment features",
+            "Contemporary activism highlights Indigenous leaders",
+            "Media recommendations include Indigenous creators",
+            "Resource links to Native-led organizations"
+          ],
+          "progressTracking": "Resources saved, books read, actions taken",
+          "realWorldApplication": "Ally work, accurate representation in writing, community organizing"
+        },
+        {
+          "id": "queer_disability_theory",
+          "name": "Queer & Disability Justice",
+          "skills": ["Intersectionality", "Accessibility design", "Community care", "Movement history", "Contemporary organizing"],
+          "passiveTriggers": [
+            "Accessibility features teach universal design",
+            "Spoon theory integrated throughout app",
+            "Service dog resources with historical context",
+            "Queer history timelines",
+            "Movement ancestors highlighted (Marsha P. Johnson, Harriet Tubman, Stacey Park Milbern)"
+          ],
+          "progressTracking": "Advocacy actions, accessibility audits completed",
+          "realWorldApplication": "DEI consulting, accessibility auditing, community organizing, policy work"
+        }
+      ]
+    },
+    {
+      "id": "psychology_healing",
+      "name": "Psychology & Healing Arts",
+      "category": "Mental Health & Wellness",
+      "resumeValue": "Trauma-Informed Care, Peer Support, Therapeutic Communication, Mental Health First Aid",
+      "collegeCredit": {
+        "equivalentCourses": ["PSY 101: Introduction to Psychology", "PSY 220: Abnormal Psychology", "PSY 250: Human Development", "COUN 150: Peer Counseling"],
+        "creditHours": 12,
+        "institutions": ["Community Colleges", "State Universities", "Certificate Programs"]
+      },
+      "modules": [
+        {
+          "id": "trauma_understanding",
+          "name": "Trauma & Healing Frameworks",
+          "skills": ["Trauma types", "Coping mechanisms", "Nervous system regulation", "Attachment theory", "Somatic practices"],
+          "passiveTriggers": [
+            "Mood tracking teaches emotional literacy",
+            "Grounding techniques explain nervous system",
+            "Pain tracking shows mind-body connection",
+            "Self-advocacy scripts teach boundary setting",
+            "Support handbook creation is therapeutic practice"
+          ],
+          "progressTracking": "Personal healing journey documented, tools used",
+          "realWorldApplication": "Peer support work, crisis counseling certification, memoir writing, coaching"
+        },
+        {
+          "id": "interpersonal_dynamics",
+          "name": "Relationships & Communication",
+          "skills": ["Attachment styles", "Communication patterns", "Conflict resolution", "Boundary setting", "Found family dynamics"],
+          "passiveTriggers": [
+            "Support Me handbooks teach relationship needs articulation",
+            "Communication scripts show healthy patterns",
+            "Relationship tracking shows patterns",
+            "Media analysis explores character dynamics",
+            "Community organizing teaches group dynamics"
+          ],
+          "progressTracking": "Communication improvements, relationships strengthened",
+          "realWorldApplication": "Mediator training, coaching, teaching, relationship counseling"
+        }
+      ]
+    },
+    {
+      "id": "practical_life_skills",
+      "name": "Daily Life Mastery",
+      "category": "Life Skills & Wellness",
+      "resumeValue": "Project Management, Personal Finance, Nutrition Planning, Home Economics",
+      "collegeCredit": {
+        "equivalentCourses": ["FCS 101: Life Skills", "NUTR 150: Nutrition Basics", "FINC 101: Personal Finance"],
+        "creditHours": 9,
+        "institutions": ["Community Colleges", "Life Experience Credit"]
+      },
+      "modules": [
+        {
+          "id": "meal_planning_nutrition",
+          "name": "Cooking & World Cuisines",
+          "skills": ["Meal planning", "Nutrition basics", "Cultural food traditions", "Sodium tracking", "Recipe modification", "Kitchen safety"],
+          "passiveTriggers": [
+            "Sodium tracking teaches nutrition science",
+            "Recipe suggestions based on health needs",
+            "Cultural food history with recipes",
+            "Meal planning teaches budgeting",
+            "Grocery list generation teaches organization"
+          ],
+          "progressTracking": "Recipes tried, nutrition goals met",
+          "realWorldApplication": "Cooking channel, recipe blog, catering side hustle, dietary consulting"
+        },
+        {
+          "id": "financial_survival",
+          "name": "Money Management & Passive Income",
+          "skills": ["Budgeting", "Passive income streams", "Digital product creation", "Pricing strategies", "Financial planning"],
+          "passiveTriggers": [
+            "Passive income engine teaches monetization",
+            "Template creation shows product development",
+            "Subscription tracking teaches financial awareness",
+            "Portfolio building teaches value communication",
+            "Resource sharing shows entrepreneurship"
+          ],
+          "progressTracking": "Income generated, products created",
+          "realWorldApplication": "Financial independence, entrepreneurship, consulting, teaching"
+        },
+        {
+          "id": "organization_systems",
+          "name": "Life Systems & Organization",
+          "skills": ["Project management", "Task prioritization", "Calendar management", "Filing systems", "Routine building"],
+          "passiveTriggers": [
+            "Using the app IS the learning",
+            "Spoon management teaches resource allocation",
+            "Scheduling teaches time management",
+            "Archive system teaches information management",
+            "Automation setup teaches systems thinking"
+          ],
+          "progressTracking": "Systems maintained, life management success",
+          "realWorldApplication": "Project management roles, consulting, productivity coaching"
+        }
+      ]
+    },
+    {
+      "id": "entertainment_archiving",
+      "name": "Media Curation & Analysis",
+      "category": "Media Studies & Information Science",
+      "resumeValue": "Information Management, Critical Analysis, Content Curation, Database Administration",
+      "collegeCredit": {
+        "equivalentCourses": ["FILM 101: Introduction to Film Studies", "LIS 150: Information Organization", "COMM 220: Media Analysis"],
+        "creditHours": 9,
+        "institutions": ["Universities", "Library Science Programs"]
+      },
+      "modules": [
+        {
+          "id": "media_criticism",
+          "name": "Film & TV Analysis",
+          "skills": ["Critical viewing", "Thematic analysis", "Cultural context", "Cinematography", "Narrative structure", "Representation analysis"],
+          "passiveTriggers": [
+            "Watchlist tracking prompts mini-reviews",
+            "AI suggests analytical questions while watching",
+            "Compare themes across shows you love",
+            "Track representation patterns",
+            "Cultural context notes auto-populate"
+          ],
+          "progressTracking": "Reviews written, analysis depth",
+          "realWorldApplication": "Film criticism, blog, podcast, YouTube channel, teaching"
+        },
+        {
+          "id": "archiving_systems",
+          "name": "Personal Archiving & Cataloging",
+          "skills": ["Taxonomy design", "Metadata creation", "Tagging systems", "Information retrieval", "Digital preservation"],
+          "passiveTriggers": [
+            "Using your media library teaches archiving",
+            "Tag creation teaches taxonomy",
+            "Search functionality teaches information science",
+            "Backup systems teach preservation",
+            "Organization methods teach library science"
+          ],
+          "progressTracking": "Archive size and organization quality",
+          "realWorldApplication": "Resume: 'Information Architecture', librarian track, digital archivist, museum work"
+        }
+      ]
+    },
+    {
+      "id": "spiritual_ancestral",
+      "name": "Spiritual Practices & Lineage Work",
+      "category": "Theology & Spiritual Studies",
+      "resumeValue": "Cultural Research, Genealogy, Spiritual Counseling, Historical Preservation",
+      "collegeCredit": {
+        "equivalentCourses": ["REL 150: World Religions", "ANTH 210: Cultural Anthropology", "HIST 300: Family History Research"],
+        "creditHours": 9,
+        "institutions": ["Liberal Arts Colleges", "Theological Schools", "Portfolio Assessment"]
+      },
+      "modules": [
+        {
+          "id": "hoodoo_practice",
+          "name": "Hoodoo & Ancestral Connection",
+          "skills": ["Ritual design", "Historical context", "Ethical practice", "Cultural respect", "Spiritual journaling", "Altar work"],
+          "passiveTriggers": [
+            "Ancestor altar section teaches ritual structure",
+            "Moon phase tracking explains timing",
+            "Candle color meanings in ritual planner",
+            "Historical figures with spiritual practices highlighted",
+            "Recommended reading on rootwork"
+          ],
+          "progressTracking": "Rituals performed, altar maintained, lineage researched",
+          "realWorldApplication": "Spiritual guide, writer, teacher, cultural preservation"
+        },
+        {
+          "id": "genealogy_research",
+          "name": "Family History & Genealogy",
+          "skills": ["Research methods", "Source evaluation", "Family tree building", "Historical documentation", "Storytelling", "Preservation"],
+          "passiveTriggers": [
+            "Ancestor gallery teaches documentation",
+            "Photo dating and cataloging",
+            "Family story recording prompts",
+            "Historical context for time periods",
+            "DNA test result interpretation guides"
+          ],
+          "progressTracking": "Family tree depth, stories documented",
+          "realWorldApplication": "Professional genealogist, family historian, museum consultant"
+        }
+      ]
+    },
+    {
+      "id": "game_worldbuilding",
+      "name": "Gaming & World-Building",
+      "category": "Game Design & Creative Writing",
+      "resumeValue": "Game Design, Creative Direction, Systems Thinking, Collaborative Storytelling",
+      "collegeCredit": {
+        "equivalentCourses": ["GAME 150: Introduction to Game Design", "ENG 320: Fantasy & Science Fiction", "THEA 250: Improv & Roleplay"],
+        "creditHours": 9,
+        "institutions": ["Game Design Schools", "Community Colleges"]
+      },
+      "modules": [
+        {
+          "id": "dnd_campaign_design",
+          "name": "D&D Campaign Creation",
+          "skills": ["World-building", "Character development", "Plot design", "Rules systems", "Improvisation", "Player engagement"],
+          "passiveTriggers": [
+            "Campaign planner with structure guidance",
+            "Character generator teaches NPC design",
+            "Map creation tools",
+            "Session recap templates teach narrative structure",
+            "Loot table creation teaches game balance"
+          ],
+          "progressTracking": "Campaigns run, worlds created",
+          "realWorldApplication": "Game master for hire, adventure publishing, teaching, content creation"
+        },
+        {
+          "id": "worldbuilding_systems",
+          "name": "Fantasy World-Building",
+          "skills": ["Geography", "Culture design", "Magic systems", "Economics", "Politics", "History creation"],
+          "passiveTriggers": [
+            "Map design tools",
+            "Culture worksheet templates",
+            "Magic system balance guides",
+            "Historical timeline builders",
+            "Language creation basics"
+          ],
+          "progressTracking": "Worlds documented, complexity level",
+          "realWorldApplication": "Novel writing, game design, tabletop publishing, teaching creative writing"
+        }
+      ]
+    },
+    {
+      "id": "fashion_aesthetic",
+      "name": "Fashion & Personal Style",
+      "category": "Fashion & Design",
+      "resumeValue": "Fashion Design, Personal Styling, Wardrobe Consulting, Trend Analysis",
+      "collegeCredit": {
+        "equivalentCourses": ["FASH 101: Fashion Fundamentals", "FASH 205: Style & Trend Analysis"],
+        "creditHours": 6,
+        "institutions": ["Fashion Institutes", "Portfolio Assessment"]
+      },
+      "modules": [
+        {
+          "id": "outfit_curation",
+          "name": "Wardrobe Architecture",
+          "skills": ["Color coordination", "Silhouette analysis", "Texture mixing", "Occasion dressing", "Capsule wardrobe", "Sustainable fashion"],
+          "passiveTriggers": [
+            "Outfit planner teaches composition",
+            "Mood-based outfit suggestions",
+            "Fashion history notes on styles you choose",
+            "Body-positive styling education",
+            "Budget fashion tips"
+          ],
+          "progressTracking": "Outfit database, style evolution documented",
+          "realWorldApplication": "Personal stylist, wardrobe consultant, fashion blogger, photoshoot styling"
+        },
+        {
+          "id": "subculture_fashion",
+          "name": "Alt, Punk, Goth Style Theory",
+          "skills": ["Subculture history", "DIY techniques", "Aesthetic philosophy", "Anti-fashion movements", "Personal expression"],
+          "passiveTriggers": [
+            "Style research embedded in outfit planning",
+            "DIY modification guides",
+            "Band/scene history with fashion context",
+            "Ethical fashion in punk context",
+            "Zine-style fashion documentation"
+          ],
+          "progressTracking": "Style portfolio, DIY projects",
+          "realWorldApplication": "Stylist specializing in alt aesthetics, costume design, music video styling"
+        }
+      ]
+    }
+  ],
+  "gamificationWithoutTriggers": {
+    "philosophy": "NO grades, NO tests, NO deadlines. Growth is documented, not judged.",
+    "progressIndicators": {
+      "portfolioPieces": "Collection of work created, not points earned",
+      "skillBadges": "Descriptive achievements, not competitive rankings",
+      "resumeBuilder": "Auto-generates resume bullets from real work done",
+      "transcriptGenerator": "Creates unofficial transcript showing equivalent coursework"
+    },
+    "celebrationStyle": "Gentle affirmations, not pressure. 'You made something beautiful today' not 'You're behind schedule'",
+    "optOut": "Every learning feature can be hidden. Privacy always.",
+    "noComparison": "Your journey only. No leaderboards, no competition."
+  },
+  "resumeOutputFormat": {
+    "autoGenerated": true,
+    "sections": {
+      "skills": [
+        "Digital Media Production",
+        "UI/UX Design (94+ themes created)",
+        "Multilingual Communication (Japanese, Korean, Spanish)",
+        "Data Management & JSON APIs",
+        "Automation Design & Workflow Optimization",
+        "Creative Writing & Poetry",
+        "Cultural Analysis & Intersectional Theory",
+        "Trauma-Informed Care & Peer Support",
+        "Game Design & Campaign Development",
+        "Personal Styling & Wardrobe Consulting",
+        "Genealogical Research & Family History",
+        "Media Curation & Critical Analysis"
+      ],
+      "experience": [
+        {
+          "title": "Product Designer & Developer",
+          "project": "KOL Personal OS",
+          "achievements": [
+            "Designed and implemented 94+ accessible UI themes following WCAG AA standards",
+            "Created comprehensive data architecture using JSON for life management system",
+            "Developed automation workflows for health tracking and personal management",
+            "Built cross-platform application (desktop, web, mobile) with offline-first capabilities"
+          ]
+        },
+        {
+          "title": "Creative Professional",
+          "portfolio": "Multidisciplinary Artist",
+          "achievements": [
+            "Photography portfolio spanning editorial, portrait, and documentary work",
+            "Published poet with focus on intersectional identity and activism",
+            "Multimedia content creator across visual art, writing, and performance",
+            "Genealogical researcher preserving family history and ancestral knowledge"
+          ]
+        },
+        {
+          "title": "Community Organizer & Advocate",
+          "focus": "Disability Justice & Intersectional Activism",
+          "achievements": [
+            "Developed trauma-informed communication frameworks for community organizing",
+            "Created accessibility resources and self-advocacy tools",
+            "Facilitated workshops on intersectionality and cultural competency",
+            "Published writing on disability rights, queer liberation, and racial justice"
+          ]
+        }
+      ],
+      "education": {
+        "lifeExperienceLearning": {
+          "equivalentCredits": "80+ college credit hours",
+          "areas": [
+            "Digital Arts & Design (18 credits)",
+            "Languages & Cultural Studies (18 credits)",
+            "Technology & Information Systems (18 credits)",
+            "Creative Writing & Communication (12 credits)",
+            "Psychology & Social Sciences (12 credits)",
+            "Practical Life Skills (9 credits)"
+          ]
+        },
+        "certifications": [
+          "Accessibility Auditor (Self-taught, WCAG AA compliance)",
+          "Trauma-Informed Care Practitioner (Lived experience + structured learning)",
+          "Digital Product Developer (Portfolio-based)",
+          "Cultural Competency Facilitator (Community-based learning)"
+        ]
+      }
+    }
+  },
+  "collegeEquivalencyGuide": {
+    "howToUseLearningForCredit": [
+      "Portfolio Assessment: Many colleges accept life experience portfolios for credit",
+      "CLEP/DSST Testing: Free study through app, pay only if you want official credit ($89/test)",
+      "PLA (Prior Learning Assessment): Document skills gained for institutional credit",
+      "Competency-Based Programs: WGU, Excelsior, etc. accept demonstrated skills",
+      "Credit by Examination: Challenge courses at community colleges",
+      "Apprenticeships & Industry Certs: Trade schools accept demonstrated competency"
+    ],
+    "noTuitionRequired": [
+      "Document your learning journey in the app",
+      "Export portfolio pieces for assessment",
+      "Use auto-generated transcripts for preliminary review",
+      "Only pay if you decide to pursue official credit",
+      "Many community colleges offer free PLA consultations"
+    ]
+  },
+  "antiAcademicTraumaFeatures": {
+    "noDeadlines": "Learn at your own pace, always",
+    "noGrades": "Growth is documented, not judged",
+    "noClassrooms": "Learn while living your life",
+    "noTeachers": "Guidance, not authority figures",
+    "noCompetition": "Your journey, your timeline",
+    "noFailure": "Every attempt is data, not judgment",
+    "noPressure": "You can hide any learning feature anytime",
+    "noQuizzes": "Understanding shown through creation, not testing",
+    "noAttendance": "No one tracking if you engage today",
+    "noComparisons": "Just you and your growth"
+  },
+  "learningInAction": {
+    "dailyExamples": [
+      "Morning: Medication tracking teaches pharmacology basics",
+      "Breakfast: Sodium logging teaches nutrition science",
+      "Commute: Music playlist teaches genre history and cultural movements",
+      "Afternoon: Outfit planning teaches design principles and cultural semiotics",
+      "Evening: Watching K-drama teaches Korean language passively",
+      "Night: Journaling teaches narrative structure and self-reflection",
+      "Anytime: Using the app IS learning systems design, data management, and accessibility"
+    ],
+    "realWorldOutputs": [
+      "Portfolio website auto-generated from your work",
+      "Resume bullets auto-written from features you use",
+      "College transcript showing equivalent coursework",
+      "LinkedIn-ready skill descriptions",
+      "Etsy/Gumroad products from templates you've created",
+      "Blog posts from journal entries (opt-in)",
+      "Teaching materials from your own learning journey"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+Name,Dosage,Schedule,PRN,Notes
+Gabapentin,"300 mg (1 AM, 2 PM)",Daily,false,Pain/neuropathic
+Propranolol,as prescribed,Daily,false,POTS/HR control
+Methotrexate,2.5 mg x5 once weekly,Weekly (Mon),false,RA; avoid with folic acid same day
+Symbicort,160/4.5 2 puffs,Daily,false,Asthma maintenance
+Albuterol,2 puffs,PRN,true,Rescue
+Ondansetron,4–8 mg,PRN,true,Nausea
+Vitamin D3,per label,Daily,false,
+Famotidine,per label,Daily,false,

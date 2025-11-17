@@ -1,0 +1,243 @@
+# KOL Unified App - Git Ignore Rules
+# Prevents sensitive data and build files from being committed
+
+# ============================================
+# 🔐 CRITICAL: API Keys & Secrets
+# ============================================
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+*.env
+*.key
+*.pem
+secrets.json
+api-keys.json
+
+# ============================================
+# 📦 Dependencies
+# ============================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json.backup
+.pnpm-store/
+
+# ============================================
+# 🏗️ Build Output
+# ============================================
+dist/
+dist-ssr/
+build/
+out/
+.output/
+.vercel/
+.netlify/
+
+# ============================================
+# 📱 Mobile Build Files
+# ============================================
+android/
+ios/
+*.apk
+*.aab
+*.ipa
+capacitor.config.json.backup
+
+# ============================================
+# 🖥️ Desktop Build Files
+# ============================================
+electron/dist/
+release/
+*.exe
+*.dmg
+*.AppImage
+*.deb
+*.rpm
+
+# ============================================
+# 🧪 Testing
+# ============================================
+coverage/
+.nyc_output/
+*.lcov
+test-results/
+playwright-report/
+
+# ============================================
+# 🔧 IDE & Editor Files
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================
+# 📊 Logs
+# ============================================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# ============================================
+# 🗄️ Database Files
+# ============================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================================
+# 💾 Temporary Files
+# ============================================
+*.tmp
+*.temp
+tmp/
+temp/
+.cache/
+.parcel-cache/
+
+# ============================================
+# 🔍 System Files
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ============================================
+# 🎨 Asset Source Files (Keep compiled versions)
+# ============================================
+*.psd
+*.ai
+*.sketch
+*.fig
+
+# ============================================
+# 📝 Personal & Backup Files
+# ============================================
+_BACKUPS/
+*.backup
+*.bak
+*.old
+*_backup_*
+*_old_*
+
+# ============================================
+# 🔒 Security & Certificates
+# ============================================
+*.pem
+*.p12
+*.key
+*.cert
+*.crt
+ssl/
+certificates/
+
+# ============================================
+# ⚙️ Configuration Overrides
+# ============================================
+.env.*.local
+config.local.js
+config.local.ts
+
+# ============================================
+# 🌐 Netlify
+# ============================================
+.netlify/
+netlify/functions/node_modules/
+
+# ============================================
+# 📱 Capacitor
+# ============================================
+capacitor.config.json.backup
+.capacitor/
+
+# ============================================
+# 🎵 Media Files (Large files)
+# ============================================
+# Uncomment if you don't want to commit large media
+# *.mp3
+# *.mp4
+# *.mov
+# *.avi
+# *.wav
+
+# ============================================
+# 📦 Package Manager Locks (Optional)
+# ============================================
+# Uncomment if you want to ignore lock files
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ============================================
+# 🧹 Keep These Empty Directories
+# ============================================
+!.gitkeep
+
+# ============================================
+# ✅ ALLOW THESE IMPORTANT FILES
+# ============================================
+!netlify.toml
+!capacitor.config.ts
+!vite.config.ts
+!tsconfig.json
+!package.json
+!README.md
+!public/
+!src/
+
+# ============================================
+# 🖤 KOL-Specific Exclusions
+# ============================================
+# Medical data exports
+med_list_*.xls
+med_list_*.xlsx
+health_data_*.json
+
+# User data
+user_data/
+patient_data/
+personal_notes/
+
+# Evolution logs (keep in Git for history)
+!evolution-log.json
+!🖤-EVOLUTION-LOG.json
+
+# API Reference (keep)
+!kol_ai_companion_reference.json
+!Kol_AI_Companion_Reference.md
+
+# Feature databases (keep)
+!KolHub_Ideas_*.json
+!kol_master_feature_map.json
+
+# Documentation (keep all)
+!*.md
+!*.txt
+!*.html
+
+# Scripts (keep all)
+!*.bat
+!*.sh
+!*.ps1
+
+# Configuration (keep)
+!*.config.js
+!*.config.ts
+!postcss.config.js
+!tailwind.config.js

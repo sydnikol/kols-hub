@@ -1,0 +1,362 @@
+{
+  "version": "2.0.0",
+  "lastUpdated": "2025-11-12",
+  "core_modules": {
+    "routine_manager": {
+      "category": "Daily Management",
+      "features": {
+        "time_based_routines": {
+          "morning": "Wake routine with energy assessment",
+          "midday": "Check-in and rebalancing",
+          "evening": "Wind-down preparation",
+          "night": "Sleep prep and reflection"
+        },
+        "adaptive_scheduling": {
+          "weather_response": "Adjusts for barometric pressure and temperature",
+          "pain_adaptation": "Modifies tasks based on pain levels",
+          "energy_pacing": "Spoon theory integration",
+          "mood_awareness": "Emotional state consideration"
+        },
+        "chronic_illness_support": {
+          "task_pacing": "Break tasks into manageable chunks",
+          "rest_integration": "Scheduled rest periods",
+          "routine_flexibility": "Skip/swap when low on spoons",
+          "sensory_accommodation": "Low-stimulation options"
+        },
+        "daily_flows": {
+          "start_of_day": {
+            "vitals_check": "BP, energy, pain assessment",
+            "task_preview": "Today's agenda",
+            "music_suggestion": "Mood-based playlist",
+            "outfit_recommendation": "Weather + energy based"
+          },
+          "end_of_day": {
+            "auto_music": "Starts at 10:30PM with Dimple",
+            "light_dimming": "Automated lighting control",
+            "reflection_trigger": "Journaling prompt",
+            "next_day_prep": "Tomorrow preview"
+          }
+        },
+        "break_reminders": {
+          "energy_based": "Alerts when energy drops",
+          "low_energy_suggestions": "Gentle activity ideas",
+          "hydration_alerts": "Water intake reminders",
+          "movement_prompts": "Gentle stretching cues"
+        }
+      }
+    },
+    "health_tracker": {
+      "category": "Health Management",
+      "features": {
+        "medication_management": {
+          "checklist": {
+            "name": "Medication name",
+            "dose": "Dosage amount",
+            "time": "Scheduled time",
+            "side_effects": "Known reactions"
+          },
+          "tracking": {
+            "taken_toggle": "Mark as taken with timestamp",
+            "pain_logging": "Post-medication pain spikes",
+            "missed_warnings": "Alerts for missed doses",
+            "prn_logging": "As-needed medication tracking"
+          },
+          "excel_import": "Import from .xls medication lists",
+          "export_options": "Printable medication schedules",
+          "aide_interview": "Home aide rating system printout"
+        },
+        "vitals_monitoring": {
+          "blood_pressure": {
+            "morning": "AM readings",
+            "evening": "PM readings",
+            "trends": "Visual graphing",
+            "alerts": "Out-of-range warnings"
+          },
+          "energy_tracking": {
+            "spoon_counter": "Daily spoon allocation",
+            "energy_patterns": "Weekly/monthly trends",
+            "crash_prediction": "Early warning system"
+          },
+          "hydration": {
+            "water_log": "Intake tracking",
+            "alerts": "Dehydration warnings",
+            "goal_setting": "Daily targets"
+          },
+          "sodium_intake": {
+            "daily_goal": "4000mg target for POTS",
+            "meal_tracking": "Salt content logging",
+            "alerts": "Low sodium warnings"
+          },
+          "menstrual_tracking": {
+            "cycle_calendar": "Period tracking",
+            "symptom_logging": "Hormonal effects",
+            "medication_adjustment": "Cycle-based dosing"
+          }
+        },
+        "body_weather": {
+          "daily_logs": {
+            "pain_levels": "0-10 scale with location",
+            "energy_state": "Spoon count",
+            "mood_tracking": "Emotional state",
+            "sensory_tolerance": "Stimulation capacity"
+          },
+          "visualization": {
+            "calendar_view": "Month overview",
+            "graph_display": "Trend lines",
+            "color_coding": "Quick visual reference",
+            "pattern_recognition": "AI-assisted insights"
+          },
+          "integration": {
+            "routine_influence": "Adapts daily tasks",
+            "outfit_selection": "Comfort-based suggestions",
+            "activity_planning": "Energy-appropriate options"
+          }
+        },
+        "patient_portals": {
+          "mysaintlukes": "Direct portal integration",
+          "myuhealth": "University Health access",
+          "appointment_sync": "Calendar integration",
+          "results_tracking": "Lab result monitoring"
+        }
+      }
+    },
+    "spiritual_reflection": {
+      "category": "Spiritual Practice",
+      "features": {
+        "ritual_tracking": {
+          "ancestor_altar": {
+            "candles": "Lighting schedule",
+            "offerings": "Food and drink tracking",
+            "water_refresh": "Daily water changes",
+            "photo_placement": "Ancestor honored"
+          },
+          "ritual_scheduler": {
+            "moon_phases": "Lunar calendar integration",
+            "seasonal_celebrations": "Wheel of year",
+            "personal_dates": "Custom observances"
+          },
+          "dream_journal": {
+            "moon_phase_linking": "Lunar influence tracking",
+            "symbol_tagging": "Dream element cataloging",
+            "pattern_recognition": "Recurring theme identification"
+          },
+          "custom_rituals": {
+            "ritual_builder": "Create personal practices",
+            "supply_tracking": "Candles, herbs, tools",
+            "intention_setting": "Goal-focused rituals"
+          },
+          "hoodoo_calendar": {
+            "herb_correspondences": "Plant magic guide",
+            "planetary_days": "Day-based workings",
+            "candle_colors": "Color magic reference",
+            "root_work": "Traditional practices"
+          }
+        },
+        "journaling_system": {
+          "format_options": {
+            "text": "Traditional writing",
+            "audio": "Voice recordings",
+            "poetic": "Creative expression",
+            "visual": "Image-based entries",
+            "multilingual": "Multiple language support"
+          },
+          "prompt_types": {
+            "reflection": "Self-examination prompts",
+            "spiritual": "Connection questions",
+            "recap": "Day review",
+            "appreciation": "Gratitude focus",
+            "triggered": "Event-based prompts"
+          },
+          "organization": {
+            "mood_tags": "Emotional categorization",
+            "health_tags": "Physical state markers",
+            "event_tags": "Occasion linkage"
+          },
+          "voice_to_text": "Hands-free journaling",
+          "ai_prompts": "Guided visual suggestions"
+        }
+      }
+    },
+    "wardrobe_style": {
+      "category": "Personal Style",
+      "features": {
+        "wardrobe_catalog": {
+          "items": {
+            "clothing": "Full wardrobe inventory",
+            "accessories": "Jewelry, bags, etc.",
+            "piercings": "Body jewelry tracking",
+            "harnesses": "Leather/bondage wear",
+            "shoes": "Footwear collection"
+          },
+          "item_details": {
+            "comfort_rating": "Sensory-friendly scale",
+            "type_tags": "Categorization",
+            "aesthetic_tags": "Style markers",
+            "weather_appropriate": "Temperature suitability"
+          }
+        },
+        "outfit_generator": {
+          "factors": {
+            "weather": "Temperature and conditions",
+            "energy": "Spoon-based complexity",
+            "aesthetic": "Gothic/alternative styles",
+            "occasion": "Event appropriateness"
+          },
+          "favorites": "Saved combinations",
+          "partner_sync": "Coordinate with DaVeon's outfits",
+          "photo_archive": "OOTD documentation"
+        },
+        "style_resources": {
+          "makeup_tutorials": "Look suggestions",
+          "piercing_log": "Placement and care",
+          "leatherwear_care": "Maintenance guide"
+        }
+      }
+    },
+    "entertainment": {
+      "category": "Media & Games",
+      "features": {
+        "music_streaming": {
+          "spotify": {
+            "auto_play": "10:30PM start with Dimple",
+            "shuffle_toggle": "Random or sequential",
+            "loop_options": "Repeat settings",
+            "mood_playlists": "Emotion-based suggestions"
+          },
+          "youtube_music": "Alternative streaming",
+          "soundcloud": "Independent artist access"
+        },
+        "gaming": {
+          "solo_board_games": {
+            "library": "Game collection",
+            "session_tracker": "Play logging",
+            "variant_rules": "Custom modifications"
+          },
+          "dnd_solo": {
+            "prompt_system": "Story generation",
+            "expansion_ideas": "Campaign development",
+            "character_tracking": "PC management"
+          },
+          "board_game_hangout": {
+            "scheduler": "Session planning",
+            "friend_availability": "Group coordination",
+            "game_selection": "Voting system"
+          },
+          "mood_suggestions": "Game recommendations based on energy/mood"
+        }
+      }
+    },
+    "creativity": {
+      "category": "Creative Expression",
+      "features": {
+        "prompt_libraries": {
+          "art": "Visual art ideas",
+          "poetry": "Writing prompts",
+          "photography": "Shot concepts",
+          "storytelling": "Narrative seeds",
+          "zine_making": "Publication ideas"
+        },
+        "creative_logging": {
+          "project_tracking": "Work in progress",
+          "completion_celebration": "Finished work archive",
+          "idea_capture": "Quick note system"
+        },
+        "multilingual_support": {
+          "journal_translation": "Multiple language entries",
+          "prompt_localization": "Translated suggestions"
+        },
+        "micro_projects": {
+          "5_minute_ideas": "Quick creative tasks",
+          "low_spoon_crafts": "Energy-appropriate making",
+          "reminders": "Gentle creative nudges"
+        },
+        "creative_budgeting": {
+          "supply_tracking": "Art supplies inventory",
+          "project_costs": "Budget per creation",
+          "wishlist": "Future supply needs"
+        }
+      }
+    },
+    "finance": {
+      "category": "Financial Management",
+      "features": {
+        "passive_income": {
+          "idea_tracker": "1000+ income concepts",
+          "categorization": "8 income buckets",
+          "feasibility_rating": "Energy/skill assessment",
+          "progress_tracking": "Implementation status"
+        },
+        "budgeting": {
+          "monthly_sheets": "Comprehensive budgets",
+          "weekly_breakdown": "Detailed spending",
+          "bill_tracking": "Due dates and amounts",
+          "autopay_management": "Automated payment tracking"
+        },
+        "reflection": {
+          "money_mindset": "Financial attitude journaling",
+          "spending_patterns": "Habit awareness",
+          "goal_setting": "Financial targets"
+        },
+        "creative_fund": {
+          "dedicated_savings": "Art supply budget",
+          "project_allocation": "Per-creation funds"
+        }
+      }
+    },
+    "community_support": {
+      "category": "Connection & Advocacy",
+      "features": {
+        "relationship_tools": {
+          "support_logs": "Friend/family check-ins",
+          "polycule_calendar": "Shared scheduling",
+          "partner_handbook": "Support Me guides",
+          "family_documents": "Aide instructions"
+        },
+        "advocacy": {
+          "city_council_writer": "Email template generator",
+          "organizing_tools": "Campaign planning",
+          "resource_sharing": "Community support networks"
+        }
+      }
+    }
+  },
+  "system_features": {
+    "automation": {
+      "backend": {
+        "node_modules": "Reusable components",
+        "react_modules": "UI building blocks",
+        "json_seeds": "Data initialization",
+        "repair_scripts": "System maintenance"
+      },
+      "intelligence": {
+        "taste_memory": "Preference learning",
+        "routine_adaptation": "AI schedule optimization",
+        "prompt_suggestion": "Context-aware ideas",
+        "pattern_recognition": "Behavioral insights"
+      }
+    },
+    "export_system": {
+      "formats": {
+        "json": "Module-specific seeds",
+        "notion": "Notion-ready templates",
+        "google_docs": "Document exports",
+        "google_sheets": "Spreadsheet exports",
+        "printable_zines": "PDF publications",
+        "zip_archives": "Feature-based packages"
+      }
+    },
+    "cross_platform": {
+      "desktop": "Electron app",
+      "web": "PWA with offline support",
+      "mobile": "iOS and Android via Capacitor",
+      "sync": "Cross-device data synchronization"
+    }
+  },
+  "metadata": {
+    "total_feature_count": "250+",
+    "primary_categories": 8,
+    "sub_modules": 40,
+    "data_points_tracked": "100+",
+    "customization_options": "Unlimited"
+  }
+}

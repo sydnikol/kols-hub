@@ -1,0 +1,231 @@
+{
+  "name": "Kol Master Ideas Libraries",
+  "project": "KOL Personal Operating System",
+  "version": "2.0.0",
+  "created_at": "2025-11-12T08:51:40.763917",
+  "description": "Comprehensive idea libraries for daily planning, health management, creative expression, and spiritual practice",
+  "total_ideas": 1600,
+  "libraries": [
+    {
+      "key": "ideas_food",
+      "name": "Food & Meal Ideas",
+      "path": "/data/seeds/ideas_food.json",
+      "description": "200 food/meal ideas optimized for low-spoon days, batch cooking, and high-salt POTS requirements",
+      "count": 200,
+      "categories": [
+        "Quick meals (under 10 minutes)",
+        "Batch-cookable meals",
+        "High-sodium options for POTS",
+        "Sensory-friendly foods",
+        "Partner cooking ideas",
+        "Grocery shopping lists"
+      ],
+      "filters": {
+        "prep_time": ["5min", "10min", "30min", "1hr+"],
+        "energy_level": ["very_low", "low", "medium", "high"],
+        "dietary": ["high_salt", "protein_rich", "comfort_food", "nutritious"],
+        "meal_type": ["breakfast", "lunch", "dinner", "snack"]
+      }
+    },
+    {
+      "key": "ideas_health",
+      "name": "Micro Health Actions",
+      "path": "/data/seeds/ideas_health.json",
+      "description": "200 micro health actions specifically designed for POTS, hEDS, and CPTSD management",
+      "count": 200,
+      "categories": [
+        "Pain management techniques",
+        "Energy conservation methods",
+        "Sensory regulation tools",
+        "Gentle movement options",
+        "Grounding exercises",
+        "Medication timing strategies"
+      ],
+      "filters": {
+        "duration": ["1min", "5min", "10min", "15min+"],
+        "energy_cost": ["1_spoon", "2_spoons", "3_spoons"],
+        "condition": ["POTS", "hEDS", "CPTSD", "general"],
+        "location": ["bed", "chair", "floor", "standing"]
+      }
+    },
+    {
+      "key": "ideas_sewing",
+      "name": "Sewing & Upcycling Projects",
+      "path": "/data/seeds/ideas_sewing.json",
+      "description": "200 sewing, upcycling, and repair ideas for sustainable fashion and gothic aesthetic",
+      "count": 200,
+      "categories": [
+        "Quick mending projects",
+        "Upcycling transformations",
+        "Gothic alterations",
+        "Harness making",
+        "Piercing modifications",
+        "Leatherwear repairs"
+      ],
+      "filters": {
+        "skill_level": ["beginner", "intermediate", "advanced"],
+        "time_required": ["15min", "1hr", "half_day", "weekend"],
+        "materials": ["fabric_scraps", "old_clothes", "leather", "chains"],
+        "aesthetic": ["goth", "punk", "cybergoth", "romantic"]
+      }
+    },
+    {
+      "key": "ideas_art",
+      "name": "Art & Creative Prompts",
+      "path": "/data/seeds/ideas_art.json",
+      "description": "200 art prompts spanning poetry, photography, drawing, and zine creation",
+      "count": 200,
+      "categories": [
+        "Poetry writing prompts",
+        "Photography concepts",
+        "Drawing challenges",
+        "Zine themes",
+        "Mixed media ideas",
+        "Digital art projects"
+      ],
+      "filters": {
+        "medium": ["poetry", "photography", "drawing", "digital", "mixed_media", "zine"],
+        "mood": ["melancholic", "angry", "joyful", "contemplative", "rebellious"],
+        "energy_level": ["very_low", "low", "medium", "high"],
+        "duration": ["5min", "30min", "1hr", "multi_day"]
+      }
+    },
+    {
+      "key": "ideas_hoodoo",
+      "name": "Hoodoo Micro-Practices",
+      "path": "/data/seeds/ideas_hoodoo.json",
+      "description": "200 hoodoo micro-practices including altar work, cleansing, protection, and manifestation",
+      "count": 200,
+      "categories": [
+        "Ancestor altar maintenance",
+        "Cleansing rituals",
+        "Protection workings",
+        "Money magic",
+        "Love drawing",
+        "Road opening"
+      ],
+      "filters": {
+        "duration": ["1min", "5min", "15min", "1hr+"],
+        "supplies_needed": ["minimal", "moderate", "extensive"],
+        "moon_phase": ["new", "waxing", "full", "waning"],
+        "purpose": ["protection", "cleansing", "money", "love", "healing", "justice"]
+      }
+    },
+    {
+      "key": "ideas_passive_income",
+      "name": "Passive Income Starters",
+      "path": "/data/seeds/ideas_passive_income.json",
+      "description": "600 passive income ideas organized across 8 income buckets for chronic illness-friendly earning",
+      "count": 600,
+      "categories": [
+        "Digital products",
+        "Print-on-demand",
+        "Affiliate marketing",
+        "Content creation",
+        "Subscription services",
+        "Licensing & royalties",
+        "Automated services",
+        "Investment income"
+      ],
+      "income_buckets": [
+        {
+          "name": "Digital Products",
+          "ideas": 75,
+          "examples": ["Notion templates", "Printables", "Stock photos", "Fonts"]
+        },
+        {
+          "name": "Print-on-Demand",
+          "ideas": 75,
+          "examples": ["T-shirt designs", "Stickers", "Posters", "Zines"]
+        },
+        {
+          "name": "Content Creation",
+          "ideas": 75,
+          "examples": ["YouTube videos", "Podcasts", "Blog posts", "Social media"]
+        },
+        {
+          "name": "Affiliate Marketing",
+          "ideas": 75,
+          "examples": ["Product reviews", "Resource lists", "Tutorials", "Recommendations"]
+        },
+        {
+          "name": "Subscriptions",
+          "ideas": 75,
+          "examples": ["Patreon tiers", "Ko-fi memberships", "Email newsletters", "Exclusive content"]
+        },
+        {
+          "name": "Licensing",
+          "ideas": 75,
+          "examples": ["Art licensing", "Photography", "Music", "Writing"]
+        },
+        {
+          "name": "Automated Services",
+          "ideas": 75,
+          "examples": ["Chatbots", "Email sequences", "Course sales", "Template shops"]
+        },
+        {
+          "name": "Investments",
+          "ideas": 75,
+          "examples": ["Dividend stocks", "Index funds", "REITs", "Crypto staking"]
+        }
+      ],
+      "filters": {
+        "startup_cost": ["free", "under_50", "under_200", "over_200"],
+        "time_to_profit": ["immediate", "1_month", "3_months", "6_months+"],
+        "energy_requirement": ["very_low", "low", "medium", "high"],
+        "skill_level": ["beginner", "intermediate", "advanced", "expert"]
+      }
+    },
+    {
+      "key": "project_chats_index",
+      "name": "Project Chats Index",
+      "path": "/data/seeds/project_chats_index.json",
+      "description": "Index of all project chats and their specific requests/implementations",
+      "count": 15,
+      "categories": [
+        "Feature development chats",
+        "Bug fixes and repairs",
+        "UI/UX improvements",
+        "Data structure updates",
+        "Integration implementations"
+      ]
+    },
+    {
+      "key": "app_feature_ideas",
+      "name": "App Feature Ideas",
+      "path": "/data/seeds/app_feature_ideas.json",
+      "description": "Core app modules and future feature expansion ideas",
+      "count": 7,
+      "categories": [
+        "Routine Manager",
+        "Health Tracker",
+        "Spiritual Reflection",
+        "Wardrobe & Style",
+        "Entertainment Hub",
+        "Finance Tracker",
+        "Community Tools"
+      ]
+    }
+  ],
+  "usage": {
+    "how_to_access": "Ideas can be accessed through the Ideas Library component, filtered by category, energy level, and other criteria",
+    "integration_points": [
+      "Routine Manager suggests daily activities from health and food libraries",
+      "Creative prompts appear based on mood and energy levels",
+      "Passive income ideas integrated with finance tracker",
+      "Hoodoo practices linked to spiritual calendar",
+      "Sewing ideas connected to wardrobe manager"
+    ],
+    "ai_suggestions": "Kol AI Companion draws from these libraries to make contextual suggestions based on user state, preferences, and patterns"
+  },
+  "expansion_plans": {
+    "upcoming_libraries": [
+      "Relationship communication scripts (200 ideas)",
+      "Advocacy action templates (150 ideas)",
+      "Travel preparation checklists (100 ideas)",
+      "Emergency preparedness plans (75 ideas)",
+      "Seasonal ritual calendars (365 ideas)"
+    ],
+    "community_contributions": "Future feature will allow users to submit ideas to expand libraries"
+  }
+}

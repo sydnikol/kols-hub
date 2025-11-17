@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "category": "Self-Advocacy: Medical",
+    "title": "Self-Advocacy: Medical — Lesson 1",
+    "learning_objective": "Learn/apply: Scripts for doctors, therapists, and medical staff; documenting concerns; requesting accommodations.",
+    "suggested_activity": "Micro-lesson + practice: role-play/script, 2-minute log, or checklist.",
+    "code_template": "spaced_repetition.py",
+    "source": "Self_Advocacy_Scripts_Medical.docx",
+    "difficulty": "Medium",
+    "estimated_time_min": 10
+  },
+  {
+    "id": 2,
+    "category": "Self-Advocacy: Medical",
+    "title": "Self-Advocacy: Medical — Lesson 2",
+    "learning_objective": "Learn/apply: Scripts for doctors, therapists, and medical staff; documenting concerns; requesting accommodations.",
+    "suggested_activity": "Micro-lesson + practice: role-play/script, 2-minute log, or checklist.",
+    "code_template": "habit_tracker.py",
+    "source": "Self_Advocacy_Scripts_Medical.docx",
+    "difficulty": "Medium",
+    "estimated_time_min": 15
+  }
+]

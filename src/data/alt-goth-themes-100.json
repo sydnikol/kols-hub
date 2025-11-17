@@ -1,0 +1,64 @@
+{
+  "themes": [
+    {
+      "id": "theme_001",
+      "name": "Void Empress",
+      "background": "#0a0012",
+      "textColor": "#e8d5ff",
+      "primary": "#6b21a8",
+      "secondary": "#4c1d95",
+      "accent": "#c084fc",
+      "font": "Orbitron",
+      "darkMode": true,
+      "aesthetic": "Deep space purple with ethereal glow"
+    },
+    {
+      "id": "theme_002",
+      "name": "Blood Moon Rising",
+      "background": "#120005",
+      "textColor": "#7f1d1d",
+      "primary": "#7f1d1d",
+      "secondary": "#991b1b",
+      "accent": "#ef4444",
+      "font": "Cinzel",
+      "darkMode": true,
+      "aesthetic": "Crimson shadows and lunar light"
+    },
+    {
+      "id": "theme_003",
+      "name": "Midnight Garden",
+      "background": "#021208",
+      "textColor": "#d1fae5",
+      "primary": "#14532d",
+      "secondary": "#166534",
+      "accent": "#34d399",
+      "font": "Cormorant",
+      "darkMode": true,
+      "aesthetic": "Emerald vines in moonlight"
+    },
+    {
+      "id": "theme_004",
+      "name": "Electric Dream",
+      "background": "#000a12",
+      "textColor": "#cfe3ff",
+      "primary": "#1e3a8a",
+      "secondary": "#1e40af",
+      "accent": "#60a5fa",
+      "font": "Share Tech Mono",
+      "darkMode": true,
+      "aesthetic": "Neon blue cyberpunk nights"
+    },
+    {
+      "id": "theme_005",
+      "name": "Obsidian Throne",
+      "background": "#050505",
+      "textColor": "#d1d5db",
+      "primary": "#1f2937",
+      "secondary": "#374151",
+      "accent": "#9ca3af",
+      "font": "Inter",
+      "darkMode": true,
+      "aesthetic": "Stark monochrome elegance"
+    }
+  ]
+}

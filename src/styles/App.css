@@ -1,0 +1,445 @@
+/* ============================================
+   CHRONOMUSE LUXURY APARTMENT - GLOBAL STYLES
+   Gothic Futurism Aesthetic
+   ============================================ */
+
+/* Base Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #0a0a0a;
+  color: #c0c0c0;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* ============================================
+   LUXURY APARTMENT LAYOUT
+   ============================================ */
+
+.luxury-apartment {
+  position: relative;
+  min-height: 100vh;
+}
+
+.luxury-apartment::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 80%, rgba(74, 95, 127, 0.05) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(95, 127, 74, 0.05) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ============================================
+   GOTHIC THEME - DARK VELVET
+   ============================================ */
+
+.gothic-theme {
+  --color-primary: #0a0a0a;
+  --color-secondary: #1a1a1a;
+  --color-charcoal: #2a2a2a;
+  --color-silver: #c0c0c0;
+  --color-blue-accent: #4a5f7f;
+  --color-green-accent: #5f7f4a;
+  --color-purple-accent: #7f4a6f;
+  --color-gold-accent: #9f8f6f;
+  --color-red-accent: #7f4a4a;
+}
+
+/* Velvet Texture Overlay */
+.velvet-texture {
+  position: relative;
+}
+
+.velvet-texture::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 2px,
+      rgba(255, 255, 255, 0.01) 2px,
+      rgba(255, 255, 255, 0.01) 4px
+    );
+  pointer-events: none;
+  opacity: 0.3;
+}
+
+/* ============================================
+   ROOM STYLES
+   ============================================ */
+
+.observatory-room {
+  background: radial-gradient(circle at 50% 50%, rgba(74, 95, 127, 0.1) 0%, transparent 70%);
+}
+
+.library-room {
+  background: radial-gradient(circle at 50% 50%, rgba(95, 127, 74, 0.1) 0%, transparent 70%);
+}
+
+.studio-room {
+  background: radial-gradient(circle at 50% 50%, rgba(127, 74, 111, 0.1) 0%, transparent 70%);
+}
+
+.sanctuary-room {
+  background: radial-gradient(circle at 50% 50%, rgba(127, 111, 74, 0.1) 0%, transparent 70%);
+}
+
+/* ============================================
+   CHRONOMUSE AI TWIN
+   ============================================ */
+
+.chronomuse-container {
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+  box-shadow: 
+    0 10px 40px rgba(0, 0, 0, 0.6),
+    0 0 20px rgba(74, 95, 127, 0.1);
+  transition: all 0.3s ease;
+}
+
+.chronomuse-container:hover {
+  box-shadow: 
+    0 15px 50px rgba(0, 0, 0, 0.7),
+    0 0 30px rgba(74, 95, 127, 0.2);
+}
+
+/* ============================================
+   EMOTIONAL LIGHTING STATES
+   ============================================ */
+
+.lighting-overwhelm {
+  filter: brightness(0.7) sepia(0.3) hue-rotate(180deg);
+}
+
+.lighting-curiosity {
+  filter: brightness(1.1) sepia(0.2) hue-rotate(20deg);
+}
+
+.lighting-grief {
+  filter: brightness(0.6) saturate(0.7) hue-rotate(200deg);
+}
+
+.lighting-focus {
+  filter: grayscale(0.8) contrast(1.1);
+}
+
+.lighting-victory {
+  filter: brightness(1.2) sepia(0.15) hue-rotate(40deg);
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+.script-text {
+  font-family: 'Brush Script MT', cursive;
+  font-style: italic;
+}
+
+.gothic-serif {
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+/* ============================================
+   BUTTONS & INTERACTIONS
+   ============================================ */
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-primary {
+  background: #4a5f7f;
+  color: #ffffff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: #5a6f8f;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(74, 95, 127, 0.4);
+}
+
+.btn-secondary {
+  background: #0f0f0f;
+  color: #c0c0c0;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: 1px solid #2a2a2a;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.btn-secondary:hover:not(:disabled) {
+  border-color: #4a5f7f;
+  color: #4a5f7f;
+}
+
+/* ============================================
+   CARDS & CONTAINERS
+   ============================================ */
+
+.card {
+  background: rgba(15, 15, 15, 0.95);
+  border: 1px solid #2a2a2a;
+  border-radius: 16px;
+  padding: 24px;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  border-color: #4a5f7f;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.card-highlighted {
+  border-color: #4a5f7f;
+  background: rgba(74, 95, 127, 0.1);
+}
+
+/* ============================================
+   SCROLLBARS
+   ============================================ */
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a2a2a;
+  border-radius: 5px;
+  border: 2px solid #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4a5f7f;
+}
+
+/* ============================================
+   ANIMATIONS
+   ============================================ */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.6s ease-out;
+}
+
+.pulse-animation {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+/* ============================================
+   ACCESSIBILITY
+   ============================================ */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.focus-visible:focus {
+  outline: 2px solid #4a5f7f;
+  outline-offset: 2px;
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ============================================
+   TOAST NOTIFICATIONS
+   ============================================ */
+
+.gothic-toast {
+  background: #1a1a1a !important;
+  color: #c0c0c0 !important;
+  border: 1px solid #4a5f7f !important;
+  border-radius: 12px !important;
+  padding: 16px !important;
+  font-size: 14px !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6) !important;
+}
+
+/* ============================================
+   LOADING STATES
+   ============================================ */
+
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid #2a2a2a;
+  border-top-color: #4a5f7f;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ============================================
+   RESPONSIVE DESIGN
+   ============================================ */
+
+@media (max-width: 1024px) {
+  .luxury-apartment-layout aside {
+    width: 240px;
+  }
+  
+  .luxury-apartment-layout main {
+    margin-left: 240px;
+  }
+}
+
+@media (max-width: 768px) {
+  .luxury-apartment-layout aside {
+    position: fixed;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    z-index: 1000;
+  }
+  
+  .luxury-apartment-layout aside.open {
+    transform: translateX(0);
+  }
+  
+  .luxury-apartment-layout main {
+    margin-left: 0;
+    padding: 20px;
+  }
+  
+  .chronomuse-container {
+    width: 100%;
+    right: 0;
+    left: 0;
+    border-radius: 0;
+  }
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+
+@media print {
+  .chronomuse-container,
+  nav,
+  aside,
+  button {
+    display: none !important;
+  }
+  
+  body {
+    background: white;
+    color: black;
+  }
+}
+
+/* ============================================
+   CUSTOM PROPERTIES FOR THEME SWITCHING
+   ============================================ */
+
+:root {
+  --font-serif: Georgia, 'Times New Roman', serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --transition-speed: 0.3s;
+  --border-radius: 12px;
+  --spacing-unit: 8px;
+}
+
+/* ============================================
+   END OF STYLES
+   ============================================ */

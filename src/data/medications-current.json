@@ -1,0 +1,846 @@
+{
+  "patient_info": {
+    "name": "SYDNEY JONES",
+    "portal": "myUHealth - University Health",
+    "last_updated": "2025-11-12"
+  },
+  "medications": [
+    {
+      "id": "naltrexone-ldn",
+      "name": "Naltrexone Compounding Powder (Low Dose)",
+      "dose": "4.5 mg",
+      "frequency": "daily",
+      "route": "By Mouth",
+      "date_started": "2025-11-05",
+      "ordered_by": "Cao, MD, Fei A",
+      "indication": "Low Dose Naltrexone (LDN) therapy",
+      "category": "Immunomodulator",
+      "notes": "Custom compounded medication. Take consistently for best results.",
+      "active": true,
+      "timing": "Once daily",
+      "requires_meal": false
+    },
+    {
+      "id": "meloxicam",
+      "name": "Meloxicam",
+      "dose": "15 mg",
+      "frequency": "daily",
+      "route": "By Mouth",
+      "date_started": "2025-11-05",
+      "ordered_by": "Cao, MD, Fei A",
+      "indication": "Pain and inflammation",
+      "category": "NSAID/Pain Relief",
+      "notes": "⚠️ Take with food to reduce stomach upset. Monitor for GI side effects.",
+      "active": true,
+      "timing": "Once daily",
+      "requires_meal": true
+    },
+    {
+      "id": "cyclobenzaprine",
+      "name": "Cyclobenzaprine",
+      "dose": "5 mg",
+      "frequency": "3 times per day as needed",
+      "route": "By Mouth",
+      "date_started": "2025-11-05",
+      "ordered_by": "Cao, MD, Fei A",
+      "indication": "Muscle pain",
+      "category": "Muscle Relaxant",
+      "notes": "AS NEEDED FOR MUSCLE PAIN. May cause drowsiness - use caution.",
+      "active": true,
+      "timing": "Up to 3x daily PRN",
+      "requires_meal": false
+    },
+    {
+      "id": "methotrexate",
+      "name": "Methotrexate",
+      "dose": "2.5 mg × 6 tablets",
+      "frequency": "QWEEK (Once Weekly)",
+      "route": "By Mouth",
+      "date_started": "2025-10-20",
+      "ordered_by": "Ifteqar, MD, Sarah",
+      "indication": "Arthritis Management",
+      "category": "Immunosuppressant",
+      "notes": "⚠️ CRITICAL: Take 6 tablets (15mg total) once weekly. Avoid folic acid on MTX day. Take on empty stomach if possible.",
+      "active": true,
+      "timing": "Weekly (Monday recommended)",
+      "requires_meal": false,
+      "warning": "Do not take folic acid on same day. Avoid alcohol."
+    },
+    {
+      "id": "sumatriptan",
+      "name": "Sumatriptan",
+      "dose": "50 mg",
+      "frequency": "as needed",
+      "route": "By Mouth",
+      "date_started": "2025-10-17",
+      "ordered_by": "Koirala, MD, Parashar",
+      "indication": "Migraine headache",
+      "category": "Migraine Treatment",
+      "notes": "Take at first sign of migraine. May repeat after 2 hours if needed (max 200mg/day).",
+      "active": true,
+      "timing": "PRN for migraine",
+      "requires_meal": false
+    },
+    {
+      "id": "emgality",
+      "name": "Emgality Prefilled Syringe",
+      "dose": "120 mg/mL",
+      "frequency": "every 4 weeks",
+      "route": "SC (Subcutaneous injection)",
+      "date_started": "2025-10-17",
+      "ordered_by": "Koirala, MD, Parashar",
+      "indication": "Migraine prevention",
+      "category": "Migraine Prevention",
+      "notes": "Monthly injection for migraine prevention. Store in refrigerator. Let warm to room temp before injecting.",
+      "active": true,
+      "timing": "Monthly injection",
+      "requires_meal": false
+    },
+    {
+      "id": "truvada",
+      "name": "Truvada (Emtricitabine/Tenofovir)",
+      "dose": "200 mg-300 mg",
+      "frequency": "daily",
+      "route": "By Mouth",
+      "date_started": "2025-10-07",
+      "ordered_by": "Sommerville, MD, Amanda",
+      "indication": "PrEP (HIV Prevention)",
+      "category": "Antiviral",
+      "notes": "Take consistently every day. Important for PrEP effectiveness. Regular lab monitoring required.",
+      "active": true,
+      "timing": "Once daily",
+      "requires_meal": false
+    },
+    {
+      "id": "propranolol",
+      "name": "Propranolol",
+      "dose": "20 mg",
+      "frequency": "twice per day",
+      "route": "By Mouth",
+      "date_started": "2025-08-27",
+      "ordered_by": "Unknown",
+      "indication": "POTS/Heart Rate Control/Migraine Prevention",
+      "category": "Cardiovascular",
+      "notes": "Beta blocker for POTS symptoms and migraine prevention. May cause fatigue or cold extremities.",
+      "active": true,
+      "timing": "AM and PM",
+      "requires_meal": false
+    },
+    {
+      "id": "gabapentin",
+      "name": "Gabapentin",
+      "dose": "300 mg × 3 capsules",
+      "frequency": "daily",
+      "route": "By Mouth",
+      "date_started": "2025-08-20",
+      "ordered_by": "Sommerville, MD, Amanda",
+      "indication": "Neuropathic pain",
+      "category": "Pain Relief/Neuropathic",
+      "notes": "Take consistently for pain control. May cause dizziness or drowsiness.",
+      "active": true,
+      "timing": "Total 900mg daily (AM/PM split)",
+      "requires_meal": false
+    },    {
+      "id": "mirtazapine",
+      "name": "Mirtazapine",
+      "dose": "30 mg",
+      "frequency": "daily",
+      "route": "By Mouth",
+      "date_started": "2025-08-11",
+      "ordered_by": "Unknown",
+      "indication": "Depression/Sleep/Appetite stimulation",
+      "category": "Antidepressant",
+      "notes": "Typically taken at bedtime. May cause sedation and increased appetite.",
+      "active": true,
+      "timing": "At bedtime",
+      "requires_meal": false
+    },
+    {
+      "id": "concerta",
+      "name": "Concerta (Methylphenidate ER)",
+      "dose": "54 mg",
+      "frequency": "every morning",
+      "route": "By Mouth",
+      "date_started": "2025-08-11",
+      "ordered_by": "Unknown",
+      "indication": "ADHD",
+      "category": "Stimulant",
+      "notes": "Extended release. Take in morning. Do not crush or chew. May affect appetite and sleep.",
+      "active": true,
+      "timing": "Every morning",
+      "requires_meal": false
+    },
+    {
+      "id": "topiramate",
+      "name": "Topiramate",
+      "dose": "25 mg × 2 capsules",
+      "frequency": "daily",
+      "route": "By Mouth",
+      "date_started": "2025-08-11",
+      "ordered_by": "Unknown",
+      "indication": "Migraine prevention",
+      "category": "Anticonvulsant/Migraine Prevention",
+      "notes": "50mg total daily. Stay well hydrated. May cause cognitive effects ('brain fog').",
+      "active": true,
+      "timing": "Once daily",
+      "requires_meal": false
+    },
+    {
+      "id": "midodrine",
+      "name": "Midodrine",
+      "dose": "2.5 mg",
+      "frequency": "3 times per day",
+      "route": "By Mouth",
+      "date_started": "2025-08-11",
+      "ordered_by": "Unknown",
+      "indication": "POTS/Orthostatic hypotension",
+      "category": "Cardiovascular",
+      "notes": "Raises blood pressure. Do not take within 4 hours of bedtime. Monitor for supine hypertension.",
+      "active": true,
+      "timing": "Morning, midday, late afternoon (not evening)",
+      "requires_meal": false
+    },
+    {
+      "id": "famotidine",
+      "name": "Famotidine (Pepcid)",
+      "dose": "40 mg",
+      "frequency": "at bedtime as needed",
+      "route": "By Mouth",
+      "date_started": "2025-08-11",
+      "ordered_by": "Sommerville, MD, Amanda",
+      "indication": "Dyspepsia/GERD",
+      "category": "Gastrointestinal",
+      "notes": "H2 blocker for acid reflux. Can take up to twice daily if needed.",
+      "active": true,
+      "timing": "At bedtime PRN",
+      "requires_meal": false
+    },
+    {
+      "id": "vitamin-d3",
+      "name": "Vitamin D3-50",
+      "dose": "50,000 IU",
+      "frequency": "QWEEK (Once Weekly)",
+      "route": "By Mouth",
+      "date_started": "2025-08-11",
+      "ordered_by": "Sommerville, MD, Amanda",
+      "indication": "Vitamin D deficiency",
+      "category": "Supplement",
+      "notes": "High dose weekly supplement. Take with fatty meal for better absorption.",
+      "active": true,
+      "timing": "Weekly",
+      "requires_meal": true
+    },
+    {
+      "id": "folic-acid",
+      "name": "Folic Acid",
+      "dose": "1 mg",
+      "frequency": "daily",
+      "route": "By Mouth",
+      "date_started": "2025-05-13",
+      "ordered_by": "Ifteqar, MD, Sarah",
+      "indication": "Supports methotrexate therapy",
+      "category": "Supplement",
+      "notes": "⚠️ CRITICAL: DO NOT take on Methotrexate day. Take all other days of the week.",
+      "active": true,
+      "timing": "Daily (except MTX day)",
+      "requires_meal": false,
+      "warning": "Skip on Methotrexate day"
+    },
+    {
+      "id": "naltrexone-ldn-old",
+      "name": "Naltrexone Compounding Powder (Previous)",
+      "dose": "Variable",
+      "frequency": "Variable",
+      "route": "By Mouth",
+      "date_started": "2025-03-07",
+      "ordered_by": "Unknown",
+      "indication": "Previous LDN prescription",
+      "category": "Immunomodulator",
+      "notes": "Replaced by newer prescription from Nov 2025",
+      "active": false,
+      "timing": "Discontinued",
+      "requires_meal": false
+    },
+    {
+      "id": "compression-stockings",
+      "name": "Thigh High Compression Stockings",
+      "dose": "As needed",
+      "frequency": "daily/as needed",
+      "route": "External",
+      "date_started": "2024-11-26",
+      "ordered_by": "Sommerville, MD, Amanda",
+      "indication": "POTS/Orthostatic intolerance",
+      "category": "Medical Device",
+      "notes": "Wear during day when upright. Helps prevent blood pooling in legs.",
+      "active": true,
+      "timing": "Daytime use",
+      "requires_meal": false
+    },
+    {
+      "id": "symbicort",
+      "name": "Budesonide-Formoterol (Symbicort)",
+      "dose": "160 mcg-4.5 mcg/inh",
+      "frequency": "twice per day",
+      "route": "Inhalation",
+      "date_started": "2024-09-03",
+      "ordered_by": "Sommerville, MD, Amanda",
+      "indication": "Asthma controller",
+      "category": "Respiratory",
+      "notes": "2 puffs twice daily. ⚠️ CRITICAL: Rinse mouth after use to prevent thrush. This is a controller, not rescue inhaler.",
+      "active": true,
+      "timing": "AM and PM",
+      "requires_meal": false
+    },    {
+      "id": "albuterol",
+      "name": "Albuterol (ProAir HFA)",
+      "dose": "90 mcg/inh",
+      "frequency": "as needed",
+      "route": "Inhalation",
+      "date_started": "2024-09-03",
+      "ordered_by": "Sommerville, MD, Amanda",
+      "indication": "Asthma rescue",
+      "category": "Respiratory",
+      "notes": "🚨 RESCUE INHALER - Keep accessible at all times. Use for breathing difficulty. Seek emergency care if not effective.",
+      "active": true,
+      "timing": "PRN for breathing difficulty",
+      "requires_meal": false
+    },
+    {
+      "id": "duloxetine",
+      "name": "Duloxetine (Cymbalta)",
+      "dose": "60 mg",
+      "frequency": "See Instructions",
+      "route": "By Mouth",
+      "date_started": "2024-04-05",
+      "ordered_by": "Sommerville, MD, Amanda",
+      "indication": "Depression/Anxiety/Chronic pain",
+      "category": "SNRI Antidepressant",
+      "notes": "SNRI for mood and pain management. Do not discontinue abruptly. Enteric coated - do not crush.",
+      "active": true,
+      "timing": "Daily (follow pharmacy instructions)",
+      "requires_meal": false
+    },
+    {
+      "id": "miralax",
+      "name": "Miralax (Polyethylene Glycol)",
+      "dose": "17 gm",
+      "frequency": "daily",
+      "route": "By Mouth",
+      "date_started": "2023-10-29",
+      "ordered_by": "Tigner, MD, Allison",
+      "indication": "Constipation",
+      "category": "Gastrointestinal",
+      "notes": "Mix with water or other beverage. May take time to work. Stay well hydrated.",
+      "active": true,
+      "timing": "Once daily",
+      "requires_meal": false
+    },
+    {
+      "id": "knee-brace",
+      "name": "Hinge Lateral J Knee Brace",
+      "dose": "As needed",
+      "frequency": "as needed",
+      "route": "External",
+      "date_started": "2022-11-29",
+      "ordered_by": "Sommerville, MD, Amanda",
+      "indication": "Knee support/stability",
+      "category": "Medical Device",
+      "notes": "Wear during activities for knee support and stability.",
+      "active": true,
+      "timing": "PRN for activities",
+      "requires_meal": false
+    }
+  ],
+  "medication_summary": {
+    "total_medications": 24,
+    "active_medications": 22,
+    "discontinued_medications": 2,
+    "daily_oral_count": 12,
+    "twice_daily_count": 3,
+    "three_times_daily_count": 2,
+    "weekly_count": 2,
+    "monthly_count": 1,
+    "prn_count": 5,
+    "medical_devices": 2,
+    "categories": {
+      "pain_relief": 3,
+      "cardiovascular": 3,
+      "immunosuppressant": 1,
+      "respiratory": 2,
+      "migraine": 3,
+      "antiviral": 1,
+      "antidepressant": 2,
+      "stimulant": 1,
+      "gastrointestinal": 2,
+      "supplement": 2,
+      "medical_device": 2,
+      "immunomodulator": 2
+    }
+  },
+  "daily_medication_schedule": {
+    "morning": [
+      "Naltrexone LDN 4.5mg",
+      "Meloxicam 15mg (WITH FOOD)",
+      "Propranolol 20mg",
+      "Gabapentin 300mg",
+      "Concerta 54mg",
+      "Topiramate 25mg × 2",
+      "Midodrine 2.5mg (1st dose)",
+      "Truvada 200-300mg",
+      "Symbicort 160/4.5 (2 puffs) - RINSE MOUTH AFTER",
+      "Folic Acid 1mg (EXCEPT Monday MTX day)",
+      "Put on compression stockings"
+    ],
+    "midday": [
+      "Midodrine 2.5mg (2nd dose)"
+    ],
+    "late_afternoon": [
+      "Midodrine 2.5mg (3rd dose - NOT within 4hr of bedtime)"
+    ],
+    "evening": [
+      "Propranolol 20mg",
+      "Gabapentin 300mg × 2",
+      "Symbicort 160/4.5 (2 puffs) - RINSE MOUTH AFTER"
+    ],
+    "bedtime": [
+      "Mirtazapine 30mg",
+      "Famotidine 40mg (if needed for reflux)",
+      "Miralax 17gm (in water/beverage)"
+    ],
+    "monday_weekly": [
+      "⚠️ METHOTREXATE 2.5mg × 6 tablets (15mg total)",
+      "⚠️ SKIP FOLIC ACID TODAY",
+      "Drink extra water",
+      "Avoid alcohol"
+    ],
+    "weekly": [
+      "Vitamin D3 50,000 IU (WITH FATTY MEAL)"
+    ],
+    "monthly": [
+      "Emgality 120mg injection (subcutaneous)"
+    ],
+    "as_needed": [
+      "Cyclobenzaprine 5mg (muscle pain, up to 3x daily)",
+      "Sumatriptan 50mg (migraine - at first sign)",
+      "Albuterol inhaler (breathing difficulty - EMERGENCY)",
+      "Knee brace (for activities)"
+    ]
+  },
+  "critical_reminders": [
+    "🚨 MONDAY = METHOTREXATE DAY - NO FOLIC ACID",
+    "💨 RINSE MOUTH after Symbicort (twice daily)",
+    "🚑 Keep Albuterol accessible AT ALL TIMES",
+    "🍔 Meloxicam WITH FOOD (morning)",
+    "🥑 Vitamin D3 WITH FATTY MEAL (weekly)",
+    "⏰ Midodrine: Last dose at least 4 hours before bed",
+    "💊 Take Truvada every day for PrEP effectiveness",
+    "💧 Stay well hydrated (especially on MTX day)",
+    "📅 Emgality injection every 4 weeks",
+    "🩺 Regular lab monitoring required (MTX, Truvada)"
+  ],  "interaction_warnings": {
+    "methotrexate": [
+      "Avoid alcohol completely on MTX day",
+      "No NSAIDs without doctor approval (can increase MTX toxicity)",
+      "Monitor for signs of infection (immunosuppressed)",
+      "Avoid folic acid on same day"
+    ],
+    "propranolol_midodrine": [
+      "Both affect blood pressure - monitor carefully",
+      "Report dizziness, fainting, or palpitations"
+    ],
+    "duloxetine_mirtazapine": [
+      "Both affect serotonin - monitor for serotonin syndrome",
+      "Report agitation, confusion, rapid heart rate, fever"
+    ],
+    "meloxicam": [
+      "NSAID - can interact with many medications",
+      "Take with food to reduce GI upset",
+      "Monitor for bleeding, especially with blood thinners"
+    ],
+    "concerta_propranolol": [
+      "Stimulant + beta blocker - may have opposing effects",
+      "Monitor heart rate and blood pressure"
+    ]
+  },
+  "refill_tracking": {
+    "naltrexone_ldn": {
+      "pharmacy": "Compounding Pharmacy (specific location needed)",
+      "prescriber": "Cao, MD, Fei A",
+      "last_refill": null,
+      "next_refill_due": null
+    },
+    "meloxicam": {
+      "pharmacy": "To be added",
+      "prescriber": "Cao, MD, Fei A",
+      "last_refill": null,
+      "next_refill_due": null
+    },
+    "cyclobenzaprine": {
+      "pharmacy": "To be added",
+      "prescriber": "Cao, MD, Fei A",
+      "last_refill": null,
+      "next_refill_due": null
+    },
+    "methotrexate": {
+      "pharmacy": "To be added",
+      "prescriber": "Ifteqar, MD, Sarah",
+      "last_refill": null,
+      "next_refill_due": null,
+      "lab_monitoring": "Required - CBC, liver function tests"
+    },
+    "sumatriptan": {
+      "pharmacy": "To be added",
+      "prescriber": "Koirala, MD, Parashar",
+      "last_refill": null,
+      "next_refill_due": null
+    },
+    "emgality": {
+      "pharmacy": "Specialty Pharmacy",
+      "prescriber": "Koirala, MD, Parashar",
+      "last_injection": null,
+      "next_injection_due": null,
+      "storage": "Refrigerate"
+    },
+    "truvada": {
+      "pharmacy": "To be added",
+      "prescriber": "Sommerville, MD, Amanda",
+      "last_refill": null,
+      "next_refill_due": null,
+      "lab_monitoring": "Required - HIV testing, kidney function"
+    },
+    "propranolol": {
+      "pharmacy": "To be added",
+      "prescriber": "Unknown",
+      "last_refill": null,
+      "next_refill_due": null
+    },
+    "gabapentin": {
+      "pharmacy": "To be added",
+      "prescriber": "Sommerville, MD, Amanda",
+      "last_refill": null,
+      "next_refill_due": null
+    },
+    "mirtazapine": {
+      "pharmacy": "To be added",
+      "prescriber": "Unknown",
+      "last_refill": null,
+      "next_refill_due": null
+    },
+    "concerta": {
+      "pharmacy": "To be added",
+      "prescriber": "Unknown",
+      "last_refill": null,
+      "next_refill_due": null,
+      "controlled_substance": "Schedule II - requires new prescription each fill"
+    },
+    "topiramate": {
+      "pharmacy": "To be added",
+      "prescriber": "Unknown",
+      "last_refill": null,
+      "next_refill_due": null
+    },
+    "midodrine": {
+      "pharmacy": "To be added",
+      "prescriber": "Unknown",
+      "last_refill": null,
+      "next_refill_due": null
+    },
+    "famotidine": {
+      "pharmacy": "To be added",
+      "prescriber": "Sommerville, MD, Amanda",
+      "last_refill": null,
+      "next_refill_due": null
+    },
+    "vitamin_d3": {
+      "pharmacy": "To be added",
+      "prescriber": "Sommerville, MD, Amanda",
+      "last_refill": null,
+      "next_refill_due": null
+    },
+    "folic_acid": {
+      "pharmacy": "To be added",
+      "prescriber": "Ifteqar, MD, Sarah",
+      "last_refill": null,
+      "next_refill_due": null
+    },
+    "symbicort": {
+      "pharmacy": "To be added",
+      "prescriber": "Sommerville, MD, Amanda",
+      "last_refill": null,
+      "next_refill_due": null,
+      "inhaler_counter": "Track puffs remaining"
+    },
+    "albuterol": {
+      "pharmacy": "To be added",
+      "prescriber": "Sommerville, MD, Amanda",
+      "last_refill": null,
+      "next_refill_due": null,
+      "inhaler_counter": "⚠️ CRITICAL - Monitor supply closely"
+    },
+    "duloxetine": {
+      "pharmacy": "To be added",
+      "prescriber": "Sommerville, MD, Amanda",
+      "last_refill": null,
+      "next_refill_due": null
+    },
+    "miralax": {
+      "pharmacy": "To be added",
+      "prescriber": "Tigner, MD, Allison",
+      "last_refill": null,
+      "next_refill_due": null
+    }
+  },  "pharmacy_info": {
+    "preferred_pharmacy": "To be added by user",
+    "pharmacy_phone": "To be added",
+    "pharmacy_fax": "To be added",
+    "auto_refill_enabled": false,
+    "mail_order_available": false,
+    "specialty_pharmacy": {
+      "name": "For Emgality and specialty medications",
+      "phone": "To be added"
+    }
+  },
+  "prescriber_directory": {
+    "cao_fei": {
+      "name": "Cao, MD, Fei A",
+      "specialty": "Unknown",
+      "medications": ["Naltrexone LDN", "Meloxicam", "Cyclobenzaprine"]
+    },
+    "ifteqar_sarah": {
+      "name": "Ifteqar, MD, Sarah",
+      "specialty": "Rheumatology",
+      "medications": ["Methotrexate", "Folic Acid"]
+    },
+    "koirala_parashar": {
+      "name": "Koirala, MD, Parashar",
+      "specialty": "Neurology/Headache",
+      "medications": ["Sumatriptan", "Emgality"]
+    },
+    "sommerville_amanda": {
+      "name": "Sommerville, MD, Amanda",
+      "specialty": "Primary Care",
+      "medications": ["Truvada", "Gabapentin", "Famotidine", "Vitamin D3", "Compression Stockings", "Symbicort", "Albuterol", "Duloxetine", "Knee Brace"]
+    },
+    "tigner_allison": {
+      "name": "Tigner, MD, Allison",
+      "specialty": "Unknown",
+      "medications": ["Miralax"]
+    }
+  },
+  "side_effects_tracking": {
+    "common_side_effects": {
+      "naltrexone_ldn": ["Vivid dreams", "Sleep disturbance", "Headache (usually temporary)"],
+      "meloxicam": ["Stomach upset", "Heartburn", "Dizziness", "Increased bleeding risk"],
+      "cyclobenzaprine": ["Drowsiness", "Dry mouth", "Dizziness", "Fatigue"],
+      "methotrexate": ["Nausea", "Fatigue", "Mouth sores", "Hair thinning", "Increased infection risk"],
+      "sumatriptan": ["Tingling", "Warm sensation", "Chest tightness", "Drowsiness"],
+      "emgality": ["Injection site reactions", "Constipation"],
+      "truvada": ["Nausea", "Diarrhea", "Headache", "Fatigue"],
+      "propranolol": ["Fatigue", "Cold hands/feet", "Dizziness", "Slow heart rate"],
+      "gabapentin": ["Dizziness", "Drowsiness", "Coordination issues", "Swelling"],
+      "mirtazapine": ["Increased appetite", "Weight gain", "Drowsiness", "Dry mouth"],
+      "concerta": ["Decreased appetite", "Sleep difficulty", "Headache", "Increased heart rate"],
+      "topiramate": ["Cognitive effects", "Tingling", "Taste changes", "Kidney stones (rare)"],
+      "midodrine": ["Scalp tingling", "Goosebumps", "Supine hypertension"],
+      "famotidine": ["Headache", "Dizziness", "Constipation"],
+      "vitamin_d3": ["Generally well-tolerated at proper doses"],
+      "folic_acid": ["Generally well-tolerated"],
+      "symbicort": ["Thrush", "Hoarseness", "Cough", "Headache"],
+      "albuterol": ["Tremor", "Rapid heartbeat", "Nervousness"],
+      "duloxetine": ["Nausea", "Dry mouth", "Drowsiness", "Constipation"],
+      "miralax": ["Bloating", "Gas", "Cramping"]
+    },
+    "report_immediately": [
+      "Severe allergic reaction (rash, swelling, difficulty breathing)",
+      "Chest pain or severe chest tightness",
+      "Difficulty breathing not relieved by albuterol",
+      "Signs of infection (fever, chills) while on methotrexate",
+      "Severe dizziness or fainting",
+      "Signs of liver problems (indigoing skin/eyes, dark urine)",
+      "Unusual bleeding or bruising",
+      "Severe mood changes or suicidal thoughts",
+      "Signs of serotonin syndrome (agitation, confusion, rapid heart rate, fever)",
+      "Severe abdominal pain",
+      "Blood in urine or stool",
+      "Severe headache different from usual migraines"
+    ]
+  },
+  "monitoring_requirements": {
+    "methotrexate": {
+      "labs_required": ["CBC", "Liver function tests", "Kidney function"],
+      "frequency": "Every 8-12 weeks or as directed",
+      "notes": "Essential for safe MTX use"
+    },
+    "truvada": {
+      "labs_required": ["HIV test", "Kidney function", "Hepatitis B/C"],
+      "frequency": "Every 3 months initially, then every 6 months",
+      "notes": "Required for PrEP monitoring"
+    },
+    "duloxetine": {
+      "labs_required": ["Liver function tests (baseline and periodic)"],
+      "frequency": "As directed by prescriber",
+      "notes": "Monitor for liver effects"
+    },
+    "vitamin_d3": {
+      "labs_required": ["Vitamin D level", "Calcium level"],
+      "frequency": "Every 6-12 months",
+      "notes": "Monitor response to supplementation"
+    }
+  },
+  "lifestyle_considerations": {
+    "alcohol": [
+      "⚠️ AVOID completely on Methotrexate day",
+      "Limit generally due to medication interactions",
+      "Discuss with providers"
+    ],
+    "hydration": [
+      "Extra water on MTX day",
+      "Important for Topiramate (kidney stone prevention)",
+      "Important for Miralax effectiveness",
+      "General health with multiple medications"
+    ],
+    "timing_restrictions": [
+      "Midodrine: Last dose at least 4 hours before bed",
+      "Concerta: Morning only (affects sleep)",
+      "Mirtazapine: Bedtime (causes sedation)",
+      "Symbicort: Consistent AM/PM timing"
+    ],
+    "food_interactions": [
+      "Meloxicam: MUST take with food",
+      "Vitamin D3: Take with fatty meal",
+      "MTX: Empty stomach preferred but not required"
+    ]
+  },  "emergency_information": {
+    "rescue_medications": [
+      {
+        "name": "Albuterol Inhaler",
+        "indication": "Breathing difficulty/Asthma attack",
+        "instructions": "Use immediately. If no improvement or worsening, call 911",
+        "location": "Keep accessible at all times"
+      },
+      {
+        "name": "Sumatriptan",
+        "indication": "Severe migraine",
+        "instructions": "Take at first sign. May repeat in 2 hours if needed",
+        "max_daily": "200mg (4 tablets)"
+      }
+    ],
+    "when_to_seek_emergency_care": [
+      "Breathing difficulty not relieved by albuterol",
+      "Severe allergic reaction",
+      "Chest pain or severe heart symptoms",
+      "Loss of consciousness or severe confusion",
+      "Severe bleeding",
+      "Signs of stroke (FAST: Face drooping, Arm weakness, Speech difficulty, Time to call 911)"
+    ],
+    "medication_list_for_emergency": "Keep updated list with you at all times"
+  },
+  "special_instructions": {
+    "methotrexate_day_protocol": {
+      "day": "Monday (or choose consistent day)",
+      "morning": [
+        "Take Methotrexate 2.5mg × 6 tablets",
+        "DO NOT take Folic Acid today",
+        "Drink extra water throughout day"
+      ],
+      "avoid": [
+        "Alcohol",
+        "Folic acid supplement",
+        "NSAIDs without doctor approval"
+      ],
+      "monitor": [
+        "Any signs of infection",
+        "Unusual bruising or bleeding",
+        "Severe nausea or vomiting",
+        "Mouth sores"
+      ]
+    },
+    "emgality_injection_protocol": {
+      "frequency": "Every 4 weeks",
+      "preparation": [
+        "Remove from refrigerator 30 minutes before injection",
+        "Let warm to room temperature",
+        "Do not shake",
+        "Inspect for particles or discoloration"
+      ],
+      "injection": [
+        "Clean injection site (abdomen, thigh, or upper arm)",
+        "Inject subcutaneously",
+        "Rotate injection sites"
+      ],
+      "after_injection": [
+        "Dispose of syringe in sharps container",
+        "Monitor injection site",
+        "Note any reactions"
+      ]
+    },
+    "inhaler_technique": {
+      "symbicort": [
+        "Shake well before use",
+        "Breathe out fully",
+        "Put mouthpiece in mouth and close lips",
+        "Breathe in slowly while pressing down on canister",
+        "Hold breath for 10 seconds",
+        "Wait 30-60 seconds between puffs",
+        "⚠️ RINSE MOUTH thoroughly after use"
+      ],
+      "albuterol": [
+        "Shake well before use",
+        "Breathe out fully",
+        "Put mouthpiece in mouth and close lips",
+        "Breathe in quickly while pressing down on canister",
+        "Hold breath for 10 seconds",
+        "If no relief in 15-20 minutes, may repeat",
+        "If still no relief, seek emergency care"
+      ]
+    }
+  },
+  "app_integration_features": [
+    "Daily medication checklist with custom timing",
+    "MTX day special protocol reminder",
+    "Emgality injection tracker (monthly)",
+    "Refill reminders based on supply",
+    "Side effect logging",
+    "Symptom tracking correlated with medications",
+    "Lab monitoring reminders",
+    "Interaction checker",
+    "Emergency medication quick access",
+    "Pharmacy contact information",
+    "Prescriber directory",
+    "Medication history and changes over time",
+    "Export capability for doctor appointments",
+    "Integration with health portals (myUHealth)",
+    "Spoon theory tracking with medication burden",
+    "Photo documentation (pills, devices, injection sites)",
+    "Barcode scanning for medication verification",
+    "Voice reminders for accessibility",
+    "Offline access to critical medication info"
+  ],
+  "notes_for_app_development": {
+    "priority_features": [
+      "Clear MTX day warnings (different color, special alerts)",
+      "Multiple daily medication reminders (AM, midday, afternoon, PM, bedtime)",
+      "Symbicort mouth-rinsing reminder immediately after logging dose",
+      "Midodrine timing restriction (4 hours before bedtime warning)",
+      "Visual inhaler counter",
+      "Injection site rotation tracker for Emgality",
+      "Emergency albuterol quick-access button"
+    ],
+    "accessibility_considerations": [
+      "Large, readable text for medication names and doses",
+      "Color coding by category",
+      "Voice read-aloud for medication instructions",
+      "Simple check-off interface",
+      "Emergency mode with large buttons",
+      "Dark mode friendly (gothic aesthetic)"
+    ],
+    "integration_with_kol_companion": [
+      "Medication reminders through companion voice",
+      "Symptom correlation with medication times",
+      "Energy tracking (spoon theory) with medication burden",
+      "Companion can ask about side effects",
+      "Mood tracking correlated with medications",
+      "Health Sanctum room features medication tracking"
+    ]
+  }
+}

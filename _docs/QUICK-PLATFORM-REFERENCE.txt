@@ -1,0 +1,71 @@
+🖤 KOL HUB - PLATFORM QUICK REFERENCE
+═══════════════════════════════════════════════════════════════
+
+█ DESKTOP (ELECTRON)
+  ├─ Status: ✅ FULLY FUNCTIONAL
+  ├─ Launch: npm run desktop
+  ├─ Build: npm run build:desktop
+  └─ Platform: Windows, Mac, Linux
+
+█ WEB (PWA)
+  ├─ Status: ✅ FULLY FUNCTIONAL
+  ├─ Development: npm run dev (http://localhost:5173)
+  ├─ Build: npm run build
+  ├─ Deploy: npm run deploy:netlify
+  └─ URL: https://kol-personal-os.netlify.app
+
+█ MOBILE (iOS/ANDROID)
+  ├─ Status: ✅ FULLY CONFIGURED
+  ├─ Android APK: npm run build:android
+  ├─ iOS IPA: npm run build:ios
+  ├─ Both: npm run build:mobile
+  └─ App ID: com.kol.megaapp
+
+█ OFFLINE SUPPORT
+  ├─ Status: ✅ FULLY ENABLED
+  ├─ Database: IndexedDB (Dexie.js)
+  ├─ Storage: 50MB+ per platform
+  └─ Features: All work offline except external APIs
+
+═══════════════════════════════════════════════════════════════
+
+⚡ QUICK START COMMANDS:
+
+# Start for daily use
+npm run dev              # Web development
+npm run desktop          # Desktop app
+
+# Deploy to production
+npm run deploy:netlify   # Web hosting
+
+# Build mobile apps
+npm run build:android    # Android APK
+npm run build:ios        # iOS IPA
+
+# Verify everything works
+verify-all-platforms.bat # Complete system check
+
+═══════════════════════════════════════════════════════════════
+
+📊 FEATURES (ALL WORKING EVERYWHERE):
+✅ Health Tracking (22+ meds, vitals, body weather)
+✅ AI Companion (ChronoMuse with 4 modes, 6 rooms)
+✅ 3D Avatar (Ready Player Me integration)
+✅ Music (Spotify, YouTube, SoundCloud)
+✅ Support Tools (Handbooks, scripts, cards)
+✅ Creative Suite (D&D 9000+ ideas, wardrobe, stylist)
+✅ Finance (Bills, passive income, budgets)
+✅ Self-Evolution (Pattern recognition, insights)
+
+═══════════════════════════════════════════════════════════════
+
+🔧 TECH STACK:
+React 18.2 · TypeScript 5.2 · Vite 5.4 · Electron 28
+Capacitor 5.7 · Dexie 3.2 · Three.js 0.160 · Tailwind 3.4
+
+═══════════════════════════════════════════════════════════════
+
+🖤 "One hand on the keyboard, one hand on the altar" 🖤
+Built with velvet, voltage, and reverence
+
+Version: 5.0.0 | Status: PRODUCTION READY | Date: Nov 14, 2025

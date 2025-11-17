@@ -1,0 +1,65 @@
+{
+  "name": "KOL Master Ideas Index v2.0",
+  "project": "Daily Planning & Life Management",
+  "version": "2.0.0",
+  "created_at": "2025-11-12",
+  "total_ideas": 1600,
+  "libraries": [
+    {
+      "id": "ideas_food",
+      "name": "Food & Meal Ideas",
+      "path": "ideas_food.json",
+      "description": "200 food/meal ideas (low-spoon, batchable, high-salt options for POTS)",
+      "count": 200,
+      "categories": ["quick-meals", "batch-cooking", "high-sodium", "low-spoon", "comfort-food"],
+      "filters": {
+        "prep_time": ["5-min", "15-min", "30-min", "batch"],
+        "energy_level": ["low-spoon", "medium-spoon", "high-spoon"],
+        "dietary": ["high-sodium", "gluten-free", "dairy-free", "vegan-option"]
+      },
+      "icon": "🍜"
+    },
+    {
+      "id": "ideas_health",
+      "name": "Micro Health Actions",
+      "path": "ideas_health.json",
+      "description": "200 micro health actions (POTS/hEDS/CPTSD-friendly)",
+      "count": 200,
+      "categories": ["pain-management", "energy-conservation", "mobility", "mental-health", "sensory"],
+      "filters": {
+        "duration": ["1-min", "5-min", "10-min", "ongoing"],
+        "energy_cost": ["minimal", "low", "moderate"],
+        "condition": ["POTS", "hEDS", "CPTSD", "chronic-pain", "fatigue"]
+      },
+      "icon": "💊"
+    },
+    {
+      "id": "ideas_sewing",
+      "name": "Sewing & Upcycling",
+      "path": "ideas_sewing.json",
+      "description": "200 sewing/upcycle/repair ideas (gothic alterations, harness making, leatherwear)",
+      "count": 200,
+      "categories": ["alterations", "repairs", "upcycling", "gothic-fashion", "accessories", "leatherwork"],
+      "filters": {
+        "skill_level": ["beginner", "intermediate", "advanced"],
+        "time_needed": ["quick", "afternoon", "weekend-project"],
+        "materials": ["scraps", "thrift-finds", "leather", "hardware"]
+      },
+      "icon": "🪡"
+    },
+    {
+      "id": "ideas_art",
+      "name": "Art & Creative Prompts",
+      "path": "ideas_art.json",
+      "description": "200 art prompts (poetry, photo, drawing, zine, mixed-media)",
+      "count": 200,
+      "categories": ["poetry", "photography", "drawing", "zine-making", "collage", "digital-art"],
+      "filters": {
+        "medium": ["writing", "visual", "mixed-media", "digital"],
+        "mood": ["contemplative", "energetic", "dark", "whimsical"],
+        "energy_level": ["low-effort", "moderate", "intensive"]
+      },
+      "icon": "🎨"
+    }
+  ]
+}

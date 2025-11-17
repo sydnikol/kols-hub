@@ -1,0 +1,104 @@
+{
+  "themes": [
+    {
+      "id": 1,
+      "name": "Void Empress",
+      "primary": "#1a0033",
+      "secondary": "#6600cc",
+      "accent": "#9d00ff",
+      "text": "#e6e6ff",
+      "background": "#0d001a",
+      "aesthetic": "Deep purple void with electric violet accents"
+    },
+    {
+      "id": 2,
+      "name": "Blood Moon",
+      "primary": "#2d0a0a",
+      "secondary": "#8b0000",
+      "accent": "#7f1d1d",
+      "text": "#7f1d1d",
+      "background": "#1a0000",
+      "aesthetic": "Crimson darkness with blood red highlights"
+    },
+    {
+      "id": 3,
+      "name": "Midnight Garden",
+      "primary": "#0a1a0f",
+      "secondary": "#1a4d2e",
+      "accent": "#4ade80",
+      "text": "#d4f1e8",
+      "background": "#050a08",
+      "aesthetic": "Dark emerald with toxic green glow"
+    },
+    {
+      "id": 4,
+      "name": "Cyber Witch",
+      "primary": "#1a0d26",
+      "secondary": "#4d1a80",
+      "accent": "#bf00ff",
+      "text": "#f0e6ff",
+      "background": "#0d0513",
+      "aesthetic": "Electric purple with neon magenta pulses"
+    },
+    {
+      "id": 5,
+      "name": "Abyssal Depths",
+      "primary": "#0a0f1a",
+      "secondary": "#1a334d",
+      "accent": "#0099cc",
+      "text": "#e6f2ff",
+      "background": "#05080d",
+      "aesthetic": "Deep ocean blue with blue bioluminescence"
+    },
+    {
+      "id": 6,
+      "name": "Bone Throne",
+      "primary": "#1a1a1a",
+      "secondary": "#4d4d4d",
+      "accent": "#d9d9d9",
+      "text": "#f2f2f2",
+      "background": "#0d0d0d",
+      "aesthetic": "Monochrome darkness with bone white accents"
+    },
+    {
+      "id": 7,
+      "name": "Toxic Dreams",
+      "primary": "#1a260d",
+      "secondary": "#4d7326",
+      "accent": "#a6ff00",
+      "text": "#e6f2d9",
+      "background": "#0d1305",
+      "aesthetic": "Radioactive green with poisonous glow"
+    },
+    {
+      "id": 8,
+      "name": "Velvet Shadows",
+      "primary": "#1a0d1a",
+      "secondary": "#4d264d",
+      "accent": "#cc66cc",
+      "text": "#f2e6f2",
+      "background": "#0d050d",
+      "aesthetic": "Royal purple with soft magenta highlights"
+    },
+    {
+      "id": 9,
+      "name": "Neon Necropolis",
+      "primary": "#0d1a1a",
+      "secondary": "#264d4d",
+      "accent": "#00ffff",
+      "text": "#e6ffff",
+      "background": "#050d0d",
+      "aesthetic": "Dark blue with electric blue bursts"
+    },
+    {
+      "id": 10,
+      "name": "Ultraviolet Storm",
+      "primary": "#13001a",
+      "secondary": "#3d0059",
+      "accent": "#8000bf",
+      "text": "#f2e6ff",
+      "background": "#0a0013",
+      "aesthetic": "Deep violet darkness with ultraviolet accents"
+    }
+  ]
+}

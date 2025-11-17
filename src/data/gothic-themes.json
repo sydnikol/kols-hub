@@ -1,0 +1,68 @@
+{
+  "themes": [
+    {
+      "id": "gothic_classic",
+      "name": "Gothic Classic",
+      "colors": {
+        "primary": "#8B00FF",
+        "secondary": "#4B0082",
+        "accent": "#7f1d1d",
+        "background": "#0A0A0A",
+        "surface": "#1A1A1A",
+        "text": "#E0E0E0"
+      },
+      "fonts": {
+        "heading": "Cinzel",
+        "body": "Crimson Text"
+      }
+    },
+    {
+      "id": "velvet_voltage",
+      "name": "Velvet Voltage",
+      "colors": {
+        "primary": "#9D00FF",
+        "secondary": "#7f1d1d",
+        "accent": "#00FFFF",
+        "background": "#0D0015",
+        "surface": "#1A0028",
+        "text": "#F0E6FF"
+      }
+    },
+    {
+      "id": "ancestral_indigo",
+      "name": "Ancestral Indigo",
+      "colors": {
+        "primary": "#4B0082",
+        "secondary": "#6A0DAD",
+        "accent": "#DDA0DD",
+        "background": "#0F0820",
+        "surface": "#1C1030",
+        "text": "#D8BFD8"
+      }
+    },
+    {
+      "id": "neon_cathedral",
+      "name": "Neon Cathedral",
+      "colors": {
+        "primary": "#8A2BE2",
+        "secondary": "#7f1d1d",
+        "accent": "#00BFFF",
+        "background": "#0A0A14",
+        "surface": "#14141E",
+        "text": "#E6E6FA"
+      }
+    },
+    {
+      "id": "witchy_minimal",
+      "name": "Witchy Minimal",
+      "colors": {
+        "primary": "#663399",
+        "secondary": "#800080",
+        "accent": "#7f1d1d",
+        "background": "#1A1A1A",
+        "surface": "#2A2A2A",
+        "text": "#F5F5F5"
+      }
+    }
+  ]
+}

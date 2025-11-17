@@ -1,0 +1,76 @@
+{
+  "categories": [
+    {
+      "id": "crisis",
+      "title": "Crisis Stabilizers",
+      "color": "bg-rose-900/20 border-rose-500/30",
+      "items": [
+        { "text": "Name five safeties", "effort": 1 },
+        { "text": "Cold water wrists", "effort": 1 },
+        { "text": "Call/text partner script", "effort": 1 },
+        { "text": "Ice cube grounding", "effort": 1 },
+        { "text": "Count 5–4–3–2–1", "effort": 1 },
+        { "text": "Box breath 4–4–6", "effort": 1 },
+        { "text": "Sit by open door", "effort": 1 },
+        { "text": "Weighted blanket on", "effort": 1 },
+        { "text": "Repeat: 'Safe, now'", "effort": 1 },
+        { "text": "Read safety card", "effort": 1 }
+      ]
+    },
+    {
+      "id": "grounding",
+      "title": "Grounding & Orientation",
+      "color": "bg-emerald-900/20 border-emerald-500/30",
+      "items": [
+        { "text": "Feet on floor check", "effort": 1 },
+        { "text": "Name room colors", "effort": 1 },
+        { "text": "Trace palm lines", "effort": 1 },
+        { "text": "Hum steady tone", "effort": 1 },
+        { "text": "Find three squares", "effort": 1 },
+        { "text": "Name today's date", "effort": 1 },
+        { "text": "Smell coffee/tea", "effort": 1 },
+        { "text": "Touch soft fabric", "effort": 1 },
+        { "text": "Look left/right/center", "effort": 1 },
+        { "text": "Say current location", "effort": 1 }
+      ]
+    },
+    {
+      "id": "breath",
+      "title": "Breathwork",
+      "color": "bg-sky-900/20 border-sky-500/30",
+      "items": [
+        { "text": "4-7-8 breaths x4", "effort": 1 },
+        { "text": "Physiological sighs x5", "effort": 1 },
+        { "text": "Paced 5/5 for 2m", "effort": 1 }
+        { "text": "In 4 / out 6", "effort": 1 },
+        { "text": "Box 4-4-4-4 x8", "effort": 1 },
+        { "text": "Diaphragm hand cue", "effort": 1 },
+        { "text": "Breathe with song", "effort": 1 },
+        { "text": "Exhale whisper 'ha'", "effort": 1 },
+        { "text": "Smell roses / blow", "effort": 1 },
+        { "text": "Count 20 breaths", "effort": 1 }
+      ]
+    },
+    {
+      "id": "body",
+      "title": "Body-Based Regulation",
+      "color": "bg-yellow-900/20 border-yellow-500/30",
+      "items": [
+        { "text": "Shoulder roll x10", "effort": 1 },
+        { "text": "Neck side stretch", "effort": 1 },
+        { "text": "Hand massage 1m", "effort": 1 },
+        { "text": "Jaw unclench cue", "effort": 1 },
+        { "text": "Cat-cow seated", "effort": 2 },
+        { "text": "Calves pump 20x", "effort": 2 },
+        { "text": "Wall angel 6x", "effort": 2 },
+        { "text": "Ankles alphabet", "effort": 1 },
+        { "text": "Hip figure‑4 gentle", "effort": 2 },
+        { "text": "Shake limbs 30s", "effort": 1 }
+      ]
+    },
+    {
+      "id": "sensory",
+      "title": "Sensory Soothers",
+      "color": "bg-indigo-900/20 border-indigo-500/30",
+      "items": [
+        { "text": "Darken room", "effort": 1 }

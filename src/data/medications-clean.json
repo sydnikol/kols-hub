@@ -1,0 +1,219 @@
+{
+  "medications": [
+    {
+      "id": "gabapentin",
+      "name": "Gabapentin",
+      "dose": "300 mg",
+      "schedule": "AM/PM",
+      "timing": "1 capsule AM, 2 capsules PM",
+      "indication": "Pain Management",
+      "category": "Pain Relief",
+      "notes": "Take consistently to maintain pain control",
+      "requires_meal": false,
+      "active": true
+    },
+    {
+      "id": "propranolol",
+      "name": "Propranolol",
+      "dose": "As prescribed",
+      "schedule": "Daily",
+      "timing": "Once daily",
+      "indication": "POTS/Heart Rate Control",
+      "category": "Cardiovascular",
+      "notes": "Helps manage POTS symptoms and heart rate",
+      "requires_meal": false,
+      "active": true
+    },
+    {
+      "id": "methotrexate",
+      "name": "Methotrexate",
+      "dose": "2.5 mg × 5 tablets",
+      "schedule": "Weekly",
+      "timing": "Once weekly on Monday",
+      "indication": "Arthritis Management",
+      "category": "Immunosuppressant",
+      "notes": "⚠️ CRITICAL: Avoid folic acid on MTX day. Take on empty stomach if possible.",
+      "requires_meal": false,
+      "active": true,
+      "warning": "Do not take folic acid on same day"
+    },
+    {
+      "id": "symbicort",
+      "name": "Symbicort",
+      "dose": "160/4.5 mcg",
+      "schedule": "AM/PM",
+      "timing": "2 puffs twice daily",
+      "indication": "Asthma Controller",
+      "category": "Respiratory",
+      "notes": "Rinse mouth after use to prevent thrush",
+      "requires_meal": false,
+      "active": true
+    },
+    {
+      "id": "albuterol",
+      "name": "Albuterol Inhaler",
+      "dose": "As needed",
+      "schedule": "PRN",
+      "timing": "Use when experiencing breathing difficulty",
+      "indication": "Asthma Rescue",
+      "category": "Respiratory",
+      "notes": "Keep with you at all times. Use before exercise if needed.",
+      "requires_meal": false,
+      "active": true
+    },
+    {
+      "id": "ondansetron",
+      "name": "Ondansetron ODT",
+      "dose": "As needed",
+      "schedule": "PRN",
+      "timing": "Dissolve on tongue when nauseous",
+      "indication": "Nausea/Vomiting",
+      "category": "Antiemetic",
+      "notes": "Orally disintegrating tablet - no water needed",
+      "requires_meal": false,
+      "active": true
+    },
+    {
+      "id": "vitd3",
+      "name": "Vitamin D3",
+      "dose": "As prescribed",
+      "schedule": "Daily",
+      "timing": "Once daily with food",
+      "indication": "Vitamin D Deficiency",
+      "category": "Supplement",
+      "notes": "Take with fatty meal for better absorption",
+      "requires_meal": true,
+      "active": true
+    },
+    {
+      "id": "famotidine",
+      "name": "Famotidine (Pepcid)",
+      "dose": "As prescribed",
+      "schedule": "Daily",
+      "timing": "Once daily",
+      "indication": "Acid Reflux/GERD",
+      "category": "Gastrointestinal",
+      "notes": "Reduces stomach acid production",
+      "requires_meal": false,
+      "active": true
+    }
+  ],
+  "medication_summary": {
+    "total_medications": 8,
+    "daily_count": 5,
+    "twice_daily_count": 2,
+    "weekly_count": 1,
+    "prn_count": 2,
+    "categories": {
+      "pain_relief": 1,
+      "cardiovascular": 1,
+      "immunosuppressant": 1,
+      "respiratory": 2,
+      "antiemetic": 1,
+      "supplement": 1,
+      "gastrointestinal": 1
+    }
+  },
+  "daily_medication_schedule": {
+    "morning": [
+      "Gabapentin 300mg (1 capsule)",
+      "Symbicort 160/4.5 (2 puffs)",
+      "Propranolol (as prescribed)",
+      "Vitamin D3 (with food)",
+      "Famotidine (as prescribed)"
+    ],
+    "evening": [
+      "Gabapentin 300mg (2 capsules)",
+      "Symbicort 160/4.5 (2 puffs)"
+    ],
+    "monday_weekly": [
+      "Methotrexate 2.5mg × 5 tablets",
+      "⚠️ Skip folic acid today"
+    ],
+    "as_needed": [
+      "Albuterol (breathing difficulty)",
+      "Ondansetron ODT (nausea)"
+    ]
+  },
+  "critical_reminders": [
+    "⚠️ Monday is Methotrexate day - NO folic acid",
+    "💨 Rinse mouth after Symbicort use",
+    "🚨 Keep Albuterol inhaler accessible at all times",
+    "🍽️ Take Vitamin D3 with food for best absorption",
+    "📅 Refill reminders: Check supply weekly"
+  ],
+  "refill_tracking": {
+    "gabapentin": {
+      "last_refill": null,
+      "next_refill": null,
+      "pharmacy": "To be added",
+      "prescriber": "To be added"
+    },
+    "propranolol": {
+      "last_refill": null,
+      "next_refill": null,
+      "pharmacy": "To be added",
+      "prescriber": "To be added"
+    },
+    "methotrexate": {
+      "last_refill": null,
+      "next_refill": null,
+      "pharmacy": "To be added",
+      "prescriber": "To be added"
+    },
+    "symbicort": {
+      "last_refill": null,
+      "next_refill": null,
+      "pharmacy": "To be added",
+      "prescriber": "To be added"
+    },
+    "albuterol": {
+      "last_refill": null,
+      "next_refill": null,
+      "pharmacy": "To be added",
+      "prescriber": "To be added"
+    },
+    "ondansetron": {
+      "last_refill": null,
+      "next_refill": null,
+      "pharmacy": "To be added",
+      "prescriber": "To be added"
+    },
+    "vitd3": {
+      "last_refill": null,
+      "next_refill": null,
+      "pharmacy": "To be added",
+      "prescriber": "To be added"
+    },
+    "famotidine": {
+      "last_refill": null,
+      "next_refill": null,
+      "pharmacy": "To be added",
+      "prescriber": "To be added"
+    }
+  },
+  "pharmacy_info": {
+    "preferred_pharmacy": "To be added",
+    "pharmacy_phone": "To be added",
+    "auto_refill_enabled": false
+  },
+  "side_effects_tracking": {
+    "common_side_effects": {
+      "gabapentin": ["Dizziness", "Drowsiness", "Coordination issues"],
+      "propranolol": ["Fatigue", "Cold hands/feet", "Dizziness"],
+      "methotrexate": ["Nausea", "Fatigue", "Mouth sores", "Liver effects"],
+      "symbicort": ["Thrush (rinse to prevent)", "Hoarseness", "Cough"],
+      "albuterol": ["Tremor", "Rapid heartbeat", "Nervousness"],
+      "ondansetron": ["Headache", "Constipation"],
+      "vitd3": ["Generally well-tolerated"],
+      "famotidine": ["Headache", "Dizziness", "Constipation"]
+    },
+    "report_immediately": [
+      "Severe allergic reaction",
+      "Difficulty breathing (not controlled by albuterol)",
+      "Chest pain",
+      "Severe dizziness or fainting",
+      "Signs of liver problems (indigoing skin/eyes, dark urine)"
+    ]
+  }
+}
