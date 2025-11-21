@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Zap, Plus, Trash2, Play, Pause, RotateCcw } from 'lucide-react';
 
-interface Character { id: string; name: string; initiative: number; hp: { current: number; max: number }; ac: number; }
+import type { Character } from './types';
 interface InitiativeTrackerProps { characters: Character[]; }
 
 const InitiativeTracker: React.FC<InitiativeTrackerProps> = ({ characters }) => {
@@ -10,8 +10,33 @@ const InitiativeTracker: React.FC<InitiativeTrackerProps> = ({ characters }) => 
   const [round, setRound] = useState(1);
   const [inCombat, setInCombat] = useState(false);
 
-  const addCharacter = (char: Character) => { setCombatants([...combatants, { ...char, type: 'pc', initiative: Math.floor(Math.random() * 20) + 1 }]); };
-  const addMonster = () => { const monster: Character & { type: 'pc' | 'npc' } = { id: Date.now().toString(), name: 'Monster', initiative: Math.floor(Math.random() * 20) + 1, hp: { current: 20, max: 20 }, ac: 12, type: 'npc' }; setCombatants([...combatants, monster]); };
+  const addCharacter = (char: Character) => { setCombatants([...combatants, { ...char, type: 'pc' as const, initiative: Math.floor(Math.random() * 20) + 1 }]); };
+  const addMonster = () => {
+    const monster: Character & { type: 'pc' | 'npc' } = {
+      id: Date.now().toString(),
+      name: 'Monster',
+      initiative: Math.floor(Math.random() * 20) + 1,
+      hp: { current: 20, max: 20 },
+      ac: 12,
+      type: 'npc',
+      level: 1,
+      class: 'Monster',
+      race: 'Unknown',
+      background: '',
+      stats: { str: 10, dex: 10, con: 10, int: 10, wis: 10, cha: 10 },
+      savingThrows: { str: false, dex: false, con: false, int: false, wis: false, cha: false },
+      skills: {
+        acrobatics: false, animalHandling: false, arcana: false, athletics: false,
+        deception: false, history: false, insight: false, intimidation: false,
+        investigation: false, medicine: false, nature: false, perception: false,
+        performance: false, persuasion: false, religion: false, sleightOfHand: false,
+        stealth: false, survival: false
+      },
+      proficiencyBonus: 2,
+      speed: 30
+    };
+    setCombatants([...combatants, monster]);
+  };
 
   const sortByInitiative = () => { setCombatants([...combatants].sort((a, b) => b.initiative - a.initiative)); };
 

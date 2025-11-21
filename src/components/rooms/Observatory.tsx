@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Telescope, Globe, Clock, Sparkles, MapPin } from 'lucide-react';
+import { Eye, Globe, Clock, Sparkles, MapPin } from 'lucide-react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Stars } from '@react-three/drei';
 
@@ -98,7 +98,7 @@ const Observatory: React.FC = () => {
               }}
               style={{ display: 'inline-block', marginBottom: '20px' }}
             >
-              <Telescope size={64} color="#4a5f7f" strokeWidth={1} />
+              <Eye size={64} color="#4a5f7f" strokeWidth={1} />
             </motion.div>
             <h1 style={{
               fontSize: '48px',

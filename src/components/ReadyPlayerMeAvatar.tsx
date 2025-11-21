@@ -1,7 +1,7 @@
 import React, { Suspense, useRef, useEffect, useState } from 'react';
 import { Canvas, useFrame, useLoader } from '@react-three/fiber';
 import { OrbitControls, PerspectiveCamera, Environment } from '@react-three/drei';
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import * as THREE from 'three';
 import { AvatarDisplayProps } from '../types/avatar';
 
@@ -273,7 +273,7 @@ const ReadyPlayerMeAvatar: React.FC<AvatarDisplayProps> = ({
         gl={{ antialias: true, alpha: true }}
         onCreated={() => setIsLoading(false)}
         onError={(err) => {
-          setError(err as Error);
+          setError(new Error('Failed to load 3D canvas'));
           setIsLoading(false);
         }}
       >

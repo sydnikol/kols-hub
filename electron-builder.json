@@ -1,0 +1,45 @@
+{
+  "appId": "com.kol.unified-mega-app",
+  "productName": "KOL Personal OS",
+  "directories": {
+    "output": "dist-electron"
+  },
+  "files": [
+    "dist/**/*",
+    "electron/**/*"
+  ],
+  "extraMetadata": {
+    "main": "electron/main.js"
+  },
+  "win": {
+    "target": [
+      {
+        "target": "nsis",
+        "arch": ["x64", "ia32"]
+      },
+      {
+        "target": "portable",
+        "arch": ["x64"]
+      }
+    ],
+    "icon": "public/icon.png",
+    "publisherName": "KOL"
+  },
+  "mac": {
+    "target": ["dmg", "zip"],
+    "icon": "public/icon.png",
+    "category": "public.app-category.productivity"
+  },
+  "linux": {
+    "target": ["AppImage", "deb"],
+    "icon": "public/icon.png",
+    "category": "Utility"
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": true,
+    "createStartMenuShortcut": true
+  },
+  "publish": null
+}

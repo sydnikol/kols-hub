@@ -1,0 +1,2004 @@
+{
+  "food": [
+    {
+      "id": 1,
+      "idea": "Instant ramen with extra salt and soft-boiled egg",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["POTS-friendly", "high-sodium", "quick"],
+      "difficulty": "very easy",
+      "sodiumContent": "1800mg",
+      "ingredients": ["instant ramen", "egg", "extra salt"]
+    },
+    {
+      "id": 2,
+      "idea": "Pickle juice electrolyte shot with crackers",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["POTS-friendly", "high-sodium", "quick", "nausea-safe"],
+      "difficulty": "very easy",
+      "sodiumContent": "690mg",
+      "ingredients": ["pickle juice", "saltine crackers"]
+    },
+    {
+      "id": 3,
+      "idea": "Chicken broth with egg drop and green onions",
+      "spoons": 1,
+      "time": "8min",
+      "tags": ["POTS-friendly", "high-sodium", "warm", "nausea-safe"],
+      "difficulty": "very easy",
+      "sodiumContent": "960mg",
+      "ingredients": ["chicken broth", "egg", "green onions", "sesame oil"]
+    },
+    {
+      "id": 4,
+      "idea": "Peanut butter toast with sea salt and honey",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["quick", "protein", "comfort"],
+      "difficulty": "very easy",
+      "sodiumContent": "320mg",
+      "ingredients": ["bread", "peanut butter", "sea salt", "honey"]
+    },
+    {
+      "id": 5,
+      "idea": "Microwave mug mac and cheese with extra salt",
+      "spoons": 1,
+      "time": "7min",
+      "tags": ["POTS-friendly", "comfort", "quick"],
+      "difficulty": "very easy",
+      "sodiumContent": "890mg",
+      "ingredients": ["elbow macaroni", "cheese", "milk", "salt", "butter"]
+    },
+    {
+      "id": 6,
+      "idea": "Canned soup (Campbell's condensed) with crackers",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["POTS-friendly", "high-sodium", "warm"],
+      "difficulty": "very easy",
+      "sodiumContent": "1200mg",
+      "ingredients": ["condensed soup", "saltine crackers"]
+    },
+    {
+      "id": 7,
+      "idea": "Salted pretzels with cream cheese dip",
+      "spoons": 1,
+      "time": "3min",
+      "tags": ["POTS-friendly", "high-sodium", "snack"],
+      "difficulty": "very easy",
+      "sodiumContent": "680mg",
+      "ingredients": ["pretzels", "cream cheese", "herbs"]
+    },
+    {
+      "id": 8,
+      "idea": "Instant miso soup with tofu and seaweed",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["POTS-friendly", "high-sodium", "warm", "nausea-safe"],
+      "difficulty": "very easy",
+      "sodiumContent": "730mg",
+      "ingredients": ["instant miso", "tofu", "seaweed", "green onions"]
+    },
+    {
+      "id": 9,
+      "idea": "Cheese quesadilla with sour cream and salsa",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["comfort", "protein", "easy"],
+      "difficulty": "easy",
+      "sodiumContent": "520mg",
+      "ingredients": ["tortilla", "cheese", "sour cream", "salsa"]
+    },
+    {
+      "id": 10,
+      "idea": "Scrambled eggs with extra salt and buttered toast",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["POTS-friendly", "protein", "breakfast"],
+      "difficulty": "easy",
+      "sodiumContent": "640mg",
+      "ingredients": ["eggs", "butter", "salt", "bread"]
+    },
+    {
+      "id": 11,
+      "idea": "Frozen pizza with added salt and parmesan",
+      "spoons": 1,
+      "time": "20min",
+      "tags": ["POTS-friendly", "high-sodium", "comfort"],
+      "difficulty": "very easy",
+      "sodiumContent": "1400mg",
+      "ingredients": ["frozen pizza", "salt", "parmesan cheese"]
+    },
+    {
+      "id": 12,
+      "idea": "Baked potato with butter, salt, and cheese",
+      "spoons": 2,
+      "time": "8min microwave",
+      "tags": ["comfort", "filling", "easy"],
+      "difficulty": "easy",
+      "sodiumContent": "450mg",
+      "ingredients": ["potato", "butter", "salt", "cheese", "sour cream"]
+    },
+    {
+      "id": 13,
+      "idea": "Bagel with cream cheese and everything seasoning",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["POTS-friendly", "quick", "breakfast"],
+      "difficulty": "very easy",
+      "sodiumContent": "520mg",
+      "ingredients": ["bagel", "cream cheese", "everything seasoning"]
+    },
+    {
+      "id": 14,
+      "idea": "Rice with soy sauce, butter, and fried egg",
+      "spoons": 2,
+      "time": "15min",
+      "tags": ["POTS-friendly", "high-sodium", "comfort"],
+      "difficulty": "easy",
+      "sodiumContent": "920mg",
+      "ingredients": ["rice", "soy sauce", "butter", "egg", "sesame oil"]
+    },
+    {
+      "id": 15,
+      "idea": "Tuna salad on crackers with pickles",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["POTS-friendly", "protein", "no-cook"],
+      "difficulty": "easy",
+      "sodiumContent": "780mg",
+      "ingredients": ["canned tuna", "mayo", "crackers", "pickles", "celery"]
+    },
+    {
+      "id": 16,
+      "idea": "Grilled cheese with tomato soup",
+      "spoons": 2,
+      "time": "15min",
+      "tags": ["POTS-friendly", "comfort", "warm"],
+      "difficulty": "easy",
+      "sodiumContent": "1350mg",
+      "ingredients": ["bread", "cheese", "butter", "canned tomato soup"]
+    },
+    {
+      "id": 17,
+      "idea": "Chicken nuggets with honey mustard and fries",
+      "spoons": 2,
+      "time": "25min",
+      "tags": ["comfort", "easy", "frozen"],
+      "difficulty": "easy",
+      "sodiumContent": "820mg",
+      "ingredients": ["frozen chicken nuggets", "frozen fries", "honey mustard"]
+    },
+    {
+      "id": 18,
+      "idea": "Spaghetti with jarred marinara and parmesan",
+      "spoons": 2,
+      "time": "20min",
+      "tags": ["POTS-friendly", "comfort", "pasta"],
+      "difficulty": "easy",
+      "sodiumContent": "680mg",
+      "ingredients": ["spaghetti", "marinara sauce", "parmesan", "salt"]
+    },
+    {
+      "id": 19,
+      "idea": "Bacon and eggs with hash browns",
+      "spoons": 3,
+      "time": "20min",
+      "tags": ["POTS-friendly", "high-sodium", "breakfast", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "1240mg",
+      "ingredients": ["bacon", "eggs", "frozen hash browns", "salt"]
+    },
+    {
+      "id": 20,
+      "idea": "Hot dog with sauerkraut and mustard",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["POTS-friendly", "high-sodium", "quick"],
+      "difficulty": "easy",
+      "sodiumContent": "1150mg",
+      "ingredients": ["hot dog", "bun", "sauerkraut", "mustard"]
+    },
+    {
+      "id": 21,
+      "idea": "Crackers with cheese slices and pepperoni",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["POTS-friendly", "high-sodium", "no-cook", "snack"],
+      "difficulty": "very easy",
+      "sodiumContent": "890mg",
+      "ingredients": ["crackers", "cheese slices", "pepperoni"]
+    },
+    {
+      "id": 22,
+      "idea": "Electrolyte smoothie with banana and salt",
+      "spoons": 2,
+      "time": "5min",
+      "tags": ["POTS-friendly", "hydration", "quick"],
+      "difficulty": "easy",
+      "sodiumContent": "320mg",
+      "ingredients": ["banana", "coconut water", "sea salt", "honey", "ice"]
+    },
+    {
+      "id": 23,
+      "idea": "Cereal with whole milk and banana slices",
+      "spoons": 1,
+      "time": "3min",
+      "tags": ["quick", "breakfast", "no-cook"],
+      "difficulty": "very easy",
+      "sodiumContent": "240mg",
+      "ingredients": ["cereal", "milk", "banana"]
+    },
+    {
+      "id": 24,
+      "idea": "Rotisserie chicken with instant mashed potatoes",
+      "spoons": 2,
+      "time": "15min",
+      "tags": ["POTS-friendly", "protein", "easy"],
+      "difficulty": "easy",
+      "sodiumContent": "940mg",
+      "ingredients": ["rotisserie chicken", "instant mashed potatoes", "butter", "salt"]
+    },
+    {
+      "id": 25,
+      "idea": "BLT sandwich with extra bacon",
+      "spoons": 2,
+      "time": "15min",
+      "tags": ["POTS-friendly", "high-sodium", "protein"],
+      "difficulty": "easy",
+      "sodiumContent": "1180mg",
+      "ingredients": ["bacon", "lettuce", "tomato", "bread", "mayo"]
+    },
+    {
+      "id": 26,
+      "idea": "Chicken ramen bowl with egg and veggies",
+      "spoons": 2,
+      "time": "12min",
+      "tags": ["POTS-friendly", "high-sodium", "warm"],
+      "difficulty": "easy",
+      "sodiumContent": "2100mg",
+      "ingredients": ["instant ramen", "chicken breast", "egg", "frozen vegetables"]
+    },
+    {
+      "id": 27,
+      "idea": "Beef jerky with cheese cubes and crackers",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["POTS-friendly", "high-sodium", "protein", "no-cook"],
+      "difficulty": "very easy",
+      "sodiumContent": "920mg",
+      "ingredients": ["beef jerky", "cheese cubes", "crackers"]
+    },
+    {
+      "id": 28,
+      "idea": "Greek yogurt with honey, granola, and salt pinch",
+      "spoons": 1,
+      "time": "3min",
+      "tags": ["protein", "quick", "no-cook"],
+      "difficulty": "very easy",
+      "sodiumContent": "180mg",
+      "ingredients": ["Greek yogurt", "honey", "granola", "sea salt"]
+    },
+    {
+      "id": 29,
+      "idea": "Nachos with cheese, salsa, and sour cream",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["POTS-friendly", "comfort", "quick"],
+      "difficulty": "easy",
+      "sodiumContent": "720mg",
+      "ingredients": ["tortilla chips", "cheese", "salsa", "sour cream"]
+    },
+    {
+      "id": 30,
+      "idea": "Pancakes with butter and syrup",
+      "spoons": 3,
+      "time": "20min",
+      "tags": ["comfort", "breakfast"],
+      "difficulty": "moderate",
+      "sodiumContent": "380mg",
+      "ingredients": ["pancake mix", "egg", "milk", "butter", "syrup"]
+    },
+    {
+      "id": 31,
+      "idea": "Ham and cheese hot pocket",
+      "spoons": 1,
+      "time": "3min microwave",
+      "tags": ["POTS-friendly", "high-sodium", "quick"],
+      "difficulty": "very easy",
+      "sodiumContent": "710mg",
+      "ingredients": ["frozen hot pocket"]
+    },
+    {
+      "id": 32,
+      "idea": "Cottage cheese with pineapple and salt",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["protein", "no-cook", "quick"],
+      "difficulty": "very easy",
+      "sodiumContent": "460mg",
+      "ingredients": ["cottage cheese", "pineapple", "sea salt"]
+    },
+    {
+      "id": 33,
+      "idea": "Instant oatmeal with brown sugar and salt",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["warm", "breakfast", "quick"],
+      "difficulty": "very easy",
+      "sodiumContent": "240mg",
+      "ingredients": ["instant oatmeal", "brown sugar", "salt", "butter"]
+    },
+    {
+      "id": 34,
+      "idea": "Deli meat roll-ups with cream cheese and pickles",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["POTS-friendly", "high-sodium", "protein", "no-cook"],
+      "difficulty": "very easy",
+      "sodiumContent": "840mg",
+      "ingredients": ["deli turkey or ham", "cream cheese", "pickles"]
+    },
+    {
+      "id": 35,
+      "idea": "Loaded baked sweet potato with butter and salt",
+      "spoons": 2,
+      "time": "8min microwave",
+      "tags": ["comfort", "filling", "easy"],
+      "difficulty": "easy",
+      "sodiumContent": "380mg",
+      "ingredients": ["sweet potato", "butter", "salt", "cinnamon"]
+    },
+    {
+      "id": 36,
+      "idea": "Fried rice with frozen vegetables and soy sauce",
+      "spoons": 3,
+      "time": "20min",
+      "tags": ["POTS-friendly", "high-sodium", "batch-cook"],
+      "difficulty": "moderate",
+      "sodiumContent": "1120mg",
+      "ingredients": ["rice", "egg", "frozen vegetables", "soy sauce", "sesame oil"]
+    },
+    {
+      "id": 37,
+      "idea": "Chicken salad on croissant",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["protein", "no-cook"],
+      "difficulty": "easy",
+      "sodiumContent": "620mg",
+      "ingredients": ["canned chicken", "mayo", "celery", "croissant", "salt"]
+    },
+    {
+      "id": 38,
+      "idea": "Pizza bagels with extra cheese",
+      "spoons": 2,
+      "time": "12min",
+      "tags": ["POTS-friendly", "comfort", "easy"],
+      "difficulty": "easy",
+      "sodiumContent": "680mg",
+      "ingredients": ["bagels", "pizza sauce", "mozzarella", "pepperoni"]
+    },
+    {
+      "id": 39,
+      "idea": "Protein shake with electrolyte powder",
+      "spoons": 1,
+      "time": "3min",
+      "tags": ["POTS-friendly", "protein", "quick", "hydration"],
+      "difficulty": "very easy",
+      "sodiumContent": "320mg",
+      "ingredients": ["protein powder", "electrolyte powder", "milk", "banana"]
+    },
+    {
+      "id": 40,
+      "idea": "Canned chili with cheese and crackers",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["POTS-friendly", "high-sodium", "warm", "protein"],
+      "difficulty": "easy",
+      "sodiumContent": "1180mg",
+      "ingredients": ["canned chili", "cheese", "crackers", "sour cream"]
+    },
+    {
+      "id": 41,
+      "idea": "English muffin pizza with marinara and cheese",
+      "spoons": 2,
+      "time": "12min",
+      "tags": ["comfort", "easy", "quick"],
+      "difficulty": "easy",
+      "sodiumContent": "540mg",
+      "ingredients": ["English muffin", "marinara", "mozzarella", "oregano"]
+    },
+    {
+      "id": 42,
+      "idea": "Hummus with pita chips and olives",
+      "spoons": 1,
+      "time": "3min",
+      "tags": ["POTS-friendly", "no-cook", "quick"],
+      "difficulty": "very easy",
+      "sodiumContent": "580mg",
+      "ingredients": ["hummus", "pita chips", "olives", "sea salt"]
+    },
+    {
+      "id": 43,
+      "idea": "Egg salad sandwich with pickles",
+      "spoons": 2,
+      "time": "15min",
+      "tags": ["POTS-friendly", "protein"],
+      "difficulty": "easy",
+      "sodiumContent": "720mg",
+      "ingredients": ["hard-boiled eggs", "mayo", "mustard", "bread", "pickles", "salt"]
+    },
+    {
+      "id": 44,
+      "idea": "Tortilla chips with queso dip",
+      "spoons": 1,
+      "time": "5min microwave",
+      "tags": ["POTS-friendly", "comfort", "quick"],
+      "difficulty": "very easy",
+      "sodiumContent": "640mg",
+      "ingredients": ["tortilla chips", "queso dip", "jalapenos"]
+    },
+    {
+      "id": 45,
+      "idea": "French toast with butter and syrup",
+      "spoons": 3,
+      "time": "20min",
+      "tags": ["comfort", "breakfast"],
+      "difficulty": "moderate",
+      "sodiumContent": "420mg",
+      "ingredients": ["bread", "eggs", "milk", "cinnamon", "butter", "syrup"]
+    },
+    {
+      "id": 46,
+      "idea": "Steamed dumplings with soy sauce",
+      "spoons": 2,
+      "time": "15min",
+      "tags": ["POTS-friendly", "high-sodium", "frozen"],
+      "difficulty": "easy",
+      "sodiumContent": "920mg",
+      "ingredients": ["frozen dumplings", "soy sauce", "sesame oil", "green onions"]
+    },
+    {
+      "id": 47,
+      "idea": "Avocado toast with sea salt and egg",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["trendy", "protein", "breakfast"],
+      "difficulty": "easy",
+      "sodiumContent": "480mg",
+      "ingredients": ["avocado", "bread", "egg", "sea salt", "red pepper flakes"]
+    },
+    {
+      "id": 48,
+      "idea": "Chicken strips with honey mustard and fries",
+      "spoons": 2,
+      "time": "25min",
+      "tags": ["POTS-friendly", "comfort", "frozen"],
+      "difficulty": "easy",
+      "sodiumContent": "860mg",
+      "ingredients": ["frozen chicken strips", "frozen fries", "honey mustard"]
+    },
+    {
+      "id": 49,
+      "idea": "Burrito bowl with rice, beans, cheese, salsa",
+      "spoons": 3,
+      "time": "20min",
+      "tags": ["POTS-friendly", "filling", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "780mg",
+      "ingredients": ["rice", "canned beans", "cheese", "salsa", "sour cream", "salt"]
+    },
+    {
+      "id": 50,
+      "idea": "Caprese salad with balsamic and sea salt",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["fresh", "no-cook", "anti-inflammatory"],
+      "difficulty": "easy",
+      "sodiumContent": "320mg",
+      "ingredients": ["tomato", "mozzarella", "basil", "balsamic vinegar", "sea salt"]
+    },
+    {
+      "id": 51,
+      "idea": "Boxed mac and cheese with hot dogs",
+      "spoons": 2,
+      "time": "15min",
+      "tags": ["POTS-friendly", "high-sodium", "comfort"],
+      "difficulty": "easy",
+      "sodiumContent": "1240mg",
+      "ingredients": ["boxed mac and cheese", "hot dogs", "butter"]
+    },
+    {
+      "id": 52,
+      "idea": "Pigs in a blanket with mustard",
+      "spoons": 2,
+      "time": "20min",
+      "tags": ["POTS-friendly", "high-sodium", "comfort"],
+      "difficulty": "easy",
+      "sodiumContent": "980mg",
+      "ingredients": ["crescent rolls", "little smokies", "mustard"]
+    },
+    {
+      "id": 53,
+      "idea": "Ramen stir-fry with veggies and egg",
+      "spoons": 3,
+      "time": "15min",
+      "tags": ["POTS-friendly", "high-sodium"],
+      "difficulty": "moderate",
+      "sodiumContent": "1680mg",
+      "ingredients": ["instant ramen", "frozen stir-fry vegetables", "egg", "soy sauce"]
+    },
+    {
+      "id": 54,
+      "idea": "Mini corn dogs with ketchup and mustard",
+      "spoons": 2,
+      "time": "15min",
+      "tags": ["POTS-friendly", "high-sodium", "frozen"],
+      "difficulty": "easy",
+      "sodiumContent": "820mg",
+      "ingredients": ["frozen mini corn dogs", "ketchup", "mustard"]
+    },
+    {
+      "id": 55,
+      "idea": "Caesar salad with croutons and parmesan",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["POTS-friendly", "fresh"],
+      "difficulty": "easy",
+      "sodiumContent": "680mg",
+      "ingredients": ["romaine lettuce", "Caesar dressing", "croutons", "parmesan"]
+    },
+    {
+      "id": 56,
+      "idea": "Beef and bean burrito with cheese",
+      "spoons": 3,
+      "time": "15min",
+      "tags": ["POTS-friendly", "protein", "filling"],
+      "difficulty": "moderate",
+      "sodiumContent": "920mg",
+      "ingredients": ["tortilla", "ground beef", "refried beans", "cheese", "salsa"]
+    },
+    {
+      "id": 57,
+      "idea": "Cheese and crackers charcuterie plate",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["POTS-friendly", "high-sodium", "no-cook"],
+      "difficulty": "very easy",
+      "sodiumContent": "1040mg",
+      "ingredients": ["assorted cheeses", "crackers", "salami", "olives", "grapes"]
+    },
+    {
+      "id": 58,
+      "idea": "Chocolate chip pancakes with whipped cream",
+      "spoons": 3,
+      "time": "25min",
+      "tags": ["comfort", "breakfast", "dessert-style"],
+      "difficulty": "moderate",
+      "sodiumContent": "420mg",
+      "ingredients": ["pancake mix", "chocolate chips", "whipped cream", "syrup"]
+    },
+    {
+      "id": 59,
+      "idea": "Stuffed bell peppers with rice and cheese",
+      "spoons": 4,
+      "time": "45min",
+      "tags": ["batch-cook", "filling"],
+      "difficulty": "moderate",
+      "sodiumContent": "620mg",
+      "ingredients": ["bell peppers", "rice", "ground beef", "cheese", "tomato sauce"]
+    },
+    {
+      "id": 60,
+      "idea": "Chicken quesadilla with peppers and onions",
+      "spoons": 3,
+      "time": "20min",
+      "tags": ["protein", "filling"],
+      "difficulty": "moderate",
+      "sodiumContent": "740mg",
+      "ingredients": ["tortilla", "chicken", "cheese", "bell peppers", "onions"]
+    },
+    {
+      "id": 61,
+      "idea": "Loaded potato skins with bacon and cheese",
+      "spoons": 3,
+      "time": "40min",
+      "tags": ["POTS-friendly", "high-sodium", "comfort"],
+      "difficulty": "moderate",
+      "sodiumContent": "1180mg",
+      "ingredients": ["potatoes", "bacon", "cheese", "sour cream", "green onions"]
+    },
+    {
+      "id": 62,
+      "idea": "Chicken noodle soup with extra salt",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["POTS-friendly", "high-sodium", "warm", "nausea-safe"],
+      "difficulty": "easy",
+      "sodiumContent": "1340mg",
+      "ingredients": ["canned chicken noodle soup", "crackers", "extra salt"]
+    },
+    {
+      "id": 63,
+      "idea": "Pulled pork sandwich with coleslaw",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["POTS-friendly", "protein", "easy"],
+      "difficulty": "easy",
+      "sodiumContent": "980mg",
+      "ingredients": ["pre-made pulled pork", "bun", "coleslaw", "BBQ sauce"]
+    },
+    {
+      "id": 64,
+      "idea": "Tater tot casserole with cheese and bacon",
+      "spoons": 3,
+      "time": "45min",
+      "tags": ["POTS-friendly", "high-sodium", "comfort", "batch-cook"],
+      "difficulty": "moderate",
+      "sodiumContent": "1420mg",
+      "ingredients": ["tater tots", "ground beef", "cheese", "bacon", "cream of mushroom soup"]
+    },
+    {
+      "id": 65,
+      "idea": "Breakfast burrito with eggs, cheese, salsa",
+      "spoons": 3,
+      "time": "15min",
+      "tags": ["POTS-friendly", "protein", "breakfast"],
+      "difficulty": "moderate",
+      "sodiumContent": "820mg",
+      "ingredients": ["tortilla", "scrambled eggs", "cheese", "salsa", "bacon or sausage"]
+    },
+    {
+      "id": 66,
+      "idea": "Philly cheesesteak sandwich",
+      "spoons": 3,
+      "time": "20min",
+      "tags": ["POTS-friendly", "high-sodium", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "1280mg",
+      "ingredients": ["beef", "hoagie roll", "cheese whiz", "onions", "peppers"]
+    },
+    {
+      "id": 67,
+      "idea": "Meatballs in marinara over spaghetti",
+      "spoons": 2,
+      "time": "20min",
+      "tags": ["POTS-friendly", "comfort", "pasta"],
+      "difficulty": "easy",
+      "sodiumContent": "840mg",
+      "ingredients": ["frozen meatballs", "marinara sauce", "spaghetti", "parmesan"]
+    },
+    {
+      "id": 68,
+      "idea": "Fish sticks with tartar sauce and fries",
+      "spoons": 2,
+      "time": "25min",
+      "tags": ["POTS-friendly", "frozen", "easy"],
+      "difficulty": "easy",
+      "sodiumContent": "720mg",
+      "ingredients": ["frozen fish sticks", "frozen fries", "tartar sauce"]
+    },
+    {
+      "id": 69,
+      "idea": "Shrimp scampi with linguine",
+      "spoons": 4,
+      "time": "30min",
+      "tags": ["POTS-friendly", "high-sodium", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "1120mg",
+      "ingredients": ["shrimp", "linguine", "butter", "garlic", "white wine", "parsley"]
+    },
+    {
+      "id": 70,
+      "idea": "Chicken alfredo with broccoli",
+      "spoons": 3,
+      "time": "25min",
+      "tags": ["comfort", "protein", "pasta"],
+      "difficulty": "moderate",
+      "sodiumContent": "920mg",
+      "ingredients": ["chicken breast", "fettuccine", "alfredo sauce", "broccoli", "parmesan"]
+    },
+    {
+      "id": 71,
+      "idea": "BBQ chicken pizza (frozen or homemade)",
+      "spoons": 2,
+      "time": "20min",
+      "tags": ["POTS-friendly", "comfort"],
+      "difficulty": "easy",
+      "sodiumContent": "1180mg",
+      "ingredients": ["pizza crust", "BBQ sauce", "chicken", "cheese", "red onion"]
+    },
+    {
+      "id": 72,
+      "idea": "Sausage and peppers over pasta",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["POTS-friendly", "high-sodium", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "1340mg",
+      "ingredients": ["Italian sausage", "bell peppers", "onions", "pasta", "marinara"]
+    },
+    {
+      "id": 73,
+      "idea": "Chicken teriyaki with rice and vegetables",
+      "spoons": 3,
+      "time": "25min",
+      "tags": ["POTS-friendly", "high-sodium", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "980mg",
+      "ingredients": ["chicken breast", "teriyaki sauce", "rice", "stir-fry vegetables"]
+    },
+    {
+      "id": 74,
+      "idea": "Tuna melt on sourdough",
+      "spoons": 2,
+      "time": "15min",
+      "tags": ["POTS-friendly", "protein", "comfort"],
+      "difficulty": "easy",
+      "sodiumContent": "860mg",
+      "ingredients": ["canned tuna", "mayo", "sourdough bread", "cheese", "tomato"]
+    },
+    {
+      "id": 75,
+      "idea": "Chili cheese fries with sour cream",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["POTS-friendly", "high-sodium", "comfort"],
+      "difficulty": "easy",
+      "sodiumContent": "1540mg",
+      "ingredients": ["frozen fries", "canned chili", "cheese", "sour cream", "green onions"]
+    },
+    {
+      "id": 76,
+      "idea": "Pork chops with applesauce and rice",
+      "spoons": 4,
+      "time": "35min",
+      "tags": ["protein", "filling"],
+      "difficulty": "moderate",
+      "sodiumContent": "720mg",
+      "ingredients": ["pork chops", "applesauce", "rice", "salt", "pepper"]
+    },
+    {
+      "id": 77,
+      "idea": "Shepherd's pie with ground beef and potatoes",
+      "spoons": 4,
+      "time": "50min",
+      "tags": ["POTS-friendly", "comfort", "batch-cook"],
+      "difficulty": "moderate",
+      "sodiumContent": "980mg",
+      "ingredients": ["ground beef", "mashed potatoes", "corn", "peas", "gravy"]
+    },
+    {
+      "id": 78,
+      "idea": "Tacos with seasoned beef and toppings",
+      "spoons": 3,
+      "time": "20min",
+      "tags": ["POTS-friendly", "customizable"],
+      "difficulty": "moderate",
+      "sodiumContent": "840mg",
+      "ingredients": ["ground beef", "taco seasoning", "taco shells", "cheese", "lettuce", "salsa"]
+    },
+    {
+      "id": 79,
+      "idea": "Lasagna with garlic bread",
+      "spoons": 4,
+      "time": "60min",
+      "tags": ["POTS-friendly", "comfort", "batch-cook"],
+      "difficulty": "complex",
+      "sodiumContent": "1280mg",
+      "ingredients": ["lasagna noodles", "ground beef", "ricotta", "mozzarella", "marinara"]
+    },
+    {
+      "id": 80,
+      "idea": "Pot roast with carrots and potatoes",
+      "spoons": 4,
+      "time": "4 hours slow cooker",
+      "tags": ["POTS-friendly", "batch-cook", "comfort"],
+      "difficulty": "moderate",
+      "sodiumContent": "1140mg",
+      "ingredients": ["beef roast", "carrots", "potatoes", "onion", "beef broth"]
+    },
+    {
+      "id": 81,
+      "idea": "Loaded nachos supreme with guacamole",
+      "spoons": 3,
+      "time": "20min",
+      "tags": ["POTS-friendly", "comfort"],
+      "difficulty": "moderate",
+      "sodiumContent": "1380mg",
+      "ingredients": ["tortilla chips", "ground beef", "cheese", "beans", "salsa", "sour cream", "guacamole"]
+    },
+    {
+      "id": 82,
+      "idea": "Chicken parmesan with spaghetti",
+      "spoons": 4,
+      "time": "40min",
+      "tags": ["POTS-friendly", "comfort", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "1120mg",
+      "ingredients": ["chicken breast", "marinara", "mozzarella", "parmesan", "spaghetti"]
+    },
+    {
+      "id": 83,
+      "idea": "Beef stroganoff over egg noodles",
+      "spoons": 4,
+      "time": "35min",
+      "tags": ["POTS-friendly", "comfort"],
+      "difficulty": "moderate",
+      "sodiumContent": "920mg",
+      "ingredients": ["beef strips", "mushrooms", "sour cream", "egg noodles", "beef broth"]
+    },
+    {
+      "id": 84,
+      "idea": "Chicken pot pie (frozen or homemade)",
+      "spoons": 2,
+      "time": "45min",
+      "tags": ["POTS-friendly", "comfort"],
+      "difficulty": "easy",
+      "sodiumContent": "1180mg",
+      "ingredients": ["frozen chicken pot pie or chicken", "mixed vegetables", "pie crust", "cream sauce"]
+    },
+    {
+      "id": 85,
+      "idea": "Pulled chicken sliders with pickles",
+      "spoons": 3,
+      "time": "6 hours slow cooker",
+      "tags": ["POTS-friendly", "high-sodium", "batch-cook"],
+      "difficulty": "moderate",
+      "sodiumContent": "1240mg",
+      "ingredients": ["chicken breast", "BBQ sauce", "slider buns", "pickles", "coleslaw"]
+    },
+    {
+      "id": 86,
+      "idea": "Jambalaya with sausage and shrimp",
+      "spoons": 4,
+      "time": "45min",
+      "tags": ["POTS-friendly", "high-sodium", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "1580mg",
+      "ingredients": ["rice", "andouille sausage", "shrimp", "peppers", "onion", "cajun seasoning"]
+    },
+    {
+      "id": 87,
+      "idea": "Biscuits and gravy with sausage",
+      "spoons": 3,
+      "time": "25min",
+      "tags": ["POTS-friendly", "high-sodium", "breakfast", "comfort"],
+      "difficulty": "moderate",
+      "sodiumContent": "1680mg",
+      "ingredients": ["biscuits", "sausage", "flour", "milk", "butter", "black pepper"]
+    },
+    {
+      "id": 88,
+      "idea": "Meatloaf with mashed potatoes and gravy",
+      "spoons": 4,
+      "time": "60min",
+      "tags": ["POTS-friendly", "comfort", "batch-cook"],
+      "difficulty": "moderate",
+      "sodiumContent": "1140mg",
+      "ingredients": ["ground beef", "breadcrumbs", "egg", "ketchup", "mashed potatoes", "gravy"]
+    },
+    {
+      "id": 89,
+      "idea": "Salmon with lemon butter and asparagus",
+      "spoons": 4,
+      "time": "30min",
+      "tags": ["protein", "anti-inflammatory"],
+      "difficulty": "moderate",
+      "sodiumContent": "620mg",
+      "ingredients": ["salmon fillet", "lemon", "butter", "asparagus", "garlic"]
+    },
+    {
+      "id": 90,
+      "idea": "Stuffed shells with ricotta and spinach",
+      "spoons": 4,
+      "time": "50min",
+      "tags": ["POTS-friendly", "comfort", "batch-cook"],
+      "difficulty": "moderate",
+      "sodiumContent": "980mg",
+      "ingredients": ["jumbo shells", "ricotta", "spinach", "marinara", "mozzarella"]
+    },
+    {
+      "id": 91,
+      "idea": "Fajitas with peppers and onions",
+      "spoons": 3,
+      "time": "25min",
+      "tags": ["protein", "customizable"],
+      "difficulty": "moderate",
+      "sodiumContent": "840mg",
+      "ingredients": ["chicken or beef", "bell peppers", "onions", "tortillas", "fajita seasoning"]
+    },
+    {
+      "id": 92,
+      "idea": "Chicken and dumplings",
+      "spoons": 4,
+      "time": "40min",
+      "tags": ["POTS-friendly", "comfort", "warm"],
+      "difficulty": "moderate",
+      "sodiumContent": "1240mg",
+      "ingredients": ["chicken", "chicken broth", "biscuit dough", "carrots", "celery"]
+    },
+    {
+      "id": 93,
+      "idea": "Beef and broccoli stir-fry with rice",
+      "spoons": 3,
+      "time": "25min",
+      "tags": ["POTS-friendly", "high-sodium", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "1120mg",
+      "ingredients": ["beef strips", "broccoli", "soy sauce", "garlic", "rice"]
+    },
+    {
+      "id": 94,
+      "idea": "Cheeseburger casserole with pasta",
+      "spoons": 3,
+      "time": "35min",
+      "tags": ["POTS-friendly", "comfort", "batch-cook"],
+      "difficulty": "moderate",
+      "sodiumContent": "1080mg",
+      "ingredients": ["ground beef", "pasta", "cheese", "pickles", "ketchup", "mustard"]
+    },
+    {
+      "id": 95,
+      "idea": "Baked ziti with meat sauce",
+      "spoons": 3,
+      "time": "45min",
+      "tags": ["POTS-friendly", "comfort", "batch-cook"],
+      "difficulty": "moderate",
+      "sodiumContent": "920mg",
+      "ingredients": ["ziti pasta", "ground beef", "marinara", "ricotta", "mozzarella"]
+    },
+    {
+      "id": 96,
+      "idea": "Chicken fried rice with egg and vegetables",
+      "spoons": 3,
+      "time": "20min",
+      "tags": ["POTS-friendly", "high-sodium", "batch-cook"],
+      "difficulty": "moderate",
+      "sodiumContent": "1340mg",
+      "ingredients": ["rice", "chicken", "egg", "frozen vegetables", "soy sauce"]
+    },
+    {
+      "id": 97,
+      "idea": "Enchiladas with red sauce and cheese",
+      "spoons": 4,
+      "time": "45min",
+      "tags": ["POTS-friendly", "comfort", "batch-cook"],
+      "difficulty": "moderate",
+      "sodiumContent": "1180mg",
+      "ingredients": ["tortillas", "chicken or beef", "enchilada sauce", "cheese", "sour cream"]
+    },
+    {
+      "id": 98,
+      "idea": "Corned beef hash with fried eggs",
+      "spoons": 3,
+      "time": "20min",
+      "tags": ["POTS-friendly", "high-sodium", "breakfast", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "1720mg",
+      "ingredients": ["canned corned beef hash", "potatoes", "onions", "eggs"]
+    },
+    {
+      "id": 99,
+      "idea": "Tuna casserole with egg noodles",
+      "spoons": 3,
+      "time": "40min",
+      "tags": ["POTS-friendly", "comfort", "batch-cook"],
+      "difficulty": "moderate",
+      "sodiumContent": "1060mg",
+      "ingredients": ["egg noodles", "canned tuna", "cream of mushroom soup", "peas", "cheese"]
+    },
+    {
+      "id": 100,
+      "idea": "Sweet and sour chicken with rice",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["POTS-friendly", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "880mg",
+      "ingredients": ["chicken breast", "sweet and sour sauce", "pineapple", "peppers", "rice"]
+    },
+    {
+      "id": 101,
+      "idea": "Club sandwich with chips",
+      "spoons": 2,
+      "time": "15min",
+      "tags": ["POTS-friendly", "high-sodium", "protein"],
+      "difficulty": "easy",
+      "sodiumContent": "1420mg",
+      "ingredients": ["bread", "turkey", "bacon", "lettuce", "tomato", "mayo", "chips"]
+    },
+    {
+      "id": 102,
+      "idea": "Chicken Caesar wrap with Caesar dressing",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["POTS-friendly", "protein"],
+      "difficulty": "easy",
+      "sodiumContent": "920mg",
+      "ingredients": ["tortilla", "grilled chicken", "romaine", "Caesar dressing", "parmesan"]
+    },
+    {
+      "id": 103,
+      "idea": "Monte Cristo sandwich with jam",
+      "spoons": 3,
+      "time": "20min",
+      "tags": ["POTS-friendly", "high-sodium", "comfort"],
+      "difficulty": "moderate",
+      "sodiumContent": "1280mg",
+      "ingredients": ["bread", "ham", "swiss cheese", "egg", "powdered sugar", "jam"]
+    },
+    {
+      "id": 104,
+      "idea": "Fried chicken with mashed potatoes and gravy",
+      "spoons": 4,
+      "time": "45min",
+      "tags": ["POTS-friendly", "high-sodium", "comfort"],
+      "difficulty": "complex",
+      "sodiumContent": "1540mg",
+      "ingredients": ["chicken pieces", "flour", "buttermilk", "mashed potatoes", "gravy"]
+    },
+    {
+      "id": 105,
+      "idea": "Spinach artichoke dip with bread bowl",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["POTS-friendly", "comfort"],
+      "difficulty": "moderate",
+      "sodiumContent": "1180mg",
+      "ingredients": ["spinach", "artichokes", "cream cheese", "parmesan", "bread bowl"]
+    },
+    {
+      "id": 106,
+      "idea": "Calzone with pepperoni and cheese",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["POTS-friendly", "comfort"],
+      "difficulty": "moderate",
+      "sodiumContent": "1320mg",
+      "ingredients": ["pizza dough", "ricotta", "mozzarella", "pepperoni", "marinara"]
+    },
+    {
+      "id": 107,
+      "idea": "Chicken lo mein with vegetables",
+      "spoons": 3,
+      "time": "25min",
+      "tags": ["POTS-friendly", "high-sodium"],
+      "difficulty": "moderate",
+      "sodiumContent": "1480mg",
+      "ingredients": ["lo mein noodles", "chicken", "vegetables", "soy sauce", "sesame oil"]
+    },
+    {
+      "id": 108,
+      "idea": "Sloppy joes on hamburger buns",
+      "spoons": 3,
+      "time": "20min",
+      "tags": ["POTS-friendly", "comfort"],
+      "difficulty": "moderate",
+      "sodiumContent": "1140mg",
+      "ingredients": ["ground beef", "sloppy joe sauce", "hamburger buns", "pickles"]
+    },
+    {
+      "id": 109,
+      "idea": "Chicken tikka masala with naan bread",
+      "spoons": 4,
+      "time": "40min",
+      "tags": ["POTS-friendly", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "980mg",
+      "ingredients": ["chicken breast", "tikka masala sauce", "rice", "naan bread"]
+    },
+    {
+      "id": 110,
+      "idea": "Buffalo chicken dip with tortilla chips",
+      "spoons": 3,
+      "time": "25min",
+      "tags": ["POTS-friendly", "high-sodium", "comfort"],
+      "difficulty": "moderate",
+      "sodiumContent": "1620mg",
+      "ingredients": ["chicken", "buffalo sauce", "cream cheese", "ranch", "cheese", "chips"]
+    },
+    {
+      "id": 111,
+      "idea": "Patty melt with caramelized onions",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["POTS-friendly", "comfort"],
+      "difficulty": "moderate",
+      "sodiumContent": "1080mg",
+      "ingredients": ["ground beef", "rye bread", "swiss cheese", "onions", "butter"]
+    },
+    {
+      "id": 112,
+      "idea": "General Tso's chicken with fried rice",
+      "spoons": 4,
+      "time": "35min",
+      "tags": ["POTS-friendly", "high-sodium"],
+      "difficulty": "moderate",
+      "sodiumContent": "1740mg",
+      "ingredients": ["chicken breast", "General Tso sauce", "rice", "broccoli", "red pepper flakes"]
+    },
+    {
+      "id": 113,
+      "idea": "Croque monsieur with salad",
+      "spoons": 3,
+      "time": "25min",
+      "tags": ["POTS-friendly", "high-sodium", "comfort"],
+      "difficulty": "moderate",
+      "sodiumContent": "1380mg",
+      "ingredients": ["bread", "ham", "gruyere cheese", "bechamel sauce", "dijon mustard"]
+    },
+    {
+      "id": 114,
+      "idea": "Chicken shawarma wrap with tahini sauce",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["POTS-friendly", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "920mg",
+      "ingredients": ["chicken thighs", "pita", "lettuce", "tomato", "tahini", "shawarma spices"]
+    },
+    {
+      "id": 115,
+      "idea": "Swedish meatballs with egg noodles",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["POTS-friendly", "comfort"],
+      "difficulty": "moderate",
+      "sodiumContent": "1120mg",
+      "ingredients": ["frozen meatballs", "cream sauce", "beef broth", "egg noodles"]
+    },
+    {
+      "id": 116,
+      "idea": "Poutine with cheese curds and gravy",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["POTS-friendly", "high-sodium", "comfort"],
+      "difficulty": "moderate",
+      "sodiumContent": "1840mg",
+      "ingredients": ["fries", "cheese curds", "gravy", "extra salt"]
+    },
+    {
+      "id": 117,
+      "idea": "Beef tacos with hard shells and toppings",
+      "spoons": 3,
+      "time": "20min",
+      "tags": ["POTS-friendly", "customizable"],
+      "difficulty": "moderate",
+      "sodiumContent": "920mg",
+      "ingredients": ["ground beef", "taco seasoning", "hard taco shells", "lettuce", "cheese", "salsa"]
+    },
+    {
+      "id": 118,
+      "idea": "Fish tacos with cabbage slaw and lime",
+      "spoons": 3,
+      "time": "25min",
+      "tags": ["protein", "fresh"],
+      "difficulty": "moderate",
+      "sodiumContent": "680mg",
+      "ingredients": ["white fish", "tortillas", "cabbage", "lime", "cilantro", "chipotle mayo"]
+    },
+    {
+      "id": 119,
+      "idea": "Chicken katsu with tonkatsu sauce",
+      "spoons": 4,
+      "time": "35min",
+      "tags": ["POTS-friendly", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "1180mg",
+      "ingredients": ["chicken breast", "panko breadcrumbs", "egg", "tonkatsu sauce", "rice"]
+    },
+    {
+      "id": 120,
+      "idea": "Baked potato bar with toppings",
+      "spoons": 2,
+      "time": "60min or 10min microwave",
+      "tags": ["POTS-friendly", "customizable"],
+      "difficulty": "easy",
+      "sodiumContent": "840mg",
+      "ingredients": ["potatoes", "butter", "sour cream", "cheese", "bacon bits", "green onions"]
+    },
+    {
+      "id": 121,
+      "idea": "Reuben sandwich with sauerkraut",
+      "spoons": 3,
+      "time": "15min",
+      "tags": ["POTS-friendly", "high-sodium", "comfort"],
+      "difficulty": "moderate",
+      "sodiumContent": "2140mg",
+      "ingredients": ["rye bread", "corned beef", "swiss cheese", "sauerkraut", "thousand island"]
+    },
+    {
+      "id": 122,
+      "idea": "Chicken wings with ranch and celery",
+      "spoons": 3,
+      "time": "40min",
+      "tags": ["POTS-friendly", "high-sodium", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "1620mg",
+      "ingredients": ["chicken wings", "buffalo sauce", "ranch dressing", "celery sticks"]
+    },
+    {
+      "id": 123,
+      "idea": "Gyro wrap with tzatziki sauce",
+      "spoons": 3,
+      "time": "25min",
+      "tags": ["POTS-friendly", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "1080mg",
+      "ingredients": ["lamb or beef", "pita", "lettuce", "tomato", "onion", "tzatziki"]
+    },
+    {
+      "id": 124,
+      "idea": "Pad Thai with shrimp",
+      "spoons": 4,
+      "time": "30min",
+      "tags": ["POTS-friendly", "high-sodium", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "1520mg",
+      "ingredients": ["rice noodles", "shrimp", "pad thai sauce", "peanuts", "lime", "bean sprouts"]
+    },
+    {
+      "id": 125,
+      "idea": "Chicken cordon bleu with rice pilaf",
+      "spoons": 4,
+      "time": "45min",
+      "tags": ["POTS-friendly", "high-sodium", "protein"],
+      "difficulty": "complex",
+      "sodiumContent": "1480mg",
+      "ingredients": ["chicken breast", "ham", "swiss cheese", "breadcrumbs", "rice pilaf"]
+    },
+    {
+      "id": 126,
+      "idea": "Beef and bean chili with cornbread",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["POTS-friendly", "high-sodium", "comfort"],
+      "difficulty": "moderate",
+      "sodiumContent": "1380mg",
+      "ingredients": ["ground beef", "beans", "chili seasoning", "tomatoes", "cornbread mix"]
+    },
+    {
+      "id": 127,
+      "idea": "Sausage and egg breakfast sandwich",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["POTS-friendly", "high-sodium", "breakfast", "protein"],
+      "difficulty": "easy",
+      "sodiumContent": "1140mg",
+      "ingredients": ["English muffin", "sausage patty", "egg", "cheese"]
+    },
+    {
+      "id": 128,
+      "idea": "Coconut curry chicken with rice",
+      "spoons": 4,
+      "time": "35min",
+      "tags": ["POTS-friendly", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "880mg",
+      "ingredients": ["chicken breast", "coconut milk", "curry paste", "vegetables", "rice"]
+    },
+    {
+      "id": 129,
+      "idea": "Mozzarella sticks with marinara sauce",
+      "spoons": 2,
+      "time": "20min",
+      "tags": ["POTS-friendly", "comfort", "frozen"],
+      "difficulty": "easy",
+      "sodiumContent": "740mg",
+      "ingredients": ["frozen mozzarella sticks", "marinara sauce"]
+    },
+    {
+      "id": 130,
+      "idea": "Baked salmon with dill and lemon butter",
+      "spoons": 3,
+      "time": "25min",
+      "tags": ["protein", "anti-inflammatory"],
+      "difficulty": "moderate",
+      "sodiumContent": "540mg",
+      "ingredients": ["salmon fillet", "lemon", "butter", "dill", "garlic"]
+    },
+    {
+      "id": 131,
+      "idea": "Eggplant parmesan with marinara",
+      "spoons": 4,
+      "time": "60min",
+      "tags": ["POTS-friendly", "comfort", "batch-cook"],
+      "difficulty": "complex",
+      "sodiumContent": "1080mg",
+      "ingredients": ["eggplant", "marinara", "mozzarella", "parmesan", "breadcrumbs"]
+    },
+    {
+      "id": 132,
+      "idea": "Beef stew with crusty bread",
+      "spoons": 4,
+      "time": "6 hours slow cooker",
+      "tags": ["POTS-friendly", "batch-cook", "comfort"],
+      "difficulty": "moderate",
+      "sodiumContent": "1240mg",
+      "ingredients": ["beef chunks", "potatoes", "carrots", "onion", "beef broth", "bread"]
+    },
+    {
+      "id": 133,
+      "idea": "Chicken enchilada soup with tortilla strips",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["POTS-friendly", "warm", "comfort"],
+      "difficulty": "moderate",
+      "sodiumContent": "1180mg",
+      "ingredients": ["chicken", "enchilada sauce", "beans", "corn", "cheese", "tortilla strips"]
+    },
+    {
+      "id": 134,
+      "idea": "Pork fried rice with egg and vegetables",
+      "spoons": 3,
+      "time": "20min",
+      "tags": ["POTS-friendly", "high-sodium"],
+      "difficulty": "moderate",
+      "sodiumContent": "1420mg",
+      "ingredients": ["pork", "rice", "egg", "frozen vegetables", "soy sauce", "sesame oil"]
+    },
+    {
+      "id": 135,
+      "idea": "Onion rings with dipping sauce",
+      "spoons": 2,
+      "time": "25min",
+      "tags": ["POTS-friendly", "comfort", "frozen"],
+      "difficulty": "easy",
+      "sodiumContent": "680mg",
+      "ingredients": ["frozen onion rings", "ranch or ketchup"]
+    },
+    {
+      "id": 136,
+      "idea": "Chicken enchiladas with green sauce",
+      "spoons": 4,
+      "time": "45min",
+      "tags": ["POTS-friendly", "comfort", "batch-cook"],
+      "difficulty": "moderate",
+      "sodiumContent": "1240mg",
+      "ingredients": ["tortillas", "chicken", "green enchilada sauce", "cheese", "sour cream"]
+    },
+    {
+      "id": 137,
+      "idea": "Steak fajita bowl with rice and beans",
+      "spoons": 3,
+      "time": "25min",
+      "tags": ["POTS-friendly", "protein", "filling"],
+      "difficulty": "moderate",
+      "sodiumContent": "920mg",
+      "ingredients": ["steak", "peppers", "onions", "rice", "black beans", "fajita seasoning"]
+    },
+    {
+      "id": 138,
+      "idea": "Chicken salad lettuce wraps",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["protein", "fresh", "no-cook"],
+      "difficulty": "easy",
+      "sodiumContent": "520mg",
+      "ingredients": ["canned chicken", "mayo", "celery", "grapes", "lettuce leaves"]
+    },
+    {
+      "id": 139,
+      "idea": "Meatball sub with marinara and cheese",
+      "spoons": 2,
+      "time": "15min",
+      "tags": ["POTS-friendly", "comfort"],
+      "difficulty": "easy",
+      "sodiumContent": "1340mg",
+      "ingredients": ["frozen meatballs", "sub roll", "marinara", "mozzarella"]
+    },
+    {
+      "id": 140,
+      "idea": "Chicken fajita quesadilla with salsa",
+      "spoons": 3,
+      "time": "20min",
+      "tags": ["POTS-friendly", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "880mg",
+      "ingredients": ["tortilla", "chicken", "peppers", "onions", "cheese", "salsa"]
+    },
+    {
+      "id": 141,
+      "idea": "Crab rangoon with sweet and sour sauce",
+      "spoons": 2,
+      "time": "20min",
+      "tags": ["POTS-friendly", "frozen"],
+      "difficulty": "easy",
+      "sodiumContent": "620mg",
+      "ingredients": ["frozen crab rangoon", "sweet and sour sauce"]
+    },
+    {
+      "id": 142,
+      "idea": "Chicken and waffle with syrup",
+      "spoons": 4,
+      "time": "30min",
+      "tags": ["POTS-friendly", "high-sodium", "comfort"],
+      "difficulty": "moderate",
+      "sodiumContent": "1280mg",
+      "ingredients": ["fried chicken", "waffles", "butter", "syrup"]
+    },
+    {
+      "id": 143,
+      "idea": "Sausage breakfast bowl with eggs and potatoes",
+      "spoons": 3,
+      "time": "20min",
+      "tags": ["POTS-friendly", "high-sodium", "breakfast", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "1420mg",
+      "ingredients": ["sausage", "eggs", "hash browns", "cheese", "salsa"]
+    },
+    {
+      "id": 144,
+      "idea": "Turkey club wrap with bacon",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["POTS-friendly", "high-sodium", "protein"],
+      "difficulty": "easy",
+      "sodiumContent": "1240mg",
+      "ingredients": ["tortilla", "turkey", "bacon", "lettuce", "tomato", "mayo"]
+    },
+    {
+      "id": 145,
+      "idea": "Shrimp fried rice with vegetables",
+      "spoons": 3,
+      "time": "20min",
+      "tags": ["POTS-friendly", "high-sodium", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "1380mg",
+      "ingredients": ["shrimp", "rice", "egg", "frozen vegetables", "soy sauce"]
+    },
+    {
+      "id": 146,
+      "idea": "Chicken Caesar salad with croutons",
+      "spoons": 2,
+      "time": "15min",
+      "tags": ["POTS-friendly", "protein", "fresh"],
+      "difficulty": "easy",
+      "sodiumContent": "820mg",
+      "ingredients": ["grilled chicken", "romaine", "Caesar dressing", "croutons", "parmesan"]
+    },
+    {
+      "id": 147,
+      "idea": "Beef nachos with all the toppings",
+      "spoons": 3,
+      "time": "20min",
+      "tags": ["POTS-friendly", "high-sodium", "comfort"],
+      "difficulty": "moderate",
+      "sodiumContent": "1540mg",
+      "ingredients": ["tortilla chips", "ground beef", "cheese", "jalapenos", "sour cream", "guacamole"]
+    },
+    {
+      "id": 148,
+      "idea": "Chicken taquitos with salsa and guacamole",
+      "spoons": 2,
+      "time": "20min",
+      "tags": ["POTS-friendly", "frozen"],
+      "difficulty": "easy",
+      "sodiumContent": "780mg",
+      "ingredients": ["frozen chicken taquitos", "salsa", "guacamole", "sour cream"]
+    },
+    {
+      "id": 149,
+      "idea": "Pork carnitas tacos with cilantro and lime",
+      "spoons": 4,
+      "time": "6 hours slow cooker",
+      "tags": ["POTS-friendly", "batch-cook", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "1280mg",
+      "ingredients": ["pork shoulder", "tortillas", "cilantro", "lime", "onion", "salsa"]
+    },
+    {
+      "id": 150,
+      "idea": "Stuffed mushrooms with cheese and breadcrumbs",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["POTS-friendly", "appetizer"],
+      "difficulty": "moderate",
+      "sodiumContent": "620mg",
+      "ingredients": ["large mushrooms", "cream cheese", "breadcrumbs", "garlic", "parmesan"]
+    },
+    {
+      "id": 151,
+      "idea": "Chicken pho with rice noodles",
+      "spoons": 4,
+      "time": "40min",
+      "tags": ["POTS-friendly", "high-sodium", "warm"],
+      "difficulty": "moderate",
+      "sodiumContent": "1840mg",
+      "ingredients": ["chicken", "pho broth", "rice noodles", "bean sprouts", "basil", "lime"]
+    },
+    {
+      "id": 152,
+      "idea": "Chicken pot stickers with soy dipping sauce",
+      "spoons": 2,
+      "time": "15min",
+      "tags": ["POTS-friendly", "high-sodium", "frozen"],
+      "difficulty": "easy",
+      "sodiumContent": "920mg",
+      "ingredients": ["frozen pot stickers", "soy sauce", "rice vinegar", "sesame oil"]
+    },
+    {
+      "id": 153,
+      "idea": "Beef and cheese empanadas",
+      "spoons": 4,
+      "time": "45min",
+      "tags": ["POTS-friendly", "comfort", "batch-cook"],
+      "difficulty": "moderate",
+      "sodiumContent": "880mg",
+      "ingredients": ["empanada dough", "ground beef", "cheese", "onions", "spices"]
+    },
+    {
+      "id": 154,
+      "idea": "Hawaiian pizza with ham and pineapple",
+      "spoons": 2,
+      "time": "20min",
+      "tags": ["POTS-friendly", "comfort"],
+      "difficulty": "easy",
+      "sodiumContent": "1240mg",
+      "ingredients": ["pizza crust", "pizza sauce", "mozzarella", "ham", "pineapple"]
+    },
+    {
+      "id": 155,
+      "idea": "Loaded potato soup with bacon",
+      "spoons": 3,
+      "time": "35min",
+      "tags": ["POTS-friendly", "high-sodium", "comfort", "warm"],
+      "difficulty": "moderate",
+      "sodiumContent": "1620mg",
+      "ingredients": ["potatoes", "bacon", "cheese", "sour cream", "green onions", "chicken broth"]
+    },
+    {
+      "id": 156,
+      "idea": "Chicken souvlaki with pita and tzatziki",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["POTS-friendly", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "1080mg",
+      "ingredients": ["chicken breast", "pita", "tzatziki", "tomato", "cucumber", "red onion"]
+    },
+    {
+      "id": 157,
+      "idea": "Shrimp cocktail with cocktail sauce",
+      "spoons": 2,
+      "time": "20min",
+      "tags": ["POTS-friendly", "protein", "fancy"],
+      "difficulty": "easy",
+      "sodiumContent": "820mg",
+      "ingredients": ["cooked shrimp", "cocktail sauce", "lemon", "ice"]
+    },
+    {
+      "id": 158,
+      "idea": "Bacon-wrapped dates with goat cheese",
+      "spoons": 3,
+      "time": "25min",
+      "tags": ["POTS-friendly", "high-sodium", "appetizer"],
+      "difficulty": "moderate",
+      "sodiumContent": "720mg",
+      "ingredients": ["dates", "bacon", "goat cheese"]
+    },
+    {
+      "id": 159,
+      "idea": "Chicken yakitori skewers with teriyaki glaze",
+      "spoons": 3,
+      "time": "25min",
+      "tags": ["POTS-friendly", "high-sodium", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "1120mg",
+      "ingredients": ["chicken thighs", "teriyaki sauce", "green onions", "sesame seeds"]
+    },
+    {
+      "id": 160,
+      "idea": "Cajun shrimp pasta with cream sauce",
+      "spoons": 4,
+      "time": "30min",
+      "tags": ["POTS-friendly", "high-sodium", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "1340mg",
+      "ingredients": ["shrimp", "penne pasta", "heavy cream", "cajun seasoning", "parmesan"]
+    },
+    {
+      "id": 161,
+      "idea": "Beef bulgogi with rice and kimchi",
+      "spoons": 4,
+      "time": "35min",
+      "tags": ["POTS-friendly", "high-sodium", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "1520mg",
+      "ingredients": ["beef", "bulgogi sauce", "rice", "kimchi", "sesame seeds", "green onions"]
+    },
+    {
+      "id": 162,
+      "idea": "Chicken tikka with naan and raita",
+      "spoons": 4,
+      "time": "40min",
+      "tags": ["POTS-friendly", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "1080mg",
+      "ingredients": ["chicken breast", "tikka marinade", "naan bread", "yogurt", "cucumber"]
+    },
+    {
+      "id": 163,
+      "idea": "Carne asada fries with cheese and guacamole",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["POTS-friendly", "high-sodium", "comfort"],
+      "difficulty": "moderate",
+      "sodiumContent": "1680mg",
+      "ingredients": ["fries", "carne asada", "cheese", "sour cream", "guacamole", "salsa"]
+    },
+    {
+      "id": 164,
+      "idea": "Chicken and vegetable stir-fry with soy sauce",
+      "spoons": 3,
+      "time": "20min",
+      "tags": ["POTS-friendly", "high-sodium", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "1280mg",
+      "ingredients": ["chicken breast", "stir-fry vegetables", "soy sauce", "garlic", "ginger", "rice"]
+    },
+    {
+      "id": 165,
+      "idea": "Baked mac and cheese with breadcrumb topping",
+      "spoons": 3,
+      "time": "45min",
+      "tags": ["POTS-friendly", "comfort", "batch-cook"],
+      "difficulty": "moderate",
+      "sodiumContent": "1120mg",
+      "ingredients": ["elbow macaroni", "cheese sauce", "breadcrumbs", "butter", "parmesan"]
+    },
+    {
+      "id": 166,
+      "idea": "Turkey meatballs with marinara over spaghetti",
+      "spoons": 3,
+      "time": "35min",
+      "tags": ["POTS-friendly", "protein", "comfort"],
+      "difficulty": "moderate",
+      "sodiumContent": "920mg",
+      "ingredients": ["ground turkey", "breadcrumbs", "egg", "marinara", "spaghetti"]
+    },
+    {
+      "id": 167,
+      "idea": "Chicken satay with peanut sauce",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["POTS-friendly", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "880mg",
+      "ingredients": ["chicken breast", "peanut sauce", "coconut milk", "lime", "rice"]
+    },
+    {
+      "id": 168,
+      "idea": "Pork tonkatsu with cabbage and rice",
+      "spoons": 4,
+      "time": "35min",
+      "tags": ["POTS-friendly", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "1180mg",
+      "ingredients": ["pork cutlet", "panko breadcrumbs", "tonkatsu sauce", "cabbage", "rice"]
+    },
+    {
+      "id": 169,
+      "idea": "Chicken and sausage gumbo with rice",
+      "spoons": 4,
+      "time": "60min",
+      "tags": ["POTS-friendly", "high-sodium", "comfort"],
+      "difficulty": "complex",
+      "sodiumContent": "1740mg",
+      "ingredients": ["chicken", "andouille sausage", "okra", "rice", "cajun seasoning", "roux"]
+    },
+    {
+      "id": 170,
+      "idea": "Beef gyoza with dipping sauce",
+      "spoons": 3,
+      "time": "25min",
+      "tags": ["POTS-friendly", "high-sodium"],
+      "difficulty": "moderate",
+      "sodiumContent": "980mg",
+      "ingredients": ["gyoza wrappers", "ground beef", "cabbage", "soy sauce", "rice vinegar"]
+    },
+    {
+      "id": 171,
+      "idea": "Chicken cacciatore with polenta",
+      "spoons": 4,
+      "time": "45min",
+      "tags": ["POTS-friendly", "comfort"],
+      "difficulty": "moderate",
+      "sodiumContent": "1140mg",
+      "ingredients": ["chicken thighs", "tomatoes", "peppers", "onions", "polenta"]
+    },
+    {
+      "id": 172,
+      "idea": "Chicken marsala with mushrooms over pasta",
+      "spoons": 4,
+      "time": "35min",
+      "tags": ["POTS-friendly", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "980mg",
+      "ingredients": ["chicken breast", "marsala wine", "mushrooms", "pasta", "cream"]
+    },
+    {
+      "id": 173,
+      "idea": "Chicken piccata with lemon caper sauce",
+      "spoons": 4,
+      "time": "30min",
+      "tags": ["POTS-friendly", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "1080mg",
+      "ingredients": ["chicken breast", "lemon", "capers", "white wine", "butter", "pasta"]
+    },
+    {
+      "id": 174,
+      "idea": "Korean BBQ beef with lettuce wraps",
+      "spoons": 3,
+      "time": "25min",
+      "tags": ["POTS-friendly", "high-sodium", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "1420mg",
+      "ingredients": ["beef", "Korean BBQ sauce", "lettuce", "rice", "kimchi", "sesame seeds"]
+    },
+    {
+      "id": 175,
+      "idea": "Chicken biryani with raita",
+      "spoons": 4,
+      "time": "50min",
+      "tags": ["POTS-friendly", "protein"],
+      "difficulty": "complex",
+      "sodiumContent": "1180mg",
+      "ingredients": ["chicken", "basmati rice", "biryani spices", "yogurt", "cucumber"]
+    },
+    {
+      "id": 176,
+      "idea": "Salisbury steak with mashed potatoes and gravy",
+      "spoons": 3,
+      "time": "35min",
+      "tags": ["POTS-friendly", "comfort"],
+      "difficulty": "moderate",
+      "sodiumContent": "1240mg",
+      "ingredients": ["ground beef", "onions", "mushrooms", "gravy", "mashed potatoes"]
+    },
+    {
+      "id": 177,
+      "idea": "Chicken gnocchi soup with spinach",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["POTS-friendly", "warm", "comfort"],
+      "difficulty": "moderate",
+      "sodiumContent": "1320mg",
+      "ingredients": ["chicken", "gnocchi", "spinach", "carrots", "celery", "cream"]
+    },
+    {
+      "id": 178,
+      "idea": "Beef Wellington (simplified)",
+      "spoons": 5,
+      "time": "90min",
+      "tags": ["POTS-friendly", "fancy", "special occasion"],
+      "difficulty": "complex",
+      "sodiumContent": "1180mg",
+      "ingredients": ["beef tenderloin", "puff pastry", "mushrooms", "pate", "egg wash"]
+    },
+    {
+      "id": 179,
+      "idea": "Chicken pad see ew with wide rice noodles",
+      "spoons": 3,
+      "time": "25min",
+      "tags": ["POTS-friendly", "high-sodium"],
+      "difficulty": "moderate",
+      "sodiumContent": "1520mg",
+      "ingredients": ["wide rice noodles", "chicken", "Chinese broccoli", "soy sauce", "egg"]
+    },
+    {
+      "id": 180,
+      "idea": "Breakfast hash with eggs, potatoes, peppers",
+      "spoons": 3,
+      "time": "25min",
+      "tags": ["POTS-friendly", "breakfast", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "880mg",
+      "ingredients": ["potatoes", "peppers", "onions", "eggs", "cheese", "salt"]
+    },
+    {
+      "id": 181,
+      "idea": "Chicken lettuce wraps with peanut sauce",
+      "spoons": 3,
+      "time": "20min",
+      "tags": ["protein", "fresh"],
+      "difficulty": "moderate",
+      "sodiumContent": "680mg",
+      "ingredients": ["ground chicken", "lettuce", "peanut sauce", "water chestnuts", "carrots"]
+    },
+    {
+      "id": 182,
+      "idea": "Shrimp and grits with cheese",
+      "spoons": 4,
+      "time": "35min",
+      "tags": ["POTS-friendly", "high-sodium", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "1440mg",
+      "ingredients": ["shrimp", "grits", "cheese", "bacon", "butter", "cajun seasoning"]
+    },
+    {
+      "id": 183,
+      "idea": "Chicken tenders with fries and honey mustard",
+      "spoons": 2,
+      "time": "25min",
+      "tags": ["POTS-friendly", "comfort", "frozen"],
+      "difficulty": "easy",
+      "sodiumContent": "920mg",
+      "ingredients": ["frozen chicken tenders", "frozen fries", "honey mustard"]
+    },
+    {
+      "id": 184,
+      "idea": "Beef brisket sandwich with coleslaw",
+      "spoons": 4,
+      "time": "8 hours slow cooker",
+      "tags": ["POTS-friendly", "batch-cook", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "1680mg",
+      "ingredients": ["beef brisket", "BBQ sauce", "buns", "coleslaw"]
+    },
+    {
+      "id": 185,
+      "idea": "Pork egg rolls with sweet and sour sauce",
+      "spoons": 2,
+      "time": "20min",
+      "tags": ["POTS-friendly", "frozen"],
+      "difficulty": "easy",
+      "sodiumContent": "740mg",
+      "ingredients": ["frozen egg rolls", "sweet and sour sauce"]
+    },
+    {
+      "id": 186,
+      "idea": "Chicken avgolemono soup (Greek lemon chicken)",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["POTS-friendly", "warm", "comfort"],
+      "difficulty": "moderate",
+      "sodiumContent": "1120mg",
+      "ingredients": ["chicken", "orzo", "eggs", "lemon", "chicken broth"]
+    },
+    {
+      "id": 187,
+      "idea": "Beef short ribs with mashed potatoes",
+      "spoons": 4,
+      "time": "6 hours slow cooker",
+      "tags": ["POTS-friendly", "comfort", "batch-cook"],
+      "difficulty": "moderate",
+      "sodiumContent": "1340mg",
+      "ingredients": ["beef short ribs", "red wine", "beef broth", "mashed potatoes"]
+    },
+    {
+      "id": 188,
+      "idea": "Chicken green chile enchiladas with sour cream",
+      "spoons": 4,
+      "time": "45min",
+      "tags": ["POTS-friendly", "comfort", "batch-cook"],
+      "difficulty": "moderate",
+      "sodiumContent": "1280mg",
+      "ingredients": ["tortillas", "chicken", "green chiles", "cheese", "sour cream"]
+    },
+    {
+      "id": 189,
+      "idea": "Beef barley soup with vegetables",
+      "spoons": 3,
+      "time": "60min",
+      "tags": ["POTS-friendly", "warm", "comfort"],
+      "difficulty": "moderate",
+      "sodiumContent": "1180mg",
+      "ingredients": ["beef", "barley", "carrots", "celery", "onions", "beef broth"]
+    },
+    {
+      "id": 190,
+      "idea": "Chicken spinach alfredo bake",
+      "spoons": 4,
+      "time": "45min",
+      "tags": ["POTS-friendly", "comfort", "batch-cook"],
+      "difficulty": "moderate",
+      "sodiumContent": "1120mg",
+      "ingredients": ["chicken", "pasta", "alfredo sauce", "spinach", "mozzarella"]
+    },
+    {
+      "id": 191,
+      "idea": "Shrimp po'boy sandwich with remoulade",
+      "spoons": 3,
+      "time": "25min",
+      "tags": ["POTS-friendly", "high-sodium", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "1580mg",
+      "ingredients": ["fried shrimp", "hoagie roll", "lettuce", "tomato", "remoulade sauce"]
+    },
+    {
+      "id": 192,
+      "idea": "Chicken pesto pasta with sun-dried tomatoes",
+      "spoons": 3,
+      "time": "25min",
+      "tags": ["protein", "pasta"],
+      "difficulty": "moderate",
+      "sodiumContent": "820mg",
+      "ingredients": ["chicken", "pasta", "pesto", "sun-dried tomatoes", "parmesan"]
+    },
+    {
+      "id": 193,
+      "idea": "Chicken parmigiana sub sandwich",
+      "spoons": 3,
+      "time": "25min",
+      "tags": ["POTS-friendly", "comfort"],
+      "difficulty": "moderate",
+      "sodiumContent": "1340mg",
+      "ingredients": ["chicken cutlet", "sub roll", "marinara", "mozzarella", "parmesan"]
+    },
+    {
+      "id": 194,
+      "idea": "Beef pho with fresh herbs",
+      "spoons": 4,
+      "time": "45min",
+      "tags": ["POTS-friendly", "high-sodium", "warm"],
+      "difficulty": "moderate",
+      "sodiumContent": "1920mg",
+      "ingredients": ["beef", "pho broth", "rice noodles", "basil", "bean sprouts", "lime"]
+    },
+    {
+      "id": 195,
+      "idea": "Chicken souvlaki bowl with rice and veggies",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["POTS-friendly", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "1080mg",
+      "ingredients": ["chicken", "rice", "cucumber", "tomato", "tzatziki", "feta"]
+    },
+    {
+      "id": 196,
+      "idea": "Beef empanada with chimichurri sauce",
+      "spoons": 4,
+      "time": "45min",
+      "tags": ["POTS-friendly", "batch-cook"],
+      "difficulty": "moderate",
+      "sodiumContent": "920mg",
+      "ingredients": ["empanada dough", "ground beef", "olives", "eggs", "chimichurri"]
+    },
+    {
+      "id": 197,
+      "idea": "Chicken katsu curry with rice",
+      "spoons": 4,
+      "time": "40min",
+      "tags": ["POTS-friendly", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "1280mg",
+      "ingredients": ["chicken cutlet", "Japanese curry", "rice", "carrots", "potatoes"]
+    },
+    {
+      "id": 198,
+      "idea": "Lamb gyro with fries and tzatziki",
+      "spoons": 3,
+      "time": "25min",
+      "tags": ["POTS-friendly", "high-sodium", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "1480mg",
+      "ingredients": ["lamb", "pita", "lettuce", "tomato", "onion", "tzatziki", "fries"]
+    },
+    {
+      "id": 199,
+      "idea": "Chicken teriyaki bowl with edamame",
+      "spoons": 3,
+      "time": "25min",
+      "tags": ["POTS-friendly", "high-sodium", "protein"],
+      "difficulty": "moderate",
+      "sodiumContent": "1180mg",
+      "ingredients": ["chicken", "teriyaki sauce", "rice", "edamame", "sesame seeds"]
+    },
+    {
+      "id": 200,
+      "idea": "Beef ramen bowl with soft-boiled egg",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["POTS-friendly", "high-sodium", "warm"],
+      "difficulty": "moderate",
+      "sodiumContent": "2240mg",
+      "ingredients": ["ramen noodles", "beef", "soft-boiled egg", "green onions", "nori", "broth"]
+    }
+  ]
+}

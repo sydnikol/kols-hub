@@ -1,0 +1,65 @@
+{
+  "name": "Kol Master Seed Index – Ideas Libraries",
+  "project": "Daily planning schedule",
+  "version": "2.0.0",
+  "created_at": "2025-11-12T08:51:40.763917",
+  "notes": "Handbooks and Self‑Advocacy scripts removed per user request. Focused on fleshed‑out Ideas Libraries.",
+  "seeds": [
+    {
+      "key": "ideas_food",
+      "name": "ideas_food.json",
+      "path": "/mnt/data/seeds/ideas_food.json",
+      "description": "200 food/meal ideas (low-spoon, batchable, high-salt options).",
+      "count": 200
+    },
+    {
+      "key": "ideas_health",
+      "name": "ideas_health.json",
+      "path": "/mnt/data/seeds/ideas_health.json",
+      "description": "200 micro health actions (POTS/hEDS/CPTSD-friendly).",
+      "count": 200
+    },
+    {
+      "key": "ideas_sewing",
+      "name": "ideas_sewing.json",
+      "path": "/mnt/data/seeds/ideas_sewing.json",
+      "description": "200 sewing/upcycle/repair ideas.",
+      "count": 200
+    },
+    {
+      "key": "ideas_art",
+      "name": "ideas_art.json",
+      "path": "/mnt/data/seeds/ideas_art.json",
+      "description": "200 art prompts (poetry, photo, drawing, zine).",
+      "count": 200
+    },
+    {
+      "key": "ideas_hoodoo",
+      "name": "ideas_hoodoo.json",
+      "path": "/mnt/data/seeds/ideas_hoodoo.json",
+      "description": "200 hoodoo micro-practices (altar, cleansing, protection, etc.).",
+      "count": 200
+    },
+    {
+      "key": "ideas_passive_income",
+      "name": "ideas_passive_income.json",
+      "path": "/mnt/data/seeds/ideas_passive_income.json",
+      "description": "600 passive-income starters across 8 buckets.",
+      "count": 600
+    },
+    {
+      "key": "project_chats_index",
+      "name": "project_chats_index.json",
+      "path": "/mnt/data/seeds/project_chats_index.json",
+      "description": "Index of every project chat and its asks.",
+      "count": 15
+    },
+    {
+      "key": "app_feature_ideas",
+      "name": "app_feature_ideas.json",
+      "path": "/mnt/data/seeds/app_feature_ideas.json",
+      "description": "Core app modules and feature ideas.",
+      "count": 7
+    }
+  ]
+}

@@ -39,8 +39,12 @@ export const DreamJournal: React.FC = () => {
     try {
       const db = await openDB();
       const tx = db.transaction('dreams', 'readonly');
-      const allDreams = await tx.objectStore('dreams').getAll();
-      setDreams(allDreams.sort((a, b) => 
+      const getAllRequest = tx.objectStore('dreams').getAll();
+      const allDreams = await new Promise<DreamEntry[]>((resolve, reject) => {
+        getAllRequest.onsuccess = () => resolve(getAllRequest.result);
+        getAllRequest.onerror = () => reject(getAllRequest.error);
+      });
+      setDreams(allDreams.sort((a, b) =>
         new Date(b.date).getTime() - new Date(a.date).getTime()
       ));
     } catch (error) {

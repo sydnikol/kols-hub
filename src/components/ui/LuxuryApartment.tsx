@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { BookOpen, Palette, Heart, Telescope, Home, Activity, Camera, User } from 'lucide-react';
+import { BookOpen, Palette, Heart, Eye, Home, Activity, Camera, User } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 interface LuxuryApartmentProps {
@@ -16,7 +16,7 @@ const LuxuryApartment: React.FC<LuxuryApartmentProps> = ({ currentRoom, onRoomCh
     { 
       id: 'observatory', 
       name: 'Observatory', 
-      icon: Telescope, 
+      icon: Eye, 
       description: 'Time Portal & Era Explorer',
       color: '#4a5f7f',
     },

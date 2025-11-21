@@ -148,6 +148,11 @@ class YouTubeService {
     return await response.json();
   }
 
+  // SEARCH (alias for music-manager compatibility)
+  async search(query: string, maxResults: number = 25): Promise<YouTubeVideo[]> {
+    return this.searchVideos(query, maxResults);
+  }
+
   // SEARCH
   async searchVideos(
     query: string,
@@ -257,6 +262,19 @@ class YouTubeService {
   }
 
   // PLAYLISTS
+  async getUserPlaylists(): Promise<YouTubePlaylist[]> {
+    if (!this.db) await this.initialize();
+
+    try {
+      // This requires OAuth, return cached playlists for now
+      const cached = await this.db!.getAll('playlists');
+      return cached;
+    } catch (error) {
+      console.error('Get user playlists error:', error);
+      return [];
+    }
+  }
+
   async getPlaylist(playlistId: string): Promise<YouTubePlaylist | null> {
     if (!this.db) await this.initialize();
 

@@ -328,6 +328,3 @@ class PlatformService {
 
 // Export singleton instance
 export const platformService = new PlatformService();
-
-// Export types
-export type { Platform };

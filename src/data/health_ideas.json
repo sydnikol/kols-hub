@@ -1,0 +1,1407 @@
+{
+  "module": "Health Ideas",
+  "version": "1.0",
+  "generated_at": "2025-11-18",
+  "items": [
+    {
+      "id": "health_ideas_001",
+      "category": "Nervous System",
+      "title": "Health Ideas Idea 1",
+      "description": "Placeholder idea #1 in 'Nervous System'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_002",
+      "category": "Sleep",
+      "title": "Health Ideas Idea 2",
+      "description": "Placeholder idea #2 in 'Sleep'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_003",
+      "category": "Sleep",
+      "title": "Health Ideas Idea 3",
+      "description": "Placeholder idea #3 in 'Sleep'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_004",
+      "category": "Pacing",
+      "title": "Health Ideas Idea 4",
+      "description": "Placeholder idea #4 in 'Pacing'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_005",
+      "category": "Sleep",
+      "title": "Health Ideas Idea 5",
+      "description": "Placeholder idea #5 in 'Sleep'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_006",
+      "category": "Nervous System",
+      "title": "Health Ideas Idea 6",
+      "description": "Placeholder idea #6 in 'Nervous System'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_007",
+      "category": "Movement",
+      "title": "Health Ideas Idea 7",
+      "description": "Placeholder idea #7 in 'Movement'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_008",
+      "category": "Body Care",
+      "title": "Health Ideas Idea 8",
+      "description": "Placeholder idea #8 in 'Body Care'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_009",
+      "category": "Accessibility",
+      "title": "Health Ideas Idea 9",
+      "description": "Placeholder idea #9 in 'Accessibility'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_010",
+      "category": "Body Care",
+      "title": "Health Ideas Idea 10",
+      "description": "Placeholder idea #10 in 'Body Care'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_011",
+      "category": "Hydration",
+      "title": "Health Ideas Idea 11",
+      "description": "Placeholder idea #11 in 'Hydration'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_012",
+      "category": "Medical Admin",
+      "title": "Health Ideas Idea 12",
+      "description": "Placeholder idea #12 in 'Medical Admin'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_013",
+      "category": "Accessibility",
+      "title": "Health Ideas Idea 13",
+      "description": "Placeholder idea #13 in 'Accessibility'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_014",
+      "category": "Hydration",
+      "title": "Health Ideas Idea 14",
+      "description": "Placeholder idea #14 in 'Hydration'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_015",
+      "category": "Sleep",
+      "title": "Health Ideas Idea 15",
+      "description": "Placeholder idea #15 in 'Sleep'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_016",
+      "category": "Sleep",
+      "title": "Health Ideas Idea 16",
+      "description": "Placeholder idea #16 in 'Sleep'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_017",
+      "category": "Body Care",
+      "title": "Health Ideas Idea 17",
+      "description": "Placeholder idea #17 in 'Body Care'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_018",
+      "category": "Hydration",
+      "title": "Health Ideas Idea 18",
+      "description": "Placeholder idea #18 in 'Hydration'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_019",
+      "category": "Hydration",
+      "title": "Health Ideas Idea 19",
+      "description": "Placeholder idea #19 in 'Hydration'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_020",
+      "category": "Hydration",
+      "title": "Health Ideas Idea 20",
+      "description": "Placeholder idea #20 in 'Hydration'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_021",
+      "category": "Body Care",
+      "title": "Health Ideas Idea 21",
+      "description": "Placeholder idea #21 in 'Body Care'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_022",
+      "category": "Sleep",
+      "title": "Health Ideas Idea 22",
+      "description": "Placeholder idea #22 in 'Sleep'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_023",
+      "category": "Body Care",
+      "title": "Health Ideas Idea 23",
+      "description": "Placeholder idea #23 in 'Body Care'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_024",
+      "category": "Movement",
+      "title": "Health Ideas Idea 24",
+      "description": "Placeholder idea #24 in 'Movement'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_025",
+      "category": "Sleep",
+      "title": "Health Ideas Idea 25",
+      "description": "Placeholder idea #25 in 'Sleep'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_026",
+      "category": "Sleep",
+      "title": "Health Ideas Idea 26",
+      "description": "Placeholder idea #26 in 'Sleep'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_027",
+      "category": "Pacing",
+      "title": "Health Ideas Idea 27",
+      "description": "Placeholder idea #27 in 'Pacing'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_028",
+      "category": "Pacing",
+      "title": "Health Ideas Idea 28",
+      "description": "Placeholder idea #28 in 'Pacing'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_029",
+      "category": "Pacing",
+      "title": "Health Ideas Idea 29",
+      "description": "Placeholder idea #29 in 'Pacing'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_030",
+      "category": "Pacing",
+      "title": "Health Ideas Idea 30",
+      "description": "Placeholder idea #30 in 'Pacing'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_031",
+      "category": "Pacing",
+      "title": "Health Ideas Idea 31",
+      "description": "Placeholder idea #31 in 'Pacing'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_032",
+      "category": "Medical Admin",
+      "title": "Health Ideas Idea 32",
+      "description": "Placeholder idea #32 in 'Medical Admin'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_033",
+      "category": "Body Care",
+      "title": "Health Ideas Idea 33",
+      "description": "Placeholder idea #33 in 'Body Care'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_034",
+      "category": "Nervous System",
+      "title": "Health Ideas Idea 34",
+      "description": "Placeholder idea #34 in 'Nervous System'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_035",
+      "category": "Pacing",
+      "title": "Health Ideas Idea 35",
+      "description": "Placeholder idea #35 in 'Pacing'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_036",
+      "category": "Movement",
+      "title": "Health Ideas Idea 36",
+      "description": "Placeholder idea #36 in 'Movement'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_037",
+      "category": "Medical Admin",
+      "title": "Health Ideas Idea 37",
+      "description": "Placeholder idea #37 in 'Medical Admin'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_038",
+      "category": "Accessibility",
+      "title": "Health Ideas Idea 38",
+      "description": "Placeholder idea #38 in 'Accessibility'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_039",
+      "category": "Hydration",
+      "title": "Health Ideas Idea 39",
+      "description": "Placeholder idea #39 in 'Hydration'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_040",
+      "category": "Movement",
+      "title": "Health Ideas Idea 40",
+      "description": "Placeholder idea #40 in 'Movement'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_041",
+      "category": "Medical Admin",
+      "title": "Health Ideas Idea 41",
+      "description": "Placeholder idea #41 in 'Medical Admin'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_042",
+      "category": "Medical Admin",
+      "title": "Health Ideas Idea 42",
+      "description": "Placeholder idea #42 in 'Medical Admin'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_043",
+      "category": "Accessibility",
+      "title": "Health Ideas Idea 43",
+      "description": "Placeholder idea #43 in 'Accessibility'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_044",
+      "category": "Movement",
+      "title": "Health Ideas Idea 44",
+      "description": "Placeholder idea #44 in 'Movement'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_045",
+      "category": "Accessibility",
+      "title": "Health Ideas Idea 45",
+      "description": "Placeholder idea #45 in 'Accessibility'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_046",
+      "category": "Body Care",
+      "title": "Health Ideas Idea 46",
+      "description": "Placeholder idea #46 in 'Body Care'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_047",
+      "category": "Sleep",
+      "title": "Health Ideas Idea 47",
+      "description": "Placeholder idea #47 in 'Sleep'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_048",
+      "category": "Hydration",
+      "title": "Health Ideas Idea 48",
+      "description": "Placeholder idea #48 in 'Hydration'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_049",
+      "category": "Accessibility",
+      "title": "Health Ideas Idea 49",
+      "description": "Placeholder idea #49 in 'Accessibility'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_050",
+      "category": "Movement",
+      "title": "Health Ideas Idea 50",
+      "description": "Placeholder idea #50 in 'Movement'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_051",
+      "category": "Pacing",
+      "title": "Health Ideas Idea 51",
+      "description": "Placeholder idea #51 in 'Pacing'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_052",
+      "category": "Nervous System",
+      "title": "Health Ideas Idea 52",
+      "description": "Placeholder idea #52 in 'Nervous System'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_053",
+      "category": "Accessibility",
+      "title": "Health Ideas Idea 53",
+      "description": "Placeholder idea #53 in 'Accessibility'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_054",
+      "category": "Nervous System",
+      "title": "Health Ideas Idea 54",
+      "description": "Placeholder idea #54 in 'Nervous System'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_055",
+      "category": "Nervous System",
+      "title": "Health Ideas Idea 55",
+      "description": "Placeholder idea #55 in 'Nervous System'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_056",
+      "category": "Medical Admin",
+      "title": "Health Ideas Idea 56",
+      "description": "Placeholder idea #56 in 'Medical Admin'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_057",
+      "category": "Medical Admin",
+      "title": "Health Ideas Idea 57",
+      "description": "Placeholder idea #57 in 'Medical Admin'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_058",
+      "category": "Accessibility",
+      "title": "Health Ideas Idea 58",
+      "description": "Placeholder idea #58 in 'Accessibility'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_059",
+      "category": "Pacing",
+      "title": "Health Ideas Idea 59",
+      "description": "Placeholder idea #59 in 'Pacing'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_060",
+      "category": "Medical Admin",
+      "title": "Health Ideas Idea 60",
+      "description": "Placeholder idea #60 in 'Medical Admin'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_061",
+      "category": "Pacing",
+      "title": "Health Ideas Idea 61",
+      "description": "Placeholder idea #61 in 'Pacing'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_062",
+      "category": "Body Care",
+      "title": "Health Ideas Idea 62",
+      "description": "Placeholder idea #62 in 'Body Care'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_063",
+      "category": "Medical Admin",
+      "title": "Health Ideas Idea 63",
+      "description": "Placeholder idea #63 in 'Medical Admin'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_064",
+      "category": "Accessibility",
+      "title": "Health Ideas Idea 64",
+      "description": "Placeholder idea #64 in 'Accessibility'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_065",
+      "category": "Body Care",
+      "title": "Health Ideas Idea 65",
+      "description": "Placeholder idea #65 in 'Body Care'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_066",
+      "category": "Nervous System",
+      "title": "Health Ideas Idea 66",
+      "description": "Placeholder idea #66 in 'Nervous System'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_067",
+      "category": "Accessibility",
+      "title": "Health Ideas Idea 67",
+      "description": "Placeholder idea #67 in 'Accessibility'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_068",
+      "category": "Nervous System",
+      "title": "Health Ideas Idea 68",
+      "description": "Placeholder idea #68 in 'Nervous System'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_069",
+      "category": "Movement",
+      "title": "Health Ideas Idea 69",
+      "description": "Placeholder idea #69 in 'Movement'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_070",
+      "category": "Medical Admin",
+      "title": "Health Ideas Idea 70",
+      "description": "Placeholder idea #70 in 'Medical Admin'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_071",
+      "category": "Medical Admin",
+      "title": "Health Ideas Idea 71",
+      "description": "Placeholder idea #71 in 'Medical Admin'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_072",
+      "category": "Pacing",
+      "title": "Health Ideas Idea 72",
+      "description": "Placeholder idea #72 in 'Pacing'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_073",
+      "category": "Hydration",
+      "title": "Health Ideas Idea 73",
+      "description": "Placeholder idea #73 in 'Hydration'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_074",
+      "category": "Sleep",
+      "title": "Health Ideas Idea 74",
+      "description": "Placeholder idea #74 in 'Sleep'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_075",
+      "category": "Pacing",
+      "title": "Health Ideas Idea 75",
+      "description": "Placeholder idea #75 in 'Pacing'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_076",
+      "category": "Body Care",
+      "title": "Health Ideas Idea 76",
+      "description": "Placeholder idea #76 in 'Body Care'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_077",
+      "category": "Nervous System",
+      "title": "Health Ideas Idea 77",
+      "description": "Placeholder idea #77 in 'Nervous System'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_078",
+      "category": "Movement",
+      "title": "Health Ideas Idea 78",
+      "description": "Placeholder idea #78 in 'Movement'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_079",
+      "category": "Pacing",
+      "title": "Health Ideas Idea 79",
+      "description": "Placeholder idea #79 in 'Pacing'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_080",
+      "category": "Pacing",
+      "title": "Health Ideas Idea 80",
+      "description": "Placeholder idea #80 in 'Pacing'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_081",
+      "category": "Pacing",
+      "title": "Health Ideas Idea 81",
+      "description": "Placeholder idea #81 in 'Pacing'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_082",
+      "category": "Pacing",
+      "title": "Health Ideas Idea 82",
+      "description": "Placeholder idea #82 in 'Pacing'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_083",
+      "category": "Pacing",
+      "title": "Health Ideas Idea 83",
+      "description": "Placeholder idea #83 in 'Pacing'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_084",
+      "category": "Accessibility",
+      "title": "Health Ideas Idea 84",
+      "description": "Placeholder idea #84 in 'Accessibility'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_085",
+      "category": "Accessibility",
+      "title": "Health Ideas Idea 85",
+      "description": "Placeholder idea #85 in 'Accessibility'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_086",
+      "category": "Pacing",
+      "title": "Health Ideas Idea 86",
+      "description": "Placeholder idea #86 in 'Pacing'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_087",
+      "category": "Accessibility",
+      "title": "Health Ideas Idea 87",
+      "description": "Placeholder idea #87 in 'Accessibility'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_088",
+      "category": "Nervous System",
+      "title": "Health Ideas Idea 88",
+      "description": "Placeholder idea #88 in 'Nervous System'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_089",
+      "category": "Body Care",
+      "title": "Health Ideas Idea 89",
+      "description": "Placeholder idea #89 in 'Body Care'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_090",
+      "category": "Medical Admin",
+      "title": "Health Ideas Idea 90",
+      "description": "Placeholder idea #90 in 'Medical Admin'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_091",
+      "category": "Accessibility",
+      "title": "Health Ideas Idea 91",
+      "description": "Placeholder idea #91 in 'Accessibility'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_092",
+      "category": "Body Care",
+      "title": "Health Ideas Idea 92",
+      "description": "Placeholder idea #92 in 'Body Care'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_093",
+      "category": "Body Care",
+      "title": "Health Ideas Idea 93",
+      "description": "Placeholder idea #93 in 'Body Care'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_094",
+      "category": "Sleep",
+      "title": "Health Ideas Idea 94",
+      "description": "Placeholder idea #94 in 'Sleep'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_095",
+      "category": "Sleep",
+      "title": "Health Ideas Idea 95",
+      "description": "Placeholder idea #95 in 'Sleep'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_096",
+      "category": "Hydration",
+      "title": "Health Ideas Idea 96",
+      "description": "Placeholder idea #96 in 'Hydration'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_097",
+      "category": "Nervous System",
+      "title": "Health Ideas Idea 97",
+      "description": "Placeholder idea #97 in 'Nervous System'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_098",
+      "category": "Pacing",
+      "title": "Health Ideas Idea 98",
+      "description": "Placeholder idea #98 in 'Pacing'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_099",
+      "category": "Sleep",
+      "title": "Health Ideas Idea 99",
+      "description": "Placeholder idea #99 in 'Sleep'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_100",
+      "category": "Pacing",
+      "title": "Health Ideas Idea 100",
+      "description": "Placeholder idea #100 in 'Pacing'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_101",
+      "category": "Body Care",
+      "title": "Health Ideas Idea 101",
+      "description": "Placeholder idea #101 in 'Body Care'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_102",
+      "category": "Movement",
+      "title": "Health Ideas Idea 102",
+      "description": "Placeholder idea #102 in 'Movement'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_103",
+      "category": "Hydration",
+      "title": "Health Ideas Idea 103",
+      "description": "Placeholder idea #103 in 'Hydration'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_104",
+      "category": "Medical Admin",
+      "title": "Health Ideas Idea 104",
+      "description": "Placeholder idea #104 in 'Medical Admin'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_105",
+      "category": "Movement",
+      "title": "Health Ideas Idea 105",
+      "description": "Placeholder idea #105 in 'Movement'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_106",
+      "category": "Pacing",
+      "title": "Health Ideas Idea 106",
+      "description": "Placeholder idea #106 in 'Pacing'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_107",
+      "category": "Accessibility",
+      "title": "Health Ideas Idea 107",
+      "description": "Placeholder idea #107 in 'Accessibility'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_108",
+      "category": "Sleep",
+      "title": "Health Ideas Idea 108",
+      "description": "Placeholder idea #108 in 'Sleep'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_109",
+      "category": "Hydration",
+      "title": "Health Ideas Idea 109",
+      "description": "Placeholder idea #109 in 'Hydration'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_110",
+      "category": "Medical Admin",
+      "title": "Health Ideas Idea 110",
+      "description": "Placeholder idea #110 in 'Medical Admin'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_111",
+      "category": "Accessibility",
+      "title": "Health Ideas Idea 111",
+      "description": "Placeholder idea #111 in 'Accessibility'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_112",
+      "category": "Accessibility",
+      "title": "Health Ideas Idea 112",
+      "description": "Placeholder idea #112 in 'Accessibility'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_113",
+      "category": "Accessibility",
+      "title": "Health Ideas Idea 113",
+      "description": "Placeholder idea #113 in 'Accessibility'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_114",
+      "category": "Pacing",
+      "title": "Health Ideas Idea 114",
+      "description": "Placeholder idea #114 in 'Pacing'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_115",
+      "category": "Movement",
+      "title": "Health Ideas Idea 115",
+      "description": "Placeholder idea #115 in 'Movement'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_116",
+      "category": "Sleep",
+      "title": "Health Ideas Idea 116",
+      "description": "Placeholder idea #116 in 'Sleep'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_117",
+      "category": "Hydration",
+      "title": "Health Ideas Idea 117",
+      "description": "Placeholder idea #117 in 'Hydration'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_118",
+      "category": "Pacing",
+      "title": "Health Ideas Idea 118",
+      "description": "Placeholder idea #118 in 'Pacing'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_119",
+      "category": "Hydration",
+      "title": "Health Ideas Idea 119",
+      "description": "Placeholder idea #119 in 'Hydration'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_120",
+      "category": "Body Care",
+      "title": "Health Ideas Idea 120",
+      "description": "Placeholder idea #120 in 'Body Care'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_121",
+      "category": "Body Care",
+      "title": "Health Ideas Idea 121",
+      "description": "Placeholder idea #121 in 'Body Care'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_122",
+      "category": "Accessibility",
+      "title": "Health Ideas Idea 122",
+      "description": "Placeholder idea #122 in 'Accessibility'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_123",
+      "category": "Medical Admin",
+      "title": "Health Ideas Idea 123",
+      "description": "Placeholder idea #123 in 'Medical Admin'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_124",
+      "category": "Sleep",
+      "title": "Health Ideas Idea 124",
+      "description": "Placeholder idea #124 in 'Sleep'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_125",
+      "category": "Nervous System",
+      "title": "Health Ideas Idea 125",
+      "description": "Placeholder idea #125 in 'Nervous System'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_126",
+      "category": "Sleep",
+      "title": "Health Ideas Idea 126",
+      "description": "Placeholder idea #126 in 'Sleep'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_127",
+      "category": "Medical Admin",
+      "title": "Health Ideas Idea 127",
+      "description": "Placeholder idea #127 in 'Medical Admin'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_128",
+      "category": "Sleep",
+      "title": "Health Ideas Idea 128",
+      "description": "Placeholder idea #128 in 'Sleep'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_129",
+      "category": "Pacing",
+      "title": "Health Ideas Idea 129",
+      "description": "Placeholder idea #129 in 'Pacing'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_130",
+      "category": "Medical Admin",
+      "title": "Health Ideas Idea 130",
+      "description": "Placeholder idea #130 in 'Medical Admin'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_131",
+      "category": "Accessibility",
+      "title": "Health Ideas Idea 131",
+      "description": "Placeholder idea #131 in 'Accessibility'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_132",
+      "category": "Hydration",
+      "title": "Health Ideas Idea 132",
+      "description": "Placeholder idea #132 in 'Hydration'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_133",
+      "category": "Accessibility",
+      "title": "Health Ideas Idea 133",
+      "description": "Placeholder idea #133 in 'Accessibility'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_134",
+      "category": "Sleep",
+      "title": "Health Ideas Idea 134",
+      "description": "Placeholder idea #134 in 'Sleep'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_135",
+      "category": "Nervous System",
+      "title": "Health Ideas Idea 135",
+      "description": "Placeholder idea #135 in 'Nervous System'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_136",
+      "category": "Medical Admin",
+      "title": "Health Ideas Idea 136",
+      "description": "Placeholder idea #136 in 'Medical Admin'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_137",
+      "category": "Medical Admin",
+      "title": "Health Ideas Idea 137",
+      "description": "Placeholder idea #137 in 'Medical Admin'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_138",
+      "category": "Sleep",
+      "title": "Health Ideas Idea 138",
+      "description": "Placeholder idea #138 in 'Sleep'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_139",
+      "category": "Body Care",
+      "title": "Health Ideas Idea 139",
+      "description": "Placeholder idea #139 in 'Body Care'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_140",
+      "category": "Pacing",
+      "title": "Health Ideas Idea 140",
+      "description": "Placeholder idea #140 in 'Pacing'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_141",
+      "category": "Hydration",
+      "title": "Health Ideas Idea 141",
+      "description": "Placeholder idea #141 in 'Hydration'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_142",
+      "category": "Movement",
+      "title": "Health Ideas Idea 142",
+      "description": "Placeholder idea #142 in 'Movement'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_143",
+      "category": "Hydration",
+      "title": "Health Ideas Idea 143",
+      "description": "Placeholder idea #143 in 'Hydration'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_144",
+      "category": "Hydration",
+      "title": "Health Ideas Idea 144",
+      "description": "Placeholder idea #144 in 'Hydration'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_145",
+      "category": "Sleep",
+      "title": "Health Ideas Idea 145",
+      "description": "Placeholder idea #145 in 'Sleep'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_146",
+      "category": "Medical Admin",
+      "title": "Health Ideas Idea 146",
+      "description": "Placeholder idea #146 in 'Medical Admin'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_147",
+      "category": "Medical Admin",
+      "title": "Health Ideas Idea 147",
+      "description": "Placeholder idea #147 in 'Medical Admin'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_148",
+      "category": "Movement",
+      "title": "Health Ideas Idea 148",
+      "description": "Placeholder idea #148 in 'Movement'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_149",
+      "category": "Body Care",
+      "title": "Health Ideas Idea 149",
+      "description": "Placeholder idea #149 in 'Body Care'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_150",
+      "category": "Body Care",
+      "title": "Health Ideas Idea 150",
+      "description": "Placeholder idea #150 in 'Body Care'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_151",
+      "category": "Pacing",
+      "title": "Health Ideas Idea 151",
+      "description": "Placeholder idea #151 in 'Pacing'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_152",
+      "category": "Nervous System",
+      "title": "Health Ideas Idea 152",
+      "description": "Placeholder idea #152 in 'Nervous System'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_153",
+      "category": "Nervous System",
+      "title": "Health Ideas Idea 153",
+      "description": "Placeholder idea #153 in 'Nervous System'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_154",
+      "category": "Sleep",
+      "title": "Health Ideas Idea 154",
+      "description": "Placeholder idea #154 in 'Sleep'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_155",
+      "category": "Pacing",
+      "title": "Health Ideas Idea 155",
+      "description": "Placeholder idea #155 in 'Pacing'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_156",
+      "category": "Medical Admin",
+      "title": "Health Ideas Idea 156",
+      "description": "Placeholder idea #156 in 'Medical Admin'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_157",
+      "category": "Body Care",
+      "title": "Health Ideas Idea 157",
+      "description": "Placeholder idea #157 in 'Body Care'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_158",
+      "category": "Body Care",
+      "title": "Health Ideas Idea 158",
+      "description": "Placeholder idea #158 in 'Body Care'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_159",
+      "category": "Pacing",
+      "title": "Health Ideas Idea 159",
+      "description": "Placeholder idea #159 in 'Pacing'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_160",
+      "category": "Body Care",
+      "title": "Health Ideas Idea 160",
+      "description": "Placeholder idea #160 in 'Body Care'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_161",
+      "category": "Pacing",
+      "title": "Health Ideas Idea 161",
+      "description": "Placeholder idea #161 in 'Pacing'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_162",
+      "category": "Hydration",
+      "title": "Health Ideas Idea 162",
+      "description": "Placeholder idea #162 in 'Hydration'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_163",
+      "category": "Medical Admin",
+      "title": "Health Ideas Idea 163",
+      "description": "Placeholder idea #163 in 'Medical Admin'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_164",
+      "category": "Nervous System",
+      "title": "Health Ideas Idea 164",
+      "description": "Placeholder idea #164 in 'Nervous System'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_165",
+      "category": "Medical Admin",
+      "title": "Health Ideas Idea 165",
+      "description": "Placeholder idea #165 in 'Medical Admin'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_166",
+      "category": "Movement",
+      "title": "Health Ideas Idea 166",
+      "description": "Placeholder idea #166 in 'Movement'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_167",
+      "category": "Pacing",
+      "title": "Health Ideas Idea 167",
+      "description": "Placeholder idea #167 in 'Pacing'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_168",
+      "category": "Hydration",
+      "title": "Health Ideas Idea 168",
+      "description": "Placeholder idea #168 in 'Hydration'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_169",
+      "category": "Body Care",
+      "title": "Health Ideas Idea 169",
+      "description": "Placeholder idea #169 in 'Body Care'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_170",
+      "category": "Movement",
+      "title": "Health Ideas Idea 170",
+      "description": "Placeholder idea #170 in 'Movement'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_171",
+      "category": "Accessibility",
+      "title": "Health Ideas Idea 171",
+      "description": "Placeholder idea #171 in 'Accessibility'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_172",
+      "category": "Nervous System",
+      "title": "Health Ideas Idea 172",
+      "description": "Placeholder idea #172 in 'Nervous System'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_173",
+      "category": "Sleep",
+      "title": "Health Ideas Idea 173",
+      "description": "Placeholder idea #173 in 'Sleep'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_174",
+      "category": "Pacing",
+      "title": "Health Ideas Idea 174",
+      "description": "Placeholder idea #174 in 'Pacing'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_175",
+      "category": "Movement",
+      "title": "Health Ideas Idea 175",
+      "description": "Placeholder idea #175 in 'Movement'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_176",
+      "category": "Hydration",
+      "title": "Health Ideas Idea 176",
+      "description": "Placeholder idea #176 in 'Hydration'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_177",
+      "category": "Body Care",
+      "title": "Health Ideas Idea 177",
+      "description": "Placeholder idea #177 in 'Body Care'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_178",
+      "category": "Hydration",
+      "title": "Health Ideas Idea 178",
+      "description": "Placeholder idea #178 in 'Hydration'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_179",
+      "category": "Sleep",
+      "title": "Health Ideas Idea 179",
+      "description": "Placeholder idea #179 in 'Sleep'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_180",
+      "category": "Pacing",
+      "title": "Health Ideas Idea 180",
+      "description": "Placeholder idea #180 in 'Pacing'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_181",
+      "category": "Movement",
+      "title": "Health Ideas Idea 181",
+      "description": "Placeholder idea #181 in 'Movement'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_182",
+      "category": "Body Care",
+      "title": "Health Ideas Idea 182",
+      "description": "Placeholder idea #182 in 'Body Care'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_183",
+      "category": "Sleep",
+      "title": "Health Ideas Idea 183",
+      "description": "Placeholder idea #183 in 'Sleep'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_184",
+      "category": "Movement",
+      "title": "Health Ideas Idea 184",
+      "description": "Placeholder idea #184 in 'Movement'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_185",
+      "category": "Accessibility",
+      "title": "Health Ideas Idea 185",
+      "description": "Placeholder idea #185 in 'Accessibility'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_186",
+      "category": "Movement",
+      "title": "Health Ideas Idea 186",
+      "description": "Placeholder idea #186 in 'Movement'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_187",
+      "category": "Pacing",
+      "title": "Health Ideas Idea 187",
+      "description": "Placeholder idea #187 in 'Pacing'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_188",
+      "category": "Movement",
+      "title": "Health Ideas Idea 188",
+      "description": "Placeholder idea #188 in 'Movement'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_189",
+      "category": "Pacing",
+      "title": "Health Ideas Idea 189",
+      "description": "Placeholder idea #189 in 'Pacing'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_190",
+      "category": "Medical Admin",
+      "title": "Health Ideas Idea 190",
+      "description": "Placeholder idea #190 in 'Medical Admin'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_191",
+      "category": "Accessibility",
+      "title": "Health Ideas Idea 191",
+      "description": "Placeholder idea #191 in 'Accessibility'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_192",
+      "category": "Nervous System",
+      "title": "Health Ideas Idea 192",
+      "description": "Placeholder idea #192 in 'Nervous System'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_193",
+      "category": "Sleep",
+      "title": "Health Ideas Idea 193",
+      "description": "Placeholder idea #193 in 'Sleep'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_194",
+      "category": "Accessibility",
+      "title": "Health Ideas Idea 194",
+      "description": "Placeholder idea #194 in 'Accessibility'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_195",
+      "category": "Pacing",
+      "title": "Health Ideas Idea 195",
+      "description": "Placeholder idea #195 in 'Pacing'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_196",
+      "category": "Medical Admin",
+      "title": "Health Ideas Idea 196",
+      "description": "Placeholder idea #196 in 'Medical Admin'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_197",
+      "category": "Medical Admin",
+      "title": "Health Ideas Idea 197",
+      "description": "Placeholder idea #197 in 'Medical Admin'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "health_ideas_198",
+      "category": "Hydration",
+      "title": "Health Ideas Idea 198",
+      "description": "Placeholder idea #198 in 'Hydration'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "health_ideas_199",
+      "category": "Hydration",
+      "title": "Health Ideas Idea 199",
+      "description": "Placeholder idea #199 in 'Hydration'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "health_ideas_200",
+      "category": "Body Care",
+      "title": "Health Ideas Idea 200",
+      "description": "Placeholder idea #200 in 'Body Care'.",
+      "energy_level": "low"
+    }
+  ]
+}

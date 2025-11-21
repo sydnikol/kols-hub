@@ -140,8 +140,8 @@ export const useChronoMuseStore = create<ChronoMuseState>()(
       learnPreference: (category, value) => set((state) => {
         const categoryKey = `${category}s` as keyof ChronoMuseState;
         const currentPrefs = state[categoryKey];
-        
-        if (Array.isArray(currentPrefs) && !currentPrefs.includes(value)) {
+
+        if (Array.isArray(currentPrefs) && !(currentPrefs as any[]).includes(value)) {
           return {
             [categoryKey]: [...currentPrefs, value]
           } as Partial<ChronoMuseState>;

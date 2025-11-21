@@ -1,0 +1,1407 @@
+{
+  "module": "Sewing Ideas",
+  "version": "1.0",
+  "generated_at": "2025-11-18",
+  "items": [
+    {
+      "id": "sewing_ideas_001",
+      "category": "Upcycling",
+      "title": "Sewing Ideas Idea 1",
+      "description": "Placeholder idea #1 in 'Upcycling'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_002",
+      "category": "Alterations",
+      "title": "Sewing Ideas Idea 2",
+      "description": "Placeholder idea #2 in 'Alterations'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_003",
+      "category": "Costumes",
+      "title": "Sewing Ideas Idea 3",
+      "description": "Placeholder idea #3 in 'Costumes'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_004",
+      "category": "Alterations",
+      "title": "Sewing Ideas Idea 4",
+      "description": "Placeholder idea #4 in 'Alterations'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_005",
+      "category": "Upcycling",
+      "title": "Sewing Ideas Idea 5",
+      "description": "Placeholder idea #5 in 'Upcycling'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_006",
+      "category": "Upcycling",
+      "title": "Sewing Ideas Idea 6",
+      "description": "Placeholder idea #6 in 'Upcycling'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_007",
+      "category": "Costumes",
+      "title": "Sewing Ideas Idea 7",
+      "description": "Placeholder idea #7 in 'Costumes'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_008",
+      "category": "Upcycling",
+      "title": "Sewing Ideas Idea 8",
+      "description": "Placeholder idea #8 in 'Upcycling'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_009",
+      "category": "Accessories",
+      "title": "Sewing Ideas Idea 9",
+      "description": "Placeholder idea #9 in 'Accessories'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_010",
+      "category": "Accessories",
+      "title": "Sewing Ideas Idea 10",
+      "description": "Placeholder idea #10 in 'Accessories'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_011",
+      "category": "Alterations",
+      "title": "Sewing Ideas Idea 11",
+      "description": "Placeholder idea #11 in 'Alterations'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_012",
+      "category": "Repairs",
+      "title": "Sewing Ideas Idea 12",
+      "description": "Placeholder idea #12 in 'Repairs'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_013",
+      "category": "Accessories",
+      "title": "Sewing Ideas Idea 13",
+      "description": "Placeholder idea #13 in 'Accessories'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_014",
+      "category": "Repairs",
+      "title": "Sewing Ideas Idea 14",
+      "description": "Placeholder idea #14 in 'Repairs'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_015",
+      "category": "Upcycling",
+      "title": "Sewing Ideas Idea 15",
+      "description": "Placeholder idea #15 in 'Upcycling'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_016",
+      "category": "Accessories",
+      "title": "Sewing Ideas Idea 16",
+      "description": "Placeholder idea #16 in 'Accessories'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_017",
+      "category": "Clothing",
+      "title": "Sewing Ideas Idea 17",
+      "description": "Placeholder idea #17 in 'Clothing'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_018",
+      "category": "Home Decor",
+      "title": "Sewing Ideas Idea 18",
+      "description": "Placeholder idea #18 in 'Home Decor'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_019",
+      "category": "Alterations",
+      "title": "Sewing Ideas Idea 19",
+      "description": "Placeholder idea #19 in 'Alterations'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_020",
+      "category": "Slow Fashion",
+      "title": "Sewing Ideas Idea 20",
+      "description": "Placeholder idea #20 in 'Slow Fashion'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_021",
+      "category": "Upcycling",
+      "title": "Sewing Ideas Idea 21",
+      "description": "Placeholder idea #21 in 'Upcycling'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_022",
+      "category": "Slow Fashion",
+      "title": "Sewing Ideas Idea 22",
+      "description": "Placeholder idea #22 in 'Slow Fashion'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_023",
+      "category": "Slow Fashion",
+      "title": "Sewing Ideas Idea 23",
+      "description": "Placeholder idea #23 in 'Slow Fashion'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_024",
+      "category": "Repairs",
+      "title": "Sewing Ideas Idea 24",
+      "description": "Placeholder idea #24 in 'Repairs'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_025",
+      "category": "Costumes",
+      "title": "Sewing Ideas Idea 25",
+      "description": "Placeholder idea #25 in 'Costumes'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_026",
+      "category": "Slow Fashion",
+      "title": "Sewing Ideas Idea 26",
+      "description": "Placeholder idea #26 in 'Slow Fashion'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_027",
+      "category": "Accessories",
+      "title": "Sewing Ideas Idea 27",
+      "description": "Placeholder idea #27 in 'Accessories'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_028",
+      "category": "Repairs",
+      "title": "Sewing Ideas Idea 28",
+      "description": "Placeholder idea #28 in 'Repairs'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_029",
+      "category": "Accessories",
+      "title": "Sewing Ideas Idea 29",
+      "description": "Placeholder idea #29 in 'Accessories'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_030",
+      "category": "Upcycling",
+      "title": "Sewing Ideas Idea 30",
+      "description": "Placeholder idea #30 in 'Upcycling'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_031",
+      "category": "Upcycling",
+      "title": "Sewing Ideas Idea 31",
+      "description": "Placeholder idea #31 in 'Upcycling'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_032",
+      "category": "Upcycling",
+      "title": "Sewing Ideas Idea 32",
+      "description": "Placeholder idea #32 in 'Upcycling'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_033",
+      "category": "Upcycling",
+      "title": "Sewing Ideas Idea 33",
+      "description": "Placeholder idea #33 in 'Upcycling'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_034",
+      "category": "Home Decor",
+      "title": "Sewing Ideas Idea 34",
+      "description": "Placeholder idea #34 in 'Home Decor'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_035",
+      "category": "Upcycling",
+      "title": "Sewing Ideas Idea 35",
+      "description": "Placeholder idea #35 in 'Upcycling'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_036",
+      "category": "Home Decor",
+      "title": "Sewing Ideas Idea 36",
+      "description": "Placeholder idea #36 in 'Home Decor'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_037",
+      "category": "Alterations",
+      "title": "Sewing Ideas Idea 37",
+      "description": "Placeholder idea #37 in 'Alterations'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_038",
+      "category": "Costumes",
+      "title": "Sewing Ideas Idea 38",
+      "description": "Placeholder idea #38 in 'Costumes'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_039",
+      "category": "Home Decor",
+      "title": "Sewing Ideas Idea 39",
+      "description": "Placeholder idea #39 in 'Home Decor'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_040",
+      "category": "Slow Fashion",
+      "title": "Sewing Ideas Idea 40",
+      "description": "Placeholder idea #40 in 'Slow Fashion'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_041",
+      "category": "Slow Fashion",
+      "title": "Sewing Ideas Idea 41",
+      "description": "Placeholder idea #41 in 'Slow Fashion'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_042",
+      "category": "Upcycling",
+      "title": "Sewing Ideas Idea 42",
+      "description": "Placeholder idea #42 in 'Upcycling'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_043",
+      "category": "Slow Fashion",
+      "title": "Sewing Ideas Idea 43",
+      "description": "Placeholder idea #43 in 'Slow Fashion'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_044",
+      "category": "Alterations",
+      "title": "Sewing Ideas Idea 44",
+      "description": "Placeholder idea #44 in 'Alterations'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_045",
+      "category": "Accessories",
+      "title": "Sewing Ideas Idea 45",
+      "description": "Placeholder idea #45 in 'Accessories'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_046",
+      "category": "Alterations",
+      "title": "Sewing Ideas Idea 46",
+      "description": "Placeholder idea #46 in 'Alterations'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_047",
+      "category": "Home Decor",
+      "title": "Sewing Ideas Idea 47",
+      "description": "Placeholder idea #47 in 'Home Decor'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_048",
+      "category": "Clothing",
+      "title": "Sewing Ideas Idea 48",
+      "description": "Placeholder idea #48 in 'Clothing'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_049",
+      "category": "Accessories",
+      "title": "Sewing Ideas Idea 49",
+      "description": "Placeholder idea #49 in 'Accessories'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_050",
+      "category": "Repairs",
+      "title": "Sewing Ideas Idea 50",
+      "description": "Placeholder idea #50 in 'Repairs'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_051",
+      "category": "Costumes",
+      "title": "Sewing Ideas Idea 51",
+      "description": "Placeholder idea #51 in 'Costumes'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_052",
+      "category": "Upcycling",
+      "title": "Sewing Ideas Idea 52",
+      "description": "Placeholder idea #52 in 'Upcycling'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_053",
+      "category": "Accessories",
+      "title": "Sewing Ideas Idea 53",
+      "description": "Placeholder idea #53 in 'Accessories'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_054",
+      "category": "Repairs",
+      "title": "Sewing Ideas Idea 54",
+      "description": "Placeholder idea #54 in 'Repairs'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_055",
+      "category": "Clothing",
+      "title": "Sewing Ideas Idea 55",
+      "description": "Placeholder idea #55 in 'Clothing'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_056",
+      "category": "Repairs",
+      "title": "Sewing Ideas Idea 56",
+      "description": "Placeholder idea #56 in 'Repairs'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_057",
+      "category": "Repairs",
+      "title": "Sewing Ideas Idea 57",
+      "description": "Placeholder idea #57 in 'Repairs'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_058",
+      "category": "Upcycling",
+      "title": "Sewing Ideas Idea 58",
+      "description": "Placeholder idea #58 in 'Upcycling'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_059",
+      "category": "Repairs",
+      "title": "Sewing Ideas Idea 59",
+      "description": "Placeholder idea #59 in 'Repairs'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_060",
+      "category": "Costumes",
+      "title": "Sewing Ideas Idea 60",
+      "description": "Placeholder idea #60 in 'Costumes'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_061",
+      "category": "Alterations",
+      "title": "Sewing Ideas Idea 61",
+      "description": "Placeholder idea #61 in 'Alterations'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_062",
+      "category": "Costumes",
+      "title": "Sewing Ideas Idea 62",
+      "description": "Placeholder idea #62 in 'Costumes'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_063",
+      "category": "Alterations",
+      "title": "Sewing Ideas Idea 63",
+      "description": "Placeholder idea #63 in 'Alterations'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_064",
+      "category": "Repairs",
+      "title": "Sewing Ideas Idea 64",
+      "description": "Placeholder idea #64 in 'Repairs'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_065",
+      "category": "Alterations",
+      "title": "Sewing Ideas Idea 65",
+      "description": "Placeholder idea #65 in 'Alterations'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_066",
+      "category": "Costumes",
+      "title": "Sewing Ideas Idea 66",
+      "description": "Placeholder idea #66 in 'Costumes'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_067",
+      "category": "Repairs",
+      "title": "Sewing Ideas Idea 67",
+      "description": "Placeholder idea #67 in 'Repairs'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_068",
+      "category": "Clothing",
+      "title": "Sewing Ideas Idea 68",
+      "description": "Placeholder idea #68 in 'Clothing'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_069",
+      "category": "Home Decor",
+      "title": "Sewing Ideas Idea 69",
+      "description": "Placeholder idea #69 in 'Home Decor'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_070",
+      "category": "Upcycling",
+      "title": "Sewing Ideas Idea 70",
+      "description": "Placeholder idea #70 in 'Upcycling'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_071",
+      "category": "Upcycling",
+      "title": "Sewing Ideas Idea 71",
+      "description": "Placeholder idea #71 in 'Upcycling'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_072",
+      "category": "Costumes",
+      "title": "Sewing Ideas Idea 72",
+      "description": "Placeholder idea #72 in 'Costumes'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_073",
+      "category": "Slow Fashion",
+      "title": "Sewing Ideas Idea 73",
+      "description": "Placeholder idea #73 in 'Slow Fashion'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_074",
+      "category": "Alterations",
+      "title": "Sewing Ideas Idea 74",
+      "description": "Placeholder idea #74 in 'Alterations'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_075",
+      "category": "Costumes",
+      "title": "Sewing Ideas Idea 75",
+      "description": "Placeholder idea #75 in 'Costumes'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_076",
+      "category": "Home Decor",
+      "title": "Sewing Ideas Idea 76",
+      "description": "Placeholder idea #76 in 'Home Decor'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_077",
+      "category": "Slow Fashion",
+      "title": "Sewing Ideas Idea 77",
+      "description": "Placeholder idea #77 in 'Slow Fashion'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_078",
+      "category": "Accessories",
+      "title": "Sewing Ideas Idea 78",
+      "description": "Placeholder idea #78 in 'Accessories'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_079",
+      "category": "Accessories",
+      "title": "Sewing Ideas Idea 79",
+      "description": "Placeholder idea #79 in 'Accessories'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_080",
+      "category": "Repairs",
+      "title": "Sewing Ideas Idea 80",
+      "description": "Placeholder idea #80 in 'Repairs'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_081",
+      "category": "Costumes",
+      "title": "Sewing Ideas Idea 81",
+      "description": "Placeholder idea #81 in 'Costumes'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_082",
+      "category": "Alterations",
+      "title": "Sewing Ideas Idea 82",
+      "description": "Placeholder idea #82 in 'Alterations'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_083",
+      "category": "Slow Fashion",
+      "title": "Sewing Ideas Idea 83",
+      "description": "Placeholder idea #83 in 'Slow Fashion'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_084",
+      "category": "Clothing",
+      "title": "Sewing Ideas Idea 84",
+      "description": "Placeholder idea #84 in 'Clothing'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_085",
+      "category": "Accessories",
+      "title": "Sewing Ideas Idea 85",
+      "description": "Placeholder idea #85 in 'Accessories'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_086",
+      "category": "Accessories",
+      "title": "Sewing Ideas Idea 86",
+      "description": "Placeholder idea #86 in 'Accessories'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_087",
+      "category": "Upcycling",
+      "title": "Sewing Ideas Idea 87",
+      "description": "Placeholder idea #87 in 'Upcycling'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_088",
+      "category": "Repairs",
+      "title": "Sewing Ideas Idea 88",
+      "description": "Placeholder idea #88 in 'Repairs'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_089",
+      "category": "Accessories",
+      "title": "Sewing Ideas Idea 89",
+      "description": "Placeholder idea #89 in 'Accessories'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_090",
+      "category": "Clothing",
+      "title": "Sewing Ideas Idea 90",
+      "description": "Placeholder idea #90 in 'Clothing'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_091",
+      "category": "Upcycling",
+      "title": "Sewing Ideas Idea 91",
+      "description": "Placeholder idea #91 in 'Upcycling'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_092",
+      "category": "Home Decor",
+      "title": "Sewing Ideas Idea 92",
+      "description": "Placeholder idea #92 in 'Home Decor'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_093",
+      "category": "Repairs",
+      "title": "Sewing Ideas Idea 93",
+      "description": "Placeholder idea #93 in 'Repairs'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_094",
+      "category": "Repairs",
+      "title": "Sewing Ideas Idea 94",
+      "description": "Placeholder idea #94 in 'Repairs'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_095",
+      "category": "Accessories",
+      "title": "Sewing Ideas Idea 95",
+      "description": "Placeholder idea #95 in 'Accessories'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_096",
+      "category": "Accessories",
+      "title": "Sewing Ideas Idea 96",
+      "description": "Placeholder idea #96 in 'Accessories'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_097",
+      "category": "Costumes",
+      "title": "Sewing Ideas Idea 97",
+      "description": "Placeholder idea #97 in 'Costumes'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_098",
+      "category": "Slow Fashion",
+      "title": "Sewing Ideas Idea 98",
+      "description": "Placeholder idea #98 in 'Slow Fashion'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_099",
+      "category": "Clothing",
+      "title": "Sewing Ideas Idea 99",
+      "description": "Placeholder idea #99 in 'Clothing'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_100",
+      "category": "Upcycling",
+      "title": "Sewing Ideas Idea 100",
+      "description": "Placeholder idea #100 in 'Upcycling'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_101",
+      "category": "Home Decor",
+      "title": "Sewing Ideas Idea 101",
+      "description": "Placeholder idea #101 in 'Home Decor'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_102",
+      "category": "Accessories",
+      "title": "Sewing Ideas Idea 102",
+      "description": "Placeholder idea #102 in 'Accessories'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_103",
+      "category": "Repairs",
+      "title": "Sewing Ideas Idea 103",
+      "description": "Placeholder idea #103 in 'Repairs'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_104",
+      "category": "Accessories",
+      "title": "Sewing Ideas Idea 104",
+      "description": "Placeholder idea #104 in 'Accessories'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_105",
+      "category": "Home Decor",
+      "title": "Sewing Ideas Idea 105",
+      "description": "Placeholder idea #105 in 'Home Decor'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_106",
+      "category": "Upcycling",
+      "title": "Sewing Ideas Idea 106",
+      "description": "Placeholder idea #106 in 'Upcycling'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_107",
+      "category": "Slow Fashion",
+      "title": "Sewing Ideas Idea 107",
+      "description": "Placeholder idea #107 in 'Slow Fashion'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_108",
+      "category": "Accessories",
+      "title": "Sewing Ideas Idea 108",
+      "description": "Placeholder idea #108 in 'Accessories'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_109",
+      "category": "Upcycling",
+      "title": "Sewing Ideas Idea 109",
+      "description": "Placeholder idea #109 in 'Upcycling'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_110",
+      "category": "Clothing",
+      "title": "Sewing Ideas Idea 110",
+      "description": "Placeholder idea #110 in 'Clothing'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_111",
+      "category": "Repairs",
+      "title": "Sewing Ideas Idea 111",
+      "description": "Placeholder idea #111 in 'Repairs'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_112",
+      "category": "Clothing",
+      "title": "Sewing Ideas Idea 112",
+      "description": "Placeholder idea #112 in 'Clothing'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_113",
+      "category": "Accessories",
+      "title": "Sewing Ideas Idea 113",
+      "description": "Placeholder idea #113 in 'Accessories'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_114",
+      "category": "Repairs",
+      "title": "Sewing Ideas Idea 114",
+      "description": "Placeholder idea #114 in 'Repairs'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_115",
+      "category": "Alterations",
+      "title": "Sewing Ideas Idea 115",
+      "description": "Placeholder idea #115 in 'Alterations'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_116",
+      "category": "Clothing",
+      "title": "Sewing Ideas Idea 116",
+      "description": "Placeholder idea #116 in 'Clothing'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_117",
+      "category": "Home Decor",
+      "title": "Sewing Ideas Idea 117",
+      "description": "Placeholder idea #117 in 'Home Decor'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_118",
+      "category": "Home Decor",
+      "title": "Sewing Ideas Idea 118",
+      "description": "Placeholder idea #118 in 'Home Decor'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_119",
+      "category": "Home Decor",
+      "title": "Sewing Ideas Idea 119",
+      "description": "Placeholder idea #119 in 'Home Decor'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_120",
+      "category": "Repairs",
+      "title": "Sewing Ideas Idea 120",
+      "description": "Placeholder idea #120 in 'Repairs'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_121",
+      "category": "Slow Fashion",
+      "title": "Sewing Ideas Idea 121",
+      "description": "Placeholder idea #121 in 'Slow Fashion'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_122",
+      "category": "Costumes",
+      "title": "Sewing Ideas Idea 122",
+      "description": "Placeholder idea #122 in 'Costumes'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_123",
+      "category": "Alterations",
+      "title": "Sewing Ideas Idea 123",
+      "description": "Placeholder idea #123 in 'Alterations'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_124",
+      "category": "Alterations",
+      "title": "Sewing Ideas Idea 124",
+      "description": "Placeholder idea #124 in 'Alterations'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_125",
+      "category": "Slow Fashion",
+      "title": "Sewing Ideas Idea 125",
+      "description": "Placeholder idea #125 in 'Slow Fashion'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_126",
+      "category": "Upcycling",
+      "title": "Sewing Ideas Idea 126",
+      "description": "Placeholder idea #126 in 'Upcycling'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_127",
+      "category": "Slow Fashion",
+      "title": "Sewing Ideas Idea 127",
+      "description": "Placeholder idea #127 in 'Slow Fashion'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_128",
+      "category": "Repairs",
+      "title": "Sewing Ideas Idea 128",
+      "description": "Placeholder idea #128 in 'Repairs'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_129",
+      "category": "Alterations",
+      "title": "Sewing Ideas Idea 129",
+      "description": "Placeholder idea #129 in 'Alterations'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_130",
+      "category": "Slow Fashion",
+      "title": "Sewing Ideas Idea 130",
+      "description": "Placeholder idea #130 in 'Slow Fashion'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_131",
+      "category": "Alterations",
+      "title": "Sewing Ideas Idea 131",
+      "description": "Placeholder idea #131 in 'Alterations'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_132",
+      "category": "Home Decor",
+      "title": "Sewing Ideas Idea 132",
+      "description": "Placeholder idea #132 in 'Home Decor'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_133",
+      "category": "Clothing",
+      "title": "Sewing Ideas Idea 133",
+      "description": "Placeholder idea #133 in 'Clothing'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_134",
+      "category": "Upcycling",
+      "title": "Sewing Ideas Idea 134",
+      "description": "Placeholder idea #134 in 'Upcycling'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_135",
+      "category": "Repairs",
+      "title": "Sewing Ideas Idea 135",
+      "description": "Placeholder idea #135 in 'Repairs'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_136",
+      "category": "Repairs",
+      "title": "Sewing Ideas Idea 136",
+      "description": "Placeholder idea #136 in 'Repairs'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_137",
+      "category": "Upcycling",
+      "title": "Sewing Ideas Idea 137",
+      "description": "Placeholder idea #137 in 'Upcycling'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_138",
+      "category": "Slow Fashion",
+      "title": "Sewing Ideas Idea 138",
+      "description": "Placeholder idea #138 in 'Slow Fashion'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_139",
+      "category": "Home Decor",
+      "title": "Sewing Ideas Idea 139",
+      "description": "Placeholder idea #139 in 'Home Decor'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_140",
+      "category": "Slow Fashion",
+      "title": "Sewing Ideas Idea 140",
+      "description": "Placeholder idea #140 in 'Slow Fashion'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_141",
+      "category": "Costumes",
+      "title": "Sewing Ideas Idea 141",
+      "description": "Placeholder idea #141 in 'Costumes'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_142",
+      "category": "Home Decor",
+      "title": "Sewing Ideas Idea 142",
+      "description": "Placeholder idea #142 in 'Home Decor'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_143",
+      "category": "Repairs",
+      "title": "Sewing Ideas Idea 143",
+      "description": "Placeholder idea #143 in 'Repairs'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_144",
+      "category": "Upcycling",
+      "title": "Sewing Ideas Idea 144",
+      "description": "Placeholder idea #144 in 'Upcycling'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_145",
+      "category": "Upcycling",
+      "title": "Sewing Ideas Idea 145",
+      "description": "Placeholder idea #145 in 'Upcycling'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_146",
+      "category": "Alterations",
+      "title": "Sewing Ideas Idea 146",
+      "description": "Placeholder idea #146 in 'Alterations'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_147",
+      "category": "Repairs",
+      "title": "Sewing Ideas Idea 147",
+      "description": "Placeholder idea #147 in 'Repairs'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_148",
+      "category": "Accessories",
+      "title": "Sewing Ideas Idea 148",
+      "description": "Placeholder idea #148 in 'Accessories'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_149",
+      "category": "Costumes",
+      "title": "Sewing Ideas Idea 149",
+      "description": "Placeholder idea #149 in 'Costumes'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_150",
+      "category": "Clothing",
+      "title": "Sewing Ideas Idea 150",
+      "description": "Placeholder idea #150 in 'Clothing'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_151",
+      "category": "Slow Fashion",
+      "title": "Sewing Ideas Idea 151",
+      "description": "Placeholder idea #151 in 'Slow Fashion'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_152",
+      "category": "Home Decor",
+      "title": "Sewing Ideas Idea 152",
+      "description": "Placeholder idea #152 in 'Home Decor'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_153",
+      "category": "Alterations",
+      "title": "Sewing Ideas Idea 153",
+      "description": "Placeholder idea #153 in 'Alterations'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_154",
+      "category": "Home Decor",
+      "title": "Sewing Ideas Idea 154",
+      "description": "Placeholder idea #154 in 'Home Decor'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_155",
+      "category": "Home Decor",
+      "title": "Sewing Ideas Idea 155",
+      "description": "Placeholder idea #155 in 'Home Decor'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_156",
+      "category": "Costumes",
+      "title": "Sewing Ideas Idea 156",
+      "description": "Placeholder idea #156 in 'Costumes'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_157",
+      "category": "Clothing",
+      "title": "Sewing Ideas Idea 157",
+      "description": "Placeholder idea #157 in 'Clothing'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_158",
+      "category": "Upcycling",
+      "title": "Sewing Ideas Idea 158",
+      "description": "Placeholder idea #158 in 'Upcycling'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_159",
+      "category": "Costumes",
+      "title": "Sewing Ideas Idea 159",
+      "description": "Placeholder idea #159 in 'Costumes'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_160",
+      "category": "Costumes",
+      "title": "Sewing Ideas Idea 160",
+      "description": "Placeholder idea #160 in 'Costumes'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_161",
+      "category": "Alterations",
+      "title": "Sewing Ideas Idea 161",
+      "description": "Placeholder idea #161 in 'Alterations'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_162",
+      "category": "Alterations",
+      "title": "Sewing Ideas Idea 162",
+      "description": "Placeholder idea #162 in 'Alterations'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_163",
+      "category": "Repairs",
+      "title": "Sewing Ideas Idea 163",
+      "description": "Placeholder idea #163 in 'Repairs'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_164",
+      "category": "Home Decor",
+      "title": "Sewing Ideas Idea 164",
+      "description": "Placeholder idea #164 in 'Home Decor'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_165",
+      "category": "Repairs",
+      "title": "Sewing Ideas Idea 165",
+      "description": "Placeholder idea #165 in 'Repairs'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_166",
+      "category": "Costumes",
+      "title": "Sewing Ideas Idea 166",
+      "description": "Placeholder idea #166 in 'Costumes'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_167",
+      "category": "Alterations",
+      "title": "Sewing Ideas Idea 167",
+      "description": "Placeholder idea #167 in 'Alterations'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_168",
+      "category": "Slow Fashion",
+      "title": "Sewing Ideas Idea 168",
+      "description": "Placeholder idea #168 in 'Slow Fashion'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_169",
+      "category": "Clothing",
+      "title": "Sewing Ideas Idea 169",
+      "description": "Placeholder idea #169 in 'Clothing'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_170",
+      "category": "Upcycling",
+      "title": "Sewing Ideas Idea 170",
+      "description": "Placeholder idea #170 in 'Upcycling'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_171",
+      "category": "Costumes",
+      "title": "Sewing Ideas Idea 171",
+      "description": "Placeholder idea #171 in 'Costumes'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_172",
+      "category": "Upcycling",
+      "title": "Sewing Ideas Idea 172",
+      "description": "Placeholder idea #172 in 'Upcycling'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_173",
+      "category": "Slow Fashion",
+      "title": "Sewing Ideas Idea 173",
+      "description": "Placeholder idea #173 in 'Slow Fashion'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_174",
+      "category": "Slow Fashion",
+      "title": "Sewing Ideas Idea 174",
+      "description": "Placeholder idea #174 in 'Slow Fashion'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_175",
+      "category": "Upcycling",
+      "title": "Sewing Ideas Idea 175",
+      "description": "Placeholder idea #175 in 'Upcycling'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_176",
+      "category": "Alterations",
+      "title": "Sewing Ideas Idea 176",
+      "description": "Placeholder idea #176 in 'Alterations'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_177",
+      "category": "Repairs",
+      "title": "Sewing Ideas Idea 177",
+      "description": "Placeholder idea #177 in 'Repairs'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_178",
+      "category": "Costumes",
+      "title": "Sewing Ideas Idea 178",
+      "description": "Placeholder idea #178 in 'Costumes'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_179",
+      "category": "Repairs",
+      "title": "Sewing Ideas Idea 179",
+      "description": "Placeholder idea #179 in 'Repairs'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_180",
+      "category": "Slow Fashion",
+      "title": "Sewing Ideas Idea 180",
+      "description": "Placeholder idea #180 in 'Slow Fashion'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_181",
+      "category": "Accessories",
+      "title": "Sewing Ideas Idea 181",
+      "description": "Placeholder idea #181 in 'Accessories'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_182",
+      "category": "Upcycling",
+      "title": "Sewing Ideas Idea 182",
+      "description": "Placeholder idea #182 in 'Upcycling'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_183",
+      "category": "Accessories",
+      "title": "Sewing Ideas Idea 183",
+      "description": "Placeholder idea #183 in 'Accessories'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_184",
+      "category": "Alterations",
+      "title": "Sewing Ideas Idea 184",
+      "description": "Placeholder idea #184 in 'Alterations'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_185",
+      "category": "Accessories",
+      "title": "Sewing Ideas Idea 185",
+      "description": "Placeholder idea #185 in 'Accessories'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_186",
+      "category": "Alterations",
+      "title": "Sewing Ideas Idea 186",
+      "description": "Placeholder idea #186 in 'Alterations'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_187",
+      "category": "Repairs",
+      "title": "Sewing Ideas Idea 187",
+      "description": "Placeholder idea #187 in 'Repairs'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_188",
+      "category": "Accessories",
+      "title": "Sewing Ideas Idea 188",
+      "description": "Placeholder idea #188 in 'Accessories'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_189",
+      "category": "Alterations",
+      "title": "Sewing Ideas Idea 189",
+      "description": "Placeholder idea #189 in 'Alterations'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_190",
+      "category": "Alterations",
+      "title": "Sewing Ideas Idea 190",
+      "description": "Placeholder idea #190 in 'Alterations'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_191",
+      "category": "Clothing",
+      "title": "Sewing Ideas Idea 191",
+      "description": "Placeholder idea #191 in 'Clothing'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_192",
+      "category": "Home Decor",
+      "title": "Sewing Ideas Idea 192",
+      "description": "Placeholder idea #192 in 'Home Decor'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_193",
+      "category": "Accessories",
+      "title": "Sewing Ideas Idea 193",
+      "description": "Placeholder idea #193 in 'Accessories'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_194",
+      "category": "Repairs",
+      "title": "Sewing Ideas Idea 194",
+      "description": "Placeholder idea #194 in 'Repairs'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_195",
+      "category": "Repairs",
+      "title": "Sewing Ideas Idea 195",
+      "description": "Placeholder idea #195 in 'Repairs'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "sewing_ideas_196",
+      "category": "Alterations",
+      "title": "Sewing Ideas Idea 196",
+      "description": "Placeholder idea #196 in 'Alterations'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_197",
+      "category": "Home Decor",
+      "title": "Sewing Ideas Idea 197",
+      "description": "Placeholder idea #197 in 'Home Decor'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "sewing_ideas_198",
+      "category": "Repairs",
+      "title": "Sewing Ideas Idea 198",
+      "description": "Placeholder idea #198 in 'Repairs'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_199",
+      "category": "Home Decor",
+      "title": "Sewing Ideas Idea 199",
+      "description": "Placeholder idea #199 in 'Home Decor'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "sewing_ideas_200",
+      "category": "Alterations",
+      "title": "Sewing Ideas Idea 200",
+      "description": "Placeholder idea #200 in 'Alterations'.",
+      "energy_level": "high"
+    }
+  ]
+}

@@ -2,12 +2,20 @@ import { Canvas } from '@react-three/fiber';
 import { useGLTF, OrbitControls } from '@react-three/drei';
 import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
+import { useIsMobile } from '../../hooks/useIsMobile';
+import ChronoMuseAvatar2D from './ChronoMuseAvatar2D';
 
 interface ChronoMuseAvatarProps {
   mood: 'overwhelm' | 'curiosity' | 'grief' | 'focus' | 'victory' | 'calm';
 }
 
 export default function ChronoMuseAvatar({ mood }: ChronoMuseAvatarProps) {
+  const isMobile = useIsMobile();
+
+  // Use 2D version on mobile
+  if (isMobile) {
+    return <ChronoMuseAvatar2D mood={mood} />;
+  }
   const [glowColor, setGlowColor] = useState('#4A5DB8');
   
   useEffect(() => {

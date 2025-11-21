@@ -1,0 +1,242 @@
+/**
+ * Theme CSS Variables
+ * These variables are automatically set by the theme system
+ * Use them in your CSS for theme-aware styling
+ */
+
+:root {
+  /* Colors - Primary */
+  --color-primary: hsl(270, 60, 45);
+  --color-primary-light: hsl(270, 50, 60);
+  --color-primary-dark: hsl(270, 70, 30);
+
+  /* Colors - Secondary */
+  --color-secondary: hsl(280, 55, 45);
+  --color-secondary-light: hsl(280, 45, 60);
+  --color-secondary-dark: hsl(280, 65, 30);
+
+  /* Colors - Accent */
+  --color-accent: hsl(330, 70, 55);
+  --color-accent-light: hsl(330, 60, 70);
+  --color-accent-dark: hsl(330, 80, 40);
+
+  /* Colors - Background */
+  --color-background: hsl(270, 15, 10);
+  --color-background-light: hsl(270, 12, 15);
+  --color-background-dark: hsl(270, 20, 5);
+
+  /* Colors - Surface */
+  --color-surface: hsl(270, 20, 15);
+  --color-surface-light: hsl(270, 18, 20);
+  --color-surface-dark: hsl(270, 25, 12);
+
+  /* Colors - Text */
+  --color-text: hsl(270, 10, 95);
+  --color-text-secondary: hsl(270, 8, 70);
+  --color-text-muted: hsl(270, 5, 50);
+
+  /* Colors - Border */
+  --color-border: hsl(270, 25, 25);
+  --color-border-light: hsl(270, 20, 35);
+
+  /* Colors - Status */
+  --color-success: hsl(140, 60, 50);
+  --color-warning: hsl(45, 90, 55);
+  --color-error: hsl(0, 70, 55);
+  --color-info: hsl(200, 70, 55);
+
+  /* Typography */
+  --font-heading: 'Cinzel', serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'Fira Code', monospace;
+
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  --spacing-3xl: 4rem;
+
+  /* Border Radius */
+  --radius-none: 0;
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  --shadow-inner: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+
+  /* Animation Durations */
+  --duration-fast: 150ms;
+  --duration-normal: 300ms;
+  --duration-slow: 500ms;
+}
+
+/* Example usage in CSS */
+
+/* Themed card */
+.theme-card {
+  background-color: var(--color-surface);
+  color: var(--color-text);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  transition: all var(--duration-normal);
+}
+
+.theme-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+}
+
+/* Themed heading */
+.theme-heading {
+  font-family: var(--font-heading);
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-md);
+}
+
+/* Themed button */
+.theme-button {
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  padding: var(--spacing-sm) var(--spacing-lg);
+  border-radius: var(--radius-md);
+  font-family: var(--font-body);
+  transition: all var(--duration-normal);
+  border: none;
+  cursor: pointer;
+}
+
+.theme-button:hover {
+  background-color: var(--color-primary-dark);
+}
+
+.theme-button:active {
+  transform: scale(0.98);
+}
+
+/* Themed input */
+.theme-input {
+  background-color: var(--color-background-light);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--radius-md);
+  font-family: var(--font-body);
+  transition: border-color var(--duration-fast);
+}
+
+.theme-input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
+
+/* Status badges */
+.badge-success {
+  background-color: var(--color-success);
+  color: var(--color-text);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: var(--radius-full);
+  font-size: 0.875rem;
+}
+
+.badge-warning {
+  background-color: var(--color-warning);
+  color: var(--color-text);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: var(--radius-full);
+  font-size: 0.875rem;
+}
+
+.badge-error {
+  background-color: var(--color-error);
+  color: var(--color-text);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border-radius: var(--radius-full);
+  font-size: 0.875rem;
+}
+
+/* Themed container */
+.theme-container {
+  background: linear-gradient(
+    135deg,
+    var(--color-background) 0%,
+    var(--color-background-dark) 100%
+  );
+  min-height: 100vh;
+  padding: var(--spacing-xl);
+}
+
+/* Themed text */
+.text-primary {
+  color: var(--color-primary);
+}
+
+.text-secondary {
+  color: var(--color-secondary);
+}
+
+.text-accent {
+  color: var(--color-accent);
+}
+
+.text-muted {
+  color: var(--color-text-muted);
+}
+
+/* Themed borders */
+.border-primary {
+  border-color: var(--color-primary);
+}
+
+.border-default {
+  border-color: var(--color-border);
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  :root {
+    --color-primary: hsl(270, 100, 50);
+    --color-background: hsl(0, 0, 0);
+    --color-text: hsl(0, 0, 100);
+  }
+}
+
+/* Dark mode (if not already in dark theme) */
+@media (prefers-color-scheme: dark) {
+  /* Themes handle this automatically */
+}
+
+/* Print styles */
+@media print {
+  :root {
+    --color-background: white;
+    --color-text: black;
+    --color-primary: black;
+  }
+
+  .theme-card {
+    box-shadow: none;
+    border: 1px solid black;
+  }
+}

@@ -1,0 +1,1804 @@
+{
+  "sewing": [
+    {
+      "id": 1,
+      "idea": "Simple black cotton face mask with lace trim",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["gothic", "quick", "beginner"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 2,
+      "idea": "Velcro-closure skirt (adaptive, no zippers)",
+      "spoons": 3,
+      "time": "2 hours",
+      "tags": ["adaptive", "easy-closure", "seated-friendly"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 3,
+      "idea": "Gothic lace choker necklace",
+      "spoons": 1,
+      "time": "20min",
+      "tags": ["gothic", "quick", "accessories"],
+      "difficulty": "very easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 4,
+      "idea": "Magnetic snap closure shirt (hand-pain friendly)",
+      "spoons": 4,
+      "time": "4 hours",
+      "tags": ["adaptive", "magnetic-closure", "hEDS-friendly"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 5,
+      "idea": "Black velvet scrunchie",
+      "spoons": 1,
+      "time": "15min",
+      "tags": ["gothic", "quick", "accessories"],
+      "difficulty": "very easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 6,
+      "idea": "Elastic waist pants (no buttons/zippers)",
+      "spoons": 3,
+      "time": "3 hours",
+      "tags": ["adaptive", "comfortable", "easy-on"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 7,
+      "idea": "Gothic bat plushie",
+      "spoons": 2,
+      "time": "1.5 hours",
+      "tags": ["gothic", "plushie", "fun"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 8,
+      "idea": "Open-back shirt with ties (easier to dress)",
+      "spoons": 4,
+      "time": "3.5 hours",
+      "tags": ["adaptive", "easy-dressing", "seated-friendly"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 9,
+      "idea": "Black lace bookmark",
+      "spoons": 1,
+      "time": "10min",
+      "tags": ["gothic", "quick", "gift"],
+      "difficulty": "very easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 10,
+      "idea": "Compression gloves with finger holes (for typing)",
+      "spoons": 3,
+      "time": "2 hours",
+      "tags": ["adaptive", "hEDS", "functional"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 11,
+      "idea": "Victorian-style lace collar",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["gothic", "victorian", "accessories"],
+      "difficulty": "easy",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 12,
+      "idea": "Pull-on compression socks (no tight bands)",
+      "spoons": 3,
+      "time": "2.5 hours",
+      "tags": ["adaptive", "POTS-friendly", "medical"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 13,
+      "idea": "Simple black tote bag with moon phases",
+      "spoons": 2,
+      "time": "1.5 hours",
+      "tags": ["gothic", "functional", "beginner"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 14,
+      "idea": "Lap blanket with pockets for supplies (seated sewing)",
+      "spoons": 3,
+      "time": "3 hours",
+      "tags": ["adaptive", "seated-friendly", "functional"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 15,
+      "idea": "Black rose hair clip",
+      "spoons": 1,
+      "time": "20min",
+      "tags": ["gothic", "quick", "accessories"],
+      "difficulty": "very easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 16,
+      "idea": "Weighted lap pad (for anxiety/sensory needs)",
+      "spoons": 3,
+      "time": "2 hours",
+      "tags": ["adaptive", "sensory", "therapeutic"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 17,
+      "idea": "Gothic pentagram patch",
+      "spoons": 1,
+      "time": "30min",
+      "tags": ["gothic", "embroidery", "patch"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 18,
+      "idea": "Side-zip pants (easier than front closure)",
+      "spoons": 4,
+      "time": "4 hours",
+      "tags": ["adaptive", "easy-dressing", "seated-friendly"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 19,
+      "idea": "Black lace fingerless gloves",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["gothic", "accessories", "steampunk"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 20,
+      "idea": "Abdominal compression binder (POTS support)",
+      "spoons": 4,
+      "time": "3 hours",
+      "tags": ["adaptive", "POTS", "medical"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 21,
+      "idea": "Raven embroidery hoop art",
+      "spoons": 3,
+      "time": "4 hours",
+      "tags": ["gothic", "embroidery", "art"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 22,
+      "idea": "Hook-and-loop (Velcro) shoes (easy on/off)",
+      "spoons": 5,
+      "time": "6 hours",
+      "tags": ["adaptive", "mobility", "complex"],
+      "difficulty": "complex",
+      "skillLevel": "advanced"
+    },
+    {
+      "id": 23,
+      "idea": "Black silk pillowcase",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["gothic", "self-care", "functional"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 24,
+      "idea": "Sensory-friendly seam-free underwear",
+      "spoons": 3,
+      "time": "2 hours",
+      "tags": ["adaptive", "sensory", "comfortable"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 25,
+      "idea": "Gothic corset-style belt (non-functional, decorative)",
+      "spoons": 3,
+      "time": "2.5 hours",
+      "tags": ["gothic", "accessories", "decorative"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 26,
+      "idea": "Catheter leg bag cover (discreet, pretty)",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["adaptive", "medical", "dignity"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 27,
+      "idea": "Black tarot card pouch",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["gothic", "witchy", "functional"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 28,
+      "idea": "Pull-on adaptive bra (front-opening, easy closure)",
+      "spoons": 4,
+      "time": "3 hours",
+      "tags": ["adaptive", "easy-dressing", "hEDS-friendly"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 29,
+      "idea": "Skull and crossbones patch",
+      "spoons": 1,
+      "time": "30min",
+      "tags": ["gothic", "patch", "quick"],
+      "difficulty": "very easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 30,
+      "idea": "Wheelchair bag organizer with pockets",
+      "spoons": 3,
+      "time": "2.5 hours",
+      "tags": ["adaptive", "mobility", "functional"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 31,
+      "idea": "Black velvet cloak (simple rectangle)",
+      "spoons": 3,
+      "time": "3 hours",
+      "tags": ["gothic", "dramatic", "costume"],
+      "difficulty": "moderate",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 32,
+      "idea": "One-handed use apron (asymmetric design)",
+      "spoons": 3,
+      "time": "2 hours",
+      "tags": ["adaptive", "cooking", "one-handed"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 33,
+      "idea": "Moon phase wall hanging",
+      "spoons": 2,
+      "time": "1.5 hours",
+      "tags": ["gothic", "witchy", "decor"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 34,
+      "idea": "Seated-height adjustable apron",
+      "spoons": 3,
+      "time": "2 hours",
+      "tags": ["adaptive", "wheelchair", "functional"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 35,
+      "idea": "Black lace trim on existing clothing",
+      "spoons": 1,
+      "time": "30min",
+      "tags": ["gothic", "upcycle", "quick"],
+      "difficulty": "very easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 36,
+      "idea": "Elastic-waist adaptive shorts with pockets",
+      "spoons": 3,
+      "time": "2.5 hours",
+      "tags": ["adaptive", "comfortable", "summer"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 37,
+      "idea": "Gothic spider web doily",
+      "spoons": 2,
+      "time": "2 hours",
+      "tags": ["gothic", "crochet", "decor"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 38,
+      "idea": "Anti-chafing thigh bands (prevent skin irritation)",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["adaptive", "comfort", "functional"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 39,
+      "idea": "Black velvet journal cover",
+      "spoons": 2,
+      "time": "1.5 hours",
+      "tags": ["gothic", "functional", "gift"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 40,
+      "idea": "Weighted stuffed animal (anxiety/sensory)",
+      "spoons": 3,
+      "time": "3 hours",
+      "tags": ["adaptive", "sensory", "therapeutic"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 41,
+      "idea": "Victorian mourning veil",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["gothic", "victorian", "dramatic"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 42,
+      "idea": "Tube top with elastic (easy to pull on)",
+      "spoons": 2,
+      "time": "1.5 hours",
+      "tags": ["adaptive", "easy-dressing", "summer"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 43,
+      "idea": "Black cat plushie with button eyes",
+      "spoons": 2,
+      "time": "2 hours",
+      "tags": ["gothic", "plushie", "cute"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 44,
+      "idea": "Pill organizer pouch with days labeled",
+      "spoons": 2,
+      "time": "1.5 hours",
+      "tags": ["adaptive", "medical", "organized"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 45,
+      "idea": "Occult symbol altar cloth",
+      "spoons": 2,
+      "time": "2 hours",
+      "tags": ["gothic", "witchy", "spiritual"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 46,
+      "idea": "Front-opening nightgown (hospital-friendly)",
+      "spoons": 4,
+      "time": "4 hours",
+      "tags": ["adaptive", "medical", "dignity"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 47,
+      "idea": "Black lace eye mask",
+      "spoons": 1,
+      "time": "30min",
+      "tags": ["gothic", "sleep", "quick"],
+      "difficulty": "very easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 48,
+      "idea": "Adaptive pants with open sides (wheelchair transfer)",
+      "spoons": 4,
+      "time": "4 hours",
+      "tags": ["adaptive", "wheelchair", "caregiving"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 49,
+      "idea": "Coffin-shaped coin purse",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["gothic", "accessories", "fun"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 50,
+      "idea": "Compression sleeve for arm (lymphedema)",
+      "spoons": 3,
+      "time": "2 hours",
+      "tags": ["adaptive", "medical", "therapeutic"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 51,
+      "idea": "Gothic cross earrings (fabric)",
+      "spoons": 1,
+      "time": "20min",
+      "tags": ["gothic", "jewelry", "quick"],
+      "difficulty": "very easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 52,
+      "idea": "One-piece adaptive romper (easy toileting)",
+      "spoons": 4,
+      "time": "5 hours",
+      "tags": ["adaptive", "caregiving", "dignity"],
+      "difficulty": "complex",
+      "skillLevel": "advanced"
+    },
+    {
+      "id": 53,
+      "idea": "Black silk scarf with fringe",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["gothic", "accessories", "elegant"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 54,
+      "idea": "Heating pad cover (removable, washable)",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["adaptive", "pain-management", "functional"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 55,
+      "idea": "Witchy herb sachet pouches (set of 3)",
+      "spoons": 1,
+      "time": "45min",
+      "tags": ["gothic", "witchy", "functional"],
+      "difficulty": "very easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 56,
+      "idea": "Back-opening hospital gown (pretty version)",
+      "spoons": 4,
+      "time": "3 hours",
+      "tags": ["adaptive", "medical", "dignity"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 57,
+      "idea": "Simple black circle skirt",
+      "spoons": 3,
+      "time": "2 hours",
+      "tags": ["gothic", "classic", "beginner"],
+      "difficulty": "moderate",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 58,
+      "idea": "Fidget quilt square (sensory textures)",
+      "spoons": 2,
+      "time": "2 hours",
+      "tags": ["adaptive", "sensory", "dementia-friendly"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 59,
+      "idea": "Vampire cape with high collar",
+      "spoons": 4,
+      "time": "4 hours",
+      "tags": ["gothic", "costume", "dramatic"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 60,
+      "idea": "Seat cushion with cutout (pressure relief)",
+      "spoons": 3,
+      "time": "2.5 hours",
+      "tags": ["adaptive", "wheelchair", "medical"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 61,
+      "idea": "Ouija board design pillow",
+      "spoons": 3,
+      "time": "3 hours",
+      "tags": ["gothic", "witchy", "decor"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 62,
+      "idea": "Pull-on socks with grips (fall prevention)",
+      "spoons": 2,
+      "time": "1.5 hours",
+      "tags": ["adaptive", "safety", "elderly"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 63,
+      "idea": "Gothic cameo brooch (fabric)",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["gothic", "victorian", "jewelry"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 64,
+      "idea": "Elastic-waist maternity pants adaptation",
+      "spoons": 3,
+      "time": "2 hours",
+      "tags": ["adaptive", "comfortable", "pregnancy"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 65,
+      "idea": "Black rose bouquet (fabric flowers)",
+      "spoons": 3,
+      "time": "3 hours",
+      "tags": ["gothic", "decor", "wedding"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 66,
+      "idea": "IV pole bag (for medical supplies)",
+      "spoons": 2,
+      "time": "1.5 hours",
+      "tags": ["adaptive", "medical", "hospital"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 67,
+      "idea": "Skull print bandana",
+      "spoons": 1,
+      "time": "30min",
+      "tags": ["gothic", "accessories", "quick"],
+      "difficulty": "very easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 68,
+      "idea": "One-handed buttoning aid attached to shirt",
+      "spoons": 3,
+      "time": "2 hours",
+      "tags": ["adaptive", "one-handed", "innovative"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 69,
+      "idea": "Gothic lolita-style headband",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["gothic", "lolita", "accessories"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 70,
+      "idea": "Mastectomy bra pocket inserts",
+      "spoons": 2,
+      "time": "1.5 hours",
+      "tags": ["adaptive", "medical", "dignity"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 71,
+      "idea": "Black tulle petticoat",
+      "spoons": 4,
+      "time": "4 hours",
+      "tags": ["gothic", "dramatic", "costume"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 72,
+      "idea": "Walker bag with multiple pockets",
+      "spoons": 3,
+      "time": "2 hours",
+      "tags": ["adaptive", "mobility", "elderly"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 73,
+      "idea": "Pentagram embroidered patch (large)",
+      "spoons": 3,
+      "time": "4 hours",
+      "tags": ["gothic", "embroidery", "witchy"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 74,
+      "idea": "No-sew fleece tie blanket (wheelchair lap)",
+      "spoons": 2,
+      "time": "2 hours",
+      "tags": ["adaptive", "no-sew", "easy"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 75,
+      "idea": "Black mourning armband",
+      "spoons": 1,
+      "time": "20min",
+      "tags": ["gothic", "memorial", "quick"],
+      "difficulty": "very easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 76,
+      "idea": "Adaptive jeans with elastic waist panel",
+      "spoons": 4,
+      "time": "4 hours",
+      "tags": ["adaptive", "comfortable", "stylish"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 77,
+      "idea": "Witch hat (classic pointed)",
+      "spoons": 3,
+      "time": "3 hours",
+      "tags": ["gothic", "witchy", "costume"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 78,
+      "idea": "Stoma bag cover (discreet, decorative)",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["adaptive", "medical", "dignity"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 79,
+      "idea": "Black lace garter",
+      "spoons": 1,
+      "time": "30min",
+      "tags": ["gothic", "romantic", "accessory"],
+      "difficulty": "very easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 80,
+      "idea": "Weighted blanket (DIY, custom weight)",
+      "spoons": 5,
+      "time": "8 hours",
+      "tags": ["adaptive", "sensory", "therapeutic"],
+      "difficulty": "complex",
+      "skillLevel": "advanced"
+    },
+    {
+      "id": 81,
+      "idea": "Corset-laced boots (decorative lacing)",
+      "spoons": 5,
+      "time": "10 hours",
+      "tags": ["gothic", "steampunk", "complex"],
+      "difficulty": "complex",
+      "skillLevel": "advanced"
+    },
+    {
+      "id": 82,
+      "idea": "Bed rail organizer pocket",
+      "spoons": 2,
+      "time": "1.5 hours",
+      "tags": ["adaptive", "bedbound", "functional"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 83,
+      "idea": "Black satin sleep bonnet",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["gothic", "hair-care", "functional"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 84,
+      "idea": "Soft boot cast cover (waterproof option)",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["adaptive", "medical", "functional"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 85,
+      "idea": "Gothic cross necklace (fabric and chain)",
+      "spoons": 1,
+      "time": "30min",
+      "tags": ["gothic", "jewelry", "quick"],
+      "difficulty": "very easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 86,
+      "idea": "Elastic shoelaces (no-tie shoes)",
+      "spoons": 1,
+      "time": "15min",
+      "tags": ["adaptive", "easy-dressing", "quick"],
+      "difficulty": "very easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 87,
+      "idea": "Steampunk goggles cover/strap",
+      "spoons": 2,
+      "time": "1.5 hours",
+      "tags": ["gothic", "steampunk", "accessories"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 88,
+      "idea": "Wheelchair armrest covers (padded)",
+      "spoons": 2,
+      "time": "2 hours",
+      "tags": ["adaptive", "wheelchair", "comfort"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 89,
+      "idea": "Black lace parasol cover",
+      "spoons": 3,
+      "time": "3 hours",
+      "tags": ["gothic", "victorian", "sun-protection"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 90,
+      "idea": "Chest binder (safe, breathable)",
+      "spoons": 4,
+      "time": "3 hours",
+      "tags": ["adaptive", "trans-friendly", "medical"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 91,
+      "idea": "Raven wing cape attachment",
+      "spoons": 4,
+      "time": "5 hours",
+      "tags": ["gothic", "costume", "dramatic"],
+      "difficulty": "complex",
+      "skillLevel": "advanced"
+    },
+    {
+      "id": 92,
+      "idea": "Colostomy belt (supportive, decorative)",
+      "spoons": 3,
+      "time": "2 hours",
+      "tags": ["adaptive", "medical", "support"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 93,
+      "idea": "Black mesh gloves (net style)",
+      "spoons": 2,
+      "time": "1.5 hours",
+      "tags": ["gothic", "punk", "accessories"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 94,
+      "idea": "No-slip headband (sensory-friendly)",
+      "spoons": 1,
+      "time": "30min",
+      "tags": ["adaptive", "sensory", "functional"],
+      "difficulty": "very easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 95,
+      "idea": "Skull appliqué on denim jacket",
+      "spoons": 2,
+      "time": "2 hours",
+      "tags": ["gothic", "upcycle", "customization"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 96,
+      "idea": "Leg warmer-style compression sleeves",
+      "spoons": 3,
+      "time": "2 hours",
+      "tags": ["adaptive", "POTS", "stylish"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 97,
+      "idea": "Gothic corset vest (decorative, not tight-lacing)",
+      "spoons": 5,
+      "time": "8 hours",
+      "tags": ["gothic", "costume", "complex"],
+      "difficulty": "complex",
+      "skillLevel": "advanced"
+    },
+    {
+      "id": 98,
+      "idea": "Adaptive poncho (easy on/off, warm)",
+      "spoons": 3,
+      "time": "3 hours",
+      "tags": ["adaptive", "easy-dressing", "warm"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 99,
+      "idea": "Poison bottle necklace pouch",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["gothic", "witchy", "accessories"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 100,
+      "idea": "Wheelchair wheel spoke covers (decorative)",
+      "spoons": 3,
+      "time": "4 hours",
+      "tags": ["adaptive", "wheelchair", "personalization"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 101,
+      "idea": "Black tulle skirt (gathered waist)",
+      "spoons": 3,
+      "time": "2.5 hours",
+      "tags": ["gothic", "fairy", "romantic"],
+      "difficulty": "moderate",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 102,
+      "idea": "Adaptive dress with magnetic closures down back",
+      "spoons": 5,
+      "time": "6 hours",
+      "tags": ["adaptive", "formal", "easy-dressing"],
+      "difficulty": "complex",
+      "skillLevel": "advanced"
+    },
+    {
+      "id": 103,
+      "idea": "Spider web embroidery on black fabric",
+      "spoons": 3,
+      "time": "3 hours",
+      "tags": ["gothic", "embroidery", "halloween"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 104,
+      "idea": "Seatbelt cushion covers (soft, comfortable)",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["adaptive", "comfort", "travel"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 105,
+      "idea": "Victorian cameo choker",
+      "spoons": 2,
+      "time": "1.5 hours",
+      "tags": ["gothic", "victorian", "elegant"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 106,
+      "idea": "Insulin pump pouch/belt clip",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["adaptive", "medical", "diabetes"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 107,
+      "idea": "Black medieval-style hood",
+      "spoons": 3,
+      "time": "2 hours",
+      "tags": ["gothic", "medieval", "costume"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 108,
+      "idea": "Elastic waist skirt with hidden pockets",
+      "spoons": 3,
+      "time": "2.5 hours",
+      "tags": ["adaptive", "functional", "comfortable"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 109,
+      "idea": "Bat wing hair bows (pair)",
+      "spoons": 1,
+      "time": "30min",
+      "tags": ["gothic", "cute", "accessories"],
+      "difficulty": "very easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 110,
+      "idea": "Sensory weighted lap snake",
+      "spoons": 2,
+      "time": "2 hours",
+      "tags": ["adaptive", "sensory", "autism-friendly"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 111,
+      "idea": "Gothic lolita petticoat (multilayer)",
+      "spoons": 5,
+      "time": "6 hours",
+      "tags": ["gothic", "lolita", "complex"],
+      "difficulty": "complex",
+      "skillLevel": "advanced"
+    },
+    {
+      "id": 112,
+      "idea": "Easy-access mastectomy camisole",
+      "spoons": 3,
+      "time": "2.5 hours",
+      "tags": ["adaptive", "medical", "dignity"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 113,
+      "idea": "Black organza flower pins (set of 3)",
+      "spoons": 2,
+      "time": "1.5 hours",
+      "tags": ["gothic", "romantic", "accessories"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 114,
+      "idea": "Bedside caddy organizer",
+      "spoons": 2,
+      "time": "1.5 hours",
+      "tags": ["adaptive", "bedbound", "functional"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 115,
+      "idea": "Crow skull embroidery design",
+      "spoons": 4,
+      "time": "5 hours",
+      "tags": ["gothic", "embroidery", "macabre"],
+      "difficulty": "complex",
+      "skillLevel": "advanced"
+    },
+    {
+      "id": 116,
+      "idea": "Pull-on pants with fake fly (looks like jeans)",
+      "spoons": 4,
+      "time": "4 hours",
+      "tags": ["adaptive", "stylish", "easy-dressing"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 117,
+      "idea": "Black lace trim fingerless mitts",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["gothic", "romantic", "warm"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 118,
+      "idea": "Oxygen tank bag cover (pretty, discreet)",
+      "spoons": 2,
+      "time": "1.5 hours",
+      "tags": ["adaptive", "medical", "dignity"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 119,
+      "idea": "Triple moon goddess wall hanging",
+      "spoons": 3,
+      "time": "3 hours",
+      "tags": ["gothic", "witchy", "spiritual"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 120,
+      "idea": "Adaptive shorts with side openings (hip surgery)",
+      "spoons": 4,
+      "time": "3.5 hours",
+      "tags": ["adaptive", "medical", "recovery"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 121,
+      "idea": "Velvet cape with brooch closure",
+      "spoons": 4,
+      "time": "4 hours",
+      "tags": ["gothic", "elegant", "costume"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 122,
+      "idea": "Cane handle cover (padded grip)",
+      "spoons": 1,
+      "time": "30min",
+      "tags": ["adaptive", "mobility", "comfort"],
+      "difficulty": "very easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 123,
+      "idea": "Black rose bouquet headpiece",
+      "spoons": 3,
+      "time": "2 hours",
+      "tags": ["gothic", "wedding", "costume"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 124,
+      "idea": "Front-zip sports bra (easy on/off)",
+      "spoons": 3,
+      "time": "2.5 hours",
+      "tags": ["adaptive", "athletic", "easy-dressing"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 125,
+      "idea": "Tarot card bag with drawstring",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["gothic", "witchy", "functional"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 126,
+      "idea": "Wheelchair lap desk with storage",
+      "spoons": 4,
+      "time": "4 hours",
+      "tags": ["adaptive", "wheelchair", "functional"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 127,
+      "idea": "Gothic rosary (fabric beads)",
+      "spoons": 3,
+      "time": "3 hours",
+      "tags": ["gothic", "spiritual", "crafts"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 128,
+      "idea": "Adaptive buttonhole extenders (pre-sewn)",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["adaptive", "easy-dressing", "hack"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 129,
+      "idea": "Black mesh veil with flowers",
+      "spoons": 2,
+      "time": "1.5 hours",
+      "tags": ["gothic", "romantic", "accessories"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 130,
+      "idea": "Bed wedge pillow cover (washable)",
+      "spoons": 2,
+      "time": "1.5 hours",
+      "tags": ["adaptive", "POTS", "sleep"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 131,
+      "idea": "Vampire bite collar (decorative)",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["gothic", "vampire", "costume"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 132,
+      "idea": "Pull-on shoes with elastic panels",
+      "spoons": 5,
+      "time": "8 hours",
+      "tags": ["adaptive", "easy-dressing", "complex"],
+      "difficulty": "complex",
+      "skillLevel": "advanced"
+    },
+    {
+      "id": 133,
+      "idea": "Mourning ribbon sash",
+      "spoons": 1,
+      "time": "30min",
+      "tags": ["gothic", "memorial", "victorian"],
+      "difficulty": "very easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 134,
+      "idea": "PICC line cover sleeve (decorative)",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["adaptive", "medical", "IV"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 135,
+      "idea": "Black feather hair fascinator",
+      "spoons": 2,
+      "time": "1.5 hours",
+      "tags": ["gothic", "elegant", "accessories"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 136,
+      "idea": "Compression sock aid (elastic band helper)",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["adaptive", "POTS", "dressing-aid"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 137,
+      "idea": "Steampunk arm cuff with gears",
+      "spoons": 3,
+      "time": "2.5 hours",
+      "tags": ["gothic", "steampunk", "accessories"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 138,
+      "idea": "Easy-grasp zipper pulls (fabric loops)",
+      "spoons": 1,
+      "time": "20min",
+      "tags": ["adaptive", "hEDS", "quick-fix"],
+      "difficulty": "very easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 139,
+      "idea": "Black lace bookmark with ribbon",
+      "spoons": 1,
+      "time": "15min",
+      "tags": ["gothic", "gift", "quick"],
+      "difficulty": "very easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 140,
+      "idea": "Adaptive swimsuit with easy closures",
+      "spoons": 5,
+      "time": "6 hours",
+      "tags": ["adaptive", "summer", "complex"],
+      "difficulty": "complex",
+      "skillLevel": "advanced"
+    },
+    {
+      "id": 141,
+      "idea": "Dark mori forest cape",
+      "spoons": 4,
+      "time": "5 hours",
+      "tags": ["gothic", "mori-girl", "layered"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 142,
+      "idea": "Prosthetic limb cover (custom, decorative)",
+      "spoons": 3,
+      "time": "3 hours",
+      "tags": ["adaptive", "prosthetic", "personalization"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 143,
+      "idea": "Rune stone pouch with symbols",
+      "spoons": 2,
+      "time": "1.5 hours",
+      "tags": ["gothic", "witchy", "divination"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 144,
+      "idea": "No-button pants (all elastic)",
+      "spoons": 3,
+      "time": "3 hours",
+      "tags": ["adaptive", "comfortable", "easy"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 145,
+      "idea": "Gothic spider brooch (3D fabric)",
+      "spoons": 2,
+      "time": "2 hours",
+      "tags": ["gothic", "jewelry", "halloween"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 146,
+      "idea": "Knee scooter basket organizer",
+      "spoons": 2,
+      "time": "1.5 hours",
+      "tags": ["adaptive", "mobility", "functional"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 147,
+      "idea": "Black and red striped armwarmers",
+      "spoons": 2,
+      "time": "2 hours",
+      "tags": ["gothic", "punk", "warm"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 148,
+      "idea": "Seated transfer pants (snap sides)",
+      "spoons": 4,
+      "time": "4 hours",
+      "tags": ["adaptive", "wheelchair", "caregiving"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 149,
+      "idea": "Occult symbol throw blanket",
+      "spoons": 4,
+      "time": "6 hours",
+      "tags": ["gothic", "witchy", "cozy"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 150,
+      "idea": "G-tube pad cover (soft, absorbent)",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["adaptive", "medical", "feeding-tube"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 151,
+      "idea": "Black crushed velvet skirt",
+      "spoons": 3,
+      "time": "3 hours",
+      "tags": ["gothic", "elegant", "vintage"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 152,
+      "idea": "Adaptive bathrobe with Velcro closure",
+      "spoons": 4,
+      "time": "4 hours",
+      "tags": ["adaptive", "easy-dressing", "bathroom"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 153,
+      "idea": "Ankh symbol patch (embroidered)",
+      "spoons": 2,
+      "time": "2 hours",
+      "tags": ["gothic", "egyptian", "embroidery"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 154,
+      "idea": "Pill bottle organizer bag with labels",
+      "spoons": 2,
+      "time": "1.5 hours",
+      "tags": ["adaptive", "medical", "organization"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 155,
+      "idea": "Death moth embroidery (silence of the lambs style)",
+      "spoons": 4,
+      "time": "5 hours",
+      "tags": ["gothic", "embroidery", "macabre"],
+      "difficulty": "complex",
+      "skillLevel": "advanced"
+    },
+    {
+      "id": 156,
+      "idea": "Easy-on cardigan with snaps",
+      "spoons": 4,
+      "time": "4 hours",
+      "tags": ["adaptive", "layering", "easy-closure"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 157,
+      "idea": "Black lace fingerless opera gloves",
+      "spoons": 3,
+      "time": "2.5 hours",
+      "tags": ["gothic", "elegant", "formal"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 158,
+      "idea": "Tracheostomy bib cover (decorative)",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["adaptive", "medical", "dignity"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 159,
+      "idea": "Spell book cover (fabric with symbols)",
+      "spoons": 3,
+      "time": "2 hours",
+      "tags": ["gothic", "witchy", "functional"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 160,
+      "idea": "Pull-on leggings with high waist (tummy control)",
+      "spoons": 3,
+      "time": "2.5 hours",
+      "tags": ["adaptive", "comfortable", "supportive"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 161,
+      "idea": "Cemetery gate earrings (fabric/felt)",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["gothic", "jewelry", "spooky"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 162,
+      "idea": "Wheelchair seatbelt cover (padded)",
+      "spoons": 2,
+      "time": "1.5 hours",
+      "tags": ["adaptive", "wheelchair", "comfort"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 163,
+      "idea": "Victorian style jabot collar",
+      "spoons": 3,
+      "time": "2 hours",
+      "tags": ["gothic", "victorian", "elegant"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 164,
+      "idea": "Adaptive shirt with shoulder snaps (stroke recovery)",
+      "spoons": 4,
+      "time": "4 hours",
+      "tags": ["adaptive", "medical", "recovery"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 165,
+      "idea": "Black silk top hat cover",
+      "spoons": 3,
+      "time": "3 hours",
+      "tags": ["gothic", "steampunk", "formal"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 166,
+      "idea": "Dialysis fistula arm cover (protective)",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["adaptive", "medical", "dialysis"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 167,
+      "idea": "Plague doctor mask (fabric)",
+      "spoons": 4,
+      "time": "5 hours",
+      "tags": ["gothic", "costume", "historical"],
+      "difficulty": "complex",
+      "skillLevel": "advanced"
+    },
+    {
+      "id": 168,
+      "idea": "Back-opening vest (wheelchair-friendly)",
+      "spoons": 4,
+      "time": "3.5 hours",
+      "tags": ["adaptive", "wheelchair", "stylish"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 169,
+      "idea": "Coffin purse (shaped, structured)",
+      "spoons": 5,
+      "time": "8 hours",
+      "tags": ["gothic", "accessories", "complex"],
+      "difficulty": "complex",
+      "skillLevel": "advanced"
+    },
+    {
+      "id": 170,
+      "idea": "Hernia support belt (custom-sized)",
+      "spoons": 3,
+      "time": "2 hours",
+      "tags": ["adaptive", "medical", "supportive"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 171,
+      "idea": "Black lace mantilla veil",
+      "spoons": 3,
+      "time": "2.5 hours",
+      "tags": ["gothic", "spanish", "religious"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 172,
+      "idea": "Easy-grip button hook attached to shirt",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["adaptive", "dressing-aid", "sewn-in"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 173,
+      "idea": "Taxidermy moth display case (fabric)",
+      "spoons": 4,
+      "time": "6 hours",
+      "tags": ["gothic", "cabinet-of-curiosities", "art"],
+      "difficulty": "complex",
+      "skillLevel": "advanced"
+    },
+    {
+      "id": 174,
+      "idea": "Adaptive dress pants with elastic waist",
+      "spoons": 4,
+      "time": "4 hours",
+      "tags": ["adaptive", "professional", "comfortable"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 175,
+      "idea": "Ripped fishnet tights repair (decorative)",
+      "spoons": 1,
+      "time": "30min",
+      "tags": ["gothic", "punk", "upcycle"],
+      "difficulty": "very easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 176,
+      "idea": "Feeding tube extension cover",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["adaptive", "medical", "pediatric"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 177,
+      "idea": "Black mourning rosette",
+      "spoons": 1,
+      "time": "30min",
+      "tags": ["gothic", "victorian", "memorial"],
+      "difficulty": "very easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 178,
+      "idea": "Pull-over poncho with hood (no sleeves)",
+      "spoons": 3,
+      "time": "3 hours",
+      "tags": ["adaptive", "easy-dressing", "warm"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 179,
+      "idea": "Witchy moon phase garland",
+      "spoons": 3,
+      "time": "3 hours",
+      "tags": ["gothic", "witchy", "decor"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 180,
+      "idea": "Seated shower wrap (Velcro closure)",
+      "spoons": 3,
+      "time": "2 hours",
+      "tags": ["adaptive", "bathroom", "dignity"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 181,
+      "idea": "Baroque collar with chains",
+      "spoons": 4,
+      "time": "4 hours",
+      "tags": ["gothic", "dramatic", "steampunk"],
+      "difficulty": "complex",
+      "skillLevel": "advanced"
+    },
+    {
+      "id": 182,
+      "idea": "Nephrostomy bag cover (discreet)",
+      "spoons": 2,
+      "time": "1.5 hours",
+      "tags": ["adaptive", "medical", "dignity"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 183,
+      "idea": "Black lace parasol",
+      "spoons": 5,
+      "time": "10 hours",
+      "tags": ["gothic", "victorian", "complex"],
+      "difficulty": "complex",
+      "skillLevel": "advanced"
+    },
+    {
+      "id": 184,
+      "idea": "Adaptive overalls with side snaps",
+      "spoons": 5,
+      "time": "6 hours",
+      "tags": ["adaptive", "easy-toileting", "functional"],
+      "difficulty": "complex",
+      "skillLevel": "advanced"
+    },
+    {
+      "id": 185,
+      "idea": "Skull patchwork quilt square",
+      "spoons": 3,
+      "time": "3 hours",
+      "tags": ["gothic", "quilting", "art"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 186,
+      "idea": "Port access shirt (special opening)",
+      "spoons": 4,
+      "time": "4 hours",
+      "tags": ["adaptive", "medical", "chemo"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 187,
+      "idea": "Gothic chandelier earrings (fabric)",
+      "spoons": 2,
+      "time": "1.5 hours",
+      "tags": ["gothic", "elegant", "jewelry"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 188,
+      "idea": "Adapted foam handle covers for utensils",
+      "spoons": 1,
+      "time": "30min",
+      "tags": ["adaptive", "eating", "hEDS"],
+      "difficulty": "very easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 189,
+      "idea": "Memento mori sampler (embroidery)",
+      "spoons": 5,
+      "time": "10 hours",
+      "tags": ["gothic", "embroidery", "art"],
+      "difficulty": "complex",
+      "skillLevel": "advanced"
+    },
+    {
+      "id": 190,
+      "idea": "Wraparound skirt with ties (adjustable)",
+      "spoons": 3,
+      "time": "2.5 hours",
+      "tags": ["adaptive", "adjustable", "easy"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 191,
+      "idea": "Occult book stack pillow set",
+      "spoons": 4,
+      "time": "5 hours",
+      "tags": ["gothic", "witchy", "decor"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 192,
+      "idea": "Catheter leg strap covers (soft, pretty)",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["adaptive", "medical", "comfort"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 193,
+      "idea": "Black widow spider brooch (3D)",
+      "spoons": 3,
+      "time": "2 hours",
+      "tags": ["gothic", "spooky", "jewelry"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 194,
+      "idea": "Easy-release bra (front magnetic closure)",
+      "spoons": 4,
+      "time": "3 hours",
+      "tags": ["adaptive", "easy-dressing", "innovative"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 195,
+      "idea": "Alchemical symbols tablecloth",
+      "spoons": 4,
+      "time": "6 hours",
+      "tags": ["gothic", "occult", "functional"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 196,
+      "idea": "Colostomy bag belt (decorative, supportive)",
+      "spoons": 3,
+      "time": "2 hours",
+      "tags": ["adaptive", "medical", "ostomy"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 197,
+      "idea": "Victorian mourning handkerchief with lace",
+      "spoons": 2,
+      "time": "1.5 hours",
+      "tags": ["gothic", "victorian", "accessories"],
+      "difficulty": "easy",
+      "skillLevel": "beginner"
+    },
+    {
+      "id": 198,
+      "idea": "Side-zip adaptive jacket (one-handed use)",
+      "spoons": 5,
+      "time": "6 hours",
+      "tags": ["adaptive", "one-handed", "outerwear"],
+      "difficulty": "complex",
+      "skillLevel": "advanced"
+    },
+    {
+      "id": 199,
+      "idea": "Plague doctor beak stuffed with herbs",
+      "spoons": 3,
+      "time": "3 hours",
+      "tags": ["gothic", "historical", "aromatherapy"],
+      "difficulty": "moderate",
+      "skillLevel": "intermediate"
+    },
+    {
+      "id": 200,
+      "idea": "Celebrate finishing this gothic/adaptive sewing project!",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["celebration", "achievement", "self-love"],
+      "difficulty": "very easy",
+      "skillLevel": "beginner"
+    }
+  ]
+}

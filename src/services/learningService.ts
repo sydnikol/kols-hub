@@ -34,18 +34,25 @@ interface SkillProgress {
 class LearningService {
   // Record a passive learning moment (happens automatically in app)
   async recordLearningMoment(moment: Omit<LearningMoment, 'id' | 'timestamp'>) {
-    const learningMoment: LearningMoment = {
-      id: `learning_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
+    const learningMoment = {
       timestamp: new Date(),
-      ...moment
+      topic: moment.skillPracticed || 'Learning Moment',
+      content: moment.contextNote || 'Skill practiced',
+      pathwayId: moment.pathwayId,
+      moduleId: moment.moduleId,
+      skillPracticed: moment.skillPracticed,
+      portfolioPiece: moment.portfolioPiece
     };
 
     await db.learningMoments.add(learningMoment);
-    
+
     // Update skill progress
-    await this.updateSkillProgress(moment.pathwayId, moment.moduleId, moment.skillPracticed);
-    
-    return learningMoment;
+    await this.updateSkillProgress(moment.pathwayId, moment.moduleId, moment.skillPracticed || '');
+
+    return {
+      id: `learning_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
+      ...learningMoment
+    };
   }
 
   // Add portfolio piece (when user creates something)

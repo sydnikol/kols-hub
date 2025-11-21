@@ -31,17 +31,17 @@ const KolCompanion = () => {
   }, [conversation]);
 
   const loadConversationHistory = async () => {
-    const history = await db.chronoMuseConversations
+    const history = await db.conversations
       .orderBy('timestamp')
       .reverse()
       .limit(50)
       .toArray();
     
     const formatted = history.map(conv => [
-      { role: 'user' as const, content: conv.userMessage, timestamp: conv.timestamp },
-      { role: 'assistant' as const, content: conv.aiResponse, timestamp: conv.timestamp }
+      { role: 'user' as const, content: conv.userMessage, timestamp: conv.timestamp.toISOString() },
+      { role: 'assistant' as const, content: conv.aiResponse, timestamp: conv.timestamp.toISOString() }
     ]).flat();
-    
+
     setConversation(formatted);
   };
 
@@ -57,20 +57,21 @@ const KolCompanion = () => {
   const handleSendMessage = async () => {
     if (!message.trim()) return;
 
-    const userMsg = { role: 'user' as const, content: message, timestamp: new Date().toISOString() };
+    const userMsg = { role: 'user' as const, content: message, timestamp: new Date().toISOString()  };
     setConversation(prev => [...prev, userMsg]);
-    
+
     // Generate AI response (this would integrate with actual AI service)
     const aiResponse = await generateAIResponse(message);
-    const assistantMsg = { role: 'assistant' as const, content: aiResponse, timestamp: new Date().toISOString() };
+    const assistantMsg = { role: 'assistant' as const, content: aiResponse, timestamp: new Date().toISOString()  };
     setConversation(prev => [...prev, assistantMsg]);
 
     // Save to database
-    await db.chronoMuseConversations.add({
-      timestamp: new Date().toISOString(),
+    await db.conversations.add({
+      timestamp: new Date(),
+      mode: 'companion',
+      room: 'health',
       userMessage: message,
       aiResponse: aiResponse,
-      sentiment: detectSentiment(message),
     });
 
     setMessage('');
@@ -190,11 +191,11 @@ const KolCompanion = () => {
             <h3 className="text-lg font-semibold mb-4">Your Avatar</h3>
             <div className="aspect-square bg-gradient-to-b from-purple-900/20 to-indigo-900/20 rounded-lg overflow-hidden">
               <ReadyPlayerMeAvatar
-                avatarId={userProfile.readyPlayerMeAvatarId || DEFAULT_AVATAR_ID}
-                autoRotate={true}
+                avatarUrl={`https://models.readyplayer.me/${userProfile.readyPlayerMeAvatarId || DEFAULT_AVATAR_ID}.glb`}
+                enableRotation={true}
                 showControls={true}
                 quality="medium"
-                animation={isListening ? 'talk' : 'idle'}
+                mood={isListening ? 'curious' : 'neutral'}
               />
             </div>
             <p className="text-sm text-gray-400 mt-3 text-center">

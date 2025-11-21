@@ -1,0 +1,1804 @@
+{
+  "art": [
+    {
+      "id": 1,
+      "idea": "Draw your current emotion as abstract shapes",
+      "spoons": 1,
+      "time": "10min",
+      "tags": ["drawing", "emotional-expression", "quick"],
+      "difficulty": "very easy",
+      "medium": "pencil/paper"
+    },
+    {
+      "id": 2,
+      "idea": "Collage your ideal safe space from magazine clippings",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["collage", "therapeutic", "no-drawing-required"],
+      "difficulty": "easy",
+      "medium": "mixed-media"
+    },
+    {
+      "id": 3,
+      "idea": "Paint a single flower in watercolor",
+      "spoons": 2,
+      "time": "20min",
+      "tags": ["watercolor", "nature", "beginner"],
+      "difficulty": "easy",
+      "medium": "watercolor"
+    },
+    {
+      "id": 4,
+      "idea": "Doodle patterns in your journal margins",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["doodling", "mindless", "quick"],
+      "difficulty": "very easy",
+      "medium": "pen"
+    },
+    {
+      "id": 5,
+      "idea": "Sketch your coffee mug from observation",
+      "spoons": 2,
+      "time": "15min",
+      "tags": ["observational-drawing", "beginner", "everyday-objects"],
+      "difficulty": "easy",
+      "medium": "pencil"
+    },
+    {
+      "id": 6,
+      "idea": "Digital art: Draw a cute ghost character",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["digital", "character-design", "cute"],
+      "difficulty": "moderate",
+      "medium": "digital"
+    },
+    {
+      "id": 7,
+      "idea": "Color a page from an adult coloring book",
+      "spoons": 1,
+      "time": "20min",
+      "tags": ["coloring", "meditative", "low-effort"],
+      "difficulty": "very easy",
+      "medium": "colored-pencils"
+    },
+    {
+      "id": 8,
+      "idea": "Create a mood board for your ideal gothic bedroom",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["collage", "gothic", "planning"],
+      "difficulty": "easy",
+      "medium": "mixed-media"
+    },
+    {
+      "id": 9,
+      "idea": "Paint a sunset gradient practice swatch",
+      "spoons": 1,
+      "time": "10min",
+      "tags": ["watercolor", "practice", "color-blending"],
+      "difficulty": "very easy",
+      "medium": "watercolor"
+    },
+    {
+      "id": 10,
+      "idea": "Sketch your hand in different positions",
+      "spoons": 2,
+      "time": "20min",
+      "tags": ["anatomy", "practice", "observational"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 11,
+      "idea": "Draw a single eye with shading",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["portrait", "anatomy", "shading"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 12,
+      "idea": "Create a zentangle pattern tile",
+      "spoons": 1,
+      "time": "15min",
+      "tags": ["zentangle", "meditative", "patterns"],
+      "difficulty": "very easy",
+      "medium": "pen"
+    },
+    {
+      "id": 13,
+      "idea": "Paint abstract emotions with only 3 colors",
+      "spoons": 2,
+      "time": "20min",
+      "tags": ["abstract", "emotional-expression", "limited-palette"],
+      "difficulty": "easy",
+      "medium": "acrylic"
+    },
+    {
+      "id": 14,
+      "idea": "Digital art: Design a witchy logo",
+      "spoons": 3,
+      "time": "1.5 hours",
+      "tags": ["digital", "graphic-design", "witchy"],
+      "difficulty": "moderate",
+      "medium": "digital"
+    },
+    {
+      "id": 15,
+      "idea": "Sketch your pet or favorite animal",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["animals", "observational", "cute"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 16,
+      "idea": "Trace and embellish a photo with watercolor",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["watercolor", "mixed-media", "beginner-friendly"],
+      "difficulty": "easy",
+      "medium": "mixed-media"
+    },
+    {
+      "id": 17,
+      "idea": "Draw a simple skull (front view)",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["anatomy", "gothic", "beginner"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 18,
+      "idea": "Splatter paint on black paper (galaxy effect)",
+      "spoons": 1,
+      "time": "15min",
+      "tags": ["abstract", "fun", "messy"],
+      "difficulty": "very easy",
+      "medium": "acrylic"
+    },
+    {
+      "id": 19,
+      "idea": "Sketch architectural details (windows, doors)",
+      "spoons": 3,
+      "time": "45min",
+      "tags": ["architecture", "perspective", "observational"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 20,
+      "idea": "Create an art journal page about today",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["art-journaling", "therapeutic", "mixed-media"],
+      "difficulty": "easy",
+      "medium": "mixed-media"
+    },
+    {
+      "id": 21,
+      "idea": "Paint a monochromatic landscape",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["landscape", "monochrome", "practice"],
+      "difficulty": "moderate",
+      "medium": "acrylic"
+    },
+    {
+      "id": 22,
+      "idea": "Doodle botanical elements (leaves, flowers)",
+      "spoons": 1,
+      "time": "15min",
+      "tags": ["botanical", "doodling", "nature"],
+      "difficulty": "very easy",
+      "medium": "pen"
+    },
+    {
+      "id": 23,
+      "idea": "Digital art: Create a character portrait",
+      "spoons": 4,
+      "time": "2 hours",
+      "tags": ["digital", "portrait", "character-design"],
+      "difficulty": "moderate",
+      "medium": "digital"
+    },
+    {
+      "id": 24,
+      "idea": "Sketch clouds and practice shading",
+      "spoons": 1,
+      "time": "20min",
+      "tags": ["nature", "shading", "practice"],
+      "difficulty": "easy",
+      "medium": "pencil"
+    },
+    {
+      "id": 25,
+      "idea": "Paint a tarot card design",
+      "spoons": 4,
+      "time": "2 hours",
+      "tags": ["witchy", "illustration", "symbolic"],
+      "difficulty": "complex",
+      "medium": "mixed-media"
+    },
+    {
+      "id": 26,
+      "idea": "Draw repeating patterns (wallpaper design)",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["pattern-design", "geometric", "repetitive"],
+      "difficulty": "moderate",
+      "medium": "pen"
+    },
+    {
+      "id": 27,
+      "idea": "Watercolor wash practice (wet-on-wet)",
+      "spoons": 1,
+      "time": "15min",
+      "tags": ["watercolor", "technique", "practice"],
+      "difficulty": "easy",
+      "medium": "watercolor"
+    },
+    {
+      "id": 28,
+      "idea": "Sketch a still life with fruit",
+      "spoons": 3,
+      "time": "45min",
+      "tags": ["still-life", "observational", "classical"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 29,
+      "idea": "Create a vision board for your dreams",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["collage", "manifestation", "therapeutic"],
+      "difficulty": "easy",
+      "medium": "mixed-media"
+    },
+    {
+      "id": 30,
+      "idea": "Draw a raven or crow in detail",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["gothic", "animals", "detailed"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 31,
+      "idea": "Paint rocks with mandalas",
+      "spoons": 2,
+      "time": "45min",
+      "tags": ["crafts", "meditative", "3D"],
+      "difficulty": "easy",
+      "medium": "acrylic"
+    },
+    {
+      "id": 32,
+      "idea": "Digital art: Design a book cover",
+      "spoons": 4,
+      "time": "3 hours",
+      "tags": ["digital", "graphic-design", "illustration"],
+      "difficulty": "complex",
+      "medium": "digital"
+    },
+    {
+      "id": 33,
+      "idea": "Sketch trees in different seasons",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["nature", "botanical", "series"],
+      "difficulty": "easy",
+      "medium": "pencil"
+    },
+    {
+      "id": 34,
+      "idea": "Create a blackout poetry page",
+      "spoons": 1,
+      "time": "20min",
+      "tags": ["poetry", "mixed-media", "found-art"],
+      "difficulty": "very easy",
+      "medium": "marker"
+    },
+    {
+      "id": 35,
+      "idea": "Paint a simple mushroom cluster",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["nature", "botanical", "witchy"],
+      "difficulty": "easy",
+      "medium": "watercolor"
+    },
+    {
+      "id": 36,
+      "idea": "Draw your favorite fictional character",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["fan-art", "character-design", "practice"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 37,
+      "idea": "Create a mandala using a compass",
+      "spoons": 3,
+      "time": "1.5 hours",
+      "tags": ["mandala", "geometric", "meditative"],
+      "difficulty": "moderate",
+      "medium": "pen"
+    },
+    {
+      "id": 38,
+      "idea": "Finger paint abstract expressionism",
+      "spoons": 2,
+      "time": "20min",
+      "tags": ["abstract", "tactile", "playful"],
+      "difficulty": "very easy",
+      "medium": "acrylic"
+    },
+    {
+      "id": 39,
+      "idea": "Sketch fashion design ideas (gothic clothing)",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["fashion-design", "gothic", "conceptual"],
+      "difficulty": "easy",
+      "medium": "pencil"
+    },
+    {
+      "id": 40,
+      "idea": "Digital art: Create a repeating pattern",
+      "spoons": 3,
+      "time": "1.5 hours",
+      "tags": ["digital", "pattern-design", "graphic-design"],
+      "difficulty": "moderate",
+      "medium": "digital"
+    },
+    {
+      "id": 41,
+      "idea": "Paint a moon phase series (8 phases)",
+      "spoons": 3,
+      "time": "2 hours",
+      "tags": ["celestial", "witchy", "series"],
+      "difficulty": "moderate",
+      "medium": "acrylic"
+    },
+    {
+      "id": 42,
+      "idea": "Draw geometric shapes with shading",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["geometry", "shading", "practice"],
+      "difficulty": "easy",
+      "medium": "pencil"
+    },
+    {
+      "id": 43,
+      "idea": "Create a gratitude doodle page",
+      "spoons": 1,
+      "time": "15min",
+      "tags": ["doodling", "therapeutic", "positive"],
+      "difficulty": "very easy",
+      "medium": "pen"
+    },
+    {
+      "id": 44,
+      "idea": "Watercolor a simple seascape",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["landscape", "watercolor", "calming"],
+      "difficulty": "easy",
+      "medium": "watercolor"
+    },
+    {
+      "id": 45,
+      "idea": "Sketch portraits from reference photos",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["portrait", "anatomy", "observational"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 46,
+      "idea": "Decorate a plain notebook cover",
+      "spoons": 2,
+      "time": "45min",
+      "tags": ["mixed-media", "functional-art", "personalization"],
+      "difficulty": "easy",
+      "medium": "mixed-media"
+    },
+    {
+      "id": 47,
+      "idea": "Digital art: Design stickers for your brand",
+      "spoons": 3,
+      "time": "2 hours",
+      "tags": ["digital", "graphic-design", "cute"],
+      "difficulty": "moderate",
+      "medium": "digital"
+    },
+    {
+      "id": 48,
+      "idea": "Paint a galaxy background",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["celestial", "abstract", "popular"],
+      "difficulty": "easy",
+      "medium": "acrylic"
+    },
+    {
+      "id": 49,
+      "idea": "Draw your comfort character in a new pose",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["fan-art", "character-design", "comfort"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 50,
+      "idea": "Create a color swatch journal page",
+      "spoons": 1,
+      "time": "20min",
+      "tags": ["color-theory", "organizational", "swatching"],
+      "difficulty": "very easy",
+      "medium": "mixed-media"
+    },
+    {
+      "id": 51,
+      "idea": "Sketch different eye shapes and styles",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["anatomy", "practice", "series"],
+      "difficulty": "easy",
+      "medium": "pencil"
+    },
+    {
+      "id": 52,
+      "idea": "Watercolor loose florals (no sketching first)",
+      "spoons": 2,
+      "time": "25min",
+      "tags": ["watercolor", "loose-style", "botanical"],
+      "difficulty": "moderate",
+      "medium": "watercolor"
+    },
+    {
+      "id": 53,
+      "idea": "Digital art: Illustrate a mood/aesthetic",
+      "spoons": 4,
+      "time": "2.5 hours",
+      "tags": ["digital", "illustration", "atmospheric"],
+      "difficulty": "complex",
+      "medium": "digital"
+    },
+    {
+      "id": 54,
+      "idea": "Draw crystals and gemstones",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["witchy", "geometric", "shiny-objects"],
+      "difficulty": "moderate",
+      "medium": "colored-pencils"
+    },
+    {
+      "id": 55,
+      "idea": "Paint a sunset silhouette scene",
+      "spoons": 2,
+      "time": "45min",
+      "tags": ["landscape", "silhouette", "beginner-friendly"],
+      "difficulty": "easy",
+      "medium": "acrylic"
+    },
+    {
+      "id": 56,
+      "idea": "Create an emotional self-portrait",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["portrait", "emotional-expression", "therapeutic"],
+      "difficulty": "moderate",
+      "medium": "mixed-media"
+    },
+    {
+      "id": 57,
+      "idea": "Doodle page of tiny mushrooms",
+      "spoons": 1,
+      "time": "15min",
+      "tags": ["doodling", "witchy", "cute"],
+      "difficulty": "very easy",
+      "medium": "pen"
+    },
+    {
+      "id": 58,
+      "idea": "Sketch architectural fantasy (castles, towers)",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["architecture", "fantasy", "detailed"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 59,
+      "idea": "Digital art: Create an OC (original character)",
+      "spoons": 4,
+      "time": "3 hours",
+      "tags": ["digital", "character-design", "worldbuilding"],
+      "difficulty": "complex",
+      "medium": "digital"
+    },
+    {
+      "id": 60,
+      "idea": "Paint abstract color blocking",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["abstract", "modern", "color-theory"],
+      "difficulty": "easy",
+      "medium": "acrylic"
+    },
+    {
+      "id": 61,
+      "idea": "Draw hands in various gestures",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["anatomy", "practice", "challenging"],
+      "difficulty": "complex",
+      "medium": "pencil"
+    },
+    {
+      "id": 62,
+      "idea": "Create a witchy sigil design",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["witchy", "symbolic", "personal"],
+      "difficulty": "easy",
+      "medium": "pen"
+    },
+    {
+      "id": 63,
+      "idea": "Watercolor a simple cactus in a pot",
+      "spoons": 1,
+      "time": "20min",
+      "tags": ["botanical", "cute", "beginner"],
+      "difficulty": "very easy",
+      "medium": "watercolor"
+    },
+    {
+      "id": 64,
+      "idea": "Sketch your ideal fantasy home exterior",
+      "spoons": 3,
+      "time": "45min",
+      "tags": ["architecture", "fantasy", "dreaming"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 65,
+      "idea": "Digital art: Design an emoji set",
+      "spoons": 3,
+      "time": "2 hours",
+      "tags": ["digital", "cute", "graphic-design"],
+      "difficulty": "moderate",
+      "medium": "digital"
+    },
+    {
+      "id": 66,
+      "idea": "Paint a starry night sky",
+      "spoons": 2,
+      "time": "40min",
+      "tags": ["celestial", "calming", "beginner"],
+      "difficulty": "easy",
+      "medium": "acrylic"
+    },
+    {
+      "id": 67,
+      "idea": "Draw a detailed feather with texture",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["nature", "texture", "practice"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 68,
+      "idea": "Create a mixed-media trauma release page",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["art-therapy", "emotional-expression", "healing"],
+      "difficulty": "easy",
+      "medium": "mixed-media"
+    },
+    {
+      "id": 69,
+      "idea": "Sketch a cozy interior scene",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["interior-design", "perspective", "cozy"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 70,
+      "idea": "Watercolor a lavender field",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["landscape", "botanical", "calming"],
+      "difficulty": "easy",
+      "medium": "watercolor"
+    },
+    {
+      "id": 71,
+      "idea": "Digital art: Create a fantasy map",
+      "spoons": 4,
+      "time": "3 hours",
+      "tags": ["digital", "worldbuilding", "cartography"],
+      "difficulty": "complex",
+      "medium": "digital"
+    },
+    {
+      "id": 72,
+      "idea": "Doodle page filled with eyes (various styles)",
+      "spoons": 2,
+      "time": "20min",
+      "tags": ["doodling", "anatomy", "creepy-cute"],
+      "difficulty": "easy",
+      "medium": "pen"
+    },
+    {
+      "id": 73,
+      "idea": "Paint an impressionist flower garden",
+      "spoons": 3,
+      "time": "1.5 hours",
+      "tags": ["impressionism", "botanical", "loose-style"],
+      "difficulty": "moderate",
+      "medium": "acrylic"
+    },
+    {
+      "id": 74,
+      "idea": "Draw a realistic rose",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["botanical", "realistic", "gothic"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 75,
+      "idea": "Create a daily mood tracker art page",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["bullet-journal", "tracking", "functional"],
+      "difficulty": "easy",
+      "medium": "mixed-media"
+    },
+    {
+      "id": 76,
+      "idea": "Sketch a dragon (simple or detailed)",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["fantasy", "creatures", "fun"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 77,
+      "idea": "Digital art: Design a social media banner",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["digital", "graphic-design", "branding"],
+      "difficulty": "easy",
+      "medium": "digital"
+    },
+    {
+      "id": 78,
+      "idea": "Watercolor an autumn leaf study",
+      "spoons": 2,
+      "time": "25min",
+      "tags": ["botanical", "seasonal", "observational"],
+      "difficulty": "easy",
+      "medium": "watercolor"
+    },
+    {
+      "id": 79,
+      "idea": "Paint a witch's potion bottles shelf",
+      "spoons": 3,
+      "time": "1.5 hours",
+      "tags": ["witchy", "still-life", "detailed"],
+      "difficulty": "moderate",
+      "medium": "acrylic"
+    },
+    {
+      "id": 80,
+      "idea": "Draw fabric folds and drapery studies",
+      "spoons": 3,
+      "time": "45min",
+      "tags": ["technique", "practice", "shading"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 81,
+      "idea": "Create an inspirational quote page",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["lettering", "positive", "decorative"],
+      "difficulty": "easy",
+      "medium": "mixed-media"
+    },
+    {
+      "id": 82,
+      "idea": "Sketch a mermaid or siren",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["fantasy", "mythology", "character-design"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 83,
+      "idea": "Digital art: Create pixel art sprites",
+      "spoons": 3,
+      "time": "1.5 hours",
+      "tags": ["digital", "pixel-art", "gaming"],
+      "difficulty": "moderate",
+      "medium": "digital"
+    },
+    {
+      "id": 84,
+      "idea": "Paint a simple birch forest",
+      "spoons": 2,
+      "time": "40min",
+      "tags": ["landscape", "nature", "beginner"],
+      "difficulty": "easy",
+      "medium": "acrylic"
+    },
+    {
+      "id": 85,
+      "idea": "Draw your comfort food as cute characters",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["cute", "food-art", "fun"],
+      "difficulty": "easy",
+      "medium": "pencil"
+    },
+    {
+      "id": 86,
+      "idea": "Zentangle a bookmark design",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["zentangle", "functional", "meditative"],
+      "difficulty": "easy",
+      "medium": "pen"
+    },
+    {
+      "id": 87,
+      "idea": "Watercolor a succulent collection",
+      "spoons": 2,
+      "time": "45min",
+      "tags": ["botanical", "modern", "cute"],
+      "difficulty": "moderate",
+      "medium": "watercolor"
+    },
+    {
+      "id": 88,
+      "idea": "Sketch a Gothic cathedral detail",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["gothic", "architecture", "detailed"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 89,
+      "idea": "Digital art: Create an album cover",
+      "spoons": 4,
+      "time": "2.5 hours",
+      "tags": ["digital", "graphic-design", "music"],
+      "difficulty": "complex",
+      "medium": "digital"
+    },
+    {
+      "id": 90,
+      "idea": "Paint a moody forest scene",
+      "spoons": 3,
+      "time": "1.5 hours",
+      "tags": ["landscape", "atmospheric", "dark"],
+      "difficulty": "moderate",
+      "medium": "acrylic"
+    },
+    {
+      "id": 91,
+      "idea": "Draw your zodiac sign as a character",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["character-design", "astrology", "personalized"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 92,
+      "idea": "Create a self-care reminder poster",
+      "spoons": 2,
+      "time": "45min",
+      "tags": ["lettering", "self-care", "functional"],
+      "difficulty": "easy",
+      "medium": "mixed-media"
+    },
+    {
+      "id": 93,
+      "idea": "Sketch different hairstyles reference sheet",
+      "spoons": 2,
+      "time": "40min",
+      "tags": ["reference", "practice", "character-design"],
+      "difficulty": "easy",
+      "medium": "pencil"
+    },
+    {
+      "id": 94,
+      "idea": "Watercolor a rainy day scene",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["landscape", "atmospheric", "moody"],
+      "difficulty": "moderate",
+      "medium": "watercolor"
+    },
+    {
+      "id": 95,
+      "idea": "Digital art: Design Twitch emotes",
+      "spoons": 3,
+      "time": "2 hours",
+      "tags": ["digital", "emotes", "cute"],
+      "difficulty": "moderate",
+      "medium": "digital"
+    },
+    {
+      "id": 96,
+      "idea": "Paint an ocean wave close-up",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["seascape", "water", "detailed"],
+      "difficulty": "moderate",
+      "medium": "acrylic"
+    },
+    {
+      "id": 97,
+      "idea": "Draw a plague doctor character",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["gothic", "historical", "character-design"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 98,
+      "idea": "Collage your year in review",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["collage", "reflective", "memory-keeping"],
+      "difficulty": "easy",
+      "medium": "mixed-media"
+    },
+    {
+      "id": 99,
+      "idea": "Sketch a cat in different poses",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["animals", "practice", "cute"],
+      "difficulty": "easy",
+      "medium": "pencil"
+    },
+    {
+      "id": 100,
+      "idea": "Watercolor a tea cup with steam",
+      "spoons": 2,
+      "time": "25min",
+      "tags": ["still-life", "cozy", "simple"],
+      "difficulty": "easy",
+      "medium": "watercolor"
+    },
+    {
+      "id": 101,
+      "idea": "Digital art: Create an animated GIF loop",
+      "spoons": 4,
+      "time": "3 hours",
+      "tags": ["digital", "animation", "advanced"],
+      "difficulty": "complex",
+      "medium": "digital"
+    },
+    {
+      "id": 102,
+      "idea": "Paint a cherry blossom branch",
+      "spoons": 2,
+      "time": "40min",
+      "tags": ["botanical", "spring", "delicate"],
+      "difficulty": "moderate",
+      "medium": "watercolor"
+    },
+    {
+      "id": 103,
+      "idea": "Draw a Victorian lady in mourning attire",
+      "spoons": 4,
+      "time": "2 hours",
+      "tags": ["gothic", "victorian", "fashion"],
+      "difficulty": "complex",
+      "medium": "pencil"
+    },
+    {
+      "id": 104,
+      "idea": "Create a mixed-media poetry page",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["poetry", "mixed-media", "literary"],
+      "difficulty": "easy",
+      "medium": "mixed-media"
+    },
+    {
+      "id": 105,
+      "idea": "Sketch a steampunk gadget or invention",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["steampunk", "invention", "mechanical"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 106,
+      "idea": "Watercolor gradient color wheel",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["color-theory", "practice", "educational"],
+      "difficulty": "easy",
+      "medium": "watercolor"
+    },
+    {
+      "id": 107,
+      "idea": "Digital art: Create a webcomic page",
+      "spoons": 5,
+      "time": "4 hours",
+      "tags": ["digital", "comics", "storytelling"],
+      "difficulty": "complex",
+      "medium": "digital"
+    },
+    {
+      "id": 108,
+      "idea": "Paint a cottagecore kitchen scene",
+      "spoons": 3,
+      "time": "1.5 hours",
+      "tags": ["cottagecore", "interior", "cozy"],
+      "difficulty": "moderate",
+      "medium": "acrylic"
+    },
+    {
+      "id": 109,
+      "idea": "Draw anatomical heart with flowers",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["gothic", "anatomy", "botanical"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 110,
+      "idea": "Doodle page of tiny ghosts",
+      "spoons": 1,
+      "time": "15min",
+      "tags": ["doodling", "cute", "spooky"],
+      "difficulty": "very easy",
+      "medium": "pen"
+    },
+    {
+      "id": 111,
+      "idea": "Sketch your dream library interior",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["interior-design", "dreaming", "cozy"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 112,
+      "idea": "Watercolor a single butterfly",
+      "spoons": 1,
+      "time": "20min",
+      "tags": ["nature", "delicate", "beginner"],
+      "difficulty": "very easy",
+      "medium": "watercolor"
+    },
+    {
+      "id": 113,
+      "idea": "Digital art: Design a podcast logo",
+      "spoons": 3,
+      "time": "2 hours",
+      "tags": ["digital", "branding", "graphic-design"],
+      "difficulty": "moderate",
+      "medium": "digital"
+    },
+    {
+      "id": 114,
+      "idea": "Paint a Northern Lights landscape",
+      "spoons": 3,
+      "time": "1.5 hours",
+      "tags": ["landscape", "celestial", "dramatic"],
+      "difficulty": "moderate",
+      "medium": "acrylic"
+    },
+    {
+      "id": 115,
+      "idea": "Draw a detailed spider web with dew",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["nature", "detailed", "gothic"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 116,
+      "idea": "Create a habit tracker art spread",
+      "spoons": 2,
+      "time": "45min",
+      "tags": ["bullet-journal", "functional", "tracking"],
+      "difficulty": "easy",
+      "medium": "mixed-media"
+    },
+    {
+      "id": 117,
+      "idea": "Sketch elves or fae characters",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["fantasy", "character-design", "mythology"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 118,
+      "idea": "Watercolor an underwater scene",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["seascape", "fantasy", "flowing"],
+      "difficulty": "moderate",
+      "medium": "watercolor"
+    },
+    {
+      "id": 119,
+      "idea": "Digital art: Create an icon pack",
+      "spoons": 4,
+      "time": "3 hours",
+      "tags": ["digital", "graphic-design", "cohesive-set"],
+      "difficulty": "complex",
+      "medium": "digital"
+    },
+    {
+      "id": 120,
+      "idea": "Paint a magical potion in a bottle",
+      "spoons": 2,
+      "time": "40min",
+      "tags": ["witchy", "still-life", "glowing"],
+      "difficulty": "moderate",
+      "medium": "acrylic"
+    },
+    {
+      "id": 121,
+      "idea": "Draw a gargoyle statue",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["gothic", "architecture", "creatures"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 122,
+      "idea": "Zentangle a mandala-style piece",
+      "spoons": 3,
+      "time": "1.5 hours",
+      "tags": ["zentangle", "mandala", "meditative"],
+      "difficulty": "moderate",
+      "medium": "pen"
+    },
+    {
+      "id": 123,
+      "idea": "Watercolor loose peonies",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["botanical", "loose-style", "romantic"],
+      "difficulty": "moderate",
+      "medium": "watercolor"
+    },
+    {
+      "id": 124,
+      "idea": "Sketch different nose shapes (anatomy)",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["anatomy", "practice", "reference"],
+      "difficulty": "easy",
+      "medium": "pencil"
+    },
+    {
+      "id": 125,
+      "idea": "Digital art: Create a character turnaround",
+      "spoons": 5,
+      "time": "4 hours",
+      "tags": ["digital", "character-design", "professional"],
+      "difficulty": "complex",
+      "medium": "digital"
+    },
+    {
+      "id": 126,
+      "idea": "Paint a campfire at night",
+      "spoons": 2,
+      "time": "45min",
+      "tags": ["landscape", "night", "atmospheric"],
+      "difficulty": "moderate",
+      "medium": "acrylic"
+    },
+    {
+      "id": 127,
+      "idea": "Draw a realistic eye with color",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["anatomy", "realistic", "detailed"],
+      "difficulty": "complex",
+      "medium": "colored-pencils"
+    },
+    {
+      "id": 128,
+      "idea": "Create a memory collage of loved ones",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["collage", "sentimental", "memory-keeping"],
+      "difficulty": "easy",
+      "medium": "mixed-media"
+    },
+    {
+      "id": 129,
+      "idea": "Sketch a witch's familiar (cat, raven, etc.)",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["witchy", "animals", "cute"],
+      "difficulty": "easy",
+      "medium": "pencil"
+    },
+    {
+      "id": 130,
+      "idea": "Watercolor a single peony bloom",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["botanical", "romantic", "detailed"],
+      "difficulty": "moderate",
+      "medium": "watercolor"
+    },
+    {
+      "id": 131,
+      "idea": "Digital art: Design a YouTube thumbnail",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["digital", "graphic-design", "clickbait"],
+      "difficulty": "easy",
+      "medium": "digital"
+    },
+    {
+      "id": 132,
+      "idea": "Paint a sunset over mountains",
+      "spoons": 2,
+      "time": "45min",
+      "tags": ["landscape", "sunset", "popular"],
+      "difficulty": "easy",
+      "medium": "acrylic"
+    },
+    {
+      "id": 133,
+      "idea": "Draw a fairy with detailed wings",
+      "spoons": 3,
+      "time": "1.5 hours",
+      "tags": ["fantasy", "detailed", "delicate"],
+      "difficulty": "complex",
+      "medium": "pencil"
+    },
+    {
+      "id": 134,
+      "idea": "Doodle page of potions and bottles",
+      "spoons": 1,
+      "time": "15min",
+      "tags": ["doodling", "witchy", "quick"],
+      "difficulty": "very easy",
+      "medium": "pen"
+    },
+    {
+      "id": 135,
+      "idea": "Sketch a Gothic mansion exterior",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["gothic", "architecture", "spooky"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 136,
+      "idea": "Watercolor autumn trees",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["seasonal", "nature", "warm-colors"],
+      "difficulty": "easy",
+      "medium": "watercolor"
+    },
+    {
+      "id": 137,
+      "idea": "Digital art: Create a Vtuber model design",
+      "spoons": 5,
+      "time": "5 hours",
+      "tags": ["digital", "character-design", "streaming"],
+      "difficulty": "complex",
+      "medium": "digital"
+    },
+    {
+      "id": 138,
+      "idea": "Paint a snowy winter landscape",
+      "spoons": 3,
+      "time": "1.5 hours",
+      "tags": ["landscape", "winter", "peaceful"],
+      "difficulty": "moderate",
+      "medium": "acrylic"
+    },
+    {
+      "id": 139,
+      "idea": "Draw your inner critic as a creature",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["art-therapy", "emotional-expression", "creatures"],
+      "difficulty": "easy",
+      "medium": "pencil"
+    },
+    {
+      "id": 140,
+      "idea": "Create a monthly cover page layout",
+      "spoons": 2,
+      "time": "45min",
+      "tags": ["bullet-journal", "planning", "decorative"],
+      "difficulty": "easy",
+      "medium": "mixed-media"
+    },
+    {
+      "id": 141,
+      "idea": "Sketch medieval armor and weapons",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["medieval", "detailed", "reference"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 142,
+      "idea": "Watercolor a koi fish",
+      "spoons": 2,
+      "time": "40min",
+      "tags": ["nature", "flowing", "asian-inspired"],
+      "difficulty": "moderate",
+      "medium": "watercolor"
+    },
+    {
+      "id": 143,
+      "idea": "Digital art: Create a Discord server banner",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["digital", "graphic-design", "community"],
+      "difficulty": "easy",
+      "medium": "digital"
+    },
+    {
+      "id": 144,
+      "idea": "Paint a field of wildflowers",
+      "spoons": 3,
+      "time": "1.5 hours",
+      "tags": ["landscape", "botanical", "impressionistic"],
+      "difficulty": "moderate",
+      "medium": "acrylic"
+    },
+    {
+      "id": 145,
+      "idea": "Draw a steampunk airship",
+      "spoons": 4,
+      "time": "2 hours",
+      "tags": ["steampunk", "mechanical", "detailed"],
+      "difficulty": "complex",
+      "medium": "pencil"
+    },
+    {
+      "id": 146,
+      "idea": "Collage your aesthetic board",
+      "spoons": 2,
+      "time": "45min",
+      "tags": ["collage", "aesthetic", "personal"],
+      "difficulty": "easy",
+      "medium": "mixed-media"
+    },
+    {
+      "id": 147,
+      "idea": "Sketch a wolf or werewolf",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["animals", "fantasy", "gothic"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 148,
+      "idea": "Watercolor a misty forest path",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["landscape", "atmospheric", "moody"],
+      "difficulty": "moderate",
+      "medium": "watercolor"
+    },
+    {
+      "id": 149,
+      "idea": "Digital art: Design merchandise mockups",
+      "spoons": 3,
+      "time": "2 hours",
+      "tags": ["digital", "product-design", "commercial"],
+      "difficulty": "moderate",
+      "medium": "digital"
+    },
+    {
+      "id": 150,
+      "idea": "Paint a magical crystal cluster",
+      "spoons": 2,
+      "time": "45min",
+      "tags": ["witchy", "geometric", "sparkly"],
+      "difficulty": "moderate",
+      "medium": "acrylic"
+    },
+    {
+      "id": 151,
+      "idea": "Draw a haunted house scene",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["gothic", "spooky", "narrative"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 152,
+      "idea": "Zentangle art on a stone",
+      "spoons": 2,
+      "time": "45min",
+      "tags": ["zentangle", "3D-surface", "meditative"],
+      "difficulty": "easy",
+      "medium": "pen"
+    },
+    {
+      "id": 153,
+      "idea": "Watercolor a stormy ocean",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["seascape", "dramatic", "moody"],
+      "difficulty": "moderate",
+      "medium": "watercolor"
+    },
+    {
+      "id": 154,
+      "idea": "Sketch various lip shapes and expressions",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["anatomy", "practice", "expressions"],
+      "difficulty": "easy",
+      "medium": "pencil"
+    },
+    {
+      "id": 155,
+      "idea": "Digital art: Create an animated profile picture",
+      "spoons": 4,
+      "time": "3 hours",
+      "tags": ["digital", "animation", "personal-branding"],
+      "difficulty": "complex",
+      "medium": "digital"
+    },
+    {
+      "id": 156,
+      "idea": "Paint a candlelit scene (dramatic lighting)",
+      "spoons": 3,
+      "time": "1.5 hours",
+      "tags": ["lighting", "atmospheric", "gothic"],
+      "difficulty": "complex",
+      "medium": "acrylic"
+    },
+    {
+      "id": 157,
+      "idea": "Draw a skeleton in an action pose",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["anatomy", "gothic", "dynamic"],
+      "difficulty": "complex",
+      "medium": "pencil"
+    },
+    {
+      "id": 158,
+      "idea": "Create a trauma timeline art page",
+      "spoons": 3,
+      "time": "45min",
+      "tags": ["art-therapy", "healing", "processing"],
+      "difficulty": "moderate",
+      "medium": "mixed-media"
+    },
+    {
+      "id": 159,
+      "idea": "Sketch a fantasy weapon design",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["fantasy", "weapon-design", "concept-art"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 160,
+      "idea": "Watercolor a spring flower bouquet",
+      "spoons": 2,
+      "time": "40min",
+      "tags": ["botanical", "spring", "cheerful"],
+      "difficulty": "moderate",
+      "medium": "watercolor"
+    },
+    {
+      "id": 161,
+      "idea": "Digital art: Design a trading card",
+      "spoons": 3,
+      "time": "2 hours",
+      "tags": ["digital", "illustration", "gaming"],
+      "difficulty": "moderate",
+      "medium": "digital"
+    },
+    {
+      "id": 162,
+      "idea": "Paint a desert landscape with cacti",
+      "spoons": 2,
+      "time": "45min",
+      "tags": ["landscape", "warm", "southwestern"],
+      "difficulty": "easy",
+      "medium": "acrylic"
+    },
+    {
+      "id": 163,
+      "idea": "Draw a phoenix rising from ashes",
+      "spoons": 4,
+      "time": "2 hours",
+      "tags": ["mythology", "symbolic", "detailed"],
+      "difficulty": "complex",
+      "medium": "pencil"
+    },
+    {
+      "id": 164,
+      "idea": "Doodle page of tiny bats",
+      "spoons": 1,
+      "time": "15min",
+      "tags": ["doodling", "gothic", "cute"],
+      "difficulty": "very easy",
+      "medium": "pen"
+    },
+    {
+      "id": 165,
+      "idea": "Sketch a Victorian-era interior room",
+      "spoons": 3,
+      "time": "1.5 hours",
+      "tags": ["victorian", "interior-design", "detailed"],
+      "difficulty": "complex",
+      "medium": "pencil"
+    },
+    {
+      "id": 166,
+      "idea": "Watercolor a sunset reflection on water",
+      "spoons": 2,
+      "time": "35min",
+      "tags": ["landscape", "water", "reflections"],
+      "difficulty": "moderate",
+      "medium": "watercolor"
+    },
+    {
+      "id": 167,
+      "idea": "Digital art: Create an infographic design",
+      "spoons": 3,
+      "time": "2 hours",
+      "tags": ["digital", "graphic-design", "educational"],
+      "difficulty": "moderate",
+      "medium": "digital"
+    },
+    {
+      "id": 168,
+      "idea": "Paint a cottage with a garden",
+      "spoons": 3,
+      "time": "2 hours",
+      "tags": ["cottagecore", "landscape", "cozy"],
+      "difficulty": "moderate",
+      "medium": "acrylic"
+    },
+    {
+      "id": 169,
+      "idea": "Draw a demon or devil character",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["dark-art", "character-design", "gothic"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 170,
+      "idea": "Create a 'things that bring me joy' page",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["positive", "gratitude", "therapeutic"],
+      "difficulty": "easy",
+      "medium": "mixed-media"
+    },
+    {
+      "id": 171,
+      "idea": "Sketch different ear shapes (anatomy)",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["anatomy", "practice", "reference"],
+      "difficulty": "easy",
+      "medium": "pencil"
+    },
+    {
+      "id": 172,
+      "idea": "Watercolor a vintage botanical illustration",
+      "spoons": 3,
+      "time": "1.5 hours",
+      "tags": ["botanical", "vintage", "scientific"],
+      "difficulty": "complex",
+      "medium": "watercolor"
+    },
+    {
+      "id": 173,
+      "idea": "Digital art: Create a streamer overlay set",
+      "spoons": 5,
+      "time": "4 hours",
+      "tags": ["digital", "streaming", "cohesive-set"],
+      "difficulty": "complex",
+      "medium": "digital"
+    },
+    {
+      "id": 174,
+      "idea": "Paint a night sky with a shooting star",
+      "spoons": 2,
+      "time": "40min",
+      "tags": ["celestial", "night", "magical"],
+      "difficulty": "easy",
+      "medium": "acrylic"
+    },
+    {
+      "id": 175,
+      "idea": "Draw an angel with detailed wings",
+      "spoons": 4,
+      "time": "2 hours",
+      "tags": ["religious", "detailed", "classical"],
+      "difficulty": "complex",
+      "medium": "pencil"
+    },
+    {
+      "id": 176,
+      "idea": "Collage a shadow work therapy page",
+      "spoons": 3,
+      "time": "45min",
+      "tags": ["art-therapy", "shadow-work", "healing"],
+      "difficulty": "moderate",
+      "medium": "mixed-media"
+    },
+    {
+      "id": 177,
+      "idea": "Sketch a haunted graveyard scene",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["gothic", "spooky", "landscape"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 178,
+      "idea": "Watercolor a dreamy cloud study",
+      "spoons": 1,
+      "time": "20min",
+      "tags": ["nature", "soft", "practice"],
+      "difficulty": "easy",
+      "medium": "watercolor"
+    },
+    {
+      "id": 179,
+      "idea": "Digital art: Design a Pinterest pin template",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["digital", "social-media", "branding"],
+      "difficulty": "easy",
+      "medium": "digital"
+    },
+    {
+      "id": 180,
+      "idea": "Paint a magical doorway or portal",
+      "spoons": 3,
+      "time": "1.5 hours",
+      "tags": ["fantasy", "magical", "atmospheric"],
+      "difficulty": "moderate",
+      "medium": "acrylic"
+    },
+    {
+      "id": 181,
+      "idea": "Draw a barn owl in detail",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["animals", "detailed", "nature"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 182,
+      "idea": "Zentangle your name in decorative letters",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["zentangle", "lettering", "personal"],
+      "difficulty": "easy",
+      "medium": "pen"
+    },
+    {
+      "id": 183,
+      "idea": "Watercolor a foggy morning scene",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["landscape", "atmospheric", "soft"],
+      "difficulty": "moderate",
+      "medium": "watercolor"
+    },
+    {
+      "id": 184,
+      "idea": "Sketch different body types reference",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["anatomy", "body-positive", "reference"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 185,
+      "idea": "Digital art: Create a website header graphic",
+      "spoons": 3,
+      "time": "2 hours",
+      "tags": ["digital", "web-design", "graphic-design"],
+      "difficulty": "moderate",
+      "medium": "digital"
+    },
+    {
+      "id": 186,
+      "idea": "Paint a Japanese maple tree",
+      "spoons": 3,
+      "time": "1.5 hours",
+      "tags": ["botanical", "asian-inspired", "detailed"],
+      "difficulty": "moderate",
+      "medium": "acrylic"
+    },
+    {
+      "id": 187,
+      "idea": "Draw a detailed botanical moth",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["insects", "detailed", "gothic"],
+      "difficulty": "moderate",
+      "medium": "colored-pencils"
+    },
+    {
+      "id": 188,
+      "idea": "Create a 'recovery wins' celebration page",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["therapeutic", "positive", "celebration"],
+      "difficulty": "easy",
+      "medium": "mixed-media"
+    },
+    {
+      "id": 189,
+      "idea": "Sketch a medieval castle on a hill",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["medieval", "architecture", "landscape"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 190,
+      "idea": "Watercolor a coral reef scene",
+      "spoons": 3,
+      "time": "1.5 hours",
+      "tags": ["underwater", "colorful", "detailed"],
+      "difficulty": "complex",
+      "medium": "watercolor"
+    },
+    {
+      "id": 191,
+      "idea": "Digital art: Create a Patreon tier graphic",
+      "spoons": 3,
+      "time": "2 hours",
+      "tags": ["digital", "branding", "monetization"],
+      "difficulty": "moderate",
+      "medium": "digital"
+    },
+    {
+      "id": 192,
+      "idea": "Paint a lighthouse in a storm",
+      "spoons": 3,
+      "time": "2 hours",
+      "tags": ["seascape", "dramatic", "atmospheric"],
+      "difficulty": "complex",
+      "medium": "acrylic"
+    },
+    {
+      "id": 193,
+      "idea": "Draw a vampire portrait",
+      "spoons": 3,
+      "time": "1.5 hours",
+      "tags": ["gothic", "portrait", "dark"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 194,
+      "idea": "Doodle page of tarot symbols",
+      "spoons": 2,
+      "time": "20min",
+      "tags": ["doodling", "witchy", "symbolic"],
+      "difficulty": "easy",
+      "medium": "pen"
+    },
+    {
+      "id": 195,
+      "idea": "Sketch a fantasy creature (original design)",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["fantasy", "creature-design", "original"],
+      "difficulty": "moderate",
+      "medium": "pencil"
+    },
+    {
+      "id": 196,
+      "idea": "Watercolor a mountain landscape",
+      "spoons": 2,
+      "time": "35min",
+      "tags": ["landscape", "nature", "peaceful"],
+      "difficulty": "moderate",
+      "medium": "watercolor"
+    },
+    {
+      "id": 197,
+      "idea": "Digital art: Create an email signature graphic",
+      "spoons": 2,
+      "time": "1 hour",
+      "tags": ["digital", "professional", "branding"],
+      "difficulty": "easy",
+      "medium": "digital"
+    },
+    {
+      "id": 198,
+      "idea": "Paint your safe place (real or imagined)",
+      "spoons": 3,
+      "time": "2 hours",
+      "tags": ["therapeutic", "personal", "meaningful"],
+      "difficulty": "moderate",
+      "medium": "acrylic"
+    },
+    {
+      "id": 199,
+      "idea": "Draw a detailed tree of life",
+      "spoons": 4,
+      "time": "2 hours",
+      "tags": ["symbolic", "detailed", "spiritual"],
+      "difficulty": "complex",
+      "medium": "pen"
+    },
+    {
+      "id": 200,
+      "idea": "Celebrate completing this art idea!",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["celebration", "achievement", "self-love"],
+      "difficulty": "very easy",
+      "medium": "any"
+    }
+  ]
+}

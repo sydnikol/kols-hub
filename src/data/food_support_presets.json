@@ -1,0 +1,77 @@
+{
+  "module": "Food Support Presets",
+  "version": "1.0",
+  "generated_at": "2025-11-18",
+  "presets": [
+    {
+      "name": "Flare-Up Day",
+      "description": "Preset for flare-up day context.",
+      "sodium_goal_mg": 5000,
+      "fluid_goal_ml": 2800,
+      "notes": "Adjust with your medical team."
+    },
+    {
+      "name": "Comfort Day",
+      "description": "Preset for comfort day context.",
+      "sodium_goal_mg": 4200,
+      "fluid_goal_ml": 2800,
+      "notes": "Adjust with your medical team."
+    },
+    {
+      "name": "Hydration Focus",
+      "description": "Preset for hydration focus context.",
+      "sodium_goal_mg": 4000,
+      "fluid_goal_ml": 2600,
+      "notes": "Adjust with your medical team."
+    },
+    {
+      "name": "Meal Prep Week",
+      "description": "Preset for meal prep week context.",
+      "sodium_goal_mg": 3200,
+      "fluid_goal_ml": 3500,
+      "notes": "Adjust with your medical team."
+    },
+    {
+      "name": "High-Salt Boost",
+      "description": "Preset for high-salt boost context.",
+      "sodium_goal_mg": 5000,
+      "fluid_goal_ml": 2600,
+      "notes": "Adjust with your medical team."
+    },
+    {
+      "name": "Anti-Inflammatory",
+      "description": "Preset for anti-inflammatory context.",
+      "sodium_goal_mg": 3200,
+      "fluid_goal_ml": 2800,
+      "notes": "Adjust with your medical team."
+    },
+    {
+      "name": "Grief / Stress Day",
+      "description": "Preset for grief / stress day context.",
+      "sodium_goal_mg": 4000,
+      "fluid_goal_ml": 3500,
+      "notes": "Adjust with your medical team."
+    },
+    {
+      "name": "Good Energy Day",
+      "description": "Preset for good energy day context.",
+      "sodium_goal_mg": 5000,
+      "fluid_goal_ml": 2400,
+      "notes": "Adjust with your medical team."
+    },
+    {
+      "name": "Kitchen Reset",
+      "description": "Preset for kitchen reset context.",
+      "sodium_goal_mg": 4200,
+      "fluid_goal_ml": 3500,
+      "notes": "Adjust with your medical team."
+    },
+    {
+      "name": "Partner Care Day",
+      "description": "Preset for partner care day context.",
+      "sodium_goal_mg": 3800,
+      "fluid_goal_ml": 2400,
+      "notes": "Adjust with your medical team."
+    }
+  ]
+}

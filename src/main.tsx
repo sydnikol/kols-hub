@@ -4,11 +4,31 @@ import App from './App'
 import './index.css'
 
 // Initialize Education System
-import './features/education/initEducation'
+// DISABLED: This was blocking app startup
+// import './features/education/initEducation'
+
+// Initialize App with Seed Data
+import { autoInitialize } from './utils/initializeApp'
+
+// Initialize Dev Console (development only)
+if (import.meta.env.DEV) {
+  import('./utils/devConsole')
+}
 
 // Platform detection and initialization
 console.log('🖤 KOL Hub: Initializing application...')
 console.log('Platform:', window.platform)
+
+// Auto-initialize app on first run (loads seed data)
+// DISABLED: This was blocking app startup
+// autoInitialize().then(result => {
+//   if (result.success) {
+//     console.log('🖤 KOL Hub: Initialization complete -', result.message)
+//   } else {
+//     console.error('🖤 KOL Hub: Initialization failed -', result.error)
+//   }
+// })
+console.log('🖤 KOL Hub: Skipping auto-initialization for faster startup')
 
 // Initialize Capacitor plugins if on mobile
 if (window.Capacitor) {

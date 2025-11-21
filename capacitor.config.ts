@@ -1,7 +1,7 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.kol.megaapp',
+  appId: 'com.unified.megaapp',
   appName: 'KOL Personal OS',
   webDir: 'dist',
   bundledWebRuntime: false,
@@ -16,7 +16,10 @@ const config: CapacitorConfig = {
       'http://localhost',
       'https://localhost',
       'http://192.168.*',
-      'https://192.168.*'
+      'https://192.168.*',
+      'https://accounts.google.com', // Google OAuth
+      'https://oauth2.googleapis.com', // Google OAuth
+      'https://*.googleapis.com', // Google APIs
     ]
   },
   

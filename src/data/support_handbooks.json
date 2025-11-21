@@ -1,0 +1,124 @@
+{
+  "module": "Support Handbooks",
+  "version": "1.0",
+  "generated_at": "2025-11-18",
+  "people": [
+    {
+      "id": "quincy",
+      "label": "Quincy",
+      "how_to_help": [
+        "Placeholder support action 1.",
+        "Placeholder support action 2."
+      ],
+      "how_not_to_help": [
+        "Placeholder example of what not to do."
+      ],
+      "crisis_plan": "Placeholder crisis plan.",
+      "notes": "Replace with details from your real handbook."
+    },
+    {
+      "id": "daveon",
+      "label": "DaVeon",
+      "how_to_help": [
+        "Placeholder support action 1.",
+        "Placeholder support action 2."
+      ],
+      "how_not_to_help": [
+        "Placeholder example of what not to do."
+      ],
+      "crisis_plan": "Placeholder crisis plan.",
+      "notes": "Replace with details from your real handbook."
+    },
+    {
+      "id": "mom",
+      "label": "Mom",
+      "how_to_help": [
+        "Placeholder support action 1.",
+        "Placeholder support action 2."
+      ],
+      "how_not_to_help": [
+        "Placeholder example of what not to do."
+      ],
+      "crisis_plan": "Placeholder crisis plan.",
+      "notes": "Replace with details from your real handbook."
+    },
+    {
+      "id": "momsfriends",
+      "label": "MomsFriends",
+      "how_to_help": [
+        "Placeholder support action 1.",
+        "Placeholder support action 2."
+      ],
+      "how_not_to_help": [
+        "Placeholder example of what not to do."
+      ],
+      "crisis_plan": "Placeholder crisis plan.",
+      "notes": "Replace with details from your real handbook."
+    },
+    {
+      "id": "bestfriends",
+      "label": "BestFriends",
+      "how_to_help": [
+        "Placeholder support action 1.",
+        "Placeholder support action 2."
+      ],
+      "how_not_to_help": [
+        "Placeholder example of what not to do."
+      ],
+      "crisis_plan": "Placeholder crisis plan.",
+      "notes": "Replace with details from your real handbook."
+    },
+    {
+      "id": "friends",
+      "label": "Friends",
+      "how_to_help": [
+        "Placeholder support action 1.",
+        "Placeholder support action 2."
+      ],
+      "how_not_to_help": [
+        "Placeholder example of what not to do."
+      ],
+      "crisis_plan": "Placeholder crisis plan.",
+      "notes": "Replace with details from your real handbook."
+    },
+    {
+      "id": "homehealthaide",
+      "label": "HomeHealthAide",
+      "how_to_help": [
+        "Placeholder support action 1.",
+        "Placeholder support action 2."
+      ],
+      "how_not_to_help": [
+        "Placeholder example of what not to do."
+      ],
+      "crisis_plan": "Placeholder crisis plan.",
+      "notes": "Replace with details from your real handbook."
+    },
+    {
+      "id": "socialworkers",
+      "label": "SocialWorkers",
+      "how_to_help": [
+        "Placeholder support action 1.",
+        "Placeholder support action 2."
+      ],
+      "how_not_to_help": [
+        "Placeholder example of what not to do."
+      ],
+      "crisis_plan": "Placeholder crisis plan.",
+      "notes": "Replace with details from your real handbook."
+    },
+    {
+      "id": "community",
+      "label": "Community",
+      "how_to_help": [
+        "Placeholder support action 1.",
+        "Placeholder support action 2."
+      ],
+      "how_not_to_help": [
+        "Placeholder example of what not to do."
+      ],
+      "crisis_plan": "Placeholder crisis plan.",
+      "notes": "Replace with details from your real handbook."
+    }
+  ]
+}

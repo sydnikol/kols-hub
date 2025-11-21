@@ -35,11 +35,19 @@ export const AncestorAltarTracker: React.FC = () => {
     try {
       const db = await openDB();
       const tx1 = db.transaction('altarItems', 'readonly');
-      const items = await tx1.objectStore('altarItems').getAll();
+      const itemsRequest = tx1.objectStore('altarItems').getAll();
+      const items = await new Promise<AltarItem[]>((resolve, reject) => {
+        itemsRequest.onsuccess = () => resolve(itemsRequest.result);
+        itemsRequest.onerror = () => reject(itemsRequest.error);
+      });
       setAltarItems(items);
 
       const tx2 = db.transaction('rituals', 'readonly');
-      const rits = await tx2.objectStore('rituals').getAll();
+      const ritsRequest = tx2.objectStore('rituals').getAll();
+      const rits = await new Promise<Ritual[]>((resolve, reject) => {
+        ritsRequest.onsuccess = () => resolve(ritsRequest.result);
+        ritsRequest.onerror = () => reject(ritsRequest.error);
+      });
       setRituals(rits);
     } catch (error) {
       console.log('No altar data yet');
@@ -81,7 +89,11 @@ export const AncestorAltarTracker: React.FC = () => {
     const db = await openDB();
     const tx = db.transaction('altarItems', 'readwrite');
     const store = tx.objectStore('altarItems');
-    const item = await store.get(id);
+    const getRequest = store.get(id);
+    const item = await new Promise<AltarItem>((resolve, reject) => {
+      getRequest.onsuccess = () => resolve(getRequest.result);
+      getRequest.onerror = () => reject(getRequest.error);
+    });
     item.lastRefreshed = new Date();
     await store.put(item);
     setAltarItems(altarItems.map(i => i.id === id ? item : i));
@@ -104,7 +116,11 @@ export const AncestorAltarTracker: React.FC = () => {
     const db = await openDB();
     const tx = db.transaction('rituals', 'readwrite');
     const store = tx.objectStore('rituals');
-    const ritual = await store.get(id);
+    const getRequest = store.get(id);
+    const ritual = await new Promise<Ritual>((resolve, reject) => {
+      getRequest.onsuccess = () => resolve(getRequest.result);
+      getRequest.onerror = () => reject(getRequest.error);
+    });
     ritual.lastPerformed = new Date();
     await store.put(ritual);
     setRituals(rituals.map(r => r.id === id ? ritual : r));

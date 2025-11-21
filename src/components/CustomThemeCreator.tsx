@@ -150,12 +150,18 @@ export const CustomThemeCreator: React.FC = () => {
 
   const applyTheme = (theme: ThemeColors) => {
     // Apply theme to app settings
-    updateSettings({
-      theme: {
-        ...theme,
-        mode: 'dark'
-      }
-    });
+    // Note: Currently only supports predefined themes
+    // Custom themes are stored separately
+    if (theme.name === 'Gothic Dark' || theme.name === 'gothic_dark') {
+      updateSettings({ theme: 'gothic_dark' });
+    } else if (theme.name === 'Clean Witchy Minimal' || theme.name === 'clean_witchy_minimal') {
+      updateSettings({ theme: 'clean_witchy_minimal' });
+    } else if (theme.name === 'Grayscale Print' || theme.name === 'grayscale_print') {
+      updateSettings({ theme: 'grayscale_print' });
+    } else {
+      // For custom themes, store them in localStorage
+      localStorage.setItem('kol_active_custom_theme', JSON.stringify(theme));
+    }
     toast.success(`Applied theme: ${theme.name}`);
   };
 

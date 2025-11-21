@@ -1,0 +1,26 @@
+{
+  "module": "KolHub Master Features",
+  "version": "1.0",
+  "generated_at": "2025-11-18",
+  "modules": [
+    "Core System & Architecture",
+    "Daily Planning & Routines",
+    "Health & Medical",
+    "Service Dog Tasks",
+    "Food & Eating",
+    "Money & Budgeting",
+    "Support Handbooks",
+    "Emergency System",
+    "Self-Advocacy & Communication",
+    "Relationships & Partners",
+    "Hoodoo & Spirituality",
+    "Creativity & Art",
+    "Entertainment & Play",
+    "Community & Activism",
+    "Automations",
+    "Emotions & Regulation",
+    "Family & Legacy",
+    "AI Companions & Scenes",
+    "Data Seeds"
+  ]
+}

@@ -127,6 +127,11 @@ class SoundCloudService {
     return await response.json();
   }
 
+  // SEARCH (alias for music-manager compatibility)
+  async search(query: string, limit: number = 50): Promise<SoundCloudTrack[]> {
+    return this.searchTracks(query, limit);
+  }
+
   // SEARCH
   async searchTracks(query: string, limit: number = 50): Promise<SoundCloudTrack[]> {
     if (!this.db) await this.initialize();
@@ -212,6 +217,19 @@ class SoundCloudService {
   }
 
   // PLAYLIST
+  async getUserPlaylists(): Promise<SoundCloudPlaylist[]> {
+    if (!this.db) await this.initialize();
+
+    try {
+      // This requires OAuth, return cached playlists for now
+      const cached = await this.db!.getAll('playlists');
+      return cached;
+    } catch (error) {
+      console.error('Get user playlists error:', error);
+      return [];
+    }
+  }
+
   async getPlaylist(playlistId: number): Promise<SoundCloudPlaylist | null> {
     if (!this.db) await this.initialize();
 

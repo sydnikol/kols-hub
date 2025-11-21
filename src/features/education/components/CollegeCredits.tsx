@@ -8,7 +8,7 @@ import { motion } from 'framer-motion';
 import { useEducationStore } from '../store/educationStore';
 
 const CollegeCredits: React.FC = () => {
-  const { credits, totalCredits, addCredit, clep Exams, dsstExams } = useEducationStore();
+  const { credits, totalCredits, addCredit } = useEducationStore();
   const [showAddCredit, setShowAddCredit] = useState(false);
 
   const creditSources = [

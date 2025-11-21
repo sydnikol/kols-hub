@@ -1,20 +1,5 @@
 import * as XLSX from 'xlsx';
-
-export interface MedicationRecord {
-  id?: number;
-  name: string;
-  dosage: string;
-  frequency: string;
-  timeOfDay: string[];
-  prescribedFor: string;
-  sideEffects: string[];
-  notes?: string;
-  startDate: Date;
-  endDate?: Date;
-  isPRN: boolean;
-  lastTaken?: Date;
-  takenToday?: boolean;
-}
+import type { MedicationRecord } from './database';
 
 /**
  * Import medications from Excel file
@@ -23,61 +8,72 @@ export interface MedicationRecord {
 export async function importMedicationsFromExcel(file: File): Promise<MedicationRecord[]> {
   return new Promise((resolve, reject) => {
     const reader = new FileReader();
-    
+
     reader.onload = (e) => {
       try {
         const data = e.target?.result;
         const workbook = XLSX.read(data, { type: 'binary' });
-        
+
         // Get first sheet
         const sheetName = workbook.SheetNames[0];
         const worksheet = workbook.Sheets[sheetName];
-        
+
         // Convert to JSON
         const jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1 }) as any[][];
-        
+
         // Parse the data
         const medications: MedicationRecord[] = [];
-        
+
         // Skip header row, process data rows
         for (let i = 1; i < jsonData.length; i++) {
           const row = jsonData[i];
-          
+
           // Skip empty rows
           if (!row || row.length === 0 || !row[0]) continue;
-          
-          // Map Excel columns to medication fields
-          // Adjust column indices based on actual Excel structure
+
+          // Map Excel columns to medication fields (database schema)
+          const drugName = String(row[0] || '').trim();
+          const genericName = String(row[1] || '').trim();
+          const strength = String(row[2] || '').trim();
+          const dosage = String(row[3] || '').trim();
+          const frequency = String(row[4] || '').trim();
+          const prescriber = String(row[5] || '').trim();
+          const pharmacy = String(row[6] || '').trim();
+          const notes = String(row[7] || '').trim();
+          const startDate = parseDate(row[8]);
+          const refills = row[9] ? Number(row[9]) : undefined;
+
           const med: MedicationRecord = {
-            name: String(row[0] || '').trim(),
-            dosage: String(row[1] || '').trim(),
-            frequency: String(row[2] || '').trim(),
-            timeOfDay: parseTimeOfDay(String(row[3] || '')),
-            prescribedFor: String(row[4] || '').trim(),
-            sideEffects: parseSideEffects(String(row[5] || '')),
-            notes: String(row[6] || '').trim(),
-            startDate: parseDate(row[7]) || new Date(),
-            isPRN: String(row[2] || '').toLowerCase().includes('prn') || 
-                   String(row[2] || '').toLowerCase().includes('as needed'),
-            takenToday: false
+            drugName,
+            genericName: genericName || undefined,
+            strength,
+            dosage,
+            frequency,
+            prescriber: prescriber || undefined,
+            pharmacy: pharmacy || undefined,
+            status: 'Active',
+            startDate: startDate || undefined,
+            refills,
+            notes: notes || undefined,
+            taken: false
           };
-          
-          // Only add if has name and dosage
-          if (med.name && med.dosage) {
+
+          // Only add if has drug name and dosage
+          if (med.drugName && med.dosage) {
             medications.push(med);
           }
         }
-        
+
         resolve(medications);
       } catch (error) {
         reject(new Error(`Failed to parse Excel file: ${error}`));
       }
     };
-    
+
     reader.onerror = () => {
       reject(new Error('Failed to read file'));
     };
-    
+
     reader.readAsBinaryString(file);
   });
 }
@@ -88,67 +84,51 @@ export async function importMedicationsFromExcel(file: File): Promise<Medication
 export function exportMedicationsToExcel(medications: MedicationRecord[]): void {
   // Create worksheet data
   const data = [
-    ['Medication Name', 'Dosage', 'Frequency', 'Time of Day', 'Prescribed For', 'Side Effects', 'Notes', 'Start Date', 'Status']
+    ['Drug Name', 'Generic Name', 'Strength', 'Dosage', 'Frequency', 'Prescriber', 'Pharmacy', 'Notes', 'Start Date', 'Refills', 'Status']
   ];
-  
+
   medications.forEach(med => {
     data.push([
-      med.name,
+      med.drugName,
+      med.genericName || '',
+      med.strength,
       med.dosage,
       med.frequency,
-      med.timeOfDay.join(', '),
-      med.prescribedFor,
-      med.sideEffects.join('; '),
+      med.prescriber || '',
+      med.pharmacy || '',
       med.notes || '',
-      med.startDate.toLocaleDateString(),
-      med.isPRN ? 'PRN' : 'Scheduled'
+      med.startDate ? new Date(med.startDate).toLocaleDateString() : '',
+      med.refills?.toString() || '',
+      med.status
     ]);
   });
-  
+
   // Create workbook and worksheet
   const worksheet = XLSX.utils.aoa_to_sheet(data);
   const workbook = XLSX.utils.book_new();
   XLSX.utils.book_append_sheet(workbook, worksheet, 'Medications');
-  
+
   // Set column widths
   worksheet['!cols'] = [
-    { wch: 25 }, // Medication Name
+    { wch: 25 }, // Drug Name
+    { wch: 20 }, // Generic Name
+    { wch: 15 }, // Strength
     { wch: 15 }, // Dosage
     { wch: 15 }, // Frequency
-    { wch: 20 }, // Time of Day
-    { wch: 20 }, // Prescribed For
-    { wch: 30 }, // Side Effects
+    { wch: 20 }, // Prescriber
+    { wch: 20 }, // Pharmacy
     { wch: 30 }, // Notes
     { wch: 12 }, // Start Date
+    { wch: 10 }, // Refills
     { wch: 12 }  // Status
   ];
-  
+
   // Generate filename with timestamp
   const timestamp = new Date().toISOString().slice(0, 10);
   const filename = `KOL_Medications_${timestamp}.xlsx`;
-  
+
   // Save file
   XLSX.writeFile(workbook, filename);
-}
-
-/**
- * Parse time of day from string (e.g., "Morning, Evening" -> ["Morning", "Evening"])
- */
-function parseTimeOfDay(timeString: string): string[] {
-  if (!timeString) return [];
-  
-  const times = timeString.split(/[,;]/).map(t => t.trim()).filter(t => t.length > 0);
-  return times.length > 0 ? times : ['Unspecified'];
-}
-
-/**
- * Parse side effects from string
- */
-function parseSideEffects(effectsString: string): string[] {
-  if (!effectsString) return [];
-  
-  const effects = effectsString.split(/[,;]/).map(e => e.trim()).filter(e => e.length > 0);
-  return effects;
 }
 
 /**
@@ -156,19 +136,19 @@ function parseSideEffects(effectsString: string): string[] {
  */
 function parseDate(dateValue: any): Date | null {
   if (!dateValue) return null;
-  
+
   if (dateValue instanceof Date) return dateValue;
-  
+
   if (typeof dateValue === 'number') {
     // Excel date number
     return XLSX.SSF.parse_date_code(dateValue);
   }
-  
+
   if (typeof dateValue === 'string') {
     const parsed = new Date(dateValue);
     return isNaN(parsed.getTime()) ? null : parsed;
   }
-  
+
   return null;
 }
 
@@ -210,21 +190,27 @@ export function createPrintableMedicationSchedule(medications: MedicationRecord[
           color: #333;
           margin: 5px 0;
         }
-        .med-time {
-          background: #f0e6ff;
-          padding: 5px 10px;
-          border-radius: 4px;
-          display: inline-block;
-          margin: 3px;
+        .med-details {
+          margin: 10px 0;
         }
         .med-notes {
           font-style: italic;
           color: #666;
           margin-top: 10px;
         }
-        .side-effects {
-          color: #cc0000;
-          font-size: 14px;
+        .status-active {
+          background: #10b981;
+          color: white;
+          padding: 4px 8px;
+          border-radius: 4px;
+          font-size: 12px;
+        }
+        .status-inactive {
+          background: #6b7280;
+          color: white;
+          padding: 4px 8px;
+          border-radius: 4px;
+          font-size: 12px;
         }
         @media print {
           body { margin: 0; padding: 10px; }
@@ -237,24 +223,22 @@ export function createPrintableMedicationSchedule(medications: MedicationRecord[
       <p><strong>Generated:</strong> ${new Date().toLocaleDateString()}</p>
       ${medications.map(med => `
         <div class="med-card">
-          <div class="med-name">${med.name}</div>
-          <div class="med-dosage">${med.dosage} - ${med.frequency}</div>
-          <div>
-            ${med.timeOfDay.map(time => `<span class="med-time">${time}</span>`).join('')}
-            ${med.isPRN ? '<span class="med-time" style="background: #7f1d1d;">PRN</span>' : ''}
+          <div class="med-name">${med.drugName}</div>
+          ${med.genericName ? `<div style="color: #6b7280; font-size: 14px;">${med.genericName}</div>` : ''}
+          <div class="med-dosage">${med.strength} - ${med.dosage}</div>
+          <div class="med-details">
+            <strong>Frequency:</strong> ${med.frequency}<br>
+            ${med.prescriber ? `<strong>Prescriber:</strong> ${med.prescriber}<br>` : ''}
+            ${med.pharmacy ? `<strong>Pharmacy:</strong> ${med.pharmacy}<br>` : ''}
+            ${med.refills !== undefined ? `<strong>Refills:</strong> ${med.refills}<br>` : ''}
+            <span class="status-${med.status.toLowerCase()}">${med.status}</span>
           </div>
-          ${med.prescribedFor ? `<div><strong>For:</strong> ${med.prescribedFor}</div>` : ''}
-          ${med.sideEffects.length > 0 ? `
-            <div class="side-effects">
-              <strong>⚠️ Side Effects:</strong> ${med.sideEffects.join(', ')}
-            </div>
-          ` : ''}
           ${med.notes ? `<div class="med-notes">${med.notes}</div>` : ''}
         </div>
       `).join('')}
     </body>
     </html>
   `;
-  
+
   return html;
 }

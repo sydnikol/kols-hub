@@ -1,39 +1,6 @@
 import React, { useState } from 'react';
 import { Plus, Edit, Trash2, Shield, Heart, Zap, Users, Book, Download, Upload, Eye } from 'lucide-react';
-
-interface Character {
-  id: string;
-  name: string;
-  class: string;
-  level: number;
-  race: string;
-  background: string;
-  hp: { current: number; max: number; temp: number };
-  ac: number;
-  speed: number;
-  initiative: number;
-  proficiencyBonus: number;
-  stats: {
-    str: number; dex: number; con: number;
-    int: number; wis: number; cha: number;
-  };
-  savingThrows: {
-    str: boolean; dex: boolean; con: boolean;
-    int: boolean; wis: boolean; cha: boolean;
-  };
-  skills: {
-    acrobatics: boolean; animalHandling: boolean; arcana: boolean; athletics: boolean;
-    deception: boolean; history: boolean; insight: boolean; intimidation: boolean;
-    investigation: boolean; medicine: boolean; nature: boolean; perception: boolean;
-    performance: boolean; persuasion: boolean; religion: boolean; sleightOfHand: boolean;
-    sblueth: boolean; survival: boolean;
-  };
-  spells?: { level: number; name: string; prepared: boolean }[];
-  equipment?: { name: string; quantity: number; equipped: boolean }[];
-  features?: { name: string; description: string; source: string }[];
-  notes?: string;
-  avatar?: string;
-}
+import type { Character } from './types';
 
 interface CharacterSheetProps {
   characters: Character[];
@@ -68,7 +35,7 @@ const CharacterSheet: React.FC<CharacterSheetProps> = ({ characters, setCharacte
         deception: false, history: false, insight: false, intimidation: false,
         investigation: false, medicine: false, nature: false, perception: true,
         performance: false, persuasion: false, religion: false, sleightOfHand: false,
-        sblueth: false, survival: true
+        stealth: false, survival: true
       },
       spells: [],
       equipment: [

@@ -34,7 +34,11 @@ export const BudgetManager: React.FC = () => {
     try {
       const db = await openDB();
       const tx = db.transaction('budget', 'readonly');
-      const items = await tx.objectStore('budget').getAll();
+      const getAllRequest = tx.objectStore('budget').getAll();
+      const items = await new Promise<BudgetItem[]>((resolve, reject) => {
+        getAllRequest.onsuccess = () => resolve(getAllRequest.result);
+        getAllRequest.onerror = () => reject(getAllRequest.error);
+      });
       setBudgetItems(items);
     } catch (error) {
       console.log('No budget data yet');
@@ -72,7 +76,11 @@ export const BudgetManager: React.FC = () => {
     const db = await openDB();
     const tx = db.transaction('budget', 'readwrite');
     const store = tx.objectStore('budget');
-    const item = await store.get(id);
+    const getRequest = store.get(id);
+    const item = await new Promise<BudgetItem>((resolve, reject) => {
+      getRequest.onsuccess = () => resolve(getRequest.result);
+      getRequest.onerror = () => reject(getRequest.error);
+    });
     item.isPaid = !item.isPaid;
     await store.put(item);
     setBudgetItems(budgetItems.map(i => i.id === id ? item : i));
@@ -144,7 +152,7 @@ export const BudgetManager: React.FC = () => {
               ? 'from-purple-600/20 to-purple-800/20 border-purple-500/30'
               : 'from-red-600/20 to-red-800/20 border-red-500/30'
           }`}>
-            <div className={totals.total >= 0 ? 'text-purple-300' : 'text-red-300'} className="text-sm mb-2">Net Balance</div>
+            <div className={`text-sm mb-2 ${totals.total >= 0 ? 'text-purple-300' : 'text-red-300'}`}>Net Balance</div>
             <div className={`text-3xl font-bold ${totals.total >= 0 ? 'text-purple-100' : 'text-red-100'}`}>
               ${Math.abs(totals.total).toFixed(2)}
             </div>

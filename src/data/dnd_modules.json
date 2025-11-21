@@ -1,0 +1,1057 @@
+{
+  "module": "Tabletop & DnD Modules",
+  "version": "1.0",
+  "generated_at": "2025-11-18",
+  "items": [
+    {
+      "id": "dnd_001",
+      "title": "Adventure Hook #1",
+      "mode": "group",
+      "vibe": "slice-of-life",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_002",
+      "title": "Adventure Hook #2",
+      "mode": "duet",
+      "vibe": "cozy",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_003",
+      "title": "Adventure Hook #3",
+      "mode": "duet",
+      "vibe": "epic",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_004",
+      "title": "Adventure Hook #4",
+      "mode": "group",
+      "vibe": "dark",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_005",
+      "title": "Adventure Hook #5",
+      "mode": "solo",
+      "vibe": "mystery",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_006",
+      "title": "Adventure Hook #6",
+      "mode": "group",
+      "vibe": "dark",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_007",
+      "title": "Adventure Hook #7",
+      "mode": "duet",
+      "vibe": "dark",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_008",
+      "title": "Adventure Hook #8",
+      "mode": "duet",
+      "vibe": "cozy",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_009",
+      "title": "Adventure Hook #9",
+      "mode": "duet",
+      "vibe": "dark",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_010",
+      "title": "Adventure Hook #10",
+      "mode": "group",
+      "vibe": "slice-of-life",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_011",
+      "title": "Adventure Hook #11",
+      "mode": "group",
+      "vibe": "mystery",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_012",
+      "title": "Adventure Hook #12",
+      "mode": "group",
+      "vibe": "mystery",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_013",
+      "title": "Adventure Hook #13",
+      "mode": "group",
+      "vibe": "slice-of-life",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_014",
+      "title": "Adventure Hook #14",
+      "mode": "solo",
+      "vibe": "dark",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_015",
+      "title": "Adventure Hook #15",
+      "mode": "group",
+      "vibe": "epic",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_016",
+      "title": "Adventure Hook #16",
+      "mode": "duet",
+      "vibe": "dark",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_017",
+      "title": "Adventure Hook #17",
+      "mode": "solo",
+      "vibe": "dark",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_018",
+      "title": "Adventure Hook #18",
+      "mode": "group",
+      "vibe": "cozy",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_019",
+      "title": "Adventure Hook #19",
+      "mode": "group",
+      "vibe": "epic",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_020",
+      "title": "Adventure Hook #20",
+      "mode": "duet",
+      "vibe": "epic",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_021",
+      "title": "Adventure Hook #21",
+      "mode": "group",
+      "vibe": "epic",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_022",
+      "title": "Adventure Hook #22",
+      "mode": "duet",
+      "vibe": "mystery",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_023",
+      "title": "Adventure Hook #23",
+      "mode": "group",
+      "vibe": "epic",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_024",
+      "title": "Adventure Hook #24",
+      "mode": "group",
+      "vibe": "dark",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_025",
+      "title": "Adventure Hook #25",
+      "mode": "group",
+      "vibe": "dark",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_026",
+      "title": "Adventure Hook #26",
+      "mode": "group",
+      "vibe": "epic",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_027",
+      "title": "Adventure Hook #27",
+      "mode": "group",
+      "vibe": "epic",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_028",
+      "title": "Adventure Hook #28",
+      "mode": "solo",
+      "vibe": "epic",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_029",
+      "title": "Adventure Hook #29",
+      "mode": "group",
+      "vibe": "slice-of-life",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_030",
+      "title": "Adventure Hook #30",
+      "mode": "solo",
+      "vibe": "epic",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_031",
+      "title": "Adventure Hook #31",
+      "mode": "solo",
+      "vibe": "cozy",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_032",
+      "title": "Adventure Hook #32",
+      "mode": "group",
+      "vibe": "slice-of-life",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_033",
+      "title": "Adventure Hook #33",
+      "mode": "solo",
+      "vibe": "dark",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_034",
+      "title": "Adventure Hook #34",
+      "mode": "duet",
+      "vibe": "epic",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_035",
+      "title": "Adventure Hook #35",
+      "mode": "group",
+      "vibe": "cozy",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_036",
+      "title": "Adventure Hook #36",
+      "mode": "solo",
+      "vibe": "dark",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_037",
+      "title": "Adventure Hook #37",
+      "mode": "group",
+      "vibe": "epic",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_038",
+      "title": "Adventure Hook #38",
+      "mode": "duet",
+      "vibe": "slice-of-life",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_039",
+      "title": "Adventure Hook #39",
+      "mode": "duet",
+      "vibe": "slice-of-life",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_040",
+      "title": "Adventure Hook #40",
+      "mode": "duet",
+      "vibe": "cozy",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_041",
+      "title": "Adventure Hook #41",
+      "mode": "group",
+      "vibe": "cozy",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_042",
+      "title": "Adventure Hook #42",
+      "mode": "duet",
+      "vibe": "mystery",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_043",
+      "title": "Adventure Hook #43",
+      "mode": "duet",
+      "vibe": "dark",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_044",
+      "title": "Adventure Hook #44",
+      "mode": "group",
+      "vibe": "cozy",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_045",
+      "title": "Adventure Hook #45",
+      "mode": "solo",
+      "vibe": "mystery",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_046",
+      "title": "Adventure Hook #46",
+      "mode": "solo",
+      "vibe": "dark",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_047",
+      "title": "Adventure Hook #47",
+      "mode": "solo",
+      "vibe": "slice-of-life",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_048",
+      "title": "Adventure Hook #48",
+      "mode": "group",
+      "vibe": "cozy",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_049",
+      "title": "Adventure Hook #49",
+      "mode": "duet",
+      "vibe": "cozy",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_050",
+      "title": "Adventure Hook #50",
+      "mode": "solo",
+      "vibe": "epic",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_051",
+      "title": "Adventure Hook #51",
+      "mode": "group",
+      "vibe": "slice-of-life",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_052",
+      "title": "Adventure Hook #52",
+      "mode": "solo",
+      "vibe": "cozy",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_053",
+      "title": "Adventure Hook #53",
+      "mode": "duet",
+      "vibe": "cozy",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_054",
+      "title": "Adventure Hook #54",
+      "mode": "duet",
+      "vibe": "cozy",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_055",
+      "title": "Adventure Hook #55",
+      "mode": "group",
+      "vibe": "mystery",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_056",
+      "title": "Adventure Hook #56",
+      "mode": "duet",
+      "vibe": "dark",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_057",
+      "title": "Adventure Hook #57",
+      "mode": "duet",
+      "vibe": "mystery",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_058",
+      "title": "Adventure Hook #58",
+      "mode": "duet",
+      "vibe": "cozy",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_059",
+      "title": "Adventure Hook #59",
+      "mode": "solo",
+      "vibe": "dark",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_060",
+      "title": "Adventure Hook #60",
+      "mode": "duet",
+      "vibe": "epic",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_061",
+      "title": "Adventure Hook #61",
+      "mode": "group",
+      "vibe": "dark",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_062",
+      "title": "Adventure Hook #62",
+      "mode": "group",
+      "vibe": "dark",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_063",
+      "title": "Adventure Hook #63",
+      "mode": "group",
+      "vibe": "dark",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_064",
+      "title": "Adventure Hook #64",
+      "mode": "duet",
+      "vibe": "epic",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_065",
+      "title": "Adventure Hook #65",
+      "mode": "duet",
+      "vibe": "slice-of-life",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_066",
+      "title": "Adventure Hook #66",
+      "mode": "solo",
+      "vibe": "slice-of-life",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_067",
+      "title": "Adventure Hook #67",
+      "mode": "solo",
+      "vibe": "dark",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_068",
+      "title": "Adventure Hook #68",
+      "mode": "group",
+      "vibe": "dark",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_069",
+      "title": "Adventure Hook #69",
+      "mode": "duet",
+      "vibe": "cozy",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_070",
+      "title": "Adventure Hook #70",
+      "mode": "group",
+      "vibe": "mystery",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_071",
+      "title": "Adventure Hook #71",
+      "mode": "group",
+      "vibe": "slice-of-life",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_072",
+      "title": "Adventure Hook #72",
+      "mode": "solo",
+      "vibe": "slice-of-life",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_073",
+      "title": "Adventure Hook #73",
+      "mode": "solo",
+      "vibe": "slice-of-life",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_074",
+      "title": "Adventure Hook #74",
+      "mode": "duet",
+      "vibe": "epic",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_075",
+      "title": "Adventure Hook #75",
+      "mode": "duet",
+      "vibe": "mystery",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_076",
+      "title": "Adventure Hook #76",
+      "mode": "duet",
+      "vibe": "slice-of-life",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_077",
+      "title": "Adventure Hook #77",
+      "mode": "group",
+      "vibe": "epic",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_078",
+      "title": "Adventure Hook #78",
+      "mode": "solo",
+      "vibe": "epic",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_079",
+      "title": "Adventure Hook #79",
+      "mode": "duet",
+      "vibe": "cozy",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_080",
+      "title": "Adventure Hook #80",
+      "mode": "duet",
+      "vibe": "dark",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_081",
+      "title": "Adventure Hook #81",
+      "mode": "duet",
+      "vibe": "slice-of-life",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_082",
+      "title": "Adventure Hook #82",
+      "mode": "solo",
+      "vibe": "cozy",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_083",
+      "title": "Adventure Hook #83",
+      "mode": "group",
+      "vibe": "cozy",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_084",
+      "title": "Adventure Hook #84",
+      "mode": "group",
+      "vibe": "cozy",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_085",
+      "title": "Adventure Hook #85",
+      "mode": "duet",
+      "vibe": "cozy",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_086",
+      "title": "Adventure Hook #86",
+      "mode": "group",
+      "vibe": "slice-of-life",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_087",
+      "title": "Adventure Hook #87",
+      "mode": "duet",
+      "vibe": "dark",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_088",
+      "title": "Adventure Hook #88",
+      "mode": "solo",
+      "vibe": "slice-of-life",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_089",
+      "title": "Adventure Hook #89",
+      "mode": "group",
+      "vibe": "cozy",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_090",
+      "title": "Adventure Hook #90",
+      "mode": "group",
+      "vibe": "slice-of-life",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_091",
+      "title": "Adventure Hook #91",
+      "mode": "solo",
+      "vibe": "dark",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_092",
+      "title": "Adventure Hook #92",
+      "mode": "group",
+      "vibe": "epic",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_093",
+      "title": "Adventure Hook #93",
+      "mode": "duet",
+      "vibe": "slice-of-life",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_094",
+      "title": "Adventure Hook #94",
+      "mode": "group",
+      "vibe": "mystery",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_095",
+      "title": "Adventure Hook #95",
+      "mode": "duet",
+      "vibe": "epic",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_096",
+      "title": "Adventure Hook #96",
+      "mode": "group",
+      "vibe": "dark",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_097",
+      "title": "Adventure Hook #97",
+      "mode": "group",
+      "vibe": "cozy",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_098",
+      "title": "Adventure Hook #98",
+      "mode": "solo",
+      "vibe": "slice-of-life",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_099",
+      "title": "Adventure Hook #99",
+      "mode": "group",
+      "vibe": "dark",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_100",
+      "title": "Adventure Hook #100",
+      "mode": "duet",
+      "vibe": "slice-of-life",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_101",
+      "title": "Adventure Hook #101",
+      "mode": "solo",
+      "vibe": "epic",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_102",
+      "title": "Adventure Hook #102",
+      "mode": "solo",
+      "vibe": "dark",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_103",
+      "title": "Adventure Hook #103",
+      "mode": "group",
+      "vibe": "cozy",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_104",
+      "title": "Adventure Hook #104",
+      "mode": "group",
+      "vibe": "slice-of-life",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_105",
+      "title": "Adventure Hook #105",
+      "mode": "solo",
+      "vibe": "dark",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_106",
+      "title": "Adventure Hook #106",
+      "mode": "group",
+      "vibe": "slice-of-life",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_107",
+      "title": "Adventure Hook #107",
+      "mode": "duet",
+      "vibe": "slice-of-life",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_108",
+      "title": "Adventure Hook #108",
+      "mode": "group",
+      "vibe": "cozy",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_109",
+      "title": "Adventure Hook #109",
+      "mode": "duet",
+      "vibe": "epic",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_110",
+      "title": "Adventure Hook #110",
+      "mode": "solo",
+      "vibe": "slice-of-life",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_111",
+      "title": "Adventure Hook #111",
+      "mode": "duet",
+      "vibe": "mystery",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_112",
+      "title": "Adventure Hook #112",
+      "mode": "solo",
+      "vibe": "mystery",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_113",
+      "title": "Adventure Hook #113",
+      "mode": "group",
+      "vibe": "slice-of-life",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_114",
+      "title": "Adventure Hook #114",
+      "mode": "solo",
+      "vibe": "mystery",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_115",
+      "title": "Adventure Hook #115",
+      "mode": "group",
+      "vibe": "cozy",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_116",
+      "title": "Adventure Hook #116",
+      "mode": "solo",
+      "vibe": "slice-of-life",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_117",
+      "title": "Adventure Hook #117",
+      "mode": "solo",
+      "vibe": "slice-of-life",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_118",
+      "title": "Adventure Hook #118",
+      "mode": "duet",
+      "vibe": "slice-of-life",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_119",
+      "title": "Adventure Hook #119",
+      "mode": "solo",
+      "vibe": "mystery",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_120",
+      "title": "Adventure Hook #120",
+      "mode": "solo",
+      "vibe": "mystery",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_121",
+      "title": "Adventure Hook #121",
+      "mode": "solo",
+      "vibe": "slice-of-life",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_122",
+      "title": "Adventure Hook #122",
+      "mode": "duet",
+      "vibe": "slice-of-life",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_123",
+      "title": "Adventure Hook #123",
+      "mode": "duet",
+      "vibe": "mystery",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_124",
+      "title": "Adventure Hook #124",
+      "mode": "group",
+      "vibe": "epic",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_125",
+      "title": "Adventure Hook #125",
+      "mode": "solo",
+      "vibe": "epic",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_126",
+      "title": "Adventure Hook #126",
+      "mode": "duet",
+      "vibe": "epic",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_127",
+      "title": "Adventure Hook #127",
+      "mode": "group",
+      "vibe": "epic",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_128",
+      "title": "Adventure Hook #128",
+      "mode": "group",
+      "vibe": "epic",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_129",
+      "title": "Adventure Hook #129",
+      "mode": "solo",
+      "vibe": "dark",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_130",
+      "title": "Adventure Hook #130",
+      "mode": "group",
+      "vibe": "mystery",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_131",
+      "title": "Adventure Hook #131",
+      "mode": "duet",
+      "vibe": "epic",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_132",
+      "title": "Adventure Hook #132",
+      "mode": "duet",
+      "vibe": "slice-of-life",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_133",
+      "title": "Adventure Hook #133",
+      "mode": "duet",
+      "vibe": "dark",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_134",
+      "title": "Adventure Hook #134",
+      "mode": "group",
+      "vibe": "epic",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_135",
+      "title": "Adventure Hook #135",
+      "mode": "group",
+      "vibe": "epic",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_136",
+      "title": "Adventure Hook #136",
+      "mode": "duet",
+      "vibe": "dark",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_137",
+      "title": "Adventure Hook #137",
+      "mode": "group",
+      "vibe": "slice-of-life",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_138",
+      "title": "Adventure Hook #138",
+      "mode": "group",
+      "vibe": "slice-of-life",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_139",
+      "title": "Adventure Hook #139",
+      "mode": "solo",
+      "vibe": "dark",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_140",
+      "title": "Adventure Hook #140",
+      "mode": "duet",
+      "vibe": "epic",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_141",
+      "title": "Adventure Hook #141",
+      "mode": "duet",
+      "vibe": "mystery",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_142",
+      "title": "Adventure Hook #142",
+      "mode": "duet",
+      "vibe": "epic",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_143",
+      "title": "Adventure Hook #143",
+      "mode": "duet",
+      "vibe": "mystery",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_144",
+      "title": "Adventure Hook #144",
+      "mode": "duet",
+      "vibe": "epic",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_145",
+      "title": "Adventure Hook #145",
+      "mode": "duet",
+      "vibe": "cozy",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_146",
+      "title": "Adventure Hook #146",
+      "mode": "duet",
+      "vibe": "dark",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_147",
+      "title": "Adventure Hook #147",
+      "mode": "duet",
+      "vibe": "dark",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_148",
+      "title": "Adventure Hook #148",
+      "mode": "solo",
+      "vibe": "epic",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_149",
+      "title": "Adventure Hook #149",
+      "mode": "solo",
+      "vibe": "dark",
+      "notes": "Use as a seed for a full adventure."
+    },
+    {
+      "id": "dnd_150",
+      "title": "Adventure Hook #150",
+      "mode": "solo",
+      "vibe": "slice-of-life",
+      "notes": "Use as a seed for a full adventure."
+    }
+  ]
+}

@@ -123,9 +123,12 @@ export const MedicationReminders: React.FC = () => {
       new Notification('Medication Reminder', {
         body: `Time to take ${reminder.medicationName} - ${reminder.dosage}`,
         icon: '/pill-icon.png',
-        badge: '/badge-icon.png',
-        vibrate: reminder.vibrationEnabled ? [200, 100, 200] : undefined
       });
+
+      // Vibration
+      if (reminder.vibrationEnabled && navigator.vibrate) {
+        navigator.vibrate([200, 100, 200]);
+      }
     }
 
     // Sound notification

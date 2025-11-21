@@ -58,8 +58,8 @@ export const IndividualIdeaBrowser: React.FC = () => {
         const uniqueCategories = [...new Set(loadedIdeas.map((i: Idea) => i.category))];
         const uniqueTags = [...new Set(loadedIdeas.flatMap((i: Idea) => i.tags))];
         
-        setCategories(uniqueCategories);
-        setAllTags(uniqueTags);
+        setCategories(uniqueCategories as string[]);
+        setAllTags(uniqueTags as string[]);
       } else {
         // Generate sample ideas if none exist
         generateSampleIdeas();

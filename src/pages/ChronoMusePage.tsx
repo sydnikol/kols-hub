@@ -4,19 +4,26 @@ import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Stars, Environment } from '@react-three/drei';
 import * as THREE from 'three';
 import ChronoMuseAvatar from '../components/chronomuse/ChronoMuseAvatar';
+import UserAvatar from '../components/chronomuse/UserAvatar';
 import LibraryRoom from '../components/chronomuse/rooms/LibraryRoom';
 import StudioRoom from '../components/chronomuse/rooms/StudioRoom';
 import SanctuaryRoom from '../components/chronomuse/rooms/SanctuaryRoom';
 import ObservatoryRoom from '../components/chronomuse/rooms/ObservatoryRoom';
+import LibraryRoom2D from '../components/chronomuse/rooms/mobile/LibraryRoom2D';
+import StudioRoom2D from '../components/chronomuse/rooms/mobile/StudioRoom2D';
+import SanctuaryRoom2D from '../components/chronomuse/rooms/mobile/SanctuaryRoom2D';
+import ObservatoryRoom2D from '../components/chronomuse/rooms/mobile/ObservatoryRoom2D';
 import ChronoMuseChat from '../components/chronomuse/ChronoMuseChat';
 import RoomNavigator from '../components/chronomuse/RoomNavigator';
 import EmotionalEngine from '../components/chronomuse/EmotionalEngine';
 import ChronoJournal from '../components/chronomuse/ChronoJournal';
 import TimePortal from '../components/chronomuse/TimePortal';
 import NPCSummoner from '../components/chronomuse/NPCSummoner';
+import AncestryHub from '../components/chronomuse/AncestryHub';
 import CinematicControls from '../components/chronomuse/CinematicControls';
 import SensoryControls from '../components/chronomuse/SensoryControls';
 import { useChronoMuseStore } from '../store/chronoMuseStore';
+import { useIsMobile } from '../hooks/useIsMobile';
 
 type RoomType = 'library' | 'studio' | 'sanctuary' | 'observatory';
 type MoodType = 'overwhelm' | 'curiosity' | 'grief' | 'focus' | 'victory' | 'calm';
@@ -27,9 +34,13 @@ export default function ChronoMusePage() {
   const [showJournal, setShowJournal] = useState(false);
   const [showTimePortal, setShowTimePortal] = useState(false);
   const [showNPCSummoner, setShowNPCSummoner] = useState(false);
-  
+  const [showAncestryHub, setShowAncestryHub] = useState(false);
+
+  const isMobile = useIsMobile();
+
   const {
     currentMood,
+    currentToneMode,
     currentEra,
     lightingMode,
     musicPlaying,
@@ -64,11 +75,35 @@ export default function ChronoMusePage() {
     <div className="h-screen w-screen overflow-hidden bg-gradient-to-br from-[#0A0A0F] via-[#1A1A24] to-[#1A1A24]">
       {/* Ambient Background with Stars */}
       <div className="absolute inset-0 z-0">
-        <Canvas camera={{ position: [0, 0, 5], fov: 75 }}>
-          <Stars radius={100} depth={50} count={5000} factor={4} saturation={0} fade speed={0.5} />
-          <ambientLight intensity={0.3} />
-          <Environment preset="night" />
-        </Canvas>
+        {!isMobile ? (
+          <Canvas camera={{ position: [0, 0, 5], fov: 75 }}>
+            <Stars radius={100} depth={50} count={5000} factor={4} saturation={0} fade speed={0.5} />
+            <ambientLight intensity={0.3} />
+            <Environment preset="night" />
+          </Canvas>
+        ) : (
+          // Mobile-friendly CSS stars animation
+          <div className="absolute inset-0">
+            {Array.from({ length: 100 }).map((_, i) => (
+              <motion.div
+                key={i}
+                className="absolute w-0.5 h-0.5 bg-white rounded-full"
+                style={{
+                  left: `${Math.random() * 100}%`,
+                  top: `${Math.random() * 100}%`,
+                }}
+                animate={{
+                  opacity: [0.1, 0.5, 0.1],
+                }}
+                transition={{
+                  duration: 2 + Math.random() * 3,
+                  repeat: Infinity,
+                  delay: Math.random() * 2,
+                }}
+              />
+            ))}
+          </div>
+        )}
       </div>
 
       {/* Main Apartment View */}
@@ -103,6 +138,13 @@ export default function ChronoMusePage() {
             >
               <span className="text-2xl">📖</span>
             </button>
+            <button
+              onClick={() => setShowAncestryHub(!showAncestryHub)}
+              className="w-12 h-12 rounded-full bg-gradient-to-br from-green-900/30 to-emerald-900/30 hover:from-green-900/50 hover:to-emerald-900/50 flex items-center justify-center transition-all border border-[#C0C0D8]/30"
+              title="Ancestry Hub"
+            >
+              <span className="text-2xl">🌳</span>
+            </button>
           </div>
         </div>
 
@@ -131,7 +173,7 @@ export default function ChronoMusePage() {
             </motion.div>
           </div>
 
-          {/* 3D Room Environment */}
+          {/* Room Environment - 3D or 2D based on device */}
           <div className="absolute inset-0 z-10">
             <AnimatePresence mode="wait">
               {currentRoom === 'library' && (
@@ -142,10 +184,10 @@ export default function ChronoMusePage() {
                   exit={{ opacity: 0 }}
                   className="w-full h-full"
                 >
-                  <LibraryRoom />
+                  {isMobile ? <LibraryRoom2D /> : <LibraryRoom />}
                 </motion.div>
               )}
-              
+
               {currentRoom === 'studio' && (
                 <motion.div
                   key="studio"
@@ -154,10 +196,10 @@ export default function ChronoMusePage() {
                   exit={{ opacity: 0 }}
                   className="w-full h-full"
                 >
-                  <StudioRoom />
+                  {isMobile ? <StudioRoom2D /> : <StudioRoom />}
                 </motion.div>
               )}
-              
+
               {currentRoom === 'sanctuary' && (
                 <motion.div
                   key="sanctuary"
@@ -166,10 +208,10 @@ export default function ChronoMusePage() {
                   exit={{ opacity: 0 }}
                   className="w-full h-full"
                 >
-                  <SanctuaryRoom />
+                  {isMobile ? <SanctuaryRoom2D /> : <SanctuaryRoom />}
                 </motion.div>
               )}
-              
+
               {currentRoom === 'observatory' && (
                 <motion.div
                   key="observatory"
@@ -178,7 +220,7 @@ export default function ChronoMusePage() {
                   exit={{ opacity: 0 }}
                   className="w-full h-full"
                 >
-                  <ObservatoryRoom />
+                  {isMobile ? <ObservatoryRoom2D /> : <ObservatoryRoom />}
                 </motion.div>
               )}
             </AnimatePresence>
@@ -189,9 +231,14 @@ export default function ChronoMusePage() {
             <ChronoMuseAvatar mood={currentMood} />
           </div>
 
+          {/* User Avatar - Center Stage */}
+          <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-30 w-64 h-80">
+            <UserAvatar />
+          </div>
+
           {/* Emotional Engine Display */}
           <div className="absolute top-32 right-8 z-20">
-            <EmotionalEngine onMoodChange={setCurrentMood} />
+            <EmotionalEngine currentMood={currentMood} mode={currentToneMode} />
           </div>
 
           {/* Cinematic Controls */}
@@ -249,6 +296,17 @@ export default function ChronoMusePage() {
             <NPCSummoner onClose={() => setShowNPCSummoner(false)} />
           </motion.div>
         )}
+
+        {showAncestryHub && (
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.9 }}
+            className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm"
+          >
+            <AncestryHub onClose={() => setShowAncestryHub(false)} />
+          </motion.div>
+        )}
       </AnimatePresence>
 
       {/* Sensory Controls - Bottom Right Corner */}
@@ -263,6 +321,13 @@ export default function ChronoMusePage() {
       >
         {showChat ? 'Hide ChronoMuse' : 'Show ChronoMuse'}
       </button>
+
+      {/* Debug indicator for mobile mode */}
+      {isMobile && (
+        <div className="fixed bottom-4 left-4 z-50 px-3 py-1 bg-green-500/80 text-white text-xs rounded-full">
+          Mobile Mode Active
+        </div>
+      )}
     </div>
   );
 }

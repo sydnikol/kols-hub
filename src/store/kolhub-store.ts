@@ -57,22 +57,22 @@ interface KolHubStore {
   settings: AppSettings;
   userProfile: UserProfile;
   energyState: EnergyState;
-  
+
   // Current State
   currentDate: string;
   currentTime: string;
   isOnline: boolean;
   syncStatus: 'synced' | 'syncing' | 'offline' | 'error';
-  
+
   // AI Companion State
   companionActive: boolean;
   companionMood: 'supportive' | 'curious' | 'playful' | 'serious';
   conversationContext: string[];
-  
+
   // Pattern Recognition
   patterns: PatternData;
   insights: string[];
-  
+
   // Quick Stats (for dashboard)
   stats: {
     healthScore: number;
@@ -80,7 +80,11 @@ interface KolHubStore {
     medicationsTaken: number;
     energyTrend: 'up' | 'down' | 'stable';
   };
-  
+
+  // Avatar Management
+  avatars: ReadyPlayerMeAvatar[];
+  currentAvatar: ReadyPlayerMeAvatar | null;
+
   // Actions
   updateSettings: (settings: Partial<AppSettings>) => void;
   updateUserProfile: (profile: Partial<UserProfile>) => void;
@@ -91,6 +95,12 @@ interface KolHubStore {
   logEvolution: (change: string, category: string, trigger: string) => Promise<void>;
   detectPatterns: () => Promise<void>;
   syncData: () => Promise<void>;
+
+  // Avatar Actions
+  addAvatar: (avatar: ReadyPlayerMeAvatar) => void;
+  removeAvatar: (avatarId: string) => void;
+  updateAvatar: (avatarId: string, updates: Partial<ReadyPlayerMeAvatar>) => void;
+  setCurrentAvatar: (avatar: ReadyPlayerMeAvatar | null) => void;
 }
 
 // ==================== STORE CREATION ====================
@@ -150,7 +160,11 @@ export const useKolHubStore = create<KolHubStore>()(
         medicationsTaken: 0,
         energyTrend: 'stable',
       },
-      
+
+      // Avatar Management
+      avatars: [],
+      currentAvatar: null,
+
       // Actions
       updateSettings: (newSettings) => {
         set((state) => ({
@@ -190,7 +204,7 @@ export const useKolHubStore = create<KolHubStore>()(
           anxietyLevel: 0,
           dissociationLevel: 0,
           jointPain: [],
-          createdAt: new Date().toISOString(),
+          createdAt: new Date(),
         });
         
         get().detectPatterns();
@@ -208,10 +222,10 @@ export const useKolHubStore = create<KolHubStore>()(
         }));
         
         db.patternInsights.add({
-          detectedAt: new Date().toISOString(),
-          pattern: insight,
-          category: 'system',
+          type: 'system',
+          description: insight,
           confidence: 0.8,
+          detectedAt: new Date(),
         });
       },
       
@@ -229,8 +243,12 @@ export const useKolHubStore = create<KolHubStore>()(
         const meds = await db.medications.toArray();
         let takenCount = 0;
         meds.forEach(med => {
-          const todayTaken = med.taken.filter(t => t.date === today && t.taken);
-          takenCount += todayTaken.length;
+          if (med.taken && med.lastTaken) {
+            const lastTakenDate = new Date(med.lastTaken).toISOString().split('T')[0];
+            if (lastTakenDate === today) {
+              takenCount++;
+            }
+          }
         });
         
         // Get energy trend
@@ -264,10 +282,10 @@ export const useKolHubStore = create<KolHubStore>()(
       
       logEvolution: async (change, category, trigger) => {
         await db.evolutionLogs.add({
-          timestamp: new Date().toISOString(),
-          change,
+          timestamp: new Date(),
+          event: change,
           category,
-          trigger,
+          data: { trigger },
         });
       },
       
@@ -319,13 +337,14 @@ export const useKolHubStore = create<KolHubStore>()(
         
         // Calculate medication adherence
         const meds = await db.medications.toArray();
-        let totalDoses = 0;
-        let takenDoses = 0;
-        meds.forEach(med => {
-          totalDoses += med.taken.length;
-          takenDoses += med.taken.filter(t => t.taken).length;
-        });
-        const medicationAdherence = totalDoses > 0 ? (takenDoses / totalDoses) * 100 : 100;
+        const activeMeds = meds.filter(m => m.status === 'Active');
+        const takenToday = activeMeds.filter(m => {
+          if (!m.lastTaken) return false;
+          const lastTakenDate = new Date(m.lastTaken).toISOString().split('T')[0];
+          const today = new Date().toISOString().split('T')[0];
+          return lastTakenDate === today && m.taken;
+        }).length;
+        const medicationAdherence = activeMeds.length > 0 ? (takenToday / activeMeds.length) * 100 : 100;
         
         set({
           patterns: {
@@ -352,25 +371,63 @@ export const useKolHubStore = create<KolHubStore>()(
       
       syncData: async () => {
         set({ syncStatus: 'syncing' });
-        
+
         try {
           // Update stats
           await get().updateStats();
-          
+
           // Detect patterns
           await get().detectPatterns();
-          
+
           // Log evolution
           await get().logEvolution(
             'Data synchronized',
             'system',
             'auto_sync'
           );
-          
+
           set({ syncStatus: 'synced' });
         } catch (error) {
           console.error('Sync error:', error);
           set({ syncStatus: 'error' });
+        }
+      },
+
+      // Avatar Management Actions
+      addAvatar: (avatar) => {
+        set((state) => ({
+          avatars: [...state.avatars, avatar],
+        }));
+        saveAvatarsToStorage([...get().avatars, avatar]);
+        get().logEvolution('Avatar added', 'avatar', 'user_action');
+      },
+
+      removeAvatar: (avatarId) => {
+        set((state) => ({
+          avatars: state.avatars.filter(a => a.id !== avatarId),
+          currentAvatar: state.currentAvatar?.id === avatarId ? null : state.currentAvatar,
+        }));
+        saveAvatarsToStorage(get().avatars);
+        get().logEvolution('Avatar removed', 'avatar', 'user_action');
+      },
+
+      updateAvatar: (avatarId, updates) => {
+        set((state) => ({
+          avatars: state.avatars.map(a =>
+            a.id === avatarId ? { ...a, ...updates } : a
+          ),
+          currentAvatar: state.currentAvatar?.id === avatarId
+            ? { ...state.currentAvatar, ...updates }
+            : state.currentAvatar,
+        }));
+        saveAvatarsToStorage(get().avatars);
+      },
+
+      setCurrentAvatar: (avatar) => {
+        set({ currentAvatar: avatar });
+        if (avatar) {
+          saveCurrentAvatar(avatar);
+          get().logEvolution('Current avatar changed', 'avatar', 'user_action');
         }
       },
     }),
@@ -383,6 +440,8 @@ export const useKolHubStore = create<KolHubStore>()(
         energyState: state.energyState,
         patterns: state.patterns,
         insights: state.insights,
+        avatars: state.avatars,
+        currentAvatar: state.currentAvatar,
       }),
     }
   )

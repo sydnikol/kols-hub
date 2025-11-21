@@ -134,7 +134,7 @@ const ResumeBuilder: React.FC = () => {
             <div>
               <h3 className="font-bold text-gray-900">In Progress: Associate's Degree</h3>
               <div className="text-gray-700 text-sm">
-                Alternative Credit Pathway • {resumeData?.totalCredits || 0} credits earned
+                Alternative Credit Pathway • {resumeData?.education.credits || 0} credits earned
               </div>
               <div className="text-gray-600 text-sm mt-1">
                 CLEP, Sophia Learning, Study.com • Expected completion 2025

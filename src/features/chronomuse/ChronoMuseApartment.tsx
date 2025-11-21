@@ -14,7 +14,7 @@ import {
 // import { Studio } from './rooms/Studio';
 // import { Sanctuary } from './rooms/Sanctuary';
 // import { Observatory } from './rooms/Observatory';
-import { EducationHub } from '../education';
+// import { EducationHub } from '../education';
 
 // Import ChronoMuse AI companion
 // TODO: Re-enable when file is created
@@ -25,7 +25,7 @@ import { EducationHub } from '../education';
 // import { ChronoJournal } from './systems/ChronoJournal';
 // import { NPCSystem } from './systems/NPCSystem';
 // import { CinematicEngine } from './systems/CinematicEngine';
-// import { EmotionalEngine } from './systems/EmotionalEngine';
+// import { emotionalEngineRef.current } from './systems/EmotionalEngine';
 // import { TasteMemory } from './systems/TasteMemory';
 
 interface UserProfile {
@@ -85,21 +85,21 @@ export const ChronoMuseApartment: React.FC = () => {
   const emotionalEngineRef = useRef<any>(null);
 
   useEffect(() => {
-    // Initialize emotional tracking
-    emotionalEngineRef.current = new EmotionalEngine(userProfile);
-    
+    // TODO: Initialize emotional tracking when EmotionalEngine class is implemented
+    // emotionalEngineRef.current = new EmotionalEngine(userProfile);
+
     // Load saved profile from localStorage
     const savedProfile = localStorage.getItem('chronomuse-profile');
     if (savedProfile) {
       setUserProfile(JSON.parse(savedProfile));
     }
 
-    return () => {
-      // Cleanup
-      if (emotionalEngineRef.current) {
-        emotionalEngineRef.current.destroy();
-      }
-    };
+    // return () => {
+    //   // Cleanup
+    //   if (emotionalEngineRef.current) {
+    //     emotionalEngineRef.current.destroy();
+    //   }
+    // };
   }, []);
 
   // Save profile changes
@@ -159,7 +159,7 @@ export const ChronoMuseApartment: React.FC = () => {
             backgroundImage: `radial-gradient(circle at 20% 30%, rgba(139, 92, 246, 0.1) 0%, transparent 50%),
                              radial-gradient(circle at 80% 70%, rgba(59, 130, 246, 0.1) 0%, transparent 50%)`
           }}
-        />
+        /> */
       </div>
 
       {/* Main Apartment View or Room View */}
@@ -185,9 +185,9 @@ export const ChronoMuseApartment: React.FC = () => {
                   style={{
                     background: 'radial-gradient(circle at 50% 50%, rgba(99, 102, 241, 0.2) 0%, transparent 70%)'
                   }}
-                />
+                /> */
                 <div className="relative z-10 h-full flex flex-col items-center justify-center p-8">
-                  <BookOpen className="w-20 h-20 text-indigo-400 mb-4" />
+                  <BookOpen className="w-20 h-20 text-indigo-400 mb-4" /> */
                   <h2 className="text-3xl font-bold text-white mb-2 font-gothic">Education Hub</h2>
                   <p className="text-indigo-300 text-center text-sm">Passive learning & resume building</p>
                   <div className="mt-4 flex gap-2">
@@ -209,9 +209,9 @@ export const ChronoMuseApartment: React.FC = () => {
                   style={{
                     background: 'radial-gradient(circle at 50% 50%, rgba(139, 92, 246, 0.1) 0%, transparent 70%)'
                   }}
-                />
+                /> */
                 <div className="relative z-10 h-full flex flex-col items-center justify-center p-8">
-                  <Users className="w-20 h-20 text-purple-400 mb-4" />
+                  <Users className="w-20 h-20 text-purple-400 mb-4" /> */
                   <h2 className="text-3xl font-bold text-white mb-2 font-gothic">The Library</h2>
                   <p className="text-slate-400 text-center text-sm">Research, history, & deep study</p>
                   <div className="mt-4 flex gap-2">
@@ -233,9 +233,9 @@ export const ChronoMuseApartment: React.FC = () => {
                   style={{
                     background: 'radial-gradient(circle at 50% 50%, rgba(236, 72, 153, 0.1) 0%, transparent 70%)'
                   }}
-                />
+                /> */
                 <div className="relative z-10 h-full flex flex-col items-center justify-center p-8">
-                  <Palette className="w-20 h-20 text-pink-400 mb-4" />
+                  <Palette className="w-20 h-20 text-pink-400 mb-4" /> */
                   <h2 className="text-3xl font-bold text-white mb-2 font-gothic">The Studio</h2>
                 </div>
               </motion.button>

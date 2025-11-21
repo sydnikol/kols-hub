@@ -1,0 +1,1804 @@
+{
+  "health": [
+    {
+      "id": 1,
+      "idea": "Drink 8oz of water with a pinch of salt",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["POTS", "hydration", "quick"],
+      "difficulty": "very easy",
+      "category": "POTS Management"
+    },
+    {
+      "id": 2,
+      "idea": "5-minute legs-up-the-wall pose",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["POTS", "circulation", "rest"],
+      "difficulty": "very easy",
+      "category": "POTS Management"
+    },
+    {
+      "id": 3,
+      "idea": "Put on compression socks while lying down",
+      "spoons": 2,
+      "time": "5min",
+      "tags": ["POTS", "circulation", "symptom-management"],
+      "difficulty": "easy",
+      "category": "POTS Management"
+    },
+    {
+      "id": 4,
+      "idea": "Take a salt tablet with electrolyte drink",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["POTS", "hydration", "quick"],
+      "difficulty": "very easy",
+      "category": "POTS Management"
+    },
+    {
+      "id": 5,
+      "idea": "Gentle neck stretches while seated",
+      "spoons": 1,
+      "time": "3min",
+      "tags": ["hEDS", "flexibility", "pain-relief"],
+      "difficulty": "very easy",
+      "category": "hEDS Management"
+    },
+    {
+      "id": 6,
+      "idea": "Ice pack on painful joint for 10 minutes",
+      "spoons": 1,
+      "time": "10min",
+      "tags": ["hEDS", "pain-relief", "rest"],
+      "difficulty": "very easy",
+      "category": "hEDS Management"
+    },
+    {
+      "id": 7,
+      "idea": "5-4-3-2-1 grounding exercise",
+      "spoons": 1,
+      "time": "3min",
+      "tags": ["CPTSD", "grounding", "anxiety-relief"],
+      "difficulty": "very easy",
+      "category": "CPTSD Coping"
+    },
+    {
+      "id": 8,
+      "idea": "Box breathing (4-4-4-4) for 2 minutes",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["CPTSD", "breathing", "anxiety-relief", "POTS"],
+      "difficulty": "very easy",
+      "category": "CPTSD Coping"
+    },
+    {
+      "id": 9,
+      "idea": "Squeeze ice cube to interrupt flashback",
+      "spoons": 1,
+      "time": "1min",
+      "tags": ["CPTSD", "grounding", "crisis"],
+      "difficulty": "very easy",
+      "category": "CPTSD Coping"
+    },
+    {
+      "id": 10,
+      "idea": "Drink pickle juice straight from jar",
+      "spoons": 1,
+      "time": "1min",
+      "tags": ["POTS", "quick", "high-sodium"],
+      "difficulty": "very easy",
+      "category": "POTS Management"
+    },
+    {
+      "id": 11,
+      "idea": "Log current symptoms in health tracker",
+      "spoons": 1,
+      "time": "3min",
+      "tags": ["tracking", "awareness", "all-conditions"],
+      "difficulty": "very easy",
+      "category": "Self-Monitoring"
+    },
+    {
+      "id": 12,
+      "idea": "Take medication with full glass of water",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["medication", "routine", "all-conditions"],
+      "difficulty": "very easy",
+      "category": "Medication Management"
+    },
+    {
+      "id": 13,
+      "idea": "Wear wrist braces while typing",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["hEDS", "joint-protection", "prevention"],
+      "difficulty": "very easy",
+      "category": "hEDS Management"
+    },
+    {
+      "id": 14,
+      "idea": "Use heating pad on sore muscles for 15min",
+      "spoons": 1,
+      "time": "15min",
+      "tags": ["hEDS", "pain-relief", "rest"],
+      "difficulty": "very easy",
+      "category": "hEDS Management"
+    },
+    {
+      "id": 15,
+      "idea": "Sit down immediately when feeling dizzy",
+      "spoons": 1,
+      "time": "instant",
+      "tags": ["POTS", "safety", "crisis"],
+      "difficulty": "very easy",
+      "category": "POTS Management"
+    },
+    {
+      "id": 16,
+      "idea": "Eat a salty snack (chips, pretzels)",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["POTS", "quick", "high-sodium"],
+      "difficulty": "very easy",
+      "category": "POTS Management"
+    },
+    {
+      "id": 17,
+      "idea": "Listen to a 5-minute guided meditation",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["CPTSD", "relaxation", "mindfulness"],
+      "difficulty": "very easy",
+      "category": "CPTSD Coping"
+    },
+    {
+      "id": 18,
+      "idea": "Put on a weighted blanket",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["CPTSD", "sensory", "calming"],
+      "difficulty": "very easy",
+      "category": "CPTSD Coping"
+    },
+    {
+      "id": 19,
+      "idea": "Text a safe friend you're struggling",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["CPTSD", "support", "connection"],
+      "difficulty": "very easy",
+      "category": "Social Support"
+    },
+    {
+      "id": 20,
+      "idea": "Take a 10-minute seated rest break",
+      "spoons": 1,
+      "time": "10min",
+      "tags": ["all-conditions", "rest", "pacing"],
+      "difficulty": "very easy",
+      "category": "Energy Management"
+    },
+    {
+      "id": 21,
+      "idea": "Elevate legs on pillows while lying down",
+      "spoons": 1,
+      "time": "15min",
+      "tags": ["POTS", "circulation", "rest"],
+      "difficulty": "very easy",
+      "category": "POTS Management"
+    },
+    {
+      "id": 22,
+      "idea": "Apply KT tape to unstable joint",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["hEDS", "joint-support", "prevention"],
+      "difficulty": "moderate",
+      "category": "hEDS Management"
+    },
+    {
+      "id": 23,
+      "idea": "Journal 3 things you're grateful for",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["CPTSD", "mental-health", "positive"],
+      "difficulty": "very easy",
+      "category": "Mental Wellness"
+    },
+    {
+      "id": 24,
+      "idea": "Do ankle pumps while sitting (20 reps)",
+      "spoons": 1,
+      "time": "3min",
+      "tags": ["POTS", "circulation", "exercise"],
+      "difficulty": "very easy",
+      "category": "POTS Management"
+    },
+    {
+      "id": 25,
+      "idea": "Use a mobility aid without shame",
+      "spoons": 1,
+      "time": "ongoing",
+      "tags": ["all-conditions", "self-compassion", "safety"],
+      "difficulty": "easy",
+      "category": "Self-Advocacy"
+    },
+    {
+      "id": 26,
+      "idea": "Set a timer to stand up slowly (count to 10)",
+      "spoons": 1,
+      "time": "1min",
+      "tags": ["POTS", "safety", "prevention"],
+      "difficulty": "very easy",
+      "category": "POTS Management"
+    },
+    {
+      "id": 27,
+      "idea": "Cancel plans if you're not feeling well",
+      "spoons": 2,
+      "time": "5min",
+      "tags": ["all-conditions", "boundaries", "self-care"],
+      "difficulty": "moderate",
+      "category": "Boundary Setting"
+    },
+    {
+      "id": 28,
+      "idea": "Rate your pain level on 1-10 scale",
+      "spoons": 1,
+      "time": "1min",
+      "tags": ["hEDS", "tracking", "awareness"],
+      "difficulty": "very easy",
+      "category": "Self-Monitoring"
+    },
+    {
+      "id": 29,
+      "idea": "Take a shower sitting on shower chair",
+      "spoons": 3,
+      "time": "20min",
+      "tags": ["POTS", "safety", "adaptive"],
+      "difficulty": "moderate",
+      "category": "Adaptive Living"
+    },
+    {
+      "id": 30,
+      "idea": "Prepare tomorrow's medications in pill organizer",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["all-conditions", "planning", "routine"],
+      "difficulty": "easy",
+      "category": "Medication Management"
+    },
+    {
+      "id": 31,
+      "idea": "Watch a comfort show episode (no thinking required)",
+      "spoons": 1,
+      "time": "30min",
+      "tags": ["CPTSD", "rest", "low-effort"],
+      "difficulty": "very easy",
+      "category": "Rest & Recovery"
+    },
+    {
+      "id": 32,
+      "idea": "Wear sunglasses indoors if lights are too bright",
+      "spoons": 1,
+      "time": "ongoing",
+      "tags": ["POTS", "sensory", "migraine-prevention"],
+      "difficulty": "very easy",
+      "category": "Sensory Management"
+    },
+    {
+      "id": 33,
+      "idea": "Gentle finger/wrist range of motion exercises",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["hEDS", "flexibility", "prevention"],
+      "difficulty": "very easy",
+      "category": "hEDS Management"
+    },
+    {
+      "id": 34,
+      "idea": "Recite positive affirmations (5 statements)",
+      "spoons": 1,
+      "time": "3min",
+      "tags": ["CPTSD", "mental-health", "positive"],
+      "difficulty": "very easy",
+      "category": "Mental Wellness"
+    },
+    {
+      "id": 35,
+      "idea": "Check blood pressure and heart rate",
+      "spoons": 2,
+      "time": "5min",
+      "tags": ["POTS", "tracking", "monitoring"],
+      "difficulty": "easy",
+      "category": "Self-Monitoring"
+    },
+    {
+      "id": 36,
+      "idea": "Use foam roller on tight muscles",
+      "spoons": 3,
+      "time": "15min",
+      "tags": ["hEDS", "pain-relief", "self-care"],
+      "difficulty": "moderate",
+      "category": "hEDS Management"
+    },
+    {
+      "id": 37,
+      "idea": "Name the emotion you're feeling out loud",
+      "spoons": 1,
+      "time": "1min",
+      "tags": ["CPTSD", "emotional-regulation", "awareness"],
+      "difficulty": "very easy",
+      "category": "Emotional Regulation"
+    },
+    {
+      "id": 38,
+      "idea": "Apply lidocaine patch to painful area",
+      "spoons": 1,
+      "time": "3min",
+      "tags": ["hEDS", "pain-relief", "topical"],
+      "difficulty": "very easy",
+      "category": "Pain Management"
+    },
+    {
+      "id": 39,
+      "idea": "Eat a high-protein snack with salt",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["POTS", "nutrition", "energy"],
+      "difficulty": "very easy",
+      "category": "Nutrition"
+    },
+    {
+      "id": 40,
+      "idea": "Look at pictures of safe/happy memories",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["CPTSD", "grounding", "positive"],
+      "difficulty": "very easy",
+      "category": "Grounding Techniques"
+    },
+    {
+      "id": 41,
+      "idea": "Ask for help with a task",
+      "spoons": 2,
+      "time": "5min",
+      "tags": ["all-conditions", "support", "boundaries"],
+      "difficulty": "moderate",
+      "category": "Social Support"
+    },
+    {
+      "id": 42,
+      "idea": "Drink coconut water for electrolytes",
+      "spoons": 1,
+      "time": "3min",
+      "tags": ["POTS", "hydration", "electrolytes"],
+      "difficulty": "very easy",
+      "category": "POTS Management"
+    },
+    {
+      "id": 43,
+      "idea": "Use a grabber tool to avoid bending over",
+      "spoons": 1,
+      "time": "ongoing",
+      "tags": ["POTS", "hEDS", "adaptive", "safety"],
+      "difficulty": "very easy",
+      "category": "Adaptive Living"
+    },
+    {
+      "id": 44,
+      "idea": "Hold a stuffed animal or comfort object",
+      "spoons": 1,
+      "time": "ongoing",
+      "tags": ["CPTSD", "sensory", "calming"],
+      "difficulty": "very easy",
+      "category": "Sensory Regulation"
+    },
+    {
+      "id": 45,
+      "idea": "Take a 5-minute power nap",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["all-conditions", "rest", "energy"],
+      "difficulty": "very easy",
+      "category": "Energy Management"
+    },
+    {
+      "id": 46,
+      "idea": "Wear knee braces before activity",
+      "spoons": 2,
+      "time": "5min",
+      "tags": ["hEDS", "joint-protection", "prevention"],
+      "difficulty": "easy",
+      "category": "hEDS Management"
+    },
+    {
+      "id": 47,
+      "idea": "Pet a cat or dog (if available)",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["CPTSD", "calming", "sensory"],
+      "difficulty": "very easy",
+      "category": "Sensory Regulation"
+    },
+    {
+      "id": 48,
+      "idea": "Use speech-to-text instead of typing",
+      "spoons": 1,
+      "time": "ongoing",
+      "tags": ["hEDS", "adaptive", "energy-saving"],
+      "difficulty": "very easy",
+      "category": "Adaptive Technology"
+    },
+    {
+      "id": 49,
+      "idea": "Set boundaries with a family member",
+      "spoons": 3,
+      "time": "10min",
+      "tags": ["CPTSD", "boundaries", "self-advocacy"],
+      "difficulty": "complex",
+      "category": "Boundary Setting"
+    },
+    {
+      "id": 50,
+      "idea": "Wiggle toes and flex calves while standing",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["POTS", "circulation", "prevention"],
+      "difficulty": "very easy",
+      "category": "POTS Management"
+    },
+    {
+      "id": 51,
+      "idea": "Apply tiger balm to sore joints",
+      "spoons": 1,
+      "time": "3min",
+      "tags": ["hEDS", "pain-relief", "topical"],
+      "difficulty": "very easy",
+      "category": "Pain Management"
+    },
+    {
+      "id": 52,
+      "idea": "Watch a YouTube video on trauma healing",
+      "spoons": 2,
+      "time": "15min",
+      "tags": ["CPTSD", "education", "healing"],
+      "difficulty": "easy",
+      "category": "Education"
+    },
+    {
+      "id": 53,
+      "idea": "Eat salt straight off your hand (emergency)",
+      "spoons": 1,
+      "time": "30sec",
+      "tags": ["POTS", "crisis", "quick"],
+      "difficulty": "very easy",
+      "category": "Emergency Response"
+    },
+    {
+      "id": 54,
+      "idea": "Use a fidget toy during anxiety",
+      "spoons": 1,
+      "time": "ongoing",
+      "tags": ["CPTSD", "sensory", "anxiety-relief"],
+      "difficulty": "very easy",
+      "category": "Sensory Regulation"
+    },
+    {
+      "id": 55,
+      "idea": "Decline an invitation without explanation",
+      "spoons": 2,
+      "time": "2min",
+      "tags": ["all-conditions", "boundaries", "self-care"],
+      "difficulty": "moderate",
+      "category": "Boundary Setting"
+    },
+    {
+      "id": 56,
+      "idea": "Use a stool in the kitchen to avoid standing",
+      "spoons": 1,
+      "time": "ongoing",
+      "tags": ["POTS", "adaptive", "energy-saving"],
+      "difficulty": "very easy",
+      "category": "Adaptive Living"
+    },
+    {
+      "id": 57,
+      "idea": "Take an Epsom salt bath for muscle pain",
+      "spoons": 4,
+      "time": "30min",
+      "tags": ["hEDS", "pain-relief", "relaxation"],
+      "difficulty": "moderate",
+      "category": "Self-Care"
+    },
+    {
+      "id": 58,
+      "idea": "Read a single page of a safe book",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["CPTSD", "grounding", "low-effort"],
+      "difficulty": "very easy",
+      "category": "Grounding Techniques"
+    },
+    {
+      "id": 59,
+      "idea": "Track your water intake for the day",
+      "spoons": 1,
+      "time": "ongoing",
+      "tags": ["POTS", "hydration", "tracking"],
+      "difficulty": "very easy",
+      "category": "Self-Monitoring"
+    },
+    {
+      "id": 60,
+      "idea": "Gently massage a subluxed joint back into place",
+      "spoons": 2,
+      "time": "5min",
+      "tags": ["hEDS", "self-treatment", "pain-relief"],
+      "difficulty": "moderate",
+      "category": "hEDS Management"
+    },
+    {
+      "id": 61,
+      "idea": "Tell yourself 'I am safe right now'",
+      "spoons": 1,
+      "time": "30sec",
+      "tags": ["CPTSD", "grounding", "affirmation"],
+      "difficulty": "very easy",
+      "category": "Grounding Techniques"
+    },
+    {
+      "id": 62,
+      "idea": "Use voice control for lights/devices",
+      "spoons": 1,
+      "time": "ongoing",
+      "tags": ["all-conditions", "adaptive", "energy-saving"],
+      "difficulty": "very easy",
+      "category": "Adaptive Technology"
+    },
+    {
+      "id": 63,
+      "idea": "Wear abdominal compression binder",
+      "spoons": 2,
+      "time": "5min",
+      "tags": ["POTS", "symptom-management", "circulation"],
+      "difficulty": "easy",
+      "category": "POTS Management"
+    },
+    {
+      "id": 64,
+      "idea": "Do 10 gentle shoulder rolls",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["hEDS", "flexibility", "prevention"],
+      "difficulty": "very easy",
+      "category": "hEDS Management"
+    },
+    {
+      "id": 65,
+      "idea": "Unfriend/block a triggering person on social media",
+      "spoons": 2,
+      "time": "5min",
+      "tags": ["CPTSD", "boundaries", "self-protection"],
+      "difficulty": "moderate",
+      "category": "Digital Boundaries"
+    },
+    {
+      "id": 66,
+      "idea": "Pre-make electrolyte ice cubes for later",
+      "spoons": 3,
+      "time": "10min",
+      "tags": ["POTS", "planning", "hydration"],
+      "difficulty": "easy",
+      "category": "Meal Prep"
+    },
+    {
+      "id": 67,
+      "idea": "Use a ring splint on hyperextending finger",
+      "spoons": 1,
+      "time": "1min",
+      "tags": ["hEDS", "joint-protection", "prevention"],
+      "difficulty": "very easy",
+      "category": "hEDS Management"
+    },
+    {
+      "id": 68,
+      "idea": "Listen to a trauma-informed podcast",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["CPTSD", "education", "healing"],
+      "difficulty": "easy",
+      "category": "Education"
+    },
+    {
+      "id": 69,
+      "idea": "Rock back and forth for self-soothing",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["CPTSD", "self-soothing", "sensory"],
+      "difficulty": "very easy",
+      "category": "Sensory Regulation"
+    },
+    {
+      "id": 70,
+      "idea": "Order groceries for delivery instead of shopping",
+      "spoons": 2,
+      "time": "20min",
+      "tags": ["all-conditions", "energy-saving", "adaptive"],
+      "difficulty": "easy",
+      "category": "Energy Conservation"
+    },
+    {
+      "id": 71,
+      "idea": "Check for tachycardia before standing",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["POTS", "monitoring", "safety"],
+      "difficulty": "very easy",
+      "category": "Self-Monitoring"
+    },
+    {
+      "id": 72,
+      "idea": "Gentle cat-cow stretches on hands and knees",
+      "spoons": 2,
+      "time": "5min",
+      "tags": ["hEDS", "flexibility", "pain-relief"],
+      "difficulty": "easy",
+      "category": "Gentle Exercise"
+    },
+    {
+      "id": 73,
+      "idea": "Create a safety plan for dissociation",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["CPTSD", "planning", "safety"],
+      "difficulty": "moderate",
+      "category": "Crisis Planning"
+    },
+    {
+      "id": 74,
+      "idea": "Add electrolyte powder to your water bottle",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["POTS", "hydration", "quick"],
+      "difficulty": "very easy",
+      "category": "POTS Management"
+    },
+    {
+      "id": 75,
+      "idea": "Use dictation software for writing tasks",
+      "spoons": 1,
+      "time": "ongoing",
+      "tags": ["hEDS", "adaptive", "energy-saving"],
+      "difficulty": "very easy",
+      "category": "Adaptive Technology"
+    },
+    {
+      "id": 76,
+      "idea": "Allow yourself to cry if you need to",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["CPTSD", "emotional-release", "self-compassion"],
+      "difficulty": "moderate",
+      "category": "Emotional Regulation"
+    },
+    {
+      "id": 77,
+      "idea": "Wear a medical alert bracelet",
+      "spoons": 1,
+      "time": "ongoing",
+      "tags": ["all-conditions", "safety", "advocacy"],
+      "difficulty": "very easy",
+      "category": "Medical Advocacy"
+    },
+    {
+      "id": 78,
+      "idea": "Do reclined bicycle legs (10 reps)",
+      "spoons": 2,
+      "time": "5min",
+      "tags": ["POTS", "circulation", "gentle-exercise"],
+      "difficulty": "easy",
+      "category": "Gentle Exercise"
+    },
+    {
+      "id": 79,
+      "idea": "Apply CBD cream to painful joints",
+      "spoons": 1,
+      "time": "3min",
+      "tags": ["hEDS", "pain-relief", "topical"],
+      "difficulty": "very easy",
+      "category": "Pain Management"
+    },
+    {
+      "id": 80,
+      "idea": "Write down one intrusive thought and challenge it",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["CPTSD", "cognitive", "healing"],
+      "difficulty": "moderate",
+      "category": "Cognitive Processing"
+    },
+    {
+      "id": 81,
+      "idea": "Drink a sports drink (Gatorade, Powerade)",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["POTS", "hydration", "electrolytes"],
+      "difficulty": "very easy",
+      "category": "POTS Management"
+    },
+    {
+      "id": 82,
+      "idea": "Wear soft, non-restrictive clothing",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["all-conditions", "sensory", "comfort"],
+      "difficulty": "very easy",
+      "category": "Sensory Management"
+    },
+    {
+      "id": 83,
+      "idea": "Gentle ankle circles (10 each direction)",
+      "spoons": 1,
+      "time": "3min",
+      "tags": ["hEDS", "flexibility", "prevention"],
+      "difficulty": "very easy",
+      "category": "hEDS Management"
+    },
+    {
+      "id": 84,
+      "idea": "Practice radical acceptance for 5 minutes",
+      "spoons": 2,
+      "time": "5min",
+      "tags": ["CPTSD", "DBT", "emotional-regulation"],
+      "difficulty": "moderate",
+      "category": "DBT Skills"
+    },
+    {
+      "id": 85,
+      "idea": "Eat olives for salt content",
+      "spoons": 1,
+      "time": "3min",
+      "tags": ["POTS", "high-sodium", "snack"],
+      "difficulty": "very easy",
+      "category": "Nutrition"
+    },
+    {
+      "id": 86,
+      "idea": "Use a cane on bad pain days",
+      "spoons": 1,
+      "time": "ongoing",
+      "tags": ["hEDS", "mobility", "safety"],
+      "difficulty": "very easy",
+      "category": "Mobility Aids"
+    },
+    {
+      "id": 87,
+      "idea": "Identify your current emotion on feelings wheel",
+      "spoons": 1,
+      "time": "3min",
+      "tags": ["CPTSD", "emotional-regulation", "awareness"],
+      "difficulty": "very easy",
+      "category": "Emotional Awareness"
+    },
+    {
+      "id": 88,
+      "idea": "Take a beta blocker before activity (if prescribed)",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["POTS", "medication", "prevention"],
+      "difficulty": "very easy",
+      "category": "Medication Management"
+    },
+    {
+      "id": 89,
+      "idea": "Prop up book/tablet with pillow to reduce neck strain",
+      "spoons": 1,
+      "time": "ongoing",
+      "tags": ["hEDS", "adaptive", "prevention"],
+      "difficulty": "very easy",
+      "category": "Adaptive Living"
+    },
+    {
+      "id": 90,
+      "idea": "Send yourself a compassionate text message",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["CPTSD", "self-compassion", "positive"],
+      "difficulty": "very easy",
+      "category": "Self-Compassion"
+    },
+    {
+      "id": 91,
+      "idea": "Measure your salt intake for the day",
+      "spoons": 2,
+      "time": "ongoing",
+      "tags": ["POTS", "tracking", "nutrition"],
+      "difficulty": "easy",
+      "category": "Self-Monitoring"
+    },
+    {
+      "id": 92,
+      "idea": "Use a back brace for lumbar support",
+      "spoons": 2,
+      "time": "5min",
+      "tags": ["hEDS", "joint-support", "pain-prevention"],
+      "difficulty": "easy",
+      "category": "hEDS Management"
+    },
+    {
+      "id": 93,
+      "idea": "Color in an adult coloring book page",
+      "spoons": 2,
+      "time": "15min",
+      "tags": ["CPTSD", "mindfulness", "calming"],
+      "difficulty": "easy",
+      "category": "Creative Coping"
+    },
+    {
+      "id": 94,
+      "idea": "Squat down slowly instead of bending at waist",
+      "spoons": 2,
+      "time": "ongoing",
+      "tags": ["POTS", "safety", "prevention"],
+      "difficulty": "moderate",
+      "category": "Body Mechanics"
+    },
+    {
+      "id": 95,
+      "idea": "Buddy tape unstable fingers together",
+      "spoons": 2,
+      "time": "5min",
+      "tags": ["hEDS", "joint-support", "prevention"],
+      "difficulty": "easy",
+      "category": "hEDS Management"
+    },
+    {
+      "id": 96,
+      "idea": "Practice opposite action (DBT skill)",
+      "spoons": 3,
+      "time": "10min",
+      "tags": ["CPTSD", "DBT", "emotional-regulation"],
+      "difficulty": "complex",
+      "category": "DBT Skills"
+    },
+    {
+      "id": 97,
+      "idea": "Drink V8 juice for sodium and nutrients",
+      "spoons": 1,
+      "time": "3min",
+      "tags": ["POTS", "nutrition", "high-sodium"],
+      "difficulty": "very easy",
+      "category": "Nutrition"
+    },
+    {
+      "id": 98,
+      "idea": "Take an anti-inflammatory (if safe for you)",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["hEDS", "pain-relief", "medication"],
+      "difficulty": "very easy",
+      "category": "Pain Management"
+    },
+    {
+      "id": 99,
+      "idea": "Watch a safe/comforting movie",
+      "spoons": 2,
+      "time": "2 hours",
+      "tags": ["CPTSD", "rest", "comfort"],
+      "difficulty": "easy",
+      "category": "Rest & Recovery"
+    },
+    {
+      "id": 100,
+      "idea": "Contract leg muscles while standing in line",
+      "spoons": 1,
+      "time": "ongoing",
+      "tags": ["POTS", "circulation", "prevention"],
+      "difficulty": "very easy",
+      "category": "POTS Management"
+    },
+    {
+      "id": 101,
+      "idea": "Lie flat on floor to decompress spine",
+      "spoons": 1,
+      "time": "10min",
+      "tags": ["hEDS", "pain-relief", "rest"],
+      "difficulty": "very easy",
+      "category": "Pain Management"
+    },
+    {
+      "id": 102,
+      "idea": "Use a sensory grounding kit (textures, scents)",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["CPTSD", "grounding", "sensory"],
+      "difficulty": "very easy",
+      "category": "Grounding Techniques"
+    },
+    {
+      "id": 103,
+      "idea": "Add bouillon cube to hot water and drink",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["POTS", "high-sodium", "warm"],
+      "difficulty": "very easy",
+      "category": "POTS Management"
+    },
+    {
+      "id": 104,
+      "idea": "Use ergonomic keyboard and mouse",
+      "spoons": 1,
+      "time": "ongoing",
+      "tags": ["hEDS", "adaptive", "prevention"],
+      "difficulty": "very easy",
+      "category": "Adaptive Technology"
+    },
+    {
+      "id": 105,
+      "idea": "Practice self-validation: 'My feelings are valid'",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["CPTSD", "self-compassion", "validation"],
+      "difficulty": "very easy",
+      "category": "Self-Compassion"
+    },
+    {
+      "id": 106,
+      "idea": "Do a NASA lean test at home",
+      "spoons": 3,
+      "time": "20min",
+      "tags": ["POTS", "monitoring", "testing"],
+      "difficulty": "moderate",
+      "category": "Self-Testing"
+    },
+    {
+      "id": 107,
+      "idea": "Apply Voltaren gel to painful joints",
+      "spoons": 1,
+      "time": "3min",
+      "tags": ["hEDS", "pain-relief", "topical"],
+      "difficulty": "very easy",
+      "category": "Pain Management"
+    },
+    {
+      "id": 108,
+      "idea": "Write a letter to your younger self",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["CPTSD", "healing", "processing"],
+      "difficulty": "complex",
+      "category": "Trauma Processing"
+    },
+    {
+      "id": 109,
+      "idea": "Snack on salted nuts",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["POTS", "protein", "high-sodium"],
+      "difficulty": "very easy",
+      "category": "Nutrition"
+    },
+    {
+      "id": 110,
+      "idea": "Wear a neck brace during flare",
+      "spoons": 2,
+      "time": "ongoing",
+      "tags": ["hEDS", "joint-support", "pain-relief"],
+      "difficulty": "easy",
+      "category": "hEDS Management"
+    },
+    {
+      "id": 111,
+      "idea": "Do a body scan meditation",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["CPTSD", "mindfulness", "grounding"],
+      "difficulty": "easy",
+      "category": "Mindfulness"
+    },
+    {
+      "id": 112,
+      "idea": "Sleep with legs elevated on wedge pillow",
+      "spoons": 1,
+      "time": "overnight",
+      "tags": ["POTS", "circulation", "sleep"],
+      "difficulty": "very easy",
+      "category": "Sleep Hygiene"
+    },
+    {
+      "id": 113,
+      "idea": "Use voice memos instead of writing",
+      "spoons": 1,
+      "time": "ongoing",
+      "tags": ["hEDS", "adaptive", "energy-saving"],
+      "difficulty": "very easy",
+      "category": "Adaptive Technology"
+    },
+    {
+      "id": 114,
+      "idea": "Identify and avoid an emotional trigger",
+      "spoons": 2,
+      "time": "ongoing",
+      "tags": ["CPTSD", "boundaries", "self-protection"],
+      "difficulty": "moderate",
+      "category": "Trigger Management"
+    },
+    {
+      "id": 115,
+      "idea": "Drink Liquid IV or similar electrolyte packet",
+      "spoons": 1,
+      "time": "3min",
+      "tags": ["POTS", "hydration", "electrolytes"],
+      "difficulty": "very easy",
+      "category": "POTS Management"
+    },
+    {
+      "id": 116,
+      "idea": "Gentle pelvic tilts while lying down",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["hEDS", "flexibility", "pain-relief"],
+      "difficulty": "very easy",
+      "category": "Gentle Exercise"
+    },
+    {
+      "id": 117,
+      "idea": "Create a playlist of safe, calming music",
+      "spoons": 2,
+      "time": "20min",
+      "tags": ["CPTSD", "planning", "self-soothing"],
+      "difficulty": "easy",
+      "category": "Coping Tools"
+    },
+    {
+      "id": 118,
+      "idea": "Cross legs when sitting to help blood flow",
+      "spoons": 1,
+      "time": "ongoing",
+      "tags": ["POTS", "circulation", "prevention"],
+      "difficulty": "very easy",
+      "category": "Body Positioning"
+    },
+    {
+      "id": 119,
+      "idea": "Use a cervical pillow for neck support",
+      "spoons": 1,
+      "time": "overnight",
+      "tags": ["hEDS", "pain-prevention", "sleep"],
+      "difficulty": "very easy",
+      "category": "Sleep Hygiene"
+    },
+    {
+      "id": 120,
+      "idea": "Call a crisis hotline if you're in danger",
+      "spoons": 2,
+      "time": "variable",
+      "tags": ["CPTSD", "crisis", "safety"],
+      "difficulty": "moderate",
+      "category": "Crisis Response"
+    },
+    {
+      "id": 121,
+      "idea": "Eat canned soup (high sodium)",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["POTS", "high-sodium", "quick"],
+      "difficulty": "very easy",
+      "category": "Nutrition"
+    },
+    {
+      "id": 122,
+      "idea": "Schedule PT appointment for joint strengthening",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["hEDS", "medical", "prevention"],
+      "difficulty": "moderate",
+      "category": "Medical Care"
+    },
+    {
+      "id": 123,
+      "idea": "Do alternate nostril breathing",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["CPTSD", "anxiety-relief", "breathing"],
+      "difficulty": "easy",
+      "category": "Breathing Techniques"
+    },
+    {
+      "id": 124,
+      "idea": "Clench fists before standing up",
+      "spoons": 1,
+      "time": "30sec",
+      "tags": ["POTS", "circulation", "prevention"],
+      "difficulty": "very easy",
+      "category": "POTS Management"
+    },
+    {
+      "id": 125,
+      "idea": "Use a body pillow for joint support while sleeping",
+      "spoons": 1,
+      "time": "overnight",
+      "tags": ["hEDS", "pain-prevention", "sleep"],
+      "difficulty": "very easy",
+      "category": "Sleep Hygiene"
+    },
+    {
+      "id": 126,
+      "idea": "Do a safe/calm visualization exercise",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["CPTSD", "visualization", "calming"],
+      "difficulty": "easy",
+      "category": "Visualization"
+    },
+    {
+      "id": 127,
+      "idea": "Keep emergency salt packets in your bag",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["POTS", "planning", "emergency"],
+      "difficulty": "very easy",
+      "category": "Emergency Preparedness"
+    },
+    {
+      "id": 128,
+      "idea": "Gentle neck retraction exercises (chin tucks)",
+      "spoons": 1,
+      "time": "3min",
+      "tags": ["hEDS", "strengthening", "prevention"],
+      "difficulty": "very easy",
+      "category": "Gentle Exercise"
+    },
+    {
+      "id": 129,
+      "idea": "Practice the STOP skill (DBT)",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["CPTSD", "DBT", "crisis"],
+      "difficulty": "very easy",
+      "category": "DBT Skills"
+    },
+    {
+      "id": 130,
+      "idea": "Drink beef or chicken broth",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["POTS", "high-sodium", "warm"],
+      "difficulty": "very easy",
+      "category": "Nutrition"
+    },
+    {
+      "id": 131,
+      "idea": "Use a SI belt for pelvic stability",
+      "spoons": 2,
+      "time": "5min",
+      "tags": ["hEDS", "joint-support", "pain-relief"],
+      "difficulty": "easy",
+      "category": "hEDS Management"
+    },
+    {
+      "id": 132,
+      "idea": "Hum or sing to regulate nervous system",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["CPTSD", "vagal-tone", "calming"],
+      "difficulty": "very easy",
+      "category": "Nervous System Regulation"
+    },
+    {
+      "id": 133,
+      "idea": "Set an alarm to drink water every hour",
+      "spoons": 1,
+      "time": "ongoing",
+      "tags": ["POTS", "hydration", "tracking"],
+      "difficulty": "very easy",
+      "category": "Self-Monitoring"
+    },
+    {
+      "id": 134,
+      "idea": "Sleep in a recliner if lying flat hurts",
+      "spoons": 2,
+      "time": "overnight",
+      "tags": ["hEDS", "adaptive", "sleep"],
+      "difficulty": "easy",
+      "category": "Sleep Adaptations"
+    },
+    {
+      "id": 135,
+      "idea": "Write down your triggers in a journal",
+      "spoons": 2,
+      "time": "15min",
+      "tags": ["CPTSD", "awareness", "tracking"],
+      "difficulty": "moderate",
+      "category": "Self-Awareness"
+    },
+    {
+      "id": 136,
+      "idea": "Wear thigh-high compression stockings",
+      "spoons": 3,
+      "time": "10min",
+      "tags": ["POTS", "circulation", "symptom-management"],
+      "difficulty": "moderate",
+      "category": "POTS Management"
+    },
+    {
+      "id": 137,
+      "idea": "Wear AFO braces for ankle stability",
+      "spoons": 3,
+      "time": "10min",
+      "tags": ["hEDS", "joint-support", "mobility"],
+      "difficulty": "moderate",
+      "category": "Orthotic Supports"
+    },
+    {
+      "id": 138,
+      "idea": "Do progressive muscle relaxation",
+      "spoons": 2,
+      "time": "15min",
+      "tags": ["CPTSD", "relaxation", "body-awareness"],
+      "difficulty": "easy",
+      "category": "Relaxation Techniques"
+    },
+    {
+      "id": 139,
+      "idea": "Drink pedialyte for electrolyte balance",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["POTS", "hydration", "electrolytes"],
+      "difficulty": "very easy",
+      "category": "POTS Management"
+    },
+    {
+      "id": 140,
+      "idea": "Use a TENS unit on painful muscles",
+      "spoons": 2,
+      "time": "20min",
+      "tags": ["hEDS", "pain-relief", "electronic"],
+      "difficulty": "easy",
+      "category": "Pain Management"
+    },
+    {
+      "id": 141,
+      "idea": "Create a safety contact list",
+      "spoons": 2,
+      "time": "20min",
+      "tags": ["CPTSD", "planning", "safety"],
+      "difficulty": "moderate",
+      "category": "Safety Planning"
+    },
+    {
+      "id": 142,
+      "idea": "Add extra salt to every meal",
+      "spoons": 1,
+      "time": "ongoing",
+      "tags": ["POTS", "nutrition", "high-sodium"],
+      "difficulty": "very easy",
+      "category": "Dietary Modification"
+    },
+    {
+      "id": 143,
+      "idea": "Do isometric quad exercises in bed",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["hEDS", "strengthening", "gentle"],
+      "difficulty": "very easy",
+      "category": "Gentle Exercise"
+    },
+    {
+      "id": 144,
+      "idea": "Use the TIPP skill for intense emotions (DBT)",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["CPTSD", "DBT", "crisis"],
+      "difficulty": "moderate",
+      "category": "DBT Skills"
+    },
+    {
+      "id": 145,
+      "idea": "Keep a hydration log",
+      "spoons": 2,
+      "time": "ongoing",
+      "tags": ["POTS", "tracking", "awareness"],
+      "difficulty": "easy",
+      "category": "Self-Monitoring"
+    },
+    {
+      "id": 146,
+      "idea": "Use a wheelchair on high-symptom days",
+      "spoons": 2,
+      "time": "ongoing",
+      "tags": ["all-conditions", "mobility", "adaptive"],
+      "difficulty": "moderate",
+      "category": "Mobility Aids"
+    },
+    {
+      "id": 147,
+      "idea": "Practice self-compassion break meditation",
+      "spoons": 2,
+      "time": "5min",
+      "tags": ["CPTSD", "self-compassion", "mindfulness"],
+      "difficulty": "easy",
+      "category": "Self-Compassion"
+    },
+    {
+      "id": 148,
+      "idea": "Drink chocolate milk (sodium + protein)",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["POTS", "nutrition", "recovery"],
+      "difficulty": "very easy",
+      "category": "Nutrition"
+    },
+    {
+      "id": 149,
+      "idea": "Use adaptive utensils for hand pain",
+      "spoons": 1,
+      "time": "ongoing",
+      "tags": ["hEDS", "adaptive", "eating"],
+      "difficulty": "very easy",
+      "category": "Adaptive Equipment"
+    },
+    {
+      "id": 150,
+      "idea": "Do container breathing exercise",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["CPTSD", "containment", "visualization"],
+      "difficulty": "easy",
+      "category": "Containment Techniques"
+    },
+    {
+      "id": 151,
+      "idea": "Wear a fitness tracker to monitor heart rate",
+      "spoons": 1,
+      "time": "ongoing",
+      "tags": ["POTS", "monitoring", "awareness"],
+      "difficulty": "very easy",
+      "category": "Technology Aids"
+    },
+    {
+      "id": 152,
+      "idea": "Apply ice to inflamed joints",
+      "spoons": 1,
+      "time": "15min",
+      "tags": ["hEDS", "pain-relief", "inflammation"],
+      "difficulty": "very easy",
+      "category": "Pain Management"
+    },
+    {
+      "id": 153,
+      "idea": "Engage both hemispheres (bilateral stimulation)",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["CPTSD", "EMDR", "calming"],
+      "difficulty": "easy",
+      "category": "EMDR Techniques"
+    },
+    {
+      "id": 154,
+      "idea": "Pre-salt foods before cooking",
+      "spoons": 1,
+      "time": "ongoing",
+      "tags": ["POTS", "nutrition", "preparation"],
+      "difficulty": "very easy",
+      "category": "Meal Prep"
+    },
+    {
+      "id": 155,
+      "idea": "Gentle scapular squeezes (shoulder blade pinches)",
+      "spoons": 1,
+      "time": "3min",
+      "tags": ["hEDS", "strengthening", "posture"],
+      "difficulty": "very easy",
+      "category": "Gentle Exercise"
+    },
+    {
+      "id": 156,
+      "idea": "Notice and name a positive sensation in your body",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["CPTSD", "somatic", "positive"],
+      "difficulty": "very easy",
+      "category": "Somatic Awareness"
+    },
+    {
+      "id": 157,
+      "idea": "Increase water goal by 8oz per week",
+      "spoons": 1,
+      "time": "ongoing",
+      "tags": ["POTS", "hydration", "progressive"],
+      "difficulty": "easy",
+      "category": "Progressive Goals"
+    },
+    {
+      "id": 158,
+      "idea": "Use speech-to-text for journaling",
+      "spoons": 1,
+      "time": "ongoing",
+      "tags": ["hEDS", "adaptive", "mental-health"],
+      "difficulty": "very easy",
+      "category": "Adaptive Technology"
+    },
+    {
+      "id": 159,
+      "idea": "Practice pendulation (moving between safe and unsafe)",
+      "spoons": 3,
+      "time": "15min",
+      "tags": ["CPTSD", "somatic", "regulation"],
+      "difficulty": "complex",
+      "category": "Somatic Therapy"
+    },
+    {
+      "id": 160,
+      "idea": "Eat cheese and crackers (salt + protein)",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["POTS", "nutrition", "snack"],
+      "difficulty": "very easy",
+      "category": "Nutrition"
+    },
+    {
+      "id": 161,
+      "idea": "Wear a posture corrector brace",
+      "spoons": 2,
+      "time": "ongoing",
+      "tags": ["hEDS", "posture", "prevention"],
+      "difficulty": "easy",
+      "category": "Postural Support"
+    },
+    {
+      "id": 162,
+      "idea": "Do loving-kindness meditation",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["CPTSD", "compassion", "healing"],
+      "difficulty": "easy",
+      "category": "Meditation"
+    },
+    {
+      "id": 163,
+      "idea": "Carry a refillable water bottle everywhere",
+      "spoons": 1,
+      "time": "ongoing",
+      "tags": ["POTS", "hydration", "planning"],
+      "difficulty": "very easy",
+      "category": "Habit Building"
+    },
+    {
+      "id": 164,
+      "idea": "Use a sock aid to avoid bending",
+      "spoons": 1,
+      "time": "ongoing",
+      "tags": ["hEDS", "POTS", "adaptive"],
+      "difficulty": "very easy",
+      "category": "Adaptive Equipment"
+    },
+    {
+      "id": 165,
+      "idea": "Practice reparenting your inner child",
+      "spoons": 3,
+      "time": "20min",
+      "tags": ["CPTSD", "inner-child", "healing"],
+      "difficulty": "complex",
+      "category": "Inner Child Work"
+    },
+    {
+      "id": 166,
+      "idea": "Set timer for salt consumption throughout day",
+      "spoons": 1,
+      "time": "ongoing",
+      "tags": ["POTS", "planning", "reminder"],
+      "difficulty": "very easy",
+      "category": "Time Management"
+    },
+    {
+      "id": 167,
+      "idea": "Gentle resistance band exercises",
+      "spoons": 3,
+      "time": "15min",
+      "tags": ["hEDS", "strengthening", "adaptive"],
+      "difficulty": "moderate",
+      "category": "Gentle Exercise"
+    },
+    {
+      "id": 168,
+      "idea": "Create an emotional safety toolkit",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["CPTSD", "planning", "coping"],
+      "difficulty": "moderate",
+      "category": "Coping Tools"
+    },
+    {
+      "id": 169,
+      "idea": "Measure blood pressure lying and standing",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["POTS", "monitoring", "diagnostic"],
+      "difficulty": "easy",
+      "category": "Self-Testing"
+    },
+    {
+      "id": 170,
+      "idea": "Use a long-handled shoehorn",
+      "spoons": 1,
+      "time": "ongoing",
+      "tags": ["hEDS", "POTS", "adaptive"],
+      "difficulty": "very easy",
+      "category": "Adaptive Equipment"
+    },
+    {
+      "id": 171,
+      "idea": "Do a resourcing exercise (find inner strength)",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["CPTSD", "somatic", "empowerment"],
+      "difficulty": "moderate",
+      "category": "Somatic Therapy"
+    },
+    {
+      "id": 172,
+      "idea": "Drink tomato juice or V8",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["POTS", "nutrition", "high-sodium"],
+      "difficulty": "very easy",
+      "category": "Nutrition"
+    },
+    {
+      "id": 173,
+      "idea": "Gentle wall push-ups (modified)",
+      "spoons": 2,
+      "time": "5min",
+      "tags": ["hEDS", "strengthening", "adaptive"],
+      "difficulty": "easy",
+      "category": "Gentle Exercise"
+    },
+    {
+      "id": 174,
+      "idea": "Use the RAIN technique for difficult emotions",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["CPTSD", "mindfulness", "emotional-regulation"],
+      "difficulty": "moderate",
+      "category": "Mindfulness"
+    },
+    {
+      "id": 175,
+      "idea": "Make electrolyte popsicles",
+      "spoons": 3,
+      "time": "15min + freeze time",
+      "tags": ["POTS", "hydration", "creative"],
+      "difficulty": "easy",
+      "category": "Meal Prep"
+    },
+    {
+      "id": 176,
+      "idea": "Request handicap parking placard",
+      "spoons": 3,
+      "time": "30min + processing",
+      "tags": ["all-conditions", "advocacy", "adaptive"],
+      "difficulty": "moderate",
+      "category": "Medical Advocacy"
+    },
+    {
+      "id": 177,
+      "idea": "Practice titration (small doses of difficult feelings)",
+      "spoons": 3,
+      "time": "15min",
+      "tags": ["CPTSD", "somatic", "processing"],
+      "difficulty": "complex",
+      "category": "Somatic Therapy"
+    },
+    {
+      "id": 178,
+      "idea": "Keep emergency Gatorade in your car",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["POTS", "planning", "emergency"],
+      "difficulty": "very easy",
+      "category": "Emergency Preparedness"
+    },
+    {
+      "id": 179,
+      "idea": "Gentle hip flexor stretches while lying down",
+      "spoons": 2,
+      "time": "5min",
+      "tags": ["hEDS", "flexibility", "pain-relief"],
+      "difficulty": "easy",
+      "category": "Gentle Exercise"
+    },
+    {
+      "id": 180,
+      "idea": "Write a letter to someone who hurt you (don't send)",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["CPTSD", "processing", "release"],
+      "difficulty": "complex",
+      "category": "Trauma Processing"
+    },
+    {
+      "id": 181,
+      "idea": "Eat salty pretzels",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["POTS", "snack", "high-sodium"],
+      "difficulty": "very easy",
+      "category": "Nutrition"
+    },
+    {
+      "id": 182,
+      "idea": "Wear a thumb spica splint",
+      "spoons": 2,
+      "time": "3min",
+      "tags": ["hEDS", "joint-support", "pain-prevention"],
+      "difficulty": "easy",
+      "category": "Orthotic Supports"
+    },
+    {
+      "id": 183,
+      "idea": "Practice urge surfing (ride the wave)",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["CPTSD", "DBT", "distress-tolerance"],
+      "difficulty": "moderate",
+      "category": "DBT Skills"
+    },
+    {
+      "id": 184,
+      "idea": "Pre-hydrate before appointments/activities",
+      "spoons": 2,
+      "time": "30min",
+      "tags": ["POTS", "planning", "prevention"],
+      "difficulty": "easy",
+      "category": "Activity Planning"
+    },
+    {
+      "id": 185,
+      "idea": "Use a reacher/grabber for high shelves",
+      "spoons": 1,
+      "time": "ongoing",
+      "tags": ["hEDS", "adaptive", "safety"],
+      "difficulty": "very easy",
+      "category": "Adaptive Equipment"
+    },
+    {
+      "id": 186,
+      "idea": "Do an orienting exercise (notice room details)",
+      "spoons": 1,
+      "time": "3min",
+      "tags": ["CPTSD", "grounding", "present-moment"],
+      "difficulty": "very easy",
+      "category": "Grounding Techniques"
+    },
+    {
+      "id": 187,
+      "idea": "Track menstrual cycle for symptom patterns",
+      "spoons": 2,
+      "time": "ongoing",
+      "tags": ["POTS", "hEDS", "tracking"],
+      "difficulty": "easy",
+      "category": "Self-Monitoring"
+    },
+    {
+      "id": 188,
+      "idea": "Use a cushioned mat for standing tasks",
+      "spoons": 1,
+      "time": "ongoing",
+      "tags": ["hEDS", "POTS", "adaptive"],
+      "difficulty": "very easy",
+      "category": "Adaptive Living"
+    },
+    {
+      "id": 189,
+      "idea": "Practice window of tolerance tracking",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["CPTSD", "awareness", "regulation"],
+      "difficulty": "moderate",
+      "category": "Nervous System Awareness"
+    },
+    {
+      "id": 190,
+      "idea": "Eat bacon (high salt, protein)",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["POTS", "high-sodium", "protein"],
+      "difficulty": "easy",
+      "category": "Nutrition"
+    },
+    {
+      "id": 191,
+      "idea": "Use ergonomic scissors for crafts",
+      "spoons": 1,
+      "time": "ongoing",
+      "tags": ["hEDS", "adaptive", "hobby"],
+      "difficulty": "very easy",
+      "category": "Adaptive Equipment"
+    },
+    {
+      "id": 192,
+      "idea": "Create a crisis box with comfort items",
+      "spoons": 3,
+      "time": "45min",
+      "tags": ["CPTSD", "planning", "coping"],
+      "difficulty": "moderate",
+      "category": "Coping Tools"
+    },
+    {
+      "id": 193,
+      "idea": "Increase salt slowly (250mg increments)",
+      "spoons": 2,
+      "time": "ongoing",
+      "tags": ["POTS", "medical", "progressive"],
+      "difficulty": "moderate",
+      "category": "Medical Management"
+    },
+    {
+      "id": 194,
+      "idea": "Gentle wall slides for quad strengthening",
+      "spoons": 2,
+      "time": "5min",
+      "tags": ["hEDS", "strengthening", "adaptive"],
+      "difficulty": "easy",
+      "category": "Gentle Exercise"
+    },
+    {
+      "id": 195,
+      "idea": "Practice self-havening (self-soothing touch)",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["CPTSD", "self-soothing", "calming"],
+      "difficulty": "very easy",
+      "category": "Self-Soothing"
+    },
+    {
+      "id": 196,
+      "idea": "Keep salt tablets in every bag/location",
+      "spoons": 2,
+      "time": "15min",
+      "tags": ["POTS", "planning", "emergency"],
+      "difficulty": "easy",
+      "category": "Emergency Preparedness"
+    },
+    {
+      "id": 197,
+      "idea": "Use a jar opener for hand weakness",
+      "spoons": 1,
+      "time": "ongoing",
+      "tags": ["hEDS", "adaptive", "kitchen"],
+      "difficulty": "very easy",
+      "category": "Adaptive Equipment"
+    },
+    {
+      "id": 198,
+      "idea": "Do butterfly hug (bilateral self-hug)",
+      "spoons": 1,
+      "time": "3min",
+      "tags": ["CPTSD", "EMDR", "self-soothing"],
+      "difficulty": "very easy",
+      "category": "EMDR Techniques"
+    },
+    {
+      "id": 199,
+      "idea": "Make a medical binder with all records",
+      "spoons": 4,
+      "time": "2 hours",
+      "tags": ["all-conditions", "organization", "advocacy"],
+      "difficulty": "complex",
+      "category": "Medical Organization"
+    },
+    {
+      "id": 200,
+      "idea": "Celebrate completing this micro-action!",
+      "spoons": 1,
+      "time": "1min",
+      "tags": ["all-conditions", "self-compassion", "positive"],
+      "difficulty": "very easy",
+      "category": "Self-Celebration"
+    }
+  ]
+}

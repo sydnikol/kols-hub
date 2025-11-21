@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { 
-  Dices, Book, Scroll, Swords, Users, Map, Sparkles, 
+import {
+  Dices, Book, Scroll, Swords, Users, Map, Sparkles,
   Shield, Heart, Zap, Plus, Settings, RefreshCw, Download,
   Upload, Save, Eye, Edit, Trash2, Search, Filter
 } from 'lucide-react';
+import type { Character } from './types';
 import CharacterSheet from './CharacterSheet';
 import DiceRoller from './DiceRoller';
 import SpellBook from './SpellBook';
@@ -13,29 +14,6 @@ import InitiativeTracker from './InitiativeTracker';
 import ItemDatabase from './ItemDatabase';
 import HomebrewCreator from './HomebrewCreator';
 import SessionNotes from './SessionNotes';
-
-interface Character {
-  id: string;
-  name: string;
-  class: string;
-  level: number;
-  race: string;
-  background: string;
-  hp: { current: number; max: number };
-  ac: number;
-  speed: number;
-  stats: {
-    str: number;
-    dex: number;
-    con: number;
-    int: number;
-    wis: number;
-    cha: number;
-  };
-  proficiencyBonus: number;
-  avatar?: string;
-  lastPlayed?: Date;
-}
 
 interface Campaign {
   id: string;

@@ -27,7 +27,11 @@ export const BodyWeatherChart: React.FC = () => {
       const db = await openDB();
       const tx = db.transaction('bodyWeather', 'readonly');
       const store = tx.objectStore('bodyWeather');
-      const allEntries = await store.getAll();
+      const getAllRequest = store.getAll();
+      const allEntries = await new Promise<BodyWeatherEntry[]>((resolve, reject) => {
+        getAllRequest.onsuccess = () => resolve(getAllRequest.result);
+        getAllRequest.onerror = () => reject(getAllRequest.error);
+      });
       setEntries(allEntries);
     } catch (error) {
       console.log('No body weather data yet');

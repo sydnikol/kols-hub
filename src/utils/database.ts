@@ -22,6 +22,7 @@ export interface MedicationRecord {
   notes?: string;
   lastTaken?: Date;
   nextDose?: Date;
+  taken?: boolean;
 }
 
 export interface VitalRecord {
@@ -94,7 +95,7 @@ export interface UserPreference {
 }
 
 export interface CourseProgress {
-  id?: number;
+  id?: number | string;
   platform: string;
   courseName: string;
   provider: string;
@@ -114,7 +115,7 @@ export interface CourseProgress {
 }
 
 export interface ResumeEntry {
-  id?: number;
+  id?: number | string;
   type: 'education' | 'certification' | 'project' | 'skill' | 'volunteer' | 'achievement';
   title: string;
   organization: string;
@@ -165,6 +166,231 @@ export interface CachedPlaylist {
   cachedAt?: Date;
 }
 
+export interface BodyWeatherLog {
+  id?: number;
+  date: string;
+  time: string;
+  painLevel?: number;
+  energyLevel?: number;
+  moodLevel?: number;
+  anxietyLevel?: number;
+  dissociationLevel?: number;
+  jointPain?: string[];
+  triggers?: string[];
+  copingStrategies?: string[];
+  notes?: string;
+  createdAt: Date;
+}
+
+export interface PatternInsight {
+  id?: number;
+  type: string;
+  description: string;
+  confidence: number;
+  detectedAt: Date;
+  data?: any;
+}
+
+export interface Task {
+  id?: number;
+  title: string;
+  description?: string;
+  completed: boolean;
+  priority?: 'low' | 'medium' | 'high';
+  dueDate?: Date;
+  createdAt: Date;
+}
+
+export interface LearningMoment {
+  id?: number;
+  timestamp: Date;
+  topic: string;
+  content: string;
+  source?: string;
+  tags?: string[];
+  pathwayId?: string;
+  moduleId?: string;
+  skillPracticed?: string;
+  portfolioPiece?: {
+    type: 'photo' | 'writing' | 'design' | 'code' | 'art' | 'research' | 'project';
+    title: string;
+    description: string;
+    url?: string;
+  };
+}
+
+export interface DnDIdea {
+  id?: number;
+  title: string;
+  description: string;
+  category: string;
+  difficulty?: string;
+  tags?: string[];
+  createdAt: Date;
+}
+
+export interface PassiveIncomeIdea {
+  id?: number;
+  title: string;
+  description: string;
+  category: string;
+  estimatedEffort?: string;
+  potentialIncome?: string;
+  tags?: string[];
+  createdAt: Date;
+}
+
+export interface AdvocacyScript {
+  id?: number;
+  title: string;
+  situation: string;
+  script: string;
+  tips?: string[];
+  tags?: string[];
+  createdAt: Date;
+}
+
+export interface SupportHandbook {
+  id?: number;
+  title: string;
+  content: string;
+  category: string;
+  tags?: string[];
+  createdAt: Date;
+}
+
+export interface IdeaLibraryItem {
+  id?: number;
+  title: string;
+  description: string;
+  type: string;
+  tags?: string[];
+  createdAt: Date;
+}
+
+export interface HerbalSupport {
+  id?: number;
+  name: string;
+  uses: string[];
+  dosage?: string;
+  warnings?: string[];
+  tags?: string[];
+  createdAt: Date;
+}
+
+export interface PTExercise {
+  id?: number;
+  name: string;
+  description: string;
+  duration?: string;
+  difficulty?: string;
+  bodyParts?: string[];
+  tags?: string[];
+  createdAt: Date;
+}
+
+export interface EmergencyCard {
+  id?: number;
+  name: string;
+  contactInfo?: string;
+  medications?: string[];
+  allergies?: string[];
+  medicalConditions?: string[];
+  emergencyContacts?: string[];
+  createdAt: Date;
+}
+
+export interface WardrobeItem {
+  id?: string;
+  name: string;
+  type: 'top' | 'bottom' | 'dress' | 'shoes' | 'accessory' | 'outerwear';
+  colors: string[];
+  style: string;
+  imageUrl: string;
+  dateAdded: Date;
+  aiAnalysis?: string;
+}
+
+export interface IncomeStream {
+  id?: number;
+  type: 'content' | 'affiliate' | 'investment' | 'crypto' | 'automated';
+  name: string;
+  status: 'active' | 'paused' | 'pending';
+  monthlyRevenue: number;
+  lastActive: Date;
+  config: any;
+}
+
+export interface IncomeActivity {
+  id?: number;
+  streamId: number;
+  action: string;
+  revenue: number;
+  timestamp: Date;
+  details: any;
+}
+
+export interface CareTeamMember {
+  id?: number;
+  contactId?: string;
+  careTeamId?: string;
+  displayName?: string;
+  firstName?: string;
+  lastName?: string;
+  phoneNumbers?: any[];
+  emails?: any[];
+  addresses?: any[];
+  role?: string;
+  tags?: string[];
+  isEmergency?: boolean;
+  isFavorite?: boolean;
+  relationship?: string;
+  organizationName?: string;
+  organizationRole?: string;
+  syncedFromPhone?: boolean;
+  lastContacted?: Date;
+  notes?: string[];
+  availableHours?: string;
+  preferredContactMethod?: string;
+  specialization?: string;
+}
+
+export interface ActivityLog {
+  id?: number;
+  type: string;
+  timestamp: Date;
+  metadata?: any;
+}
+
+export interface ContentWriting {
+  id: string;
+  title: string;
+  googleDriveId: string;
+  type: 'blog' | 'story' | 'article' | 'essay' | 'poetry' | 'book';
+  wordCount: number;
+  quality: number;
+  marketability: number;
+  earnings: number;
+  status: 'draft' | 'ready' | 'submitted' | 'published' | 'earning';
+  createdAt: Date;
+  updatedAt: Date;
+}
+
+export interface ContentPhoto {
+  id: string;
+  title: string;
+  googlePhotoId: string;
+  photoUrl: string;
+  category: string;
+  quality: number;
+  marketability: number;
+  earnings: number;
+  downloads: number;
+  views: number;
+  status: 'processing' | 'ready' | 'submitted' | 'approved' | 'earning';
+  createdAt: Date;
+}
+
 // Extended database class
 export class KolDatabase extends Dexie {
   medications!: Table<MedicationRecord>;
@@ -174,17 +400,37 @@ export class KolDatabase extends Dexie {
   mood!: Table<MoodRecord>;
   features!: Table<FeatureIdea>;
   evolution!: Table<EvolutionLog>;
+  evolutionLogs!: Table<EvolutionLog>;
   preferences!: Table<UserPreference>;
   conversations!: Table<AIConversation>;
   education!: Table<CourseProgress>;
   resume!: Table<ResumeEntry>;
   cachedTracks!: Table<CachedTrack>;
   cachedPlaylists!: Table<CachedPlaylist>;
+  bodyWeatherLogs!: Table<BodyWeatherLog>;
+  patternInsights!: Table<PatternInsight>;
+  tasks!: Table<Task>;
+  learningMoments!: Table<LearningMoment>;
+  dndIdeas!: Table<DnDIdea>;
+  passiveIncomeIdeas!: Table<PassiveIncomeIdea>;
+  advocacyScripts!: Table<AdvocacyScript>;
+  supportHandbooks!: Table<SupportHandbook>;
+  ideaLibrary!: Table<IdeaLibraryItem>;
+  herbalSupport!: Table<HerbalSupport>;
+  ptExercises!: Table<PTExercise>;
+  emergencyCards!: Table<EmergencyCard>;
+  wardrobe!: Table<WardrobeItem>;
+  incomeStreams!: Table<IncomeStream>;
+  incomeActivities!: Table<IncomeActivity>;
+  careTeam!: Table<CareTeamMember>;
+  activityLog!: Table<ActivityLog>;
+  contentWriting!: Table<ContentWriting>;
+  contentPhotos!: Table<ContentPhoto>;
 
   constructor() {
     super('KolDatabase');
 
-    this.version(3).stores({
+    this.version(4).stores({
       medications: '++id, drugName, status, startDate, lastTaken, nextDose',
       vitals: '++id, timestamp',
       hydration: '++id, timestamp',
@@ -192,12 +438,157 @@ export class KolDatabase extends Dexie {
       mood: '++id, timestamp',
       features: '++id, title, category, priority, status, createdAt',
       evolution: '++id, timestamp, category, event',
+      evolutionLogs: '++id, timestamp, category, event',
       preferences: '++id, key, updatedAt',
       conversations: '++id, timestamp, mode, room',
       education: '++id, platform, courseName, status, progress, creditType',
       resume: '++id, type, title, organization, startDate',
       cachedTracks: 'id, title, artist, platform, searchQuery, cachedAt, isOfflineAvailable',
-      cachedPlaylists: 'id, name, platform, cachedAt'
+      cachedPlaylists: 'id, name, platform, cachedAt',
+      bodyWeatherLogs: '++id, date, time, painLevel, energyLevel, createdAt',
+      patternInsights: '++id, type, detectedAt, confidence',
+      tasks: '++id, title, completed, priority, dueDate, createdAt',
+      learningMoments: '++id, timestamp, topic, pathwayId, moduleId',
+      dndIdeas: '++id, title, category, difficulty, createdAt',
+      passiveIncomeIdeas: '++id, title, category, estimatedEffort, createdAt',
+      advocacyScripts: '++id, title, situation, createdAt',
+      supportHandbooks: '++id, title, category, createdAt',
+      ideaLibrary: '++id, title, type, createdAt',
+      herbalSupport: '++id, name, createdAt',
+      ptExercises: '++id, name, difficulty, createdAt',
+      emergencyCards: '++id, name, createdAt'
+    });
+
+    this.version(5).stores({
+      medications: '++id, drugName, status, startDate, lastTaken, nextDose',
+      vitals: '++id, timestamp',
+      hydration: '++id, timestamp',
+      pain: '++id, timestamp, painLevel',
+      mood: '++id, timestamp',
+      features: '++id, title, category, priority, status, createdAt',
+      evolution: '++id, timestamp, category, event',
+      evolutionLogs: '++id, timestamp, category, event',
+      preferences: '++id, key, updatedAt',
+      conversations: '++id, timestamp, mode, room',
+      education: '++id, platform, courseName, status, progress, creditType',
+      resume: '++id, type, title, organization, startDate',
+      cachedTracks: 'id, title, artist, platform, searchQuery, cachedAt, isOfflineAvailable',
+      cachedPlaylists: 'id, name, platform, cachedAt',
+      bodyWeatherLogs: '++id, date, time, painLevel, energyLevel, createdAt',
+      patternInsights: '++id, type, detectedAt, confidence',
+      tasks: '++id, title, completed, priority, dueDate, createdAt',
+      learningMoments: '++id, timestamp, topic, pathwayId, moduleId',
+      dndIdeas: '++id, title, category, difficulty, createdAt',
+      passiveIncomeIdeas: '++id, title, category, estimatedEffort, createdAt',
+      advocacyScripts: '++id, title, situation, createdAt',
+      supportHandbooks: '++id, title, category, createdAt',
+      ideaLibrary: '++id, title, type, createdAt',
+      herbalSupport: '++id, name, createdAt',
+      ptExercises: '++id, name, difficulty, createdAt',
+      emergencyCards: '++id, name, createdAt',
+      wardrobe: 'id, name, type, style, dateAdded'
+    });
+
+    this.version(6).stores({
+      medications: '++id, drugName, status, startDate, lastTaken, nextDose',
+      vitals: '++id, timestamp',
+      hydration: '++id, timestamp',
+      pain: '++id, timestamp, painLevel',
+      mood: '++id, timestamp',
+      features: '++id, title, category, priority, status, createdAt',
+      evolution: '++id, timestamp, category, event',
+      evolutionLogs: '++id, timestamp, category, event',
+      preferences: '++id, key, updatedAt',
+      conversations: '++id, timestamp, mode, room',
+      education: '++id, platform, courseName, status, progress, creditType',
+      resume: '++id, type, title, organization, startDate',
+      cachedTracks: 'id, title, artist, platform, searchQuery, cachedAt, isOfflineAvailable',
+      cachedPlaylists: 'id, name, platform, cachedAt',
+      bodyWeatherLogs: '++id, date, time, painLevel, energyLevel, createdAt',
+      patternInsights: '++id, type, detectedAt, confidence',
+      tasks: '++id, title, completed, priority, dueDate, createdAt',
+      learningMoments: '++id, timestamp, topic, pathwayId, moduleId',
+      dndIdeas: '++id, title, category, difficulty, createdAt',
+      passiveIncomeIdeas: '++id, title, category, estimatedEffort, createdAt',
+      advocacyScripts: '++id, title, situation, createdAt',
+      supportHandbooks: '++id, title, category, createdAt',
+      ideaLibrary: '++id, title, type, createdAt',
+      herbalSupport: '++id, name, createdAt',
+      ptExercises: '++id, name, difficulty, createdAt',
+      emergencyCards: '++id, name, createdAt',
+      wardrobe: 'id, name, type, style, dateAdded',
+      incomeStreams: '++id, type, name, status, monthlyRevenue, lastActive',
+      incomeActivities: '++id, streamId, action, revenue, timestamp'
+    });
+
+    this.version(7).stores({
+      medications: '++id, drugName, status, startDate, lastTaken, nextDose',
+      vitals: '++id, timestamp',
+      hydration: '++id, timestamp',
+      pain: '++id, timestamp, painLevel',
+      mood: '++id, timestamp',
+      features: '++id, title, category, priority, status, createdAt',
+      evolution: '++id, timestamp, category, event',
+      evolutionLogs: '++id, timestamp, category, event',
+      preferences: '++id, key, updatedAt',
+      conversations: '++id, timestamp, mode, room',
+      education: '++id, platform, courseName, status, progress, creditType',
+      resume: '++id, type, title, organization, startDate',
+      cachedTracks: 'id, title, artist, platform, searchQuery, cachedAt, isOfflineAvailable',
+      cachedPlaylists: 'id, name, platform, cachedAt',
+      bodyWeatherLogs: '++id, date, time, painLevel, energyLevel, createdAt',
+      patternInsights: '++id, type, detectedAt, confidence',
+      tasks: '++id, title, completed, priority, dueDate, createdAt',
+      learningMoments: '++id, timestamp, topic, pathwayId, moduleId',
+      dndIdeas: '++id, title, category, difficulty, createdAt',
+      passiveIncomeIdeas: '++id, title, category, estimatedEffort, createdAt',
+      advocacyScripts: '++id, title, situation, createdAt',
+      supportHandbooks: '++id, title, category, createdAt',
+      ideaLibrary: '++id, title, type, createdAt',
+      herbalSupport: '++id, name, createdAt',
+      ptExercises: '++id, name, difficulty, createdAt',
+      emergencyCards: '++id, name, createdAt',
+      wardrobe: 'id, name, type, style, dateAdded',
+      incomeStreams: '++id, type, name, status, monthlyRevenue, lastActive',
+      incomeActivities: '++id, streamId, action, revenue, timestamp',
+      careTeam: '++id, careTeamId, contactId, displayName, role, isEmergency, isFavorite, lastContacted',
+      activityLog: '++id, type, timestamp'
+    });
+
+    this.version(8).stores({
+      medications: '++id, drugName, status, startDate, lastTaken, nextDose',
+      vitals: '++id, timestamp',
+      hydration: '++id, timestamp',
+      pain: '++id, timestamp, painLevel',
+      mood: '++id, timestamp',
+      features: '++id, title, category, priority, status, createdAt',
+      evolution: '++id, timestamp, category, event',
+      evolutionLogs: '++id, timestamp, category, event',
+      preferences: '++id, key, updatedAt',
+      conversations: '++id, timestamp, mode, room',
+      education: '++id, platform, courseName, status, progress, creditType',
+      resume: '++id, type, title, organization, startDate',
+      cachedTracks: 'id, title, artist, platform, searchQuery, cachedAt, isOfflineAvailable',
+      cachedPlaylists: 'id, name, platform, cachedAt',
+      bodyWeatherLogs: '++id, date, time, painLevel, energyLevel, createdAt',
+      patternInsights: '++id, type, detectedAt, confidence',
+      tasks: '++id, title, completed, priority, dueDate, createdAt',
+      learningMoments: '++id, timestamp, topic, pathwayId, moduleId',
+      dndIdeas: '++id, title, category, difficulty, createdAt',
+      passiveIncomeIdeas: '++id, title, category, estimatedEffort, createdAt',
+      advocacyScripts: '++id, title, situation, createdAt',
+      supportHandbooks: '++id, title, category, createdAt',
+      ideaLibrary: '++id, title, type, createdAt',
+      herbalSupport: '++id, name, createdAt',
+      ptExercises: '++id, name, difficulty, createdAt',
+      emergencyCards: '++id, name, createdAt',
+      wardrobe: 'id, name, type, style, dateAdded',
+      incomeStreams: '++id, type, name, status, monthlyRevenue, lastActive',
+      incomeActivities: '++id, streamId, action, revenue, timestamp',
+      careTeam: '++id, careTeamId, contactId, displayName, role, isEmergency, isFavorite, lastContacted',
+      activityLog: '++id, type, timestamp',
+      contentWriting: 'id, title, googleDriveId, type, quality, marketability, earnings, status, createdAt, updatedAt',
+      contentPhotos: 'id, title, googlePhotoId, category, quality, marketability, earnings, downloads, views, status, createdAt'
     });
   }
 

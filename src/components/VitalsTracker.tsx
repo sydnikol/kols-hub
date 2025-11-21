@@ -34,8 +34,12 @@ export const VitalsTracker: React.FC = () => {
       const db = await openDB();
       const tx = db.transaction('vitals', 'readonly');
       const store = tx.objectStore('vitals');
-      const allVitals = await store.getAll();
-      setVitals(allVitals.sort((a, b) => 
+      const getAllRequest = store.getAll();
+      const allVitals = await new Promise<Vital[]>((resolve, reject) => {
+        getAllRequest.onsuccess = () => resolve(getAllRequest.result);
+        getAllRequest.onerror = () => reject(getAllRequest.error);
+      });
+      setVitals(allVitals.sort((a, b) =>
         new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime()
       ));
     };

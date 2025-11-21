@@ -71,7 +71,11 @@ export const CreativityHub: React.FC = () => {
     try {
       const db = await openDB();
       const tx = db.transaction('creativeProjects', 'readonly');
-      const allProjects = await tx.objectStore('creativeProjects').getAll();
+      const getAllRequest = tx.objectStore('creativeProjects').getAll();
+      const allProjects = await new Promise<CreativeProject[]>((resolve, reject) => {
+        getAllRequest.onsuccess = () => resolve(getAllRequest.result);
+        getAllRequest.onerror = () => reject(getAllRequest.error);
+      });
       setProjects(allProjects);
     } catch (error) {
       console.log('No projects yet');
@@ -115,7 +119,11 @@ export const CreativityHub: React.FC = () => {
     const db = await openDB();
     const tx = db.transaction('creativeProjects', 'readwrite');
     const store = tx.objectStore('creativeProjects');
-    const project = await store.get(id);
+    const getRequest = store.get(id);
+    const project = await new Promise<CreativeProject>((resolve, reject) => {
+      getRequest.onsuccess = () => resolve(getRequest.result);
+      getRequest.onerror = () => reject(getRequest.error);
+    });
     project.completed = !project.completed;
     await store.put(project);
     setProjects(projects.map(p => p.id === id ? project : p));
@@ -241,10 +249,13 @@ export const CreativityHub: React.FC = () => {
                   <div className="text-purple-200 text-lg italic mb-4">"{currentPrompt}"</div>
                   <button
                     onClick={() => addProject({
+                      date: new Date(),
                       type: selectedCategory,
                       title: currentPrompt,
                       description: '',
-                      completed: false
+                      completed: false,
+                      language: 'English',
+                      tags: []
                     })}
                     className="bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-lg text-sm transition-colors"
                   >

@@ -1,9 +1,10 @@
 import { motion } from 'framer-motion';
 import { X, Users } from 'lucide-react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useChronoMuseStore } from '../../store/chronoMuseStore';
+import { ancestryService } from '../../services/ancestryService';
 
-const npcLibrary = [
+const baseNPCLibrary = [
   { id: '1', name: 'Langston Hughes', type: 'historical', era: 'HarlemRenaissance1920', personality: 'Poetic, insightful, empathetic', category: 'Artist' },
   { id: '2', name: 'Audre Lorde', type: 'historical', era: 'QueerLiberation', personality: 'Powerful, direct, revolutionary', category: 'Activist' },
   { id: '3', name: 'James Baldwin', type: 'historical', era: 'QueerLiberation', personality: 'Thoughtful, eloquent, challenging', category: 'Writer' },
@@ -14,7 +15,17 @@ const npcLibrary = [
 
 export default function NPCSummoner({ onClose }: { onClose: () => void }) {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+  const [npcLibrary, setNpcLibrary] = useState(baseNPCLibrary);
   const { addNPC, activeNPCs } = useChronoMuseStore();
+
+  useEffect(() => {
+    loadAncestors();
+  }, []);
+
+  const loadAncestors = async () => {
+    const ancestorNPCs = await ancestryService.getAncestorsAsNPCs();
+    setNpcLibrary([...baseNPCLibrary, ...ancestorNPCs]);
+  };
 
   const categories = ['All', 'Historical', 'Emotional', 'Fictional', 'Ancestral'];
 

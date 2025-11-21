@@ -1,0 +1,1804 @@
+{
+  "hoodoo": [
+    {
+      "id": 1,
+      "idea": "Light a white candle for peace and clarity",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["candle-magic", "peace", "simple"],
+      "difficulty": "very easy",
+      "category": "Candle Work"
+    },
+    {
+      "id": 2,
+      "idea": "Smoke cleanse your space with rosemary",
+      "spoons": 2,
+      "time": "15min",
+      "tags": ["cleansing", "smoke", "protection"],
+      "difficulty": "easy",
+      "category": "Cleansing"
+    },
+    {
+      "id": 3,
+      "idea": "Create a protection salt line at your door",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["protection", "salt", "boundaries"],
+      "difficulty": "very easy",
+      "category": "Protection"
+    },
+    {
+      "id": 4,
+      "idea": "Carry a piece of black tourmaline for protection",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["crystals", "protection", "simple"],
+      "difficulty": "very easy",
+      "category": "Crystal Work"
+    },
+    {
+      "id": 5,
+      "idea": "Brew chamomile tea with intention for calm",
+      "spoons": 1,
+      "time": "10min",
+      "tags": ["kitchen-witch", "calming", "tea-magic"],
+      "difficulty": "very easy",
+      "category": "Kitchen Witchery"
+    },
+    {
+      "id": 6,
+      "idea": "Draw a protective sigil on your mirror",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["sigils", "protection", "mirror-magic"],
+      "difficulty": "easy",
+      "category": "Sigil Magic"
+    },
+    {
+      "id": 7,
+      "idea": "Anoint yourself with protection oil",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["oils", "protection", "self-care"],
+      "difficulty": "very easy",
+      "category": "Oil Work"
+    },
+    {
+      "id": 8,
+      "idea": "Create a honey jar for sweetening",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["honey-jar", "sweetening", "jar-spell"],
+      "difficulty": "moderate",
+      "category": "Jar Spells"
+    },
+    {
+      "id": 9,
+      "idea": "Carry a High John the Conqueror root for strength",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["roots", "strength", "traditional"],
+      "difficulty": "very easy",
+      "category": "Root Work"
+    },
+    {
+      "id": 10,
+      "idea": "Sprinkle salt in corners of your home",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["salt", "protection", "home"],
+      "difficulty": "easy",
+      "category": "Home Protection"
+    },
+    {
+      "id": 11,
+      "idea": "Light a green candle for money drawing",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["candle-magic", "money", "prosperity"],
+      "difficulty": "very easy",
+      "category": "Money Drawing"
+    },
+    {
+      "id": 12,
+      "idea": "Create a mojo bag for protection",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["mojo-bag", "protection", "traditional"],
+      "difficulty": "moderate",
+      "category": "Mojo Bags"
+    },
+    {
+      "id": 13,
+      "idea": "Sweep negative energy out your front door",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["cleansing", "sweeping", "banishing"],
+      "difficulty": "easy",
+      "category": "Cleansing"
+    },
+    {
+      "id": 14,
+      "idea": "Wear angelica root for protection",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["roots", "protection", "wearable"],
+      "difficulty": "very easy",
+      "category": "Root Work"
+    },
+    {
+      "id": 15,
+      "idea": "Write a petition paper for your goal",
+      "spoons": 2,
+      "time": "15min",
+      "tags": ["petition", "manifestation", "writing"],
+      "difficulty": "easy",
+      "category": "Petition Magic"
+    },
+    {
+      "id": 16,
+      "idea": "Burn bay leaves to manifest wishes",
+      "spoons": 1,
+      "time": "10min",
+      "tags": ["herbs", "manifestation", "fire"],
+      "difficulty": "very easy",
+      "category": "Herb Magic"
+    },
+    {
+      "id": 17,
+      "idea": "Create a crossroads offering",
+      "spoons": 3,
+      "time": "20min",
+      "tags": ["crossroads", "spirits", "traditional"],
+      "difficulty": "moderate",
+      "category": "Spirit Work"
+    },
+    {
+      "id": 18,
+      "idea": "Dress a candle with oil and herbs",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["candle-magic", "dressing", "traditional"],
+      "difficulty": "easy",
+      "category": "Candle Dressing"
+    },
+    {
+      "id": 19,
+      "idea": "Create a floor wash for cleansing",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["floor-wash", "cleansing", "home"],
+      "difficulty": "moderate",
+      "category": "Floor Washes"
+    },
+    {
+      "id": 20,
+      "idea": "Carry pyrite for money drawing",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["crystals", "money", "simple"],
+      "difficulty": "very easy",
+      "category": "Money Drawing"
+    },
+    {
+      "id": 21,
+      "idea": "Make a protection charm with red thread",
+      "spoons": 2,
+      "time": "15min",
+      "tags": ["knot-magic", "protection", "charm"],
+      "difficulty": "easy",
+      "category": "Knot Magic"
+    },
+    {
+      "id": 22,
+      "idea": "Burn dragon's blood incense for power",
+      "spoons": 1,
+      "time": "10min",
+      "tags": ["incense", "power", "amplification"],
+      "difficulty": "very easy",
+      "category": "Incense Work"
+    },
+    {
+      "id": 23,
+      "idea": "Create a vinegar jar for banishing",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["jar-spell", "banishing", "sour"],
+      "difficulty": "moderate",
+      "category": "Jar Spells"
+    },
+    {
+      "id": 24,
+      "idea": "Anoint doors and windows with protection oil",
+      "spoons": 2,
+      "time": "15min",
+      "tags": ["oils", "protection", "home"],
+      "difficulty": "easy",
+      "category": "Home Protection"
+    },
+    {
+      "id": 25,
+      "idea": "Carry basil for prosperity",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["herbs", "prosperity", "kitchen-witch"],
+      "difficulty": "very easy",
+      "category": "Herb Magic"
+    },
+    {
+      "id": 26,
+      "idea": "Create a mirror box for reflection spell",
+      "spoons": 4,
+      "time": "1 hour",
+      "tags": ["mirror-magic", "reflection", "advanced"],
+      "difficulty": "complex",
+      "category": "Mirror Work"
+    },
+    {
+      "id": 27,
+      "idea": "Light a pink candle for self-love",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["candle-magic", "self-love", "healing"],
+      "difficulty": "very easy",
+      "category": "Self-Love Work"
+    },
+    {
+      "id": 28,
+      "idea": "Sprinkle cinnamon on doorstep for prosperity",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["herbs", "prosperity", "threshold"],
+      "difficulty": "very easy",
+      "category": "Prosperity Magic"
+    },
+    {
+      "id": 29,
+      "idea": "Create ancestor altar offerings",
+      "spoons": 2,
+      "time": "20min",
+      "tags": ["ancestors", "offerings", "reverence"],
+      "difficulty": "easy",
+      "category": "Ancestor Work"
+    },
+    {
+      "id": 30,
+      "idea": "Burn white sage for heavy cleansing",
+      "spoons": 2,
+      "time": "15min",
+      "tags": ["cleansing", "smoke", "purification"],
+      "difficulty": "easy",
+      "category": "Cleansing"
+    },
+    {
+      "id": 31,
+      "idea": "Carry a lodestone for attraction",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["curios", "attraction", "traditional"],
+      "difficulty": "very easy",
+      "category": "Curio Work"
+    },
+    {
+      "id": 32,
+      "idea": "Write enemy's name on paper and freeze",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["freezer-spell", "banishing", "defensive"],
+      "difficulty": "easy",
+      "category": "Freezer Spells"
+    },
+    {
+      "id": 33,
+      "idea": "Carry devil's shoestring for gambling luck",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["roots", "luck", "gambling"],
+      "difficulty": "very easy",
+      "category": "Luck Work"
+    },
+    {
+      "id": 34,
+      "idea": "Create a red brick dust line for protection",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["protection", "threshold", "traditional"],
+      "difficulty": "easy",
+      "category": "Threshold Protection"
+    },
+    {
+      "id": 35,
+      "idea": "Burn frankincense for spiritual connection",
+      "spoons": 1,
+      "time": "10min",
+      "tags": ["incense", "spiritual", "connection"],
+      "difficulty": "very easy",
+      "category": "Spiritual Work"
+    },
+    {
+      "id": 36,
+      "idea": "Create a money drawing mojo bag",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["mojo-bag", "money", "traditional"],
+      "difficulty": "moderate",
+      "category": "Money Drawing"
+    },
+    {
+      "id": 37,
+      "idea": "Place iron nails at corners of property",
+      "spoons": 3,
+      "time": "20min",
+      "tags": ["protection", "iron", "boundaries"],
+      "difficulty": "moderate",
+      "category": "Property Protection"
+    },
+    {
+      "id": 38,
+      "idea": "Light a purple candle for power and success",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["candle-magic", "power", "success"],
+      "difficulty": "very easy",
+      "category": "Success Work"
+    },
+    {
+      "id": 39,
+      "idea": "Create a hot foot powder for enemy removal",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["powder", "banishing", "traditional"],
+      "difficulty": "moderate",
+      "category": "Banishing"
+    },
+    {
+      "id": 40,
+      "idea": "Carry a rabbit's foot for luck",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["curios", "luck", "traditional"],
+      "difficulty": "very easy",
+      "category": "Luck Work"
+    },
+    {
+      "id": 41,
+      "idea": "Anoint yourself with Van Van oil",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["oils", "road-opening", "traditional"],
+      "difficulty": "very easy",
+      "category": "Road Opening"
+    },
+    {
+      "id": 42,
+      "idea": "Create a love drawing bath",
+      "spoons": 3,
+      "time": "45min",
+      "tags": ["bath", "love", "attraction"],
+      "difficulty": "moderate",
+      "category": "Love Drawing"
+    },
+    {
+      "id": 43,
+      "idea": "Burn palo santo for cleansing and blessing",
+      "spoons": 1,
+      "time": "10min",
+      "tags": ["cleansing", "smoke", "blessing"],
+      "difficulty": "very easy",
+      "category": "Cleansing"
+    },
+    {
+      "id": 44,
+      "idea": "Sprinkle graveyard dirt for ancestral work",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["dirt", "ancestors", "traditional"],
+      "difficulty": "moderate",
+      "category": "Ancestor Work"
+    },
+    {
+      "id": 45,
+      "idea": "Create a crossroads petition spell",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["crossroads", "petition", "traditional"],
+      "difficulty": "moderate",
+      "category": "Crossroads Work"
+    },
+    {
+      "id": 46,
+      "idea": "Carry five finger grass for success",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["herbs", "success", "five-things"],
+      "difficulty": "very easy",
+      "category": "Success Work"
+    },
+    {
+      "id": 47,
+      "idea": "Light a black candle for banishing",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["candle-magic", "banishing", "removal"],
+      "difficulty": "very easy",
+      "category": "Banishing"
+    },
+    {
+      "id": 48,
+      "idea": "Create a protection bottle spell",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["bottle-spell", "protection", "long-term"],
+      "difficulty": "moderate",
+      "category": "Bottle Spells"
+    },
+    {
+      "id": 49,
+      "idea": "Wash hands in salt water for cleansing",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["cleansing", "salt", "quick"],
+      "difficulty": "very easy",
+      "category": "Quick Cleansing"
+    },
+    {
+      "id": 50,
+      "idea": "Carry a silver dime for protection",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["money-magic", "protection", "traditional"],
+      "difficulty": "very easy",
+      "category": "Money Magic"
+    },
+    {
+      "id": 51,
+      "idea": "Create a money drawing candle spell",
+      "spoons": 2,
+      "time": "20min",
+      "tags": ["candle-magic", "money", "petition"],
+      "difficulty": "easy",
+      "category": "Money Drawing"
+    },
+    {
+      "id": 52,
+      "idea": "Burn sulfur for banishing negative energy",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["incense", "banishing", "strong"],
+      "difficulty": "moderate",
+      "category": "Heavy Banishing"
+    },
+    {
+      "id": 53,
+      "idea": "Create a love mojo bag",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["mojo-bag", "love", "attraction"],
+      "difficulty": "moderate",
+      "category": "Love Magic"
+    },
+    {
+      "id": 54,
+      "idea": "Place horseshoe above door for luck",
+      "spoons": 2,
+      "time": "15min",
+      "tags": ["curios", "luck", "home"],
+      "difficulty": "easy",
+      "category": "Home Blessing"
+    },
+    {
+      "id": 55,
+      "idea": "Light an orange candle for success and opportunity",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["candle-magic", "success", "opportunity"],
+      "difficulty": "very easy",
+      "category": "Success Work"
+    },
+    {
+      "id": 56,
+      "idea": "Create a war water for protection",
+      "spoons": 3,
+      "time": "1 hour + time",
+      "tags": ["war-water", "protection", "defensive"],
+      "difficulty": "moderate",
+      "category": "Defensive Magic"
+    },
+    {
+      "id": 57,
+      "idea": "Carry Adam and Eve root for relationship",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["roots", "love", "partnership"],
+      "difficulty": "very easy",
+      "category": "Relationship Work"
+    },
+    {
+      "id": 58,
+      "idea": "Sprinkle cascarilla for protection",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["powder", "protection", "spiritual"],
+      "difficulty": "very easy",
+      "category": "Spiritual Protection"
+    },
+    {
+      "id": 59,
+      "idea": "Create a road opener candle spell",
+      "spoons": 2,
+      "time": "20min",
+      "tags": ["candle-magic", "road-opening", "opportunity"],
+      "difficulty": "easy",
+      "category": "Road Opening"
+    },
+    {
+      "id": 60,
+      "idea": "Burn myrrh for protection and purification",
+      "spoons": 1,
+      "time": "10min",
+      "tags": ["incense", "protection", "ancient"],
+      "difficulty": "very easy",
+      "category": "Spiritual Work"
+    },
+    {
+      "id": 61,
+      "idea": "Create a lucky hand mojo bag",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["mojo-bag", "luck", "gambling"],
+      "difficulty": "moderate",
+      "category": "Luck Work"
+    },
+    {
+      "id": 62,
+      "idea": "Bury petition at crossroads",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["crossroads", "petition", "release"],
+      "difficulty": "moderate",
+      "category": "Crossroads Work"
+    },
+    {
+      "id": 63,
+      "idea": "Light a blue candle for peace and healing",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["candle-magic", "peace", "healing"],
+      "difficulty": "very easy",
+      "category": "Healing Work"
+    },
+    {
+      "id": 64,
+      "idea": "Create a Crown of Success oil blend",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["oils", "success", "traditional"],
+      "difficulty": "moderate",
+      "category": "Oil Crafting"
+    },
+    {
+      "id": 65,
+      "idea": "Carry a buckeye for luck and money",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["curios", "luck", "money"],
+      "difficulty": "very easy",
+      "category": "Money Drawing"
+    },
+    {
+      "id": 66,
+      "idea": "Create a peaceful home floor wash",
+      "spoons": 3,
+      "time": "45min",
+      "tags": ["floor-wash", "peace", "home"],
+      "difficulty": "moderate",
+      "category": "Home Harmony"
+    },
+    {
+      "id": 67,
+      "idea": "Burn copal for cleansing and offerings",
+      "spoons": 1,
+      "time": "10min",
+      "tags": ["incense", "cleansing", "offerings"],
+      "difficulty": "very easy",
+      "category": "Offerings"
+    },
+    {
+      "id": 68,
+      "idea": "Create a domination candle spell",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["candle-magic", "domination", "control"],
+      "difficulty": "complex",
+      "category": "Commanding Work"
+    },
+    {
+      "id": 69,
+      "idea": "Carry a nutmeg for luck and prosperity",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["herbs", "luck", "kitchen-witch"],
+      "difficulty": "very easy",
+      "category": "Kitchen Witchery"
+    },
+    {
+      "id": 70,
+      "idea": "Create a stop gossip spell",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["binding", "silence", "protection"],
+      "difficulty": "moderate",
+      "category": "Binding Work"
+    },
+    {
+      "id": 71,
+      "idea": "Light a red candle for passion and energy",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["candle-magic", "passion", "energy"],
+      "difficulty": "very easy",
+      "category": "Energy Work"
+    },
+    {
+      "id": 72,
+      "idea": "Create a fiery wall of protection oil",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["oils", "protection", "strong"],
+      "difficulty": "moderate",
+      "category": "Protection Oils"
+    },
+    {
+      "id": 73,
+      "idea": "Carry galangal root for court case work",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["roots", "justice", "legal"],
+      "difficulty": "very easy",
+      "category": "Legal Work"
+    },
+    {
+      "id": 74,
+      "idea": "Create a success powder blend",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["powder", "success", "crafting"],
+      "difficulty": "moderate",
+      "category": "Powder Crafting"
+    },
+    {
+      "id": 75,
+      "idea": "Burn sandalwood for meditation and peace",
+      "spoons": 1,
+      "time": "15min",
+      "tags": ["incense", "meditation", "peace"],
+      "difficulty": "very easy",
+      "category": "Spiritual Work"
+    },
+    {
+      "id": 76,
+      "idea": "Create a come to me candle spell",
+      "spoons": 2,
+      "time": "20min",
+      "tags": ["candle-magic", "attraction", "love"],
+      "difficulty": "easy",
+      "category": "Attraction Work"
+    },
+    {
+      "id": 77,
+      "idea": "Sprinkle bluing in laundry for protection",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["traditional", "protection", "laundry"],
+      "difficulty": "very easy",
+      "category": "Folk Practice"
+    },
+    {
+      "id": 78,
+      "idea": "Create a reconciliation honey jar",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["honey-jar", "reconciliation", "sweetening"],
+      "difficulty": "moderate",
+      "category": "Relationship Healing"
+    },
+    {
+      "id": 79,
+      "idea": "Carry Queen Elizabeth root for attraction",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["roots", "attraction", "love"],
+      "difficulty": "very easy",
+      "category": "Love Drawing"
+    },
+    {
+      "id": 80,
+      "idea": "Create a money drawing sachet",
+      "spoons": 2,
+      "time": "20min",
+      "tags": ["sachet", "money", "herbs"],
+      "difficulty": "easy",
+      "category": "Money Drawing"
+    },
+    {
+      "id": 81,
+      "idea": "Light a yellow candle for mental clarity",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["candle-magic", "clarity", "mental"],
+      "difficulty": "very easy",
+      "category": "Mental Work"
+    },
+    {
+      "id": 82,
+      "idea": "Create a job success mojo bag",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["mojo-bag", "job", "success"],
+      "difficulty": "moderate",
+      "category": "Employment Magic"
+    },
+    {
+      "id": 83,
+      "idea": "Burn benzoin for prosperity and purification",
+      "spoons": 1,
+      "time": "10min",
+      "tags": ["incense", "prosperity", "cleansing"],
+      "difficulty": "very easy",
+      "category": "Prosperity Work"
+    },
+    {
+      "id": 84,
+      "idea": "Create a protection charm bag",
+      "spoons": 2,
+      "time": "20min",
+      "tags": ["charm-bag", "protection", "portable"],
+      "difficulty": "easy",
+      "category": "Protection"
+    },
+    {
+      "id": 85,
+      "idea": "Carry a tonka bean for wishes and luck",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["curios", "wishes", "luck"],
+      "difficulty": "very easy",
+      "category": "Wish Magic"
+    },
+    {
+      "id": 86,
+      "idea": "Create uncrossing bath ritual",
+      "spoons": 3,
+      "time": "45min",
+      "tags": ["bath", "uncrossing", "cleansing"],
+      "difficulty": "moderate",
+      "category": "Uncrossing Work"
+    },
+    {
+      "id": 87,
+      "idea": "Light a brown candle for grounding and stability",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["candle-magic", "grounding", "stability"],
+      "difficulty": "very easy",
+      "category": "Grounding Work"
+    },
+    {
+      "id": 88,
+      "idea": "Create a drawing powder for attraction",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["powder", "attraction", "drawing"],
+      "difficulty": "moderate",
+      "category": "Drawing Work"
+    },
+    {
+      "id": 89,
+      "idea": "Carry licorice root for love and fidelity",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["roots", "love", "fidelity"],
+      "difficulty": "very easy",
+      "category": "Love Magic"
+    },
+    {
+      "id": 90,
+      "idea": "Create a reversing mirror spell",
+      "spoons": 4,
+      "time": "1 hour",
+      "tags": ["mirror-magic", "reversing", "advanced"],
+      "difficulty": "complex",
+      "category": "Reversing Work"
+    },
+    {
+      "id": 91,
+      "idea": "Burn cedar for protection and cleansing",
+      "spoons": 1,
+      "time": "10min",
+      "tags": ["smoke", "protection", "native"],
+      "difficulty": "very easy",
+      "category": "Smoke Cleansing"
+    },
+    {
+      "id": 92,
+      "idea": "Create a fast luck oil",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["oils", "luck", "quick-results"],
+      "difficulty": "moderate",
+      "category": "Luck Oils"
+    },
+    {
+      "id": 93,
+      "idea": "Carry alfalfa for prosperity",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["herbs", "prosperity", "kitchen-witch"],
+      "difficulty": "very easy",
+      "category": "Kitchen Witchery"
+    },
+    {
+      "id": 94,
+      "idea": "Create a separation vinegar jar",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["jar-spell", "separation", "banishing"],
+      "difficulty": "moderate",
+      "category": "Separation Work"
+    },
+    {
+      "id": 95,
+      "idea": "Light a silver candle for divine feminine energy",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["candle-magic", "goddess", "feminine"],
+      "difficulty": "very easy",
+      "category": "Goddess Work"
+    },
+    {
+      "id": 96,
+      "idea": "Create a Peaceful Home sachet",
+      "spoons": 2,
+      "time": "20min",
+      "tags": ["sachet", "peace", "home"],
+      "difficulty": "easy",
+      "category": "Home Harmony"
+    },
+    {
+      "id": 97,
+      "idea": "Carry a piece of Low John root for protection",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["roots", "protection", "defensive"],
+      "difficulty": "very easy",
+      "category": "Protection"
+    },
+    {
+      "id": 98,
+      "idea": "Create a court case candle spell",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["candle-magic", "legal", "justice"],
+      "difficulty": "moderate",
+      "category": "Legal Work"
+    },
+    {
+      "id": 99,
+      "idea": "Burn lavender for peace and sleep",
+      "spoons": 1,
+      "time": "10min",
+      "tags": ["herbs", "peace", "sleep"],
+      "difficulty": "very easy",
+      "category": "Peace Work"
+    },
+    {
+      "id": 100,
+      "idea": "Create an ancestor offering plate",
+      "spoons": 2,
+      "time": "20min",
+      "tags": ["ancestors", "offerings", "respect"],
+      "difficulty": "easy",
+      "category": "Ancestor Veneration"
+    },
+    {
+      "id": 101,
+      "idea": "Light a gold candle for success and wealth",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["candle-magic", "wealth", "success"],
+      "difficulty": "very easy",
+      "category": "Wealth Magic"
+    },
+    {
+      "id": 102,
+      "idea": "Create a love drawing bath",
+      "spoons": 3,
+      "time": "45min",
+      "tags": ["bath", "love", "attraction"],
+      "difficulty": "moderate",
+      "category": "Love Drawing"
+    },
+    {
+      "id": 103,
+      "idea": "Carry calendula for legal success",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["herbs", "legal", "success"],
+      "difficulty": "very easy",
+      "category": "Legal Work"
+    },
+    {
+      "id": 104,
+      "idea": "Create a Commanding oil blend",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["oils", "commanding", "control"],
+      "difficulty": "moderate",
+      "category": "Commanding Work"
+    },
+    {
+      "id": 105,
+      "idea": "Burn mugwort for psychic vision",
+      "spoons": 1,
+      "time": "10min",
+      "tags": ["incense", "psychic", "vision"],
+      "difficulty": "very easy",
+      "category": "Psychic Work"
+    },
+    {
+      "id": 106,
+      "idea": "Create a binding spell with cord",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["binding", "cord", "knot-magic"],
+      "difficulty": "moderate",
+      "category": "Binding Work"
+    },
+    {
+      "id": 107,
+      "idea": "Carry deer's tongue for eloquence",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["herbs", "communication", "speech"],
+      "difficulty": "very easy",
+      "category": "Communication Work"
+    },
+    {
+      "id": 108,
+      "idea": "Create a money stay with me spell",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["money", "retention", "jar-spell"],
+      "difficulty": "moderate",
+      "category": "Money Keeping"
+    },
+    {
+      "id": 109,
+      "idea": "Light a white candle on Monday for peace",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["candle-magic", "weekly", "peace"],
+      "difficulty": "very easy",
+      "category": "Weekly Practice"
+    },
+    {
+      "id": 110,
+      "idea": "Create a psychic vision oil",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["oils", "psychic", "third-eye"],
+      "difficulty": "moderate",
+      "category": "Psychic Development"
+    },
+    {
+      "id": 111,
+      "idea": "Carry wormwood for spirit communication",
+      "spoons": 2,
+      "time": "5min",
+      "tags": ["herbs", "spirits", "caution"],
+      "difficulty": "moderate",
+      "category": "Spirit Work"
+    },
+    {
+      "id": 112,
+      "idea": "Create a justice candle spell",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["candle-magic", "justice", "fairness"],
+      "difficulty": "moderate",
+      "category": "Justice Work"
+    },
+    {
+      "id": 113,
+      "idea": "Burn juniper for protection",
+      "spoons": 1,
+      "time": "10min",
+      "tags": ["smoke", "protection", "cleansing"],
+      "difficulty": "very easy",
+      "category": "Protection"
+    },
+    {
+      "id": 114,
+      "idea": "Create a shut your mouth spell",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["binding", "silence", "defensive"],
+      "difficulty": "moderate",
+      "category": "Silencing Work"
+    },
+    {
+      "id": 115,
+      "idea": "Carry a piece of jezebel root for attraction",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["roots", "attraction", "seduction"],
+      "difficulty": "very easy",
+      "category": "Attraction Work"
+    },
+    {
+      "id": 116,
+      "idea": "Create a break up couple spell",
+      "spoons": 4,
+      "time": "1 hour",
+      "tags": ["separation", "advanced", "ethical-concerns"],
+      "difficulty": "complex",
+      "category": "Separation Work"
+    },
+    {
+      "id": 117,
+      "idea": "Light a green candle on Thursday for prosperity",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["candle-magic", "weekly", "prosperity"],
+      "difficulty": "very easy",
+      "category": "Weekly Practice"
+    },
+    {
+      "id": 118,
+      "idea": "Create a blessing oil for home",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["oils", "blessing", "home"],
+      "difficulty": "moderate",
+      "category": "Home Blessing"
+    },
+    {
+      "id": 119,
+      "idea": "Carry star anise for luck and psychic power",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["herbs", "luck", "psychic"],
+      "difficulty": "very easy",
+      "category": "Dual Purpose"
+    },
+    {
+      "id": 120,
+      "idea": "Create a success and power bath",
+      "spoons": 3,
+      "time": "45min",
+      "tags": ["bath", "success", "power"],
+      "difficulty": "moderate",
+      "category": "Success Baths"
+    },
+    {
+      "id": 121,
+      "idea": "Burn pine for cleansing and money",
+      "spoons": 1,
+      "time": "10min",
+      "tags": ["incense", "cleansing", "money"],
+      "difficulty": "very easy",
+      "category": "Dual Purpose"
+    },
+    {
+      "id": 122,
+      "idea": "Create a job interview success spell",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["employment", "success", "interview"],
+      "difficulty": "moderate",
+      "category": "Employment Magic"
+    },
+    {
+      "id": 123,
+      "idea": "Carry chili pepper for hex breaking",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["herbs", "protection", "fiery"],
+      "difficulty": "very easy",
+      "category": "Hex Breaking"
+    },
+    {
+      "id": 124,
+      "idea": "Create a get away from me powder",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["powder", "banishing", "repelling"],
+      "difficulty": "moderate",
+      "category": "Banishing"
+    },
+    {
+      "id": 125,
+      "idea": "Light a pink candle on Friday for love",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["candle-magic", "weekly", "love"],
+      "difficulty": "very easy",
+      "category": "Weekly Practice"
+    },
+    {
+      "id": 126,
+      "idea": "Create an amor oil for romance",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["oils", "romance", "love"],
+      "difficulty": "moderate",
+      "category": "Romance Oils"
+    },
+    {
+      "id": 127,
+      "idea": "Carry a four-leaf clover for luck",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["curios", "luck", "rare"],
+      "difficulty": "very easy",
+      "category": "Natural Luck"
+    },
+    {
+      "id": 128,
+      "idea": "Create an abre camino (road opener) spell",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["road-opening", "traditional", "opportunity"],
+      "difficulty": "moderate",
+      "category": "Road Opening"
+    },
+    {
+      "id": 129,
+      "idea": "Burn storax for love and protection",
+      "spoons": 1,
+      "time": "10min",
+      "tags": ["incense", "love", "protection"],
+      "difficulty": "very easy",
+      "category": "Dual Purpose"
+    },
+    {
+      "id": 130,
+      "idea": "Create a stay with me candle spell",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["candle-magic", "fidelity", "binding"],
+      "difficulty": "moderate",
+      "category": "Fidelity Work"
+    },
+    {
+      "id": 131,
+      "idea": "Carry catnip for joy and cat magic",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["herbs", "joy", "cats"],
+      "difficulty": "very easy",
+      "category": "Joy Work"
+    },
+    {
+      "id": 132,
+      "idea": "Create a safe travel mojo bag",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["mojo-bag", "travel", "protection"],
+      "difficulty": "moderate",
+      "category": "Travel Protection"
+    },
+    {
+      "id": 133,
+      "idea": "Light a purple candle for spiritual power",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["candle-magic", "spiritual", "power"],
+      "difficulty": "very easy",
+      "category": "Spiritual Power"
+    },
+    {
+      "id": 134,
+      "idea": "Create a stop slander powder",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["powder", "protection", "reputation"],
+      "difficulty": "moderate",
+      "category": "Reputation Protection"
+    },
+    {
+      "id": 135,
+      "idea": "Burn patchouli for money and lust",
+      "spoons": 1,
+      "time": "10min",
+      "tags": ["incense", "money", "lust"],
+      "difficulty": "very easy",
+      "category": "Dual Purpose"
+    },
+    {
+      "id": 136,
+      "idea": "Create a compelling oil to influence",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["oils", "influence", "compelling"],
+      "difficulty": "moderate",
+      "category": "Influence Work"
+    },
+    {
+      "id": 137,
+      "idea": "Carry vervain for protection and purification",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["herbs", "protection", "sacred"],
+      "difficulty": "very easy",
+      "category": "Sacred Herbs"
+    },
+    {
+      "id": 138,
+      "idea": "Create a marriage blessing spell",
+      "spoons": 3,
+      "time": "45min",
+      "tags": ["marriage", "blessing", "commitment"],
+      "difficulty": "moderate",
+      "category": "Marriage Work"
+    },
+    {
+      "id": 139,
+      "idea": "Light a red candle on Tuesday for courage",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["candle-magic", "weekly", "courage"],
+      "difficulty": "very easy",
+      "category": "Weekly Practice"
+    },
+    {
+      "id": 140,
+      "idea": "Create a 13 herb bath for total cleansing",
+      "spoons": 4,
+      "time": "1 hour",
+      "tags": ["bath", "cleansing", "powerful"],
+      "difficulty": "complex",
+      "category": "Deep Cleansing"
+    },
+    {
+      "id": 141,
+      "idea": "Burn dragons blood resin for power amplification",
+      "spoons": 1,
+      "time": "10min",
+      "tags": ["incense", "power", "amplification"],
+      "difficulty": "very easy",
+      "category": "Power Work"
+    },
+    {
+      "id": 142,
+      "idea": "Create a curse reversal spell",
+      "spoons": 4,
+      "time": "1 hour",
+      "tags": ["reversal", "uncrossing", "advanced"],
+      "difficulty": "complex",
+      "category": "Reversal Work"
+    },
+    {
+      "id": 143,
+      "idea": "Carry orris root for love and romance",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["roots", "love", "romance"],
+      "difficulty": "very easy",
+      "category": "Romance Work"
+    },
+    {
+      "id": 144,
+      "idea": "Create a business success floor wash",
+      "spoons": 3,
+      "time": "45min",
+      "tags": ["floor-wash", "business", "success"],
+      "difficulty": "moderate",
+      "category": "Business Magic"
+    },
+    {
+      "id": 145,
+      "idea": "Light a black candle on Saturday for banishing",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["candle-magic", "weekly", "banishing"],
+      "difficulty": "very easy",
+      "category": "Weekly Practice"
+    },
+    {
+      "id": 146,
+      "idea": "Create a confusion oil for enemies",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["oils", "confusion", "defensive"],
+      "difficulty": "moderate",
+      "category": "Defensive Magic"
+    },
+    {
+      "id": 147,
+      "idea": "Carry mint for prosperity and healing",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["herbs", "prosperity", "healing"],
+      "difficulty": "very easy",
+      "category": "Kitchen Witchery"
+    },
+    {
+      "id": 148,
+      "idea": "Create a triple goddess candle ritual",
+      "spoons": 4,
+      "time": "1 hour",
+      "tags": ["goddess", "ritual", "sacred"],
+      "difficulty": "complex",
+      "category": "Goddess Work"
+    },
+    {
+      "id": 149,
+      "idea": "Burn sage and cedar together for deep cleansing",
+      "spoons": 2,
+      "time": "15min",
+      "tags": ["smoke", "cleansing", "combination"],
+      "difficulty": "easy",
+      "category": "Deep Cleansing"
+    },
+    {
+      "id": 150,
+      "idea": "Create a keep away evil powder",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["powder", "protection", "evil-eye"],
+      "difficulty": "moderate",
+      "category": "Evil Eye Protection"
+    },
+    {
+      "id": 151,
+      "idea": "Light a yellow candle on Wednesday for communication",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["candle-magic", "weekly", "communication"],
+      "difficulty": "very easy",
+      "category": "Weekly Practice"
+    },
+    {
+      "id": 152,
+      "idea": "Create a luck drawing sachet",
+      "spoons": 2,
+      "time": "20min",
+      "tags": ["sachet", "luck", "drawing"],
+      "difficulty": "easy",
+      "category": "Luck Drawing"
+    },
+    {
+      "id": 153,
+      "idea": "Carry rue for protection from evil eye",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["herbs", "protection", "evil-eye"],
+      "difficulty": "very easy",
+      "category": "Evil Eye Protection"
+    },
+    {
+      "id": 154,
+      "idea": "Create a house blessing ritual",
+      "spoons": 4,
+      "time": "1 hour",
+      "tags": ["blessing", "home", "comprehensive"],
+      "difficulty": "complex",
+      "category": "House Blessing"
+    },
+    {
+      "id": 155,
+      "idea": "Burn rose incense for love and beauty",
+      "spoons": 1,
+      "time": "10min",
+      "tags": ["incense", "love", "beauty"],
+      "difficulty": "very easy",
+      "category": "Love Work"
+    },
+    {
+      "id": 156,
+      "idea": "Create a money magnet oil",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["oils", "money", "attraction"],
+      "difficulty": "moderate",
+      "category": "Money Magnetism"
+    },
+    {
+      "id": 157,
+      "idea": "Carry sage leaf for wisdom",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["herbs", "wisdom", "mental"],
+      "difficulty": "very easy",
+      "category": "Wisdom Work"
+    },
+    {
+      "id": 158,
+      "idea": "Create a spirit offering bowl",
+      "spoons": 2,
+      "time": "20min",
+      "tags": ["spirits", "offerings", "communication"],
+      "difficulty": "easy",
+      "category": "Spirit Work"
+    },
+    {
+      "id": 159,
+      "idea": "Light an orange candle on Sunday for success",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["candle-magic", "weekly", "success"],
+      "difficulty": "very easy",
+      "category": "Weekly Practice"
+    },
+    {
+      "id": 160,
+      "idea": "Create a peaceful home oil blend",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["oils", "peace", "home"],
+      "difficulty": "moderate",
+      "category": "Home Harmony"
+    },
+    {
+      "id": 161,
+      "idea": "Burn yew for protection and banishing",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["smoke", "protection", "death-magic"],
+      "difficulty": "moderate",
+      "category": "Advanced Protection"
+    },
+    {
+      "id": 162,
+      "idea": "Create a fertility blessing spell",
+      "spoons": 3,
+      "time": "45min",
+      "tags": ["fertility", "blessing", "family"],
+      "difficulty": "moderate",
+      "category": "Fertility Work"
+    },
+    {
+      "id": 163,
+      "idea": "Carry rosemary for remembrance and protection",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["herbs", "memory", "protection"],
+      "difficulty": "very easy",
+      "category": "Dual Purpose"
+    },
+    {
+      "id": 164,
+      "idea": "Create a remove obstacles candle spell",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["candle-magic", "road-opening", "obstacles"],
+      "difficulty": "moderate",
+      "category": "Obstacle Removal"
+    },
+    {
+      "id": 165,
+      "idea": "Light a blue candle on Monday for healing",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["candle-magic", "weekly", "healing"],
+      "difficulty": "very easy",
+      "category": "Weekly Practice"
+    },
+    {
+      "id": 166,
+      "idea": "Create a jinx breaking bath",
+      "spoons": 3,
+      "time": "45min",
+      "tags": ["bath", "uncrossing", "jinx-breaking"],
+      "difficulty": "moderate",
+      "category": "Jinx Breaking"
+    },
+    {
+      "id": 167,
+      "idea": "Burn clove for prosperity and protection",
+      "spoons": 1,
+      "time": "10min",
+      "tags": ["incense", "prosperity", "protection"],
+      "difficulty": "very easy",
+      "category": "Dual Purpose"
+    },
+    {
+      "id": 168,
+      "idea": "Create a love me oil for self-love",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["oils", "self-love", "healing"],
+      "difficulty": "moderate",
+      "category": "Self-Love Work"
+    },
+    {
+      "id": 169,
+      "idea": "Carry thyme for courage and strength",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["herbs", "courage", "kitchen-witch"],
+      "difficulty": "very easy",
+      "category": "Kitchen Witchery"
+    },
+    {
+      "id": 170,
+      "idea": "Create a prosperity corner in your home",
+      "spoons": 3,
+      "time": "45min",
+      "tags": ["feng-shui", "prosperity", "home"],
+      "difficulty": "moderate",
+      "category": "Home Prosperity"
+    },
+    {
+      "id": 171,
+      "idea": "Light a silver candle on Monday for goddess work",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["candle-magic", "weekly", "goddess"],
+      "difficulty": "very easy",
+      "category": "Weekly Practice"
+    },
+    {
+      "id": 172,
+      "idea": "Create a spiritual cleansing floor wash",
+      "spoons": 3,
+      "time": "45min",
+      "tags": ["floor-wash", "spiritual", "cleansing"],
+      "difficulty": "moderate",
+      "category": "Spiritual Cleansing"
+    },
+    {
+      "id": 173,
+      "idea": "Burn lemongrass for cleansing and clarity",
+      "spoons": 1,
+      "time": "10min",
+      "tags": ["incense", "cleansing", "clarity"],
+      "difficulty": "very easy",
+      "category": "Mental Clarity"
+    },
+    {
+      "id": 174,
+      "idea": "Create a legal victory mojo bag",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["mojo-bag", "legal", "victory"],
+      "difficulty": "moderate",
+      "category": "Legal Victory"
+    },
+    {
+      "id": 175,
+      "idea": "Carry bay leaf for wishes and success",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["herbs", "wishes", "success"],
+      "difficulty": "very easy",
+      "category": "Wish Magic"
+    },
+    {
+      "id": 176,
+      "idea": "Create a new beginning candle spell",
+      "spoons": 2,
+      "time": "20min",
+      "tags": ["candle-magic", "new-beginnings", "fresh-start"],
+      "difficulty": "easy",
+      "category": "New Beginnings"
+    },
+    {
+      "id": 177,
+      "idea": "Light a gold candle on Sunday for abundance",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["candle-magic", "weekly", "abundance"],
+      "difficulty": "very easy",
+      "category": "Weekly Practice"
+    },
+    {
+      "id": 178,
+      "idea": "Create an abundance oil for prosperity",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["oils", "abundance", "prosperity"],
+      "difficulty": "moderate",
+      "category": "Abundance Work"
+    },
+    {
+      "id": 179,
+      "idea": "Burn wormwood with caution for spirits",
+      "spoons": 2,
+      "time": "10min",
+      "tags": ["incense", "spirits", "advanced"],
+      "difficulty": "moderate",
+      "category": "Spirit Communion"
+    },
+    {
+      "id": 180,
+      "idea": "Create a healing poppet for recovery",
+      "spoons": 4,
+      "time": "2 hours",
+      "tags": ["poppet", "healing", "advanced"],
+      "difficulty": "complex",
+      "category": "Poppet Magic"
+    },
+    {
+      "id": 181,
+      "idea": "Carry chamomile for peace and money",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["herbs", "peace", "money"],
+      "difficulty": "very easy",
+      "category": "Dual Purpose"
+    },
+    {
+      "id": 182,
+      "idea": "Create a protection poppet",
+      "spoons": 4,
+      "time": "2 hours",
+      "tags": ["poppet", "protection", "advanced"],
+      "difficulty": "complex",
+      "category": "Protection Poppet"
+    },
+    {
+      "id": 183,
+      "idea": "Light a white candle daily for spiritual practice",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["candle-magic", "daily", "spiritual"],
+      "difficulty": "very easy",
+      "category": "Daily Practice"
+    },
+    {
+      "id": 184,
+      "idea": "Create a clarity and wisdom oil",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["oils", "clarity", "wisdom"],
+      "difficulty": "moderate",
+      "category": "Mental Work"
+    },
+    {
+      "id": 185,
+      "idea": "Burn amber resin for healing and protection",
+      "spoons": 1,
+      "time": "10min",
+      "tags": ["incense", "healing", "protection"],
+      "difficulty": "very easy",
+      "category": "Dual Purpose"
+    },
+    {
+      "id": 186,
+      "idea": "Create an employment success spell jar",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["jar-spell", "employment", "success"],
+      "difficulty": "moderate",
+      "category": "Employment Magic"
+    },
+    {
+      "id": 187,
+      "idea": "Carry dill for protection and money",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["herbs", "protection", "money"],
+      "difficulty": "very easy",
+      "category": "Kitchen Witchery"
+    },
+    {
+      "id": 188,
+      "idea": "Create a home protection bottle spell",
+      "spoons": 3,
+      "time": "45min",
+      "tags": ["bottle-spell", "protection", "home"],
+      "difficulty": "moderate",
+      "category": "Home Protection"
+    },
+    {
+      "id": 189,
+      "idea": "Light a brown candle for animal magic",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["candle-magic", "animals", "nature"],
+      "difficulty": "very easy",
+      "category": "Animal Magic"
+    },
+    {
+      "id": 190,
+      "idea": "Create a psychic protection oil",
+      "spoons": 3,
+      "time": "30min",
+      "tags": ["oils", "protection", "psychic"],
+      "difficulty": "moderate",
+      "category": "Psychic Protection"
+    },
+    {
+      "id": 191,
+      "idea": "Burn sweetgrass for blessing and prayer",
+      "spoons": 1,
+      "time": "10min",
+      "tags": ["smoke", "blessing", "prayer"],
+      "difficulty": "very easy",
+      "category": "Sacred Practice"
+    },
+    {
+      "id": 192,
+      "idea": "Create a peaceful sleep sachet",
+      "spoons": 2,
+      "time": "20min",
+      "tags": ["sachet", "sleep", "peace"],
+      "difficulty": "easy",
+      "category": "Sleep Work"
+    },
+    {
+      "id": 193,
+      "idea": "Carry fennel for protection and courage",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["herbs", "protection", "courage"],
+      "difficulty": "very easy",
+      "category": "Kitchen Witchery"
+    },
+    {
+      "id": 194,
+      "idea": "Create a new moon manifestation ritual",
+      "spoons": 3,
+      "time": "45min",
+      "tags": ["moon-magic", "manifestation", "ritual"],
+      "difficulty": "moderate",
+      "category": "Moon Work"
+    },
+    {
+      "id": 195,
+      "idea": "Light a purple candle for crown chakra work",
+      "spoons": 1,
+      "time": "5min",
+      "tags": ["candle-magic", "chakra", "spiritual"],
+      "difficulty": "very easy",
+      "category": "Chakra Work"
+    },
+    {
+      "id": 196,
+      "idea": "Create a full moon release ritual",
+      "spoons": 3,
+      "time": "45min",
+      "tags": ["moon-magic", "release", "letting-go"],
+      "difficulty": "moderate",
+      "category": "Moon Work"
+    },
+    {
+      "id": 197,
+      "idea": "Burn jasmine for love and prophetic dreams",
+      "spoons": 1,
+      "time": "10min",
+      "tags": ["incense", "love", "dreams"],
+      "difficulty": "very easy",
+      "category": "Dream Work"
+    },
+    {
+      "id": 198,
+      "idea": "Create a spirit guide communication altar",
+      "spoons": 3,
+      "time": "1 hour",
+      "tags": ["altar", "spirit-guides", "communication"],
+      "difficulty": "moderate",
+      "category": "Spirit Guide Work"
+    },
+    {
+      "id": 199,
+      "idea": "Carry yarrow for courage and psychic power",
+      "spoons": 1,
+      "time": "2min",
+      "tags": ["herbs", "courage", "psychic"],
+      "difficulty": "very easy",
+      "category": "Dual Purpose"
+    },
+    {
+      "id": 200,
+      "idea": "Celebrate your spiritual practice and growth!",
+      "spoons": 1,
+      "time": "10min",
+      "tags": ["celebration", "gratitude", "reflection"],
+      "difficulty": "very easy",
+      "category": "Spiritual Reflection"
+    }
+  ]
+}

@@ -5,7 +5,7 @@ import { useEducationStore } from '../store/educationStore';
 const MicroLearning: React.FC = () => {
   const [isLearning, setIsLearning] = useState(false);
   const [timeLeft, setTimeLeft] = useState(300); // 5 minutes
-  const { todaysSessions, addSession } = useEducationStore();
+  const { passiveSessions, addPassiveSession } = useEducationStore();
 
   const quickTopics = [
     {
@@ -71,7 +71,7 @@ const MicroLearning: React.FC = () => {
             </div>
           </div>
           <div className="text-right">
-            <div className="text-2xl font-bold text-purple-400">{todaysSessions}</div>
+            <div className="text-2xl font-bold text-purple-400">{passiveSessions.length}</div>
             <div className="text-xs text-gray-400">sessions completed</div>
           </div>
         </div>
@@ -110,7 +110,7 @@ const MicroLearning: React.FC = () => {
               `}
               onClick={() => {
                 setIsLearning(true);
-                addSession(topic.id, topic.duration);
+                addPassiveSession(topic.id, topic.title, 'started', topic.duration);
               }}
             >
               <div className="flex items-start justify-between mb-3">

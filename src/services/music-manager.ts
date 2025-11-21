@@ -142,7 +142,7 @@ class MusicManager {
               title: video.title,
               artist: video.channelTitle,
               thumbnail: video.thumbnail,
-              duration: video.duration,
+              duration: youtubeService.parseDuration(video.duration),
               platform: 'youtube' as MusicPlatform,
               url: `https://www.youtube.com/watch?v=${video.id}`,
             }));
@@ -156,11 +156,11 @@ class MusicManager {
               id: track.id.toString(),
               title: track.title,
               artist: track.user.username,
-              thumbnail: track.artwork_url || track.user.avatar_url,
-              duration: track.duration,
+              thumbnail: track.artworkUrl || track.user.avatarUrl,
+              duration: track.duration / 1000, // SoundCloud returns milliseconds, convert to seconds
               platform: 'soundcloud' as MusicPlatform,
-              url: track.permalink_url,
-              streamUrl: track.stream_url,
+              url: `https://soundcloud.com/${track.user.username}/${track.title.replace(/\s+/g, '-').toLowerCase()}`,
+              streamUrl: track.streamUrl,
             }));
           }
           break;
@@ -237,7 +237,7 @@ class MusicManager {
               id: p.id,
               name: p.name,
               description: p.description,
-              thumbnail: p.imageUrl,
+              thumbnail: p.images[0] || '',
               tracks: [],
               platform: 'spotify' as MusicPlatform,
             }));
@@ -251,7 +251,7 @@ class MusicManager {
               id: p.id,
               name: p.title,
               description: p.description,
-              thumbnail: p.thumbnail,
+              thumbnail: p.thumbnails.high,
               tracks: [],
               platform: 'youtube' as MusicPlatform,
             }));
@@ -265,7 +265,7 @@ class MusicManager {
               id: p.id.toString(),
               name: p.title,
               description: p.description,
-              thumbnail: p.artwork_url,
+              thumbnail: p.artworkUrl,
               tracks: [],
               platform: 'soundcloud' as MusicPlatform,
             }));

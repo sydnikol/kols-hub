@@ -1,8 +1,7 @@
 /**
-/**
  * 🖤 COMPREHENSIVE HEALTH TRACKER
  * Complete health management for EDS Type 3 + chronic conditions
- * 
+ *
  * Features:
  * - Medication tracking with Excel import/export
  * - Vitals logging (BP, HR, O2, temp)
@@ -13,45 +12,26 @@
  */
 
 import React, { useState, useEffect } from 'react';
-import { 
+import {
   Pill, Activity, Droplet, Cloud, Dumbbell, AlertTriangle,
   Plus, Upload, Download, Calendar, TrendingUp, Heart,
   ChevronRight, Clock, CheckCircle2, Info, Shield, Thermometer
 } from 'lucide-react';
 import { db } from '../utils/database';
+import type { MedicationRecord, VitalRecord, HydrationRecord } from '../utils/database';
 import { importMedicationsFromExcel, exportMedicationsToExcel } from '../utils/medication-import';
-import type { MedicationRecord } from '../utils/medication-import';
 
 interface HealthTrackerProps {
   theme: string;
-}
-
-interface VitalEntry {
-  id?: number;
-  timestamp: Date;
-  bloodPressureSystolic: number;
-  bloodPressureDiastolic: number;
-  heartRate: number;
-  oxygenLevel: number;
-  temperature: number;
-  notes?: string;
-}
-
-interface HydrationEntry {
-  id?: number;
-  timestamp: Date;
-  waterIntake: number; // in mL
-  sodiumIntake: number; // in mg
-  notes?: string;
 }
 
 const HealthTracker: React.FC<HealthTrackerProps> = ({ theme }) => {
   const [activeTab, setActiveTab] = useState('medications');
   const [medications, setMedications] = useState<MedicationRecord[]>([]);
   const [showAddMed, setShowAddMed] = useState(false);
-  const [todayVitals, setTodayVitals] = useState<VitalEntry[]>([]);
-  const [todayHydration, setTodayHydration] = useState<HydrationEntry[]>([]);
-  
+  const [todayVitals, setTodayVitals] = useState<VitalRecord[]>([]);
+  const [todayHydration, setTodayHydration] = useState<HydrationRecord[]>([]);
+
   // Load medications on mount
   useEffect(() => {
     loadMedications();
@@ -66,14 +46,14 @@ const HealthTracker: React.FC<HealthTrackerProps> = ({ theme }) => {
   const loadTodayData = async () => {
     const today = new Date();
     today.setHours(0, 0, 0, 0);
-    
+
     // Load vitals and hydration data for today
     const vitals = await db.vitals
       .where('timestamp')
       .aboveOrEqual(today)
       .toArray();
     setTodayVitals(vitals);
-    
+
     const hydration = await db.hydration
       .where('timestamp')
       .aboveOrEqual(today)
@@ -85,22 +65,23 @@ const HealthTracker: React.FC<HealthTrackerProps> = ({ theme }) => {
     const file = e.target.files?.[0];
     if (!file) return;
 
-    const result = await importMedicationsFromExcel(file);
-    if (result.success) {
-      alert(`Successfully imported ${result.imported} medications!`);
+    try {
+      const importedMeds = await importMedicationsFromExcel(file);
+      // Add imported medications to database
+      await db.medications.bulkAdd(importedMeds);
+      alert(`Successfully imported ${importedMeds.length} medications!`);
       loadMedications();
-    } else {
-      alert(`Import errors: ${result.errors.join(', ')}`);
+    } catch (error) {
+      alert(`Import error: ${error instanceof Error ? error.message : String(error)}`);
     }
   };
 
-  const handleExportExcel = async () => {
-    const blob = await exportMedicationsToExcel();
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = `medications_${new Date().toISOString().split('T')[0]}.xlsx`;
-    a.click();
+  const handleExportExcel = () => {
+    try {
+      exportMedicationsToExcel(medications);
+    } catch (error) {
+      alert(`Export error: ${error instanceof Error ? error.message : String(error)}`);
+    }
   };
 
   const tabs = [
@@ -112,7 +93,7 @@ const HealthTracker: React.FC<HealthTrackerProps> = ({ theme }) => {
     { id: 'emergency', label: 'Emergency', icon: AlertTriangle }
   ];
 
-  const addVitals = async (vitals: Partial<VitalEntry>) => {
+  const addVitals = async (vitals: Omit<VitalRecord, 'id'>) => {
     await db.vitals.add({
       ...vitals,
       timestamp: new Date()
@@ -132,7 +113,7 @@ const HealthTracker: React.FC<HealthTrackerProps> = ({ theme }) => {
   const calculateHydrationProgress = () => {
     const totalWater = todayHydration.reduce((sum, h) => sum + h.waterIntake, 0);
     const totalSodium = todayHydration.reduce((sum, h) => sum + h.sodiumIntake, 0);
-    
+
     return {
       water: Math.min((totalWater / 2500) * 100, 100), // 2.5L goal
       sodium: Math.min((totalSodium / 4000) * 100, 100) // 4000mg goal
@@ -271,10 +252,10 @@ const HealthTracker: React.FC<HealthTrackerProps> = ({ theme }) => {
             <div key={vital.id || index} className="p-3 bg-gray-800 rounded-lg">
               <div className="flex justify-between items-center">
                 <div className="flex gap-4 text-sm">
-                  <span>BP: {vital.bloodPressureSystolic}/{vital.bloodPressureDiastolic}</span>
-                  <span>HR: {vital.heartRate}</span>
-                  <span>O2: {vital.oxygenLevel}%</span>
-                  <span>Temp: {vital.temperature}°F</span>
+                  <span>BP: {vital.bloodPressureSystolic || 'N/A'}/{vital.bloodPressureDiastolic || 'N/A'}</span>
+                  <span>HR: {vital.heartRate || 'N/A'}</span>
+                  <span>O2: {vital.oxygenLevel || 'N/A'}%</span>
+                  <span>Temp: {vital.temperature || 'N/A'}°F</span>
                 </div>
                 <span className="text-xs text-gray-500">
                   {new Date(vital.timestamp).toLocaleTimeString()}
@@ -289,7 +270,7 @@ const HealthTracker: React.FC<HealthTrackerProps> = ({ theme }) => {
 
   const renderHydrationTab = () => {
     const progress = calculateHydrationProgress();
-    
+
     return (
       <div className="space-y-6">
         {/* Progress Bars */}
@@ -306,7 +287,7 @@ const HealthTracker: React.FC<HealthTrackerProps> = ({ theme }) => {
               />
             </div>
           </div>
-          
+
           <div>
             <div className="flex justify-between mb-2">
               <span className="text-sm font-medium">Sodium (4000mg goal)</span>
@@ -465,19 +446,19 @@ const HealthTracker: React.FC<HealthTrackerProps> = ({ theme }) => {
           <AlertTriangle className="w-5 h-5" />
           Emergency Information
         </h3>
-        
+
         <div className="space-y-3 text-sm">
           <div>
             <p className="font-semibold text-gray-300">Primary Conditions:</p>
             <p>EDS Type 3 (Hypermobile), POTS, Chronic Pain</p>
           </div>
-          
+
           <div>
             <p className="font-semibold text-gray-300">Emergency Contacts:</p>
             <p>DaVeon: (stored in phone)</p>
             <p>Quincy: (stored in phone)</p>
           </div>
-          
+
           <div>
             <p className="font-semibold text-gray-300">Critical Notes:</p>
             <ul className="list-disc list-inside mt-1">
@@ -511,8 +492,8 @@ const HealthTracker: React.FC<HealthTrackerProps> = ({ theme }) => {
               key={tab.id}
               onClick={() => setActiveTab(tab.id)}
               className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-all
-                ${activeTab === tab.id 
-                  ? 'bg-purple-600 text-white' 
+                ${activeTab === tab.id
+                  ? 'bg-purple-600 text-white'
                   : 'bg-gray-800 text-gray-400 hover:bg-gray-700'}`}
             >
               <Icon className="w-4 h-4" />

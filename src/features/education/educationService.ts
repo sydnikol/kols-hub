@@ -102,8 +102,9 @@ export const FREE_CREDIT_PLATFORMS = {
       ]
     }
   },
-  
-  // CLEP Exams (completely free study resources)  clep: {
+
+  // CLEP Exams (completely free study resources)
+  clep: {
     modernstates: {
       name: 'Modern States (100% Free CLEP Prep)',
       url: 'https://modernstates.org',

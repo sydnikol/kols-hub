@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { 
   Brain, Clock, Zap, BookOpen, Trophy, Star, 
   ChevronRight, Play, CheckCircle, Coffee, Sparkles,
-  Headphones, Video, FileText, Award, TrendingUp
+  Headphones, Video, FileText, Award, TrendingUp, GraduationCap
 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useEducationStore } from '../store/educationStore';

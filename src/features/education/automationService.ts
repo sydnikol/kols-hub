@@ -205,7 +205,9 @@ export class PassiveLearningAutomation {
     const patterns = await this.analyzePatterns();
     const milestone = await this.checkMilestones();
     const courses = await db.education.toArray();
-    const progress = EducationService.calculateDegreeProgress(courses);
+    // Convert database courses to service format
+    const coursesWithStringIds = courses.map(c => ({ ...c, id: String(c.id) }));
+    const progress = EducationService.calculateDegreeProgress(coursesWithStringIds);
     
     return {
       greeting: this.getContextualGreeting(),
