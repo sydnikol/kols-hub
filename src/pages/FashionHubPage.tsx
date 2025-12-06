@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { ArrowLeft, Shirt, Heart, Calendar, DollarSign, Tag, TrendingUp, Plus, Edit2, Trash2, Star, Eye, CheckCircle, Sparkles } from 'lucide-react';
+import { ArrowLeft, Shirt, Heart, Calendar, DollarSign, Tag, TrendingUp, Plus, Edit2, Trash2, Star, Eye, CheckCircle, Sparkles, GraduationCap } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import toast from 'react-hot-toast';
+import AITeacherPanel from '../components/AITeacherPanel';
+import { TeachingDomain } from '../services/unified-ai-teacher';
 
 interface ClothingItem {
   id: string;
@@ -70,6 +72,8 @@ interface WishlistItem {
 const FashionHubPage: React.FC = () => {
   const navigate = useNavigate();
   const [activeTab, setActiveTab] = useState<'wardrobe' | 'outfits' | 'goals' | 'wishlist' | 'stats'>('wardrobe');
+  const [showAITeacher, setShowAITeacher] = useState(false);
+  const [aiTeacherDomain, setAITeacherDomain] = useState<TeachingDomain>('fashion');
 
   // Wardrobe Tab
   const [wardrobe, setWardrobe] = useState<ClothingItem[]>([]);
@@ -392,9 +396,22 @@ const FashionHubPage: React.FC = () => {
         <button onClick={() => navigate('/')} className="mb-4 p-2 hover:bg-white/10 rounded-lg transition-colors">
           <ArrowLeft className="w-6 h-6" />
         </button>
-        <div className="flex items-center gap-3 mb-2">
-          <Shirt className="w-8 h-8" />
-          <h1 className="text-3xl font-bold">Fashion Hub</h1>
+        <div className="flex items-center justify-between">
+          <div className="flex items-center gap-3 mb-2">
+            <Shirt className="w-8 h-8" />
+            <h1 className="text-3xl font-bold">Fashion Hub</h1>
+          </div>
+          <button
+            onClick={() => setShowAITeacher(!showAITeacher)}
+            className={`flex items-center gap-2 px-4 py-2 rounded-xl transition-all ${
+              showAITeacher
+                ? 'bg-white text-purple-900'
+                : 'bg-white/20 hover:bg-white/30'
+            }`}
+          >
+            <GraduationCap className="w-5 h-5" />
+            <span className="font-semibold">Style Coach</span>
+          </button>
         </div>
         <p className="text-purple-200">Build your affirming wardrobe</p>
       </div>
@@ -1298,6 +1315,49 @@ const FashionHubPage: React.FC = () => {
               })}
             </div>
           </div>
+        </div>
+      )}
+
+      {/* AI Teacher Panel */}
+      {showAITeacher && (
+        <div className="fixed bottom-4 right-4 w-96 max-w-[calc(100vw-2rem)] z-50">
+          <div className="mb-2 flex gap-2 justify-end">
+            <button
+              onClick={() => setAITeacherDomain('fashion')}
+              className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+                aiTeacherDomain === 'fashion'
+                  ? 'bg-purple-600 text-white'
+                  : 'bg-purple-900/80 text-purple-300 hover:bg-purple-800'
+              }`}
+            >
+              Fashion
+            </button>
+            <button
+              onClick={() => setAITeacherDomain('wardrobe-styling')}
+              className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+                aiTeacherDomain === 'wardrobe-styling'
+                  ? 'bg-purple-600 text-white'
+                  : 'bg-purple-900/80 text-purple-300 hover:bg-purple-800'
+              }`}
+            >
+              Styling
+            </button>
+            <button
+              onClick={() => setAITeacherDomain('sewing')}
+              className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+                aiTeacherDomain === 'sewing'
+                  ? 'bg-purple-600 text-white'
+                  : 'bg-purple-900/80 text-purple-300 hover:bg-purple-800'
+              }`}
+            >
+              Sewing
+            </button>
+          </div>
+          <AITeacherPanel
+            domain={aiTeacherDomain}
+            title={aiTeacherDomain === 'fashion' ? 'Style Coach' : aiTeacherDomain === 'wardrobe-styling' ? 'Wardrobe Stylist' : 'Sewing Instructor'}
+            onClose={() => setShowAITeacher(false)}
+          />
         </div>
       )}
     </div>

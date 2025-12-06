@@ -1,2107 +1,577 @@
 {
-  "module": "Passive Income Ideas",
-  "version": "1.0",
-  "generated_at": "2025-11-18",
+  "module": "Passive Income & Side Hustle Ideas",
+  "version": "2.0",
+  "generated_at": "2025-12-06",
+  "categories": {
+    "digital_products": "Create once, sell forever - eBooks, courses, templates, printables",
+    "education": "Teaching, tutoring, course creation, and educational content",
+    "content": "Blog monetization, YouTube, podcasting, and content platforms",
+    "community_based": "Building and monetizing communities and memberships",
+    "creative_assets": "Stock photos, graphics, music, and creative works",
+    "service_lite": "Low-touch services that scale well",
+    "licensing": "Licensing intellectual property for passive royalties",
+    "investing": "Financial investments and asset-based income"
+  },
   "items": [
     {
-      "id": "passive_income_ideas_001",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 1",
-      "description": "Placeholder idea #1 in 'Digital Products'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_002",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 2",
-      "description": "Placeholder idea #2 in 'Digital Products'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_003",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 3",
-      "description": "Placeholder idea #3 in 'Education'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_004",
-      "category": "Content",
-      "title": "Passive Income Ideas Idea 4",
-      "description": "Placeholder idea #4 in 'Content'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_005",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 5",
-      "description": "Placeholder idea #5 in 'Digital Products'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_006",
-      "category": "Community-Based",
-      "title": "Passive Income Ideas Idea 6",
-      "description": "Placeholder idea #6 in 'Community-Based'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_007",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 7",
-      "description": "Placeholder idea #7 in 'Digital Products'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_008",
-      "category": "Creative Assets",
-      "title": "Passive Income Ideas Idea 8",
-      "description": "Placeholder idea #8 in 'Creative Assets'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_009",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 9",
-      "description": "Placeholder idea #9 in 'Service Lite'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_010",
-      "category": "Licensing",
-      "title": "Passive Income Ideas Idea 10",
-      "description": "Placeholder idea #10 in 'Licensing'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_011",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 11",
-      "description": "Placeholder idea #11 in 'Education'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_012",
-      "category": "Investing",
-      "title": "Passive Income Ideas Idea 12",
-      "description": "Placeholder idea #12 in 'Investing'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_013",
-      "category": "Creative Assets",
-      "title": "Passive Income Ideas Idea 13",
-      "description": "Placeholder idea #13 in 'Creative Assets'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_014",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 14",
-      "description": "Placeholder idea #14 in 'Digital Products'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_015",
-      "category": "Licensing",
-      "title": "Passive Income Ideas Idea 15",
-      "description": "Placeholder idea #15 in 'Licensing'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_016",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 16",
-      "description": "Placeholder idea #16 in 'Service Lite'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_017",
-      "category": "Content",
-      "title": "Passive Income Ideas Idea 17",
-      "description": "Placeholder idea #17 in 'Content'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_018",
-      "category": "Community-Based",
-      "title": "Passive Income Ideas Idea 18",
-      "description": "Placeholder idea #18 in 'Community-Based'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_019",
-      "category": "Creative Assets",
-      "title": "Passive Income Ideas Idea 19",
-      "description": "Placeholder idea #19 in 'Creative Assets'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_020",
-      "category": "Investing",
-      "title": "Passive Income Ideas Idea 20",
-      "description": "Placeholder idea #20 in 'Investing'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_021",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 21",
-      "description": "Placeholder idea #21 in 'Service Lite'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_022",
-      "category": "Content",
-      "title": "Passive Income Ideas Idea 22",
-      "description": "Placeholder idea #22 in 'Content'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_023",
-      "category": "Investing",
-      "title": "Passive Income Ideas Idea 23",
-      "description": "Placeholder idea #23 in 'Investing'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_024",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 24",
-      "description": "Placeholder idea #24 in 'Education'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_025",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 25",
-      "description": "Placeholder idea #25 in 'Digital Products'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_026",
-      "category": "Licensing",
-      "title": "Passive Income Ideas Idea 26",
-      "description": "Placeholder idea #26 in 'Licensing'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_027",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 27",
-      "description": "Placeholder idea #27 in 'Digital Products'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_028",
-      "category": "Content",
-      "title": "Passive Income Ideas Idea 28",
-      "description": "Placeholder idea #28 in 'Content'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_029",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 29",
-      "description": "Placeholder idea #29 in 'Digital Products'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_030",
-      "category": "Content",
-      "title": "Passive Income Ideas Idea 30",
-      "description": "Placeholder idea #30 in 'Content'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_031",
-      "category": "Investing",
-      "title": "Passive Income Ideas Idea 31",
-      "description": "Placeholder idea #31 in 'Investing'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_032",
-      "category": "Creative Assets",
-      "title": "Passive Income Ideas Idea 32",
-      "description": "Placeholder idea #32 in 'Creative Assets'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_033",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 33",
-      "description": "Placeholder idea #33 in 'Service Lite'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_034",
-      "category": "Investing",
-      "title": "Passive Income Ideas Idea 34",
-      "description": "Placeholder idea #34 in 'Investing'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_035",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 35",
-      "description": "Placeholder idea #35 in 'Education'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_036",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 36",
-      "description": "Placeholder idea #36 in 'Education'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_037",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 37",
-      "description": "Placeholder idea #37 in 'Education'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_038",
-      "category": "Content",
-      "title": "Passive Income Ideas Idea 38",
-      "description": "Placeholder idea #38 in 'Content'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_039",
-      "category": "Investing",
-      "title": "Passive Income Ideas Idea 39",
-      "description": "Placeholder idea #39 in 'Investing'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_040",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 40",
-      "description": "Placeholder idea #40 in 'Service Lite'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_041",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 41",
-      "description": "Placeholder idea #41 in 'Education'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_042",
-      "category": "Content",
-      "title": "Passive Income Ideas Idea 42",
-      "description": "Placeholder idea #42 in 'Content'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_043",
-      "category": "Creative Assets",
-      "title": "Passive Income Ideas Idea 43",
-      "description": "Placeholder idea #43 in 'Creative Assets'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_044",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 44",
-      "description": "Placeholder idea #44 in 'Service Lite'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_045",
-      "category": "Licensing",
-      "title": "Passive Income Ideas Idea 45",
-      "description": "Placeholder idea #45 in 'Licensing'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_046",
-      "category": "Investing",
-      "title": "Passive Income Ideas Idea 46",
-      "description": "Placeholder idea #46 in 'Investing'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_047",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 47",
-      "description": "Placeholder idea #47 in 'Digital Products'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_048",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 48",
-      "description": "Placeholder idea #48 in 'Service Lite'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_049",
-      "category": "Licensing",
-      "title": "Passive Income Ideas Idea 49",
-      "description": "Placeholder idea #49 in 'Licensing'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_050",
-      "category": "Licensing",
-      "title": "Passive Income Ideas Idea 50",
-      "description": "Placeholder idea #50 in 'Licensing'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_051",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 51",
-      "description": "Placeholder idea #51 in 'Digital Products'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_052",
-      "category": "Community-Based",
-      "title": "Passive Income Ideas Idea 52",
-      "description": "Placeholder idea #52 in 'Community-Based'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_053",
-      "category": "Creative Assets",
-      "title": "Passive Income Ideas Idea 53",
-      "description": "Placeholder idea #53 in 'Creative Assets'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_054",
-      "category": "Content",
-      "title": "Passive Income Ideas Idea 54",
-      "description": "Placeholder idea #54 in 'Content'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_055",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 55",
-      "description": "Placeholder idea #55 in 'Digital Products'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_056",
-      "category": "Licensing",
-      "title": "Passive Income Ideas Idea 56",
-      "description": "Placeholder idea #56 in 'Licensing'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_057",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 57",
-      "description": "Placeholder idea #57 in 'Education'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_058",
-      "category": "Creative Assets",
-      "title": "Passive Income Ideas Idea 58",
-      "description": "Placeholder idea #58 in 'Creative Assets'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_059",
-      "category": "Creative Assets",
-      "title": "Passive Income Ideas Idea 59",
-      "description": "Placeholder idea #59 in 'Creative Assets'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_060",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 60",
-      "description": "Placeholder idea #60 in 'Service Lite'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_061",
-      "category": "Investing",
-      "title": "Passive Income Ideas Idea 61",
-      "description": "Placeholder idea #61 in 'Investing'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_062",
-      "category": "Licensing",
-      "title": "Passive Income Ideas Idea 62",
-      "description": "Placeholder idea #62 in 'Licensing'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_063",
-      "category": "Content",
-      "title": "Passive Income Ideas Idea 63",
-      "description": "Placeholder idea #63 in 'Content'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_064",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 64",
-      "description": "Placeholder idea #64 in 'Education'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_065",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 65",
-      "description": "Placeholder idea #65 in 'Service Lite'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_066",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 66",
-      "description": "Placeholder idea #66 in 'Digital Products'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_067",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 67",
-      "description": "Placeholder idea #67 in 'Digital Products'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_068",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 68",
-      "description": "Placeholder idea #68 in 'Education'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_069",
-      "category": "Community-Based",
-      "title": "Passive Income Ideas Idea 69",
-      "description": "Placeholder idea #69 in 'Community-Based'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_070",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 70",
-      "description": "Placeholder idea #70 in 'Education'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_071",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 71",
-      "description": "Placeholder idea #71 in 'Education'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_072",
-      "category": "Community-Based",
-      "title": "Passive Income Ideas Idea 72",
-      "description": "Placeholder idea #72 in 'Community-Based'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_073",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 73",
-      "description": "Placeholder idea #73 in 'Digital Products'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_074",
-      "category": "Community-Based",
-      "title": "Passive Income Ideas Idea 74",
-      "description": "Placeholder idea #74 in 'Community-Based'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_075",
-      "category": "Community-Based",
-      "title": "Passive Income Ideas Idea 75",
-      "description": "Placeholder idea #75 in 'Community-Based'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_076",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 76",
-      "description": "Placeholder idea #76 in 'Education'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_077",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 77",
-      "description": "Placeholder idea #77 in 'Education'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_078",
-      "category": "Investing",
-      "title": "Passive Income Ideas Idea 78",
-      "description": "Placeholder idea #78 in 'Investing'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_079",
-      "category": "Investing",
-      "title": "Passive Income Ideas Idea 79",
-      "description": "Placeholder idea #79 in 'Investing'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_080",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 80",
-      "description": "Placeholder idea #80 in 'Digital Products'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_081",
-      "category": "Content",
-      "title": "Passive Income Ideas Idea 81",
-      "description": "Placeholder idea #81 in 'Content'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_082",
-      "category": "Investing",
-      "title": "Passive Income Ideas Idea 82",
-      "description": "Placeholder idea #82 in 'Investing'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_083",
-      "category": "Content",
-      "title": "Passive Income Ideas Idea 83",
-      "description": "Placeholder idea #83 in 'Content'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_084",
-      "category": "Creative Assets",
-      "title": "Passive Income Ideas Idea 84",
-      "description": "Placeholder idea #84 in 'Creative Assets'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_085",
-      "category": "Creative Assets",
-      "title": "Passive Income Ideas Idea 85",
-      "description": "Placeholder idea #85 in 'Creative Assets'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_086",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 86",
-      "description": "Placeholder idea #86 in 'Education'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_087",
-      "category": "Creative Assets",
-      "title": "Passive Income Ideas Idea 87",
-      "description": "Placeholder idea #87 in 'Creative Assets'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_088",
-      "category": "Licensing",
-      "title": "Passive Income Ideas Idea 88",
-      "description": "Placeholder idea #88 in 'Licensing'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_089",
-      "category": "Investing",
-      "title": "Passive Income Ideas Idea 89",
-      "description": "Placeholder idea #89 in 'Investing'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_090",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 90",
-      "description": "Placeholder idea #90 in 'Education'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_091",
-      "category": "Content",
-      "title": "Passive Income Ideas Idea 91",
-      "description": "Placeholder idea #91 in 'Content'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_092",
-      "category": "Community-Based",
-      "title": "Passive Income Ideas Idea 92",
-      "description": "Placeholder idea #92 in 'Community-Based'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_093",
-      "category": "Community-Based",
-      "title": "Passive Income Ideas Idea 93",
-      "description": "Placeholder idea #93 in 'Community-Based'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_094",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 94",
-      "description": "Placeholder idea #94 in 'Digital Products'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_095",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 95",
-      "description": "Placeholder idea #95 in 'Education'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_096",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 96",
-      "description": "Placeholder idea #96 in 'Digital Products'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_097",
-      "category": "Investing",
-      "title": "Passive Income Ideas Idea 97",
-      "description": "Placeholder idea #97 in 'Investing'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_098",
-      "category": "Community-Based",
-      "title": "Passive Income Ideas Idea 98",
-      "description": "Placeholder idea #98 in 'Community-Based'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_099",
-      "category": "Creative Assets",
-      "title": "Passive Income Ideas Idea 99",
-      "description": "Placeholder idea #99 in 'Creative Assets'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_100",
-      "category": "Licensing",
-      "title": "Passive Income Ideas Idea 100",
-      "description": "Placeholder idea #100 in 'Licensing'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_101",
-      "category": "Creative Assets",
-      "title": "Passive Income Ideas Idea 101",
-      "description": "Placeholder idea #101 in 'Creative Assets'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_102",
-      "category": "Licensing",
-      "title": "Passive Income Ideas Idea 102",
-      "description": "Placeholder idea #102 in 'Licensing'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_103",
-      "category": "Content",
-      "title": "Passive Income Ideas Idea 103",
-      "description": "Placeholder idea #103 in 'Content'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_104",
-      "category": "Creative Assets",
-      "title": "Passive Income Ideas Idea 104",
-      "description": "Placeholder idea #104 in 'Creative Assets'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_105",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 105",
-      "description": "Placeholder idea #105 in 'Digital Products'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_106",
-      "category": "Licensing",
-      "title": "Passive Income Ideas Idea 106",
-      "description": "Placeholder idea #106 in 'Licensing'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_107",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 107",
-      "description": "Placeholder idea #107 in 'Service Lite'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_108",
-      "category": "Licensing",
-      "title": "Passive Income Ideas Idea 108",
-      "description": "Placeholder idea #108 in 'Licensing'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_109",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 109",
-      "description": "Placeholder idea #109 in 'Service Lite'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_110",
-      "category": "Content",
-      "title": "Passive Income Ideas Idea 110",
-      "description": "Placeholder idea #110 in 'Content'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_111",
-      "category": "Licensing",
-      "title": "Passive Income Ideas Idea 111",
-      "description": "Placeholder idea #111 in 'Licensing'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_112",
-      "category": "Licensing",
-      "title": "Passive Income Ideas Idea 112",
-      "description": "Placeholder idea #112 in 'Licensing'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_113",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 113",
-      "description": "Placeholder idea #113 in 'Service Lite'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_114",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 114",
-      "description": "Placeholder idea #114 in 'Service Lite'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_115",
-      "category": "Community-Based",
-      "title": "Passive Income Ideas Idea 115",
-      "description": "Placeholder idea #115 in 'Community-Based'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_116",
-      "category": "Creative Assets",
-      "title": "Passive Income Ideas Idea 116",
-      "description": "Placeholder idea #116 in 'Creative Assets'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_117",
-      "category": "Content",
-      "title": "Passive Income Ideas Idea 117",
-      "description": "Placeholder idea #117 in 'Content'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_118",
-      "category": "Community-Based",
-      "title": "Passive Income Ideas Idea 118",
-      "description": "Placeholder idea #118 in 'Community-Based'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_119",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 119",
-      "description": "Placeholder idea #119 in 'Digital Products'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_120",
-      "category": "Community-Based",
-      "title": "Passive Income Ideas Idea 120",
-      "description": "Placeholder idea #120 in 'Community-Based'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_121",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 121",
-      "description": "Placeholder idea #121 in 'Digital Products'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_122",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 122",
-      "description": "Placeholder idea #122 in 'Digital Products'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_123",
-      "category": "Investing",
-      "title": "Passive Income Ideas Idea 123",
-      "description": "Placeholder idea #123 in 'Investing'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_124",
-      "category": "Creative Assets",
-      "title": "Passive Income Ideas Idea 124",
-      "description": "Placeholder idea #124 in 'Creative Assets'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_125",
-      "category": "Content",
-      "title": "Passive Income Ideas Idea 125",
-      "description": "Placeholder idea #125 in 'Content'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_126",
-      "category": "Licensing",
-      "title": "Passive Income Ideas Idea 126",
-      "description": "Placeholder idea #126 in 'Licensing'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_127",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 127",
-      "description": "Placeholder idea #127 in 'Digital Products'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_128",
-      "category": "Investing",
-      "title": "Passive Income Ideas Idea 128",
-      "description": "Placeholder idea #128 in 'Investing'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_129",
-      "category": "Content",
-      "title": "Passive Income Ideas Idea 129",
-      "description": "Placeholder idea #129 in 'Content'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_130",
-      "category": "Licensing",
-      "title": "Passive Income Ideas Idea 130",
-      "description": "Placeholder idea #130 in 'Licensing'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_131",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 131",
-      "description": "Placeholder idea #131 in 'Service Lite'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_132",
-      "category": "Community-Based",
-      "title": "Passive Income Ideas Idea 132",
-      "description": "Placeholder idea #132 in 'Community-Based'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_133",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 133",
-      "description": "Placeholder idea #133 in 'Digital Products'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_134",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 134",
-      "description": "Placeholder idea #134 in 'Service Lite'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_135",
-      "category": "Creative Assets",
-      "title": "Passive Income Ideas Idea 135",
-      "description": "Placeholder idea #135 in 'Creative Assets'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_136",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 136",
-      "description": "Placeholder idea #136 in 'Digital Products'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_137",
-      "category": "Community-Based",
-      "title": "Passive Income Ideas Idea 137",
-      "description": "Placeholder idea #137 in 'Community-Based'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_138",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 138",
-      "description": "Placeholder idea #138 in 'Digital Products'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_139",
-      "category": "Licensing",
-      "title": "Passive Income Ideas Idea 139",
-      "description": "Placeholder idea #139 in 'Licensing'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_140",
-      "category": "Investing",
-      "title": "Passive Income Ideas Idea 140",
-      "description": "Placeholder idea #140 in 'Investing'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_141",
-      "category": "Investing",
-      "title": "Passive Income Ideas Idea 141",
-      "description": "Placeholder idea #141 in 'Investing'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_142",
-      "category": "Creative Assets",
-      "title": "Passive Income Ideas Idea 142",
-      "description": "Placeholder idea #142 in 'Creative Assets'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_143",
-      "category": "Licensing",
-      "title": "Passive Income Ideas Idea 143",
-      "description": "Placeholder idea #143 in 'Licensing'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_144",
-      "category": "Community-Based",
-      "title": "Passive Income Ideas Idea 144",
-      "description": "Placeholder idea #144 in 'Community-Based'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_145",
-      "category": "Licensing",
-      "title": "Passive Income Ideas Idea 145",
-      "description": "Placeholder idea #145 in 'Licensing'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_146",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 146",
-      "description": "Placeholder idea #146 in 'Education'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_147",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 147",
-      "description": "Placeholder idea #147 in 'Digital Products'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_148",
-      "category": "Community-Based",
-      "title": "Passive Income Ideas Idea 148",
-      "description": "Placeholder idea #148 in 'Community-Based'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_149",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 149",
-      "description": "Placeholder idea #149 in 'Education'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_150",
-      "category": "Investing",
-      "title": "Passive Income Ideas Idea 150",
-      "description": "Placeholder idea #150 in 'Investing'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_151",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 151",
-      "description": "Placeholder idea #151 in 'Service Lite'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_152",
-      "category": "Licensing",
-      "title": "Passive Income Ideas Idea 152",
-      "description": "Placeholder idea #152 in 'Licensing'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_153",
-      "category": "Content",
-      "title": "Passive Income Ideas Idea 153",
-      "description": "Placeholder idea #153 in 'Content'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_154",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 154",
-      "description": "Placeholder idea #154 in 'Service Lite'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_155",
-      "category": "Content",
-      "title": "Passive Income Ideas Idea 155",
-      "description": "Placeholder idea #155 in 'Content'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_156",
-      "category": "Creative Assets",
-      "title": "Passive Income Ideas Idea 156",
-      "description": "Placeholder idea #156 in 'Creative Assets'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_157",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 157",
-      "description": "Placeholder idea #157 in 'Digital Products'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_158",
-      "category": "Creative Assets",
-      "title": "Passive Income Ideas Idea 158",
-      "description": "Placeholder idea #158 in 'Creative Assets'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_159",
-      "category": "Licensing",
-      "title": "Passive Income Ideas Idea 159",
-      "description": "Placeholder idea #159 in 'Licensing'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_160",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 160",
-      "description": "Placeholder idea #160 in 'Digital Products'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_161",
-      "category": "Creative Assets",
-      "title": "Passive Income Ideas Idea 161",
-      "description": "Placeholder idea #161 in 'Creative Assets'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_162",
-      "category": "Licensing",
-      "title": "Passive Income Ideas Idea 162",
-      "description": "Placeholder idea #162 in 'Licensing'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_163",
-      "category": "Content",
-      "title": "Passive Income Ideas Idea 163",
-      "description": "Placeholder idea #163 in 'Content'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_164",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 164",
-      "description": "Placeholder idea #164 in 'Education'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_165",
-      "category": "Investing",
-      "title": "Passive Income Ideas Idea 165",
-      "description": "Placeholder idea #165 in 'Investing'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_166",
-      "category": "Content",
-      "title": "Passive Income Ideas Idea 166",
-      "description": "Placeholder idea #166 in 'Content'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_167",
-      "category": "Creative Assets",
-      "title": "Passive Income Ideas Idea 167",
-      "description": "Placeholder idea #167 in 'Creative Assets'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_168",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 168",
-      "description": "Placeholder idea #168 in 'Education'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_169",
-      "category": "Licensing",
-      "title": "Passive Income Ideas Idea 169",
-      "description": "Placeholder idea #169 in 'Licensing'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_170",
-      "category": "Content",
-      "title": "Passive Income Ideas Idea 170",
-      "description": "Placeholder idea #170 in 'Content'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_171",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 171",
-      "description": "Placeholder idea #171 in 'Service Lite'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_172",
-      "category": "Investing",
-      "title": "Passive Income Ideas Idea 172",
-      "description": "Placeholder idea #172 in 'Investing'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_173",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 173",
-      "description": "Placeholder idea #173 in 'Education'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_174",
-      "category": "Community-Based",
-      "title": "Passive Income Ideas Idea 174",
-      "description": "Placeholder idea #174 in 'Community-Based'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_175",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 175",
-      "description": "Placeholder idea #175 in 'Service Lite'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_176",
-      "category": "Content",
-      "title": "Passive Income Ideas Idea 176",
-      "description": "Placeholder idea #176 in 'Content'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_177",
-      "category": "Content",
-      "title": "Passive Income Ideas Idea 177",
-      "description": "Placeholder idea #177 in 'Content'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_178",
-      "category": "Community-Based",
-      "title": "Passive Income Ideas Idea 178",
-      "description": "Placeholder idea #178 in 'Community-Based'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_179",
-      "category": "Community-Based",
-      "title": "Passive Income Ideas Idea 179",
-      "description": "Placeholder idea #179 in 'Community-Based'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_180",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 180",
-      "description": "Placeholder idea #180 in 'Education'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_181",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 181",
-      "description": "Placeholder idea #181 in 'Digital Products'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_182",
-      "category": "Community-Based",
-      "title": "Passive Income Ideas Idea 182",
-      "description": "Placeholder idea #182 in 'Community-Based'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_183",
-      "category": "Licensing",
-      "title": "Passive Income Ideas Idea 183",
-      "description": "Placeholder idea #183 in 'Licensing'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_184",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 184",
-      "description": "Placeholder idea #184 in 'Education'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_185",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 185",
-      "description": "Placeholder idea #185 in 'Service Lite'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_186",
-      "category": "Investing",
-      "title": "Passive Income Ideas Idea 186",
-      "description": "Placeholder idea #186 in 'Investing'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_187",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 187",
-      "description": "Placeholder idea #187 in 'Service Lite'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_188",
-      "category": "Investing",
-      "title": "Passive Income Ideas Idea 188",
-      "description": "Placeholder idea #188 in 'Investing'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_189",
-      "category": "Creative Assets",
-      "title": "Passive Income Ideas Idea 189",
-      "description": "Placeholder idea #189 in 'Creative Assets'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_190",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 190",
-      "description": "Placeholder idea #190 in 'Education'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_191",
-      "category": "Licensing",
-      "title": "Passive Income Ideas Idea 191",
-      "description": "Placeholder idea #191 in 'Licensing'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_192",
-      "category": "Community-Based",
-      "title": "Passive Income Ideas Idea 192",
-      "description": "Placeholder idea #192 in 'Community-Based'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_193",
-      "category": "Investing",
-      "title": "Passive Income Ideas Idea 193",
-      "description": "Placeholder idea #193 in 'Investing'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_194",
-      "category": "Investing",
-      "title": "Passive Income Ideas Idea 194",
-      "description": "Placeholder idea #194 in 'Investing'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_195",
-      "category": "Community-Based",
-      "title": "Passive Income Ideas Idea 195",
-      "description": "Placeholder idea #195 in 'Community-Based'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_196",
-      "category": "Licensing",
-      "title": "Passive Income Ideas Idea 196",
-      "description": "Placeholder idea #196 in 'Licensing'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_197",
-      "category": "Licensing",
-      "title": "Passive Income Ideas Idea 197",
-      "description": "Placeholder idea #197 in 'Licensing'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_198",
-      "category": "Creative Assets",
-      "title": "Passive Income Ideas Idea 198",
-      "description": "Placeholder idea #198 in 'Creative Assets'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_199",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 199",
-      "description": "Placeholder idea #199 in 'Digital Products'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_200",
-      "category": "Licensing",
-      "title": "Passive Income Ideas Idea 200",
-      "description": "Placeholder idea #200 in 'Licensing'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_201",
-      "category": "Content",
-      "title": "Passive Income Ideas Idea 201",
-      "description": "Placeholder idea #201 in 'Content'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_202",
-      "category": "Licensing",
-      "title": "Passive Income Ideas Idea 202",
-      "description": "Placeholder idea #202 in 'Licensing'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_203",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 203",
-      "description": "Placeholder idea #203 in 'Service Lite'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_204",
-      "category": "Community-Based",
-      "title": "Passive Income Ideas Idea 204",
-      "description": "Placeholder idea #204 in 'Community-Based'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_205",
-      "category": "Community-Based",
-      "title": "Passive Income Ideas Idea 205",
-      "description": "Placeholder idea #205 in 'Community-Based'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_206",
-      "category": "Community-Based",
-      "title": "Passive Income Ideas Idea 206",
-      "description": "Placeholder idea #206 in 'Community-Based'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_207",
-      "category": "Content",
-      "title": "Passive Income Ideas Idea 207",
-      "description": "Placeholder idea #207 in 'Content'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_208",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 208",
-      "description": "Placeholder idea #208 in 'Education'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_209",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 209",
-      "description": "Placeholder idea #209 in 'Digital Products'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_210",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 210",
-      "description": "Placeholder idea #210 in 'Digital Products'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_211",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 211",
-      "description": "Placeholder idea #211 in 'Education'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_212",
-      "category": "Community-Based",
-      "title": "Passive Income Ideas Idea 212",
-      "description": "Placeholder idea #212 in 'Community-Based'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_213",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 213",
-      "description": "Placeholder idea #213 in 'Education'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_214",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 214",
-      "description": "Placeholder idea #214 in 'Education'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_215",
-      "category": "Creative Assets",
-      "title": "Passive Income Ideas Idea 215",
-      "description": "Placeholder idea #215 in 'Creative Assets'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_216",
-      "category": "Creative Assets",
-      "title": "Passive Income Ideas Idea 216",
-      "description": "Placeholder idea #216 in 'Creative Assets'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_217",
-      "category": "Investing",
-      "title": "Passive Income Ideas Idea 217",
-      "description": "Placeholder idea #217 in 'Investing'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_218",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 218",
-      "description": "Placeholder idea #218 in 'Education'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_219",
-      "category": "Community-Based",
-      "title": "Passive Income Ideas Idea 219",
-      "description": "Placeholder idea #219 in 'Community-Based'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_220",
-      "category": "Community-Based",
-      "title": "Passive Income Ideas Idea 220",
-      "description": "Placeholder idea #220 in 'Community-Based'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_221",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 221",
-      "description": "Placeholder idea #221 in 'Digital Products'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_222",
-      "category": "Licensing",
-      "title": "Passive Income Ideas Idea 222",
-      "description": "Placeholder idea #222 in 'Licensing'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_223",
-      "category": "Creative Assets",
-      "title": "Passive Income Ideas Idea 223",
-      "description": "Placeholder idea #223 in 'Creative Assets'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_224",
-      "category": "Licensing",
-      "title": "Passive Income Ideas Idea 224",
-      "description": "Placeholder idea #224 in 'Licensing'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_225",
-      "category": "Community-Based",
-      "title": "Passive Income Ideas Idea 225",
-      "description": "Placeholder idea #225 in 'Community-Based'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_226",
-      "category": "Content",
-      "title": "Passive Income Ideas Idea 226",
-      "description": "Placeholder idea #226 in 'Content'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_227",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 227",
-      "description": "Placeholder idea #227 in 'Service Lite'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_228",
-      "category": "Community-Based",
-      "title": "Passive Income Ideas Idea 228",
-      "description": "Placeholder idea #228 in 'Community-Based'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_229",
-      "category": "Investing",
-      "title": "Passive Income Ideas Idea 229",
-      "description": "Placeholder idea #229 in 'Investing'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_230",
-      "category": "Content",
-      "title": "Passive Income Ideas Idea 230",
-      "description": "Placeholder idea #230 in 'Content'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_231",
-      "category": "Content",
-      "title": "Passive Income Ideas Idea 231",
-      "description": "Placeholder idea #231 in 'Content'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_232",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 232",
-      "description": "Placeholder idea #232 in 'Service Lite'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_233",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 233",
-      "description": "Placeholder idea #233 in 'Digital Products'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_234",
-      "category": "Investing",
-      "title": "Passive Income Ideas Idea 234",
-      "description": "Placeholder idea #234 in 'Investing'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_235",
-      "category": "Content",
-      "title": "Passive Income Ideas Idea 235",
-      "description": "Placeholder idea #235 in 'Content'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_236",
-      "category": "Community-Based",
-      "title": "Passive Income Ideas Idea 236",
-      "description": "Placeholder idea #236 in 'Community-Based'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_237",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 237",
-      "description": "Placeholder idea #237 in 'Service Lite'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_238",
-      "category": "Content",
-      "title": "Passive Income Ideas Idea 238",
-      "description": "Placeholder idea #238 in 'Content'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_239",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 239",
-      "description": "Placeholder idea #239 in 'Service Lite'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_240",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 240",
-      "description": "Placeholder idea #240 in 'Service Lite'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_241",
-      "category": "Creative Assets",
-      "title": "Passive Income Ideas Idea 241",
-      "description": "Placeholder idea #241 in 'Creative Assets'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_242",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 242",
-      "description": "Placeholder idea #242 in 'Service Lite'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_243",
-      "category": "Creative Assets",
-      "title": "Passive Income Ideas Idea 243",
-      "description": "Placeholder idea #243 in 'Creative Assets'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_244",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 244",
-      "description": "Placeholder idea #244 in 'Digital Products'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_245",
-      "category": "Licensing",
-      "title": "Passive Income Ideas Idea 245",
-      "description": "Placeholder idea #245 in 'Licensing'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_246",
-      "category": "Licensing",
-      "title": "Passive Income Ideas Idea 246",
-      "description": "Placeholder idea #246 in 'Licensing'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_247",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 247",
-      "description": "Placeholder idea #247 in 'Digital Products'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_248",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 248",
-      "description": "Placeholder idea #248 in 'Education'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_249",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 249",
-      "description": "Placeholder idea #249 in 'Digital Products'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_250",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 250",
-      "description": "Placeholder idea #250 in 'Digital Products'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_251",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 251",
-      "description": "Placeholder idea #251 in 'Education'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_252",
-      "category": "Content",
-      "title": "Passive Income Ideas Idea 252",
-      "description": "Placeholder idea #252 in 'Content'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_253",
-      "category": "Creative Assets",
-      "title": "Passive Income Ideas Idea 253",
-      "description": "Placeholder idea #253 in 'Creative Assets'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_254",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 254",
-      "description": "Placeholder idea #254 in 'Service Lite'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_255",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 255",
-      "description": "Placeholder idea #255 in 'Service Lite'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_256",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 256",
-      "description": "Placeholder idea #256 in 'Education'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_257",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 257",
-      "description": "Placeholder idea #257 in 'Service Lite'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_258",
-      "category": "Creative Assets",
-      "title": "Passive Income Ideas Idea 258",
-      "description": "Placeholder idea #258 in 'Creative Assets'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_259",
-      "category": "Creative Assets",
-      "title": "Passive Income Ideas Idea 259",
-      "description": "Placeholder idea #259 in 'Creative Assets'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_260",
-      "category": "Content",
-      "title": "Passive Income Ideas Idea 260",
-      "description": "Placeholder idea #260 in 'Content'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_261",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 261",
-      "description": "Placeholder idea #261 in 'Service Lite'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_262",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 262",
-      "description": "Placeholder idea #262 in 'Education'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_263",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 263",
-      "description": "Placeholder idea #263 in 'Education'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_264",
-      "category": "Content",
-      "title": "Passive Income Ideas Idea 264",
-      "description": "Placeholder idea #264 in 'Content'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_265",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 265",
-      "description": "Placeholder idea #265 in 'Service Lite'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_266",
-      "category": "Content",
-      "title": "Passive Income Ideas Idea 266",
-      "description": "Placeholder idea #266 in 'Content'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_267",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 267",
-      "description": "Placeholder idea #267 in 'Digital Products'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_268",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 268",
-      "description": "Placeholder idea #268 in 'Education'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_269",
-      "category": "Investing",
-      "title": "Passive Income Ideas Idea 269",
-      "description": "Placeholder idea #269 in 'Investing'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_270",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 270",
-      "description": "Placeholder idea #270 in 'Service Lite'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_271",
-      "category": "Creative Assets",
-      "title": "Passive Income Ideas Idea 271",
-      "description": "Placeholder idea #271 in 'Creative Assets'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_272",
-      "category": "Creative Assets",
-      "title": "Passive Income Ideas Idea 272",
-      "description": "Placeholder idea #272 in 'Creative Assets'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_273",
-      "category": "Creative Assets",
-      "title": "Passive Income Ideas Idea 273",
-      "description": "Placeholder idea #273 in 'Creative Assets'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_274",
-      "category": "Content",
-      "title": "Passive Income Ideas Idea 274",
-      "description": "Placeholder idea #274 in 'Content'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_275",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 275",
-      "description": "Placeholder idea #275 in 'Digital Products'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_276",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 276",
-      "description": "Placeholder idea #276 in 'Digital Products'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_277",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 277",
-      "description": "Placeholder idea #277 in 'Service Lite'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_278",
-      "category": "Creative Assets",
-      "title": "Passive Income Ideas Idea 278",
-      "description": "Placeholder idea #278 in 'Creative Assets'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_279",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 279",
-      "description": "Placeholder idea #279 in 'Education'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_280",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 280",
-      "description": "Placeholder idea #280 in 'Service Lite'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_281",
-      "category": "Investing",
-      "title": "Passive Income Ideas Idea 281",
-      "description": "Placeholder idea #281 in 'Investing'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_282",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 282",
-      "description": "Placeholder idea #282 in 'Service Lite'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_283",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 283",
-      "description": "Placeholder idea #283 in 'Digital Products'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_284",
-      "category": "Community-Based",
-      "title": "Passive Income Ideas Idea 284",
-      "description": "Placeholder idea #284 in 'Community-Based'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_285",
-      "category": "Community-Based",
-      "title": "Passive Income Ideas Idea 285",
-      "description": "Placeholder idea #285 in 'Community-Based'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_286",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 286",
-      "description": "Placeholder idea #286 in 'Education'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_287",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 287",
-      "description": "Placeholder idea #287 in 'Service Lite'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_288",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 288",
-      "description": "Placeholder idea #288 in 'Digital Products'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_289",
-      "category": "Investing",
-      "title": "Passive Income Ideas Idea 289",
-      "description": "Placeholder idea #289 in 'Investing'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_290",
-      "category": "Education",
-      "title": "Passive Income Ideas Idea 290",
-      "description": "Placeholder idea #290 in 'Education'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_291",
-      "category": "Creative Assets",
-      "title": "Passive Income Ideas Idea 291",
-      "description": "Placeholder idea #291 in 'Creative Assets'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_292",
-      "category": "Digital Products",
-      "title": "Passive Income Ideas Idea 292",
-      "description": "Placeholder idea #292 in 'Digital Products'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_293",
-      "category": "Community-Based",
-      "title": "Passive Income Ideas Idea 293",
-      "description": "Placeholder idea #293 in 'Community-Based'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_294",
-      "category": "Investing",
-      "title": "Passive Income Ideas Idea 294",
-      "description": "Placeholder idea #294 in 'Investing'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_295",
-      "category": "Community-Based",
-      "title": "Passive Income Ideas Idea 295",
-      "description": "Placeholder idea #295 in 'Community-Based'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_296",
-      "category": "Community-Based",
-      "title": "Passive Income Ideas Idea 296",
-      "description": "Placeholder idea #296 in 'Community-Based'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "passive_income_ideas_297",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 297",
-      "description": "Placeholder idea #297 in 'Service Lite'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "passive_income_ideas_298",
-      "category": "Investing",
-      "title": "Passive Income Ideas Idea 298",
-      "description": "Placeholder idea #298 in 'Investing'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_299",
-      "category": "Service Lite",
-      "title": "Passive Income Ideas Idea 299",
-      "description": "Placeholder idea #299 in 'Service Lite'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "passive_income_ideas_300",
-      "category": "Investing",
-      "title": "Passive Income Ideas Idea 300",
-      "description": "Placeholder idea #300 in 'Investing'.",
-      "energy_level": "medium"
+      "id": "passive_001",
+      "title": "Digital Planner Templates for Goodnotes/Notability",
+      "category": "digital_products",
+      "description": "Create hyperlinked digital planners that iPad and tablet users can use with apps like Goodnotes. Design once, sell unlimited times on Etsy or your own site.",
+      "startup_cost": "Low ($0-100)",
+      "time_investment": "20-40 hours to create",
+      "income_potential": "$500-5000/month",
+      "difficulty": "beginner",
+      "energy_level": "medium",
+      "skills_needed": ["Basic design skills", "Canva or Affinity Designer", "Understanding of digital planning"],
+      "platforms": ["Etsy", "Gumroad", "Creative Market", "Own website"],
+      "steps": ["Research popular planner layouts", "Design planner pages in Canva", "Add hyperlinks for navigation", "Export as PDF", "Create mockups", "List on Etsy with SEO-optimized descriptions"]
+    },
+    {
+      "id": "passive_002",
+      "title": "Print-on-Demand T-Shirt Business",
+      "category": "digital_products",
+      "description": "Design t-shirt graphics and upload to platforms that handle printing and shipping. You earn royalties on each sale without inventory.",
+      "startup_cost": "Low ($0-50)",
+      "time_investment": "10-20 hours to start, 2-5 hours weekly",
+      "income_potential": "$100-3000/month",
+      "difficulty": "beginner",
+      "energy_level": "medium",
+      "skills_needed": ["Basic graphic design", "Understanding of trends", "SEO for product listings"],
+      "platforms": ["Merch by Amazon", "Redbubble", "TeePublic", "Printful + Etsy"],
+      "steps": ["Research trending niches", "Create designs using Canva or Illustrator", "Apply for Merch by Amazon", "Upload with keyword-rich descriptions", "Scale by uploading consistently"]
+    },
+    {
+      "id": "passive_003",
+      "title": "Notion Template Sales",
+      "category": "digital_products",
+      "description": "Create productivity and organization templates for Notion and sell them to the growing Notion user base.",
+      "startup_cost": "Free ($0)",
+      "time_investment": "10-30 hours per template",
+      "income_potential": "$200-5000/month",
+      "difficulty": "beginner",
+      "energy_level": "medium",
+      "skills_needed": ["Notion proficiency", "Understanding of productivity systems", "Basic design sense"],
+      "platforms": ["Gumroad", "Etsy", "Notion Marketplace", "Own website"],
+      "steps": ["Master Notion databases and formulas", "Identify common pain points", "Build comprehensive template", "Create compelling thumbnail", "Record demo video", "List on multiple platforms"]
+    },
+    {
+      "id": "passive_004",
+      "title": "Low-Content Books on Amazon KDP",
+      "category": "digital_products",
+      "description": "Create journals, planners, coloring books, and activity books to sell as paperbacks on Amazon.",
+      "startup_cost": "Free ($0)",
+      "time_investment": "5-20 hours per book",
+      "income_potential": "$100-3000/month",
+      "difficulty": "beginner",
+      "energy_level": "low",
+      "skills_needed": ["Basic design", "Amazon KDP knowledge", "Keyword research"],
+      "platforms": ["Amazon KDP"],
+      "steps": ["Research profitable niches", "Design interior pages", "Create eye-catching cover", "Format according to KDP specs", "Upload with optimized title", "Get reviews", "Create series"]
+    },
+    {
+      "id": "passive_005",
+      "title": "Online Course Creation",
+      "category": "education",
+      "description": "Package your expertise into a self-paced online course that sells continuously without live teaching.",
+      "startup_cost": "Low-Medium ($0-500)",
+      "time_investment": "40-100 hours to create",
+      "income_potential": "$500-50000/month",
+      "difficulty": "intermediate",
+      "energy_level": "high",
+      "skills_needed": ["Expertise in topic", "Video creation", "Marketing basics"],
+      "platforms": ["Teachable", "Thinkific", "Kajabi", "Skillshare", "Udemy"],
+      "steps": ["Validate course idea by pre-selling", "Outline curriculum in modules", "Script and record video lessons", "Create supplementary materials", "Set up on course platform", "Create sales page", "Launch to email list"]
+    },
+    {
+      "id": "passive_006",
+      "title": "YouTube Faceless Channel",
+      "category": "content",
+      "description": "Create a YouTube channel using stock footage, animations, or screen recordings without showing your face.",
+      "startup_cost": "Low ($0-200)",
+      "time_investment": "5-15 hours per video initially",
+      "income_potential": "$100-10000/month",
+      "difficulty": "intermediate",
+      "energy_level": "high",
+      "skills_needed": ["Video editing", "Script writing", "SEO and thumbnails"],
+      "platforms": ["YouTube"],
+      "steps": ["Research profitable faceless niches", "Create branded channel", "Develop content strategy", "Create videos using stock footage", "Optimize titles and thumbnails", "Monetize through AdSense", "Add affiliate links"]
+    },
+    {
+      "id": "passive_007",
+      "title": "Affiliate Marketing Blog",
+      "category": "content",
+      "description": "Build a blog around a niche topic and earn commissions recommending products through affiliate links.",
+      "startup_cost": "Low ($50-200/year)",
+      "time_investment": "10-20 hours per week initially",
+      "income_potential": "$500-20000/month",
+      "difficulty": "intermediate",
+      "energy_level": "high",
+      "skills_needed": ["Writing", "SEO", "Basic web skills"],
+      "platforms": ["WordPress", "Amazon Associates", "ShareASale", "CJ Affiliate"],
+      "steps": ["Choose a niche", "Set up WordPress site", "Research keywords", "Write review articles", "Join affiliate programs", "Build backlinks", "Optimize for conversions"]
+    },
+    {
+      "id": "passive_008",
+      "title": "Membership Community",
+      "category": "community_based",
+      "description": "Build a paid community around your expertise, offering ongoing value for recurring monthly fees.",
+      "startup_cost": "Low ($0-100/month)",
+      "time_investment": "5-10 hours weekly for engagement",
+      "income_potential": "$500-50000/month",
+      "difficulty": "intermediate",
+      "energy_level": "high",
+      "skills_needed": ["Community building", "Content creation", "Expertise in niche"],
+      "platforms": ["Circle", "Mighty Networks", "Discord", "Skool", "Patreon"],
+      "steps": ["Define value proposition", "Choose platform", "Create founding member offer", "Develop content calendar", "Launch with initial content", "Implement systems for member success"]
+    },
+    {
+      "id": "passive_009",
+      "title": "Stock Photography and Video",
+      "category": "creative_assets",
+      "description": "Upload photos and videos to stock platforms, earning royalties each time someone downloads your work.",
+      "startup_cost": "Medium ($500-2000 for equipment)",
+      "time_investment": "Variable - ongoing shooting and uploading",
+      "income_potential": "$100-5000/month",
+      "difficulty": "intermediate",
+      "energy_level": "medium",
+      "skills_needed": ["Photography/videography", "Understanding of commercial needs", "Keywording"],
+      "platforms": ["Shutterstock", "Adobe Stock", "iStock", "Getty Images", "Pond5"],
+      "steps": ["Build commercially useful portfolio", "Focus on in-demand subjects", "Learn keywording best practices", "Upload consistently", "Analyze what sells", "Build series around trends"]
+    },
+    {
+      "id": "passive_010",
+      "title": "Royalty-Free Music Creation",
+      "category": "creative_assets",
+      "description": "Compose and upload music for use in videos, podcasts, and commercial projects.",
+      "startup_cost": "Medium ($200-1000 for software)",
+      "time_investment": "10-20 hours per track initially",
+      "income_potential": "$200-5000/month",
+      "difficulty": "advanced",
+      "energy_level": "high",
+      "skills_needed": ["Music composition", "DAW proficiency", "Understanding of commercial music"],
+      "platforms": ["AudioJungle", "Epidemic Sound", "Artlist", "Pond5", "Musicbed"],
+      "steps": ["Set up home studio", "Study in-demand music styles", "Create high-quality tracks", "Master mixing and mastering", "Upload with metadata", "Build catalog across moods"]
+    },
+    {
+      "id": "passive_011",
+      "title": "Newsletter with Sponsorships",
+      "category": "content",
+      "description": "Build an email newsletter around a niche topic, monetizing through paid sponsorships once you reach scale.",
+      "startup_cost": "Low ($0-50/month)",
+      "time_investment": "5-10 hours weekly",
+      "income_potential": "$500-50000/month",
+      "difficulty": "intermediate",
+      "energy_level": "medium",
+      "skills_needed": ["Writing", "Audience building", "Consistency", "Sales skills"],
+      "platforms": ["Substack", "Beehiiv", "ConvertKit", "Mailchimp"],
+      "steps": ["Choose niche with advertiser interest", "Create compelling free content", "Publish consistently", "Grow through social and referrals", "Reach 5000+ subscribers", "Create sponsorship rate card", "Pitch brands"]
+    },
+    {
+      "id": "passive_012",
+      "title": "Software as a Service (Micro-SaaS)",
+      "category": "digital_products",
+      "description": "Build a small software tool solving a specific problem, charging monthly subscription fees.",
+      "startup_cost": "Low-Medium ($0-500)",
+      "time_investment": "100-500 hours to build",
+      "income_potential": "$500-50000/month",
+      "difficulty": "advanced",
+      "energy_level": "high",
+      "skills_needed": ["Programming or no-code tools", "Problem identification", "Marketing"],
+      "platforms": ["AWS", "Heroku", "Bubble", "Glide", "Own hosting"],
+      "steps": ["Identify specific problem", "Validate demand through research", "Build MVP", "Launch to early adopters", "Iterate based on feedback", "Implement subscriptions", "Scale marketing"]
+    },
+    {
+      "id": "passive_013",
+      "title": "Dividend Investing",
+      "category": "investing",
+      "description": "Build a portfolio of dividend-paying stocks or ETFs for regular passive income payments.",
+      "startup_cost": "High (Capital required)",
+      "time_investment": "5-10 hours monthly for research",
+      "income_potential": "2-5% annual yield",
+      "difficulty": "intermediate",
+      "energy_level": "low",
+      "skills_needed": ["Basic investing knowledge", "Financial analysis", "Patience"],
+      "platforms": ["Fidelity", "Vanguard", "Schwab", "M1 Finance"],
+      "steps": ["Learn dividend investing fundamentals", "Open brokerage account", "Research dividend aristocrats", "Build diversified portfolio", "Set up DRIP", "Monitor quarterly", "Rebalance annually"]
+    },
+    {
+      "id": "passive_014",
+      "title": "Rental Property Investment",
+      "category": "investing",
+      "description": "Purchase real estate to rent out for monthly cash flow income.",
+      "startup_cost": "Very High (Down payment + reserves)",
+      "time_investment": "Variable - self-manage or hire manager",
+      "income_potential": "$200-2000/month per property",
+      "difficulty": "advanced",
+      "energy_level": "medium",
+      "skills_needed": ["Real estate analysis", "Property management", "Financing knowledge"],
+      "platforms": ["Zillow", "Realtor.com", "Local MLS"],
+      "steps": ["Educate yourself on real estate", "Analyze local market", "Get pre-approved for financing", "Find and analyze properties", "Make offers and close", "Prepare for rental", "Screen tenants"]
+    },
+    {
+      "id": "passive_015",
+      "title": "Dropshipping Store",
+      "category": "service_lite",
+      "description": "Sell products online without holding inventory - suppliers ship directly to customers.",
+      "startup_cost": "Low-Medium ($200-1000)",
+      "time_investment": "10-20 hours weekly",
+      "income_potential": "$500-20000/month",
+      "difficulty": "intermediate",
+      "energy_level": "high",
+      "skills_needed": ["E-commerce basics", "Marketing/advertising", "Supplier management"],
+      "platforms": ["Shopify", "WooCommerce", "Oberlo", "Spocket"],
+      "steps": ["Research profitable products", "Find reliable suppliers", "Set up store", "Import products", "Set up payments", "Run ads", "Optimize based on data"]
+    },
+    {
+      "id": "passive_016",
+      "title": "Digital Art and NFT Sales",
+      "category": "creative_assets",
+      "description": "Create and sell digital art, either traditionally or as NFTs for ongoing royalties on secondary sales.",
+      "startup_cost": "Low ($0-500)",
+      "time_investment": "Variable per piece",
+      "income_potential": "$100-10000/month",
+      "difficulty": "intermediate",
+      "energy_level": "high",
+      "skills_needed": ["Digital art creation", "Understanding of NFT platforms", "Marketing"],
+      "platforms": ["Etsy", "Gumroad", "OpenSea", "Foundation", "Society6"],
+      "steps": ["Develop artistic style", "Create portfolio", "Choose platforms", "List with compelling descriptions", "Build social following", "Engage with collectors"]
+    },
+    {
+      "id": "passive_017",
+      "title": "Audiobook Narration Royalty Share",
+      "category": "licensing",
+      "description": "Narrate audiobooks for a share of ongoing royalties instead of upfront payment.",
+      "startup_cost": "Medium ($200-500 for equipment)",
+      "time_investment": "10-40 hours per book",
+      "income_potential": "$100-2000/month per book",
+      "difficulty": "intermediate",
+      "energy_level": "medium",
+      "skills_needed": ["Voice acting ability", "Audio recording/editing", "Endurance"],
+      "platforms": ["ACX (Audible)", "Findaway Voices"],
+      "steps": ["Set up recording space", "Create demo recordings", "Build ACX profile", "Audition for Royalty Share books", "Record and edit", "Promote finished audiobooks"]
+    },
+    {
+      "id": "passive_018",
+      "title": "App Development with Ads/In-App Purchases",
+      "category": "digital_products",
+      "description": "Create mobile apps that generate revenue through advertising or in-app purchases.",
+      "startup_cost": "Low-Medium ($100-1000)",
+      "time_investment": "100-500 hours to develop",
+      "income_potential": "$100-50000/month",
+      "difficulty": "advanced",
+      "energy_level": "high",
+      "skills_needed": ["Mobile development", "UI/UX design", "Marketing"],
+      "platforms": ["Apple App Store", "Google Play Store", "Flutter", "React Native"],
+      "steps": ["Identify app idea", "Validate demand", "Design and develop MVP", "Implement monetization", "Test thoroughly", "Launch and optimize", "Market through ASO"]
+    },
+    {
+      "id": "passive_019",
+      "title": "Podcast Monetization",
+      "category": "content",
+      "description": "Create a podcast and monetize through sponsorships, affiliate marketing, and premium content.",
+      "startup_cost": "Low-Medium ($100-500)",
+      "time_investment": "5-15 hours weekly",
+      "income_potential": "$500-20000/month",
+      "difficulty": "intermediate",
+      "energy_level": "medium",
+      "skills_needed": ["Audio production", "Interviewing/hosting", "Consistency"],
+      "platforms": ["Anchor", "Buzzsprout", "Spotify for Podcasters", "Libsyn"],
+      "steps": ["Choose niche with dedicated audience", "Plan content format", "Set up equipment", "Record and edit", "Launch with 3-5 episodes", "Submit to directories", "Build audience", "Monetize at 1000+ downloads"]
+    },
+    {
+      "id": "passive_020",
+      "title": "Licensing Photography to Businesses",
+      "category": "licensing",
+      "description": "Create and license photos directly to businesses for their marketing, packaging, and content needs.",
+      "startup_cost": "Medium ($1000-3000)",
+      "time_investment": "Variable",
+      "income_potential": "$500-10000/month",
+      "difficulty": "advanced",
+      "energy_level": "medium",
+      "skills_needed": ["Professional photography", "Licensing knowledge", "Sales and networking"],
+      "platforms": ["Direct licensing", "Licensing agencies", "Own website"],
+      "steps": ["Develop specialty in commercial niche", "Build licensable portfolio", "Set up licensing terms", "Reach out to clients", "Create marketing materials", "Join agencies", "Track agreements"]
+    },
+    {
+      "id": "passive_021",
+      "title": "Peer-to-Peer Lending",
+      "category": "investing",
+      "description": "Lend money to individuals or businesses through P2P platforms, earning interest as passive income.",
+      "startup_cost": "Medium (Capital required)",
+      "time_investment": "2-5 hours monthly",
+      "income_potential": "5-12% annual returns",
+      "difficulty": "intermediate",
+      "energy_level": "low",
+      "skills_needed": ["Risk assessment", "Diversification strategy", "Platform knowledge"],
+      "platforms": ["Prosper", "LendingClub", "Funding Circle", "Upstart"],
+      "steps": ["Research P2P platforms", "Open account", "Set investment criteria", "Diversify across loans", "Reinvest returns", "Monitor default rates"]
+    },
+    {
+      "id": "passive_022",
+      "title": "White Label Products",
+      "category": "licensing",
+      "description": "Create products (digital or physical) that other businesses can rebrand and sell as their own.",
+      "startup_cost": "Low-Medium ($100-1000)",
+      "time_investment": "Varies by product type",
+      "income_potential": "$500-20000/month",
+      "difficulty": "intermediate",
+      "energy_level": "medium",
+      "skills_needed": ["Product development", "Understanding of B2B needs", "Sales"],
+      "platforms": ["Gumroad", "Own website", "PLR sites", "Direct sales"],
+      "steps": ["Identify products businesses need", "Create high-quality products", "Set up licensing terms", "Create documentation", "Market to business audience", "Provide support"]
+    },
+    {
+      "id": "passive_023",
+      "title": "Rental Equipment or Assets",
+      "category": "service_lite",
+      "description": "Rent out equipment, tools, or assets you own to others who need them temporarily.",
+      "startup_cost": "Medium-High (Equipment purchase)",
+      "time_investment": "5-10 hours weekly",
+      "income_potential": "$200-5000/month",
+      "difficulty": "beginner",
+      "energy_level": "low",
+      "skills_needed": ["Asset maintenance", "Customer service", "Basic contract knowledge"],
+      "platforms": ["Fat Llama", "Turo", "Outdoorsy", "Local rental sites"],
+      "steps": ["Identify assets with rental demand", "Calculate pricing", "Create listings", "Develop rental agreements", "Set up inspection procedures", "Maintain equipment"]
+    },
+    {
+      "id": "passive_024",
+      "title": "Ebook Publishing on Kindle",
+      "category": "digital_products",
+      "description": "Write and publish ebooks on Amazon Kindle, earning royalties on every sale.",
+      "startup_cost": "Low ($0-500)",
+      "time_investment": "20-100 hours per book",
+      "income_potential": "$100-20000/month",
+      "difficulty": "intermediate",
+      "energy_level": "medium",
+      "skills_needed": ["Writing", "Research", "Book marketing", "Cover design"],
+      "platforms": ["Amazon KDP", "Smashwords", "Draft2Digital", "Apple Books"],
+      "steps": ["Research profitable niches", "Write valuable content", "Professional editing", "Get cover design", "Format for Kindle", "Write compelling description", "Launch with promotions"]
+    },
+    {
+      "id": "passive_025",
+      "title": "Automated Social Media Accounts",
+      "category": "content",
+      "description": "Build themed social media accounts that can be monetized through sponsorships and affiliate marketing.",
+      "startup_cost": "Low ($0-100)",
+      "time_investment": "10-20 hours weekly initially",
+      "income_potential": "$500-10000/month",
+      "difficulty": "intermediate",
+      "energy_level": "medium",
+      "skills_needed": ["Content curation/creation", "Social media algorithms", "Engagement strategies"],
+      "platforms": ["Instagram", "TikTok", "Pinterest", "Twitter"],
+      "steps": ["Choose theme with passionate audience", "Create consistent branded content", "Post consistently", "Engage with followers", "Grow to monetization thresholds", "Add affiliate links", "Accept sponsors"]
+    },
+    {
+      "id": "passive_026",
+      "title": "Domain Name Investing",
+      "category": "investing",
+      "description": "Purchase domain names with resale potential and sell them for profit to end users or investors.",
+      "startup_cost": "Low-Medium ($100-5000)",
+      "time_investment": "5-10 hours weekly for research",
+      "income_potential": "Variable - $0 to $10000+ per sale",
+      "difficulty": "intermediate",
+      "energy_level": "low",
+      "skills_needed": ["Domain valuation", "Trend awareness", "Patience", "Sales skills"],
+      "platforms": ["GoDaddy", "Namecheap", "Sedo", "Afternic", "Dan.com"],
+      "steps": ["Learn domain valuation", "Research trending niches", "Register promising domains", "List on marketplaces", "Set competitive prices", "Respond to inquiries"]
+    },
+    {
+      "id": "passive_027",
+      "title": "Vending Machine Business",
+      "category": "service_lite",
+      "description": "Place and maintain vending machines in high-traffic locations for passive cash flow.",
+      "startup_cost": "Medium-High ($2000-10000 per machine)",
+      "time_investment": "5-10 hours weekly for restocking",
+      "income_potential": "$200-1000/month per machine",
+      "difficulty": "intermediate",
+      "energy_level": "medium",
+      "skills_needed": ["Location negotiation", "Inventory management", "Basic repairs"],
+      "platforms": ["Direct location partnerships", "Vending locators"],
+      "steps": ["Research profitable machine types", "Purchase or lease machines", "Secure high-traffic locations", "Stock with fast-moving products", "Set up collection schedule", "Track inventory", "Scale locations"]
+    },
+    {
+      "id": "passive_028",
+      "title": "Music Streaming Royalties",
+      "category": "licensing",
+      "description": "Distribute original music to streaming platforms and earn royalties on every stream.",
+      "startup_cost": "Low-Medium ($20-500)",
+      "time_investment": "Variable for creation",
+      "income_potential": "$10-10000/month",
+      "difficulty": "intermediate",
+      "energy_level": "high",
+      "skills_needed": ["Music creation", "Recording/production", "Marketing"],
+      "platforms": ["DistroKid", "TuneCore", "CD Baby", "Spotify", "Apple Music"],
+      "steps": ["Create quality recorded music", "Mix and master professionally", "Choose distribution service", "Upload with metadata", "Release with pre-save strategy", "Pitch to playlists", "Promote through social media"]
+    },
+    {
+      "id": "passive_029",
+      "title": "Automated Etsy Digital Shop",
+      "category": "digital_products",
+      "description": "Create and sell digital products on Etsy with automated delivery for passive sales.",
+      "startup_cost": "Low ($15 for listings)",
+      "time_investment": "20-40 hours initial setup",
+      "income_potential": "$500-20000/month",
+      "difficulty": "beginner",
+      "energy_level": "medium",
+      "skills_needed": ["Design skills", "Etsy SEO", "Customer service"],
+      "platforms": ["Etsy"],
+      "steps": ["Research profitable digital categories", "Create high-quality products", "Optimize listings with keywords", "Create mockups", "Set up instant delivery", "Provide excellent service", "Request reviews"]
+    },
+    {
+      "id": "passive_030",
+      "title": "REITs for Real Estate Exposure",
+      "category": "investing",
+      "description": "Invest in Real Estate Investment Trusts for real estate income without property management.",
+      "startup_cost": "Low (minimum investment varies)",
+      "time_investment": "2-5 hours monthly",
+      "income_potential": "4-8% dividend yield",
+      "difficulty": "beginner",
+      "energy_level": "low",
+      "skills_needed": ["Basic investing", "REIT analysis", "Portfolio allocation"],
+      "platforms": ["Fidelity", "Vanguard", "Schwab", "Fundrise", "RealtyMogul"],
+      "steps": ["Learn about REIT types", "Decide public vs private", "Research specific REITs", "Allocate portfolio percentage", "Invest and reinvest dividends", "Monitor quarterly"]
+    },
+    {
+      "id": "passive_031",
+      "title": "WordPress Plugin Development",
+      "category": "digital_products",
+      "description": "Create WordPress plugins that solve specific problems, selling through freemium or premium models.",
+      "startup_cost": "Low ($0-100)",
+      "time_investment": "50-200 hours to develop",
+      "income_potential": "$500-30000/month",
+      "difficulty": "advanced",
+      "energy_level": "high",
+      "skills_needed": ["PHP development", "WordPress knowledge", "Customer support"],
+      "platforms": ["WordPress.org", "CodeCanyon", "Own website"],
+      "steps": ["Identify gaps in WordPress functionality", "Build plugin solving problem", "Test thoroughly", "Create documentation", "Launch free version", "Offer premium version", "Provide support"]
+    },
+    {
+      "id": "passive_032",
+      "title": "Patreon for Creators",
+      "category": "community_based",
+      "description": "Build a membership community on Patreon where fans support your creative work monthly.",
+      "startup_cost": "Low ($0)",
+      "time_investment": "5-15 hours weekly",
+      "income_potential": "$500-50000/month",
+      "difficulty": "intermediate",
+      "energy_level": "high",
+      "skills_needed": ["Content creation", "Community engagement", "Consistency"],
+      "platforms": ["Patreon", "Ko-fi", "Buy Me a Coffee"],
+      "steps": ["Build audience through free content", "Design valuable tier offerings", "Set up Patreon page", "Launch to existing audience", "Deliver exclusive content", "Engage personally with patrons"]
+    },
+    {
+      "id": "passive_033",
+      "title": "Faceless Instagram Theme Pages",
+      "category": "content",
+      "description": "Build Instagram theme pages around specific topics, monetizing through promotions and affiliate marketing.",
+      "startup_cost": "Low ($0-50)",
+      "time_investment": "5-10 hours weekly",
+      "income_potential": "$500-10000/month",
+      "difficulty": "beginner",
+      "energy_level": "medium",
+      "skills_needed": ["Content curation", "Instagram algorithm understanding", "Graphic design basics"],
+      "platforms": ["Instagram"],
+      "steps": ["Choose niche with engaged audience", "Create cohesive visual brand", "Source shareable content", "Post consistently 1-3 times daily", "Use relevant hashtags", "Grow to 10K+", "Accept sponsored posts"]
+    },
+    {
+      "id": "passive_034",
+      "title": "High-Yield Savings and CDs",
+      "category": "investing",
+      "description": "Use high-yield savings accounts and CDs for low-risk passive interest income.",
+      "startup_cost": "Low (any amount)",
+      "time_investment": "1-2 hours setup",
+      "income_potential": "4-5% APY currently",
+      "difficulty": "beginner",
+      "energy_level": "low",
+      "skills_needed": ["Basic banking", "Rate comparison"],
+      "platforms": ["Marcus", "Ally", "Discover", "Capital One", "Synchrony"],
+      "steps": ["Research current high-yield rates", "Open account at online bank", "Set up automatic transfers", "Consider CD ladder", "Monitor rates"]
+    },
+    {
+      "id": "passive_035",
+      "title": "Canva Template Business",
+      "category": "digital_products",
+      "description": "Create beautiful Canva templates that non-designers can customize for their businesses.",
+      "startup_cost": "Low ($0-150)",
+      "time_investment": "10-20 hours per template bundle",
+      "income_potential": "$500-10000/month",
+      "difficulty": "beginner",
+      "energy_level": "medium",
+      "skills_needed": ["Canva proficiency", "Design sense", "Understanding of business needs"],
+      "platforms": ["Etsy", "Gumroad", "Creative Market", "Own website"],
+      "steps": ["Master Canva Pro features", "Identify high-demand categories", "Create cohesive bundles", "Make fully editable", "Create video tutorials", "List on multiple platforms"]
+    },
+    {
+      "id": "passive_036",
+      "title": "Carrd Website Templates",
+      "category": "digital_products",
+      "description": "Create one-page website templates for Carrd that creators and small businesses can use.",
+      "startup_cost": "Low ($19-49/year for Carrd Pro)",
+      "time_investment": "5-10 hours per template",
+      "income_potential": "$200-3000/month",
+      "difficulty": "beginner",
+      "energy_level": "low",
+      "skills_needed": ["Carrd proficiency", "Web design basics"],
+      "platforms": ["Gumroad", "Etsy", "Own website"],
+      "steps": ["Learn Carrd capabilities", "Design for specific use cases", "Create for different industries", "Make easy to customize", "Include setup guides", "List with clear previews"]
+    },
+    {
+      "id": "passive_037",
+      "title": "Print-on-Demand Wall Art",
+      "category": "digital_products",
+      "description": "Create art designs sold as prints, canvases, and posters through print-on-demand services.",
+      "startup_cost": "Low ($0-100)",
+      "time_investment": "Variable per design",
+      "income_potential": "$200-5000/month",
+      "difficulty": "beginner",
+      "energy_level": "medium",
+      "skills_needed": ["Art/design creation", "Understanding of home decor trends"],
+      "platforms": ["Society6", "Redbubble", "Fine Art America", "Printful + Etsy"],
+      "steps": ["Create art in popular home decor styles", "Format for various sizes", "Upload to POD platforms", "Create mockups", "Optimize listings", "Promote through Pinterest"]
+    },
+    {
+      "id": "passive_038",
+      "title": "Royalty Share Fiction Writing",
+      "category": "licensing",
+      "description": "Write fiction for royalty share programs where publishers or platforms share ongoing revenue.",
+      "startup_cost": "Low ($0)",
+      "time_investment": "Variable per project",
+      "income_potential": "$100-5000/month",
+      "difficulty": "intermediate",
+      "energy_level": "high",
+      "skills_needed": ["Creative writing", "Genre understanding", "Consistency"],
+      "platforms": ["Kindle Vella", "Webnovel", "Royal Road", "Wattpad Paid Stories"],
+      "steps": ["Choose platform for your genre", "Research what performs well", "Write engaging serial fiction", "Publish consistently", "Engage with readers", "Build following"]
+    },
+    {
+      "id": "passive_039",
+      "title": "Automated Webinars",
+      "category": "education",
+      "description": "Create evergreen webinar content that runs automatically, selling products or courses on autopilot.",
+      "startup_cost": "Medium ($100-300/month)",
+      "time_investment": "20-40 hours initial setup",
+      "income_potential": "$1000-50000/month",
+      "difficulty": "advanced",
+      "energy_level": "high",
+      "skills_needed": ["Presentation skills", "Sales psychology", "Funnel building"],
+      "platforms": ["WebinarJam", "Demio", "EverWebinar", "eWebinar"],
+      "steps": ["Create compelling live webinar first", "Refine based on feedback", "Record polished version", "Set up automated software", "Create registration sequences", "Drive traffic through ads", "Optimize conversions"]
+    },
+    {
+      "id": "passive_040",
+      "title": "AI-Assisted Content Production",
+      "category": "content",
+      "description": "Use AI tools to scale content production for blogs, social media, or products while maintaining quality.",
+      "startup_cost": "Low ($20-100/month)",
+      "time_investment": "Significantly reduced from manual methods",
+      "income_potential": "Variable based on application",
+      "difficulty": "intermediate",
+      "energy_level": "medium",
+      "skills_needed": ["AI prompt engineering", "Editing and refinement", "Quality control"],
+      "platforms": ["ChatGPT", "Claude", "Jasper", "Copy.ai", "Midjourney"],
+      "steps": ["Identify where AI can assist", "Learn effective prompting", "Create templates and workflows", "Generate content", "Edit for quality and voice", "Scale production", "Monitor performance"]
     }
   ]
 }

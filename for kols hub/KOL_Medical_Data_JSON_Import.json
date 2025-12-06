@@ -1,0 +1,485 @@
+{
+  "patient_info": {
+    "name": "Kol",
+    "pronouns": "they/them",
+    "date_of_birth": "",
+    "medical_record_numbers": {
+      "mySaintLukes": "",
+      "myUHealth": "",
+      "other": []
+    },
+    "created_date": "2025-11-20",
+    "last_updated": "2025-11-20",
+    "version": "1.0"
+  },
+  
+  "emergency_contacts": [
+    {
+      "name": "Da'Veon",
+      "relationship": "Partner",
+      "phone": "",
+      "can_make_medical_decisions": true,
+      "priority": 1
+    },
+    {
+      "name": "Mom",
+      "relationship": "Mother",
+      "phone": "",
+      "can_make_medical_decisions": true,
+      "priority": 2
+    },
+    {
+      "name": "Quincy",
+      "relationship": "Partner",
+      "phone": "",
+      "can_make_medical_decisions": true,
+      "priority": 3
+    }
+  ],
+  
+  "medications": [
+    {
+      "id": 1,
+      "name": "",
+      "generic_name": "",
+      "dosage": "",
+      "frequency": "",
+      "route": "oral",
+      "purpose": "",
+      "category": "pain_management",
+      "prescriber": "",
+      "prescriber_specialty": "",
+      "start_date": "",
+      "pharmacy": "",
+      "pharmacy_phone": "",
+      "refill_date": "",
+      "refills_remaining": 0,
+      "side_effects": [],
+      "effectiveness_rating": 0,
+      "times_per_day": [],
+      "with_food": "",
+      "special_instructions": "",
+      "interactions": [],
+      "cost_per_month": 0,
+      "insurance_covered": true,
+      "prior_auth_required": false,
+      "manufacturer": "",
+      "ndc_number": "",
+      "is_active": true,
+      "is_prn": false,
+      "is_controlled": false,
+      "dea_schedule": "",
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "name": "",
+      "generic_name": "",
+      "dosage": "",
+      "frequency": "",
+      "route": "oral",
+      "purpose": "",
+      "category": "pots_dysautonomia",
+      "prescriber": "",
+      "prescriber_specialty": "",
+      "start_date": "",
+      "pharmacy": "",
+      "pharmacy_phone": "",
+      "refill_date": "",
+      "refills_remaining": 0,
+      "side_effects": [],
+      "effectiveness_rating": 0,
+      "times_per_day": [],
+      "with_food": "",
+      "special_instructions": "",
+      "interactions": [],
+      "cost_per_month": 0,
+      "insurance_covered": true,
+      "prior_auth_required": false,
+      "manufacturer": "",
+      "ndc_number": "",
+      "is_active": true,
+      "is_prn": false,
+      "is_controlled": false,
+      "dea_schedule": "",
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "name": "",
+      "generic_name": "",
+      "dosage": "",
+      "frequency": "",
+      "route": "oral",
+      "purpose": "",
+      "category": "mental_health",
+      "prescriber": "",
+      "prescriber_specialty": "",
+      "start_date": "",
+      "pharmacy": "",
+      "pharmacy_phone": "",
+      "refill_date": "",
+      "refills_remaining": 0,
+      "side_effects": [],
+      "effectiveness_rating": 0,
+      "times_per_day": [],
+      "with_food": "",
+      "special_instructions": "",
+      "interactions": [],
+      "cost_per_month": 0,
+      "insurance_covered": true,
+      "prior_auth_required": false,
+      "manufacturer": "",
+      "ndc_number": "",
+      "is_active": true,
+      "is_prn": false,
+      "is_controlled": false,
+      "dea_schedule": "",
+      "notes": ""
+    }
+  ],
+  
+  "medication_schedule": {
+    "morning_8am": [],
+    "afternoon_2pm": [],
+    "evening_6pm": [],
+    "bedtime_10pm": [],
+    "as_needed": []
+  },
+  
+  "allergies": [
+    {
+      "allergen": "",
+      "type": "medication",
+      "reaction": "",
+      "severity": "severe",
+      "date_discovered": "",
+      "notes": ""
+    }
+  ],
+  
+  "diagnoses": [
+    {
+      "name": "Ehlers-Danlos Syndrome Type 3 - Hypermobile",
+      "icd10_code": "M35.7",
+      "date_diagnosed": "",
+      "diagnosing_provider": "",
+      "status": "active",
+      "severity": "moderate_to_severe",
+      "management_plan": "",
+      "notes": ""
+    },
+    {
+      "name": "Postural Orthostatic Tachycardia Syndrome (POTS)",
+      "icd10_code": "G90.A",
+      "date_diagnosed": "",
+      "diagnosing_provider": "",
+      "status": "active",
+      "severity": "moderate_to_severe",
+      "management_plan": "",
+      "notes": ""
+    },
+    {
+      "name": "Chronic Pain Syndrome",
+      "icd10_code": "",
+      "date_diagnosed": "",
+      "diagnosing_provider": "",
+      "status": "active",
+      "severity": "severe",
+      "management_plan": "",
+      "notes": ""
+    }
+  ],
+  
+  "healthcare_providers": [
+    {
+      "type": "primary_care",
+      "name": "",
+      "clinic": "",
+      "phone": "",
+      "fax": "",
+      "portal": "MySaintLukes",
+      "last_visit": "",
+      "next_appointment": "",
+      "notes": ""
+    },
+    {
+      "type": "specialist",
+      "specialty": "rheumatology_eds",
+      "name": "",
+      "clinic": "",
+      "phone": "",
+      "fax": "",
+      "portal": "",
+      "last_visit": "",
+      "next_appointment": "",
+      "notes": ""
+    },
+    {
+      "type": "specialist",
+      "specialty": "cardiology_pots",
+      "name": "",
+      "clinic": "",
+      "phone": "",
+      "fax": "",
+      "portal": "",
+      "last_visit": "",
+      "next_appointment": "",
+      "notes": ""
+    },
+    {
+      "type": "specialist",
+      "specialty": "pain_management",
+      "name": "",
+      "clinic": "",
+      "phone": "",
+      "fax": "",
+      "portal": "",
+      "last_visit": "",
+      "next_appointment": "",
+      "notes": ""
+    }
+  ],
+  
+  "vital_signs": {
+    "baseline": {
+      "blood_pressure_sitting": {
+        "systolic": 0,
+        "diastolic": 0
+      },
+      "blood_pressure_standing": {
+        "systolic": 0,
+        "diastolic": 0
+      },
+      "heart_rate_sitting": 0,
+      "heart_rate_standing": 0,
+      "orthostatic_hr_increase": 0,
+      "temperature": 0,
+      "respiratory_rate": 0,
+      "o2_saturation": 0,
+      "weight_lbs": 0,
+      "height_inches": 0
+    },
+    "pots_specific": {
+      "morning_hr_lying": 0,
+      "typical_daily_hr_range": {
+        "min": 0,
+        "max": 0
+      },
+      "triggers": []
+    }
+  },
+  
+  "symptom_tracking": {
+    "daily_symptoms": {
+      "joint_pain": {
+        "frequency": "daily",
+        "severity_average": 0,
+        "worst_joints": [],
+        "subluxations_per_week": 0,
+        "dislocations_per_month": 0
+      },
+      "pots_symptoms": {
+        "dizziness": "daily",
+        "palpitations": "daily",
+        "syncope_frequency": "weekly",
+        "heat_intolerance": true,
+        "brain_fog": "daily"
+      },
+      "fatigue": {
+        "spoons_per_day": 0,
+        "crash_frequency": "weekly",
+        "recovery_days_needed": 0
+      }
+    },
+    "triggers": {
+      "weather_changes": true,
+      "stress": true,
+      "physical_activity": true,
+      "foods": [],
+      "medications": [],
+      "other": []
+    }
+  },
+  
+  "lab_results": [
+    {
+      "date": "",
+      "test_type": "cbc",
+      "results": {
+        "hemoglobin": 0,
+        "hematocrit": 0,
+        "wbc": 0,
+        "platelets": 0
+      }
+    },
+    {
+      "date": "",
+      "test_type": "metabolic_panel",
+      "results": {
+        "glucose": 0,
+        "creatinine": 0,
+        "gfr": 0,
+        "sodium": 0,
+        "potassium": 0
+      }
+    },
+    {
+      "date": "",
+      "test_type": "vitamins",
+      "results": {
+        "vitamin_d": 0,
+        "b12": 0,
+        "ferritin": 0
+      }
+    }
+  ],
+  
+  "insurance": [
+    {
+      "type": "primary",
+      "company": "",
+      "policy_number": "",
+      "group_number": "",
+      "phone": "",
+      "coverage_details": {}
+    },
+    {
+      "type": "secondary",
+      "company": "",
+      "policy_number": "",
+      "group_number": "",
+      "phone": "",
+      "coverage_details": {}
+    }
+  ],
+  
+  "emergency_protocol": {
+    "critical_info": [
+      "Has EDS Type 3 - joint instability, easy bruising, slow wound healing",
+      "Has POTS - needs IV fluids, position changes slowly",
+      "Multiple medication sensitivities",
+      "Requires gentle handling for procedures"
+    ],
+    "medications_to_avoid": [],
+    "safe_medications": [],
+    "preferred_hospital": "",
+    "emergency_steps": [
+      "Contact Da'Veon immediately",
+      "Access MySaintLukes portal for full records",
+      "Note: baseline vitals unusual due to POTS",
+      "Requires cardiac monitoring",
+      "Gentle BP cuff required"
+    ]
+  },
+  
+  "portal_access": {
+    "mySaintLukes": {
+      "username": "",
+      "two_factor_enabled": true,
+      "proxy_access": ["Da'Veon"],
+      "url": "https://mysaintlukes.org"
+    },
+    "myUHealth": {
+      "username": "",
+      "two_factor_enabled": true,
+      "proxy_access": ["Da'Veon"],
+      "url": "https://myuhealth.com"
+    }
+  },
+  
+  "accommodation_needs": {
+    "medical_appointments": [
+      "Longer appointment times needed",
+      "Written instructions required",
+      "Sensitivity to fluorescent lights",
+      "Need to lie down during long appointments",
+      "Require gentle blood pressure cuffs",
+      "Careful with joint manipulation"
+    ],
+    "communication": [
+      "Prefer written summaries",
+      "Need processing time for decisions",
+      "Brain fog affects comprehension when crashed",
+      "Partners may need to advocate when non-verbal"
+    ],
+    "equipment": {
+      "mobility_aids": [],
+      "compression_garments": [],
+      "braces": [],
+      "other": []
+    }
+  },
+  
+  "family_history": {
+    "maternal": {
+      "conditions": [],
+      "notes": ""
+    },
+    "paternal": {
+      "conditions": [],
+      "notes": ""
+    },
+    "genetic_conditions": [
+      "EDS/Hypermobility",
+      "Autoimmune conditions"
+    ]
+  },
+  
+  "immunizations": [
+    {
+      "vaccine": "COVID-19",
+      "doses": [],
+      "next_due": ""
+    },
+    {
+      "vaccine": "Influenza",
+      "last_date": "",
+      "next_due": "Annually"
+    },
+    {
+      "vaccine": "Tetanus",
+      "last_date": "",
+      "next_due": "Every 10 years"
+    }
+  ],
+  
+  "physical_therapy": {
+    "current_routine": {
+      "frequency": "",
+      "focus_areas": [],
+      "exercises": []
+    },
+    "equipment": {
+      "braces": [],
+      "compression": [],
+      "mobility_aids": []
+    }
+  },
+  
+  "nutrition": {
+    "dietary_restrictions": {
+      "allergies": [],
+      "intolerances": [],
+      "medical_requirements": []
+    },
+    "supplements": {
+      "salt_for_pots": {
+        "amount_daily": "",
+        "type": ""
+      },
+      "hydration_goal_oz": 0,
+      "electrolyte_type": ""
+    }
+  },
+  
+  "document_metadata": {
+    "created": "2025-11-20",
+    "last_updated": "",
+    "version": "1.0",
+    "updated_by": "",
+    "next_review": "",
+    "format": "json",
+    "schema_version": "1.0"
+  }
+}

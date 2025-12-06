@@ -1,0 +1,607 @@
+{
+  "module": "Partner Communication Scripts",
+  "version": "1.0",
+  "generated_at": "2025-11-18",
+  "scripts": [
+    {
+      "id": "script_001",
+      "context": "Setting a Boundary",
+      "tone": "direct",
+      "script": "Placeholder script #1 for Setting a Boundary. Customize with your words."
+    },
+    {
+      "id": "script_002",
+      "context": "Flirty",
+      "tone": "soft",
+      "script": "Placeholder script #2 for Flirty. Customize with your words."
+    },
+    {
+      "id": "script_003",
+      "context": "Flirty",
+      "tone": "soft",
+      "script": "Placeholder script #3 for Flirty. Customize with your words."
+    },
+    {
+      "id": "script_004",
+      "context": "Appreciation",
+      "tone": "warm",
+      "script": "Placeholder script #4 for Appreciation. Customize with your words."
+    },
+    {
+      "id": "script_005",
+      "context": "Repair",
+      "tone": "playful",
+      "script": "Placeholder script #5 for Repair. Customize with your words."
+    },
+    {
+      "id": "script_006",
+      "context": "Flirty",
+      "tone": "direct",
+      "script": "Placeholder script #6 for Flirty. Customize with your words."
+    },
+    {
+      "id": "script_007",
+      "context": "Asking for Help",
+      "tone": "direct",
+      "script": "Placeholder script #7 for Asking for Help. Customize with your words."
+    },
+    {
+      "id": "script_008",
+      "context": "Appreciation",
+      "tone": "warm",
+      "script": "Placeholder script #8 for Appreciation. Customize with your words."
+    },
+    {
+      "id": "script_009",
+      "context": "Check-In",
+      "tone": "warm",
+      "script": "Placeholder script #9 for Check-In. Customize with your words."
+    },
+    {
+      "id": "script_010",
+      "context": "Flirty",
+      "tone": "playful",
+      "script": "Placeholder script #10 for Flirty. Customize with your words."
+    },
+    {
+      "id": "script_011",
+      "context": "Asking for Help",
+      "tone": "soft",
+      "script": "Placeholder script #11 for Asking for Help. Customize with your words."
+    },
+    {
+      "id": "script_012",
+      "context": "Asking for Help",
+      "tone": "firm",
+      "script": "Placeholder script #12 for Asking for Help. Customize with your words."
+    },
+    {
+      "id": "script_013",
+      "context": "Kinky (Private)",
+      "tone": "playful",
+      "script": "Placeholder script #13 for Kinky (Private). Customize with your words."
+    },
+    {
+      "id": "script_014",
+      "context": "Check-In",
+      "tone": "soft",
+      "script": "Placeholder script #14 for Check-In. Customize with your words."
+    },
+    {
+      "id": "script_015",
+      "context": "Appreciation",
+      "tone": "firm",
+      "script": "Placeholder script #15 for Appreciation. Customize with your words."
+    },
+    {
+      "id": "script_016",
+      "context": "Setting a Boundary",
+      "tone": "direct",
+      "script": "Placeholder script #16 for Setting a Boundary. Customize with your words."
+    },
+    {
+      "id": "script_017",
+      "context": "Check-In",
+      "tone": "direct",
+      "script": "Placeholder script #17 for Check-In. Customize with your words."
+    },
+    {
+      "id": "script_018",
+      "context": "Asking for Help",
+      "tone": "soft",
+      "script": "Placeholder script #18 for Asking for Help. Customize with your words."
+    },
+    {
+      "id": "script_019",
+      "context": "Appreciation",
+      "tone": "direct",
+      "script": "Placeholder script #19 for Appreciation. Customize with your words."
+    },
+    {
+      "id": "script_020",
+      "context": "Kinky (Private)",
+      "tone": "playful",
+      "script": "Placeholder script #20 for Kinky (Private). Customize with your words."
+    },
+    {
+      "id": "script_021",
+      "context": "Repair",
+      "tone": "playful",
+      "script": "Placeholder script #21 for Repair. Customize with your words."
+    },
+    {
+      "id": "script_022",
+      "context": "Flirty",
+      "tone": "playful",
+      "script": "Placeholder script #22 for Flirty. Customize with your words."
+    },
+    {
+      "id": "script_023",
+      "context": "Repair",
+      "tone": "playful",
+      "script": "Placeholder script #23 for Repair. Customize with your words."
+    },
+    {
+      "id": "script_024",
+      "context": "Check-In",
+      "tone": "playful",
+      "script": "Placeholder script #24 for Check-In. Customize with your words."
+    },
+    {
+      "id": "script_025",
+      "context": "Kinky (Private)",
+      "tone": "warm",
+      "script": "Placeholder script #25 for Kinky (Private). Customize with your words."
+    },
+    {
+      "id": "script_026",
+      "context": "Repair",
+      "tone": "soft",
+      "script": "Placeholder script #26 for Repair. Customize with your words."
+    },
+    {
+      "id": "script_027",
+      "context": "Appreciation",
+      "tone": "warm",
+      "script": "Placeholder script #27 for Appreciation. Customize with your words."
+    },
+    {
+      "id": "script_028",
+      "context": "Asking for Help",
+      "tone": "direct",
+      "script": "Placeholder script #28 for Asking for Help. Customize with your words."
+    },
+    {
+      "id": "script_029",
+      "context": "Setting a Boundary",
+      "tone": "playful",
+      "script": "Placeholder script #29 for Setting a Boundary. Customize with your words."
+    },
+    {
+      "id": "script_030",
+      "context": "Appreciation",
+      "tone": "firm",
+      "script": "Placeholder script #30 for Appreciation. Customize with your words."
+    },
+    {
+      "id": "script_031",
+      "context": "Flirty",
+      "tone": "soft",
+      "script": "Placeholder script #31 for Flirty. Customize with your words."
+    },
+    {
+      "id": "script_032",
+      "context": "Kinky (Private)",
+      "tone": "firm",
+      "script": "Placeholder script #32 for Kinky (Private). Customize with your words."
+    },
+    {
+      "id": "script_033",
+      "context": "Setting a Boundary",
+      "tone": "warm",
+      "script": "Placeholder script #33 for Setting a Boundary. Customize with your words."
+    },
+    {
+      "id": "script_034",
+      "context": "Appreciation",
+      "tone": "direct",
+      "script": "Placeholder script #34 for Appreciation. Customize with your words."
+    },
+    {
+      "id": "script_035",
+      "context": "Setting a Boundary",
+      "tone": "playful",
+      "script": "Placeholder script #35 for Setting a Boundary. Customize with your words."
+    },
+    {
+      "id": "script_036",
+      "context": "Kinky (Private)",
+      "tone": "direct",
+      "script": "Placeholder script #36 for Kinky (Private). Customize with your words."
+    },
+    {
+      "id": "script_037",
+      "context": "Check-In",
+      "tone": "firm",
+      "script": "Placeholder script #37 for Check-In. Customize with your words."
+    },
+    {
+      "id": "script_038",
+      "context": "Kinky (Private)",
+      "tone": "firm",
+      "script": "Placeholder script #38 for Kinky (Private). Customize with your words."
+    },
+    {
+      "id": "script_039",
+      "context": "Appreciation",
+      "tone": "warm",
+      "script": "Placeholder script #39 for Appreciation. Customize with your words."
+    },
+    {
+      "id": "script_040",
+      "context": "Repair",
+      "tone": "firm",
+      "script": "Placeholder script #40 for Repair. Customize with your words."
+    },
+    {
+      "id": "script_041",
+      "context": "Flirty",
+      "tone": "soft",
+      "script": "Placeholder script #41 for Flirty. Customize with your words."
+    },
+    {
+      "id": "script_042",
+      "context": "Asking for Help",
+      "tone": "direct",
+      "script": "Placeholder script #42 for Asking for Help. Customize with your words."
+    },
+    {
+      "id": "script_043",
+      "context": "Flirty",
+      "tone": "soft",
+      "script": "Placeholder script #43 for Flirty. Customize with your words."
+    },
+    {
+      "id": "script_044",
+      "context": "Setting a Boundary",
+      "tone": "direct",
+      "script": "Placeholder script #44 for Setting a Boundary. Customize with your words."
+    },
+    {
+      "id": "script_045",
+      "context": "Flirty",
+      "tone": "warm",
+      "script": "Placeholder script #45 for Flirty. Customize with your words."
+    },
+    {
+      "id": "script_046",
+      "context": "Setting a Boundary",
+      "tone": "firm",
+      "script": "Placeholder script #46 for Setting a Boundary. Customize with your words."
+    },
+    {
+      "id": "script_047",
+      "context": "Kinky (Private)",
+      "tone": "direct",
+      "script": "Placeholder script #47 for Kinky (Private). Customize with your words."
+    },
+    {
+      "id": "script_048",
+      "context": "Check-In",
+      "tone": "firm",
+      "script": "Placeholder script #48 for Check-In. Customize with your words."
+    },
+    {
+      "id": "script_049",
+      "context": "Setting a Boundary",
+      "tone": "soft",
+      "script": "Placeholder script #49 for Setting a Boundary. Customize with your words."
+    },
+    {
+      "id": "script_050",
+      "context": "Appreciation",
+      "tone": "warm",
+      "script": "Placeholder script #50 for Appreciation. Customize with your words."
+    },
+    {
+      "id": "script_051",
+      "context": "Kinky (Private)",
+      "tone": "warm",
+      "script": "Placeholder script #51 for Kinky (Private). Customize with your words."
+    },
+    {
+      "id": "script_052",
+      "context": "Asking for Help",
+      "tone": "firm",
+      "script": "Placeholder script #52 for Asking for Help. Customize with your words."
+    },
+    {
+      "id": "script_053",
+      "context": "Setting a Boundary",
+      "tone": "playful",
+      "script": "Placeholder script #53 for Setting a Boundary. Customize with your words."
+    },
+    {
+      "id": "script_054",
+      "context": "Flirty",
+      "tone": "warm",
+      "script": "Placeholder script #54 for Flirty. Customize with your words."
+    },
+    {
+      "id": "script_055",
+      "context": "Repair",
+      "tone": "firm",
+      "script": "Placeholder script #55 for Repair. Customize with your words."
+    },
+    {
+      "id": "script_056",
+      "context": "Flirty",
+      "tone": "warm",
+      "script": "Placeholder script #56 for Flirty. Customize with your words."
+    },
+    {
+      "id": "script_057",
+      "context": "Check-In",
+      "tone": "direct",
+      "script": "Placeholder script #57 for Check-In. Customize with your words."
+    },
+    {
+      "id": "script_058",
+      "context": "Kinky (Private)",
+      "tone": "direct",
+      "script": "Placeholder script #58 for Kinky (Private). Customize with your words."
+    },
+    {
+      "id": "script_059",
+      "context": "Flirty",
+      "tone": "warm",
+      "script": "Placeholder script #59 for Flirty. Customize with your words."
+    },
+    {
+      "id": "script_060",
+      "context": "Kinky (Private)",
+      "tone": "playful",
+      "script": "Placeholder script #60 for Kinky (Private). Customize with your words."
+    },
+    {
+      "id": "script_061",
+      "context": "Flirty",
+      "tone": "direct",
+      "script": "Placeholder script #61 for Flirty. Customize with your words."
+    },
+    {
+      "id": "script_062",
+      "context": "Kinky (Private)",
+      "tone": "firm",
+      "script": "Placeholder script #62 for Kinky (Private). Customize with your words."
+    },
+    {
+      "id": "script_063",
+      "context": "Kinky (Private)",
+      "tone": "warm",
+      "script": "Placeholder script #63 for Kinky (Private). Customize with your words."
+    },
+    {
+      "id": "script_064",
+      "context": "Kinky (Private)",
+      "tone": "direct",
+      "script": "Placeholder script #64 for Kinky (Private). Customize with your words."
+    },
+    {
+      "id": "script_065",
+      "context": "Kinky (Private)",
+      "tone": "soft",
+      "script": "Placeholder script #65 for Kinky (Private). Customize with your words."
+    },
+    {
+      "id": "script_066",
+      "context": "Flirty",
+      "tone": "warm",
+      "script": "Placeholder script #66 for Flirty. Customize with your words."
+    },
+    {
+      "id": "script_067",
+      "context": "Flirty",
+      "tone": "soft",
+      "script": "Placeholder script #67 for Flirty. Customize with your words."
+    },
+    {
+      "id": "script_068",
+      "context": "Flirty",
+      "tone": "soft",
+      "script": "Placeholder script #68 for Flirty. Customize with your words."
+    },
+    {
+      "id": "script_069",
+      "context": "Kinky (Private)",
+      "tone": "warm",
+      "script": "Placeholder script #69 for Kinky (Private). Customize with your words."
+    },
+    {
+      "id": "script_070",
+      "context": "Repair",
+      "tone": "firm",
+      "script": "Placeholder script #70 for Repair. Customize with your words."
+    },
+    {
+      "id": "script_071",
+      "context": "Flirty",
+      "tone": "playful",
+      "script": "Placeholder script #71 for Flirty. Customize with your words."
+    },
+    {
+      "id": "script_072",
+      "context": "Flirty",
+      "tone": "warm",
+      "script": "Placeholder script #72 for Flirty. Customize with your words."
+    },
+    {
+      "id": "script_073",
+      "context": "Appreciation",
+      "tone": "soft",
+      "script": "Placeholder script #73 for Appreciation. Customize with your words."
+    },
+    {
+      "id": "script_074",
+      "context": "Appreciation",
+      "tone": "firm",
+      "script": "Placeholder script #74 for Appreciation. Customize with your words."
+    },
+    {
+      "id": "script_075",
+      "context": "Check-In",
+      "tone": "firm",
+      "script": "Placeholder script #75 for Check-In. Customize with your words."
+    },
+    {
+      "id": "script_076",
+      "context": "Flirty",
+      "tone": "playful",
+      "script": "Placeholder script #76 for Flirty. Customize with your words."
+    },
+    {
+      "id": "script_077",
+      "context": "Asking for Help",
+      "tone": "direct",
+      "script": "Placeholder script #77 for Asking for Help. Customize with your words."
+    },
+    {
+      "id": "script_078",
+      "context": "Flirty",
+      "tone": "warm",
+      "script": "Placeholder script #78 for Flirty. Customize with your words."
+    },
+    {
+      "id": "script_079",
+      "context": "Check-In",
+      "tone": "warm",
+      "script": "Placeholder script #79 for Check-In. Customize with your words."
+    },
+    {
+      "id": "script_080",
+      "context": "Kinky (Private)",
+      "tone": "soft",
+      "script": "Placeholder script #80 for Kinky (Private). Customize with your words."
+    },
+    {
+      "id": "script_081",
+      "context": "Kinky (Private)",
+      "tone": "soft",
+      "script": "Placeholder script #81 for Kinky (Private). Customize with your words."
+    },
+    {
+      "id": "script_082",
+      "context": "Flirty",
+      "tone": "warm",
+      "script": "Placeholder script #82 for Flirty. Customize with your words."
+    },
+    {
+      "id": "script_083",
+      "context": "Repair",
+      "tone": "playful",
+      "script": "Placeholder script #83 for Repair. Customize with your words."
+    },
+    {
+      "id": "script_084",
+      "context": "Appreciation",
+      "tone": "soft",
+      "script": "Placeholder script #84 for Appreciation. Customize with your words."
+    },
+    {
+      "id": "script_085",
+      "context": "Setting a Boundary",
+      "tone": "soft",
+      "script": "Placeholder script #85 for Setting a Boundary. Customize with your words."
+    },
+    {
+      "id": "script_086",
+      "context": "Check-In",
+      "tone": "soft",
+      "script": "Placeholder script #86 for Check-In. Customize with your words."
+    },
+    {
+      "id": "script_087",
+      "context": "Flirty",
+      "tone": "playful",
+      "script": "Placeholder script #87 for Flirty. Customize with your words."
+    },
+    {
+      "id": "script_088",
+      "context": "Check-In",
+      "tone": "warm",
+      "script": "Placeholder script #88 for Check-In. Customize with your words."
+    },
+    {
+      "id": "script_089",
+      "context": "Asking for Help",
+      "tone": "playful",
+      "script": "Placeholder script #89 for Asking for Help. Customize with your words."
+    },
+    {
+      "id": "script_090",
+      "context": "Repair",
+      "tone": "playful",
+      "script": "Placeholder script #90 for Repair. Customize with your words."
+    },
+    {
+      "id": "script_091",
+      "context": "Setting a Boundary",
+      "tone": "soft",
+      "script": "Placeholder script #91 for Setting a Boundary. Customize with your words."
+    },
+    {
+      "id": "script_092",
+      "context": "Appreciation",
+      "tone": "soft",
+      "script": "Placeholder script #92 for Appreciation. Customize with your words."
+    },
+    {
+      "id": "script_093",
+      "context": "Kinky (Private)",
+      "tone": "direct",
+      "script": "Placeholder script #93 for Kinky (Private). Customize with your words."
+    },
+    {
+      "id": "script_094",
+      "context": "Kinky (Private)",
+      "tone": "soft",
+      "script": "Placeholder script #94 for Kinky (Private). Customize with your words."
+    },
+    {
+      "id": "script_095",
+      "context": "Asking for Help",
+      "tone": "playful",
+      "script": "Placeholder script #95 for Asking for Help. Customize with your words."
+    },
+    {
+      "id": "script_096",
+      "context": "Kinky (Private)",
+      "tone": "playful",
+      "script": "Placeholder script #96 for Kinky (Private). Customize with your words."
+    },
+    {
+      "id": "script_097",
+      "context": "Flirty",
+      "tone": "playful",
+      "script": "Placeholder script #97 for Flirty. Customize with your words."
+    },
+    {
+      "id": "script_098",
+      "context": "Flirty",
+      "tone": "direct",
+      "script": "Placeholder script #98 for Flirty. Customize with your words."
+    },
+    {
+      "id": "script_099",
+      "context": "Setting a Boundary",
+      "tone": "firm",
+      "script": "Placeholder script #99 for Setting a Boundary. Customize with your words."
+    },
+    {
+      "id": "script_100",
+      "context": "Asking for Help",
+      "tone": "warm",
+      "script": "Placeholder script #100 for Asking for Help. Customize with your words."
+    }
+  ]
+}

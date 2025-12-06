@@ -11,6 +11,12 @@
   NODE_VERSION = "18"
   NPM_VERSION = "9"
 
+# APK Downloads - serve directly from downloads folder
+[[redirects]]
+  from = "/downloads/*"
+  to = "/downloads/:splat"
+  status = 200
+
 # Redirect rules for SPA
 [[redirects]]
   from = "/*"
@@ -45,6 +51,15 @@
   for = "/manifest.json"
   [headers.values]
     Cache-Control = "public, max-age=0, must-revalidate"
+
+# APK Downloads - allow direct download
+[[headers]]
+  for = "/downloads/*.apk"
+  [headers.values]
+    Content-Type = "application/vnd.android.package-archive"
+    Content-Disposition = "attachment"
+    Cache-Control = "public, max-age=86400"
+    X-Content-Type-Options = "nosniff"
 
 # Environment variables (set these in Netlify UI)
 # VITE_SPOTIFY_CLIENT_ID

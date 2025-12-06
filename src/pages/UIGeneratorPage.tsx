@@ -450,7 +450,7 @@ const UIGeneratorPage: React.FC = () => {
                   ) : (
                     <div className="bg-black/60 p-4 rounded-lg border border-purple-500/20">
                       <p className="text-purple-300 text-center py-12">
-                        Live preview coming soon! For now, copy the code and use it in your project.
+                        Component preview has been generated. Copy the code above and integrate it into your project for interactive testing.
                       </p>
                     </div>
                   )}

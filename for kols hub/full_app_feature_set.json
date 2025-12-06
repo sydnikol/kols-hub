@@ -1,0 +1,128 @@
+{
+  "core": {
+    "routine_manager": {
+      "features": [
+        "Time-based routines: Morning, Midday, Evening, Night",
+        "Auto-adjusting schedule based on weather, pain, energy, mood",
+        "Task pacing engine for chronic illness",
+        "Sensory-friendly interface",
+        "Routine skips/swaps when low on spoons",
+        "Start of day summary: vitals, tasks, music, outfit",
+        "End of day flow: auto Spotify at 10:30PM (starts with Dimple), dims lights",
+        "Break reminders with low-energy suggestions",
+        "Reflection triggers after events"
+      ]
+    },
+    "health_tracker": {
+      "medications": [
+        "Medication checklist (name, dose, time, side effects)",
+        "Taken toggle with timestamp",
+        "Pain spike logging post-med",
+        "Missed dose warnings",
+        "PRN logging",
+        "Home aide interview printable with rating system"
+      ],
+      "vitals": [
+        "Blood pressure (AM/PM)",
+        "Energy tracker",
+        "Hydration log with alerts",
+        "Sodium intake monitor (4000mg/day)",
+        "Menstrual/hormonal tracking",
+        "Body symptom journal with tags"
+      ],
+      "body_weather": [
+        "Logs for pain, energy, mood, sensory tolerance",
+        "Daily visual chart (calendar/graph)",
+        "Used to influence routine and outfit",
+        "Color-coded overlays"
+      ]
+    }
+  },
+  "spiritual_reflection": {
+    "rituals": [
+      "Ancestor altar tracker (candles, offerings, water)",
+      "Ritual scheduler",
+      "Dream journal linked to moon phases",
+      "Custom rituals",
+      "Hoodoo calendar: herbs, signs, candle colors"
+    ],
+    "journaling": [
+      "Journaling styles: text, audio, poetic, visual, multilingual",
+      "Prompts: reflection, spiritual, recap, appreciation",
+      "Tags: mood, health, events",
+      "Voice-to-journal",
+      "AI-guided visual prompts",
+      "Triggered reflections post events"
+    ]
+  },
+  "style_outfits": {
+    "wardrobe": [
+      "Wardrobe catalog (item, tags, comfort, type)",
+      "Accessories: piercings, harnesses, etc.",
+      "Outfit generator by weather, energy, aesthetic, occasion",
+      "Favorite combos tracker",
+      "Partner outfit sync",
+      "Makeup tutorial suggestions",
+      "Piercing & leatherwear log"
+    ]
+  },
+  "entertainment": {
+    "spotify": [
+      "Auto-play at 10:30PM (start with Dimple)",
+      "Shuffle/loop toggle",
+      "Mood-based playlist suggestions"
+    ],
+    "games": [
+      "Solo board game library",
+      "D&D solo planner: prompts, expansions",
+      "Board Game Hangout scheduler",
+      "Mood-linked media/game suggestions"
+    ]
+  },
+  "creativity": {
+    "prompts": [
+      "Art, poetry, photography, story prompts",
+      "Creative logging system",
+      "Multilingual journaling",
+      "Micro-project reminders",
+      "Creative budget planner"
+    ]
+  },
+  "finances": {
+    "budgeting": [
+      "Passive income idea tracker (1,000+)",
+      "Monthly/weekly budget sheets",
+      "Bill + auto-pay tracker",
+      "Money reflection logs",
+      "Creative fund tracker"
+    ]
+  },
+  "system_backend": {
+    "automation": [
+      "Node/React modules",
+      "Auto-seeds for JSON files",
+      "Repair script",
+      "Version checker",
+      "Taste memory engine",
+      "Routine adaptation AI",
+      "Prompt suggestion AI"
+    ],
+    "export_formats": [
+      "JSON seeds by module",
+      "Notion-ready templates",
+      "Google Docs & Sheets",
+      "Printable zines",
+      "Zipped folders by feature"
+    ]
+  },
+  "community_support": {
+    "connection": [
+      "Support logs",
+      "Community organizing tools",
+      "City council email writer",
+      "Partner support handbook",
+      "Friend/family aide documents",
+      "Polycule calendar sync"
+    ]
+  }
+}

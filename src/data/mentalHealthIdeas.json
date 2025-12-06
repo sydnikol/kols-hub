@@ -9,8 +9,8 @@
         { "text": "Cold water wrists", "effort": 1 },
         { "text": "Call/text partner script", "effort": 1 },
         { "text": "Ice cube grounding", "effort": 1 },
-        { "text": "Count 5–4–3–2–1", "effort": 1 },
-        { "text": "Box breath 4–4–6", "effort": 1 },
+        { "text": "Count 5-4-3-2-1", "effort": 1 },
+        { "text": "Box breath 4-4-6", "effort": 1 },
         { "text": "Sit by open door", "effort": 1 },
         { "text": "Weighted blanket on", "effort": 1 },
         { "text": "Repeat: 'Safe, now'", "effort": 1 },
@@ -41,7 +41,7 @@
       "items": [
         { "text": "4-7-8 breaths x4", "effort": 1 },
         { "text": "Physiological sighs x5", "effort": 1 },
-        { "text": "Paced 5/5 for 2m", "effort": 1 }
+        { "text": "Paced 5/5 for 2m", "effort": 1 },
         { "text": "In 4 / out 6", "effort": 1 },
         { "text": "Box 4-4-4-4 x8", "effort": 1 },
         { "text": "Diaphragm hand cue", "effort": 1 },
@@ -64,7 +64,7 @@
         { "text": "Calves pump 20x", "effort": 2 },
         { "text": "Wall angel 6x", "effort": 2 },
         { "text": "Ankles alphabet", "effort": 1 },
-        { "text": "Hip figure‑4 gentle", "effort": 2 },
+        { "text": "Hip figure-4 gentle", "effort": 2 },
         { "text": "Shake limbs 30s", "effort": 1 }
       ]
     },
@@ -73,4 +73,34 @@
       "title": "Sensory Soothers",
       "color": "bg-indigo-900/20 border-indigo-500/30",
       "items": [
-        { "text": "Darken room", "effort": 1 }
+        { "text": "Darken room", "effort": 1 },
+        { "text": "Noise-canceling headphones", "effort": 1 },
+        { "text": "Soft music/rain sounds", "effort": 1 },
+        { "text": "Aromatherapy scent", "effort": 1 },
+        { "text": "Warm compress neck", "effort": 1 },
+        { "text": "Cool cloth forehead", "effort": 1 },
+        { "text": "Pet soft textures", "effort": 1 },
+        { "text": "Dim blue light filter", "effort": 1 },
+        { "text": "White noise machine", "effort": 1 },
+        { "text": "Pressure vest/hoodie", "effort": 1 }
+      ]
+    },
+    {
+      "id": "comfort",
+      "title": "Comfort Activities",
+      "color": "bg-purple-900/20 border-purple-500/30",
+      "items": [
+        { "text": "Warm drink prep", "effort": 1 },
+        { "text": "Cozy blanket wrap", "effort": 1 },
+        { "text": "Comfort show episode", "effort": 1 },
+        { "text": "Pet/stuffed animal", "effort": 1 },
+        { "text": "Look at happy photos", "effort": 1 },
+        { "text": "Gentle music playlist", "effort": 1 },
+        { "text": "Favorite snack mindfully", "effort": 1 },
+        { "text": "Journal 3 gratitudes", "effort": 2 },
+        { "text": "Call supportive person", "effort": 2 },
+        { "text": "Self-compassion statement", "effort": 1 }
+      ]
+    }
+  ]
+}

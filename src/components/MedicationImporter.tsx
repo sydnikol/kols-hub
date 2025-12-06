@@ -10,14 +10,18 @@ const MedicationImporter: React.FC = () => {
 
   const handleFileUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
-    if (!file) return;
+    if (!file) {
+      console.log('No file selected');
+      return;
+    }
 
+    console.log('File selected:', file.name, file.type, file.size);
     setImporting(true);
     setError('');
-    
+
     try {
       let meds: any[] = [];
-      
+
       if (file.name.endsWith('.xlsx') || file.name.endsWith('.xls')) {
         meds = await parseExcelMedicationList(file);
       } else if (file.name.endsWith('.pdf')) {
@@ -28,14 +32,23 @@ const MedicationImporter: React.FC = () => {
           meds = parsePDFMedicationList(text);
           setImported(meds);
         };
+        reader.onerror = (e) => {
+          console.error('FileReader error:', e);
+          setError('Failed to read file');
+          setImporting(false);
+        };
         reader.readAsText(file);
+        return;
+      } else {
+        setError('Unsupported file type. Please use PDF, XLSX, or XLS files.');
         setImporting(false);
         return;
       }
-      
+
       setImported(meds);
     } catch (err: any) {
-      setError(err.message);
+      console.error('File upload error:', err);
+      setError(err.message || 'Failed to import medications');
     } finally {
       setImporting(false);
     }
@@ -62,16 +75,18 @@ const MedicationImporter: React.FC = () => {
         <h2 className="text-xl font-semibold mb-4">Import Medications</h2>
         
         <div className="mb-4">
-          <label className="block w-full cursor-pointer">
-            <div className="border-2 border-dashed border-purple-500/30 rounded-lg p-8 text-center hover:border-purple-500/50 transition-colors">
-              <Upload className="mx-auto mb-4" size={48} />
-              <p className="text-gray-300 mb-2">Click to upload or drag and drop</p>
+          <label className="block w-full cursor-pointer active:opacity-70">
+            <div className="border-2 border-dashed border-purple-500/30 rounded-lg p-8 text-center hover:border-purple-500/50 active:border-purple-500 transition-all touch-manipulation">
+              <Upload className="mx-auto mb-4 text-purple-400" size={48} />
+              <p className="text-gray-300 mb-2 font-medium">Click to upload or drag and drop</p>
               <p className="text-sm text-gray-400">Supports PDF (myUHealth) or Excel (.xlsx, .xls)</p>
+              <p className="text-xs text-gray-500 mt-2">Maximum file size: 10MB</p>
               <input
                 type="file"
                 accept=".pdf,.xlsx,.xls"
                 onChange={handleFileUpload}
                 className="hidden"
+                id="medication-file-input"
               />
             </div>
           </label>

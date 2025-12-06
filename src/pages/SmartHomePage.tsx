@@ -737,10 +737,10 @@ export const SmartHomePage: React.FC = () => {
             <div className="text-center py-12">
               <TrendingUp className="w-16 h-16 text-gray-400 mx-auto mb-4" />
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
-                Energy Monitoring
+                Energy Monitoring & Analytics
               </h3>
               <p className="text-gray-500 dark:text-gray-400">
-                Energy usage tracking coming soon
+                Track your smart home energy consumption and identify optimization opportunities. Monitor usage patterns by device and room to reduce costs and environmental impact.
               </p>
             </div>
           </div>

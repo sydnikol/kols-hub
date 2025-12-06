@@ -257,7 +257,7 @@ The SmartThings integration connects with:
 
 ## Advanced Features
 
-### Webhooks (Coming Soon)
+### Webhooks ✅ NOW AVAILABLE
 - Real-time device status updates
 - Instant notification of state changes
 - Bidirectional communication

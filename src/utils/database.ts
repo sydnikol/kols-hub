@@ -140,6 +140,25 @@ export interface AIConversation {
   context?: any;
 }
 
+export interface ClaudeConversationRecord {
+  id: string;
+  title: string;
+  persona: string;
+  messages: string; // JSON stringified messages
+  createdAt: Date;
+  updatedAt: Date;
+}
+
+export interface ClaudeMemory {
+  id?: number;
+  key: string;
+  value: string;
+  context: string;
+  importance: number;
+  createdAt: Date;
+  lastAccessed: Date;
+}
+
 export interface CachedTrack {
   id: string;
   title: string;
@@ -391,6 +410,34 @@ export interface ContentPhoto {
   createdAt: Date;
 }
 
+export interface WithdrawalRecord {
+  id?: number;
+  amount: number;
+  method: 'cashapp' | 'venmo' | 'paypal' | 'bank';
+  username: string;
+  timestamp: Date;
+  status: 'pending' | 'completed' | 'failed';
+}
+
+export interface TaxRecord {
+  id?: number;
+  year: number;
+  quarter: number;
+  income: number;
+  taxOwed: number;
+  taxPaid: number;
+  timestamp: Date;
+}
+
+export interface ExpenseRecord {
+  id?: number;
+  amount: number;
+  category: string;
+  description: string;
+  timestamp: Date;
+  taxDeductible: boolean;
+}
+
 // Extended database class
 export class KolDatabase extends Dexie {
   medications!: Table<MedicationRecord>;
@@ -426,6 +473,11 @@ export class KolDatabase extends Dexie {
   activityLog!: Table<ActivityLog>;
   contentWriting!: Table<ContentWriting>;
   contentPhotos!: Table<ContentPhoto>;
+  withdrawals!: Table<WithdrawalRecord>;
+  taxRecords!: Table<TaxRecord>;
+  expenses!: Table<ExpenseRecord>;
+  claudeConversations!: Table<ClaudeConversationRecord>;
+  claudeMemories!: Table<ClaudeMemory>;
 
   constructor() {
     super('KolDatabase');
@@ -589,6 +641,87 @@ export class KolDatabase extends Dexie {
       activityLog: '++id, type, timestamp',
       contentWriting: 'id, title, googleDriveId, type, quality, marketability, earnings, status, createdAt, updatedAt',
       contentPhotos: 'id, title, googlePhotoId, category, quality, marketability, earnings, downloads, views, status, createdAt'
+    });
+
+    this.version(9).stores({
+      medications: '++id, drugName, status, startDate, lastTaken, nextDose',
+      vitals: '++id, timestamp',
+      hydration: '++id, timestamp',
+      pain: '++id, timestamp, painLevel',
+      mood: '++id, timestamp',
+      features: '++id, title, category, priority, status, createdAt',
+      evolution: '++id, timestamp, category, event',
+      evolutionLogs: '++id, timestamp, category, event',
+      preferences: '++id, key, updatedAt',
+      conversations: '++id, timestamp, mode, room',
+      education: '++id, platform, courseName, status, progress, creditType',
+      resume: '++id, type, title, organization, startDate',
+      cachedTracks: 'id, title, artist, platform, searchQuery, cachedAt, isOfflineAvailable',
+      cachedPlaylists: 'id, name, platform, cachedAt',
+      bodyWeatherLogs: '++id, date, time, painLevel, energyLevel, createdAt',
+      patternInsights: '++id, type, detectedAt, confidence',
+      tasks: '++id, title, completed, priority, dueDate, createdAt',
+      learningMoments: '++id, timestamp, topic, pathwayId, moduleId',
+      dndIdeas: '++id, title, category, difficulty, createdAt',
+      passiveIncomeIdeas: '++id, title, category, estimatedEffort, createdAt',
+      advocacyScripts: '++id, title, situation, createdAt',
+      supportHandbooks: '++id, title, category, createdAt',
+      ideaLibrary: '++id, title, type, createdAt',
+      herbalSupport: '++id, name, createdAt',
+      ptExercises: '++id, name, difficulty, createdAt',
+      emergencyCards: '++id, name, createdAt',
+      wardrobe: 'id, name, type, style, dateAdded',
+      incomeStreams: '++id, type, name, status, monthlyRevenue, lastActive',
+      incomeActivities: '++id, streamId, action, revenue, timestamp',
+      careTeam: '++id, careTeamId, contactId, displayName, role, isEmergency, isFavorite, lastContacted',
+      activityLog: '++id, type, timestamp',
+      contentWriting: 'id, title, googleDriveId, type, quality, marketability, earnings, status, createdAt, updatedAt',
+      contentPhotos: 'id, title, googlePhotoId, category, quality, marketability, earnings, downloads, views, status, createdAt',
+      withdrawals: '++id, amount, method, username, timestamp, status',
+      taxRecords: '++id, year, quarter, income, taxOwed, taxPaid, timestamp',
+      expenses: '++id, amount, category, description, timestamp, taxDeductible'
+    });
+
+    // Version 10: Add Claude AI conversations and memories
+    this.version(10).stores({
+      medications: '++id, drugName, status, startDate, lastTaken, nextDose',
+      vitals: '++id, timestamp',
+      hydration: '++id, timestamp',
+      pain: '++id, timestamp, painLevel',
+      mood: '++id, timestamp',
+      features: '++id, title, category, priority, status, createdAt',
+      evolution: '++id, timestamp, category, event',
+      evolutionLogs: '++id, timestamp, category, event',
+      preferences: '++id, key, updatedAt',
+      conversations: '++id, timestamp, mode, room',
+      education: '++id, platform, courseName, status, progress, creditType',
+      resume: '++id, type, title, organization, startDate',
+      cachedTracks: 'id, title, artist, platform, searchQuery, cachedAt, isOfflineAvailable',
+      cachedPlaylists: 'id, name, platform, cachedAt',
+      bodyWeatherLogs: '++id, date, time, painLevel, energyLevel, createdAt',
+      patternInsights: '++id, type, detectedAt, confidence',
+      tasks: '++id, title, completed, priority, dueDate, createdAt',
+      learningMoments: '++id, timestamp, topic, pathwayId, moduleId',
+      dndIdeas: '++id, title, category, difficulty, createdAt',
+      passiveIncomeIdeas: '++id, title, category, estimatedEffort, createdAt',
+      advocacyScripts: '++id, title, situation, createdAt',
+      supportHandbooks: '++id, title, category, createdAt',
+      ideaLibrary: '++id, title, type, createdAt',
+      herbalSupport: '++id, name, createdAt',
+      ptExercises: '++id, name, difficulty, createdAt',
+      emergencyCards: '++id, name, createdAt',
+      wardrobe: 'id, name, type, style, dateAdded',
+      incomeStreams: '++id, type, name, status, monthlyRevenue, lastActive',
+      incomeActivities: '++id, streamId, action, revenue, timestamp',
+      careTeam: '++id, careTeamId, contactId, displayName, role, isEmergency, isFavorite, lastContacted',
+      activityLog: '++id, type, timestamp',
+      contentWriting: 'id, title, googleDriveId, type, quality, marketability, earnings, status, createdAt, updatedAt',
+      contentPhotos: 'id, title, googlePhotoId, category, quality, marketability, earnings, downloads, views, status, createdAt',
+      withdrawals: '++id, amount, method, username, timestamp, status',
+      taxRecords: '++id, year, quarter, income, taxOwed, taxPaid, timestamp',
+      expenses: '++id, amount, category, description, timestamp, taxDeductible',
+      claudeConversations: 'id, title, persona, createdAt, updatedAt',
+      claudeMemories: '++id, key, context, importance, createdAt, lastAccessed'
     });
   }
 

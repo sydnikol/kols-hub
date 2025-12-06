@@ -26,6 +26,17 @@ import {
   Droplet,
   Wind,
   Mountain,
+  ExternalLink,
+  GraduationCap,
+  Brain,
+  Mic,
+  MicOff,
+  Volume2,
+  VolumeX,
+  Map,
+  Compass,
+  Castle,
+  TreePine,
 } from 'lucide-react';
 import toast from 'react-hot-toast';
 import {
@@ -39,8 +50,9 @@ import {
   StoryEntry,
   Enemy,
 } from '../services/dndService';
+import { avatarTeacher } from '../services/ai-avatar-teacher';
 
-type ViewMode = 'home' | 'character-creation' | 'character-list' | 'campaign-list' | 'active-game' | 'character-detail';
+type ViewMode = 'home' | 'character-creation' | 'character-list' | 'campaign-list' | 'active-game' | 'character-detail' | 'ai-dm-tutor' | 'adventure-generator';
 
 interface DiceAnimation {
   id: string;
@@ -48,6 +60,19 @@ interface DiceAnimation {
   result: number;
   x: number;
   y: number;
+}
+
+// Adventure hooks from KOL Hub data
+interface AdventureHook {
+  id: string;
+  title: string;
+  mode: 'solo' | 'duet' | 'group';
+  vibe: 'cozy' | 'dark' | 'epic' | 'mystery' | 'slice-of-life';
+  description?: string;
+  setting?: string;
+  objective?: string;
+  npcs?: string[];
+  hooks?: string[];
 }
 
 const DnDPage: React.FC = () => {
@@ -60,6 +85,15 @@ const DnDPage: React.FC = () => {
   const [playerAction, setPlayerAction] = useState('');
   const [isAIThinking, setIsAIThinking] = useState(false);
   const storyLogRef = useRef<HTMLDivElement>(null);
+
+  // AI Teacher DM Integration
+  const [isAITeacherMode, setIsAITeacherMode] = useState(false);
+  const [aiTeacherSession, setAiTeacherSession] = useState<any>(null);
+  const [isTeacherSpeaking, setIsTeacherSpeaking] = useState(false);
+  const [voiceEnabled, setVoiceEnabled] = useState(true);
+  const [selectedAdventureVibe, setSelectedAdventureVibe] = useState<string | null>(null);
+  const [selectedAdventureMode, setSelectedAdventureMode] = useState<string | null>(null);
+  const [generatedAdventure, setGeneratedAdventure] = useState<AdventureHook | null>(null);
 
   // Character Creation State
   const [newCharacter, setNewCharacter] = useState({
@@ -214,6 +248,152 @@ const DnDPage: React.FC = () => {
     toast.success('Campaign deleted');
   };
 
+  // AI TEACHER DM FUNCTIONS
+  const initializeAITeacher = async () => {
+    await avatarTeacher.initialize();
+  };
+
+  useEffect(() => {
+    initializeAITeacher();
+  }, []);
+
+  const startAITeacherDMSession = async (topic: string) => {
+    setIsAIThinking(true);
+    try {
+      const session = await avatarTeacher.startTeachingSession(
+        topic,
+        'gaming',
+        'beginner'
+      );
+      setAiTeacherSession(session);
+      setIsAITeacherMode(true);
+      toast.success('AI DM Teacher ready!');
+    } catch (error) {
+      toast.error('Failed to start AI Teacher session');
+    }
+    setIsAIThinking(false);
+  };
+
+  const sendToAITeacher = async (message: string) => {
+    if (!aiTeacherSession) return;
+    setIsTeacherSpeaking(true);
+    try {
+      const response = await avatarTeacher.sendStudentMessage(aiTeacherSession.id, message);
+      if (response && voiceEnabled) {
+        await avatarTeacher.speak(response);
+      }
+      // Update session
+      setAiTeacherSession(avatarTeacher.getSession(aiTeacherSession.id));
+    } catch (error) {
+      console.error('AI Teacher error:', error);
+    }
+    setIsTeacherSpeaking(false);
+  };
+
+  const generateAdventureHook = (mode: string, vibe: string): AdventureHook => {
+    const settings: Record<string, string[]> = {
+      cozy: ['A quiet village by the sea', 'A friendly tavern during a festival', 'A peaceful forest glade', 'A cozy mountain cottage', 'An enchanted tea shop'],
+      dark: ['A cursed manor', 'The Shadowfell border', 'A plague-ridden city', 'An abandoned temple', 'A haunted battlefield'],
+      epic: ['The steps of a dragon\'s lair', 'Before an ancient sealed gate', 'A floating sky citadel', 'The heart of a volcano', 'A planar crossroads'],
+      mystery: ['A fog-shrouded island', 'A noble\'s masked ball', 'An underground library', 'A traveling carnival', 'A city of memories'],
+      'slice-of-life': ['A bustling marketplace', 'A wizard\'s apprentice workshop', 'A monster ranch', 'A traveling merchant caravan', 'A fantasy cooking school']
+    };
+
+    const objectives: Record<string, string[]> = {
+      cozy: ['Help organize a festival', 'Find a lost pet', 'Deliver a heartfelt message', 'Solve a friendly competition', 'Open a new shop'],
+      dark: ['Break a family curse', 'Stop a necromancer', 'Survive the night', 'Uncover a dark conspiracy', 'Redeem a fallen hero'],
+      epic: ['Prevent a war', 'Slay an ancient evil', 'Retrieve a legendary artifact', 'Unite the kingdoms', 'Close a planar rift'],
+      mystery: ['Find the missing heir', 'Solve the impossible murder', 'Decode the prophecy', 'Uncover the spy', 'Discover the treasure'],
+      'slice-of-life': ['Win the bake-off', 'Make new friends', 'Start a business', 'Learn a new skill', 'Plan a celebration']
+    };
+
+    const npcs: Record<string, string[][]> = {
+      cozy: [['Friendly innkeeper', 'Cheerful baker', 'Wise elder'], ['Mischievous sprite', 'Gentle giant', 'Talking cat']],
+      dark: [['Mysterious stranger', 'Haunted knight', 'Tormented spirit'], ['Cursed noble', 'Shadow merchant', 'Reluctant vampire']],
+      epic: [['Ancient dragon', 'Legendary hero', 'Divine messenger'], ['Time traveler', 'Planar guardian', 'Elemental lord']],
+      mystery: [['Secretive informant', 'Suspicious noble', 'Eccentric detective'], ['Masked figure', 'Unreliable witness', 'Hidden royal']],
+      'slice-of-life': [['Rival craftsman', 'Helpful neighbor', 'Wandering bard'], ['Local celebrity', 'Quirky merchant', 'Aspiring adventurer']]
+    };
+
+    const hooks: Record<string, string[]> = {
+      solo: [
+        'You wake alone in an unfamiliar place...',
+        'A cryptic letter arrives addressed only to you...',
+        'Your reflection in the mirror speaks to you...',
+        'You discover you\'re the last one who remembers...',
+      ],
+      duet: [
+        'You and your companion find yourselves...',
+        'An old friend sends an urgent message...',
+        'Together you witness something impossible...',
+        'A shared dream leads you both to...',
+      ],
+      group: [
+        'The party reunites after years apart...',
+        'Strangers bound by a common prophecy...',
+        'An emergency forces unlikely allies together...',
+        'You\'ve all been invited to...',
+      ]
+    };
+
+    const settingList = settings[vibe] || settings.cozy;
+    const objectiveList = objectives[vibe] || objectives.cozy;
+    const npcLists = npcs[vibe] || npcs.cozy;
+    const hookList = hooks[mode] || hooks.solo;
+
+    return {
+      id: `adventure_${Date.now()}`,
+      title: `${vibe.charAt(0).toUpperCase() + vibe.slice(1)} ${mode.charAt(0).toUpperCase() + mode.slice(1)} Adventure`,
+      mode: mode as any,
+      vibe: vibe as any,
+      setting: settingList[Math.floor(Math.random() * settingList.length)],
+      objective: objectiveList[Math.floor(Math.random() * objectiveList.length)],
+      npcs: npcLists[Math.floor(Math.random() * npcLists.length)],
+      hooks: [hookList[Math.floor(Math.random() * hookList.length)]],
+      description: `A ${vibe} adventure designed for ${mode} play, perfect for an immersive tabletop experience.`
+    };
+  };
+
+  const handleGenerateAdventure = () => {
+    if (!selectedAdventureMode || !selectedAdventureVibe) {
+      toast.error('Please select both mode and vibe');
+      return;
+    }
+    const adventure = generateAdventureHook(selectedAdventureMode, selectedAdventureVibe);
+    setGeneratedAdventure(adventure);
+    toast.success('Adventure generated!');
+  };
+
+  const startAdventureWithAIDM = async () => {
+    if (!generatedAdventure || characters.length === 0) {
+      toast.error('Generate an adventure and create a character first!');
+      return;
+    }
+
+    const campaign = await dndService.createCampaign({
+      name: generatedAdventure.title,
+      description: generatedAdventure.description || 'A new adventure begins...',
+      isAIDM: true,
+      characterIds: [characters[0].id],
+      setting: 'Custom',
+    });
+
+    // Add the opening narrative
+    const openingNarrative = `${generatedAdventure.hooks?.[0] || 'Your adventure begins...'}\n\n**Setting:** ${generatedAdventure.setting}\n**Objective:** ${generatedAdventure.objective}\n\n*Notable characters you might encounter: ${generatedAdventure.npcs?.join(', ')}*`;
+
+    await dndService.addStoryEntry(campaign.id, {
+      type: 'narration',
+      speaker: 'DM',
+      content: openingNarrative,
+    });
+
+    await loadData();
+    setSelectedCampaign(await dndService.getCampaign(campaign.id));
+    setSelectedCharacter(characters[0]);
+    setViewMode('active-game');
+    toast.success('Adventure started!');
+  };
+
   // RENDER FUNCTIONS
 
   const renderHome = () => (
@@ -275,8 +455,227 @@ const DnDPage: React.FC = () => {
           title="Campaign Guide"
           description="Learn the rules and mechanics"
           gradient="from-orange-600 to-yellow-600"
-          onClick={() => toast('Coming soon!', { icon: '📖' })}
+          onClick={() => toast('Full D&D rules reference available', { icon: '📖' })}
         />
+
+        {/* AI Teacher & Adventure Generator Section */}
+        <div className="mt-6 pt-6 border-t border-purple-500/30">
+          <h3 className="text-purple-300 text-sm font-semibold uppercase tracking-wider mb-4 px-2">AI-Powered Tools</h3>
+          <MenuCard
+            icon={GraduationCap}
+            title="AI DM Teacher"
+            description="Learn D&D with an AI teacher that guides you through rules, character building, and gameplay"
+            gradient="from-indigo-600 to-purple-600"
+            onClick={() => setViewMode('ai-dm-tutor')}
+          />
+          <div className="mt-3">
+            <MenuCard
+              icon={Compass}
+              title="Adventure Generator"
+              description="Generate custom adventure hooks based on your preferred mode and vibe"
+              gradient="from-emerald-600 to-teal-600"
+              onClick={() => setViewMode('adventure-generator')}
+            />
+          </div>
+          <div className="mt-3">
+            <MenuCard
+              icon={Brain}
+              title="AI Dungeon Master"
+              description="Play with an intelligent AI that narrates, role-plays NPCs, and adapts to your choices"
+              gradient="from-pink-600 to-rose-600"
+              onClick={() => {
+                if (characters.length === 0) {
+                  toast.error('Create a character first!');
+                  return;
+                }
+                handleCreateCampaign(true);
+              }}
+            />
+          </div>
+        </div>
+
+        {/* External Resources */}
+        <div className="mt-6 pt-6 border-t border-purple-500/30">
+          <h3 className="text-purple-300 text-sm font-semibold uppercase tracking-wider mb-4 px-2">External Tools</h3>
+          <MenuCard
+            icon={BookOpen}
+            title="D&D Beyond"
+            description="Official D&D digital toolset - characters, campaigns & more"
+            gradient="from-red-600 to-rose-700"
+            onClick={() => window.open('https://www.dndbeyond.com/', '_blank')}
+          />
+          <div className="mt-3">
+            <MenuCard
+              icon={ExternalLink}
+              title="Instant Armory"
+              description="Quick weapon & armor generator for your adventures"
+              gradient="from-emerald-600 to-teal-600"
+              onClick={() => window.open('https://trapstreetstudios.com/InstantArmory', '_blank')}
+            />
+          </div>
+          <div className="mt-3">
+            <MenuCard
+              icon={Dices}
+              title="Mighty Dice"
+              description="Online dice roller with 3D dice animations"
+              gradient="from-amber-600 to-orange-600"
+              onClick={() => window.open('https://mighty-dice.com/', '_blank')}
+            />
+          </div>
+          <div className="mt-3">
+            <MenuCard
+              icon={Wand2}
+              title="RPGen"
+              description="AI-powered RPG character & story generator"
+              gradient="from-violet-600 to-indigo-600"
+              onClick={() => window.open('https://www.rpgen.app/', '_blank')}
+            />
+          </div>
+          <div className="mt-3">
+            <MenuCard
+              icon={ScrollText}
+              title="Pocket Bard"
+              description="AI storytelling companion for your campaigns"
+              gradient="from-rose-600 to-pink-600"
+              onClick={() => window.open('https://www.pocketbard.app/', '_blank')}
+            />
+          </div>
+          <div className="mt-3">
+            <MenuCard
+              icon={User}
+              title="Portrait Works"
+              description="AI character portrait generator"
+              gradient="from-cyan-600 to-blue-600"
+              onClick={() => window.open('https://www.portrait.works/', '_blank')}
+            />
+          </div>
+          <div className="mt-3">
+            <MenuCard
+              icon={BookOpen}
+              title="D&D 5e Spells"
+              description="Complete spells database and reference"
+              gradient="from-indigo-600 to-purple-600"
+              onClick={() => window.open('https://dnd5e.wikidot.com/spells', '_blank')}
+            />
+          </div>
+          <div className="mt-3">
+            <MenuCard
+              icon={Shield}
+              title="Reroll"
+              description="Digital D&D character sheets"
+              gradient="from-green-600 to-emerald-600"
+              onClick={() => window.open('https://reroll.co/', '_blank')}
+            />
+          </div>
+          <div className="mt-3">
+            <MenuCard
+              icon={Skull}
+              title="Encounter Generator"
+              description="Random encounter generator app"
+              gradient="from-red-600 to-rose-600"
+              onClick={() => window.open('https://play.google.com/store/apps/details?id=com.blastervla.ddencountergenerator', '_blank')}
+            />
+          </div>
+          <div className="mt-3">
+            <MenuCard
+              icon={ExternalLink}
+              title="Sketchbook"
+              description="Digital drawing app for character art"
+              gradient="from-sky-600 to-cyan-600"
+              onClick={() => window.open('https://www.sketchbook.com/', '_blank')}
+            />
+          </div>
+          <div className="mt-3">
+            <MenuCard
+              icon={ExternalLink}
+              title="Dungeon Scrawl"
+              description="Free dungeon map drawing tool"
+              gradient="from-stone-600 to-slate-600"
+              onClick={() => window.open('https://www.dungeonscrawl.com/', '_blank')}
+            />
+          </div>
+          <div className="mt-3">
+            <MenuCard
+              icon={ExternalLink}
+              title="AnyDice"
+              description="Dice probability calculator"
+              gradient="from-blue-600 to-indigo-600"
+              onClick={() => window.open('https://anydice.com/', '_blank')}
+            />
+          </div>
+          <div className="mt-3">
+            <MenuCard
+              icon={ExternalLink}
+              title="Homebrewery"
+              description="Create D&D style homebrew documents"
+              gradient="from-amber-700 to-orange-700"
+              onClick={() => window.open('https://homebrewery.naturalcrit.com/', '_blank')}
+            />
+          </div>
+          <div className="mt-3">
+            <MenuCard
+              icon={ExternalLink}
+              title="Natural Crit"
+              description="D&D homebrew creation tools"
+              gradient="from-lime-600 to-green-600"
+              onClick={() => window.open('https://www.naturalcrit.com/', '_blank')}
+            />
+          </div>
+          <div className="mt-3">
+            <MenuCard
+              icon={ExternalLink}
+              title="Fantasy Name Generators"
+              description="Generate names for characters, places & more"
+              gradient="from-fuchsia-600 to-pink-600"
+              onClick={() => window.open('https://www.fantasynamegenerators.com/', '_blank')}
+            />
+          </div>
+          <div className="mt-3">
+            <MenuCard
+              icon={ExternalLink}
+              title="Inkarnate"
+              description="Professional fantasy map maker"
+              gradient="from-teal-600 to-emerald-600"
+              onClick={() => window.open('https://inkarnate.com/', '_blank')}
+            />
+          </div>
+          <div className="mt-3">
+            <MenuCard
+              icon={ExternalLink}
+              title="Obsidian"
+              description="Note-taking for campaign management"
+              gradient="from-violet-700 to-purple-800"
+              onClick={() => window.open('https://obsidian.md/', '_blank')}
+            />
+          </div>
+          <div className="mt-3">
+            <MenuCard
+              icon={ExternalLink}
+              title="Fast Character"
+              description="Quick D&D 5e character generator"
+              gradient="from-orange-500 to-amber-500"
+              onClick={() => window.open('https://fastcharacter.com/', '_blank')}
+            />
+          </div>
+          <div className="mt-3">
+            <MenuCard
+              icon={ExternalLink}
+              title="Kobold Plus Club"
+              description="Encounter builder & monster calculator"
+              gradient="from-green-600 to-emerald-700"
+              onClick={() => window.open('https://koboldplus.club/', '_blank')}
+            />
+          </div>
+          <div className="mt-3">
+            <MenuCard
+              icon={ExternalLink}
+              title="DriveThruRPG Free"
+              description="Free RPG content & supplements"
+              gradient="from-red-600 to-orange-600"
+              onClick={() => window.open('https://www.drivethrurpg.com/en/browse?priceMin=0&priceMax=0&sortBy=newest', '_blank')}
+            />
+          </div>
+        </div>
       </div>
 
       {/* Dice Animations */}
@@ -789,12 +1188,343 @@ const DnDPage: React.FC = () => {
     );
   };
 
+  const renderAIDMTutor = () => {
+    const dndTopics = [
+      { id: 'basics', title: 'D&D Basics', description: 'Learn the fundamentals of tabletop RPGs', icon: BookOpen },
+      { id: 'character-creation', title: 'Character Creation', description: 'Master the art of building memorable characters', icon: User },
+      { id: 'combat', title: 'Combat & Tactics', description: 'Understand combat mechanics and strategy', icon: Sword },
+      { id: 'roleplaying', title: 'Roleplaying Tips', description: 'Become a better roleplayer and storyteller', icon: Users },
+      { id: 'dm-skills', title: 'Dungeon Master Skills', description: 'Learn to run engaging campaigns', icon: Crown },
+      { id: 'worldbuilding', title: 'Worldbuilding', description: 'Create rich and immersive settings', icon: Castle },
+      { id: 'spellcasting', title: 'Spellcasting & Magic', description: 'Understand the magic system', icon: Wand2 },
+      { id: 'exploration', title: 'Exploration & Travel', description: 'Navigate dungeons and wilderness', icon: Compass },
+    ];
+
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-purple-900 via-gray-900 to-black pb-20">
+        <div className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white p-6 shadow-lg">
+          <button onClick={() => setViewMode('home')} className="mb-4 text-white/80 hover:text-white">
+            ← Back
+          </button>
+          <div className="flex items-center gap-4">
+            <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center">
+              <GraduationCap className="w-8 h-8" />
+            </div>
+            <div>
+              <h1 className="text-2xl font-bold">AI DM Teacher</h1>
+              <p className="text-indigo-100">Learn D&D with your AI guide</p>
+            </div>
+          </div>
+        </div>
+
+        {!aiTeacherSession ? (
+          <div className="p-6 space-y-4">
+            <h2 className="text-lg font-semibold text-purple-300 mb-4">Choose a Topic to Learn</h2>
+            <div className="grid gap-4">
+              {dndTopics.map((topic) => (
+                <motion.button
+                  key={topic.id}
+                  whileHover={{ scale: 1.02 }}
+                  whileTap={{ scale: 0.98 }}
+                  onClick={() => startAITeacherDMSession(topic.title)}
+                  disabled={isAIThinking}
+                  className="bg-gradient-to-br from-purple-900/50 to-black/50 backdrop-blur-sm rounded-xl p-5 border border-purple-500/30 text-left hover:border-purple-400 transition-all"
+                >
+                  <div className="flex items-center gap-4">
+                    <div className="w-12 h-12 bg-purple-600/30 rounded-lg flex items-center justify-center">
+                      <topic.icon className="w-6 h-6 text-purple-400" />
+                    </div>
+                    <div className="flex-1">
+                      <h3 className="font-semibold text-white">{topic.title}</h3>
+                      <p className="text-sm text-purple-300">{topic.description}</p>
+                    </div>
+                    <ChevronRight className="w-5 h-5 text-purple-400" />
+                  </div>
+                </motion.button>
+              ))}
+            </div>
+          </div>
+        ) : (
+          <div className="flex flex-col h-[calc(100vh-200px)]">
+            {/* Messages */}
+            <div className="flex-1 overflow-y-auto p-4 space-y-4">
+              {aiTeacherSession.messages.map((msg: any, idx: number) => (
+                <motion.div
+                  key={msg.id || idx}
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  className={`flex gap-3 ${msg.role === 'student' ? 'justify-end' : ''}`}
+                >
+                  {msg.role === 'teacher' && (
+                    <div className="w-10 h-10 rounded-full bg-purple-600 flex items-center justify-center flex-shrink-0">
+                      <GraduationCap className="w-5 h-5" />
+                    </div>
+                  )}
+                  <div
+                    className={`max-w-[80%] rounded-2xl px-4 py-3 ${
+                      msg.role === 'student'
+                        ? 'bg-indigo-600 text-white'
+                        : 'bg-purple-900/50 text-gray-100 border border-purple-500/30'
+                    }`}
+                  >
+                    <div className="whitespace-pre-wrap">{msg.content}</div>
+                  </div>
+                  {msg.role === 'student' && (
+                    <div className="w-10 h-10 rounded-full bg-gray-600 flex items-center justify-center flex-shrink-0">
+                      <User className="w-5 h-5" />
+                    </div>
+                  )}
+                </motion.div>
+              ))}
+              {isTeacherSpeaking && (
+                <div className="flex gap-3">
+                  <div className="w-10 h-10 rounded-full bg-purple-600 flex items-center justify-center animate-pulse">
+                    <GraduationCap className="w-5 h-5" />
+                  </div>
+                  <div className="bg-purple-900/50 rounded-2xl px-4 py-3 border border-purple-500/30">
+                    <div className="flex gap-1">
+                      {[0, 1, 2].map((i) => (
+                        <div
+                          key={i}
+                          className="w-2 h-2 bg-purple-400 rounded-full animate-bounce"
+                          style={{ animationDelay: `${i * 0.1}s` }}
+                        />
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
+
+            {/* Input */}
+            <div className="p-4 border-t border-purple-500/30 bg-black/50">
+              <div className="flex items-center gap-3">
+                <button
+                  onClick={() => setVoiceEnabled(!voiceEnabled)}
+                  className={`p-3 rounded-xl transition-colors ${
+                    voiceEnabled ? 'bg-purple-600' : 'bg-gray-700'
+                  }`}
+                >
+                  {voiceEnabled ? <Volume2 className="w-5 h-5" /> : <VolumeX className="w-5 h-5" />}
+                </button>
+                <input
+                  type="text"
+                  value={playerAction}
+                  onChange={(e) => setPlayerAction(e.target.value)}
+                  onKeyPress={(e) => {
+                    if (e.key === 'Enter' && playerAction.trim()) {
+                      sendToAITeacher(playerAction);
+                      setPlayerAction('');
+                    }
+                  }}
+                  placeholder="Ask a question or type a response..."
+                  className="flex-1 px-4 py-3 bg-gray-800 border border-gray-700 rounded-xl focus:outline-none focus:border-purple-500"
+                />
+                <button
+                  onClick={() => {
+                    if (playerAction.trim()) {
+                      sendToAITeacher(playerAction);
+                      setPlayerAction('');
+                    }
+                  }}
+                  disabled={!playerAction.trim() || isTeacherSpeaking}
+                  className="p-3 bg-purple-600 hover:bg-purple-700 disabled:bg-gray-600 rounded-xl transition-colors"
+                >
+                  <Play className="w-5 h-5" />
+                </button>
+              </div>
+              <button
+                onClick={() => {
+                  avatarTeacher.endSession(aiTeacherSession.id);
+                  setAiTeacherSession(null);
+                }}
+                className="mt-3 text-sm text-purple-400 hover:text-white"
+              >
+                End Session & Choose New Topic
+              </button>
+            </div>
+          </div>
+        )}
+      </div>
+    );
+  };
+
+  const renderAdventureGenerator = () => {
+    const vibes = [
+      { id: 'cozy', name: 'Cozy', description: 'Warm, friendly, low-stakes', color: 'from-amber-500 to-orange-500', icon: '☕' },
+      { id: 'dark', name: 'Dark', description: 'Gothic, horror, tragic', color: 'from-gray-700 to-gray-900', icon: '🌑' },
+      { id: 'epic', name: 'Epic', description: 'High stakes, heroic, legendary', color: 'from-purple-600 to-blue-600', icon: '⚔️' },
+      { id: 'mystery', name: 'Mystery', description: 'Puzzles, secrets, intrigue', color: 'from-indigo-600 to-purple-700', icon: '🔍' },
+      { id: 'slice-of-life', name: 'Slice of Life', description: 'Daily life, relationships, growth', color: 'from-green-500 to-teal-500', icon: '🌿' },
+    ];
+
+    const modes = [
+      { id: 'solo', name: 'Solo', description: 'Single player adventure', icon: User },
+      { id: 'duet', name: 'Duet', description: 'Two players', icon: Users },
+      { id: 'group', name: 'Group', description: 'Full party (3-6 players)', icon: Users },
+    ];
+
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-purple-900 via-gray-900 to-black pb-20">
+        <div className="bg-gradient-to-r from-emerald-600 to-teal-600 text-white p-6 shadow-lg">
+          <button onClick={() => setViewMode('home')} className="mb-4 text-white/80 hover:text-white">
+            ← Back
+          </button>
+          <div className="flex items-center gap-4">
+            <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center">
+              <Compass className="w-8 h-8" />
+            </div>
+            <div>
+              <h1 className="text-2xl font-bold">Adventure Generator</h1>
+              <p className="text-emerald-100">Create custom adventure hooks</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="p-6 space-y-6">
+          {/* Mode Selection */}
+          <div className="bg-gradient-to-br from-purple-900/50 to-black/50 backdrop-blur-sm rounded-xl p-6 border border-purple-500/30">
+            <h2 className="text-lg font-semibold text-purple-300 mb-4">Play Mode</h2>
+            <div className="grid grid-cols-3 gap-3">
+              {modes.map((mode) => (
+                <button
+                  key={mode.id}
+                  onClick={() => setSelectedAdventureMode(mode.id)}
+                  className={`p-4 rounded-lg text-center transition-all ${
+                    selectedAdventureMode === mode.id
+                      ? 'bg-purple-600 text-white shadow-lg shadow-purple-500/50'
+                      : 'bg-black/50 text-purple-300 border border-purple-500/30 hover:border-purple-400'
+                  }`}
+                >
+                  <mode.icon className="w-6 h-6 mx-auto mb-2" />
+                  <div className="font-medium">{mode.name}</div>
+                  <div className="text-xs opacity-80">{mode.description}</div>
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {/* Vibe Selection */}
+          <div className="bg-gradient-to-br from-purple-900/50 to-black/50 backdrop-blur-sm rounded-xl p-6 border border-purple-500/30">
+            <h2 className="text-lg font-semibold text-purple-300 mb-4">Adventure Vibe</h2>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+              {vibes.map((vibe) => (
+                <button
+                  key={vibe.id}
+                  onClick={() => setSelectedAdventureVibe(vibe.id)}
+                  className={`p-4 rounded-lg text-left transition-all ${
+                    selectedAdventureVibe === vibe.id
+                      ? `bg-gradient-to-r ${vibe.color} text-white shadow-lg`
+                      : 'bg-black/50 text-purple-300 border border-purple-500/30 hover:border-purple-400'
+                  }`}
+                >
+                  <div className="text-2xl mb-2">{vibe.icon}</div>
+                  <div className="font-medium">{vibe.name}</div>
+                  <div className="text-xs opacity-80">{vibe.description}</div>
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {/* Generate Button */}
+          <motion.button
+            whileHover={{ scale: 1.02 }}
+            whileTap={{ scale: 0.98 }}
+            onClick={handleGenerateAdventure}
+            className="w-full bg-gradient-to-r from-emerald-600 to-teal-600 text-white py-4 rounded-xl font-bold text-lg hover:shadow-2xl hover:shadow-emerald-500/30 transition-all"
+          >
+            <Sparkles className="inline w-6 h-6 mr-2" />
+            Generate Adventure Hook
+          </motion.button>
+
+          {/* Generated Adventure */}
+          {generatedAdventure && (
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="bg-gradient-to-br from-purple-900/70 to-black/70 backdrop-blur-sm rounded-xl p-6 border border-purple-400/50 shadow-lg shadow-purple-500/20"
+            >
+              <div className="flex items-center gap-3 mb-4">
+                <Castle className="w-6 h-6 text-purple-400" />
+                <h3 className="text-xl font-bold text-white">{generatedAdventure.title}</h3>
+              </div>
+
+              <div className="space-y-4">
+                <div className="flex gap-2">
+                  <span className="px-3 py-1 bg-purple-600/50 text-purple-200 text-sm rounded-full">{generatedAdventure.mode}</span>
+                  <span className="px-3 py-1 bg-pink-600/50 text-pink-200 text-sm rounded-full">{generatedAdventure.vibe}</span>
+                </div>
+
+                <div className="bg-black/30 rounded-lg p-4">
+                  <div className="text-purple-400 text-sm font-semibold mb-1">Opening Hook</div>
+                  <div className="text-white italic">{generatedAdventure.hooks?.[0]}</div>
+                </div>
+
+                <div className="grid grid-cols-2 gap-4">
+                  <div className="bg-black/30 rounded-lg p-4">
+                    <div className="text-purple-400 text-sm font-semibold mb-1">
+                      <Map className="inline w-4 h-4 mr-1" />
+                      Setting
+                    </div>
+                    <div className="text-white text-sm">{generatedAdventure.setting}</div>
+                  </div>
+                  <div className="bg-black/30 rounded-lg p-4">
+                    <div className="text-purple-400 text-sm font-semibold mb-1">
+                      <Target className="inline w-4 h-4 mr-1" />
+                      Objective
+                    </div>
+                    <div className="text-white text-sm">{generatedAdventure.objective}</div>
+                  </div>
+                </div>
+
+                <div className="bg-black/30 rounded-lg p-4">
+                  <div className="text-purple-400 text-sm font-semibold mb-2">
+                    <Users className="inline w-4 h-4 mr-1" />
+                    Notable NPCs
+                  </div>
+                  <div className="flex flex-wrap gap-2">
+                    {generatedAdventure.npcs?.map((npc, idx) => (
+                      <span key={idx} className="px-3 py-1 bg-purple-600/30 text-purple-200 text-sm rounded-lg">
+                        {npc}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="flex gap-3 pt-2">
+                  <button
+                    onClick={handleGenerateAdventure}
+                    className="flex-1 py-3 bg-gray-700 hover:bg-gray-600 rounded-lg font-semibold transition-colors"
+                  >
+                    <Dices className="inline w-5 h-5 mr-2" />
+                    Re-roll
+                  </button>
+                  <button
+                    onClick={startAdventureWithAIDM}
+                    className="flex-1 py-3 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 rounded-lg font-semibold transition-colors"
+                  >
+                    <Play className="inline w-5 h-5 mr-2" />
+                    Start Adventure
+                  </button>
+                </div>
+              </div>
+            </motion.div>
+          )}
+        </div>
+      </div>
+    );
+  };
+
   // MAIN RENDER
   switch (viewMode) {
     case 'character-creation':
       return renderCharacterCreation();
     case 'character-list':
       return renderCharacterList();
+    case 'ai-dm-tutor':
+      return renderAIDMTutor();
+    case 'adventure-generator':
+      return renderAdventureGenerator();
     case 'campaign-list':
       return renderCampaignList();
     case 'active-game':

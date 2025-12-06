@@ -324,8 +324,8 @@ export const GoogleHomeDashboard: React.FC = () => {
                   Cast Dashboard
                 </button>
                 <button
-                  onClick={() => toast.info('Photo frame mode coming soon!')}
                   className="px-4 py-2 bg-indigo-500/10 hover:bg-indigo-500/20 text-indigo-400 rounded-lg border border-indigo-500/20 transition-colors text-sm"
+                  title="Configure hub settings"
                 >
                   <Settings className="w-4 h-4" />
                 </button>

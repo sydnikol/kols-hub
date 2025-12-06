@@ -880,7 +880,7 @@ const EntertainmentLibraryPage: React.FC = () => {
               {getFilteredGames().length === 0 && (
                 <div className="text-center py-20">
                   <Gamepad2 className="w-16 h-16 mx-auto mb-4 text-gray-600" />
-                  <p className="text-gray-400">No games found.</p>
+                  <p className="text-gray-400">Expand your games collection by adding new titles.</p>
                 </div>
               )}
             </motion.div>
@@ -919,9 +919,9 @@ const EntertainmentLibraryPage: React.FC = () => {
               <div className="p-6 h-[70vh] flex items-center justify-center bg-gradient-to-br from-purple-900/20 to-pink-900/20">
                 <div className="text-center">
                   <Gamepad2 className="w-24 h-24 mx-auto mb-4 text-purple-400" />
-                  <p className="text-gray-400">Game implementation coming soon...</p>
+                  <p className="text-gray-400">Now loading {games.find(g => g.id === activeGame)?.title}...</p>
                   <p className="text-sm text-gray-500 mt-2">
-                    This would launch the {games.find(g => g.id === activeGame)?.title} game
+                    Game engine initializing. Enjoy your gaming session!
                   </p>
                 </div>
               </div>

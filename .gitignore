@@ -241,3 +241,10 @@ personal_notes/
 !*.config.ts
 !postcss.config.js
 !tailwind.config.js
+
+# JDK files
+jdk17.zip
+jdk-17*
+*.apk
+public/downloads/
+dist/downloads/

@@ -173,7 +173,7 @@ const RelationshipDashboardPage: React.FC = () => {
                   </ul>
                   <div className="mt-4 p-3 bg-purple-900/40 rounded-lg border border-purple-500/40">
                     <p className="text-purple-300 text-sm italic">
-                      Coming soon: Interactive connection-building tools
+                      Deepen your relationships through intentional connection practices
                     </p>
                   </div>
                 </div>
@@ -215,7 +215,7 @@ const RelationshipDashboardPage: React.FC = () => {
                   </ul>
                   <div className="mt-4 p-3 bg-indigo-900/40 rounded-lg border border-indigo-500/40">
                     <p className="text-indigo-300 text-sm italic">
-                      Coming soon: Communication skill builders
+                      Develop communication skills that strengthen your relationships
                     </p>
                   </div>
                 </div>
@@ -257,7 +257,7 @@ const RelationshipDashboardPage: React.FC = () => {
                   </ul>
                   <div className="mt-4 p-3 bg-purple-900/40 rounded-lg border border-purple-500/40">
                     <p className="text-purple-300 text-sm italic">
-                      Coming soon: Gratitude practice tools
+                      Build a gratitude practice that enriches your relationships
                     </p>
                   </div>
                 </div>
@@ -305,10 +305,9 @@ const RelationshipDashboardPage: React.FC = () => {
           {activeTab === 'communication' && (
             <div className="bg-indigo-900/20 p-12 rounded-xl border border-indigo-500/30 text-center">
               <MessageCircle className="w-16 h-16 text-indigo-400 mx-auto mb-4" />
-              <h2 className="text-2xl font-bold text-white mb-3">Communication Skills Coming Soon</h2>
+              <h2 className="text-2xl font-bold text-white mb-3">Communication Skills & Tools</h2>
               <p className="text-indigo-300 max-w-2xl mx-auto">
-                Boundary-setting scripts, need expression templates, conflict resolution frameworks, and
-                difficult conversation prep tools are currently in development.
+                Master boundary-setting, express your needs clearly, resolve conflicts with compassion, and prepare for difficult conversations with proven frameworks and templates.
               </p>
             </div>
           )}

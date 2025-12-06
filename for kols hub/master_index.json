@@ -1,0 +1,136 @@
+{
+  "name": "Kol Master Seed Index",
+  "project": "Daily planning schedule",
+  "version": "1.0.0",
+  "created_at": "2025-11-12T08:47:26.644445",
+  "schema_notes": {
+    "support_handbook_item": {
+      "category": "Support",
+      "sub_category": "Audience/Role (e.g., Partners, Mom)",
+      "title": "Short title of section or tip",
+      "content": "Full text",
+      "source": "Document name",
+      "tags": [
+        "labels"
+      ]
+    },
+    "script_item": {
+      "category": "Scripts",
+      "sub_category": "Scenario (e.g., Doctors Dismiss Symptoms)",
+      "tone": "Calm/Factual|Firm/Boundary|Warm/Relational",
+      "script": "Script text",
+      "source": "Script Pack name",
+      "tags": [
+        "labels"
+      ]
+    },
+    "emergency_item": {
+      "category": "Emergency",
+      "sub_category": "Card/Wallpaper/Protocol",
+      "title": "Short title",
+      "content": "Full text",
+      "source": "File name",
+      "tags": [
+        "labels"
+      ]
+    },
+    "guide_item": {
+      "category": "Guide",
+      "sub_category": "Quick-Glance/How-To",
+      "title": "Short title",
+      "content": "Full text",
+      "source": "File name",
+      "tags": [
+        "labels"
+      ]
+    },
+    "chat_index_item": {
+      "category": "ProjectChat",
+      "title": "Chat title",
+      "timestamp": "YYYYMMDDThh:mm (if known)",
+      "asks": [
+        "main asks/ideas from chat"
+      ],
+      "status": "seeded|todo|in-progress",
+      "notes": "optional",
+      "tags": [
+        "labels"
+      ]
+    },
+    "feature_item": {
+      "category": "AppFeature",
+      "module": "Module name",
+      "feature": "Feature title",
+      "detail": "Description / acceptance criteria",
+      "status": "seeded|todo|in-progress",
+      "tags": [
+        "labels"
+      ]
+    }
+  },
+  "seeds": [
+    {
+      "key": "support_handbooks",
+      "name": "support_handbooks.json",
+      "path": "/mnt/data/seeds/support_handbooks.json",
+      "description": "All role-based Support Me Handbook items.",
+      "count": 12
+    },
+    {
+      "key": "self_advocacy_scripts",
+      "name": "self_advocacy_scripts.json",
+      "path": "/mnt/data/seeds/self_advocacy_scripts.json",
+      "description": "Self-advocacy script packs across Medical/Family/Systems/Daily/Community.",
+      "count": 19
+    },
+    {
+      "key": "emergency_kits",
+      "name": "emergency_kits.json",
+      "path": "/mnt/data/seeds/emergency_kits.json",
+      "description": "Emergency wallpaper, wallet card, and support card content.",
+      "count": 3
+    },
+    {
+      "key": "partner_communication",
+      "name": "partner_communication.json",
+      "path": "/mnt/data/seeds/partner_communication.json",
+      "description": "Partner communication scripts & cadence.",
+      "count": 3
+    },
+    {
+      "key": "quick_glance",
+      "name": "quick_glance.json",
+      "path": "/mnt/data/seeds/quick_glance.json",
+      "description": "Top-10 quick-glance items by role.",
+      "count": 3
+    },
+    {
+      "key": "how_to_take_care",
+      "name": "how_to_take_care.json",
+      "path": "/mnt/data/seeds/how_to_take_care.json",
+      "description": "Care manual essentials: contacts, meds, tasks, POTS protocol, education.",
+      "count": 5
+    },
+    {
+      "key": "how_to_support",
+      "name": "how_to_support.json",
+      "path": "/mnt/data/seeds/how_to_support.json",
+      "description": "CPTSD support principles and essential do-not list.",
+      "count": 2
+    },
+    {
+      "key": "project_chats_index",
+      "name": "project_chats_index.json",
+      "path": "/mnt/data/seeds/project_chats_index.json",
+      "description": "Index of every project chat and its asks.",
+      "count": 15
+    },
+    {
+      "key": "app_feature_ideas",
+      "name": "app_feature_ideas.json",
+      "path": "/mnt/data/seeds/app_feature_ideas.json",
+      "description": "Core app modules and feature ideas consolidated.",
+      "count": 7
+    }
+  ]
+}

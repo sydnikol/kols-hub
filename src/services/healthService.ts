@@ -397,34 +397,31 @@ export const importUniversityHealthData = async (pdfData: any): Promise<{
 // PDF PARSING HELPERS
 // ==========================================
 
+// Sydney Jones - Real Vital Signs from myUHealth (Oct 17, 2025)
 const parseVitalSignsFromPDF = (pdfData: any): Omit<VitalSign, 'id'>[] => {
   const vitals: Omit<VitalSign, 'id'>[] = [];
-  
-  // Extract temperature readings
-  if (pdfData.temperature) {
-    vitals.push({
-      type: 'temperature',
-      value: 98.3,
-      unit: 'DegF',
-      method: 'Oral',
-      date: '2025-10-17',
-      referenceRange: '96.4 DegF - 99.1 DegF',
-      source: 'university_health'
-    });
-  }
 
-  // Extract blood pressure
+  // Real vital signs from Sydney Jones - myUHealth Oct 17, 2025
+  vitals.push({
+    type: 'temperature',
+    value: 98.3,
+    unit: 'DegF',
+    method: 'Oral',
+    date: '2025-10-17',
+    referenceRange: '96.4 DegF - 99.1 DegF',
+    source: 'university_health'
+  });
+
   vitals.push({
     type: 'blood_pressure',
     value: '111/74',
     unit: 'mmHg',
-    method: 'Left Upper Arm',
+    method: 'Left Upper Arm (Adult Large Cuff)',
     date: '2025-10-17',
     referenceRange: '90-139/60-89 mmHg',
     source: 'university_health'
   });
 
-  // Extract heart rate
   vitals.push({
     type: 'heart_rate',
     value: 80,
@@ -435,7 +432,6 @@ const parseVitalSignsFromPDF = (pdfData: any): Omit<VitalSign, 'id'>[] => {
     source: 'university_health'
   });
 
-  // Extract respiratory rate
   vitals.push({
     type: 'respiratory_rate',
     value: 19,
@@ -445,7 +441,6 @@ const parseVitalSignsFromPDF = (pdfData: any): Omit<VitalSign, 'id'>[] => {
     source: 'university_health'
   });
 
-  // Extract oxygen saturation
   vitals.push({
     type: 'oxygen_saturation',
     value: 98,
@@ -456,7 +451,6 @@ const parseVitalSignsFromPDF = (pdfData: any): Omit<VitalSign, 'id'>[] => {
     source: 'university_health'
   });
 
-  // Extract weight and height
   vitals.push({
     type: 'weight',
     value: 160.50,
@@ -484,10 +478,273 @@ const parseVitalSignsFromPDF = (pdfData: any): Omit<VitalSign, 'id'>[] => {
   return vitals;
 };
 
+// Sydney Jones - Real Medications from myUHealth (Nov 2025)
+export interface Medication {
+  id: string;
+  name: string;
+  genericName?: string;
+  dosage: string;
+  frequency: string;
+  route: string;
+  purpose?: string;
+  prescriber?: string;
+  startDate: string;
+  isActive: boolean;
+  isPRN: boolean;
+  instructions?: string;
+}
+
+export const SYDNEY_MEDICATIONS: Omit<Medication, 'id'>[] = [
+  {
+    name: 'Naltrexone (Low Dose)',
+    genericName: 'naltrexone compounding powder',
+    dosage: '4.5 mg',
+    frequency: 'daily',
+    route: 'oral',
+    purpose: 'Pain/Inflammation management',
+    prescriber: 'Dr. Fei A Cao',
+    startDate: '2025-11-05',
+    isActive: true,
+    isPRN: false
+  },
+  {
+    name: 'Meloxicam',
+    dosage: '15 mg',
+    frequency: 'daily',
+    route: 'oral',
+    purpose: 'Anti-inflammatory (NSAID)',
+    prescriber: 'Dr. Fei A Cao',
+    startDate: '2025-11-05',
+    isActive: true,
+    isPRN: false
+  },
+  {
+    name: 'Cyclobenzaprine',
+    dosage: '5 mg',
+    frequency: '3 times per day as needed',
+    route: 'oral',
+    purpose: 'Muscle relaxant',
+    prescriber: 'Dr. Fei A Cao',
+    startDate: '2025-11-05',
+    isActive: true,
+    isPRN: true,
+    instructions: 'AS NEEDED FOR MUSCLE PAIN'
+  },
+  {
+    name: 'Methotrexate',
+    dosage: '2.5 mg (6 tablets)',
+    frequency: 'weekly',
+    route: 'oral',
+    purpose: 'Autoimmune/Anti-inflammatory',
+    prescriber: 'Dr. Sarah Ifteqar',
+    startDate: '2025-10-20',
+    isActive: true,
+    isPRN: false
+  },
+  {
+    name: 'Sumatriptan',
+    dosage: '50 mg',
+    frequency: 'as needed',
+    route: 'oral',
+    purpose: 'Migraine headache',
+    prescriber: 'Dr. Parashar Koirala',
+    startDate: '2025-10-17',
+    isActive: true,
+    isPRN: true,
+    instructions: 'For migraine headache'
+  },
+  {
+    name: 'Emgality',
+    genericName: 'galcanezumab',
+    dosage: '120 mg',
+    frequency: 'every 4 weeks',
+    route: 'subcutaneous',
+    purpose: 'Migraine prevention',
+    prescriber: 'Dr. Parashar Koirala',
+    startDate: '2025-10-17',
+    isActive: true,
+    isPRN: false
+  },
+  {
+    name: 'Truvada',
+    genericName: 'emtricitabine/tenofovir',
+    dosage: '200-300 mg',
+    frequency: 'daily',
+    route: 'oral',
+    purpose: 'PrEP',
+    prescriber: 'Dr. Amanda Sommerville',
+    startDate: '2025-10-07',
+    isActive: true,
+    isPRN: false
+  },
+  {
+    name: 'Propranolol',
+    dosage: '20 mg',
+    frequency: 'twice per day',
+    route: 'oral',
+    purpose: 'POTS/Heart rate control',
+    startDate: '2025-08-27',
+    isActive: true,
+    isPRN: false
+  },
+  {
+    name: 'Gabapentin',
+    dosage: '300 mg (3 capsules)',
+    frequency: 'daily',
+    route: 'oral',
+    purpose: 'Nerve pain - EDS',
+    prescriber: 'Dr. Amanda Sommerville',
+    startDate: '2025-08-20',
+    isActive: true,
+    isPRN: false
+  },
+  {
+    name: 'Mirtazapine',
+    dosage: '30 mg',
+    frequency: 'daily',
+    route: 'oral',
+    purpose: 'Sleep/Mood',
+    startDate: '2025-08-11',
+    isActive: true,
+    isPRN: false
+  },
+  {
+    name: 'Concerta',
+    genericName: 'methylphenidate ER',
+    dosage: '54 mg',
+    frequency: 'every morning',
+    route: 'oral',
+    purpose: 'ADHD',
+    startDate: '2025-08-11',
+    isActive: true,
+    isPRN: false
+  },
+  {
+    name: 'Topiramate',
+    dosage: '25 mg (2 capsules)',
+    frequency: 'daily',
+    route: 'oral',
+    purpose: 'Migraine prevention',
+    startDate: '2025-08-11',
+    isActive: true,
+    isPRN: false
+  },
+  {
+    name: 'Midodrine',
+    dosage: '2.5 mg',
+    frequency: '3 times per day',
+    route: 'oral',
+    purpose: 'POTS - Blood pressure support',
+    startDate: '2025-08-11',
+    isActive: true,
+    isPRN: false
+  },
+  {
+    name: 'Famotidine',
+    dosage: '40 mg',
+    frequency: 'at bedtime as needed',
+    route: 'oral',
+    purpose: 'Dyspepsia/GERD',
+    prescriber: 'Dr. Amanda Sommerville',
+    startDate: '2025-08-11',
+    isActive: true,
+    isPRN: true,
+    instructions: 'For dyspepsia'
+  },
+  {
+    name: 'Vitamin D3',
+    genericName: 'D3-50',
+    dosage: '50,000 IU',
+    frequency: 'weekly',
+    route: 'oral',
+    purpose: 'Vitamin D supplementation',
+    prescriber: 'Dr. Amanda Sommerville',
+    startDate: '2025-08-11',
+    isActive: true,
+    isPRN: false
+  },
+  {
+    name: 'Folic Acid',
+    dosage: '1 mg',
+    frequency: 'daily',
+    route: 'oral',
+    purpose: 'With methotrexate',
+    prescriber: 'Dr. Sarah Ifteqar',
+    startDate: '2025-05-13',
+    isActive: true,
+    isPRN: false
+  },
+  {
+    name: 'Duloxetine',
+    genericName: 'Cymbalta',
+    dosage: '60 mg',
+    frequency: 'daily',
+    route: 'oral',
+    purpose: 'Pain/Mood - SNRI',
+    prescriber: 'Dr. Amanda Sommerville',
+    startDate: '2024-04-05',
+    isActive: true,
+    isPRN: false
+  },
+  {
+    name: 'Budesonide-Formoterol',
+    genericName: 'Symbicort',
+    dosage: '160-4.5 mcg',
+    frequency: 'twice per day',
+    route: 'inhalation',
+    purpose: 'Asthma maintenance',
+    prescriber: 'Dr. Amanda Sommerville',
+    startDate: '2024-09-03',
+    isActive: true,
+    isPRN: false
+  },
+  {
+    name: 'Albuterol',
+    genericName: 'ProAir HFA',
+    dosage: '90 mcg',
+    frequency: 'as needed',
+    route: 'inhalation',
+    purpose: 'Rescue inhaler',
+    prescriber: 'Dr. Amanda Sommerville',
+    startDate: '2024-09-03',
+    isActive: true,
+    isPRN: true
+  },
+  {
+    name: 'Miralax',
+    genericName: 'polyethylene glycol 3350',
+    dosage: '17 gm',
+    frequency: 'daily',
+    route: 'oral',
+    purpose: 'Constipation',
+    prescriber: 'Dr. Allison Tigner',
+    startDate: '2023-10-29',
+    isActive: true,
+    isPRN: false
+  }
+];
+
+// Medical Equipment/Aids
+export const SYDNEY_MEDICAL_EQUIPMENT = [
+  {
+    name: 'Thigh High Compression Stockings',
+    purpose: 'POTS management',
+    prescriber: 'Dr. Amanda Sommerville',
+    startDate: '2024-11-26'
+  },
+  {
+    name: 'Hinge Lateral J Knee Brace',
+    purpose: 'EDS joint support',
+    prescriber: 'Dr. Amanda Sommerville',
+    startDate: '2022-11-29'
+  }
+];
+
+// Sydney Jones - Real Lab Results from myUHealth
 const parseLabResultsFromPDF = (pdfData: any): Omit<LabResult, 'id'>[] => {
   const labs: Omit<LabResult, 'id'>[] = [];
 
-  // Chemistry Panel
+  // Chemistry Panel (Oct 06, 2025)
   labs.push(
     {
       category: 'chemistry',
@@ -571,8 +828,326 @@ const parseLabResultsFromPDF = (pdfData: any): Omit<LabResult, 'id'>[] => {
       status: 'low',
       flagged: true,
       source: 'university_health'
+    },
+    {
+      category: 'chemistry',
+      testName: 'eGFRcr',
+      value: 114,
+      unit: 'mL/min/1.73m2',
+      date: '2025-10-06',
+      referenceRange: '>= 60 mL/min/1.73m2',
+      status: 'normal',
+      source: 'university_health'
+    },
+    {
+      category: 'chemistry',
+      testName: 'Calcium',
+      value: 9.4,
+      unit: 'mg/dL',
+      date: '2025-10-06',
+      referenceRange: '8.6-10.3 mg/dL',
+      status: 'normal',
+      source: 'university_health'
+    },
+    {
+      category: 'chemistry',
+      testName: 'Cholesterol (Non-Fasting)',
+      value: 231,
+      unit: 'mg/dL',
+      date: '2025-10-06',
+      referenceRange: '0-200 mg/dL',
+      status: 'high',
+      flagged: true,
+      source: 'university_health'
+    },
+    {
+      category: 'chemistry',
+      testName: 'Triglycerides (Non-Fasting)',
+      value: 116,
+      unit: 'mg/dL',
+      date: '2025-10-06',
+      referenceRange: '10-150 mg/dL',
+      status: 'normal',
+      source: 'university_health'
+    },
+    {
+      category: 'chemistry',
+      testName: 'HDL (Non-Fasting)',
+      value: 54.0,
+      unit: 'mg/dL',
+      date: '2025-10-06',
+      referenceRange: '40.0-60.0 mg/dL',
+      status: 'normal',
+      source: 'university_health'
+    },
+    {
+      category: 'chemistry',
+      testName: 'LDL (Non-Fasting)',
+      value: 154,
+      unit: 'mg/dL',
+      date: '2025-10-06',
+      referenceRange: '65-175 mg/dL',
+      status: 'normal',
+      source: 'university_health'
+    },
+    {
+      category: 'endocrinology',
+      testName: 'Hemoglobin A1C',
+      value: 5.4,
+      unit: '%',
+      date: '2025-10-06',
+      referenceRange: '4.6-6.2 %',
+      status: 'normal',
+      source: 'university_health'
+    }
+  );
+
+  // Hematology (Aug 27, 2025)
+  labs.push(
+    {
+      category: 'hematology',
+      testName: 'WBC',
+      value: 6.80,
+      unit: '10^3/cmm',
+      date: '2025-08-27',
+      referenceRange: '4.50-11.00 10^3/cmm',
+      status: 'normal',
+      source: 'university_health'
+    },
+    {
+      category: 'hematology',
+      testName: 'RBC',
+      value: 5.18,
+      unit: '10^6/cmm',
+      date: '2025-08-27',
+      referenceRange: '4.00-5.20 10^6/cmm',
+      status: 'normal',
+      source: 'university_health'
+    },
+    {
+      category: 'hematology',
+      testName: 'Hemoglobin',
+      value: 13.9,
+      unit: 'g/dL',
+      date: '2025-08-27',
+      referenceRange: '12.0-16.0 g/dL',
+      status: 'normal',
+      source: 'university_health'
+    },
+    {
+      category: 'hematology',
+      testName: 'Hematocrit',
+      value: 44.0,
+      unit: '%',
+      date: '2025-08-27',
+      referenceRange: '36.0-46.0 %',
+      status: 'normal',
+      source: 'university_health'
+    },
+    {
+      category: 'hematology',
+      testName: 'Platelets',
+      value: 353,
+      unit: '10^3/cmm',
+      date: '2025-08-27',
+      referenceRange: '150-450 10^3/cmm',
+      status: 'normal',
+      source: 'university_health'
+    },
+    {
+      category: 'hematology',
+      testName: 'RDW',
+      value: 15.5,
+      unit: '%',
+      date: '2025-08-27',
+      referenceRange: '11.5-14.5 %',
+      status: 'high',
+      flagged: true,
+      source: 'university_health'
+    }
+  );
+
+  // Liver Function (Aug 27, 2025)
+  labs.push(
+    {
+      category: 'chemistry',
+      testName: 'Total Protein',
+      value: 7.0,
+      unit: 'g/dL',
+      date: '2025-08-27',
+      referenceRange: '6.1-8.3 g/dL',
+      status: 'normal',
+      source: 'university_health'
+    },
+    {
+      category: 'chemistry',
+      testName: 'Albumin',
+      value: 4.3,
+      unit: 'g/dL',
+      date: '2025-08-27',
+      referenceRange: '3.5-4.8 g/dL',
+      status: 'normal',
+      source: 'university_health'
+    },
+    {
+      category: 'chemistry',
+      testName: 'Bilirubin Total',
+      value: 0.2,
+      unit: 'mg/dL',
+      date: '2025-08-27',
+      referenceRange: '0.3-1.2 mg/dL',
+      status: 'low',
+      flagged: true,
+      source: 'university_health'
+    },
+    {
+      category: 'chemistry',
+      testName: 'AST',
+      value: 16,
+      unit: 'U/L',
+      date: '2025-08-27',
+      referenceRange: '15-41 U/L',
+      status: 'normal',
+      source: 'university_health'
+    },
+    {
+      category: 'chemistry',
+      testName: 'ALT',
+      value: 12,
+      unit: 'U/L',
+      date: '2025-08-27',
+      referenceRange: '14-54 U/L',
+      status: 'low',
+      flagged: true,
+      source: 'university_health'
+    },
+    {
+      category: 'chemistry',
+      testName: 'Alkaline Phosphatase',
+      value: 59,
+      unit: 'U/L',
+      date: '2025-08-27',
+      referenceRange: '35-104 U/L',
+      status: 'normal',
+      source: 'university_health'
+    }
+  );
+
+  // Thyroid (Mar 31, 2025)
+  labs.push(
+    {
+      category: 'endocrinology',
+      testName: 'TSH',
+      value: 1.46,
+      unit: 'uIU/mL',
+      date: '2025-03-31',
+      referenceRange: '0.34-5.60 uIU/mL',
+      status: 'normal',
+      source: 'university_health'
+    },
+    {
+      category: 'endocrinology',
+      testName: 'T4 Free',
+      value: 0.84,
+      unit: 'ng/dL',
+      date: '2025-03-31',
+      referenceRange: '0.60-1.60 ng/dL',
+      status: 'normal',
+      source: 'university_health'
+    }
+  );
+
+  // Vitamins
+  labs.push(
+    {
+      category: 'chemistry',
+      testName: 'Vitamin D, 25-Hydroxy',
+      value: 31.0,
+      unit: 'ng/mL',
+      date: '2024-09-24',
+      referenceRange: '30.0-100.0 ng/mL',
+      status: 'normal',
+      source: 'university_health'
+    },
+    {
+      category: 'chemistry',
+      testName: 'Vitamin B12',
+      value: 458,
+      unit: 'pg/mL',
+      date: '2024-12-17',
+      referenceRange: '180-914 pg/mL',
+      status: 'normal',
+      source: 'university_health'
+    }
+  );
+
+  // Inflammation markers
+  labs.push(
+    {
+      category: 'special',
+      testName: 'C-Reactive Protein',
+      value: 1.7,
+      unit: 'mg/L',
+      date: '2025-08-27',
+      referenceRange: '<= 10.0 mg/L',
+      status: 'normal',
+      source: 'university_health'
+    },
+    {
+      category: 'special',
+      testName: 'Sed Rate (ESR)',
+      value: 6,
+      unit: 'mm/hr',
+      date: '2025-08-27',
+      referenceRange: '0-20 mm/hr',
+      status: 'normal',
+      source: 'university_health'
     }
   );
 
   return labs;
 };
+
+// Sydney Jones - Health Conditions
+export const SYDNEY_HEALTH_CONDITIONS: Omit<HealthCondition, 'id'>[] = [
+  {
+    name: 'Ehlers-Danlos Syndrome Type 3 - Hypermobile (hEDS)',
+    diagnosisDate: '2022-07-25',
+    status: 'active',
+    severity: 'moderate',
+    notes: 'ICD-10: M35.7 - Joint hypermobility, easy bruising, slow wound healing'
+  },
+  {
+    name: 'Postural Orthostatic Tachycardia Syndrome (POTS)',
+    diagnosisDate: '2023-07-25',
+    status: 'active',
+    severity: 'moderate',
+    notes: 'ICD-10: G90.A - Managed with midodrine, propranolol, compression stockings, salt/hydration'
+  },
+  {
+    name: 'Chronic Pain Syndrome',
+    status: 'active',
+    severity: 'moderate',
+    notes: 'Secondary to EDS - Managed with gabapentin, duloxetine, LDN, meloxicam'
+  },
+  {
+    name: 'Chronic Migraine',
+    status: 'managed',
+    severity: 'moderate',
+    notes: 'Preventive: Emgality, topiramate. Rescue: sumatriptan'
+  },
+  {
+    name: 'ADHD',
+    status: 'managed',
+    notes: 'Managed with Concerta 54mg daily'
+  },
+  {
+    name: 'Asthma',
+    status: 'managed',
+    severity: 'mild',
+    notes: 'Maintenance: Symbicort. Rescue: Albuterol'
+  }
+];
+
+// Blood Type
+export const SYDNEY_BLOOD_TYPE = 'A Positive';

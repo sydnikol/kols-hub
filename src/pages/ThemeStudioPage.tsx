@@ -349,9 +349,9 @@ export const ThemeStudioPage: React.FC = () => {
               className="text-center py-12"
             >
               <Settings className="w-16 h-16 text-purple-500 mx-auto mb-4" />
-              <p className="text-purple-400 mb-4">Advanced theme customization coming soon!</p>
+              <p className="text-purple-400 mb-4">Advanced Theme Customization</p>
               <p className="text-purple-500 text-sm">
-                Fine-tune colors, typography, spacing, and effects
+                Fine-tune colors, typography, spacing, and effects to create your perfect theme. Start with one of our templates and customize every detail to match your style.
               </p>
             </motion.div>
           )}

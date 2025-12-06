@@ -1,9 +1,11 @@
 /**
  * AI Passive Income Orchestrator
  * Coordinates all passive income generation activities
+ * NOW CONNECTED TO REAL MONEY SYSTEM - Earnings flow to bank account!
  */
 
 import { db } from '../../../services/db';
+import { realMoneyConnector } from '../../../services/real-money-connector';
 
 export interface IncomeStream {
   id?: number;
@@ -155,6 +157,15 @@ export class PassiveIncomeOrchestrator {
           details: { portfolioValue, dividends }
         });
 
+        // ✨ REAL MONEY: Record dividend earnings
+        if (dividends > 0) {
+          await realMoneyConnector.recordRealEarning({
+            source: 'stock_dividends',
+            amount: dividends
+          });
+          console.log(`💰 REAL MONEY EARNED: $${dividends} from dividends`);
+        }
+
         console.log('✅ Portfolio updated. Value:', portfolioValue);
       } catch (error) {
         console.error('❌ Investment monitoring error:', error);
@@ -188,6 +199,15 @@ export class PassiveIncomeOrchestrator {
           timestamp: new Date(),
           details: { trades, stakingRewards }
         });
+
+        // ✨ REAL MONEY: Record crypto earnings
+        if (stakingRewards > 0) {
+          await realMoneyConnector.recordRealEarning({
+            source: 'crypto_trading',
+            amount: stakingRewards
+          });
+          console.log(`💰 REAL MONEY EARNED: $${stakingRewards} from crypto`);
+        }
 
         console.log('✅ Crypto portfolio updated');
       } catch (error) {
@@ -247,6 +267,15 @@ export class PassiveIncomeOrchestrator {
       timestamp: new Date(),
       details: content
     });
+
+    // ✨ REAL MONEY: Record this earning in the real money system
+    if (content.estimatedRevenue > 0) {
+      await realMoneyConnector.recordRealEarning({
+        source: 'content_monetization',
+        amount: content.estimatedRevenue
+      });
+      console.log(`💰 REAL MONEY EARNED: $${content.estimatedRevenue} from content`);
+    }
   }
 
   // Helper methods for affiliate marketing
@@ -259,6 +288,16 @@ export class PassiveIncomeOrchestrator {
 
   private async createAffiliateContent(products: any[]): Promise<void> {
     console.log('🔗 Creating affiliate content for top products');
+
+    // ✨ REAL MONEY: Record affiliate commissions
+    const totalRevenue = products.reduce((sum, p) => sum + (p.revenue || 0), 0);
+    if (totalRevenue > 0) {
+      await realMoneyConnector.recordRealEarning({
+        source: 'affiliate_commissions',
+        amount: totalRevenue
+      });
+      console.log(`💰 REAL MONEY EARNED: $${totalRevenue} from affiliates`);
+    }
   }
 
   private async optimizeLinkPlacements(): Promise<void> {

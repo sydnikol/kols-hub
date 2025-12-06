@@ -22,9 +22,83 @@
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
 
+            <!-- App Launcher -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <!-- Spotify OAuth Deep Link -->
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:scheme="kolhub"
+                    android:host="spotify"
+                    android:pathPrefix="/callback" />
+                <data
+                    android:scheme="com.kolhub.app"
+                    android:host="spotify"
+                    android:pathPrefix="/callback" />
+            </intent-filter>
+
+            <!-- SoundCloud OAuth Deep Link -->
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:scheme="kolhub"
+                    android:host="soundcloud"
+                    android:pathPrefix="/callback" />
+                <data
+                    android:scheme="com.kolhub.app"
+                    android:host="soundcloud"
+                    android:pathPrefix="/callback" />
+            </intent-filter>
+
+            <!-- YouTube OAuth Deep Link -->
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:scheme="kolhub"
+                    android:host="youtube"
+                    android:pathPrefix="/callback" />
+                <data
+                    android:scheme="com.kolhub.app"
+                    android:host="youtube"
+                    android:pathPrefix="/callback" />
+            </intent-filter>
+
+            <!-- Google OAuth Deep Link -->
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:scheme="kolhub"
+                    android:host="google"
+                    android:pathPrefix="/callback" />
+                <data
+                    android:scheme="com.kolhub.app"
+                    android:host="google"
+                    android:pathPrefix="/callback" />
+            </intent-filter>
+
+            <!-- Universal Deep Links (for web fallback) -->
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:scheme="https"
+                    android:host="kolhub.netlify.app" />
+                <data
+                    android:scheme="https"
+                    android:host="kol-personal-os.netlify.app" />
             </intent-filter>
 
         </activity>

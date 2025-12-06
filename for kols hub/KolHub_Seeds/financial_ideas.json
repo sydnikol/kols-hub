@@ -1,0 +1,1057 @@
+{
+  "module": "Financial Ideas",
+  "version": "1.0",
+  "generated_at": "2025-11-18",
+  "items": [
+    {
+      "id": "financial_ideas_001",
+      "category": "Debt Strategies",
+      "title": "Financial Ideas Idea 1",
+      "description": "Placeholder idea #1 in 'Debt Strategies'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_002",
+      "category": "Income Planning",
+      "title": "Financial Ideas Idea 2",
+      "description": "Placeholder idea #2 in 'Income Planning'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_003",
+      "category": "Saving Systems",
+      "title": "Financial Ideas Idea 3",
+      "description": "Placeholder idea #3 in 'Saving Systems'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_004",
+      "category": "Spending Rules",
+      "title": "Financial Ideas Idea 4",
+      "description": "Placeholder idea #4 in 'Spending Rules'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_005",
+      "category": "Emergency Planning",
+      "title": "Financial Ideas Idea 5",
+      "description": "Placeholder idea #5 in 'Emergency Planning'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_006",
+      "category": "Saving Systems",
+      "title": "Financial Ideas Idea 6",
+      "description": "Placeholder idea #6 in 'Saving Systems'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_007",
+      "category": "Spending Rules",
+      "title": "Financial Ideas Idea 7",
+      "description": "Placeholder idea #7 in 'Spending Rules'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_008",
+      "category": "Debt Strategies",
+      "title": "Financial Ideas Idea 8",
+      "description": "Placeholder idea #8 in 'Debt Strategies'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_009",
+      "category": "Saving Systems",
+      "title": "Financial Ideas Idea 9",
+      "description": "Placeholder idea #9 in 'Saving Systems'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_010",
+      "category": "Emergency Planning",
+      "title": "Financial Ideas Idea 10",
+      "description": "Placeholder idea #10 in 'Emergency Planning'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_011",
+      "category": "Saving Systems",
+      "title": "Financial Ideas Idea 11",
+      "description": "Placeholder idea #11 in 'Saving Systems'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_012",
+      "category": "Saving Systems",
+      "title": "Financial Ideas Idea 12",
+      "description": "Placeholder idea #12 in 'Saving Systems'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_013",
+      "category": "Debt Strategies",
+      "title": "Financial Ideas Idea 13",
+      "description": "Placeholder idea #13 in 'Debt Strategies'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_014",
+      "category": "Saving Systems",
+      "title": "Financial Ideas Idea 14",
+      "description": "Placeholder idea #14 in 'Saving Systems'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_015",
+      "category": "Emergency Planning",
+      "title": "Financial Ideas Idea 15",
+      "description": "Placeholder idea #15 in 'Emergency Planning'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_016",
+      "category": "Spending Rules",
+      "title": "Financial Ideas Idea 16",
+      "description": "Placeholder idea #16 in 'Spending Rules'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_017",
+      "category": "Income Planning",
+      "title": "Financial Ideas Idea 17",
+      "description": "Placeholder idea #17 in 'Income Planning'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_018",
+      "category": "Debt Strategies",
+      "title": "Financial Ideas Idea 18",
+      "description": "Placeholder idea #18 in 'Debt Strategies'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_019",
+      "category": "Spending Rules",
+      "title": "Financial Ideas Idea 19",
+      "description": "Placeholder idea #19 in 'Spending Rules'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_020",
+      "category": "Spending Rules",
+      "title": "Financial Ideas Idea 20",
+      "description": "Placeholder idea #20 in 'Spending Rules'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_021",
+      "category": "Budget Structures",
+      "title": "Financial Ideas Idea 21",
+      "description": "Placeholder idea #21 in 'Budget Structures'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_022",
+      "category": "Spending Rules",
+      "title": "Financial Ideas Idea 22",
+      "description": "Placeholder idea #22 in 'Spending Rules'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_023",
+      "category": "Emergency Planning",
+      "title": "Financial Ideas Idea 23",
+      "description": "Placeholder idea #23 in 'Emergency Planning'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_024",
+      "category": "Spending Rules",
+      "title": "Financial Ideas Idea 24",
+      "description": "Placeholder idea #24 in 'Spending Rules'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_025",
+      "category": "Emergency Planning",
+      "title": "Financial Ideas Idea 25",
+      "description": "Placeholder idea #25 in 'Emergency Planning'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_026",
+      "category": "Budget Structures",
+      "title": "Financial Ideas Idea 26",
+      "description": "Placeholder idea #26 in 'Budget Structures'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_027",
+      "category": "Emergency Planning",
+      "title": "Financial Ideas Idea 27",
+      "description": "Placeholder idea #27 in 'Emergency Planning'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_028",
+      "category": "Income Planning",
+      "title": "Financial Ideas Idea 28",
+      "description": "Placeholder idea #28 in 'Income Planning'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_029",
+      "category": "Income Planning",
+      "title": "Financial Ideas Idea 29",
+      "description": "Placeholder idea #29 in 'Income Planning'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_030",
+      "category": "Budget Structures",
+      "title": "Financial Ideas Idea 30",
+      "description": "Placeholder idea #30 in 'Budget Structures'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_031",
+      "category": "Income Planning",
+      "title": "Financial Ideas Idea 31",
+      "description": "Placeholder idea #31 in 'Income Planning'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_032",
+      "category": "Budget Structures",
+      "title": "Financial Ideas Idea 32",
+      "description": "Placeholder idea #32 in 'Budget Structures'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_033",
+      "category": "Budget Structures",
+      "title": "Financial Ideas Idea 33",
+      "description": "Placeholder idea #33 in 'Budget Structures'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_034",
+      "category": "Spending Rules",
+      "title": "Financial Ideas Idea 34",
+      "description": "Placeholder idea #34 in 'Spending Rules'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_035",
+      "category": "Saving Systems",
+      "title": "Financial Ideas Idea 35",
+      "description": "Placeholder idea #35 in 'Saving Systems'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_036",
+      "category": "Debt Strategies",
+      "title": "Financial Ideas Idea 36",
+      "description": "Placeholder idea #36 in 'Debt Strategies'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_037",
+      "category": "Debt Strategies",
+      "title": "Financial Ideas Idea 37",
+      "description": "Placeholder idea #37 in 'Debt Strategies'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_038",
+      "category": "Saving Systems",
+      "title": "Financial Ideas Idea 38",
+      "description": "Placeholder idea #38 in 'Saving Systems'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_039",
+      "category": "Budget Structures",
+      "title": "Financial Ideas Idea 39",
+      "description": "Placeholder idea #39 in 'Budget Structures'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_040",
+      "category": "Saving Systems",
+      "title": "Financial Ideas Idea 40",
+      "description": "Placeholder idea #40 in 'Saving Systems'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_041",
+      "category": "Emergency Planning",
+      "title": "Financial Ideas Idea 41",
+      "description": "Placeholder idea #41 in 'Emergency Planning'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_042",
+      "category": "Spending Rules",
+      "title": "Financial Ideas Idea 42",
+      "description": "Placeholder idea #42 in 'Spending Rules'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_043",
+      "category": "Budget Structures",
+      "title": "Financial Ideas Idea 43",
+      "description": "Placeholder idea #43 in 'Budget Structures'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_044",
+      "category": "Saving Systems",
+      "title": "Financial Ideas Idea 44",
+      "description": "Placeholder idea #44 in 'Saving Systems'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_045",
+      "category": "Debt Strategies",
+      "title": "Financial Ideas Idea 45",
+      "description": "Placeholder idea #45 in 'Debt Strategies'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_046",
+      "category": "Spending Rules",
+      "title": "Financial Ideas Idea 46",
+      "description": "Placeholder idea #46 in 'Spending Rules'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_047",
+      "category": "Spending Rules",
+      "title": "Financial Ideas Idea 47",
+      "description": "Placeholder idea #47 in 'Spending Rules'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_048",
+      "category": "Spending Rules",
+      "title": "Financial Ideas Idea 48",
+      "description": "Placeholder idea #48 in 'Spending Rules'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_049",
+      "category": "Emergency Planning",
+      "title": "Financial Ideas Idea 49",
+      "description": "Placeholder idea #49 in 'Emergency Planning'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_050",
+      "category": "Income Planning",
+      "title": "Financial Ideas Idea 50",
+      "description": "Placeholder idea #50 in 'Income Planning'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_051",
+      "category": "Budget Structures",
+      "title": "Financial Ideas Idea 51",
+      "description": "Placeholder idea #51 in 'Budget Structures'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_052",
+      "category": "Income Planning",
+      "title": "Financial Ideas Idea 52",
+      "description": "Placeholder idea #52 in 'Income Planning'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_053",
+      "category": "Saving Systems",
+      "title": "Financial Ideas Idea 53",
+      "description": "Placeholder idea #53 in 'Saving Systems'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_054",
+      "category": "Emergency Planning",
+      "title": "Financial Ideas Idea 54",
+      "description": "Placeholder idea #54 in 'Emergency Planning'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_055",
+      "category": "Income Planning",
+      "title": "Financial Ideas Idea 55",
+      "description": "Placeholder idea #55 in 'Income Planning'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_056",
+      "category": "Debt Strategies",
+      "title": "Financial Ideas Idea 56",
+      "description": "Placeholder idea #56 in 'Debt Strategies'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_057",
+      "category": "Emergency Planning",
+      "title": "Financial Ideas Idea 57",
+      "description": "Placeholder idea #57 in 'Emergency Planning'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_058",
+      "category": "Saving Systems",
+      "title": "Financial Ideas Idea 58",
+      "description": "Placeholder idea #58 in 'Saving Systems'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_059",
+      "category": "Income Planning",
+      "title": "Financial Ideas Idea 59",
+      "description": "Placeholder idea #59 in 'Income Planning'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_060",
+      "category": "Spending Rules",
+      "title": "Financial Ideas Idea 60",
+      "description": "Placeholder idea #60 in 'Spending Rules'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_061",
+      "category": "Debt Strategies",
+      "title": "Financial Ideas Idea 61",
+      "description": "Placeholder idea #61 in 'Debt Strategies'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_062",
+      "category": "Saving Systems",
+      "title": "Financial Ideas Idea 62",
+      "description": "Placeholder idea #62 in 'Saving Systems'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_063",
+      "category": "Spending Rules",
+      "title": "Financial Ideas Idea 63",
+      "description": "Placeholder idea #63 in 'Spending Rules'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_064",
+      "category": "Spending Rules",
+      "title": "Financial Ideas Idea 64",
+      "description": "Placeholder idea #64 in 'Spending Rules'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_065",
+      "category": "Emergency Planning",
+      "title": "Financial Ideas Idea 65",
+      "description": "Placeholder idea #65 in 'Emergency Planning'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_066",
+      "category": "Saving Systems",
+      "title": "Financial Ideas Idea 66",
+      "description": "Placeholder idea #66 in 'Saving Systems'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_067",
+      "category": "Income Planning",
+      "title": "Financial Ideas Idea 67",
+      "description": "Placeholder idea #67 in 'Income Planning'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_068",
+      "category": "Debt Strategies",
+      "title": "Financial Ideas Idea 68",
+      "description": "Placeholder idea #68 in 'Debt Strategies'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_069",
+      "category": "Income Planning",
+      "title": "Financial Ideas Idea 69",
+      "description": "Placeholder idea #69 in 'Income Planning'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_070",
+      "category": "Debt Strategies",
+      "title": "Financial Ideas Idea 70",
+      "description": "Placeholder idea #70 in 'Debt Strategies'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_071",
+      "category": "Saving Systems",
+      "title": "Financial Ideas Idea 71",
+      "description": "Placeholder idea #71 in 'Saving Systems'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_072",
+      "category": "Budget Structures",
+      "title": "Financial Ideas Idea 72",
+      "description": "Placeholder idea #72 in 'Budget Structures'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_073",
+      "category": "Income Planning",
+      "title": "Financial Ideas Idea 73",
+      "description": "Placeholder idea #73 in 'Income Planning'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_074",
+      "category": "Debt Strategies",
+      "title": "Financial Ideas Idea 74",
+      "description": "Placeholder idea #74 in 'Debt Strategies'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_075",
+      "category": "Spending Rules",
+      "title": "Financial Ideas Idea 75",
+      "description": "Placeholder idea #75 in 'Spending Rules'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_076",
+      "category": "Saving Systems",
+      "title": "Financial Ideas Idea 76",
+      "description": "Placeholder idea #76 in 'Saving Systems'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_077",
+      "category": "Debt Strategies",
+      "title": "Financial Ideas Idea 77",
+      "description": "Placeholder idea #77 in 'Debt Strategies'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_078",
+      "category": "Emergency Planning",
+      "title": "Financial Ideas Idea 78",
+      "description": "Placeholder idea #78 in 'Emergency Planning'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_079",
+      "category": "Emergency Planning",
+      "title": "Financial Ideas Idea 79",
+      "description": "Placeholder idea #79 in 'Emergency Planning'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_080",
+      "category": "Budget Structures",
+      "title": "Financial Ideas Idea 80",
+      "description": "Placeholder idea #80 in 'Budget Structures'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_081",
+      "category": "Budget Structures",
+      "title": "Financial Ideas Idea 81",
+      "description": "Placeholder idea #81 in 'Budget Structures'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_082",
+      "category": "Emergency Planning",
+      "title": "Financial Ideas Idea 82",
+      "description": "Placeholder idea #82 in 'Emergency Planning'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_083",
+      "category": "Debt Strategies",
+      "title": "Financial Ideas Idea 83",
+      "description": "Placeholder idea #83 in 'Debt Strategies'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_084",
+      "category": "Emergency Planning",
+      "title": "Financial Ideas Idea 84",
+      "description": "Placeholder idea #84 in 'Emergency Planning'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_085",
+      "category": "Income Planning",
+      "title": "Financial Ideas Idea 85",
+      "description": "Placeholder idea #85 in 'Income Planning'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_086",
+      "category": "Debt Strategies",
+      "title": "Financial Ideas Idea 86",
+      "description": "Placeholder idea #86 in 'Debt Strategies'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_087",
+      "category": "Debt Strategies",
+      "title": "Financial Ideas Idea 87",
+      "description": "Placeholder idea #87 in 'Debt Strategies'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_088",
+      "category": "Debt Strategies",
+      "title": "Financial Ideas Idea 88",
+      "description": "Placeholder idea #88 in 'Debt Strategies'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_089",
+      "category": "Saving Systems",
+      "title": "Financial Ideas Idea 89",
+      "description": "Placeholder idea #89 in 'Saving Systems'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_090",
+      "category": "Spending Rules",
+      "title": "Financial Ideas Idea 90",
+      "description": "Placeholder idea #90 in 'Spending Rules'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_091",
+      "category": "Income Planning",
+      "title": "Financial Ideas Idea 91",
+      "description": "Placeholder idea #91 in 'Income Planning'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_092",
+      "category": "Saving Systems",
+      "title": "Financial Ideas Idea 92",
+      "description": "Placeholder idea #92 in 'Saving Systems'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_093",
+      "category": "Debt Strategies",
+      "title": "Financial Ideas Idea 93",
+      "description": "Placeholder idea #93 in 'Debt Strategies'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_094",
+      "category": "Debt Strategies",
+      "title": "Financial Ideas Idea 94",
+      "description": "Placeholder idea #94 in 'Debt Strategies'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_095",
+      "category": "Saving Systems",
+      "title": "Financial Ideas Idea 95",
+      "description": "Placeholder idea #95 in 'Saving Systems'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_096",
+      "category": "Budget Structures",
+      "title": "Financial Ideas Idea 96",
+      "description": "Placeholder idea #96 in 'Budget Structures'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_097",
+      "category": "Budget Structures",
+      "title": "Financial Ideas Idea 97",
+      "description": "Placeholder idea #97 in 'Budget Structures'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_098",
+      "category": "Budget Structures",
+      "title": "Financial Ideas Idea 98",
+      "description": "Placeholder idea #98 in 'Budget Structures'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_099",
+      "category": "Spending Rules",
+      "title": "Financial Ideas Idea 99",
+      "description": "Placeholder idea #99 in 'Spending Rules'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_100",
+      "category": "Income Planning",
+      "title": "Financial Ideas Idea 100",
+      "description": "Placeholder idea #100 in 'Income Planning'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_101",
+      "category": "Income Planning",
+      "title": "Financial Ideas Idea 101",
+      "description": "Placeholder idea #101 in 'Income Planning'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_102",
+      "category": "Saving Systems",
+      "title": "Financial Ideas Idea 102",
+      "description": "Placeholder idea #102 in 'Saving Systems'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_103",
+      "category": "Debt Strategies",
+      "title": "Financial Ideas Idea 103",
+      "description": "Placeholder idea #103 in 'Debt Strategies'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_104",
+      "category": "Income Planning",
+      "title": "Financial Ideas Idea 104",
+      "description": "Placeholder idea #104 in 'Income Planning'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_105",
+      "category": "Emergency Planning",
+      "title": "Financial Ideas Idea 105",
+      "description": "Placeholder idea #105 in 'Emergency Planning'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_106",
+      "category": "Budget Structures",
+      "title": "Financial Ideas Idea 106",
+      "description": "Placeholder idea #106 in 'Budget Structures'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_107",
+      "category": "Emergency Planning",
+      "title": "Financial Ideas Idea 107",
+      "description": "Placeholder idea #107 in 'Emergency Planning'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_108",
+      "category": "Emergency Planning",
+      "title": "Financial Ideas Idea 108",
+      "description": "Placeholder idea #108 in 'Emergency Planning'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_109",
+      "category": "Income Planning",
+      "title": "Financial Ideas Idea 109",
+      "description": "Placeholder idea #109 in 'Income Planning'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_110",
+      "category": "Spending Rules",
+      "title": "Financial Ideas Idea 110",
+      "description": "Placeholder idea #110 in 'Spending Rules'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_111",
+      "category": "Saving Systems",
+      "title": "Financial Ideas Idea 111",
+      "description": "Placeholder idea #111 in 'Saving Systems'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_112",
+      "category": "Debt Strategies",
+      "title": "Financial Ideas Idea 112",
+      "description": "Placeholder idea #112 in 'Debt Strategies'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_113",
+      "category": "Spending Rules",
+      "title": "Financial Ideas Idea 113",
+      "description": "Placeholder idea #113 in 'Spending Rules'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_114",
+      "category": "Emergency Planning",
+      "title": "Financial Ideas Idea 114",
+      "description": "Placeholder idea #114 in 'Emergency Planning'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_115",
+      "category": "Saving Systems",
+      "title": "Financial Ideas Idea 115",
+      "description": "Placeholder idea #115 in 'Saving Systems'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_116",
+      "category": "Budget Structures",
+      "title": "Financial Ideas Idea 116",
+      "description": "Placeholder idea #116 in 'Budget Structures'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_117",
+      "category": "Emergency Planning",
+      "title": "Financial Ideas Idea 117",
+      "description": "Placeholder idea #117 in 'Emergency Planning'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_118",
+      "category": "Debt Strategies",
+      "title": "Financial Ideas Idea 118",
+      "description": "Placeholder idea #118 in 'Debt Strategies'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_119",
+      "category": "Income Planning",
+      "title": "Financial Ideas Idea 119",
+      "description": "Placeholder idea #119 in 'Income Planning'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_120",
+      "category": "Debt Strategies",
+      "title": "Financial Ideas Idea 120",
+      "description": "Placeholder idea #120 in 'Debt Strategies'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_121",
+      "category": "Spending Rules",
+      "title": "Financial Ideas Idea 121",
+      "description": "Placeholder idea #121 in 'Spending Rules'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_122",
+      "category": "Saving Systems",
+      "title": "Financial Ideas Idea 122",
+      "description": "Placeholder idea #122 in 'Saving Systems'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_123",
+      "category": "Saving Systems",
+      "title": "Financial Ideas Idea 123",
+      "description": "Placeholder idea #123 in 'Saving Systems'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_124",
+      "category": "Income Planning",
+      "title": "Financial Ideas Idea 124",
+      "description": "Placeholder idea #124 in 'Income Planning'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_125",
+      "category": "Income Planning",
+      "title": "Financial Ideas Idea 125",
+      "description": "Placeholder idea #125 in 'Income Planning'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_126",
+      "category": "Spending Rules",
+      "title": "Financial Ideas Idea 126",
+      "description": "Placeholder idea #126 in 'Spending Rules'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_127",
+      "category": "Debt Strategies",
+      "title": "Financial Ideas Idea 127",
+      "description": "Placeholder idea #127 in 'Debt Strategies'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_128",
+      "category": "Budget Structures",
+      "title": "Financial Ideas Idea 128",
+      "description": "Placeholder idea #128 in 'Budget Structures'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_129",
+      "category": "Debt Strategies",
+      "title": "Financial Ideas Idea 129",
+      "description": "Placeholder idea #129 in 'Debt Strategies'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_130",
+      "category": "Debt Strategies",
+      "title": "Financial Ideas Idea 130",
+      "description": "Placeholder idea #130 in 'Debt Strategies'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_131",
+      "category": "Budget Structures",
+      "title": "Financial Ideas Idea 131",
+      "description": "Placeholder idea #131 in 'Budget Structures'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_132",
+      "category": "Emergency Planning",
+      "title": "Financial Ideas Idea 132",
+      "description": "Placeholder idea #132 in 'Emergency Planning'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_133",
+      "category": "Income Planning",
+      "title": "Financial Ideas Idea 133",
+      "description": "Placeholder idea #133 in 'Income Planning'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_134",
+      "category": "Budget Structures",
+      "title": "Financial Ideas Idea 134",
+      "description": "Placeholder idea #134 in 'Budget Structures'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_135",
+      "category": "Emergency Planning",
+      "title": "Financial Ideas Idea 135",
+      "description": "Placeholder idea #135 in 'Emergency Planning'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_136",
+      "category": "Debt Strategies",
+      "title": "Financial Ideas Idea 136",
+      "description": "Placeholder idea #136 in 'Debt Strategies'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_137",
+      "category": "Debt Strategies",
+      "title": "Financial Ideas Idea 137",
+      "description": "Placeholder idea #137 in 'Debt Strategies'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_138",
+      "category": "Saving Systems",
+      "title": "Financial Ideas Idea 138",
+      "description": "Placeholder idea #138 in 'Saving Systems'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_139",
+      "category": "Budget Structures",
+      "title": "Financial Ideas Idea 139",
+      "description": "Placeholder idea #139 in 'Budget Structures'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_140",
+      "category": "Debt Strategies",
+      "title": "Financial Ideas Idea 140",
+      "description": "Placeholder idea #140 in 'Debt Strategies'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_141",
+      "category": "Debt Strategies",
+      "title": "Financial Ideas Idea 141",
+      "description": "Placeholder idea #141 in 'Debt Strategies'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_142",
+      "category": "Income Planning",
+      "title": "Financial Ideas Idea 142",
+      "description": "Placeholder idea #142 in 'Income Planning'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_143",
+      "category": "Spending Rules",
+      "title": "Financial Ideas Idea 143",
+      "description": "Placeholder idea #143 in 'Spending Rules'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_144",
+      "category": "Income Planning",
+      "title": "Financial Ideas Idea 144",
+      "description": "Placeholder idea #144 in 'Income Planning'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_145",
+      "category": "Emergency Planning",
+      "title": "Financial Ideas Idea 145",
+      "description": "Placeholder idea #145 in 'Emergency Planning'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "financial_ideas_146",
+      "category": "Debt Strategies",
+      "title": "Financial Ideas Idea 146",
+      "description": "Placeholder idea #146 in 'Debt Strategies'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_147",
+      "category": "Emergency Planning",
+      "title": "Financial Ideas Idea 147",
+      "description": "Placeholder idea #147 in 'Emergency Planning'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "financial_ideas_148",
+      "category": "Income Planning",
+      "title": "Financial Ideas Idea 148",
+      "description": "Placeholder idea #148 in 'Income Planning'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_149",
+      "category": "Budget Structures",
+      "title": "Financial Ideas Idea 149",
+      "description": "Placeholder idea #149 in 'Budget Structures'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "financial_ideas_150",
+      "category": "Spending Rules",
+      "title": "Financial Ideas Idea 150",
+      "description": "Placeholder idea #150 in 'Spending Rules'.",
+      "energy_level": "low"
+    }
+  ]
+}

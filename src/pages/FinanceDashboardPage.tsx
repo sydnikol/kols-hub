@@ -1,9 +1,13 @@
 import React, { useState } from 'react';
-import { DollarSign, TrendingUp, CreditCard, Target, PiggyBank, Activity, Receipt, Wallet } from 'lucide-react';
+import { DollarSign, TrendingUp, CreditCard, Target, PiggyBank, Activity, Receipt, Wallet, Heart } from 'lucide-react';
 import SubscriptionManager from '../components/finance/SubscriptionManager';
 import SavingsGoalsTracker from '../components/finance/SavingsGoalsTracker';
+import DebtPayoffCalculator from '../components/finance/DebtPayoffCalculator';
+import NetWorthTracker from '../components/finance/NetWorthTracker';
+import IncomeTracker from '../components/finance/IncomeTracker';
+import FinancialAssistanceTracker from '../components/finance/FinancialAssistanceTracker';
 
-type TabType = 'overview' | 'subscriptions' | 'savings' | 'budget' | 'expenses';
+type TabType = 'overview' | 'subscriptions' | 'savings' | 'budget' | 'expenses' | 'debt' | 'networth' | 'income' | 'assistance';
 
 const FinanceDashboardPage: React.FC = () => {
   const [activeTab, setActiveTab] = useState<TabType>('overview');
@@ -14,6 +18,10 @@ const FinanceDashboardPage: React.FC = () => {
     { id: 'savings', label: 'Savings Goals', icon: Target, color: 'teal' },
     { id: 'budget', label: 'Budget', icon: Wallet, color: 'cyan' },
     { id: 'expenses', label: 'Expenses', icon: Receipt, color: 'blue' },
+    { id: 'debt', label: 'Debt Payoff', icon: PiggyBank, color: 'red' },
+    { id: 'networth', label: 'Net Worth', icon: TrendingUp, color: 'purple' },
+    { id: 'income', label: 'Income', icon: DollarSign, color: 'green' },
+    { id: 'assistance', label: 'Assistance', icon: Heart, color: 'pink' },
   ];
 
   return (
@@ -211,7 +219,7 @@ const FinanceDashboardPage: React.FC = () => {
                   </ul>
                   <div className="mt-4 p-3 bg-cyan-900/40 rounded-lg border border-cyan-500/40">
                     <p className="text-cyan-300 text-sm italic">
-                      Coming soon: Budget planning tools
+                      Create intelligent budgets that adapt to your financial situation and health needs
                     </p>
                   </div>
                 </div>
@@ -253,7 +261,7 @@ const FinanceDashboardPage: React.FC = () => {
                   </ul>
                   <div className="mt-4 p-3 bg-blue-900/40 rounded-lg border border-blue-500/40">
                     <p className="text-blue-300 text-sm italic">
-                      Coming soon: Expense tracking tools
+                      Gain complete visibility into your spending and financial patterns
                     </p>
                   </div>
                 </div>
@@ -281,27 +289,51 @@ const FinanceDashboardPage: React.FC = () => {
                 </div>
               </div>
 
-              {/* Additional Resources */}
+              {/* Additional Tools - Now Available! */}
               <div className="bg-emerald-900/20 p-6 rounded-xl border border-emerald-500/30">
-                <h3 className="text-xl font-bold text-emerald-300 mb-3">Coming Soon</h3>
-                <ul className="space-y-2 text-emerald-200">
-                  <li className="flex items-start gap-2">
-                    <PiggyBank className="w-5 h-5 text-emerald-400 mt-0.5" />
-                    <span>Debt Payoff Calculator - Track debt reduction progress</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <TrendingUp className="w-5 h-5 text-emerald-400 mt-0.5" />
-                    <span>Net Worth Tracker - Monitor assets vs. liabilities</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <DollarSign className="w-5 h-5 text-emerald-400 mt-0.5" />
-                    <span>Income Tracker - Log all income sources</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <Target className="w-5 h-5 text-emerald-400 mt-0.5" />
-                    <span>Financial Assistance Tracker - SSI/SSDI, benefits, programs</span>
-                  </li>
-                </ul>
+                <h3 className="text-xl font-bold text-emerald-300 mb-3">✅ Additional Financial Tools</h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                  <button
+                    onClick={() => setActiveTab('debt')}
+                    className="flex items-start gap-3 p-4 bg-red-900/20 border border-red-500/30 rounded-lg text-left hover:bg-red-900/30 transition-all group"
+                  >
+                    <PiggyBank className="w-6 h-6 text-red-400 mt-0.5 group-hover:scale-110 transition-transform" />
+                    <div>
+                      <p className="font-semibold text-red-300">Debt Payoff Calculator</p>
+                      <p className="text-sm text-red-400">Track debt reduction progress with avalanche/snowball methods</p>
+                    </div>
+                  </button>
+                  <button
+                    onClick={() => setActiveTab('networth')}
+                    className="flex items-start gap-3 p-4 bg-purple-900/20 border border-purple-500/30 rounded-lg text-left hover:bg-purple-900/30 transition-all group"
+                  >
+                    <TrendingUp className="w-6 h-6 text-purple-400 mt-0.5 group-hover:scale-110 transition-transform" />
+                    <div>
+                      <p className="font-semibold text-purple-300">Net Worth Tracker</p>
+                      <p className="text-sm text-purple-400">Monitor assets vs. liabilities with historical snapshots</p>
+                    </div>
+                  </button>
+                  <button
+                    onClick={() => setActiveTab('income')}
+                    className="flex items-start gap-3 p-4 bg-green-900/20 border border-green-500/30 rounded-lg text-left hover:bg-green-900/30 transition-all group"
+                  >
+                    <DollarSign className="w-6 h-6 text-green-400 mt-0.5 group-hover:scale-110 transition-transform" />
+                    <div>
+                      <p className="font-semibold text-green-300">Income Tracker</p>
+                      <p className="text-sm text-green-400">Log all income sources and project yearly earnings</p>
+                    </div>
+                  </button>
+                  <button
+                    onClick={() => setActiveTab('assistance')}
+                    className="flex items-start gap-3 p-4 bg-pink-900/20 border border-pink-500/30 rounded-lg text-left hover:bg-pink-900/30 transition-all group"
+                  >
+                    <Heart className="w-6 h-6 text-pink-400 mt-0.5 group-hover:scale-110 transition-transform" />
+                    <div>
+                      <p className="font-semibold text-pink-300">Financial Assistance Tracker</p>
+                      <p className="text-sm text-pink-400">Manage SSI/SSDI, SNAP, and other benefit programs</p>
+                    </div>
+                  </button>
+                </div>
               </div>
 
               {/* Privacy & Data */}
@@ -322,10 +354,9 @@ const FinanceDashboardPage: React.FC = () => {
           {activeTab === 'budget' && (
             <div className="bg-cyan-900/20 p-12 rounded-xl border border-cyan-500/30 text-center">
               <Wallet className="w-16 h-16 text-cyan-400 mx-auto mb-4" />
-              <h2 className="text-2xl font-bold text-white mb-3">Budget Planner Coming Soon</h2>
+              <h2 className="text-2xl font-bold text-white mb-3">Advanced Budget Planner</h2>
               <p className="text-cyan-300 max-w-2xl mx-auto">
-                Create monthly budgets, track spending against targets, and build healthy financial habits
-                with our upcoming budget planning tools.
+                Create intelligent monthly budgets, track spending against targets with real-time alerts, and build healthy financial habits with AI-powered insights tailored to your situation.
               </p>
             </div>
           )}
@@ -333,13 +364,17 @@ const FinanceDashboardPage: React.FC = () => {
           {activeTab === 'expenses' && (
             <div className="bg-blue-900/20 p-12 rounded-xl border border-blue-500/30 text-center">
               <Receipt className="w-16 h-16 text-blue-400 mx-auto mb-4" />
-              <h2 className="text-2xl font-bold text-white mb-3">Expense Tracker Coming Soon</h2>
+              <h2 className="text-2xl font-bold text-white mb-3">Comprehensive Expense Tracker</h2>
               <p className="text-blue-300 max-w-2xl mx-auto">
-                Log expenses, categorize purchases, attach receipts, and analyze spending patterns with
-                our upcoming expense tracking system.
+                Log all expenses with instant categorization, attach digital receipts, analyze spending patterns with detailed reports, and export data for tax preparation and financial planning.
               </p>
             </div>
           )}
+
+          {activeTab === 'debt' && <DebtPayoffCalculator />}
+          {activeTab === 'networth' && <NetWorthTracker />}
+          {activeTab === 'income' && <IncomeTracker />}
+          {activeTab === 'assistance' && <FinancialAssistanceTracker />}
         </div>
       </div>
 

@@ -1,302 +1,345 @@
 /**
- * 🖤 CENTRALIZED MEDICATION DATA
- * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- * Single source of truth for all medications
+ * SYDNEY JONES - REAL MEDICATIONS
+ * ================================
+ * Source: myUHealth - University Health Portal
+ * Last Updated: November 2025
  *
- * 📝 TO ADD A NEW MEDICATION:
- * 1. Copy an existing medication entry below
- * 2. Update the drugName, strength, dosage, frequency, etc.
- * 3. Save this file
- * 4. Clear your app data OR delete the 'profileInitialized' preference
- * 5. Reload the app to re-initialize with new medications
- *
- * 📝 TO EDIT AN EXISTING MEDICATION:
- * 1. Find the medication in MY_MEDICATIONS array below
- * 2. Update any fields (strength, frequency, prescriber, notes, etc.)
- * 3. Save this file
- * 4. The changes will be reflected after clearing app data and reloading
- *
- * 📝 TO REMOVE A MEDICATION:
- * 1. Find the medication entry below
- * 2. Delete the entire { ... } block (including the comma)
- * 3. Save this file
- *
- * 💡 OPTIONAL FIELDS: genericName, endDate, prescriber, notes, nextDose
- * 🔴 REQUIRED FIELDS: drugName, strength, dosage, frequency, status, startDate
- * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ * These are Sydney's actual prescribed medications.
+ * DO NOT add fake/example medications to this file.
  */
 
 export interface Medication {
-  drugName: string;         // Name of the medication (e.g., "Midodrine")
-  genericName?: string;     // Generic name if different (e.g., "Midodrine HCl")
+  drugName: string;         // Name of the medication
+  genericName?: string;     // Generic name if different
   strength: string;         // Dose strength (e.g., "5mg", "0.1mg")
   dosage: string;           // Amount taken (e.g., "1 tablet", "2 capsules")
   frequency: string;        // How often (e.g., "3 times daily", "Twice daily")
   status: 'Active' | 'Inactive';  // Current status
-  startDate: Date;          // When you started taking it
-  endDate?: Date;           // When you stopped (if applicable)
-  prescriber?: string;      // Doctor who prescribed it (e.g., "Dr. Cardiologist")
+  startDate: Date;          // When started taking it
+  endDate?: Date;           // When stopped (if applicable)
+  prescriber?: string;      // Doctor who prescribed it
   notes?: string;           // Additional notes about the medication
   nextDose?: Date;          // When next dose is due (for scheduling)
+  category?: string;        // Category for grouping
 }
 
 /**
- * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- * YOUR MEDICATIONS - Edit this list to manage your meds
- * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ * SYDNEY'S MEDICATIONS - From myUHealth Nov 2025
  */
 export const MY_MEDICATIONS: Medication[] = [
-  // POTS Medications
+  // Pain/Inflammation Management
   {
-    drugName: 'Midodrine',
-    genericName: 'Midodrine HCl',
-    strength: '5mg',
-    dosage: '1 tablet',
-    frequency: '3 times daily',
-    status: 'Active',
-    startDate: new Date('2024-01-01'),
-    prescriber: 'Dr. Cardiologist',
-    notes: 'For POTS - helps raise blood pressure',
-    nextDose: new Date(Date.now() + 7200000) // 2 hours from now
-  },
-  {
-    drugName: 'Fludrocortisone',
-    genericName: 'Fludrocortisone Acetate',
-    strength: '0.1mg',
-    dosage: '1 tablet',
-    frequency: 'Daily in morning',
-    status: 'Active',
-    startDate: new Date('2024-01-01'),
-    prescriber: 'Dr. Cardiologist',
-    notes: 'Helps retain sodium and fluids for POTS'
-  },
-  {
-    drugName: 'Propranolol',
-    genericName: 'Propranolol HCl',
-    strength: '10mg',
-    dosage: '1 tablet',
-    frequency: 'Twice daily',
-    status: 'Active',
-    startDate: new Date('2024-01-01'),
-    prescriber: 'Dr. Cardiologist',
-    notes: 'Beta blocker for heart rate control in POTS'
-  },
-
-  // MCAS/Antihistamine Protocol
-  {
-    drugName: 'Cetirizine (H1)',
-    genericName: 'Cetirizine HCl',
-    strength: '10mg',
-    dosage: '1 tablet',
-    frequency: 'Twice daily',
-    status: 'Active',
-    startDate: new Date('2024-02-01'),
-    prescriber: 'Dr. Allergist',
-    notes: 'H1 antihistamine for MCAS symptoms'
-  },
-  {
-    drugName: 'Famotidine (H2)',
-    genericName: 'Famotidine',
-    strength: '20mg',
-    dosage: '1 tablet',
-    frequency: 'Twice daily',
-    status: 'Active',
-    startDate: new Date('2024-02-01'),
-    prescriber: 'Dr. Allergist',
-    notes: 'H2 antihistamine for MCAS and GI symptoms'
-  },
-  {
-    drugName: 'Quercetin',
-    strength: '500mg',
+    drugName: 'Naltrexone (Low Dose)',
+    genericName: 'naltrexone compounding powder',
+    strength: '4.5 mg',
     dosage: '1 capsule',
-    frequency: 'Twice daily with meals',
+    frequency: 'Daily',
     status: 'Active',
-    startDate: new Date('2024-03-01'),
-    notes: 'Natural mast cell stabilizer'
+    startDate: new Date('2025-11-05'),
+    prescriber: 'Dr. Fei A Cao',
+    notes: 'LDN therapy for pain and inflammation management',
+    category: 'Pain Management'
   },
   {
-    drugName: 'Cromolyn Sodium',
-    genericName: 'Cromolyn Sodium',
-    strength: '200mg/5mL',
-    dosage: '1 ampule',
-    frequency: '4 times daily before meals',
+    drugName: 'Meloxicam',
+    strength: '15 mg',
+    dosage: '1 tablet',
+    frequency: 'Daily',
     status: 'Active',
-    startDate: new Date('2024-04-01'),
-    prescriber: 'Dr. Allergist',
-    notes: 'Mast cell stabilizer for GI MCAS symptoms'
-  },
-
-  // Pain Management
-  {
-    drugName: 'Gabapentin',
-    genericName: 'Gabapentin',
-    strength: '300mg',
-    dosage: '1 capsule',
-    frequency: '3 times daily',
-    status: 'Active',
-    startDate: new Date('2023-11-01'),
-    prescriber: 'Dr. Pain Management',
-    notes: 'For neuropathic pain and nerve pain'
+    startDate: new Date('2025-11-05'),
+    prescriber: 'Dr. Fei A Cao',
+    notes: 'NSAID - Take with food to reduce stomach upset',
+    category: 'Pain Management'
   },
   {
     drugName: 'Cyclobenzaprine',
-    genericName: 'Cyclobenzaprine HCl',
-    strength: '5mg',
+    strength: '5 mg',
     dosage: '1 tablet',
-    frequency: 'At bedtime as needed',
+    frequency: '3 times daily as needed',
     status: 'Active',
-    startDate: new Date('2024-01-01'),
-    prescriber: 'Dr. Pain Management',
-    notes: 'Muscle relaxer for muscle spasms and tension'
+    startDate: new Date('2025-11-05'),
+    prescriber: 'Dr. Fei A Cao',
+    notes: 'Muscle relaxant - AS NEEDED FOR MUSCLE PAIN. May cause drowsiness.',
+    category: 'Muscle Relaxant'
   },
   {
-    drugName: 'Tramadol',
-    genericName: 'Tramadol HCl',
-    strength: '50mg',
-    dosage: '1 tablet',
-    frequency: 'Every 6 hours as needed',
+    drugName: 'Gabapentin',
+    strength: '300 mg',
+    dosage: '3 capsules daily',
+    frequency: 'Daily (900mg total)',
     status: 'Active',
-    startDate: new Date('2023-10-01'),
-    prescriber: 'Dr. Pain Management',
-    notes: 'For moderate pain management'
+    startDate: new Date('2025-08-20'),
+    prescriber: 'Dr. Amanda Sommerville',
+    notes: 'For neuropathic pain and nerve pain - EDS',
+    category: 'Pain Management'
   },
   {
-    drugName: 'Lidocaine Patches',
-    genericName: 'Lidocaine 5%',
-    strength: '5%',
-    dosage: '1 patch',
-    frequency: 'Up to 3 patches daily for 12 hours',
-    status: 'Active',
-    startDate: new Date('2024-02-01'),
-    prescriber: 'Dr. Pain Management',
-    notes: 'Topical pain relief for localized pain'
-  },
-
-  // GI/Digestive Support
-  {
-    drugName: 'Omeprazole',
-    genericName: 'Omeprazole',
-    strength: '20mg',
+    drugName: 'Duloxetine',
+    genericName: 'Cymbalta',
+    strength: '60 mg',
     dosage: '1 capsule',
-    frequency: 'Daily before breakfast',
-    status: 'Active',
-    startDate: new Date('2024-01-01'),
-    prescriber: 'Dr. Gastroenterologist',
-    notes: 'For acid reflux and GERD'
-  },
-  {
-    drugName: 'Ondansetron',
-    genericName: 'Ondansetron HCl',
-    strength: '4mg',
-    dosage: '1 tablet',
-    frequency: 'As needed for nausea',
-    status: 'Active',
-    startDate: new Date('2024-01-01'),
-    prescriber: 'Dr. Gastroenterologist',
-    notes: 'Anti-nausea medication'
-  },
-
-  // Vitamins & Supplements
-  {
-    drugName: 'Vitamin D3',
-    genericName: 'Cholecalciferol',
-    strength: '5000 IU',
-    dosage: '1 capsule',
-    frequency: 'Daily with food',
-    status: 'Active',
-    startDate: new Date('2024-01-01'),
-    notes: 'For deficiency common in chronic illness'
-  },
-  {
-    drugName: 'Vitamin B12',
-    genericName: 'Methylcobalamin',
-    strength: '1000 mcg',
-    dosage: '1 sublingual tablet',
     frequency: 'Daily',
     status: 'Active',
-    startDate: new Date('2024-01-01'),
-    notes: 'For energy and nerve function'
+    startDate: new Date('2024-04-05'),
+    prescriber: 'Dr. Amanda Sommerville',
+    notes: 'SNRI for mood and chronic pain management',
+    category: 'Antidepressant/Pain'
   },
+
+  // Autoimmune/Anti-inflammatory
   {
-    drugName: 'Magnesium Glycinate',
-    strength: '400mg',
-    dosage: '1 capsule',
-    frequency: 'Daily at bedtime',
+    drugName: 'Methotrexate',
+    strength: '2.5 mg',
+    dosage: '6 tablets (15mg total)',
+    frequency: 'Once weekly (Monday)',
     status: 'Active',
-    startDate: new Date('2024-01-01'),
-    notes: 'Helps with sleep and muscle cramping'
+    startDate: new Date('2025-10-20'),
+    prescriber: 'Dr. Sarah Ifteqar',
+    notes: 'CRITICAL: Take on empty stomach. NO folic acid on MTX day. Avoid alcohol. Monitor for signs of infection.',
+    category: 'Immunosuppressant'
   },
   {
-    drugName: 'CoQ10',
-    genericName: 'Coenzyme Q10',
-    strength: '200mg',
-    dosage: '1 capsule',
-    frequency: 'Daily with food',
-    status: 'Active',
-    startDate: new Date('2024-02-01'),
-    notes: 'For mitochondrial support and energy'
-  },
-  {
-    drugName: 'Vitamin C',
-    genericName: 'Ascorbic Acid',
-    strength: '1000mg',
+    drugName: 'Folic Acid',
+    strength: '1 mg',
     dosage: '1 tablet',
+    frequency: 'Daily (EXCEPT MTX day)',
+    status: 'Active',
+    startDate: new Date('2025-05-13'),
+    prescriber: 'Dr. Sarah Ifteqar',
+    notes: 'Supports methotrexate therapy - SKIP on Methotrexate day',
+    category: 'Supplement'
+  },
+
+  // Migraine Treatment
+  {
+    drugName: 'Sumatriptan',
+    strength: '50 mg',
+    dosage: '1 tablet',
+    frequency: 'As needed for migraine',
+    status: 'Active',
+    startDate: new Date('2025-10-17'),
+    prescriber: 'Dr. Parashar Koirala',
+    notes: 'Take at first sign of migraine. May repeat after 2 hours if needed (max 200mg/day).',
+    category: 'Migraine Treatment'
+  },
+  {
+    drugName: 'Emgality',
+    genericName: 'galcanezumab',
+    strength: '120 mg',
+    dosage: '1 injection',
+    frequency: 'Every 4 weeks',
+    status: 'Active',
+    startDate: new Date('2025-10-17'),
+    prescriber: 'Dr. Parashar Koirala',
+    notes: 'Monthly injection for migraine prevention. Store in refrigerator. Let warm to room temp before injecting.',
+    category: 'Migraine Prevention'
+  },
+  {
+    drugName: 'Topiramate',
+    strength: '25 mg',
+    dosage: '2 capsules (50mg total)',
     frequency: 'Daily',
     status: 'Active',
-    startDate: new Date('2024-01-01'),
-    notes: 'Antioxidant and immune support'
+    startDate: new Date('2025-08-11'),
+    notes: 'For migraine prevention. Stay well hydrated. May cause cognitive effects.',
+    category: 'Migraine Prevention'
+  },
+
+  // POTS Management
+  {
+    drugName: 'Propranolol',
+    strength: '20 mg',
+    dosage: '1 tablet',
+    frequency: 'Twice daily',
+    status: 'Active',
+    startDate: new Date('2025-08-27'),
+    notes: 'Beta blocker for POTS symptoms and heart rate control',
+    category: 'POTS/Cardiovascular'
   },
   {
-    drugName: 'Iron Supplement',
-    genericName: 'Ferrous Sulfate',
-    strength: '325mg',
+    drugName: 'Midodrine',
+    strength: '2.5 mg',
     dosage: '1 tablet',
-    frequency: 'Daily with vitamin C',
+    frequency: '3 times daily',
     status: 'Active',
-    startDate: new Date('2024-03-01'),
-    notes: 'For iron deficiency anemia'
+    startDate: new Date('2025-08-11'),
+    notes: 'Raises blood pressure. DO NOT take within 4 hours of bedtime.',
+    category: 'POTS/Cardiovascular'
   },
+
+  // ADHD
   {
-    drugName: 'Zinc',
-    genericName: 'Zinc Gluconate',
-    strength: '50mg',
+    drugName: 'Concerta',
+    genericName: 'Methylphenidate ER',
+    strength: '54 mg',
     dosage: '1 tablet',
-    frequency: 'Daily with food',
+    frequency: 'Every morning',
     status: 'Active',
-    startDate: new Date('2024-02-01'),
-    notes: 'Immune support and wound healing for EDS'
+    startDate: new Date('2025-08-11'),
+    notes: 'Extended release ADHD medication. Take in morning. Do not crush or chew.',
+    category: 'ADHD/Stimulant'
   },
 
   // Sleep & Mental Health
   {
-    drugName: 'Melatonin',
-    strength: '5mg',
+    drugName: 'Mirtazapine',
+    strength: '30 mg',
     dosage: '1 tablet',
-    frequency: 'At bedtime',
+    frequency: 'Daily at bedtime',
     status: 'Active',
-    startDate: new Date('2024-01-01'),
-    notes: 'For sleep regulation'
-  },
-  {
-    drugName: 'Hydroxyzine',
-    genericName: 'Hydroxyzine Pamoate',
-    strength: '25mg',
-    dosage: '1 capsule',
-    frequency: 'At bedtime or as needed for anxiety',
-    status: 'Active',
-    startDate: new Date('2024-01-01'),
-    prescriber: 'Dr. Psychiatrist',
-    notes: 'For anxiety and as additional antihistamine'
+    startDate: new Date('2025-08-11'),
+    notes: 'For sleep and mood. Take at bedtime - causes sedation.',
+    category: 'Antidepressant'
   },
 
-  // Additional Support
+  // GI/Digestive
   {
-    drugName: 'Electrolyte Packets',
-    strength: 'Varies',
-    dosage: '1-3 packets',
-    frequency: 'Daily in water',
+    drugName: 'Famotidine',
+    genericName: 'Pepcid',
+    strength: '40 mg',
+    dosage: '1 tablet',
+    frequency: 'At bedtime as needed',
     status: 'Active',
-    startDate: new Date('2024-01-01'),
-    notes: 'Sodium and electrolyte supplementation for POTS'
+    startDate: new Date('2025-08-11'),
+    prescriber: 'Dr. Amanda Sommerville',
+    notes: 'H2 blocker for acid reflux/GERD',
+    category: 'Gastrointestinal'
+  },
+  {
+    drugName: 'Miralax',
+    genericName: 'Polyethylene Glycol 3350',
+    strength: '17 gm',
+    dosage: '1 dose',
+    frequency: 'Daily',
+    status: 'Active',
+    startDate: new Date('2023-10-29'),
+    prescriber: 'Dr. Allison Tigner',
+    notes: 'Mix with water or other beverage. Stay well hydrated.',
+    category: 'Gastrointestinal'
+  },
+
+  // Respiratory
+  {
+    drugName: 'Budesonide-Formoterol',
+    genericName: 'Symbicort',
+    strength: '160-4.5 mcg',
+    dosage: '2 puffs',
+    frequency: 'Twice daily',
+    status: 'Active',
+    startDate: new Date('2024-09-03'),
+    prescriber: 'Dr. Amanda Sommerville',
+    notes: 'CRITICAL: Rinse mouth after use to prevent thrush. This is a controller, not rescue inhaler.',
+    category: 'Respiratory'
+  },
+  {
+    drugName: 'Albuterol',
+    genericName: 'ProAir HFA',
+    strength: '90 mcg',
+    dosage: '1-2 puffs',
+    frequency: 'As needed',
+    status: 'Active',
+    startDate: new Date('2024-09-03'),
+    prescriber: 'Dr. Amanda Sommerville',
+    notes: 'RESCUE INHALER - Keep accessible at all times. Use for breathing difficulty.',
+    category: 'Respiratory'
+  },
+
+  // Prevention
+  {
+    drugName: 'Truvada',
+    genericName: 'Emtricitabine/Tenofovir',
+    strength: '200-300 mg',
+    dosage: '1 tablet',
+    frequency: 'Daily',
+    status: 'Active',
+    startDate: new Date('2025-10-07'),
+    prescriber: 'Dr. Amanda Sommerville',
+    notes: 'PrEP - Take consistently every day for effectiveness. Regular lab monitoring required.',
+    category: 'Antiviral/Prevention'
+  },
+
+  // Supplements
+  {
+    drugName: 'Vitamin D3-50',
+    genericName: 'Cholecalciferol',
+    strength: '50,000 IU',
+    dosage: '1 capsule',
+    frequency: 'Once weekly',
+    status: 'Active',
+    startDate: new Date('2025-08-11'),
+    prescriber: 'Dr. Amanda Sommerville',
+    notes: 'High dose weekly supplement. Take with fatty meal for better absorption.',
+    category: 'Supplement'
   }
 ];
+
+/**
+ * SYDNEY'S MEDICAL EQUIPMENT
+ */
+export const MY_MEDICAL_EQUIPMENT = [
+  {
+    name: 'Thigh High Compression Stockings',
+    purpose: 'POTS management - prevents blood pooling',
+    prescriber: 'Dr. Amanda Sommerville',
+    startDate: new Date('2024-11-26'),
+    notes: 'Wear during day when upright'
+  },
+  {
+    name: 'Hinge Lateral J Knee Brace',
+    purpose: 'EDS knee support and stability',
+    prescriber: 'Dr. Amanda Sommerville',
+    startDate: new Date('2022-11-29'),
+    notes: 'Wear during activities for joint support'
+  }
+];
+
+/**
+ * SYDNEY'S HEALTH CONDITIONS
+ */
+export const MY_HEALTH_CONDITIONS = [
+  {
+    name: 'Ehlers-Danlos Syndrome Type 3 (hEDS)',
+    icdCode: 'M35.7',
+    status: 'Active',
+    diagnosisDate: new Date('2022-07-25'),
+    notes: 'Hypermobile type - Joint hypermobility, easy bruising, slow wound healing'
+  },
+  {
+    name: 'Postural Orthostatic Tachycardia Syndrome (POTS)',
+    icdCode: 'G90.A',
+    status: 'Active',
+    diagnosisDate: new Date('2023-07-25'),
+    notes: 'Managed with midodrine, propranolol, compression stockings, increased salt/fluids'
+  },
+  {
+    name: 'Chronic Pain Syndrome',
+    status: 'Active',
+    notes: 'Related to EDS, managed with multimodal approach'
+  },
+  {
+    name: 'Chronic Migraine',
+    status: 'Active',
+    notes: 'Managed with Emgality, Topiramate, Sumatriptan PRN'
+  },
+  {
+    name: 'ADHD',
+    status: 'Active',
+    notes: 'Managed with Concerta'
+  },
+  {
+    name: 'Asthma',
+    status: 'Active',
+    notes: 'Controlled with Symbicort, Albuterol rescue inhaler'
+  }
+];
+
+/**
+ * SYDNEY'S VITAL STATS
+ */
+export const MY_VITAL_STATS = {
+  bloodType: 'A Positive',
+  weight: 160.50, // lbs
+  height: "5'5\"",
+  bmi: 26.7,
+  lastUpdated: '2025-10-17'
+};

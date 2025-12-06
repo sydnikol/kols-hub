@@ -1,0 +1,46 @@
+{
+  "module": "Emergency Cards",
+  "version": "1.0",
+  "generated_at": "2025-11-18",
+  "templates": [
+    {
+      "id": "wallet_card",
+      "type": "Wallet Card",
+      "fields": [
+        "name",
+        "conditions",
+        "meds",
+        "allergies",
+        "emergency_contacts",
+        "instructions_if_unresponsive"
+      ],
+      "notes": "Compact version for wallet."
+    },
+    {
+      "id": "phone_wallpaper",
+      "type": "Phone Wallpaper",
+      "fields": [
+        "name",
+        "conditions",
+        "top_3_instructions",
+        "primary_contact",
+        "secondary_contact"
+      ],
+      "notes": "Lock-screen readable design."
+    },
+    {
+      "id": "full_support_card",
+      "type": "Full Support Card",
+      "fields": [
+        "name",
+        "conditions",
+        "medications",
+        "allergies",
+        "what_helps",
+        "what_makes_worse",
+        "contacts"
+      ],
+      "notes": "Detailed version for care team."
+    }
+  ]
+}

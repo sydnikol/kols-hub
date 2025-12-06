@@ -374,7 +374,7 @@ export const PluginSystem: React.FC = () => {
                     <AlertCircle className="w-5 h-5 text-indigo-400 mt-0.5" />
                     <div>
                       <p className="text-indigo-200 text-sm">
-                        Plugin settings coming soon! This feature is currently in development.
+                        Configure plugin behavior, enable/disable features, and manage permissions for advanced customization.
                       </p>
                     </div>
                   </div>

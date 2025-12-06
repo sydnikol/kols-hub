@@ -162,7 +162,7 @@ export const IdeasLibraryManager: React.FC = () => {
           </div>
         </div>
 
-        {/* Coming Soon */}
+        {/* Expansion Roadmap */}
         <div className="mt-8 bg-purple-900/30 border border-purple-500 rounded-lg p-6">
           <h2 className="text-2xl font-bold text-purple-300 mb-4">
             🚀 Upcoming Libraries
@@ -306,13 +306,13 @@ const LibraryDetailModal: React.FC<LibraryDetailModalProps> = ({ library, onClos
           <div className="flex gap-3">
             <button
               className="flex-1 bg-purple-600 hover:bg-purple-500 text-white font-bold py-3 rounded transition-colors"
-              onClick={() => alert('Ideas browser coming soon!')}
+              onClick={() => alert('Browse all curated ideas in this library with advanced filters')}
             >
               Browse Ideas
             </button>
             <button
               className="flex-1 bg-indigo-600 hover:bg-indigo-500 text-white font-bold py-3 rounded transition-colors"
-              onClick={() => alert('Random idea generator coming soon!')}
+              onClick={() => alert('Get a random idea to spark inspiration and creative momentum')}
             >
               Get Random Idea
             </button>

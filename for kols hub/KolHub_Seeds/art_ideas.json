@@ -1,0 +1,1407 @@
+{
+  "module": "Art Ideas",
+  "version": "1.0",
+  "generated_at": "2025-11-18",
+  "items": [
+    {
+      "id": "art_ideas_001",
+      "category": "Digital Art",
+      "title": "Art Ideas Idea 1",
+      "description": "Placeholder idea #1 in 'Digital Art'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_002",
+      "category": "Photography",
+      "title": "Art Ideas Idea 2",
+      "description": "Placeholder idea #2 in 'Photography'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_003",
+      "category": "Design",
+      "title": "Art Ideas Idea 3",
+      "description": "Placeholder idea #3 in 'Design'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_004",
+      "category": "Painting",
+      "title": "Art Ideas Idea 4",
+      "description": "Placeholder idea #4 in 'Painting'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_005",
+      "category": "Digital Art",
+      "title": "Art Ideas Idea 5",
+      "description": "Placeholder idea #5 in 'Digital Art'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_006",
+      "category": "Worldbuilding",
+      "title": "Art Ideas Idea 6",
+      "description": "Placeholder idea #6 in 'Worldbuilding'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_007",
+      "category": "Design",
+      "title": "Art Ideas Idea 7",
+      "description": "Placeholder idea #7 in 'Design'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_008",
+      "category": "Photography",
+      "title": "Art Ideas Idea 8",
+      "description": "Placeholder idea #8 in 'Photography'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_009",
+      "category": "Painting",
+      "title": "Art Ideas Idea 9",
+      "description": "Placeholder idea #9 in 'Painting'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_010",
+      "category": "Worldbuilding",
+      "title": "Art Ideas Idea 10",
+      "description": "Placeholder idea #10 in 'Worldbuilding'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_011",
+      "category": "Character Design",
+      "title": "Art Ideas Idea 11",
+      "description": "Placeholder idea #11 in 'Character Design'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_012",
+      "category": "Design",
+      "title": "Art Ideas Idea 12",
+      "description": "Placeholder idea #12 in 'Design'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_013",
+      "category": "Design",
+      "title": "Art Ideas Idea 13",
+      "description": "Placeholder idea #13 in 'Design'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_014",
+      "category": "Digital Art",
+      "title": "Art Ideas Idea 14",
+      "description": "Placeholder idea #14 in 'Digital Art'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_015",
+      "category": "Digital Art",
+      "title": "Art Ideas Idea 15",
+      "description": "Placeholder idea #15 in 'Digital Art'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_016",
+      "category": "Painting",
+      "title": "Art Ideas Idea 16",
+      "description": "Placeholder idea #16 in 'Painting'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_017",
+      "category": "Worldbuilding",
+      "title": "Art Ideas Idea 17",
+      "description": "Placeholder idea #17 in 'Worldbuilding'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_018",
+      "category": "Worldbuilding",
+      "title": "Art Ideas Idea 18",
+      "description": "Placeholder idea #18 in 'Worldbuilding'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_019",
+      "category": "Mixed Media",
+      "title": "Art Ideas Idea 19",
+      "description": "Placeholder idea #19 in 'Mixed Media'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_020",
+      "category": "Character Design",
+      "title": "Art Ideas Idea 20",
+      "description": "Placeholder idea #20 in 'Character Design'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_021",
+      "category": "Worldbuilding",
+      "title": "Art Ideas Idea 21",
+      "description": "Placeholder idea #21 in 'Worldbuilding'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_022",
+      "category": "Design",
+      "title": "Art Ideas Idea 22",
+      "description": "Placeholder idea #22 in 'Design'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_023",
+      "category": "Painting",
+      "title": "Art Ideas Idea 23",
+      "description": "Placeholder idea #23 in 'Painting'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_024",
+      "category": "Character Design",
+      "title": "Art Ideas Idea 24",
+      "description": "Placeholder idea #24 in 'Character Design'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_025",
+      "category": "Character Design",
+      "title": "Art Ideas Idea 25",
+      "description": "Placeholder idea #25 in 'Character Design'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_026",
+      "category": "Painting",
+      "title": "Art Ideas Idea 26",
+      "description": "Placeholder idea #26 in 'Painting'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_027",
+      "category": "Design",
+      "title": "Art Ideas Idea 27",
+      "description": "Placeholder idea #27 in 'Design'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_028",
+      "category": "Drawing",
+      "title": "Art Ideas Idea 28",
+      "description": "Placeholder idea #28 in 'Drawing'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_029",
+      "category": "Drawing",
+      "title": "Art Ideas Idea 29",
+      "description": "Placeholder idea #29 in 'Drawing'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_030",
+      "category": "Character Design",
+      "title": "Art Ideas Idea 30",
+      "description": "Placeholder idea #30 in 'Character Design'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_031",
+      "category": "Character Design",
+      "title": "Art Ideas Idea 31",
+      "description": "Placeholder idea #31 in 'Character Design'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_032",
+      "category": "Photography",
+      "title": "Art Ideas Idea 32",
+      "description": "Placeholder idea #32 in 'Photography'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_033",
+      "category": "Digital Art",
+      "title": "Art Ideas Idea 33",
+      "description": "Placeholder idea #33 in 'Digital Art'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_034",
+      "category": "Character Design",
+      "title": "Art Ideas Idea 34",
+      "description": "Placeholder idea #34 in 'Character Design'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_035",
+      "category": "Digital Art",
+      "title": "Art Ideas Idea 35",
+      "description": "Placeholder idea #35 in 'Digital Art'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_036",
+      "category": "Drawing",
+      "title": "Art Ideas Idea 36",
+      "description": "Placeholder idea #36 in 'Drawing'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_037",
+      "category": "Photography",
+      "title": "Art Ideas Idea 37",
+      "description": "Placeholder idea #37 in 'Photography'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_038",
+      "category": "Mixed Media",
+      "title": "Art Ideas Idea 38",
+      "description": "Placeholder idea #38 in 'Mixed Media'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_039",
+      "category": "Drawing",
+      "title": "Art Ideas Idea 39",
+      "description": "Placeholder idea #39 in 'Drawing'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_040",
+      "category": "Worldbuilding",
+      "title": "Art Ideas Idea 40",
+      "description": "Placeholder idea #40 in 'Worldbuilding'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_041",
+      "category": "Design",
+      "title": "Art Ideas Idea 41",
+      "description": "Placeholder idea #41 in 'Design'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_042",
+      "category": "Digital Art",
+      "title": "Art Ideas Idea 42",
+      "description": "Placeholder idea #42 in 'Digital Art'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_043",
+      "category": "Photography",
+      "title": "Art Ideas Idea 43",
+      "description": "Placeholder idea #43 in 'Photography'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_044",
+      "category": "Worldbuilding",
+      "title": "Art Ideas Idea 44",
+      "description": "Placeholder idea #44 in 'Worldbuilding'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_045",
+      "category": "Mixed Media",
+      "title": "Art Ideas Idea 45",
+      "description": "Placeholder idea #45 in 'Mixed Media'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_046",
+      "category": "Worldbuilding",
+      "title": "Art Ideas Idea 46",
+      "description": "Placeholder idea #46 in 'Worldbuilding'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_047",
+      "category": "Character Design",
+      "title": "Art Ideas Idea 47",
+      "description": "Placeholder idea #47 in 'Character Design'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_048",
+      "category": "Painting",
+      "title": "Art Ideas Idea 48",
+      "description": "Placeholder idea #48 in 'Painting'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_049",
+      "category": "Worldbuilding",
+      "title": "Art Ideas Idea 49",
+      "description": "Placeholder idea #49 in 'Worldbuilding'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_050",
+      "category": "Mixed Media",
+      "title": "Art Ideas Idea 50",
+      "description": "Placeholder idea #50 in 'Mixed Media'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_051",
+      "category": "Worldbuilding",
+      "title": "Art Ideas Idea 51",
+      "description": "Placeholder idea #51 in 'Worldbuilding'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_052",
+      "category": "Photography",
+      "title": "Art Ideas Idea 52",
+      "description": "Placeholder idea #52 in 'Photography'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_053",
+      "category": "Drawing",
+      "title": "Art Ideas Idea 53",
+      "description": "Placeholder idea #53 in 'Drawing'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_054",
+      "category": "Photography",
+      "title": "Art Ideas Idea 54",
+      "description": "Placeholder idea #54 in 'Photography'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_055",
+      "category": "Digital Art",
+      "title": "Art Ideas Idea 55",
+      "description": "Placeholder idea #55 in 'Digital Art'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_056",
+      "category": "Character Design",
+      "title": "Art Ideas Idea 56",
+      "description": "Placeholder idea #56 in 'Character Design'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_057",
+      "category": "Digital Art",
+      "title": "Art Ideas Idea 57",
+      "description": "Placeholder idea #57 in 'Digital Art'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_058",
+      "category": "Painting",
+      "title": "Art Ideas Idea 58",
+      "description": "Placeholder idea #58 in 'Painting'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_059",
+      "category": "Painting",
+      "title": "Art Ideas Idea 59",
+      "description": "Placeholder idea #59 in 'Painting'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_060",
+      "category": "Painting",
+      "title": "Art Ideas Idea 60",
+      "description": "Placeholder idea #60 in 'Painting'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_061",
+      "category": "Mixed Media",
+      "title": "Art Ideas Idea 61",
+      "description": "Placeholder idea #61 in 'Mixed Media'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_062",
+      "category": "Painting",
+      "title": "Art Ideas Idea 62",
+      "description": "Placeholder idea #62 in 'Painting'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_063",
+      "category": "Worldbuilding",
+      "title": "Art Ideas Idea 63",
+      "description": "Placeholder idea #63 in 'Worldbuilding'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_064",
+      "category": "Mixed Media",
+      "title": "Art Ideas Idea 64",
+      "description": "Placeholder idea #64 in 'Mixed Media'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_065",
+      "category": "Character Design",
+      "title": "Art Ideas Idea 65",
+      "description": "Placeholder idea #65 in 'Character Design'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_066",
+      "category": "Painting",
+      "title": "Art Ideas Idea 66",
+      "description": "Placeholder idea #66 in 'Painting'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_067",
+      "category": "Mixed Media",
+      "title": "Art Ideas Idea 67",
+      "description": "Placeholder idea #67 in 'Mixed Media'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_068",
+      "category": "Character Design",
+      "title": "Art Ideas Idea 68",
+      "description": "Placeholder idea #68 in 'Character Design'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_069",
+      "category": "Character Design",
+      "title": "Art Ideas Idea 69",
+      "description": "Placeholder idea #69 in 'Character Design'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_070",
+      "category": "Photography",
+      "title": "Art Ideas Idea 70",
+      "description": "Placeholder idea #70 in 'Photography'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_071",
+      "category": "Mixed Media",
+      "title": "Art Ideas Idea 71",
+      "description": "Placeholder idea #71 in 'Mixed Media'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_072",
+      "category": "Photography",
+      "title": "Art Ideas Idea 72",
+      "description": "Placeholder idea #72 in 'Photography'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_073",
+      "category": "Drawing",
+      "title": "Art Ideas Idea 73",
+      "description": "Placeholder idea #73 in 'Drawing'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_074",
+      "category": "Painting",
+      "title": "Art Ideas Idea 74",
+      "description": "Placeholder idea #74 in 'Painting'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_075",
+      "category": "Character Design",
+      "title": "Art Ideas Idea 75",
+      "description": "Placeholder idea #75 in 'Character Design'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_076",
+      "category": "Mixed Media",
+      "title": "Art Ideas Idea 76",
+      "description": "Placeholder idea #76 in 'Mixed Media'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_077",
+      "category": "Photography",
+      "title": "Art Ideas Idea 77",
+      "description": "Placeholder idea #77 in 'Photography'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_078",
+      "category": "Mixed Media",
+      "title": "Art Ideas Idea 78",
+      "description": "Placeholder idea #78 in 'Mixed Media'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_079",
+      "category": "Mixed Media",
+      "title": "Art Ideas Idea 79",
+      "description": "Placeholder idea #79 in 'Mixed Media'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_080",
+      "category": "Worldbuilding",
+      "title": "Art Ideas Idea 80",
+      "description": "Placeholder idea #80 in 'Worldbuilding'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_081",
+      "category": "Painting",
+      "title": "Art Ideas Idea 81",
+      "description": "Placeholder idea #81 in 'Painting'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_082",
+      "category": "Drawing",
+      "title": "Art Ideas Idea 82",
+      "description": "Placeholder idea #82 in 'Drawing'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_083",
+      "category": "Character Design",
+      "title": "Art Ideas Idea 83",
+      "description": "Placeholder idea #83 in 'Character Design'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_084",
+      "category": "Painting",
+      "title": "Art Ideas Idea 84",
+      "description": "Placeholder idea #84 in 'Painting'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_085",
+      "category": "Painting",
+      "title": "Art Ideas Idea 85",
+      "description": "Placeholder idea #85 in 'Painting'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_086",
+      "category": "Drawing",
+      "title": "Art Ideas Idea 86",
+      "description": "Placeholder idea #86 in 'Drawing'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_087",
+      "category": "Worldbuilding",
+      "title": "Art Ideas Idea 87",
+      "description": "Placeholder idea #87 in 'Worldbuilding'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_088",
+      "category": "Worldbuilding",
+      "title": "Art Ideas Idea 88",
+      "description": "Placeholder idea #88 in 'Worldbuilding'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_089",
+      "category": "Worldbuilding",
+      "title": "Art Ideas Idea 89",
+      "description": "Placeholder idea #89 in 'Worldbuilding'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_090",
+      "category": "Photography",
+      "title": "Art Ideas Idea 90",
+      "description": "Placeholder idea #90 in 'Photography'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_091",
+      "category": "Design",
+      "title": "Art Ideas Idea 91",
+      "description": "Placeholder idea #91 in 'Design'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_092",
+      "category": "Character Design",
+      "title": "Art Ideas Idea 92",
+      "description": "Placeholder idea #92 in 'Character Design'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_093",
+      "category": "Photography",
+      "title": "Art Ideas Idea 93",
+      "description": "Placeholder idea #93 in 'Photography'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_094",
+      "category": "Worldbuilding",
+      "title": "Art Ideas Idea 94",
+      "description": "Placeholder idea #94 in 'Worldbuilding'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_095",
+      "category": "Painting",
+      "title": "Art Ideas Idea 95",
+      "description": "Placeholder idea #95 in 'Painting'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_096",
+      "category": "Mixed Media",
+      "title": "Art Ideas Idea 96",
+      "description": "Placeholder idea #96 in 'Mixed Media'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_097",
+      "category": "Painting",
+      "title": "Art Ideas Idea 97",
+      "description": "Placeholder idea #97 in 'Painting'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_098",
+      "category": "Painting",
+      "title": "Art Ideas Idea 98",
+      "description": "Placeholder idea #98 in 'Painting'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_099",
+      "category": "Painting",
+      "title": "Art Ideas Idea 99",
+      "description": "Placeholder idea #99 in 'Painting'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_100",
+      "category": "Mixed Media",
+      "title": "Art Ideas Idea 100",
+      "description": "Placeholder idea #100 in 'Mixed Media'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_101",
+      "category": "Mixed Media",
+      "title": "Art Ideas Idea 101",
+      "description": "Placeholder idea #101 in 'Mixed Media'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_102",
+      "category": "Mixed Media",
+      "title": "Art Ideas Idea 102",
+      "description": "Placeholder idea #102 in 'Mixed Media'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_103",
+      "category": "Digital Art",
+      "title": "Art Ideas Idea 103",
+      "description": "Placeholder idea #103 in 'Digital Art'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_104",
+      "category": "Photography",
+      "title": "Art Ideas Idea 104",
+      "description": "Placeholder idea #104 in 'Photography'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_105",
+      "category": "Drawing",
+      "title": "Art Ideas Idea 105",
+      "description": "Placeholder idea #105 in 'Drawing'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_106",
+      "category": "Design",
+      "title": "Art Ideas Idea 106",
+      "description": "Placeholder idea #106 in 'Design'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_107",
+      "category": "Digital Art",
+      "title": "Art Ideas Idea 107",
+      "description": "Placeholder idea #107 in 'Digital Art'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_108",
+      "category": "Worldbuilding",
+      "title": "Art Ideas Idea 108",
+      "description": "Placeholder idea #108 in 'Worldbuilding'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_109",
+      "category": "Mixed Media",
+      "title": "Art Ideas Idea 109",
+      "description": "Placeholder idea #109 in 'Mixed Media'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_110",
+      "category": "Painting",
+      "title": "Art Ideas Idea 110",
+      "description": "Placeholder idea #110 in 'Painting'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_111",
+      "category": "Mixed Media",
+      "title": "Art Ideas Idea 111",
+      "description": "Placeholder idea #111 in 'Mixed Media'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_112",
+      "category": "Photography",
+      "title": "Art Ideas Idea 112",
+      "description": "Placeholder idea #112 in 'Photography'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_113",
+      "category": "Painting",
+      "title": "Art Ideas Idea 113",
+      "description": "Placeholder idea #113 in 'Painting'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_114",
+      "category": "Character Design",
+      "title": "Art Ideas Idea 114",
+      "description": "Placeholder idea #114 in 'Character Design'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_115",
+      "category": "Photography",
+      "title": "Art Ideas Idea 115",
+      "description": "Placeholder idea #115 in 'Photography'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_116",
+      "category": "Worldbuilding",
+      "title": "Art Ideas Idea 116",
+      "description": "Placeholder idea #116 in 'Worldbuilding'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_117",
+      "category": "Design",
+      "title": "Art Ideas Idea 117",
+      "description": "Placeholder idea #117 in 'Design'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_118",
+      "category": "Mixed Media",
+      "title": "Art Ideas Idea 118",
+      "description": "Placeholder idea #118 in 'Mixed Media'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_119",
+      "category": "Drawing",
+      "title": "Art Ideas Idea 119",
+      "description": "Placeholder idea #119 in 'Drawing'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_120",
+      "category": "Design",
+      "title": "Art Ideas Idea 120",
+      "description": "Placeholder idea #120 in 'Design'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_121",
+      "category": "Character Design",
+      "title": "Art Ideas Idea 121",
+      "description": "Placeholder idea #121 in 'Character Design'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_122",
+      "category": "Mixed Media",
+      "title": "Art Ideas Idea 122",
+      "description": "Placeholder idea #122 in 'Mixed Media'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_123",
+      "category": "Character Design",
+      "title": "Art Ideas Idea 123",
+      "description": "Placeholder idea #123 in 'Character Design'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_124",
+      "category": "Design",
+      "title": "Art Ideas Idea 124",
+      "description": "Placeholder idea #124 in 'Design'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_125",
+      "category": "Design",
+      "title": "Art Ideas Idea 125",
+      "description": "Placeholder idea #125 in 'Design'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_126",
+      "category": "Worldbuilding",
+      "title": "Art Ideas Idea 126",
+      "description": "Placeholder idea #126 in 'Worldbuilding'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_127",
+      "category": "Character Design",
+      "title": "Art Ideas Idea 127",
+      "description": "Placeholder idea #127 in 'Character Design'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_128",
+      "category": "Character Design",
+      "title": "Art Ideas Idea 128",
+      "description": "Placeholder idea #128 in 'Character Design'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_129",
+      "category": "Photography",
+      "title": "Art Ideas Idea 129",
+      "description": "Placeholder idea #129 in 'Photography'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_130",
+      "category": "Photography",
+      "title": "Art Ideas Idea 130",
+      "description": "Placeholder idea #130 in 'Photography'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_131",
+      "category": "Drawing",
+      "title": "Art Ideas Idea 131",
+      "description": "Placeholder idea #131 in 'Drawing'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_132",
+      "category": "Design",
+      "title": "Art Ideas Idea 132",
+      "description": "Placeholder idea #132 in 'Design'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_133",
+      "category": "Photography",
+      "title": "Art Ideas Idea 133",
+      "description": "Placeholder idea #133 in 'Photography'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_134",
+      "category": "Mixed Media",
+      "title": "Art Ideas Idea 134",
+      "description": "Placeholder idea #134 in 'Mixed Media'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_135",
+      "category": "Mixed Media",
+      "title": "Art Ideas Idea 135",
+      "description": "Placeholder idea #135 in 'Mixed Media'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_136",
+      "category": "Design",
+      "title": "Art Ideas Idea 136",
+      "description": "Placeholder idea #136 in 'Design'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_137",
+      "category": "Design",
+      "title": "Art Ideas Idea 137",
+      "description": "Placeholder idea #137 in 'Design'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_138",
+      "category": "Character Design",
+      "title": "Art Ideas Idea 138",
+      "description": "Placeholder idea #138 in 'Character Design'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_139",
+      "category": "Character Design",
+      "title": "Art Ideas Idea 139",
+      "description": "Placeholder idea #139 in 'Character Design'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_140",
+      "category": "Worldbuilding",
+      "title": "Art Ideas Idea 140",
+      "description": "Placeholder idea #140 in 'Worldbuilding'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_141",
+      "category": "Mixed Media",
+      "title": "Art Ideas Idea 141",
+      "description": "Placeholder idea #141 in 'Mixed Media'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_142",
+      "category": "Digital Art",
+      "title": "Art Ideas Idea 142",
+      "description": "Placeholder idea #142 in 'Digital Art'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_143",
+      "category": "Character Design",
+      "title": "Art Ideas Idea 143",
+      "description": "Placeholder idea #143 in 'Character Design'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_144",
+      "category": "Photography",
+      "title": "Art Ideas Idea 144",
+      "description": "Placeholder idea #144 in 'Photography'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_145",
+      "category": "Digital Art",
+      "title": "Art Ideas Idea 145",
+      "description": "Placeholder idea #145 in 'Digital Art'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_146",
+      "category": "Painting",
+      "title": "Art Ideas Idea 146",
+      "description": "Placeholder idea #146 in 'Painting'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_147",
+      "category": "Mixed Media",
+      "title": "Art Ideas Idea 147",
+      "description": "Placeholder idea #147 in 'Mixed Media'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_148",
+      "category": "Worldbuilding",
+      "title": "Art Ideas Idea 148",
+      "description": "Placeholder idea #148 in 'Worldbuilding'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_149",
+      "category": "Painting",
+      "title": "Art Ideas Idea 149",
+      "description": "Placeholder idea #149 in 'Painting'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_150",
+      "category": "Digital Art",
+      "title": "Art Ideas Idea 150",
+      "description": "Placeholder idea #150 in 'Digital Art'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_151",
+      "category": "Character Design",
+      "title": "Art Ideas Idea 151",
+      "description": "Placeholder idea #151 in 'Character Design'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_152",
+      "category": "Mixed Media",
+      "title": "Art Ideas Idea 152",
+      "description": "Placeholder idea #152 in 'Mixed Media'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_153",
+      "category": "Digital Art",
+      "title": "Art Ideas Idea 153",
+      "description": "Placeholder idea #153 in 'Digital Art'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_154",
+      "category": "Photography",
+      "title": "Art Ideas Idea 154",
+      "description": "Placeholder idea #154 in 'Photography'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_155",
+      "category": "Worldbuilding",
+      "title": "Art Ideas Idea 155",
+      "description": "Placeholder idea #155 in 'Worldbuilding'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_156",
+      "category": "Photography",
+      "title": "Art Ideas Idea 156",
+      "description": "Placeholder idea #156 in 'Photography'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_157",
+      "category": "Painting",
+      "title": "Art Ideas Idea 157",
+      "description": "Placeholder idea #157 in 'Painting'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_158",
+      "category": "Drawing",
+      "title": "Art Ideas Idea 158",
+      "description": "Placeholder idea #158 in 'Drawing'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_159",
+      "category": "Digital Art",
+      "title": "Art Ideas Idea 159",
+      "description": "Placeholder idea #159 in 'Digital Art'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_160",
+      "category": "Photography",
+      "title": "Art Ideas Idea 160",
+      "description": "Placeholder idea #160 in 'Photography'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_161",
+      "category": "Painting",
+      "title": "Art Ideas Idea 161",
+      "description": "Placeholder idea #161 in 'Painting'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_162",
+      "category": "Painting",
+      "title": "Art Ideas Idea 162",
+      "description": "Placeholder idea #162 in 'Painting'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_163",
+      "category": "Drawing",
+      "title": "Art Ideas Idea 163",
+      "description": "Placeholder idea #163 in 'Drawing'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_164",
+      "category": "Worldbuilding",
+      "title": "Art Ideas Idea 164",
+      "description": "Placeholder idea #164 in 'Worldbuilding'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_165",
+      "category": "Digital Art",
+      "title": "Art Ideas Idea 165",
+      "description": "Placeholder idea #165 in 'Digital Art'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_166",
+      "category": "Drawing",
+      "title": "Art Ideas Idea 166",
+      "description": "Placeholder idea #166 in 'Drawing'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_167",
+      "category": "Mixed Media",
+      "title": "Art Ideas Idea 167",
+      "description": "Placeholder idea #167 in 'Mixed Media'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_168",
+      "category": "Character Design",
+      "title": "Art Ideas Idea 168",
+      "description": "Placeholder idea #168 in 'Character Design'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_169",
+      "category": "Drawing",
+      "title": "Art Ideas Idea 169",
+      "description": "Placeholder idea #169 in 'Drawing'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_170",
+      "category": "Painting",
+      "title": "Art Ideas Idea 170",
+      "description": "Placeholder idea #170 in 'Painting'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_171",
+      "category": "Digital Art",
+      "title": "Art Ideas Idea 171",
+      "description": "Placeholder idea #171 in 'Digital Art'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_172",
+      "category": "Worldbuilding",
+      "title": "Art Ideas Idea 172",
+      "description": "Placeholder idea #172 in 'Worldbuilding'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_173",
+      "category": "Worldbuilding",
+      "title": "Art Ideas Idea 173",
+      "description": "Placeholder idea #173 in 'Worldbuilding'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_174",
+      "category": "Mixed Media",
+      "title": "Art Ideas Idea 174",
+      "description": "Placeholder idea #174 in 'Mixed Media'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_175",
+      "category": "Worldbuilding",
+      "title": "Art Ideas Idea 175",
+      "description": "Placeholder idea #175 in 'Worldbuilding'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_176",
+      "category": "Character Design",
+      "title": "Art Ideas Idea 176",
+      "description": "Placeholder idea #176 in 'Character Design'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_177",
+      "category": "Mixed Media",
+      "title": "Art Ideas Idea 177",
+      "description": "Placeholder idea #177 in 'Mixed Media'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_178",
+      "category": "Digital Art",
+      "title": "Art Ideas Idea 178",
+      "description": "Placeholder idea #178 in 'Digital Art'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_179",
+      "category": "Mixed Media",
+      "title": "Art Ideas Idea 179",
+      "description": "Placeholder idea #179 in 'Mixed Media'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_180",
+      "category": "Photography",
+      "title": "Art Ideas Idea 180",
+      "description": "Placeholder idea #180 in 'Photography'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_181",
+      "category": "Digital Art",
+      "title": "Art Ideas Idea 181",
+      "description": "Placeholder idea #181 in 'Digital Art'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_182",
+      "category": "Photography",
+      "title": "Art Ideas Idea 182",
+      "description": "Placeholder idea #182 in 'Photography'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_183",
+      "category": "Worldbuilding",
+      "title": "Art Ideas Idea 183",
+      "description": "Placeholder idea #183 in 'Worldbuilding'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_184",
+      "category": "Design",
+      "title": "Art Ideas Idea 184",
+      "description": "Placeholder idea #184 in 'Design'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_185",
+      "category": "Painting",
+      "title": "Art Ideas Idea 185",
+      "description": "Placeholder idea #185 in 'Painting'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_186",
+      "category": "Design",
+      "title": "Art Ideas Idea 186",
+      "description": "Placeholder idea #186 in 'Design'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_187",
+      "category": "Drawing",
+      "title": "Art Ideas Idea 187",
+      "description": "Placeholder idea #187 in 'Drawing'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_188",
+      "category": "Worldbuilding",
+      "title": "Art Ideas Idea 188",
+      "description": "Placeholder idea #188 in 'Worldbuilding'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_189",
+      "category": "Digital Art",
+      "title": "Art Ideas Idea 189",
+      "description": "Placeholder idea #189 in 'Digital Art'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_190",
+      "category": "Photography",
+      "title": "Art Ideas Idea 190",
+      "description": "Placeholder idea #190 in 'Photography'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_191",
+      "category": "Design",
+      "title": "Art Ideas Idea 191",
+      "description": "Placeholder idea #191 in 'Design'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_192",
+      "category": "Mixed Media",
+      "title": "Art Ideas Idea 192",
+      "description": "Placeholder idea #192 in 'Mixed Media'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_193",
+      "category": "Worldbuilding",
+      "title": "Art Ideas Idea 193",
+      "description": "Placeholder idea #193 in 'Worldbuilding'.",
+      "energy_level": "high"
+    },
+    {
+      "id": "art_ideas_194",
+      "category": "Drawing",
+      "title": "Art Ideas Idea 194",
+      "description": "Placeholder idea #194 in 'Drawing'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_195",
+      "category": "Character Design",
+      "title": "Art Ideas Idea 195",
+      "description": "Placeholder idea #195 in 'Character Design'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_196",
+      "category": "Digital Art",
+      "title": "Art Ideas Idea 196",
+      "description": "Placeholder idea #196 in 'Digital Art'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_197",
+      "category": "Character Design",
+      "title": "Art Ideas Idea 197",
+      "description": "Placeholder idea #197 in 'Character Design'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_198",
+      "category": "Drawing",
+      "title": "Art Ideas Idea 198",
+      "description": "Placeholder idea #198 in 'Drawing'.",
+      "energy_level": "low"
+    },
+    {
+      "id": "art_ideas_199",
+      "category": "Painting",
+      "title": "Art Ideas Idea 199",
+      "description": "Placeholder idea #199 in 'Painting'.",
+      "energy_level": "medium"
+    },
+    {
+      "id": "art_ideas_200",
+      "category": "Drawing",
+      "title": "Art Ideas Idea 200",
+      "description": "Placeholder idea #200 in 'Drawing'.",
+      "energy_level": "high"
+    }
+  ]
+}

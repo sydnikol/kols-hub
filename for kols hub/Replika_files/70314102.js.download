@@ -1,0 +1,5 @@
+_iub.csRC = { consApiKey: '0baSwf83FkmFfpPHcdbKPyh0aRCmSrw1', showBranding: false }
+_iub.csEnabled = true;
+_iub.csPurposes = [];
+_iub.csT = 0.3;
+_iub.googleConsentModeV2 = true;

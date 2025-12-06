@@ -8,11 +8,14 @@ export default defineConfig({
   plugins: [
     react(),
     VitePWA({
-      registerType: 'autoUpdate',
+      registerType: 'prompt',  // Don't auto-register - we handle it manually
+      devOptions: { enabled: false },
+      selfDestroying: false,
+      injectRegister: false,  // Don't inject registration script
       includeAssets: ['icon.svg', 'data/**/*'],
       manifest: {
-        name: 'KOL Hub - Your Self-Evolving Personal OS',
-        short_name: 'KOL Hub',
+        name: "Kol's Hub - Your Self-Evolving Personal OS",
+        short_name: "Kol's Hub",
         description: 'Complete unified life management system',
         theme_color: '#8b5cf6',
         background_color: '#1a0033',
@@ -30,6 +33,8 @@ export default defineConfig({
         ]
       },
       workbox: {
+        clientsClaim: true,
+        skipWaiting: true,
         globPatterns: ['**/*.{js,css,html,ico,png,svg,json,woff,woff2}'],
         runtimeCaching: [
           {
@@ -80,23 +85,98 @@ export default defineConfig({
   },
   build: {
     outDir: 'dist',
-    sourcemap: true,
+    sourcemap: false,
+    minify: 'terser',
+    terserOptions: {
+      compress: {
+        drop_console: true,
+        drop_debugger: true
+      }
+    },
     rollupOptions: {
       external: [
+        '@capacitor/core',
         '@capacitor/preferences',
         '@capacitor/browser',
+        '@capacitor/filesystem',
+        '@capacitor/camera',
+        '@capacitor/share',
+        '@capacitor/clipboard',
+        '@capacitor/device',
+        '@capacitor/app',
+        '@capacitor/haptics',
+        '@capacitor/local-notifications',
         '@capacitor-community/contacts'
       ],
       output: {
-        manualChunks: {
-          'react-vendor': ['react', 'react-dom', 'react-router-dom'],
-          'ui-vendor': ['lucide-react', '@mui/material', '@emotion/react', '@emotion/styled'],
-          'data-vendor': ['dexie', 'axios', 'date-fns'],
-          'chart-vendor': ['chart.js', 'react-chartjs-2'],
-          'three-vendor': ['three', '@react-three/fiber', '@react-three/drei']
+        manualChunks(id) {
+          // Core React ecosystem
+          if (id.includes('node_modules/react/') || id.includes('node_modules/react-dom/')) {
+            return 'react-core';
+          }
+          if (id.includes('node_modules/react-router')) {
+            return 'react-router';
+          }
+
+          // UI Libraries - split MUI into smaller chunks
+          if (id.includes('node_modules/@mui/material')) {
+            return 'mui-material';
+          }
+          if (id.includes('node_modules/@mui/')) {
+            return 'mui-system';
+          }
+          if (id.includes('node_modules/@emotion/')) {
+            return 'emotion';
+          }
+          if (id.includes('node_modules/lucide-react')) {
+            return 'icons';
+          }
+
+          // 3D Graphics - separate chunk (only loaded when needed)
+          if (id.includes('node_modules/three')) {
+            return 'three-core';
+          }
+          if (id.includes('node_modules/@react-three/')) {
+            return 'react-three';
+          }
+
+          // Charts
+          if (id.includes('node_modules/chart.js') || id.includes('node_modules/react-chartjs-2')) {
+            return 'charts';
+          }
+          if (id.includes('node_modules/recharts')) {
+            return 'recharts';
+          }
+
+          // Data/State management
+          if (id.includes('node_modules/dexie')) {
+            return 'database';
+          }
+          if (id.includes('node_modules/axios')) {
+            return 'http';
+          }
+          if (id.includes('node_modules/date-fns')) {
+            return 'date-utils';
+          }
+
+          // Animation libraries
+          if (id.includes('node_modules/framer-motion')) {
+            return 'animation';
+          }
+
+          // Utilities
+          if (id.includes('node_modules/lodash')) {
+            return 'lodash';
+          }
+
+          // All other node_modules go to vendor
+          if (id.includes('node_modules')) {
+            return 'vendor';
+          }
         }
       }
-    }
+    },
+    chunkSizeWarningLimit: 600
   },
   optimizeDeps: {
     include: [

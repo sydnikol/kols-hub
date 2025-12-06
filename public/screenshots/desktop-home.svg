@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="100%" style="stop-color:#764ba2"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+
+  <!-- App frame -->
+  <rect x="40" y="40" width="1200" height="640" rx="12" fill="#1a1a2e" stroke="#333" stroke-width="2"/>
+
+  <!-- Header -->
+  <rect x="40" y="40" width="1200" height="60" rx="12" fill="#16213e"/>
+  <text x="100" y="80" font-family="Arial, sans-serif" font-size="24" fill="white" font-weight="bold">KOL Hub</text>
+
+  <!-- Sidebar -->
+  <rect x="40" y="100" width="200" height="580" fill="#0f0f23"/>
+
+  <!-- Content area -->
+  <rect x="280" y="140" width="400" height="200" rx="8" fill="#2d2d44"/>
+  <rect x="700" y="140" width="500" height="200" rx="8" fill="#2d2d44"/>
+  <rect x="280" y="360" width="920" height="280" rx="8" fill="#2d2d44"/>
+
+  <!-- Text placeholders -->
+  <text x="640" y="400" font-family="Arial, sans-serif" font-size="32" fill="#a78bfa" text-anchor="middle">Desktop Dashboard View</text>
+  <text x="640" y="450" font-family="Arial, sans-serif" font-size="18" fill="#888" text-anchor="middle">Your Personal Operating System</text>
+</svg>

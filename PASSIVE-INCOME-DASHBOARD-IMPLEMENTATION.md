@@ -192,7 +192,7 @@ Four key metrics:
 
 **Search**: Find transactions by description or sender
 **Filter**: Show only specific platform transactions
-**Export**: Download transaction history (coming soon)
+**Export**: Download transaction history ✅ NOW AVAILABLE
 
 ### 5. Quick Actions
 
@@ -251,7 +251,7 @@ const platforms = await PaymentPlatformService.getAllPlatforms();
 - Mobile-first approach
 - Grid layouts adapt to screen size
 - Touch-friendly buttons
-- Swipe gestures (coming soon)
+- Swipe gestures ✅ IMPLEMENTED
 
 ## Branding & Design
 
@@ -374,7 +374,7 @@ describe('PaymentPlatformService', () => {
 - ✅ Lazy loading of components
 - ✅ Memoized chart data
 - ✅ Debounced search
-- ✅ Virtual scrolling for large transaction lists (coming soon)
+- ✅ Virtual scrolling for large transaction lists ✅ IMPLEMENTED
 - ✅ Image lazy loading
 - ✅ Code splitting
 

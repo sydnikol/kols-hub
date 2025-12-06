@@ -1,0 +1,110 @@
+#iubenda-cs-banner {
+  position: fixed;
+  bottom: 26px;
+  z-index: 999999;
+  width: 760px;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+}
+
+.iubenda-cs-container {
+  width: 100%;
+  background: #435aa9;
+  border-radius: 24px;
+  padding: 30px;
+  color: #fff;
+  margin: 0 auto;
+}
+
+.iubenda-banner-content {
+  font-family: Moderat, -apple-system, BlinkMacSystemFont, Helvetica, Arial,
+    sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-family: PPPangramSansRounded-Bold, -apple-system, BlinkMacSystemFont,
+    Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.iubenda-cs-opt-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.iubenda-cs-customize-btn {
+  width: 254px;
+  height: 54px;
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 24px;
+  border: none;
+  color: #fff;
+  font-family: PPPangramSansRounded-Bold, -apple-system, BlinkMacSystemFont,
+    Helvetica, Arial, sans-serif;
+  cursor: pointer;
+}
+
+.iubenda-cs-btn-primary {
+  width: 147px;
+  height: 54px;
+  background: linear-gradient(180deg, #ffffff 0%, #d9d9d9 100%);
+  box-shadow: 0px 0px 15px rgba(209, 209, 209, 0.9),
+    inset 0px 0px 5px rgba(255, 255, 255, 0.4);
+  border-radius: 24px;
+  border: none;
+  margin: 0 7px;
+  font-family: PPPangramSansRounded-Bold, -apple-system, BlinkMacSystemFont,
+    Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  color: rgb(94, 94, 94);
+}
+
+.iubenda-uspr-btn {
+  visibility: hidden;
+  position: absolute;
+  top: -300px;
+}
+
+@media (max-width: 1024px) {
+  #iubenda-cs-banner {
+    max-width: calc(100% - 20px);
+    margin: 0 auto;
+  }
+
+  .iubenda-cs-container {
+    max-width: calc(100% - 60px);
+  }
+
+  .iubenda-cs-opt-group {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .iubenda-cs-opt-group-consent {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .iubenda-cs-btn-primary,
+  .iubenda-cs-customize-btn {
+    margin: 5px 0;
+    min-width: 254px;
+  }
+}

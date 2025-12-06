@@ -4,6 +4,8 @@ import {
   Heart, Brain, BookOpen, Scissors, Lightbulb, Film,
   Dice3, Scale, Sparkles, TrendingUp, Calendar, Users
 } from 'lucide-react';
+import QuickHealthCheckIn from '../components/QuickHealthCheckIn';
+import MedicationReminder from '../components/MedicationReminder';
 
 const featureCards = [
   {
@@ -171,6 +173,12 @@ export default function Dashboard() {
             </Link>
           );
         })}
+      </div>
+
+      {/* Health Widgets */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+        <QuickHealthCheckIn />
+        <MedicationReminder />
       </div>
 
       {/* Footer Note */}

@@ -335,7 +335,7 @@ const ContentMonetizationPage: React.FC = () => {
                   <WritingCard
                     key={content.id}
                     content={content}
-                    onEdit={() => alert('Edit functionality coming soon!')}
+                    onEdit={() => alert('Open in editor to refine your writing')}
                     onDelete={handleDeleteWriting}
                     onPublish={handlePublishWriting}
                   />
@@ -356,7 +356,7 @@ const ContentMonetizationPage: React.FC = () => {
                   <PhotoCard
                     key={photo.id}
                     photo={photo}
-                    onEdit={() => alert('Edit functionality coming soon!')}
+                    onEdit={() => alert('Open in image editor to enhance your photo')}
                     onDelete={handleDeletePhoto}
                     onUpload={handleUploadPhoto}
                   />

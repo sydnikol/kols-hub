@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import * as XLSX from 'xlsx';
-import { 
-  Calendar, 
-  Clock, 
-  Pill, 
-  AlertCircle, 
-  Upload, 
+import {
+  Calendar,
+  Clock,
+  Pill,
+  AlertCircle,
+  Upload,
   Save,
   Check,
   X,
@@ -14,6 +14,7 @@ import {
   Download
 } from 'lucide-react';
 import toast from 'react-hot-toast';
+import { MY_MEDICATIONS } from '../data/medications';
 
 interface Medication {
   id: string;
@@ -40,11 +41,52 @@ const MedicationTracker: React.FC = () => {
   const [loading, setLoading] = useState(false);
   const [importedFileName, setImportedFileName] = useState<string>('');
 
-  // Load medications from localStorage on mount
+  // Load medications from localStorage on mount, or use real meds as default
   useEffect(() => {
     const savedMeds = localStorage.getItem('kol_medications');
     if (savedMeds) {
       setMedications(JSON.parse(savedMeds));
+    } else {
+      // Pre-load with Sydney's real medications from medications.ts
+      const realMeds: Medication[] = MY_MEDICATIONS
+        .filter(med => med.status === 'Active')
+        .map((med, index) => {
+          // Parse time of day from frequency
+          const timeOfDay: string[] = [];
+          const freqLower = med.frequency.toLowerCase();
+          if (freqLower.includes('morning') || freqLower.includes('daily') || freqLower.includes('once')) {
+            timeOfDay.push('morning');
+          }
+          if (freqLower.includes('twice') || freqLower.includes('bid') || freqLower.includes('2 times')) {
+            timeOfDay.push('morning', 'evening');
+          }
+          if (freqLower.includes('three') || freqLower.includes('tid') || freqLower.includes('3 times')) {
+            timeOfDay.push('morning', 'afternoon', 'evening');
+          }
+          if (freqLower.includes('bedtime') || freqLower.includes('night') || freqLower.includes('at night')) {
+            timeOfDay.push('night');
+          }
+          if (freqLower.includes('as needed') || freqLower.includes('prn')) {
+            timeOfDay.push('morning'); // Default for PRN
+          }
+          if (timeOfDay.length === 0) timeOfDay.push('morning');
+
+          return {
+            id: `med_real_${index}`,
+            name: med.drugName,
+            dosage: `${med.strength} - ${med.dosage}`,
+            frequency: med.frequency,
+            timeOfDay: [...new Set(timeOfDay)], // Remove duplicates
+            prescriber: med.prescriber || '',
+            pharmacy: 'CVS Pharmacy',
+            refillDate: '',
+            quantity: 30,
+            notes: med.notes || '',
+            active: true,
+            taken: {}
+          };
+        });
+      setMedications(realMeds);
     }
   }, []);
 

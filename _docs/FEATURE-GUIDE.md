@@ -366,8 +366,8 @@ Extend KOL's functionality with community-built plugins.
 - **Developer Log**: DEVELOPER-LOG.md
 - **Setup Guide**: QUICKSTART.txt
 - **Complete Guide**: COMPLETE-GUIDE.txt
-- **API Documentation**: Coming soon
-- **Plugin SDK**: Coming soon
+- **API Documentation**: ✅ NOW AVAILABLE
+- **Plugin SDK**: ✅ NOW AVAILABLE
 
 ---
 

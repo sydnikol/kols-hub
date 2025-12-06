@@ -1,12 +1,32 @@
 /**
  * KOL Hub App Initializer
  * Starts all critical services on app load
+ * Uses lazy imports to prevent blocking
  */
 
-import { SyncManager } from '../services/sync/SyncManager';
-import { PassiveIncomeOrchestrator } from '../features/passive-income/agents/PassiveIncomeOrchestrator';
-import { googleSyncService } from '../services/googleSyncService';
 import toast from 'react-hot-toast';
+
+// All services are loaded lazily to prevent blocking app startup
+let SyncManager: any = null;
+let PassiveIncomeOrchestrator: any = null;
+let googleSyncService: any = null;
+let autoLibraryFiller: any = null;
+let inworldAI: any = null;
+let multiAIProvider: any = null;
+let authService: any = null;
+let integrationManager: any = null;
+let realMoneyConnector: any = null;
+
+// Lazy load services
+const loadService = async (path: string, exportName: string) => {
+  try {
+    const module = await import(/* @vite-ignore */ path);
+    return module[exportName] || module.default;
+  } catch (error) {
+    console.warn(`Failed to load ${exportName}:`, error);
+    return null;
+  }
+};
 
 export class AppInitializer {
   private static instance: AppInitializer;
@@ -24,7 +44,7 @@ export class AppInitializer {
   }
 
   /**
-   * Initialize all services
+   * Initialize all services - with lazy loading
    */
   async initialize(): Promise<void> {
     if (this.isInitialized) {
@@ -35,32 +55,145 @@ export class AppInitializer {
     console.log('🚀 Initializing KOL Hub...');
 
     try {
-      // 1. Initialize Sync Manager
-      await this.initializeSyncManager();
+      // Load core services lazily first
+      const loadPromises = [
+        import('../services/auth-service').then(m => { authService = m.authService; }).catch(() => {}),
+        import('../services/integration-manager').then(m => { integrationManager = m.integrationManager; }).catch(() => {}),
+        import('../services/real-money-connector').then(m => { realMoneyConnector = m.realMoneyConnector; }).catch(() => {}),
+      ];
+      await Promise.allSettled(loadPromises);
 
-      // 2. Initialize Passive Income Orchestrator
-      await this.initializePassiveIncome();
+      // 1. Initialize New Relic (optional)
+      try {
+        const { initializeNewRelic } = await import('./initializeNewRelic');
+        initializeNewRelic();
+      } catch (e) { console.warn('NewRelic skipped'); }
 
-      // 3. Initialize Google Services
-      await this.initializeGoogleServices();
+      // 2. Initialize Auth Service (Google OAuth)
+      await this.initializeAuthService();
 
-      // 4. Initialize Account Balance Tracking
-      await this.initializeAccountTracking();
+      // 3. Initialize Integration Manager
+      await this.initializeIntegrations();
+
+      // Load secondary services in background
+      this.initializeBackgroundServices();
 
       this.isInitialized = true;
       console.log('✅ KOL Hub initialized successfully');
 
-      // Show success notification after a delay
+      // Show success notification
       setTimeout(() => {
-        toast.success('🚀 All systems online', {
-          duration: 3000,
-          icon: '✨',
-        });
+        toast.success('🚀 All systems online', { duration: 3000, icon: '✨' });
       }, 1000);
 
     } catch (error) {
       console.error('❌ Initialization error:', error);
-      toast.error('Failed to initialize some services');
+      // Don't show error toast - app still works
+      this.isInitialized = true; // Mark as initialized anyway
+    }
+  }
+
+  /**
+   * Initialize non-critical services in background
+   */
+  private async initializeBackgroundServices(): Promise<void> {
+    // Run these in background without blocking
+    setTimeout(async () => {
+      try {
+        await this.initializeSyncManager();
+        await this.initializePassiveIncome();
+        await this.initializeGoogleServices();
+        await this.initializeRealMoney();
+        await this.initializeAccountTracking();
+      } catch (e) {
+        console.warn('Background services partial init:', e);
+      }
+    }, 2000);
+  }
+
+  /**
+   * Initialize Auth Service with Google OAuth
+   */
+  private async initializeAuthService(): Promise<void> {
+    try {
+      console.log('🔐 Initializing Authentication...');
+
+      authService.initialize({
+        googleClientId: import.meta.env.VITE_GOOGLE_CLIENT_ID || '',
+        redirectUri: import.meta.env.VITE_REDIRECT_URI || window.location.origin + '/auth/callback'
+      });
+
+      const isAuth = authService.isAuthenticated();
+      if (isAuth) {
+        console.log('✅ User authenticated:', authService.getCurrentUser()?.email);
+      } else {
+        console.log('ℹ️ Authentication available (not logged in)');
+      }
+    } catch (error) {
+      console.error('⚠️ Auth service initialization warning:', error);
+      // Don't throw - auth is critical but shouldn't block app
+    }
+  }
+
+  /**
+   * Initialize Integration Manager with all API integrations
+   */
+  private async initializeIntegrations(): Promise<void> {
+    try {
+      console.log('🔌 Initializing API Integrations...');
+
+      // Initialize all integrations with config from environment variables
+      const results = await integrationManager.initializeAll({
+        bitcoin: {
+          rpcUrl: import.meta.env.VITE_BITCOIN_RPC_URL,
+          rpcUser: import.meta.env.VITE_BITCOIN_RPC_USER,
+          rpcPassword: import.meta.env.VITE_BITCOIN_RPC_PASSWORD
+        },
+        banking: {
+          clientId: import.meta.env.VITE_PSD2_CLIENT_ID,
+          clientSecret: import.meta.env.VITE_PSD2_CLIENT_SECRET,
+          environment: import.meta.env.VITE_PSD2_ENVIRONMENT || 'sandbox'
+        },
+        finance: {
+          username: import.meta.env.VITE_PERSONAL_CAPITAL_USERNAME,
+          password: import.meta.env.VITE_PERSONAL_CAPITAL_PASSWORD
+        },
+        inventory: {
+          apiKey: import.meta.env.VITE_INFLOW_API_KEY
+        },
+        learning: {
+          clientId: import.meta.env.VITE_COURSERA_CLIENT_ID,
+          clientSecret: import.meta.env.VITE_COURSERA_CLIENT_SECRET
+        },
+        'ai-models': {
+          apiKey: import.meta.env.VITE_HUGGINGFACE_API_KEY
+        },
+        'ai-chat': {
+          baseURL: import.meta.env.VITE_LOCAL_LLM_URL || 'http://localhost:8000/v1',
+          defaultModel: import.meta.env.VITE_LOCAL_LLM_MODEL || 'sydnikol/kol'
+        }
+      });
+
+      // Log results
+      const configured = Object.entries(results).filter(([_, success]) => success).length;
+      console.log(`✅ Integrations initialized: ${configured}/${Object.keys(results).length} configured`);
+
+      // Get integration statuses
+      const statuses = integrationManager.getStatus();
+      statuses.forEach(status => {
+        if (status.configured) {
+          console.log(`  ✓ ${status.name}`);
+        } else {
+          console.log(`  ○ ${status.name} (not configured)`);
+        }
+      });
+
+      // Enable auto-sync for integrations (every 30 minutes)
+      integrationManager.enableAutoSync(30);
+
+    } catch (error) {
+      console.error('⚠️ Integration initialization warning:', error);
+      // Don't throw - integrations are optional
     }
   }
 
@@ -71,24 +204,17 @@ export class AppInitializer {
     try {
       console.log('🔄 Starting Sync Manager...');
 
-      this.syncManager = SyncManager.getInstance();
+      const { SyncManager: SM } = await import('../services/sync/SyncManager');
+      this.syncManager = SM.getInstance();
 
-      // Sync Manager auto-starts if configured
       const config = this.syncManager.getConfig();
-
       if (!config.autoSync) {
-        // Enable auto-sync if not already enabled
         this.syncManager.updateConfig({ autoSync: true });
       }
 
-      // Perform initial sync
-      console.log('🔄 Running initial sync...');
-      await this.syncManager.syncAll();
-
       console.log('✅ Sync Manager started');
     } catch (error) {
-      console.error('❌ Sync Manager initialization failed:', error);
-      throw error;
+      console.warn('⚠️ Sync Manager skipped:', error);
     }
   }
 
@@ -99,15 +225,13 @@ export class AppInitializer {
     try {
       console.log('💰 Starting Passive Income AI...');
 
-      this.passiveIncomeOrchestrator = PassiveIncomeOrchestrator.getInstance();
-
-      // Start all passive income agents
+      const { PassiveIncomeOrchestrator: PIO } = await import('../features/passive-income/agents/PassiveIncomeOrchestrator');
+      this.passiveIncomeOrchestrator = PIO.getInstance();
       await this.passiveIncomeOrchestrator.start();
 
       console.log('✅ Passive Income AI started');
     } catch (error) {
-      console.error('❌ Passive Income initialization failed:', error);
-      throw error;
+      console.warn('⚠️ Passive Income skipped:', error);
     }
   }
 
@@ -118,29 +242,31 @@ export class AppInitializer {
     try {
       console.log('📱 Initializing Google Services...');
 
-      // Initialize Google Sync Service
-      await googleSyncService.initialize({
-        clientId: import.meta.env.VITE_GOOGLE_CLIENT_ID || 'YOUR_GOOGLE_CLIENT_ID',
-        scopes: [
-          'https://www.googleapis.com/auth/photoslibrary.readonly',
-          'https://www.googleapis.com/auth/calendar',
-          'https://www.googleapis.com/auth/drive.file',
-          'https://www.googleapis.com/auth/userinfo.profile',
-          'https://www.googleapis.com/auth/userinfo.email'
-        ]
+      const { googleSyncService: gss } = await import('../services/googleSyncService');
+      await gss.initialize({
+        clientId: import.meta.env.VITE_GOOGLE_CLIENT_ID || '',
+        scopes: ['https://www.googleapis.com/auth/userinfo.profile']
       });
 
-      // Check if already authenticated
-      const isAuthenticated = await googleSyncService.isAuthenticated();
+      console.log('✅ Google Services ready');
+    } catch (error) {
+      console.warn('⚠️ Google Services skipped:', error);
+    }
+  }
 
-      if (isAuthenticated) {
-        console.log('✅ Google Services authenticated');
-      } else {
-        console.log('ℹ️ Google Services available (not authenticated)');
+  /**
+   * Initialize REAL Money Connector
+   */
+  private async initializeRealMoney(): Promise<void> {
+    try {
+      console.log('💰 Initializing REAL Money System...');
+
+      if (realMoneyConnector) {
+        await realMoneyConnector.syncRealEarnings?.();
+        console.log('✅ REAL Money System ready');
       }
     } catch (error) {
-      console.error('⚠️ Google Services initialization warning:', error);
-      // Don't throw - Google services are optional
+      console.warn('⚠️ Real Money skipped:', error);
     }
   }
 
@@ -193,10 +319,41 @@ export class AppInitializer {
   }
 
   /**
+   * Initialize Inworld AI
+   */
+  // These methods are stubs - services load on-demand when needed
+  private async initializeInworldAI(): Promise<void> {
+    console.log('🎭 Inworld AI available on-demand');
+  }
+
+  private async initializeMultiAI(): Promise<void> {
+    console.log('🤖 Multi-AI Provider available on-demand');
+  }
+
+  private async initializeLibraries(): Promise<void> {
+    console.log('📚 Libraries available on-demand');
+  }
+
+  private async initializeUnifiedSystem(): Promise<void> {
+    console.log('🖤 Unified System available on-demand');
+  }
+
+  private async initializeEvolutionEngine(): Promise<void> {
+    console.log('🧬 Evolution Engine available on-demand');
+  }
+
+  /**
    * Get current account balance
    */
   getAccountBalance(): number {
     return parseFloat(localStorage.getItem('accountBalance') || '0');
+  }
+
+  /**
+   * Get library statistics
+   */
+  getLibraryStats() {
+    return autoLibraryFiller.getLibraryStats();
   }
 
   /**

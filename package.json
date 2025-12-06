@@ -1,7 +1,7 @@
 {
-  "name": "kol-unified-mega-app",
-  "version": "4.0.0",
-  "description": "KOL - Your Self-Evolving Personal OS - Complete Unified Application",
+  "name": "kols-hub",
+  "version": "5.5.0",
+  "description": "Kol's Hub - Your Self-Evolving Personal OS with AI Avatar Wardrobe Integration",
   "type": "module",
   "private": true,
   "author": "Kol",

@@ -1,8 +1,9 @@
 {
-  "name": "KOL Personal OS",
-  "short_name": "KOL",
-  "description": "Your Self-Evolving Personal Operating System - Health, AI Companion, Creative Tools & Life Management",
-  "start_url": "/",
+  "name": "Kol's Hub",
+  "short_name": "Kol's Hub",
+  "version": "5.5.0",
+  "description": "Your Self-Evolving Personal Operating System with Complete Food & Nutrition Hub - 12,500+ Features",
+  "start_url": "/?v=5.5.0",
   "display": "standalone",
   "background_color": "#0a0a0f",
   "theme_color": "#7c3aed",
@@ -67,6 +68,13 @@
   ],
   "shortcuts": [
     {
+      "name": "AI Avatar Teacher",
+      "short_name": "AI Teacher",
+      "description": "Learn with your AI avatar that wears your clothes",
+      "url": "/ai-avatar-teacher",
+      "icons": [{ "src": "/icon-96.png", "sizes": "96x96" }]
+    },
+    {
       "name": "Health Dashboard",
       "short_name": "Health",
       "description": "Access your health tracking dashboard",
@@ -74,10 +82,10 @@
       "icons": [{ "src": "/icon-96.png", "sizes": "96x96" }]
     },
     {
-      "name": "AI Companion",
-      "short_name": "Kol",
-      "description": "Chat with your AI companion",
-      "url": "/companion",
+      "name": "Virtual Wardrobe",
+      "short_name": "Wardrobe",
+      "description": "Manage your virtual wardrobe",
+      "url": "/wardrobe",
       "icons": [{ "src": "/icon-96.png", "sizes": "96x96" }]
     },
     {
@@ -90,15 +98,15 @@
   ],
   "screenshots": [
     {
-      "src": "/screenshots/desktop-home.png",
-      "sizes": "1920x1080",
-      "type": "image/png",
+      "src": "/screenshots/desktop-home.svg",
+      "sizes": "1280x720",
+      "type": "image/svg+xml",
       "form_factor": "wide"
     },
     {
-      "src": "/screenshots/mobile-home.png",
-      "sizes": "750x1334",
-      "type": "image/png"
+      "src": "/screenshots/mobile-home.svg",
+      "sizes": "390x844",
+      "type": "image/svg+xml"
     }
   ],
   "share_target": {

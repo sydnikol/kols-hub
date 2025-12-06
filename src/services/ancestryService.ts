@@ -470,6 +470,154 @@ class AncestryService {
       totalDocuments: ancestors.reduce((sum, a) => sum + (a.documents?.length || 0), 0)
     };
   }
+
+  /**
+   * Download family tree as JSON file
+   */
+  async downloadAsJSON(filename: string = 'family-tree.json'): Promise<void> {
+    const jsonData = await this.exportToJSON();
+    const blob = new Blob([jsonData], { type: 'application/json' });
+    this.triggerDownload(blob, filename);
+  }
+
+  /**
+   * Export family tree to CSV format
+   */
+  async exportToCSV(): Promise<string> {
+    const ancestors = await this.getAncestors();
+
+    // CSV Headers
+    const headers = [
+      'Name',
+      'Birth Year',
+      'Death Year',
+      'Birth Place',
+      'Relation',
+      'Generation',
+      'Occupation',
+      'Cultural Background',
+      'Languages',
+      'Stories Count',
+      'Recipes Count'
+    ];
+
+    // CSV Rows
+    const rows = ancestors.map(a => [
+      a.name,
+      a.birthYear || '',
+      a.deathYear || '',
+      a.birthPlace || '',
+      a.relation,
+      a.generation,
+      a.occupation || '',
+      (a.culturalBackground || []).join('; '),
+      (a.languages || []).join('; '),
+      (a.stories || []).length,
+      (a.recipes || []).length
+    ]);
+
+    // Combine headers and rows
+    const csvContent = [
+      headers.join(','),
+      ...rows.map(row => row.map(cell => `"${cell}"`).join(','))
+    ].join('\n');
+
+    return csvContent;
+  }
+
+  /**
+   * Download family tree as CSV file
+   */
+  async downloadAsCSV(filename: string = 'family-tree.csv'): Promise<void> {
+    const csvData = await this.exportToCSV();
+    const blob = new Blob([csvData], { type: 'text/csv' });
+    this.triggerDownload(blob, filename);
+  }
+
+  /**
+   * Export family tree to GEDCOM format (simplified)
+   */
+  async exportToGEDCOM(): Promise<string> {
+    const ancestors = await this.getAncestors();
+
+    let gedcom = '0 HEAD\n';
+    gedcom += '1 SOUR KOL Family Tree\n';
+    gedcom += '1 GEDC\n';
+    gedcom += '2 VERS 5.5.1\n';
+    gedcom += '2 FORM LINEAGE-LINKED\n';
+    gedcom += '1 CHAR UTF-8\n';
+
+    // Add individuals
+    ancestors.forEach((ancestor, index) => {
+      const id = `@I${index + 1}@`;
+      gedcom += `0 ${id} INDI\n`;
+      gedcom += `1 NAME ${ancestor.name}\n`;
+
+      if (ancestor.birthYear) {
+        gedcom += '1 BIRT\n';
+        gedcom += `2 DATE ${ancestor.birthYear}\n`;
+        if (ancestor.birthPlace) {
+          gedcom += `2 PLAC ${ancestor.birthPlace}\n`;
+        }
+      }
+
+      if (ancestor.deathYear) {
+        gedcom += '1 DEAT\n';
+        gedcom += `2 DATE ${ancestor.deathYear}\n`;
+      }
+
+      if (ancestor.occupation) {
+        gedcom += `1 OCCU ${ancestor.occupation}\n`;
+      }
+
+      // Add notes for stories
+      if (ancestor.stories && ancestor.stories.length > 0) {
+        ancestor.stories.forEach(story => {
+          gedcom += `1 NOTE ${story}\n`;
+        });
+      }
+    });
+
+    gedcom += '0 TRLR\n';
+    return gedcom;
+  }
+
+  /**
+   * Download family tree as GEDCOM file
+   */
+  async downloadAsGEDCOM(filename: string = 'family-tree.ged'): Promise<void> {
+    const gedcomData = await this.exportToGEDCOM();
+    const blob = new Blob([gedcomData], { type: 'text/plain' });
+    this.triggerDownload(blob, filename);
+  }
+
+  /**
+   * Trigger browser download
+   */
+  private triggerDownload(blob: Blob, filename: string): void {
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = filename;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+  }
+
+  /**
+   * Load sample family data (Sydney Jones family)
+   */
+  async loadSydneyJonesFamily(): Promise<void> {
+    try {
+      const response = await fetch('/sydney_jones_family.json');
+      const data = await response.json();
+      await this.saveAncestors(data.ancestors);
+    } catch (error) {
+      console.error('Failed to load Sydney Jones family data:', error);
+      throw error;
+    }
+  }
 }
 
 export const ancestryService = new AncestryService();

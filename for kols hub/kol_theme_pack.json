@@ -1,0 +1,743 @@
+{
+  "name": "KOL Theme Pack \u2013 Luxury Apartment + Goth Variants",
+  "version": "1.0.0",
+  "updatedAt": "2025-11-19T07:10:12.654263Z",
+  "schema": "https://kolshub/theme-schema/v1",
+  "presets": [
+    {
+      "id": "modern-noir-penthouse",
+      "name": "Modern Noir Penthouse",
+      "palette": {
+        "bg": "#0C0D10",
+        "surface": "#14161A",
+        "text": "#EDEFF2",
+        "muted": "#A8AFBF",
+        "brand": "#D4AF37",
+        "accent": "#7BD1FF"
+      },
+      "materials": {
+        "wood": "walnut",
+        "stone": "marquina",
+        "metal": "brass"
+      },
+      "lighting": {
+        "kelvin": 2900,
+        "contrast": 0.85,
+        "edgeGlow": 0.2
+      },
+      "radius": {
+        "card": 24,
+        "control": 14
+      },
+      "elevation": {
+        "low": "0 2px 8px rgba(0,0,0,.35)",
+        "high": "0 10px 30px rgba(0,0,0,.45)"
+      },
+      "textures": {
+        "surface": "glass"
+      },
+      "motion": {
+        "easing": "cubic-bezier(.2,.8,.2,1)",
+        "durationMs": 320
+      },
+      "beatReactivity": {
+        "intensity": 0.4,
+        "bands": [
+          60,
+          120,
+          240
+        ]
+      },
+      "typography": {
+        "display": "Cinzel",
+        "text": "Inter"
+      }
+    },
+    {
+      "id": "dark-velvet",
+      "name": "Dark Velvet",
+      "palette": {
+        "bg": "#0C0D10",
+        "surface": "#15121B",
+        "text": "#EDEFF2",
+        "muted": "#A8AFBF",
+        "brand": "#C0B7D1",
+        "accent": "#8B5CF6"
+      },
+      "materials": {
+        "wood": "walnut",
+        "stone": "marquina",
+        "metal": "brass"
+      },
+      "lighting": {
+        "kelvin": 2900,
+        "contrast": 0.85,
+        "edgeGlow": 0.2
+      },
+      "radius": {
+        "card": 24,
+        "control": 14
+      },
+      "elevation": {
+        "low": "0 2px 8px rgba(0,0,0,.35)",
+        "high": "0 10px 30px rgba(0,0,0,.45)"
+      },
+      "textures": {
+        "surface": "velvet"
+      },
+      "motion": {
+        "easing": "cubic-bezier(.2,.8,.2,1)",
+        "durationMs": 320
+      },
+      "beatReactivity": {
+        "intensity": 0.4,
+        "bands": [
+          60,
+          120,
+          240
+        ]
+      },
+      "typography": {
+        "display": "Cinzel",
+        "text": "Inter"
+      }
+    },
+    {
+      "id": "warm-art-deco-luxe",
+      "name": "Warm Art\u2011Deco Luxe",
+      "palette": {
+        "bg": "#0C0D10",
+        "surface": "#14161A",
+        "text": "#EDEFF2",
+        "muted": "#A8AFBF",
+        "brand": "#D9B070",
+        "accent": "#EEC97D"
+      },
+      "materials": {
+        "wood": "walnut",
+        "stone": "marquina",
+        "metal": "brass"
+      },
+      "lighting": {
+        "kelvin": 3000,
+        "contrast": 0.9,
+        "edgeGlow": 0.2
+      },
+      "radius": {
+        "card": 24,
+        "control": 14
+      },
+      "elevation": {
+        "low": "0 2px 8px rgba(0,0,0,.35)",
+        "high": "0 10px 30px rgba(0,0,0,.45)"
+      },
+      "textures": {
+        "surface": "glass"
+      },
+      "motion": {
+        "easing": "cubic-bezier(.2,.8,.2,1)",
+        "durationMs": 320
+      },
+      "beatReactivity": {
+        "intensity": 0.4,
+        "bands": [
+          60,
+          120,
+          240
+        ]
+      },
+      "typography": {
+        "display": "Cinzel",
+        "text": "Inter"
+      }
+    },
+    {
+      "id": "cyber-deco-nightclub",
+      "name": "Cyber\u2011Deco Nightclub",
+      "palette": {
+        "bg": "#0C0D10",
+        "surface": "#0E0F14",
+        "text": "#EDEFF2",
+        "muted": "#A8AFBF",
+        "brand": "#C0C0C0",
+        "accent": "#00E5FF"
+      },
+      "materials": {
+        "wood": "walnut",
+        "stone": "marquina",
+        "metal": "chrome"
+      },
+      "lighting": {
+        "kelvin": 2900,
+        "contrast": 0.95,
+        "edgeGlow": 0.2
+      },
+      "radius": {
+        "card": 24,
+        "control": 14
+      },
+      "elevation": {
+        "low": "0 2px 8px rgba(0,0,0,.35)",
+        "high": "0 10px 30px rgba(0,0,0,.45)"
+      },
+      "textures": {
+        "surface": "glass"
+      },
+      "motion": {
+        "easing": "cubic-bezier(.2,.8,.2,1)",
+        "durationMs": 320
+      },
+      "beatReactivity": {
+        "intensity": 0.4,
+        "bands": [
+          60,
+          120,
+          240
+        ]
+      },
+      "typography": {
+        "display": "Cinzel",
+        "text": "Inter"
+      }
+    },
+    {
+      "id": "brutalist-monastery",
+      "name": "Brutalist Monastery",
+      "palette": {
+        "bg": "#0C0D10",
+        "surface": "#121314",
+        "text": "#EDEFF2",
+        "muted": "#A8AFBF",
+        "brand": "#BBA36A",
+        "accent": "#8D8F93"
+      },
+      "materials": {
+        "wood": "none",
+        "stone": "concrete",
+        "metal": "iron"
+      },
+      "lighting": {
+        "kelvin": 2900,
+        "contrast": 0.85,
+        "edgeGlow": 0.2
+      },
+      "radius": {
+        "card": 24,
+        "control": 14
+      },
+      "elevation": {
+        "low": "0 2px 8px rgba(0,0,0,.35)",
+        "high": "0 10px 30px rgba(0,0,0,.45)"
+      },
+      "textures": {
+        "surface": "concrete"
+      },
+      "motion": {
+        "easing": "cubic-bezier(.2,.8,.2,1)",
+        "durationMs": 320
+      },
+      "beatReactivity": {
+        "intensity": 0.4,
+        "bands": [
+          60,
+          120,
+          240
+        ]
+      },
+      "typography": {
+        "display": "Cinzel",
+        "text": "Inter"
+      }
+    },
+    {
+      "id": "neo-baroque-salon",
+      "name": "Neo\u2011Baroque Salon",
+      "palette": {
+        "bg": "#0C0D10",
+        "surface": "#1A1212",
+        "text": "#EDEFF2",
+        "muted": "#A8AFBF",
+        "brand": "#D4AF37",
+        "accent": "#803A3A"
+      },
+      "materials": {
+        "wood": "walnut",
+        "stone": "marquina",
+        "metal": "brass"
+      },
+      "lighting": {
+        "kelvin": 2900,
+        "contrast": 0.85,
+        "edgeGlow": 0.2
+      },
+      "radius": {
+        "card": 24,
+        "control": 14
+      },
+      "elevation": {
+        "low": "0 2px 8px rgba(0,0,0,.35)",
+        "high": "0 10px 30px rgba(0,0,0,.45)"
+      },
+      "textures": {
+        "surface": "marble"
+      },
+      "motion": {
+        "easing": "cubic-bezier(.2,.8,.2,1)",
+        "durationMs": 320
+      },
+      "beatReactivity": {
+        "intensity": 0.4,
+        "bands": [
+          60,
+          120,
+          240
+        ]
+      },
+      "typography": {
+        "display": "Cinzel",
+        "text": "Inter"
+      }
+    },
+    {
+      "id": "witchy-cottage-noir",
+      "name": "Witchy Cottage Noir",
+      "palette": {
+        "bg": "#0C0D10",
+        "surface": "#14161A",
+        "text": "#EDEFF2",
+        "muted": "#A8AFBF",
+        "brand": "#6FAF7A",
+        "accent": "#7C5C99"
+      },
+      "materials": {
+        "wood": "oak",
+        "stone": "marquina",
+        "metal": "brass"
+      },
+      "lighting": {
+        "kelvin": 2800,
+        "contrast": 0.85,
+        "edgeGlow": 0.3
+      },
+      "radius": {
+        "card": 24,
+        "control": 14
+      },
+      "elevation": {
+        "low": "0 2px 8px rgba(0,0,0,.35)",
+        "high": "0 10px 30px rgba(0,0,0,.45)"
+      },
+      "textures": {
+        "surface": "glass"
+      },
+      "motion": {
+        "easing": "cubic-bezier(.2,.8,.2,1)",
+        "durationMs": 320
+      },
+      "beatReactivity": {
+        "intensity": 0.4,
+        "bands": [
+          60,
+          120,
+          240
+        ]
+      },
+      "typography": {
+        "display": "Cinzel",
+        "text": "Inter"
+      }
+    },
+    {
+      "id": "industrial-loft",
+      "name": "Industrial Loft",
+      "palette": {
+        "bg": "#0C0D10",
+        "surface": "#14161A",
+        "text": "#EDEFF2",
+        "muted": "#A8AFBF",
+        "brand": "#C28E5E",
+        "accent": "#F5A97F"
+      },
+      "materials": {
+        "wood": "walnut",
+        "stone": "marquina",
+        "metal": "iron"
+      },
+      "lighting": {
+        "kelvin": 2900,
+        "contrast": 0.9,
+        "edgeGlow": 0.2
+      },
+      "radius": {
+        "card": 24,
+        "control": 14
+      },
+      "elevation": {
+        "low": "0 2px 8px rgba(0,0,0,.35)",
+        "high": "0 10px 30px rgba(0,0,0,.45)"
+      },
+      "textures": {
+        "surface": "glass"
+      },
+      "motion": {
+        "easing": "cubic-bezier(.2,.8,.2,1)",
+        "durationMs": 320
+      },
+      "beatReactivity": {
+        "intensity": 0.4,
+        "bands": [
+          60,
+          120,
+          240
+        ]
+      },
+      "typography": {
+        "display": "Cinzel",
+        "text": "Inter"
+      }
+    },
+    {
+      "id": "sola-punk-conservatory",
+      "name": "Sola\u2011Punk Conservatory",
+      "palette": {
+        "bg": "#0C0D10",
+        "surface": "#14161A",
+        "text": "#EDEFF2",
+        "muted": "#A8AFBF",
+        "brand": "#7FB069",
+        "accent": "#7BD1FF"
+      },
+      "materials": {
+        "wood": "walnut",
+        "stone": "marquina",
+        "metal": "copper"
+      },
+      "lighting": {
+        "kelvin": 2900,
+        "contrast": 0.85,
+        "edgeGlow": 0.2
+      },
+      "radius": {
+        "card": 24,
+        "control": 14
+      },
+      "elevation": {
+        "low": "0 2px 8px rgba(0,0,0,.35)",
+        "high": "0 10px 30px rgba(0,0,0,.45)"
+      },
+      "textures": {
+        "surface": "glass"
+      },
+      "motion": {
+        "easing": "cubic-bezier(.2,.8,.2,1)",
+        "durationMs": 320
+      },
+      "beatReactivity": {
+        "intensity": 0.4,
+        "bands": [
+          60,
+          120,
+          240
+        ]
+      },
+      "typography": {
+        "display": "Cinzel",
+        "text": "Inter"
+      }
+    },
+    {
+      "id": "kintsugi-minimal",
+      "name": "Kintsugi Minimal",
+      "palette": {
+        "bg": "#0A0B0C",
+        "surface": "#101214",
+        "text": "#F1F1F1",
+        "muted": "#A8AFBF",
+        "brand": "#D4AF37",
+        "accent": "#FFFFFF"
+      },
+      "materials": {
+        "wood": "walnut",
+        "stone": "marquina",
+        "metal": "brass"
+      },
+      "lighting": {
+        "kelvin": 2900,
+        "contrast": 0.85,
+        "edgeGlow": 0.2
+      },
+      "radius": {
+        "card": 24,
+        "control": 14
+      },
+      "elevation": {
+        "low": "0 2px 8px rgba(0,0,0,.35)",
+        "high": "0 10px 30px rgba(0,0,0,.45)"
+      },
+      "textures": {
+        "surface": "marble"
+      },
+      "motion": {
+        "easing": "cubic-bezier(.2,.8,.2,1)",
+        "durationMs": 320
+      },
+      "beatReactivity": {
+        "intensity": 0.4,
+        "bands": [
+          60,
+          120,
+          240
+        ]
+      },
+      "typography": {
+        "display": "Cinzel",
+        "text": "Inter"
+      }
+    },
+    {
+      "id": "desert-night-riad",
+      "name": "Desert Night Riad",
+      "palette": {
+        "bg": "#0C0D10",
+        "surface": "#14161A",
+        "text": "#EDEFF2",
+        "muted": "#A8AFBF",
+        "brand": "#B87333",
+        "accent": "#2F3A75"
+      },
+      "materials": {
+        "wood": "walnut",
+        "stone": "marquina",
+        "metal": "brass"
+      },
+      "lighting": {
+        "kelvin": 3100,
+        "contrast": 0.85,
+        "edgeGlow": 0.2
+      },
+      "radius": {
+        "card": 24,
+        "control": 14
+      },
+      "elevation": {
+        "low": "0 2px 8px rgba(0,0,0,.35)",
+        "high": "0 10px 30px rgba(0,0,0,.45)"
+      },
+      "textures": {
+        "surface": "glass"
+      },
+      "motion": {
+        "easing": "cubic-bezier(.2,.8,.2,1)",
+        "durationMs": 320
+      },
+      "beatReactivity": {
+        "intensity": 0.4,
+        "bands": [
+          60,
+          120,
+          240
+        ]
+      },
+      "typography": {
+        "display": "Cinzel",
+        "text": "Inter"
+      }
+    },
+    {
+      "id": "cathedral-techno",
+      "name": "Cathedral Techno",
+      "palette": {
+        "bg": "#0C0D10",
+        "surface": "#14161A",
+        "text": "#EDEFF2",
+        "muted": "#A8AFBF",
+        "brand": "#B6B3E5",
+        "accent": "#7BD1FF"
+      },
+      "materials": {
+        "wood": "walnut",
+        "stone": "marquina",
+        "metal": "brass"
+      },
+      "lighting": {
+        "kelvin": 2900,
+        "contrast": 0.95,
+        "edgeGlow": 0.35
+      },
+      "radius": {
+        "card": 24,
+        "control": 14
+      },
+      "elevation": {
+        "low": "0 2px 8px rgba(0,0,0,.35)",
+        "high": "0 10px 30px rgba(0,0,0,.45)"
+      },
+      "textures": {
+        "surface": "glass"
+      },
+      "motion": {
+        "easing": "cubic-bezier(.2,.8,.2,1)",
+        "durationMs": 320
+      },
+      "beatReactivity": {
+        "intensity": 0.4,
+        "bands": [
+          60,
+          120,
+          240
+        ]
+      },
+      "typography": {
+        "display": "Cinzel",
+        "text": "Inter"
+      }
+    },
+    {
+      "id": "vaporwave-boudoir",
+      "name": "Vaporwave Boudoir",
+      "palette": {
+        "bg": "#0C0D10",
+        "surface": "#151226",
+        "text": "#EDEFF2",
+        "muted": "#A8AFBF",
+        "brand": "#FF7EB6",
+        "accent": "#6EE7F9"
+      },
+      "materials": {
+        "wood": "walnut",
+        "stone": "marquina",
+        "metal": "brass"
+      },
+      "lighting": {
+        "kelvin": 3200,
+        "contrast": 0.85,
+        "edgeGlow": 0.2
+      },
+      "radius": {
+        "card": 24,
+        "control": 14
+      },
+      "elevation": {
+        "low": "0 2px 8px rgba(0,0,0,.35)",
+        "high": "0 10px 30px rgba(0,0,0,.45)"
+      },
+      "textures": {
+        "surface": "glass"
+      },
+      "motion": {
+        "easing": "cubic-bezier(.2,.8,.2,1)",
+        "durationMs": 320
+      },
+      "beatReactivity": {
+        "intensity": 0.4,
+        "bands": [
+          60,
+          120,
+          240
+        ]
+      },
+      "typography": {
+        "display": "Cinzel",
+        "text": "Inter"
+      }
+    },
+    {
+      "id": "arctic-marble-gallery",
+      "name": "Arctic Marble Gallery",
+      "palette": {
+        "bg": "#0E1114",
+        "surface": "#11161C",
+        "text": "#EDEFF2",
+        "muted": "#A8AFBF",
+        "brand": "#C8D0DA",
+        "accent": "#A5D8FF"
+      },
+      "materials": {
+        "wood": "walnut",
+        "stone": "marble",
+        "metal": "brass"
+      },
+      "lighting": {
+        "kelvin": 4200,
+        "contrast": 0.88,
+        "edgeGlow": 0.2
+      },
+      "radius": {
+        "card": 24,
+        "control": 14
+      },
+      "elevation": {
+        "low": "0 2px 8px rgba(0,0,0,.35)",
+        "high": "0 10px 30px rgba(0,0,0,.45)"
+      },
+      "textures": {
+        "surface": "glass"
+      },
+      "motion": {
+        "easing": "cubic-bezier(.2,.8,.2,1)",
+        "durationMs": 320
+      },
+      "beatReactivity": {
+        "intensity": 0.4,
+        "bands": [
+          60,
+          120,
+          240
+        ]
+      },
+      "typography": {
+        "display": "Cinzel",
+        "text": "Inter"
+      }
+    },
+    {
+      "id": "goth-regency-study",
+      "name": "Goth Regency Study",
+      "palette": {
+        "bg": "#0C0D10",
+        "surface": "#181112",
+        "text": "#EDEFF2",
+        "muted": "#A8AFBF",
+        "brand": "#C5977D",
+        "accent": "#8B3A3A"
+      },
+      "materials": {
+        "wood": "walnut",
+        "stone": "marquina",
+        "metal": "brass"
+      },
+      "lighting": {
+        "kelvin": 2800,
+        "contrast": 0.85,
+        "edgeGlow": 0.2
+      },
+      "radius": {
+        "card": 24,
+        "control": 14
+      },
+      "elevation": {
+        "low": "0 2px 8px rgba(0,0,0,.35)",
+        "high": "0 10px 30px rgba(0,0,0,.45)"
+      },
+      "textures": {
+        "surface": "glass"
+      },
+      "motion": {
+        "easing": "cubic-bezier(.2,.8,.2,1)",
+        "durationMs": 320
+      },
+      "beatReactivity": {
+        "intensity": 0.4,
+        "bands": [
+          60,
+          120,
+          240
+        ]
+      },
+      "typography": {
+        "display": "Cinzel",
+        "text": "Inter"
+      }
+    }
+  ]
+}

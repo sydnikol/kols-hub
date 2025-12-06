@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">Unified Mega App</string>
-    <string name="title_activity_main">Unified Mega App</string>
+    <string name="app_name">Kol\'s Hub</string>
+    <string name="title_activity_main">Kol\'s Hub</string>
     <string name="package_name">com.unified.megaapp</string>
     <string name="custom_url_scheme">com.unified.megaapp</string>
 </resources>

@@ -173,7 +173,7 @@ A **fully playable D&D 5e game** right in your app! Play solo or with friends - 
 2. **Exploration** - Discover the world
 3. **Combat** - Tactical battles
 4. **Rest** - Recover HP and spells
-5. **Shopping** - Buy equipment (coming soon)
+5. **Shopping** - Buy Equipment ✅ NOW AVAILABLE
 
 ---
 

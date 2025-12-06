@@ -1,0 +1,2607 @@
+{
+  "module": "Food Ideas",
+  "version": "1.0",
+  "generated_at": "2025-11-18",
+  "items": [
+    {
+      "id": "food_001",
+      "name": "East Asia Snacks Idea 1",
+      "category": "Snacks & Small Bites",
+      "origin": "East Asia",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 20,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_002",
+      "name": "Fusion Snacks Idea 2",
+      "category": "Snacks & Small Bites",
+      "origin": "Fusion",
+      "tags": [
+        "low-spoon",
+        "quick"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 25,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_003",
+      "name": "Mediterranean Drinks Idea 3",
+      "category": "Drinks & Hydration",
+      "origin": "Mediterranean",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 15,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_004",
+      "name": "Caribbean Stews Idea 4",
+      "category": "Stews & Braises",
+      "origin": "Caribbean",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 15,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_005",
+      "name": "Fusion Snacks Idea 5",
+      "category": "Snacks & Small Bites",
+      "origin": "Fusion",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 25,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_006",
+      "name": "Fusion Lunch Bowls Idea 6",
+      "category": "Lunch Bowls",
+      "origin": "Fusion",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 5,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_007",
+      "name": "American South Dinner Idea 7",
+      "category": "Dinner & Hearty Meals",
+      "origin": "American South",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 40,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_008",
+      "name": "Southeast Asia Dinner Idea 8",
+      "category": "Dinner & Hearty Meals",
+      "origin": "Southeast Asia",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 25,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_009",
+      "name": "West Africa Stews Idea 9",
+      "category": "Stews & Braises",
+      "origin": "West Africa",
+      "tags": [
+        "low-spoon",
+        "salty"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 30,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_010",
+      "name": "Southeast Asia Snacks Idea 10",
+      "category": "Snacks & Small Bites",
+      "origin": "Southeast Asia",
+      "tags": [
+        "low-spoon",
+        "quick"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 40,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_011",
+      "name": "Southeast Asia Breakfast Idea 11",
+      "category": "Breakfast & Morning Comforts",
+      "origin": "Southeast Asia",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 10,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_012",
+      "name": "Latin America Lunch Bowls Idea 12",
+      "category": "Lunch Bowls",
+      "origin": "Latin America",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 25,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_013",
+      "name": "Southeast Asia Soups Idea 13",
+      "category": "Soups & Broths",
+      "origin": "Southeast Asia",
+      "tags": [
+        "low-spoon",
+        "quick"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 40,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_014",
+      "name": "Latin America Soups Idea 14",
+      "category": "Soups & Broths",
+      "origin": "Latin America",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 20,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_015",
+      "name": "Fusion Drinks Idea 15",
+      "category": "Drinks & Hydration",
+      "origin": "Fusion",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 15,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_016",
+      "name": "Latin America Stews Idea 16",
+      "category": "Stews & Braises",
+      "origin": "Latin America",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 5,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_017",
+      "name": "West Africa Soups Idea 17",
+      "category": "Soups & Broths",
+      "origin": "West Africa",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 25,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_018",
+      "name": "West Africa Lunch Bowls Idea 18",
+      "category": "Lunch Bowls",
+      "origin": "West Africa",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 10,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_019",
+      "name": "American South Rice Idea 19",
+      "category": "Rice & Noodle Dishes",
+      "origin": "American South",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 30,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_020",
+      "name": "Fusion Rice Idea 20",
+      "category": "Rice & Noodle Dishes",
+      "origin": "Fusion",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 15,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_021",
+      "name": "East Asia Breakfast Idea 21",
+      "category": "Breakfast & Morning Comforts",
+      "origin": "East Asia",
+      "tags": [
+        "low-spoon",
+        "quick"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 15,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_022",
+      "name": "West Africa Dinner Idea 22",
+      "category": "Dinner & Hearty Meals",
+      "origin": "West Africa",
+      "tags": [
+        "low-spoon",
+        "quick"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 5,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_023",
+      "name": "Caribbean Snacks Idea 23",
+      "category": "Snacks & Small Bites",
+      "origin": "Caribbean",
+      "tags": [
+        "low-spoon",
+        "salty"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 25,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_024",
+      "name": "Caribbean Stews Idea 24",
+      "category": "Stews & Braises",
+      "origin": "Caribbean",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 25,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_025",
+      "name": "Latin America Snacks Idea 25",
+      "category": "Snacks & Small Bites",
+      "origin": "Latin America",
+      "tags": [
+        "low-spoon",
+        "quick"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 30,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_026",
+      "name": "American South Snacks Idea 26",
+      "category": "Snacks & Small Bites",
+      "origin": "American South",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 25,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_027",
+      "name": "Latin America Stews Idea 27",
+      "category": "Stews & Braises",
+      "origin": "Latin America",
+      "tags": [
+        "low-spoon",
+        "quick"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 30,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_028",
+      "name": "East Asia Stews Idea 28",
+      "category": "Stews & Braises",
+      "origin": "East Asia",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 25,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_029",
+      "name": "West Africa Rice Idea 29",
+      "category": "Rice & Noodle Dishes",
+      "origin": "West Africa",
+      "tags": [
+        "low-spoon",
+        "salty"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 30,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_030",
+      "name": "Mediterranean Snacks Idea 30",
+      "category": "Snacks & Small Bites",
+      "origin": "Mediterranean",
+      "tags": [
+        "low-spoon",
+        "salty"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 15,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_031",
+      "name": "Southeast Asia Soups Idea 31",
+      "category": "Soups & Broths",
+      "origin": "Southeast Asia",
+      "tags": [
+        "low-spoon",
+        "salty"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 5,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_032",
+      "name": "Mediterranean Stews Idea 32",
+      "category": "Stews & Braises",
+      "origin": "Mediterranean",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 25,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_033",
+      "name": "Southeast Asia Rice Idea 33",
+      "category": "Rice & Noodle Dishes",
+      "origin": "Southeast Asia",
+      "tags": [
+        "low-spoon",
+        "salty"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 40,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_034",
+      "name": "Caribbean Snacks Idea 34",
+      "category": "Snacks & Small Bites",
+      "origin": "Caribbean",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 10,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_035",
+      "name": "Caribbean Drinks Idea 35",
+      "category": "Drinks & Hydration",
+      "origin": "Caribbean",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 15,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_036",
+      "name": "Latin America Stews Idea 36",
+      "category": "Stews & Braises",
+      "origin": "Latin America",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 5,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_037",
+      "name": "West Africa Snacks Idea 37",
+      "category": "Snacks & Small Bites",
+      "origin": "West Africa",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 20,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_038",
+      "name": "Southeast Asia Breakfast Idea 38",
+      "category": "Breakfast & Morning Comforts",
+      "origin": "Southeast Asia",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 30,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_039",
+      "name": "American South Lunch Bowls Idea 39",
+      "category": "Lunch Bowls",
+      "origin": "American South",
+      "tags": [
+        "low-spoon",
+        "quick"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 30,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_040",
+      "name": "Southeast Asia Drinks Idea 40",
+      "category": "Drinks & Hydration",
+      "origin": "Southeast Asia",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 5,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_041",
+      "name": "West Africa Soups Idea 41",
+      "category": "Soups & Broths",
+      "origin": "West Africa",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 10,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_042",
+      "name": "Mediterranean Dinner Idea 42",
+      "category": "Dinner & Hearty Meals",
+      "origin": "Mediterranean",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 30,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_043",
+      "name": "Caribbean Soups Idea 43",
+      "category": "Soups & Broths",
+      "origin": "Caribbean",
+      "tags": [
+        "low-spoon",
+        "salty"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 25,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_044",
+      "name": "West Africa Snacks Idea 44",
+      "category": "Snacks & Small Bites",
+      "origin": "West Africa",
+      "tags": [
+        "low-spoon",
+        "quick"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 30,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_045",
+      "name": "Mediterranean Dinner Idea 45",
+      "category": "Dinner & Hearty Meals",
+      "origin": "Mediterranean",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 40,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_046",
+      "name": "Fusion Dinner Idea 46",
+      "category": "Dinner & Hearty Meals",
+      "origin": "Fusion",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 5,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_047",
+      "name": "Latin America Snacks Idea 47",
+      "category": "Snacks & Small Bites",
+      "origin": "Latin America",
+      "tags": [
+        "low-spoon",
+        "salty"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 30,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_048",
+      "name": "American South Stews Idea 48",
+      "category": "Stews & Braises",
+      "origin": "American South",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 10,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_049",
+      "name": "West Africa Stews Idea 49",
+      "category": "Stews & Braises",
+      "origin": "West Africa",
+      "tags": [
+        "low-spoon",
+        "quick"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 10,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_050",
+      "name": "Fusion Lunch Bowls Idea 50",
+      "category": "Lunch Bowls",
+      "origin": "Fusion",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 30,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_051",
+      "name": "East Asia Lunch Bowls Idea 51",
+      "category": "Lunch Bowls",
+      "origin": "East Asia",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 25,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_052",
+      "name": "Caribbean Stews Idea 52",
+      "category": "Stews & Braises",
+      "origin": "Caribbean",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 30,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_053",
+      "name": "American South Lunch Bowls Idea 53",
+      "category": "Lunch Bowls",
+      "origin": "American South",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 25,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_054",
+      "name": "Caribbean Snacks Idea 54",
+      "category": "Snacks & Small Bites",
+      "origin": "Caribbean",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 15,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_055",
+      "name": "West Africa Drinks Idea 55",
+      "category": "Drinks & Hydration",
+      "origin": "West Africa",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 30,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_056",
+      "name": "Southeast Asia Stews Idea 56",
+      "category": "Stews & Braises",
+      "origin": "Southeast Asia",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 15,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_057",
+      "name": "Fusion Breakfast Idea 57",
+      "category": "Breakfast & Morning Comforts",
+      "origin": "Fusion",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 10,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_058",
+      "name": "Fusion Lunch Bowls Idea 58",
+      "category": "Lunch Bowls",
+      "origin": "Fusion",
+      "tags": [
+        "low-spoon",
+        "quick"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 25,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_059",
+      "name": "Caribbean Drinks Idea 59",
+      "category": "Drinks & Hydration",
+      "origin": "Caribbean",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 30,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_060",
+      "name": "East Asia Drinks Idea 60",
+      "category": "Drinks & Hydration",
+      "origin": "East Asia",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 5,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_061",
+      "name": "Mediterranean Drinks Idea 61",
+      "category": "Drinks & Hydration",
+      "origin": "Mediterranean",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 40,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_062",
+      "name": "American South Rice Idea 62",
+      "category": "Rice & Noodle Dishes",
+      "origin": "American South",
+      "tags": [
+        "low-spoon",
+        "salty"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 40,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_063",
+      "name": "Latin America Soups Idea 63",
+      "category": "Soups & Broths",
+      "origin": "Latin America",
+      "tags": [
+        "low-spoon",
+        "salty"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 25,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_064",
+      "name": "Mediterranean Dinner Idea 64",
+      "category": "Dinner & Hearty Meals",
+      "origin": "Mediterranean",
+      "tags": [
+        "low-spoon",
+        "salty"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 20,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_065",
+      "name": "West Africa Dinner Idea 65",
+      "category": "Dinner & Hearty Meals",
+      "origin": "West Africa",
+      "tags": [
+        "low-spoon",
+        "quick"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 30,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_066",
+      "name": "Fusion Breakfast Idea 66",
+      "category": "Breakfast & Morning Comforts",
+      "origin": "Fusion",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 15,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_067",
+      "name": "Mediterranean Dinner Idea 67",
+      "category": "Dinner & Hearty Meals",
+      "origin": "Mediterranean",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 5,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_068",
+      "name": "Fusion Drinks Idea 68",
+      "category": "Drinks & Hydration",
+      "origin": "Fusion",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 40,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_069",
+      "name": "Caribbean Dinner Idea 69",
+      "category": "Dinner & Hearty Meals",
+      "origin": "Caribbean",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 25,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_070",
+      "name": "Southeast Asia Soups Idea 70",
+      "category": "Soups & Broths",
+      "origin": "Southeast Asia",
+      "tags": [
+        "low-spoon",
+        "quick"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 40,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_071",
+      "name": "Caribbean Drinks Idea 71",
+      "category": "Drinks & Hydration",
+      "origin": "Caribbean",
+      "tags": [
+        "low-spoon",
+        "quick"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 40,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_072",
+      "name": "Southeast Asia Snacks Idea 72",
+      "category": "Snacks & Small Bites",
+      "origin": "Southeast Asia",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 25,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_073",
+      "name": "American South Dinner Idea 73",
+      "category": "Dinner & Hearty Meals",
+      "origin": "American South",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 30,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_074",
+      "name": "Mediterranean Drinks Idea 74",
+      "category": "Drinks & Hydration",
+      "origin": "Mediterranean",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 25,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_075",
+      "name": "American South Stews Idea 75",
+      "category": "Stews & Braises",
+      "origin": "American South",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 5,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_076",
+      "name": "East Asia Drinks Idea 76",
+      "category": "Drinks & Hydration",
+      "origin": "East Asia",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 10,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_077",
+      "name": "Fusion Rice Idea 77",
+      "category": "Rice & Noodle Dishes",
+      "origin": "Fusion",
+      "tags": [
+        "low-spoon",
+        "salty"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 20,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_078",
+      "name": "Mediterranean Dinner Idea 78",
+      "category": "Dinner & Hearty Meals",
+      "origin": "Mediterranean",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 30,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_079",
+      "name": "East Asia Rice Idea 79",
+      "category": "Rice & Noodle Dishes",
+      "origin": "East Asia",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 30,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_080",
+      "name": "Fusion Rice Idea 80",
+      "category": "Rice & Noodle Dishes",
+      "origin": "Fusion",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 20,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_081",
+      "name": "East Asia Drinks Idea 81",
+      "category": "Drinks & Hydration",
+      "origin": "East Asia",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 15,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_082",
+      "name": "Caribbean Drinks Idea 82",
+      "category": "Drinks & Hydration",
+      "origin": "Caribbean",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 40,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_083",
+      "name": "Latin America Lunch Bowls Idea 83",
+      "category": "Lunch Bowls",
+      "origin": "Latin America",
+      "tags": [
+        "low-spoon",
+        "salty"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 20,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_084",
+      "name": "West Africa Stews Idea 84",
+      "category": "Stews & Braises",
+      "origin": "West Africa",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 15,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_085",
+      "name": "Mediterranean Soups Idea 85",
+      "category": "Soups & Broths",
+      "origin": "Mediterranean",
+      "tags": [
+        "low-spoon",
+        "quick"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 25,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_086",
+      "name": "East Asia Breakfast Idea 86",
+      "category": "Breakfast & Morning Comforts",
+      "origin": "East Asia",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 25,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_087",
+      "name": "Mediterranean Rice Idea 87",
+      "category": "Rice & Noodle Dishes",
+      "origin": "Mediterranean",
+      "tags": [
+        "low-spoon",
+        "salty"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 15,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_088",
+      "name": "American South Dinner Idea 88",
+      "category": "Dinner & Hearty Meals",
+      "origin": "American South",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 5,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_089",
+      "name": "Fusion Lunch Bowls Idea 89",
+      "category": "Lunch Bowls",
+      "origin": "Fusion",
+      "tags": [
+        "low-spoon",
+        "salty"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 15,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_090",
+      "name": "Latin America Soups Idea 90",
+      "category": "Soups & Broths",
+      "origin": "Latin America",
+      "tags": [
+        "low-spoon",
+        "quick"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 10,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_091",
+      "name": "Mediterranean Stews Idea 91",
+      "category": "Stews & Braises",
+      "origin": "Mediterranean",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 30,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_092",
+      "name": "Fusion Stews Idea 92",
+      "category": "Stews & Braises",
+      "origin": "Fusion",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 20,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_093",
+      "name": "Mediterranean Drinks Idea 93",
+      "category": "Drinks & Hydration",
+      "origin": "Mediterranean",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 25,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_094",
+      "name": "Southeast Asia Snacks Idea 94",
+      "category": "Snacks & Small Bites",
+      "origin": "Southeast Asia",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 25,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_095",
+      "name": "Fusion Breakfast Idea 95",
+      "category": "Breakfast & Morning Comforts",
+      "origin": "Fusion",
+      "tags": [
+        "low-spoon",
+        "salty"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 25,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_096",
+      "name": "Caribbean Soups Idea 96",
+      "category": "Soups & Broths",
+      "origin": "Caribbean",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 5,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_097",
+      "name": "Fusion Drinks Idea 97",
+      "category": "Drinks & Hydration",
+      "origin": "Fusion",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 30,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_098",
+      "name": "West Africa Drinks Idea 98",
+      "category": "Drinks & Hydration",
+      "origin": "West Africa",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 15,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_099",
+      "name": "Fusion Stews Idea 99",
+      "category": "Stews & Braises",
+      "origin": "Fusion",
+      "tags": [
+        "low-spoon",
+        "salty"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 30,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_100",
+      "name": "Southeast Asia Lunch Bowls Idea 100",
+      "category": "Lunch Bowls",
+      "origin": "Southeast Asia",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 30,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_101",
+      "name": "Caribbean Drinks Idea 101",
+      "category": "Drinks & Hydration",
+      "origin": "Caribbean",
+      "tags": [
+        "low-spoon",
+        "quick"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 30,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_102",
+      "name": "American South Soups Idea 102",
+      "category": "Soups & Broths",
+      "origin": "American South",
+      "tags": [
+        "low-spoon",
+        "quick"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 20,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_103",
+      "name": "East Asia Drinks Idea 103",
+      "category": "Drinks & Hydration",
+      "origin": "East Asia",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 40,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_104",
+      "name": "Southeast Asia Soups Idea 104",
+      "category": "Soups & Broths",
+      "origin": "Southeast Asia",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 15,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_105",
+      "name": "Mediterranean Rice Idea 105",
+      "category": "Rice & Noodle Dishes",
+      "origin": "Mediterranean",
+      "tags": [
+        "low-spoon",
+        "quick"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 15,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_106",
+      "name": "West Africa Drinks Idea 106",
+      "category": "Drinks & Hydration",
+      "origin": "West Africa",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 40,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_107",
+      "name": "West Africa Lunch Bowls Idea 107",
+      "category": "Lunch Bowls",
+      "origin": "West Africa",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 40,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_108",
+      "name": "American South Rice Idea 108",
+      "category": "Rice & Noodle Dishes",
+      "origin": "American South",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 40,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_109",
+      "name": "West Africa Snacks Idea 109",
+      "category": "Snacks & Small Bites",
+      "origin": "West Africa",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 20,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_110",
+      "name": "Mediterranean Rice Idea 110",
+      "category": "Rice & Noodle Dishes",
+      "origin": "Mediterranean",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 30,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_111",
+      "name": "West Africa Rice Idea 111",
+      "category": "Rice & Noodle Dishes",
+      "origin": "West Africa",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 15,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_112",
+      "name": "Southeast Asia Rice Idea 112",
+      "category": "Rice & Noodle Dishes",
+      "origin": "Southeast Asia",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 10,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_113",
+      "name": "Latin America Rice Idea 113",
+      "category": "Rice & Noodle Dishes",
+      "origin": "Latin America",
+      "tags": [
+        "low-spoon",
+        "salty"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 30,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_114",
+      "name": "Caribbean Dinner Idea 114",
+      "category": "Dinner & Hearty Meals",
+      "origin": "Caribbean",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 5,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_115",
+      "name": "American South Dinner Idea 115",
+      "category": "Dinner & Hearty Meals",
+      "origin": "American South",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 40,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_116",
+      "name": "East Asia Stews Idea 116",
+      "category": "Stews & Braises",
+      "origin": "East Asia",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 20,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_117",
+      "name": "Fusion Rice Idea 117",
+      "category": "Rice & Noodle Dishes",
+      "origin": "Fusion",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 10,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_118",
+      "name": "Southeast Asia Drinks Idea 118",
+      "category": "Drinks & Hydration",
+      "origin": "Southeast Asia",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 5,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_119",
+      "name": "Fusion Lunch Bowls Idea 119",
+      "category": "Lunch Bowls",
+      "origin": "Fusion",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 15,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_120",
+      "name": "American South Lunch Bowls Idea 120",
+      "category": "Lunch Bowls",
+      "origin": "American South",
+      "tags": [
+        "low-spoon",
+        "salty"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 40,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_121",
+      "name": "Caribbean Soups Idea 121",
+      "category": "Soups & Broths",
+      "origin": "Caribbean",
+      "tags": [
+        "low-spoon",
+        "salty"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 5,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_122",
+      "name": "Mediterranean Stews Idea 122",
+      "category": "Stews & Braises",
+      "origin": "Mediterranean",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 40,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_123",
+      "name": "Fusion Lunch Bowls Idea 123",
+      "category": "Lunch Bowls",
+      "origin": "Fusion",
+      "tags": [
+        "low-spoon",
+        "salty"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 20,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_124",
+      "name": "Latin America Breakfast Idea 124",
+      "category": "Breakfast & Morning Comforts",
+      "origin": "Latin America",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 10,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_125",
+      "name": "Caribbean Dinner Idea 125",
+      "category": "Dinner & Hearty Meals",
+      "origin": "Caribbean",
+      "tags": [
+        "low-spoon",
+        "salty"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 30,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_126",
+      "name": "Southeast Asia Dinner Idea 126",
+      "category": "Dinner & Hearty Meals",
+      "origin": "Southeast Asia",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 40,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_127",
+      "name": "Mediterranean Dinner Idea 127",
+      "category": "Dinner & Hearty Meals",
+      "origin": "Mediterranean",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 30,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_128",
+      "name": "Fusion Stews Idea 128",
+      "category": "Stews & Braises",
+      "origin": "Fusion",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 5,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_129",
+      "name": "Mediterranean Dinner Idea 129",
+      "category": "Dinner & Hearty Meals",
+      "origin": "Mediterranean",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 25,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_130",
+      "name": "West Africa Dinner Idea 130",
+      "category": "Dinner & Hearty Meals",
+      "origin": "West Africa",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 20,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_131",
+      "name": "Mediterranean Soups Idea 131",
+      "category": "Soups & Broths",
+      "origin": "Mediterranean",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 10,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_132",
+      "name": "Latin America Breakfast Idea 132",
+      "category": "Breakfast & Morning Comforts",
+      "origin": "Latin America",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 20,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_133",
+      "name": "Caribbean Stews Idea 133",
+      "category": "Stews & Braises",
+      "origin": "Caribbean",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 40,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_134",
+      "name": "Caribbean Rice Idea 134",
+      "category": "Rice & Noodle Dishes",
+      "origin": "Caribbean",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 40,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_135",
+      "name": "West Africa Drinks Idea 135",
+      "category": "Drinks & Hydration",
+      "origin": "West Africa",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 5,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_136",
+      "name": "Mediterranean Rice Idea 136",
+      "category": "Rice & Noodle Dishes",
+      "origin": "Mediterranean",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 30,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_137",
+      "name": "Caribbean Snacks Idea 137",
+      "category": "Snacks & Small Bites",
+      "origin": "Caribbean",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 10,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_138",
+      "name": "West Africa Drinks Idea 138",
+      "category": "Drinks & Hydration",
+      "origin": "West Africa",
+      "tags": [
+        "low-spoon",
+        "quick"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 5,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_139",
+      "name": "Caribbean Rice Idea 139",
+      "category": "Rice & Noodle Dishes",
+      "origin": "Caribbean",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 5,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_140",
+      "name": "Latin America Lunch Bowls Idea 140",
+      "category": "Lunch Bowls",
+      "origin": "Latin America",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 30,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_141",
+      "name": "Caribbean Breakfast Idea 141",
+      "category": "Breakfast & Morning Comforts",
+      "origin": "Caribbean",
+      "tags": [
+        "low-spoon",
+        "salty"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 5,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_142",
+      "name": "American South Breakfast Idea 142",
+      "category": "Breakfast & Morning Comforts",
+      "origin": "American South",
+      "tags": [
+        "low-spoon",
+        "quick"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 25,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_143",
+      "name": "Latin America Breakfast Idea 143",
+      "category": "Breakfast & Morning Comforts",
+      "origin": "Latin America",
+      "tags": [
+        "low-spoon",
+        "quick"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 20,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_144",
+      "name": "East Asia Rice Idea 144",
+      "category": "Rice & Noodle Dishes",
+      "origin": "East Asia",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 40,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_145",
+      "name": "Southeast Asia Dinner Idea 145",
+      "category": "Dinner & Hearty Meals",
+      "origin": "Southeast Asia",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 20,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_146",
+      "name": "East Asia Stews Idea 146",
+      "category": "Stews & Braises",
+      "origin": "East Asia",
+      "tags": [
+        "low-spoon",
+        "salty"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 40,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_147",
+      "name": "American South Dinner Idea 147",
+      "category": "Dinner & Hearty Meals",
+      "origin": "American South",
+      "tags": [
+        "low-spoon",
+        "salty"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 30,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_148",
+      "name": "East Asia Dinner Idea 148",
+      "category": "Dinner & Hearty Meals",
+      "origin": "East Asia",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 15,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_149",
+      "name": "Fusion Dinner Idea 149",
+      "category": "Dinner & Hearty Meals",
+      "origin": "Fusion",
+      "tags": [
+        "low-spoon",
+        "quick"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 30,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_150",
+      "name": "West Africa Stews Idea 150",
+      "category": "Stews & Braises",
+      "origin": "West Africa",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 30,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_151",
+      "name": "Fusion Breakfast Idea 151",
+      "category": "Breakfast & Morning Comforts",
+      "origin": "Fusion",
+      "tags": [
+        "low-spoon",
+        "salty"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 15,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_152",
+      "name": "Fusion Dinner Idea 152",
+      "category": "Dinner & Hearty Meals",
+      "origin": "Fusion",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 40,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_153",
+      "name": "Mediterranean Rice Idea 153",
+      "category": "Rice & Noodle Dishes",
+      "origin": "Mediterranean",
+      "tags": [
+        "low-spoon",
+        "quick"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 10,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_154",
+      "name": "Caribbean Stews Idea 154",
+      "category": "Stews & Braises",
+      "origin": "Caribbean",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 15,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_155",
+      "name": "Fusion Breakfast Idea 155",
+      "category": "Breakfast & Morning Comforts",
+      "origin": "Fusion",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 10,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_156",
+      "name": "West Africa Breakfast Idea 156",
+      "category": "Breakfast & Morning Comforts",
+      "origin": "West Africa",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 5,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_157",
+      "name": "Latin America Drinks Idea 157",
+      "category": "Drinks & Hydration",
+      "origin": "Latin America",
+      "tags": [
+        "low-spoon",
+        "salty"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 5,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_158",
+      "name": "Southeast Asia Soups Idea 158",
+      "category": "Soups & Broths",
+      "origin": "Southeast Asia",
+      "tags": [
+        "low-spoon",
+        "quick"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 5,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_159",
+      "name": "Mediterranean Snacks Idea 159",
+      "category": "Snacks & Small Bites",
+      "origin": "Mediterranean",
+      "tags": [
+        "low-spoon",
+        "quick"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 5,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_160",
+      "name": "Mediterranean Stews Idea 160",
+      "category": "Stews & Braises",
+      "origin": "Mediterranean",
+      "tags": [
+        "low-spoon",
+        "quick"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 20,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_161",
+      "name": "Southeast Asia Rice Idea 161",
+      "category": "Rice & Noodle Dishes",
+      "origin": "Southeast Asia",
+      "tags": [
+        "low-spoon",
+        "salty"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 10,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_162",
+      "name": "Caribbean Lunch Bowls Idea 162",
+      "category": "Lunch Bowls",
+      "origin": "Caribbean",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 15,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_163",
+      "name": "American South Dinner Idea 163",
+      "category": "Dinner & Hearty Meals",
+      "origin": "American South",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 30,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_164",
+      "name": "Caribbean Lunch Bowls Idea 164",
+      "category": "Lunch Bowls",
+      "origin": "Caribbean",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 20,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_165",
+      "name": "East Asia Soups Idea 165",
+      "category": "Soups & Broths",
+      "origin": "East Asia",
+      "tags": [
+        "low-spoon",
+        "salty"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 20,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_166",
+      "name": "Mediterranean Soups Idea 166",
+      "category": "Soups & Broths",
+      "origin": "Mediterranean",
+      "tags": [
+        "low-spoon",
+        "salty"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 10,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_167",
+      "name": "West Africa Dinner Idea 167",
+      "category": "Dinner & Hearty Meals",
+      "origin": "West Africa",
+      "tags": [
+        "low-spoon",
+        "quick"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 40,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_168",
+      "name": "West Africa Lunch Bowls Idea 168",
+      "category": "Lunch Bowls",
+      "origin": "West Africa",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 40,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_169",
+      "name": "American South Lunch Bowls Idea 169",
+      "category": "Lunch Bowls",
+      "origin": "American South",
+      "tags": [
+        "low-spoon",
+        "quick"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 20,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_170",
+      "name": "American South Stews Idea 170",
+      "category": "Stews & Braises",
+      "origin": "American South",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 30,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_171",
+      "name": "American South Dinner Idea 171",
+      "category": "Dinner & Hearty Meals",
+      "origin": "American South",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 25,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_172",
+      "name": "Caribbean Dinner Idea 172",
+      "category": "Dinner & Hearty Meals",
+      "origin": "Caribbean",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 40,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_173",
+      "name": "West Africa Dinner Idea 173",
+      "category": "Dinner & Hearty Meals",
+      "origin": "West Africa",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 10,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_174",
+      "name": "West Africa Lunch Bowls Idea 174",
+      "category": "Lunch Bowls",
+      "origin": "West Africa",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 20,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_175",
+      "name": "Fusion Snacks Idea 175",
+      "category": "Snacks & Small Bites",
+      "origin": "Fusion",
+      "tags": [
+        "low-spoon",
+        "salty"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 5,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_176",
+      "name": "Mediterranean Drinks Idea 176",
+      "category": "Drinks & Hydration",
+      "origin": "Mediterranean",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 10,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_177",
+      "name": "East Asia Soups Idea 177",
+      "category": "Soups & Broths",
+      "origin": "East Asia",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 10,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_178",
+      "name": "Mediterranean Soups Idea 178",
+      "category": "Soups & Broths",
+      "origin": "Mediterranean",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 10,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_179",
+      "name": "American South Stews Idea 179",
+      "category": "Stews & Braises",
+      "origin": "American South",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 15,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_180",
+      "name": "Southeast Asia Snacks Idea 180",
+      "category": "Snacks & Small Bites",
+      "origin": "Southeast Asia",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 40,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_181",
+      "name": "Latin America Dinner Idea 181",
+      "category": "Dinner & Hearty Meals",
+      "origin": "Latin America",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 5,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_182",
+      "name": "Caribbean Lunch Bowls Idea 182",
+      "category": "Lunch Bowls",
+      "origin": "Caribbean",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 25,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_183",
+      "name": "West Africa Lunch Bowls Idea 183",
+      "category": "Lunch Bowls",
+      "origin": "West Africa",
+      "tags": [
+        "low-spoon",
+        "quick"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 40,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_184",
+      "name": "American South Soups Idea 184",
+      "category": "Soups & Broths",
+      "origin": "American South",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 10,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_185",
+      "name": "Fusion Soups Idea 185",
+      "category": "Soups & Broths",
+      "origin": "Fusion",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 10,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_186",
+      "name": "Fusion Breakfast Idea 186",
+      "category": "Breakfast & Morning Comforts",
+      "origin": "Fusion",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 5,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_187",
+      "name": "Latin America Stews Idea 187",
+      "category": "Stews & Braises",
+      "origin": "Latin America",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 15,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_188",
+      "name": "Caribbean Rice Idea 188",
+      "category": "Rice & Noodle Dishes",
+      "origin": "Caribbean",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 20,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_189",
+      "name": "West Africa Rice Idea 189",
+      "category": "Rice & Noodle Dishes",
+      "origin": "West Africa",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 5,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_190",
+      "name": "Southeast Asia Drinks Idea 190",
+      "category": "Drinks & Hydration",
+      "origin": "Southeast Asia",
+      "tags": [
+        "low-spoon",
+        "quick"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 40,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_191",
+      "name": "American South Snacks Idea 191",
+      "category": "Snacks & Small Bites",
+      "origin": "American South",
+      "tags": [
+        "low-spoon",
+        "quick"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 30,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_192",
+      "name": "West Africa Rice Idea 192",
+      "category": "Rice & Noodle Dishes",
+      "origin": "West Africa",
+      "tags": [
+        "low-spoon",
+        "soft"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 20,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_193",
+      "name": "Mediterranean Lunch Bowls Idea 193",
+      "category": "Lunch Bowls",
+      "origin": "Mediterranean",
+      "tags": [
+        "low-spoon",
+        "comfort"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 40,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_194",
+      "name": "East Asia Lunch Bowls Idea 194",
+      "category": "Lunch Bowls",
+      "origin": "East Asia",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "low",
+      "prep_time_min": 20,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_195",
+      "name": "East Asia Lunch Bowls Idea 195",
+      "category": "Lunch Bowls",
+      "origin": "East Asia",
+      "tags": [
+        "low-spoon",
+        "salty"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 25,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_196",
+      "name": "East Asia Stews Idea 196",
+      "category": "Stews & Braises",
+      "origin": "East Asia",
+      "tags": [
+        "low-spoon",
+        "salty"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 30,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_197",
+      "name": "East Asia Soups Idea 197",
+      "category": "Soups & Broths",
+      "origin": "East Asia",
+      "tags": [
+        "low-spoon",
+        "quick"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 25,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_198",
+      "name": "Caribbean Drinks Idea 198",
+      "category": "Drinks & Hydration",
+      "origin": "Caribbean",
+      "tags": [
+        "low-spoon",
+        "quick"
+      ],
+      "energy_level": "high",
+      "prep_time_min": 30,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_199",
+      "name": "Mediterranean Stews Idea 199",
+      "category": "Stews & Braises",
+      "origin": "Mediterranean",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 5,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    },
+    {
+      "id": "food_200",
+      "name": "West Africa Lunch Bowls Idea 200",
+      "category": "Lunch Bowls",
+      "origin": "West Africa",
+      "tags": [
+        "low-spoon",
+        "hydrating"
+      ],
+      "energy_level": "medium",
+      "prep_time_min": 25,
+      "notes": "Chronic-illness-friendly meal idea placeholder."
+    }
+  ]
+}

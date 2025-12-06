@@ -1,0 +1,2603 @@
+[
+  {
+    "id": "art-1",
+    "title": "Gothic family portrait of a polycule in grayscale, soft film grain",
+    "tags": [
+      "goth",
+      "poly"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "mixed",
+    "mood": "soft",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-2",
+    "title": "Afrofuturist city at dusk powered by soundwaves",
+    "tags": [
+      "afrofuturism"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "digital",
+    "mood": "chaotic",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-3",
+    "title": "Wheelchair-as-throne: royal couture lookbook spread",
+    "tags": [
+      "art"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "photo",
+    "mood": "soft",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-4",
+    "title": "Shrine to tiny joys: pill case, fidget, tea bag, cat whisker",
+    "tags": [
+      "art"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "mixed",
+    "mood": "restful",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-5",
+    "title": "Anatomical heart made of braided locs + silver chains",
+    "tags": [
+      "art"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "photo",
+    "mood": "angsty",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-6",
+    "title": "Phone lock screen of your “inner weather” icons for pain/energy",
+    "tags": [
+      "art"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "painting",
+    "mood": "divine",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-7",
+    "title": "Kintsugi-style joints (gold seams on knees, shoulders, jaw)",
+    "tags": [
+      "art"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "mixed",
+    "mood": "restful",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-8",
+    "title": "Tarot deck card: “The Advocate” (megaphone, lilies, scales)",
+    "tags": [
+      "tarot"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "painting",
+    "mood": "soft",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-9",
+    "title": "MRI scan turned into neon subway map",
+    "tags": [
+      "art"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "photo",
+    "mood": "restful",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-10",
+    "title": "Cat deity DJing on a mixing board of stars",
+    "tags": [
+      "art"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "mixed",
+    "mood": "soft",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-11",
+    "title": "Bonus prompt #1: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "collage",
+    "mood": "angsty",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-12",
+    "title": "Bonus prompt #2: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "zine",
+    "mood": "chaotic",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-13",
+    "title": "Bonus prompt #3: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "painting",
+    "mood": "soft",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-14",
+    "title": "Bonus prompt #4: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "digital",
+    "mood": "chaotic",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-15",
+    "title": "Bonus prompt #5: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "digital",
+    "mood": "soft",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-16",
+    "title": "Bonus prompt #6: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "collage",
+    "mood": "tender",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-17",
+    "title": "Bonus prompt #7: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "zine",
+    "mood": "angsty",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-18",
+    "title": "Bonus prompt #8: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "zine",
+    "mood": "chaotic",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-19",
+    "title": "Bonus prompt #9: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "collage",
+    "mood": "soft",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-20",
+    "title": "Bonus prompt #10: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "painting",
+    "mood": "tender",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-21",
+    "title": "Bonus prompt #11: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "digital",
+    "mood": "angsty",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-22",
+    "title": "Bonus prompt #12: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "mixed",
+    "mood": "tender",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-23",
+    "title": "Bonus prompt #13: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "photo",
+    "mood": "restful",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-24",
+    "title": "Bonus prompt #14: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "digital",
+    "mood": "empowered",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-25",
+    "title": "Bonus prompt #15: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "digital",
+    "mood": "empowered",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-26",
+    "title": "Bonus prompt #16: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "photo",
+    "mood": "restful",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-27",
+    "title": "Bonus prompt #17: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "digital",
+    "mood": "chaotic",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-28",
+    "title": "Bonus prompt #18: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "painting",
+    "mood": "divine",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-29",
+    "title": "Bonus prompt #19: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "digital",
+    "mood": "empowered",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-30",
+    "title": "Bonus prompt #20: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "illustration",
+    "mood": "restful",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-31",
+    "title": "Bonus prompt #21: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "digital",
+    "mood": "tender",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-32",
+    "title": "Bonus prompt #22: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "mixed",
+    "mood": "angsty",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-33",
+    "title": "Bonus prompt #23: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "mixed",
+    "mood": "divine",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-34",
+    "title": "Bonus prompt #24: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "painting",
+    "mood": "tender",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-35",
+    "title": "Bonus prompt #25: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "photo",
+    "mood": "soft",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-36",
+    "title": "Bonus prompt #26: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "collage",
+    "mood": "empowered",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-37",
+    "title": "Bonus prompt #27: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "zine",
+    "mood": "empowered",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-38",
+    "title": "Bonus prompt #28: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "collage",
+    "mood": "restful",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-39",
+    "title": "Bonus prompt #29: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "digital",
+    "mood": "chaotic",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-40",
+    "title": "Bonus prompt #30: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "collage",
+    "mood": "tender",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-41",
+    "title": "Bonus prompt #31: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "zine",
+    "mood": "chaotic",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-42",
+    "title": "Bonus prompt #32: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "collage",
+    "mood": "empowered",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-43",
+    "title": "Bonus prompt #33: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "painting",
+    "mood": "soft",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-44",
+    "title": "Bonus prompt #34: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "painting",
+    "mood": "divine",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-45",
+    "title": "Bonus prompt #35: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "photo",
+    "mood": "chaotic",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-46",
+    "title": "Bonus prompt #36: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "mixed",
+    "mood": "tender",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-47",
+    "title": "Bonus prompt #37: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "illustration",
+    "mood": "chaotic",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-48",
+    "title": "Bonus prompt #38: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "painting",
+    "mood": "restful",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-49",
+    "title": "Bonus prompt #39: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "illustration",
+    "mood": "empowered",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-50",
+    "title": "Bonus prompt #40: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "zine",
+    "mood": "soft",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-51",
+    "title": "Bonus prompt #41: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "mixed",
+    "mood": "tender",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-52",
+    "title": "Bonus prompt #42: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "painting",
+    "mood": "chaotic",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-53",
+    "title": "Bonus prompt #43: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "zine",
+    "mood": "soft",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-54",
+    "title": "Bonus prompt #44: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "digital",
+    "mood": "divine",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-55",
+    "title": "Bonus prompt #45: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "mixed",
+    "mood": "angsty",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-56",
+    "title": "Bonus prompt #46: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "photo",
+    "mood": "chaotic",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-57",
+    "title": "Bonus prompt #47: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "mixed",
+    "mood": "restful",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-58",
+    "title": "Bonus prompt #48: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "zine",
+    "mood": "restful",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-59",
+    "title": "Bonus prompt #49: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "zine",
+    "mood": "restful",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-60",
+    "title": "Bonus prompt #50: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "mixed",
+    "mood": "soft",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-61",
+    "title": "Bonus prompt #51: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "painting",
+    "mood": "chaotic",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-62",
+    "title": "Bonus prompt #52: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "digital",
+    "mood": "chaotic",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-63",
+    "title": "Bonus prompt #53: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "painting",
+    "mood": "divine",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-64",
+    "title": "Bonus prompt #54: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "zine",
+    "mood": "chaotic",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-65",
+    "title": "Bonus prompt #55: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "photo",
+    "mood": "soft",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-66",
+    "title": "Bonus prompt #56: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "digital",
+    "mood": "empowered",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-67",
+    "title": "Bonus prompt #57: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "illustration",
+    "mood": "tender",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-68",
+    "title": "Bonus prompt #58: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "illustration",
+    "mood": "chaotic",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-69",
+    "title": "Bonus prompt #59: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "photo",
+    "mood": "empowered",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-70",
+    "title": "Bonus prompt #60: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "painting",
+    "mood": "empowered",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-71",
+    "title": "Bonus prompt #61: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "collage",
+    "mood": "tender",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-72",
+    "title": "Bonus prompt #62: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "digital",
+    "mood": "chaotic",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-73",
+    "title": "Bonus prompt #63: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "mixed",
+    "mood": "soft",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-74",
+    "title": "Bonus prompt #64: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "digital",
+    "mood": "restful",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-75",
+    "title": "Bonus prompt #65: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "zine",
+    "mood": "divine",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-76",
+    "title": "Bonus prompt #66: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "digital",
+    "mood": "empowered",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-77",
+    "title": "Bonus prompt #67: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "photo",
+    "mood": "tender",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-78",
+    "title": "Bonus prompt #68: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "illustration",
+    "mood": "empowered",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-79",
+    "title": "Bonus prompt #69: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "illustration",
+    "mood": "tender",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-80",
+    "title": "Bonus prompt #70: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "zine",
+    "mood": "soft",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-81",
+    "title": "Bonus prompt #71: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "painting",
+    "mood": "tender",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-82",
+    "title": "Bonus prompt #72: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "zine",
+    "mood": "chaotic",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-83",
+    "title": "Bonus prompt #73: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "mixed",
+    "mood": "divine",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-84",
+    "title": "Bonus prompt #74: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "illustration",
+    "mood": "tender",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-85",
+    "title": "Bonus prompt #75: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "illustration",
+    "mood": "tender",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-86",
+    "title": "Bonus prompt #76: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "digital",
+    "mood": "angsty",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-87",
+    "title": "Bonus prompt #77: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "illustration",
+    "mood": "tender",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-88",
+    "title": "Bonus prompt #78: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "photo",
+    "mood": "tender",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-89",
+    "title": "Bonus prompt #79: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "painting",
+    "mood": "restful",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-90",
+    "title": "Bonus prompt #80: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "digital",
+    "mood": "empowered",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-91",
+    "title": "Bonus prompt #81: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "digital",
+    "mood": "tender",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-92",
+    "title": "Bonus prompt #82: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "mixed",
+    "mood": "restful",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-93",
+    "title": "Bonus prompt #83: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "collage",
+    "mood": "chaotic",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-94",
+    "title": "Bonus prompt #84: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "mixed",
+    "mood": "soft",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-95",
+    "title": "Bonus prompt #85: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "painting",
+    "mood": "chaotic",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-96",
+    "title": "Bonus prompt #86: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "digital",
+    "mood": "angsty",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-97",
+    "title": "Bonus prompt #87: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "illustration",
+    "mood": "angsty",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-98",
+    "title": "Bonus prompt #88: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "zine",
+    "mood": "angsty",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-99",
+    "title": "Bonus prompt #89: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "collage",
+    "mood": "empowered",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-100",
+    "title": "Bonus prompt #90: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "photo",
+    "mood": "angsty",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-101",
+    "title": "Bonus prompt #91: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "photo",
+    "mood": "empowered",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-102",
+    "title": "Bonus prompt #92: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "illustration",
+    "mood": "empowered",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-103",
+    "title": "Bonus prompt #93: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "digital",
+    "mood": "angsty",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-104",
+    "title": "Bonus prompt #94: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "photo",
+    "mood": "divine",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-105",
+    "title": "Bonus prompt #95: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "photo",
+    "mood": "soft",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-106",
+    "title": "Bonus prompt #96: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "photo",
+    "mood": "soft",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-107",
+    "title": "Bonus prompt #97: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "photo",
+    "mood": "restful",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-108",
+    "title": "Bonus prompt #98: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "painting",
+    "mood": "empowered",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-109",
+    "title": "Bonus prompt #99: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "illustration",
+    "mood": "chaotic",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-110",
+    "title": "Bonus prompt #100: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "mixed",
+    "mood": "restful",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-111",
+    "title": "Bonus prompt #101: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "zine",
+    "mood": "soft",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-112",
+    "title": "Bonus prompt #102: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "painting",
+    "mood": "restful",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-113",
+    "title": "Bonus prompt #103: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "zine",
+    "mood": "angsty",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-114",
+    "title": "Bonus prompt #104: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "photo",
+    "mood": "restful",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-115",
+    "title": "Bonus prompt #105: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "illustration",
+    "mood": "chaotic",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-116",
+    "title": "Bonus prompt #106: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "collage",
+    "mood": "angsty",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-117",
+    "title": "Bonus prompt #107: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "zine",
+    "mood": "restful",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-118",
+    "title": "Bonus prompt #108: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "photo",
+    "mood": "chaotic",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-119",
+    "title": "Bonus prompt #109: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "digital",
+    "mood": "divine",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-120",
+    "title": "Bonus prompt #110: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "collage",
+    "mood": "restful",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-121",
+    "title": "Bonus prompt #111: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "collage",
+    "mood": "angsty",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-122",
+    "title": "Bonus prompt #112: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "photo",
+    "mood": "divine",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-123",
+    "title": "Bonus prompt #113: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "collage",
+    "mood": "divine",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-124",
+    "title": "Bonus prompt #114: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "photo",
+    "mood": "empowered",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-125",
+    "title": "Bonus prompt #115: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "digital",
+    "mood": "chaotic",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-126",
+    "title": "Bonus prompt #116: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "mixed",
+    "mood": "restful",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-127",
+    "title": "Bonus prompt #117: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "mixed",
+    "mood": "chaotic",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-128",
+    "title": "Bonus prompt #118: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "zine",
+    "mood": "restful",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-129",
+    "title": "Bonus prompt #119: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "illustration",
+    "mood": "restful",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-130",
+    "title": "Bonus prompt #120: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "collage",
+    "mood": "empowered",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-131",
+    "title": "Bonus prompt #121: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "illustration",
+    "mood": "angsty",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-132",
+    "title": "Bonus prompt #122: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "mixed",
+    "mood": "divine",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-133",
+    "title": "Bonus prompt #123: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "illustration",
+    "mood": "chaotic",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-134",
+    "title": "Bonus prompt #124: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "photo",
+    "mood": "empowered",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-135",
+    "title": "Bonus prompt #125: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "photo",
+    "mood": "divine",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-136",
+    "title": "Bonus prompt #126: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "digital",
+    "mood": "divine",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-137",
+    "title": "Bonus prompt #127: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "zine",
+    "mood": "angsty",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-138",
+    "title": "Bonus prompt #128: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "zine",
+    "mood": "chaotic",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-139",
+    "title": "Bonus prompt #129: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "digital",
+    "mood": "tender",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-140",
+    "title": "Bonus prompt #130: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "painting",
+    "mood": "empowered",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-141",
+    "title": "Bonus prompt #131: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "zine",
+    "mood": "angsty",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-142",
+    "title": "Bonus prompt #132: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "mixed",
+    "mood": "divine",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-143",
+    "title": "Bonus prompt #133: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "illustration",
+    "mood": "angsty",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-144",
+    "title": "Bonus prompt #134: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "collage",
+    "mood": "divine",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-145",
+    "title": "Bonus prompt #135: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "zine",
+    "mood": "restful",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-146",
+    "title": "Bonus prompt #136: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "collage",
+    "mood": "divine",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-147",
+    "title": "Bonus prompt #137: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "painting",
+    "mood": "empowered",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-148",
+    "title": "Bonus prompt #138: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "zine",
+    "mood": "angsty",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-149",
+    "title": "Bonus prompt #139: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "zine",
+    "mood": "restful",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-150",
+    "title": "Bonus prompt #140: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "digital",
+    "mood": "restful",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-151",
+    "title": "Bonus prompt #141: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "digital",
+    "mood": "empowered",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-152",
+    "title": "Bonus prompt #142: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "mixed",
+    "mood": "restful",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-153",
+    "title": "Bonus prompt #143: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "illustration",
+    "mood": "divine",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-154",
+    "title": "Bonus prompt #144: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "collage",
+    "mood": "chaotic",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-155",
+    "title": "Bonus prompt #145: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "zine",
+    "mood": "angsty",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-156",
+    "title": "Bonus prompt #146: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "photo",
+    "mood": "empowered",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-157",
+    "title": "Bonus prompt #147: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "painting",
+    "mood": "tender",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-158",
+    "title": "Bonus prompt #148: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "illustration",
+    "mood": "soft",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-159",
+    "title": "Bonus prompt #149: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "mixed",
+    "mood": "soft",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-160",
+    "title": "Bonus prompt #150: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "photo",
+    "mood": "angsty",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-161",
+    "title": "Bonus prompt #151: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "digital",
+    "mood": "soft",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-162",
+    "title": "Bonus prompt #152: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "painting",
+    "mood": "chaotic",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-163",
+    "title": "Bonus prompt #153: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "collage",
+    "mood": "empowered",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-164",
+    "title": "Bonus prompt #154: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "painting",
+    "mood": "divine",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-165",
+    "title": "Bonus prompt #155: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "photo",
+    "mood": "empowered",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-166",
+    "title": "Bonus prompt #156: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "collage",
+    "mood": "angsty",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-167",
+    "title": "Bonus prompt #157: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "painting",
+    "mood": "restful",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-168",
+    "title": "Bonus prompt #158: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "painting",
+    "mood": "chaotic",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-169",
+    "title": "Bonus prompt #159: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "illustration",
+    "mood": "soft",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-170",
+    "title": "Bonus prompt #160: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "zine",
+    "mood": "divine",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-171",
+    "title": "Bonus prompt #161: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "illustration",
+    "mood": "restful",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-172",
+    "title": "Bonus prompt #162: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "photo",
+    "mood": "empowered",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-173",
+    "title": "Bonus prompt #163: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "mixed",
+    "mood": "soft",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-174",
+    "title": "Bonus prompt #164: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "photo",
+    "mood": "empowered",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-175",
+    "title": "Bonus prompt #165: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "mixed",
+    "mood": "angsty",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-176",
+    "title": "Bonus prompt #166: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "mixed",
+    "mood": "empowered",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-177",
+    "title": "Bonus prompt #167: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "mixed",
+    "mood": "divine",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-178",
+    "title": "Bonus prompt #168: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "zine",
+    "mood": "angsty",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-179",
+    "title": "Bonus prompt #169: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "mixed",
+    "mood": "empowered",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-180",
+    "title": "Bonus prompt #170: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "collage",
+    "mood": "soft",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-181",
+    "title": "Bonus prompt #171: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "mixed",
+    "mood": "soft",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-182",
+    "title": "Bonus prompt #172: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "painting",
+    "mood": "empowered",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-183",
+    "title": "Bonus prompt #173: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "photo",
+    "mood": "angsty",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-184",
+    "title": "Bonus prompt #174: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "painting",
+    "mood": "empowered",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-185",
+    "title": "Bonus prompt #175: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "zine",
+    "mood": "angsty",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-186",
+    "title": "Bonus prompt #176: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "zine",
+    "mood": "empowered",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-187",
+    "title": "Bonus prompt #177: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "collage",
+    "mood": "restful",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-188",
+    "title": "Bonus prompt #178: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "photo",
+    "mood": "angsty",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-189",
+    "title": "Bonus prompt #179: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "painting",
+    "mood": "restful",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-190",
+    "title": "Bonus prompt #180: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "mixed",
+    "mood": "chaotic",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-191",
+    "title": "Bonus prompt #181: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "painting",
+    "mood": "chaotic",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-192",
+    "title": "Bonus prompt #182: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "painting",
+    "mood": "soft",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-193",
+    "title": "Bonus prompt #183: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "easy",
+    "medium": "collage",
+    "mood": "soft",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-194",
+    "title": "Bonus prompt #184: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "photo",
+    "mood": "tender",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-195",
+    "title": "Bonus prompt #185: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "collage",
+    "mood": "angsty",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-196",
+    "title": "Bonus prompt #186: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "painting",
+    "mood": "restful",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-197",
+    "title": "Bonus prompt #187: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "zine",
+    "mood": "divine",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-198",
+    "title": "Bonus prompt #188: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "complex",
+    "medium": "painting",
+    "mood": "soft",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-199",
+    "title": "Bonus prompt #189: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "painting",
+    "mood": "soft",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  },
+  {
+    "id": "art-200",
+    "title": "Bonus prompt #190: Freestyle page exploring softness, power, and rest",
+    "tags": [
+      "rest"
+    ],
+    "favorite": false,
+    "difficulty": "medium",
+    "medium": "painting",
+    "mood": "divine",
+    "createdBy": "Kol",
+    "createdAt": "2025-11-12T08:11:14.775914"
+  }
+]

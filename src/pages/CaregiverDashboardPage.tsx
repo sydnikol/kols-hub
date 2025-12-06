@@ -223,7 +223,7 @@ const CaregiverDashboardPage: React.FC = () => {
                   </ul>
                   <div className="mt-4 p-3 bg-purple-900/40 rounded-lg border border-purple-500/40">
                     <p className="text-purple-300 text-sm italic">
-                      Coming soon: Caregiver wellness tools
+                      Support for caregivers is essential - track their wellbeing and prevent burnout
                     </p>
                   </div>
                 </div>

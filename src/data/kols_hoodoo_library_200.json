@@ -1,0 +1,5622 @@
+{
+  "schema": {
+    "version": "1.0",
+    "collections": {
+      "hoodoo_rituals": {
+        "id": "string",
+        "title": "string",
+        "category": "protection|money|health|court|love|peace|road_opener|ancestors|cleansing|focus",
+        "ingredients": [
+          "string"
+        ],
+        "psalms": [
+          "string"
+        ],
+        "steps": [
+          "string"
+        ],
+        "safety_notes": "string",
+        "schedule_hint": "new_moon|full_moon|friday|monday|daily|as_needed",
+        "tags": [
+          "string"
+        ],
+        "status": "planned|in_progress|complete",
+        "logged_at": "iso_datetime",
+        "result_notes": "string"
+      }
+    }
+  },
+  "seed": [
+    {
+      "id": "r001",
+      "title": "Morning glass of water on altar to catch blessings",
+      "category": "protection",
+      "ingredients": [
+        "clean water"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r002",
+      "title": "Psalm 23 over your shoes for safe travels",
+      "category": "health",
+      "ingredients": [
+        "Bible or printed psalm"
+      ],
+      "psalms": [
+        "23"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "psalms",
+        "hoodoo",
+        "health"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r003",
+      "title": "Honey jar for sweetening medical staff",
+      "category": "health",
+      "ingredients": [
+        "honey",
+        "small jar"
+      ],
+      "psalms": [
+        "30",
+        "41"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "jar",
+        "medical",
+        "hoodoo",
+        "health"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r004",
+      "title": "Brown sugar + cinnamon candle for steady money",
+      "category": "money",
+      "ingredients": [
+        "sugar",
+        "candle",
+        "tea (bag or loose)"
+      ],
+      "psalms": [
+        "23",
+        "65",
+        "126"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Never leave flame unattended; use heat-safe holders and stable surfaces.",
+      "schedule_hint": "daily",
+      "tags": [
+        "money",
+        "hoodoo",
+        "candle"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r005",
+      "title": "Bay leaf wish burned and ashes to crossroads",
+      "category": "protection",
+      "ingredients": [
+        "bay leaf"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r006",
+      "title": "Florida Water mist for aura reset",
+      "category": "protection",
+      "ingredients": [
+        "Florida Water",
+        "clean water"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r007",
+      "title": "Door sweep: salt, black pepper, brick dust line",
+      "category": "protection",
+      "ingredients": [
+        "red brick dust",
+        "salt",
+        "black pepper"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r008",
+      "title": "Petition paper under water bottle for hydration habit",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen",
+        "clean water"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r009",
+      "title": "Protection tea light dressed with clove + olive oil",
+      "category": "protection",
+      "ingredients": [
+        "clove",
+        "tea lights",
+        "condition oil (as named)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "love",
+        "hoodoo",
+        "candle"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r010",
+      "title": "Dollar bill anointed with attraction oil in wallet",
+      "category": "money",
+      "ingredients": [
+        "condition oil (as named)"
+      ],
+      "psalms": [
+        "23",
+        "65",
+        "126"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "love",
+        "money",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r011",
+      "title": "Court case candle dressed with tobacco + cascara sagrada",
+      "category": "court",
+      "ingredients": [
+        "candle"
+      ],
+      "psalms": [
+        "35",
+        "20",
+        "37"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Never leave flame unattended; use heat-safe holders and stable surfaces.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "court",
+        "hoodoo",
+        "candle"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r012",
+      "title": "Road opener candle before hard appointments",
+      "category": "road_opener",
+      "ingredients": [
+        "candle"
+      ],
+      "psalms": [
+        "24",
+        "65"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Never leave flame unattended; use heat-safe holders and stable surfaces.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "road",
+        "road_opener",
+        "hoodoo",
+        "candle"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r013",
+      "title": "Psalms 35 for protection from enemies",
+      "category": "health",
+      "ingredients": [
+        "Bible or printed psalm"
+      ],
+      "psalms": [
+        "35"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "protection",
+        "psalms",
+        "hoodoo",
+        "health"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r014",
+      "title": "Psalms 121 for safe rideshares & transit",
+      "category": "health",
+      "ingredients": [
+        "Bible or printed psalm"
+      ],
+      "psalms": [
+        "121"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "psalms",
+        "hoodoo",
+        "health"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r015",
+      "title": "Petition under pillow for calm, dream insight",
+      "category": "peace",
+      "ingredients": [
+        "brown paper + pen"
+      ],
+      "psalms": [
+        "4",
+        "133",
+        "16"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "hoodoo",
+        "peace"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r016",
+      "title": "Egg cleanse (dispose off property afterward)",
+      "category": "cleansing",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "51"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "protection",
+        "cleansing",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r017",
+      "title": "Basil wash for prosperity floors",
+      "category": "money",
+      "ingredients": [
+        "bucket/basin"
+      ],
+      "psalms": [
+        "23",
+        "65",
+        "126"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Patch test herbs/oils; avoid eyes; skip if you have allergies or broken skin.",
+      "schedule_hint": "daily",
+      "tags": [
+        "bath",
+        "money",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r018",
+      "title": "Rose water self-love spritz before mirrors",
+      "category": "love",
+      "ingredients": [
+        "rose petals",
+        "small mirror",
+        "clean water"
+      ],
+      "psalms": [],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "love",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r019",
+      "title": "Kitchen witch salt jar with bay/garlic for home shield",
+      "category": "protection",
+      "ingredients": [
+        "garlic",
+        "bay leaf",
+        "salt"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "jar",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r020",
+      "title": "Keys anointed with Van Van for clear paths",
+      "category": "cleansing",
+      "ingredients": [
+        "Van Van oil",
+        "key"
+      ],
+      "psalms": [
+        "51"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "cleansing",
+        "hoodoo",
+        "road"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r021",
+      "title": "Sunflower on altar for mood lifting",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r022",
+      "title": "Cinnamon stick in purse for fast luck",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r023",
+      "title": "Lemon peel in mop bucket to cut negativity",
+      "category": "protection",
+      "ingredients": [
+        "lemon"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "floor-wash",
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r024",
+      "title": "Protective Psalms 91 over bedroom doorway",
+      "category": "health",
+      "ingredients": [
+        "Bible or printed psalm"
+      ],
+      "psalms": [
+        "91"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "protection",
+        "psalms",
+        "hoodoo",
+        "health"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r025",
+      "title": "Sugar scrub with brown sugar + honey for sweet talk",
+      "category": "protection",
+      "ingredients": [
+        "honey",
+        "small jar",
+        "sugar"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "jar",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r026",
+      "title": "Coffee grounds at threshold to block gossip",
+      "category": "protection",
+      "ingredients": [
+        "coffee grounds"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r027",
+      "title": "Pine floor wash for courage & fresh starts",
+      "category": "cleansing",
+      "ingredients": [
+        "bucket/basin"
+      ],
+      "psalms": [
+        "51"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Patch test herbs/oils; avoid eyes; skip if you have allergies or broken skin.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "bath",
+        "cleansing",
+        "floor-wash",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r028",
+      "title": "Mugwort dream sachet",
+      "category": "protection",
+      "ingredients": [
+        "sachet bag"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r029",
+      "title": "Petition taped under cane or wheelchair for strength",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r030",
+      "title": "Cloves in orange pomander for household peace",
+      "category": "love",
+      "ingredients": [
+        "clove"
+      ],
+      "psalms": [],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "love",
+        "hoodoo",
+        "peace"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r031",
+      "title": "Ancestral glass of milk + honey",
+      "category": "ancestors",
+      "ingredients": [
+        "honey",
+        "small jar"
+      ],
+      "psalms": [],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "jar",
+        "ancestor",
+        "hoodoo",
+        "ancestors"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r032",
+      "title": "Five-spot dressing (corners + center) with protection oil",
+      "category": "protection",
+      "ingredients": [
+        "condition oil (as named)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r033",
+      "title": "Seal phone with prayer + smoke for tech peace",
+      "category": "peace",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "4",
+        "133",
+        "16"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "hoodoo",
+        "peace"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r034",
+      "title": "Psalms 23 over meds for potency + safety",
+      "category": "health",
+      "ingredients": [
+        "Bible or printed psalm"
+      ],
+      "psalms": [
+        "23"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "medical",
+        "psalms",
+        "hoodoo",
+        "health"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r035",
+      "title": "Lodestone pair for drawing stable love/aid",
+      "category": "love",
+      "ingredients": [
+        "lodestone pair"
+      ],
+      "psalms": [],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "love",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r036",
+      "title": "Ancestral glass of water changed every morning",
+      "category": "ancestors",
+      "ingredients": [
+        "clean water"
+      ],
+      "psalms": [],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "ancestor",
+        "hoodoo",
+        "ancestors"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r037",
+      "title": "Peppermint oil on doormat for fresh energy",
+      "category": "protection",
+      "ingredients": [
+        "black pepper",
+        "condition oil (as named)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r038",
+      "title": "Calendula tea light for joy + skin glow vibes",
+      "category": "protection",
+      "ingredients": [
+        "tea lights"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo",
+        "candle"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r039",
+      "title": "Petition under blood pressure cuff for steady vitals",
+      "category": "protection",
+      "ingredients": [
+        "tea (bag or loose)",
+        "brown paper + pen"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "medical",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r040",
+      "title": "Chamomile bath for calm",
+      "category": "peace",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "4",
+        "133",
+        "16"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Patch test herbs/oils; avoid eyes; skip if you have allergies or broken skin.",
+      "schedule_hint": "daily",
+      "tags": [
+        "bath",
+        "hoodoo",
+        "peace"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r041",
+      "title": "Black candle to absorb envy (dispose remains away)",
+      "category": "protection",
+      "ingredients": [
+        "candle",
+        "black candle"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Never leave flame unattended; use heat-safe holders and stable surfaces.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo",
+        "candle"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r042",
+      "title": "White candle for clarity before big decisions",
+      "category": "focus",
+      "ingredients": [
+        "candle",
+        "white candle"
+      ],
+      "psalms": [
+        "8"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Never leave flame unattended; use heat-safe holders and stable surfaces.",
+      "schedule_hint": "daily",
+      "tags": [
+        "focus",
+        "hoodoo",
+        "candle"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r043",
+      "title": "Road opener bath before hearings",
+      "category": "court",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "35",
+        "20",
+        "37"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Patch test herbs/oils; avoid eyes; skip if you have allergies or broken skin.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "bath",
+        "court",
+        "hoodoo",
+        "road"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r044",
+      "title": "Court case sachet in bag on hearing days",
+      "category": "court",
+      "ingredients": [
+        "sachet bag"
+      ],
+      "psalms": [
+        "35",
+        "20",
+        "37"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "court",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r045",
+      "title": "Psalm 20 for success in petitions",
+      "category": "health",
+      "ingredients": [
+        "brown paper + pen",
+        "Bible or printed psalm"
+      ],
+      "psalms": [
+        "20"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "psalms",
+        "hoodoo",
+        "health"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r046",
+      "title": "Write goal, fold toward you, sleep on it 7 nights",
+      "category": "peace",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "7"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo",
+        "peace"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r047",
+      "title": "Protection mirror charm by front door (reflective out)",
+      "category": "protection",
+      "ingredients": [
+        "small mirror"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r048",
+      "title": "Clove in each shoe for warding",
+      "category": "protection",
+      "ingredients": [
+        "clove"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "love",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r049",
+      "title": "Sweetening playlist-music as sugar work",
+      "category": "money",
+      "ingredients": [
+        "sugar"
+      ],
+      "psalms": [
+        "23",
+        "65",
+        "126"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "money",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r050",
+      "title": "New moon prosperity coin jar (30-day)",
+      "category": "money",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "30"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "new_moon",
+      "tags": [
+        "jar",
+        "money",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r051",
+      "title": "Cinnamon blow over threshold for quick luck",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r052",
+      "title": "Angelica root pocket charm for guardianship",
+      "category": "love",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "love",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r053",
+      "title": "Althaea (marshmallow) for gentle communication spells",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r054",
+      "title": "Lavender smoke for peace before calls",
+      "category": "peace",
+      "ingredients": [
+        "lavender"
+      ],
+      "psalms": [
+        "4",
+        "133",
+        "16"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "hoodoo",
+        "peace"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r055",
+      "title": "Lemon in bowl of water to catch nastiness; toss weekly",
+      "category": "protection",
+      "ingredients": [
+        "lemon",
+        "clean water"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r056",
+      "title": "Garlic braid in kitchen to repel malice",
+      "category": "protection",
+      "ingredients": [
+        "garlic"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r057",
+      "title": "Bay leaf with your name + \"paid in full\" in wallet",
+      "category": "money",
+      "ingredients": [
+        "bay leaf"
+      ],
+      "psalms": [
+        "23",
+        "65",
+        "126"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "money",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r058",
+      "title": "Sprinkle sugar where you’ll ask a favor (sweet path)",
+      "category": "protection",
+      "ingredients": [
+        "sugar"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r059",
+      "title": "Petition taped under desk for focus",
+      "category": "focus",
+      "ingredients": [
+        "brown paper + pen"
+      ],
+      "psalms": [
+        "8"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "focus",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r060",
+      "title": "Psalm 27 for courage before medical advocacy",
+      "category": "health",
+      "ingredients": [
+        "Bible or printed psalm"
+      ],
+      "psalms": [
+        "27"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "medical",
+        "psalms",
+        "hoodoo",
+        "health"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r061",
+      "title": "Dragon’s blood resin for power (sparingly)",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r062",
+      "title": "Vanilla on wrists for charm & allure",
+      "category": "love",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "love",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r063",
+      "title": "Pink candle for gentle self-talk rituals",
+      "category": "protection",
+      "ingredients": [
+        "candle",
+        "pink candle"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Never leave flame unattended; use heat-safe holders and stable surfaces.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo",
+        "candle"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r064",
+      "title": "Mint in window for quick money",
+      "category": "money",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "23",
+        "65",
+        "126"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "money",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r065",
+      "title": "Rice jar \"rain\" on bills for abundance",
+      "category": "protection",
+      "ingredients": [
+        "rice"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "jar",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r066",
+      "title": "Honey on tongue before hard conversation",
+      "category": "protection",
+      "ingredients": [
+        "honey",
+        "small jar"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "jar",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r067",
+      "title": "White chalk cross on soles for safe steps",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r068",
+      "title": "Title on sweetening jar (\"Claims Adjuster\" etc.)",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "jar",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r069",
+      "title": "Black salt line behind doors to block return of mess",
+      "category": "protection",
+      "ingredients": [
+        "salt"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r070",
+      "title": "Brush aura downwards into salt bowl (then bin it)",
+      "category": "protection",
+      "ingredients": [
+        "salt"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r071",
+      "title": "Blue candle with peace oil for conflict cool-down",
+      "category": "peace",
+      "ingredients": [
+        "candle",
+        "blue candle",
+        "condition oil (as named)"
+      ],
+      "psalms": [
+        "4",
+        "133",
+        "16"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Never leave flame unattended; use heat-safe holders and stable surfaces.",
+      "schedule_hint": "daily",
+      "tags": [
+        "peace",
+        "hoodoo",
+        "candle"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r072",
+      "title": "Balm of Gilead buds to heal old hurts",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r073",
+      "title": "Calendula + sugar bath for golden magnetism",
+      "category": "protection",
+      "ingredients": [
+        "sugar"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Patch test herbs/oils; avoid eyes; skip if you have allergies or broken skin.",
+      "schedule_hint": "daily",
+      "tags": [
+        "bath",
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r074",
+      "title": "Petition under water filter for \"pure support only\"",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen",
+        "clean water"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r075",
+      "title": "Psalm 65 for open roads & approvals",
+      "category": "health",
+      "ingredients": [
+        "Bible or printed psalm"
+      ],
+      "psalms": [
+        "65"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "health",
+        "psalms",
+        "hoodoo",
+        "road"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r076",
+      "title": "Bay rum splash for confidence before meetings",
+      "category": "protection",
+      "ingredients": [
+        "bay leaf"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r077",
+      "title": "Magnetic sand to feed lodestones weekly",
+      "category": "protection",
+      "ingredients": [
+        "magnetic sand",
+        "lodestone pair"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r078",
+      "title": "Money drawing powder dusted on cash",
+      "category": "money",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "23",
+        "65",
+        "126"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "money",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r079",
+      "title": "Black tea leaf reading for quick guidance",
+      "category": "protection",
+      "ingredients": [
+        "tea (bag or loose)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r080",
+      "title": "White egg over joints (symbolic pain pull), discard",
+      "category": "health",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "30",
+        "41"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "hoodoo",
+        "health"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r081",
+      "title": "Frankincense for uplift; myrrh for healing depth",
+      "category": "protection",
+      "ingredients": [
+        "frankincense",
+        "myrrh"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Never leave flame unattended; use heat-safe holders and stable surfaces.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r082",
+      "title": "Jinx killer bath when drama spikes",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Patch test herbs/oils; avoid eyes; skip if you have allergies or broken skin.",
+      "schedule_hint": "daily",
+      "tags": [
+        "bath",
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r083",
+      "title": "Floor wash: hyssop + Psalm 51 cleanse",
+      "category": "health",
+      "ingredients": [
+        "hyssop",
+        "bucket/basin",
+        "Bible or printed psalm"
+      ],
+      "psalms": [
+        "51"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Patch test herbs/oils; avoid eyes; skip if you have allergies or broken skin.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "bath",
+        "psalms",
+        "floor-wash",
+        "hoodoo",
+        "health"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r084",
+      "title": "Petition stitched into pillow seam for steady sleep",
+      "category": "peace",
+      "ingredients": [
+        "tea (bag or loose)",
+        "brown paper + pen"
+      ],
+      "psalms": [
+        "4",
+        "133",
+        "16"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "hoodoo",
+        "peace"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r085",
+      "title": "Car protection mojo on rearview",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r086",
+      "title": "Selenite by bed for calm (adjunct)",
+      "category": "peace",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "4",
+        "133",
+        "16"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "hoodoo",
+        "peace"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r087",
+      "title": "Red brick dust across threshold for safety",
+      "category": "protection",
+      "ingredients": [
+        "red brick dust"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r088",
+      "title": "Van Van oil reset day (switch-up luck)",
+      "category": "road_opener",
+      "ingredients": [
+        "Van Van oil",
+        "condition oil (as named)"
+      ],
+      "psalms": [
+        "24",
+        "65"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "road_opener",
+        "hoodoo",
+        "road"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r089",
+      "title": "Clarity oil on temples before paperwork",
+      "category": "money",
+      "ingredients": [
+        "condition oil (as named)"
+      ],
+      "psalms": [
+        "23",
+        "65",
+        "126"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "focus",
+        "money",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r090",
+      "title": "Cinnamon sugar sprinkled on breakfast for sweet day",
+      "category": "protection",
+      "ingredients": [
+        "sugar"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r091",
+      "title": "Goal on bay leaf; keep in phone case",
+      "category": "protection",
+      "ingredients": [
+        "bay leaf"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r092",
+      "title": "Orange peel simmer pot to brighten house energy",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r093",
+      "title": "Court case bath the night before hearings",
+      "category": "court",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "35",
+        "20",
+        "37"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Patch test herbs/oils; avoid eyes; skip if you have allergies or broken skin.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "bath",
+        "court",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r094",
+      "title": "Lemon + salt scrub in shower to cut stuck energy",
+      "category": "cleansing",
+      "ingredients": [
+        "lemon",
+        "salt"
+      ],
+      "psalms": [
+        "51"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Patch test herbs/oils; avoid eyes; skip if you have allergies or broken skin.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "bath",
+        "cleansing",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r095",
+      "title": "Money bowl: coins, magnet, green candle",
+      "category": "money",
+      "ingredients": [
+        "candle"
+      ],
+      "psalms": [
+        "23",
+        "65",
+        "126"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Never leave flame unattended; use heat-safe holders and stable surfaces.",
+      "schedule_hint": "daily",
+      "tags": [
+        "money",
+        "hoodoo",
+        "candle"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r096",
+      "title": "Business card dressed with attraction oil",
+      "category": "love",
+      "ingredients": [
+        "condition oil (as named)"
+      ],
+      "psalms": [],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "love",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r097",
+      "title": "Petition under pet collar for calm vet visits",
+      "category": "peace",
+      "ingredients": [
+        "brown paper + pen"
+      ],
+      "psalms": [
+        "4",
+        "133",
+        "16"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "hoodoo",
+        "peace"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r098",
+      "title": "Psalm 30 for recovery days",
+      "category": "health",
+      "ingredients": [
+        "Bible or printed psalm"
+      ],
+      "psalms": [
+        "30"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "psalms",
+        "hoodoo",
+        "health"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r099",
+      "title": "Shoe anointing: toe draws, heel repels",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r100",
+      "title": "Candle snuffer to pause work without blowing",
+      "category": "money",
+      "ingredients": [
+        "candle"
+      ],
+      "psalms": [
+        "23",
+        "65",
+        "126"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Never leave flame unattended; use heat-safe holders and stable surfaces.",
+      "schedule_hint": "daily",
+      "tags": [
+        "money",
+        "hoodoo",
+        "candle"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r101",
+      "title": "Name paper under plate: good meals & care",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r102",
+      "title": "Clove tea aroma for clear speech",
+      "category": "cleansing",
+      "ingredients": [
+        "clove",
+        "tea (bag or loose)"
+      ],
+      "psalms": [
+        "51"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "love",
+        "cleansing",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r103",
+      "title": "Write \"Paid\" in red over bills before paying",
+      "category": "money",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "23",
+        "65",
+        "126"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "money",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r104",
+      "title": "Sweetening jar for landlord/neighbor relations",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "jar",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r105",
+      "title": "Black walnut bath to cut old ties",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Patch test herbs/oils; avoid eyes; skip if you have allergies or broken skin.",
+      "schedule_hint": "daily",
+      "tags": [
+        "bath",
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r106",
+      "title": "Healing green candle focus on inflammation",
+      "category": "focus",
+      "ingredients": [
+        "candle"
+      ],
+      "psalms": [
+        "8"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Never leave flame unattended; use heat-safe holders and stable surfaces.",
+      "schedule_hint": "daily",
+      "tags": [
+        "focus",
+        "hoodoo",
+        "candle"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r107",
+      "title": "Hyssop + salt bath after arguments",
+      "category": "cleansing",
+      "ingredients": [
+        "salt",
+        "hyssop"
+      ],
+      "psalms": [
+        "51"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Patch test herbs/oils; avoid eyes; skip if you have allergies or broken skin.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "bath",
+        "cleansing",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r108",
+      "title": "Alum jar to stop gossip",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "jar",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r109",
+      "title": "Cup on altar for court mercy",
+      "category": "court",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "35",
+        "20",
+        "37"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "court",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r110",
+      "title": "Psalm 4 for peaceful sleep",
+      "category": "peace",
+      "ingredients": [
+        "Bible or printed psalm"
+      ],
+      "psalms": [
+        "4"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "psalms",
+        "hoodoo",
+        "peace"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r111",
+      "title": "Peppermint foot rub for motion",
+      "category": "protection",
+      "ingredients": [
+        "black pepper"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r112",
+      "title": "Sugar + mint jar for fast sweet money",
+      "category": "money",
+      "ingredients": [
+        "sugar"
+      ],
+      "psalms": [
+        "23",
+        "65",
+        "126"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "jar",
+        "money",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r113",
+      "title": "Protective red string with 3 knots",
+      "category": "protection",
+      "ingredients": [
+        "string/ribbon"
+      ],
+      "psalms": [
+        "3"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r114",
+      "title": "Monday coffee offering to ancestors",
+      "category": "ancestors",
+      "ingredients": [
+        "coffee grounds"
+      ],
+      "psalms": [],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "monday",
+      "tags": [
+        "ancestor",
+        "hoodoo",
+        "ancestors"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r115",
+      "title": "Friday sweets offering for love & joy",
+      "category": "love",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "friday",
+      "tags": [
+        "love",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r116",
+      "title": "Petition under router for smooth telehealth",
+      "category": "health",
+      "ingredients": [
+        "brown paper + pen"
+      ],
+      "psalms": [
+        "30",
+        "41"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "hoodoo",
+        "health"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r117",
+      "title": "Cinnamon broom by door to sweep luck",
+      "category": "protection",
+      "ingredients": [
+        "small broom"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r118",
+      "title": "New penny in shoe for opportunities",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r119",
+      "title": "Blue string around pill case for calm compliance",
+      "category": "peace",
+      "ingredients": [
+        "string/ribbon"
+      ],
+      "psalms": [
+        "4",
+        "133",
+        "16"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "hoodoo",
+        "peace"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r120",
+      "title": "Open windows + clap corners to break heaviness",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r121",
+      "title": "Petition under plant pot to grow blessings",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r122",
+      "title": "Wish on onion skin; bury for layered growth",
+      "category": "protection",
+      "ingredients": [
+        "onion"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r123",
+      "title": "Pumpkin seeds on wealth altar",
+      "category": "money",
+      "ingredients": [
+        "pumpkin seeds"
+      ],
+      "psalms": [
+        "23",
+        "65",
+        "126"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "money",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r124",
+      "title": "Nutmeg in pocket for gambling luck",
+      "category": "money",
+      "ingredients": [
+        "nutmeg"
+      ],
+      "psalms": [
+        "23",
+        "65",
+        "126"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "money",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r125",
+      "title": "Psalm 46 when overwhelmed",
+      "category": "health",
+      "ingredients": [
+        "Bible or printed psalm"
+      ],
+      "psalms": [
+        "46"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "medical",
+        "psalms",
+        "hoodoo",
+        "health"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r126",
+      "title": "Tea lights in rows: 3 for open roads, 7 for completion",
+      "category": "road_opener",
+      "ingredients": [
+        "tea lights"
+      ],
+      "psalms": [
+        "3",
+        "7"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "road",
+        "road_opener",
+        "hoodoo",
+        "candle"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r127",
+      "title": "Camphor cube in corner to clear",
+      "category": "cleansing",
+      "ingredients": [
+        "camphor cube"
+      ],
+      "psalms": [
+        "51"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Handle strong ingredients with care; ventilate and keep away from children/pets.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "cleansing",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r128",
+      "title": "Saltwater + Florida Water mist bottle",
+      "category": "protection",
+      "ingredients": [
+        "Florida Water",
+        "salt",
+        "clean water"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r129",
+      "title": "Money cologne on wrists before raises",
+      "category": "money",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "23",
+        "65",
+        "126"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "money",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r130",
+      "title": "Altar bell ring to end panic spiral",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r131",
+      "title": "Black tourmaline at door (stone adjunct)",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r132",
+      "title": "Cloves studded apple for harmony (replace monthly)",
+      "category": "love",
+      "ingredients": [
+        "clove"
+      ],
+      "psalms": [],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "love",
+        "hoodoo",
+        "peace"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r133",
+      "title": "Brown paper petitions, torn edges by hand",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r134",
+      "title": "Fold toward draw, away to banish",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r135",
+      "title": "Petition under BP log for steady numbers",
+      "category": "health",
+      "ingredients": [
+        "tea (bag or loose)",
+        "brown paper + pen"
+      ],
+      "psalms": [
+        "30",
+        "41"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "medical",
+        "hoodoo",
+        "health"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r136",
+      "title": "Pinecone charm for longevity of support",
+      "category": "love",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "love",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r137",
+      "title": "\"Approve\" in green ink over claim number",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r138",
+      "title": "Psalm 8 for favor in high places",
+      "category": "health",
+      "ingredients": [
+        "Bible or printed psalm"
+      ],
+      "psalms": [
+        "8"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "psalms",
+        "hoodoo",
+        "health"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r139",
+      "title": "Bay leaf on mirror: see myself with kindness",
+      "category": "protection",
+      "ingredients": [
+        "bay leaf",
+        "small mirror"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r140",
+      "title": "Fast luck oil + lotto Fridays (be responsible)",
+      "category": "money",
+      "ingredients": [
+        "condition oil (as named)"
+      ],
+      "psalms": [
+        "23",
+        "65",
+        "126"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "friday",
+      "tags": [
+        "money",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r141",
+      "title": "Psalm 41 for sick days",
+      "category": "health",
+      "ingredients": [
+        "Bible or printed psalm"
+      ],
+      "psalms": [
+        "41"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "psalms",
+        "hoodoo",
+        "health"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r142",
+      "title": "Pour leftover bath at crossroads (traditional)",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Patch test herbs/oils; avoid eyes; skip if you have allergies or broken skin.",
+      "schedule_hint": "daily",
+      "tags": [
+        "bath",
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r143",
+      "title": "Pair white + blue candles for household peace",
+      "category": "peace",
+      "ingredients": [
+        "candle",
+        "blue candle"
+      ],
+      "psalms": [
+        "4",
+        "133",
+        "16"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Never leave flame unattended; use heat-safe holders and stable surfaces.",
+      "schedule_hint": "daily",
+      "tags": [
+        "peace",
+        "hoodoo",
+        "candle"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r144",
+      "title": "Key on altar to open new housing doors",
+      "category": "protection",
+      "ingredients": [
+        "key"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo",
+        "road"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r145",
+      "title": "Ginger for speeding outcomes",
+      "category": "protection",
+      "ingredients": [
+        "ginger"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r146",
+      "title": "Chicory root \"see through lies\" mojo",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r147",
+      "title": "Courthouse dirt (respectful) in court case jar",
+      "category": "court",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "35",
+        "20",
+        "37"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "court",
+        "jar",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r148",
+      "title": "Sugar cube under tongue before asking help",
+      "category": "protection",
+      "ingredients": [
+        "sugar"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r149",
+      "title": "Psalm 24 for gate-opening energy",
+      "category": "health",
+      "ingredients": [
+        "Bible or printed psalm"
+      ],
+      "psalms": [
+        "24"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "psalms",
+        "hoodoo",
+        "health"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r150",
+      "title": "Rose petals in bath for love of self + others",
+      "category": "love",
+      "ingredients": [
+        "rose petals"
+      ],
+      "psalms": [],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Patch test herbs/oils; avoid eyes; skip if you have allergies or broken skin.",
+      "schedule_hint": "daily",
+      "tags": [
+        "bath",
+        "love",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r151",
+      "title": "Dime at each corner of bed for protection",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r152",
+      "title": "Petition under thermostat for body-friendly temp",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r153",
+      "title": "Vinegar glass to sour conflict (dispose)",
+      "category": "cleansing",
+      "ingredients": [
+        "vinegar"
+      ],
+      "psalms": [
+        "51"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Handle strong ingredients with care; ventilate and keep away from children/pets.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "cleansing",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r154",
+      "title": "\"I am believed\" x9 petition for doctors",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "medical",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r155",
+      "title": "Clarity incense before forms",
+      "category": "focus",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "8"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Never leave flame unattended; use heat-safe holders and stable surfaces.",
+      "schedule_hint": "daily",
+      "tags": [
+        "focus",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r156",
+      "title": "Red cabbage simmer courage aroma",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r157",
+      "title": "Offer water + bread to local spirits at a tree",
+      "category": "protection",
+      "ingredients": [
+        "clean water"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r158",
+      "title": "Psalm 18 for strength to fight",
+      "category": "health",
+      "ingredients": [
+        "Bible or printed psalm"
+      ],
+      "psalms": [
+        "18"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "psalms",
+        "hoodoo",
+        "health"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r159",
+      "title": "Henna sigil on wrist for stamina (cosmetic)",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r160",
+      "title": "Psalm 37 for justice over time",
+      "category": "health",
+      "ingredients": [
+        "Bible or printed psalm"
+      ],
+      "psalms": [
+        "37"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "psalms",
+        "hoodoo",
+        "health"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r161",
+      "title": "Name paper under doormat: only allies may enter",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r162",
+      "title": "Sugar jar for neighbor kindness",
+      "category": "protection",
+      "ingredients": [
+        "sugar"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "jar",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r163",
+      "title": "Ammonia jar flip to turn situation upright",
+      "category": "cleansing",
+      "ingredients": [
+        "ammonia (handle carefully)"
+      ],
+      "psalms": [
+        "51"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Handle strong ingredients with care; ventilate and keep away from children/pets.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "jar",
+        "cleansing",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r164",
+      "title": "Green ribbon \"Paid in Full\" on bill folder",
+      "category": "money",
+      "ingredients": [
+        "string/ribbon"
+      ],
+      "psalms": [
+        "23",
+        "65",
+        "126"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "money",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r165",
+      "title": "Van Van floor wash at New Year/seasonal",
+      "category": "cleansing",
+      "ingredients": [
+        "Van Van oil",
+        "bucket/basin"
+      ],
+      "psalms": [
+        "51"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Patch test herbs/oils; avoid eyes; skip if you have allergies or broken skin.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "bath",
+        "cleansing",
+        "floor-wash",
+        "hoodoo",
+        "road"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r166",
+      "title": "Friday white candle for Venusian self-adoration",
+      "category": "protection",
+      "ingredients": [
+        "candle",
+        "white candle"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Never leave flame unattended; use heat-safe holders and stable surfaces.",
+      "schedule_hint": "friday",
+      "tags": [
+        "protection",
+        "hoodoo",
+        "candle"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r167",
+      "title": "Psalm 126 for joy restored",
+      "category": "health",
+      "ingredients": [
+        "Bible or printed psalm"
+      ],
+      "psalms": [
+        "126"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "psalms",
+        "hoodoo",
+        "health"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r168",
+      "title": "Almond oil glamour glow base",
+      "category": "protection",
+      "ingredients": [
+        "condition oil (as named)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r169",
+      "title": "Claim number under candle to focus work",
+      "category": "money",
+      "ingredients": [
+        "candle"
+      ],
+      "psalms": [
+        "23",
+        "65",
+        "126"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Never leave flame unattended; use heat-safe holders and stable surfaces.",
+      "schedule_hint": "daily",
+      "tags": [
+        "focus",
+        "money",
+        "hoodoo",
+        "candle"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r170",
+      "title": "Knot magic: 9 knots with affirmations",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "9"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r171",
+      "title": "Church dirt blessing in jars",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "jar",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r172",
+      "title": "Burn petition; blow ash toward sunrise",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r173",
+      "title": "Black tea bag on bruise + prayer (folk)",
+      "category": "health",
+      "ingredients": [
+        "tea (bag or loose)"
+      ],
+      "psalms": [
+        "30",
+        "41"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "hoodoo",
+        "health"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r174",
+      "title": "Rosemary at door for remembrance & warding",
+      "category": "protection",
+      "ingredients": [
+        "rose petals"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "love",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r175",
+      "title": "Psalm 133 for household unity",
+      "category": "health",
+      "ingredients": [
+        "Bible or printed psalm"
+      ],
+      "psalms": [
+        "133"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "psalms",
+        "hoodoo",
+        "health"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r176",
+      "title": "Three coins tied in cloth for constant flow",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r177",
+      "title": "Bless shower head: wash away sorrow",
+      "category": "cleansing",
+      "ingredients": [
+        "bucket/basin"
+      ],
+      "psalms": [
+        "51"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Patch test herbs/oils; avoid eyes; skip if you have allergies or broken skin.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "bath",
+        "cleansing",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r178",
+      "title": "Charge cane/wheelchair grips with protection oil",
+      "category": "protection",
+      "ingredients": [
+        "condition oil (as named)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r179",
+      "title": "Hyssop + Psalm 23 after hospital visits",
+      "category": "health",
+      "ingredients": [
+        "hyssop",
+        "Bible or printed psalm"
+      ],
+      "psalms": [
+        "23"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "medical",
+        "psalms",
+        "hoodoo",
+        "health"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r180",
+      "title": "Magnetic sand trail from door to altar",
+      "category": "protection",
+      "ingredients": [
+        "magnetic sand"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r181",
+      "title": "Cinnamon stick stir clockwise for success",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r182",
+      "title": "Psalm 121 into water bottle each morning",
+      "category": "health",
+      "ingredients": [
+        "Bible or printed psalm",
+        "clean water"
+      ],
+      "psalms": [
+        "121"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "psalms",
+        "hoodoo",
+        "health"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r183",
+      "title": "Lemon halves with salt in corners (replace)",
+      "category": "protection",
+      "ingredients": [
+        "lemon",
+        "salt"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r184",
+      "title": "Laurel crown visualization for wins",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r185",
+      "title": "Write \"Yes\" nine times for approvals",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r186",
+      "title": "Psalm 41 + honey dab before tough calls",
+      "category": "health",
+      "ingredients": [
+        "honey",
+        "small jar",
+        "Bible or printed psalm"
+      ],
+      "psalms": [
+        "41"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "jar",
+        "psalms",
+        "hoodoo",
+        "health"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r187",
+      "title": "Salt + sugar packet in pocket (balance)",
+      "category": "protection",
+      "ingredients": [
+        "sugar",
+        "salt"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r188",
+      "title": "Prosperity altar on raised shelf",
+      "category": "money",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "23",
+        "65",
+        "126"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "money",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r189",
+      "title": "Psalm 30 over pain flare packs",
+      "category": "health",
+      "ingredients": [
+        "Bible or printed psalm"
+      ],
+      "psalms": [
+        "30"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "psalms",
+        "hoodoo",
+        "health"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r190",
+      "title": "Patchouli drop at wallet seam",
+      "category": "money",
+      "ingredients": [
+        "patchouli"
+      ],
+      "psalms": [
+        "23",
+        "65",
+        "126"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "money",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r191",
+      "title": "Blue chalk peace sigil behind headboard",
+      "category": "peace",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "4",
+        "133",
+        "16"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "hoodoo",
+        "peace"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r192",
+      "title": "Psalm 16 for safety & boundaries",
+      "category": "health",
+      "ingredients": [
+        "Bible or printed psalm"
+      ],
+      "psalms": [
+        "16"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "psalms",
+        "hoodoo",
+        "health"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r193",
+      "title": "Orange candle for creative burst days",
+      "category": "protection",
+      "ingredients": [
+        "candle",
+        "orange candle"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Never leave flame unattended; use heat-safe holders and stable surfaces.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo",
+        "candle"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r194",
+      "title": "Basil leaf taped inside notebook for focus",
+      "category": "focus",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "8"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "focus",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r195",
+      "title": "Ancestor glass turned outward at door",
+      "category": "ancestors",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "ancestor",
+        "hoodoo",
+        "ancestors"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r196",
+      "title": "Criss-cross salt under welcome mat",
+      "category": "protection",
+      "ingredients": [
+        "salt"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r197",
+      "title": "Whiskey shot for ancestors on birthdays",
+      "category": "ancestors",
+      "ingredients": [
+        "key"
+      ],
+      "psalms": [],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "ancestors",
+        "ancestor",
+        "hoodoo",
+        "road"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r198",
+      "title": "Psalm 70 for quick help",
+      "category": "health",
+      "ingredients": [
+        "Bible or printed psalm"
+      ],
+      "psalms": [
+        "70"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "psalms",
+        "hoodoo",
+        "health"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r199",
+      "title": "Write your name over \"good health, good care, good cash\"",
+      "category": "health",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "30",
+        "41"
+      ],
+      "steps": [
+        "Prepare your space; open a window for fresh flow if possible.",
+        "Write a short petition on brown paper (names, case/claim if relevant).",
+        "Assemble ingredients; dress the work lightly while praying or reciting the chosen Psalm.",
+        "Speak your petition three times; visualize the result arriving cleanly.",
+        "Let the candle/bath/incense work safely to completion; never leave flame unattended.",
+        "Dispose remains in a traditional manner (trash off property, crossroads, or keep if sweetening).",
+        "Record result notes and offer thanks to ancestors/Spirit."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "as_needed",
+      "tags": [
+        "hoodoo",
+        "health"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    },
+    {
+      "id": "r200",
+      "title": "Thank-you offerings after every win",
+      "category": "protection",
+      "ingredients": [
+        "brown paper + pen",
+        "candle (optional)"
+      ],
+      "psalms": [
+        "91",
+        "121"
+      ],
+      "steps": [
+        "State your intent plainly and truthfully.",
+        "Apply or place the item as described (dress, sprinkle, tape, or set on altar).",
+        "Close with gratitude; note any signs or shifts you feel."
+      ],
+      "safety_notes": "Work respectfully; keep materials away from children/pets; tidy up after.",
+      "schedule_hint": "daily",
+      "tags": [
+        "protection",
+        "hoodoo"
+      ],
+      "status": "planned",
+      "logged_at": null,
+      "result_notes": ""
+    }
+  ]
+}

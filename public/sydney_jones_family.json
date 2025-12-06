@@ -1,0 +1,182 @@
+{
+  "familyName": "Jones",
+  "focusPerson": "Sydney Jones",
+  "lastUpdated": "2025-12-06",
+  "source": "Ancestry.com - Sydney Jones Family Tree",
+  "ancestors": [
+    {
+      "id": "sydney-jones",
+      "name": "Sydney Jones",
+      "birthYear": 1999,
+      "birthDate": "September 7, 1999",
+      "birthPlace": "Urbana, Champaign, Illinois, USA",
+      "relation": "Self",
+      "generation": 0,
+      "sex": "F",
+      "culturalBackground": ["African American"],
+      "stories": [
+        "Sydney was born in Urbana, Illinois and has deep roots in both Pennsylvania and the American South."
+      ]
+    },
+    {
+      "id": "james-jones-jr",
+      "name": "James Collins Jones Jr.",
+      "birthYear": 1953,
+      "birthDate": "December 13, 1953",
+      "birthPlace": "Pittsburgh, Allegheny, Pennsylvania, USA",
+      "relation": "Father",
+      "generation": 1,
+      "sex": "M",
+      "residences": [
+        "Pittsburgh, Pennsylvania (1953-1970)",
+        "Urbana, Illinois (1997-2005)",
+        "Houston, Texas (2007-2019)",
+        "Herndon, Virginia (2018-2020)",
+        "Ashburn, Virginia (2019-2020)"
+      ],
+      "culturalBackground": ["African American"],
+      "stories": [
+        "James was born in Pittsburgh and later lived in several states including Illinois, Texas, and Virginia."
+      ]
+    },
+    {
+      "id": "linda-jones",
+      "name": "Linda C. Jones",
+      "maidenName": "Samuels",
+      "birthYear": 1957,
+      "birthDate": "August 1957",
+      "birthPlace": "Fort Gordon, Richmond, Georgia, USA",
+      "relation": "Mother",
+      "generation": 1,
+      "sex": "F",
+      "education": [
+        "Seventy-First High School, Fayetteville, NC (1972-1975)",
+        "Fayetteville State University (1974)"
+      ],
+      "residences": [
+        "Fayetteville, North Carolina",
+        "Stone Mountain, Georgia (1985-2008)",
+        "Winston Salem, North Carolina (1988-2015)",
+        "Lithonia, Georgia (1996-1997)",
+        "Overland Park, Kansas (2006-2020)"
+      ],
+      "culturalBackground": ["African American"],
+      "stories": [
+        "Linda was born at Fort Gordon, Georgia and attended Fayetteville State University."
+      ]
+    },
+    {
+      "id": "james-collins-jones-sr",
+      "name": "James Collins Jones Sr.",
+      "birthYear": 1921,
+      "birthDate": "October 9, 1921",
+      "birthPlace": "Alabama, USA",
+      "deathYear": 1982,
+      "deathDate": "August 28, 1982",
+      "deathPlace": "Pittsburgh, Allegheny, Pennsylvania, USA",
+      "relation": "Paternal Grandfather",
+      "generation": 2,
+      "sex": "M",
+      "residences": [
+        "Pittsburgh, Pennsylvania (1925-1982)",
+        "Allegheny, Pennsylvania (1942)"
+      ],
+      "burialPlace": "Pittsburgh, Allegheny County, Pennsylvania",
+      "culturalBackground": ["African American"],
+      "stories": [
+        "James Collins Jones Sr. was born in Alabama and moved to Pittsburgh as a young child.",
+        "He lived in Pittsburgh for most of his life until his passing in 1982."
+      ]
+    },
+    {
+      "id": "elizabeth-p-jones",
+      "name": "Elizabeth P. Jones",
+      "maidenName": "Peterson",
+      "alternateName": "Elizabeth Jane Peterson",
+      "birthYear": 1922,
+      "birthDate": "May 18, 1922",
+      "birthPlace": "Pittsburgh, Allegheny, Pennsylvania, USA",
+      "deathYear": 2009,
+      "deathDate": "March 1, 2009",
+      "deathPlace": "Pittsburgh, Allegheny, Pennsylvania, USA",
+      "relation": "Paternal Grandmother",
+      "generation": 2,
+      "sex": "F",
+      "occupation": "Punch Press Operator",
+      "residences": [
+        "Pittsburgh, Pennsylvania (1922-2009)"
+      ],
+      "culturalBackground": ["African American"],
+      "stories": [
+        "Elizabeth was a lifelong Pittsburgh resident.",
+        "She worked operating a punch press and lived independently."
+      ]
+    },
+    {
+      "id": "jacquie-ella-vaughn",
+      "name": "Jacquie Ella Vaughn",
+      "birthYear": 1934,
+      "birthDate": "February 15, 1934",
+      "birthPlace": "Florence, Lauderdale, Alabama, USA",
+      "deathYear": 2024,
+      "deathDate": "September 16, 2024",
+      "deathPlace": "Kansas City, Jackson, Missouri, USA",
+      "relation": "Maternal Grandmother",
+      "generation": 2,
+      "sex": "F",
+      "residences": [
+        "Florence, Alabama (1934)",
+        "Anniston, Alabama (1965)",
+        "Fayetteville, North Carolina (1984-2019)"
+      ],
+      "burialPlace": "Fayetteville, Cumberland County, North Carolina",
+      "culturalBackground": ["African American"],
+      "stories": [
+        "Jacquie Ella was born in Florence, Alabama and later settled in Fayetteville, North Carolina.",
+        "She passed away in Kansas City, Missouri in 2024 and was laid to rest in Fayetteville."
+      ]
+    },
+    {
+      "id": "eva-mae-beckwith-perkins",
+      "name": "Eva Mae Beckwith Perkins",
+      "birthPlace": "USA",
+      "relation": "Maternal Great-Grandmother",
+      "generation": 3,
+      "sex": "F",
+      "culturalBackground": ["African American"],
+      "stories": [
+        "Eva Mae is an ancestor through the maternal line."
+      ]
+    }
+  ],
+  "locations": {
+    "birthplaces": [
+      "Urbana, Illinois",
+      "Pittsburgh, Pennsylvania",
+      "Fort Gordon, Georgia",
+      "Alabama",
+      "Florence, Alabama"
+    ],
+    "familyRoots": [
+      "Pittsburgh, Pennsylvania",
+      "Alabama",
+      "North Carolina",
+      "Georgia"
+    ]
+  },
+  "culturalHeritage": ["African American"],
+  "familyMigration": [
+    {
+      "from": "Alabama",
+      "to": "Pittsburgh, Pennsylvania",
+      "period": "Early 1900s",
+      "notes": "Part of the Great Migration"
+    },
+    {
+      "from": "Pittsburgh, Pennsylvania",
+      "to": "Illinois",
+      "period": "1990s",
+      "notes": "Family expansion to the Midwest"
+    }
+  ]
+}

@@ -26,8 +26,56 @@ export default function AncestryPage() {
   const [searchQuery, setSearchQuery] = useState('');
   const [showAddModal, setShowAddModal] = useState(false);
   const [showUploadModal, setShowUploadModal] = useState(false);
+  const [showExportModal, setShowExportModal] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
 
   const { ancestors, loading, heritageData, familyHealth, refreshData } = useAncestryData();
+
+  // Load Sydney Jones family data
+  const handleLoadSampleData = async () => {
+    setIsLoading(true);
+    try {
+      await ancestryService.loadSydneyJonesFamily();
+      await refreshData();
+      alert('Sydney Jones family data loaded successfully!');
+    } catch (error) {
+      console.error('Failed to load sample data:', error);
+      alert('Failed to load sample data. Please check console for details.');
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  // Export handlers
+  const handleExportJSON = async () => {
+    try {
+      await ancestryService.downloadAsJSON('sydney-jones-family.json');
+      setShowExportModal(false);
+    } catch (error) {
+      console.error('Export failed:', error);
+      alert('Export failed. Please try again.');
+    }
+  };
+
+  const handleExportCSV = async () => {
+    try {
+      await ancestryService.downloadAsCSV('sydney-jones-family.csv');
+      setShowExportModal(false);
+    } catch (error) {
+      console.error('Export failed:', error);
+      alert('Export failed. Please try again.');
+    }
+  };
+
+  const handleExportGEDCOM = async () => {
+    try {
+      await ancestryService.downloadAsGEDCOM('sydney-jones-family.ged');
+      setShowExportModal(false);
+    } catch (error) {
+      console.error('Export failed:', error);
+      alert('Export failed. Please try again.');
+    }
+  };
 
   const filteredAncestors = ancestors.filter(a =>
     a.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
@@ -56,6 +104,21 @@ export default function AncestryPage() {
             </div>
 
             <div className="flex gap-3">
+              <button
+                onClick={handleLoadSampleData}
+                disabled={isLoading}
+                className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-purple-900/30 to-purple-700/30 border border-purple-600/30 rounded-lg hover:border-purple-500/50 transition-all disabled:opacity-50"
+              >
+                <Sparkles className="w-4 h-4" />
+                {isLoading ? 'Loading...' : 'Load Sydney Jones Family'}
+              </button>
+              <button
+                onClick={() => setShowExportModal(true)}
+                className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-green-900/30 to-green-700/30 border border-green-600/30 rounded-lg hover:border-green-500/50 transition-all"
+              >
+                <Download className="w-4 h-4" />
+                Export Family Tree
+              </button>
               <button
                 onClick={() => setShowUploadModal(true)}
                 className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-amber-900/30 to-amber-700/30 border border-amber-600/30 rounded-lg hover:border-amber-500/50 transition-all"
@@ -229,6 +292,86 @@ export default function AncestryPage() {
           onClose={() => setSelectedAncestor(null)}
           onUpdate={refreshData}
         />
+      )}
+
+      {/* Export Modal */}
+      {showExportModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm">
+          <motion.div
+            initial={{ opacity: 0, scale: 0.95 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.95 }}
+            className="bg-gradient-to-br from-[#1A1520] to-[#0A0A0F] border border-amber-600/30 rounded-xl p-8 max-w-md w-full mx-4"
+          >
+            <div className="flex items-center justify-between mb-6">
+              <h2 className="text-2xl font-bold text-amber-200 flex items-center gap-3">
+                <Download className="w-6 h-6" />
+                Export Family Tree
+              </h2>
+              <button
+                onClick={() => setShowExportModal(false)}
+                className="text-[#C0C0D8]/60 hover:text-[#E8E8F4] transition-colors"
+              >
+                ✕
+              </button>
+            </div>
+
+            <p className="text-[#C0C0D8]/70 mb-6">
+              Choose your preferred export format to download the Sydney Jones family tree.
+            </p>
+
+            <div className="space-y-3">
+              <button
+                onClick={handleExportJSON}
+                className="w-full flex items-center justify-between p-4 bg-gradient-to-r from-blue-900/30 to-blue-700/30 border border-blue-600/30 rounded-lg hover:border-blue-500/50 transition-all group"
+              >
+                <div className="flex items-center gap-3">
+                  <FileText className="w-5 h-5 text-blue-400" />
+                  <div className="text-left">
+                    <div className="text-[#E8E8F4] font-semibold">JSON Format</div>
+                    <div className="text-xs text-[#C0C0D8]/60">Full data with stories & recipes</div>
+                  </div>
+                </div>
+                <ChevronRight className="w-5 h-5 text-blue-400 group-hover:translate-x-1 transition-transform" />
+              </button>
+
+              <button
+                onClick={handleExportCSV}
+                className="w-full flex items-center justify-between p-4 bg-gradient-to-r from-green-900/30 to-green-700/30 border border-green-600/30 rounded-lg hover:border-green-500/50 transition-all group"
+              >
+                <div className="flex items-center gap-3">
+                  <FileText className="w-5 h-5 text-green-400" />
+                  <div className="text-left">
+                    <div className="text-[#E8E8F4] font-semibold">CSV Format</div>
+                    <div className="text-xs text-[#C0C0D8]/60">Spreadsheet compatible format</div>
+                  </div>
+                </div>
+                <ChevronRight className="w-5 h-5 text-green-400 group-hover:translate-x-1 transition-transform" />
+              </button>
+
+              <button
+                onClick={handleExportGEDCOM}
+                className="w-full flex items-center justify-between p-4 bg-gradient-to-r from-purple-900/30 to-purple-700/30 border border-purple-600/30 rounded-lg hover:border-purple-500/50 transition-all group"
+              >
+                <div className="flex items-center gap-3">
+                  <FileText className="w-5 h-5 text-purple-400" />
+                  <div className="text-left">
+                    <div className="text-[#E8E8F4] font-semibold">GEDCOM Format</div>
+                    <div className="text-xs text-[#C0C0D8]/60">Standard genealogy format</div>
+                  </div>
+                </div>
+                <ChevronRight className="w-5 h-5 text-purple-400 group-hover:translate-x-1 transition-transform" />
+              </button>
+            </div>
+
+            <button
+              onClick={() => setShowExportModal(false)}
+              className="w-full mt-6 px-4 py-2 bg-[#0A0A0F]/60 border border-[#C0C0D8]/20 rounded-lg hover:border-[#C0C0D8]/40 transition-all text-[#C0C0D8]"
+            >
+              Cancel
+            </button>
+          </motion.div>
+        </div>
       )}
     </div>
   );

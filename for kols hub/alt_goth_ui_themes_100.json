@@ -1,0 +1,1802 @@
+{
+  "theme_001": {
+    "name": "Alt Theme 1",
+    "background": "#111111",
+    "textColor": "#EAEAEA",
+    "accentColor": "#20B2AA",
+    "font": "Share Tech Mono",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "7px",
+        "padding": "8px 14px"
+      },
+      "card": {
+        "backgroundColor": "#111111",
+        "boxShadow": "0 2px 6px rgba(0,0,0,0.4)"
+      }
+    }
+  },
+  "theme_002": {
+    "name": "Alt Theme 2",
+    "background": "#0A0A0A",
+    "textColor": "#DADADA",
+    "accentColor": "#FF4500",
+    "font": "UnifrakturCook",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "6px",
+        "padding": "11px 20px"
+      },
+      "card": {
+        "backgroundColor": "#0A0A0A",
+        "boxShadow": "0 3px 10px rgba(50,50,50,0.8)"
+      }
+    }
+  },
+  "theme_003": {
+    "name": "Alt Theme 3",
+    "background": "#121212",
+    "textColor": "#E0E0E0",
+    "accentColor": "#BB86FC",
+    "font": "UnifrakturCook",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "11px",
+        "padding": "14px 13px"
+      },
+      "card": {
+        "backgroundColor": "#121212",
+        "boxShadow": "0 1px 3px rgba(255,255,255,0.1)"
+      }
+    }
+  },
+  "theme_004": {
+    "name": "Alt Theme 4",
+    "background": "#141414",
+    "textColor": "#FAFAFA",
+    "accentColor": "#6A5ACD",
+    "font": "Bebas Neue",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "15px",
+        "padding": "9px 19px"
+      },
+      "card": {
+        "backgroundColor": "#141414",
+        "boxShadow": "0 4px 12px rgba(0,0,0,0.6)"
+      }
+    }
+  },
+  "theme_005": {
+    "name": "Alt Theme 5",
+    "background": "#0B0C10",
+    "textColor": "#C5C6C7",
+    "accentColor": "#66FCF1",
+    "font": "Inter",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "9px",
+        "padding": "13px 17px"
+      },
+      "card": {
+        "backgroundColor": "#0B0C10",
+        "boxShadow": "0 1px 3px rgba(255,255,255,0.1)"
+      }
+    }
+  },
+  "theme_006": {
+    "name": "Alt Theme 6",
+    "background": "#121212",
+    "textColor": "#E0E0E0",
+    "accentColor": "#BB86FC",
+    "font": "Orbitron",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "10px",
+        "padding": "14px 15px"
+      },
+      "card": {
+        "backgroundColor": "#121212",
+        "boxShadow": "0 5px 15px rgba(0,0,0,0.9)"
+      }
+    }
+  },
+  "theme_007": {
+    "name": "Alt Theme 7",
+    "background": "#141414",
+    "textColor": "#FAFAFA",
+    "accentColor": "#6A5ACD",
+    "font": "Anton",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "14px",
+        "padding": "10px 14px"
+      },
+      "card": {
+        "backgroundColor": "#141414",
+        "boxShadow": "0 3px 10px rgba(50,50,50,0.8)"
+      }
+    }
+  },
+  "theme_008": {
+    "name": "Alt Theme 8",
+    "background": "#202124",
+    "textColor": "#ECECEC",
+    "accentColor": "#4CAF50",
+    "font": "Raleway",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "13px",
+        "padding": "9px 15px"
+      },
+      "card": {
+        "backgroundColor": "#202124",
+        "boxShadow": "0 5px 15px rgba(0,0,0,0.9)"
+      }
+    }
+  },
+  "theme_009": {
+    "name": "Alt Theme 9",
+    "background": "#121212",
+    "textColor": "#E0E0E0",
+    "accentColor": "#BB86FC",
+    "font": "Inter",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "12px",
+        "padding": "8px 16px"
+      },
+      "card": {
+        "backgroundColor": "#121212",
+        "boxShadow": "0 1px 3px rgba(255,255,255,0.1)"
+      }
+    }
+  },
+  "theme_010": {
+    "name": "Alt Theme 10",
+    "background": "#1E1E1E",
+    "textColor": "#F5F5F5",
+    "accentColor": "#8B0000",
+    "font": "Orbitron",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "4px",
+        "padding": "14px 19px"
+      },
+      "card": {
+        "backgroundColor": "#1E1E1E",
+        "boxShadow": "0 1px 3px rgba(255,255,255,0.1)"
+      }
+    }
+  },
+  "theme_011": {
+    "name": "Alt Theme 11",
+    "background": "#1A1A1A",
+    "textColor": "#CCCCCC",
+    "accentColor": "#B22222",
+    "font": "Bebas Neue",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "5px",
+        "padding": "11px 12px"
+      },
+      "card": {
+        "backgroundColor": "#1A1A1A",
+        "boxShadow": "0 2px 6px rgba(0,0,0,0.4)"
+      }
+    }
+  },
+  "theme_012": {
+    "name": "Alt Theme 12",
+    "background": "#141414",
+    "textColor": "#FAFAFA",
+    "accentColor": "#6A5ACD",
+    "font": "Cormorant Garamond",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "6px",
+        "padding": "11px 17px"
+      },
+      "card": {
+        "backgroundColor": "#141414",
+        "boxShadow": "0 3px 10px rgba(50,50,50,0.8)"
+      }
+    }
+  },
+  "theme_013": {
+    "name": "Alt Theme 13",
+    "background": "#202124",
+    "textColor": "#ECECEC",
+    "accentColor": "#4CAF50",
+    "font": "Inter",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "8px",
+        "padding": "11px 18px"
+      },
+      "card": {
+        "backgroundColor": "#202124",
+        "boxShadow": "0 1px 3px rgba(255,255,255,0.1)"
+      }
+    }
+  },
+  "theme_014": {
+    "name": "Alt Theme 14",
+    "background": "#0B0C10",
+    "textColor": "#C5C6C7",
+    "accentColor": "#66FCF1",
+    "font": "Roboto Mono",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "0px",
+        "padding": "9px 18px"
+      },
+      "card": {
+        "backgroundColor": "#0B0C10",
+        "boxShadow": "0 2px 6px rgba(0,0,0,0.4)"
+      }
+    }
+  },
+  "theme_015": {
+    "name": "Alt Theme 15",
+    "background": "#0A0A0A",
+    "textColor": "#DADADA",
+    "accentColor": "#FF4500",
+    "font": "Raleway",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "3px",
+        "padding": "9px 12px"
+      },
+      "card": {
+        "backgroundColor": "#0A0A0A",
+        "boxShadow": "0 2px 6px rgba(0,0,0,0.4)"
+      }
+    }
+  },
+  "theme_016": {
+    "name": "Alt Theme 16",
+    "background": "#202124",
+    "textColor": "#ECECEC",
+    "accentColor": "#4CAF50",
+    "font": "Share Tech Mono",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "9px",
+        "padding": "13px 16px"
+      },
+      "card": {
+        "backgroundColor": "#202124",
+        "boxShadow": "0 2px 6px rgba(0,0,0,0.4)"
+      }
+    }
+  },
+  "theme_017": {
+    "name": "Alt Theme 17",
+    "background": "#2D2D30",
+    "textColor": "#FFFFFF",
+    "accentColor": "#00CED1",
+    "font": "UnifrakturCook",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "1px",
+        "padding": "12px 18px"
+      },
+      "card": {
+        "backgroundColor": "#2D2D30",
+        "boxShadow": "0 2px 6px rgba(0,0,0,0.4)"
+      }
+    }
+  },
+  "theme_018": {
+    "name": "Alt Theme 18",
+    "background": "#2D2D30",
+    "textColor": "#FFFFFF",
+    "accentColor": "#00CED1",
+    "font": "Bebas Neue",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "12px",
+        "padding": "13px 12px"
+      },
+      "card": {
+        "backgroundColor": "#2D2D30",
+        "boxShadow": "0 1px 3px rgba(255,255,255,0.1)"
+      }
+    }
+  },
+  "theme_019": {
+    "name": "Alt Theme 19",
+    "background": "#181818",
+    "textColor": "#C0C0C0",
+    "accentColor": "#FFD700",
+    "font": "Space Grotesk",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "1px",
+        "padding": "14px 19px"
+      },
+      "card": {
+        "backgroundColor": "#181818",
+        "boxShadow": "0 3px 10px rgba(50,50,50,0.8)"
+      }
+    }
+  },
+  "theme_020": {
+    "name": "Alt Theme 20",
+    "background": "#202124",
+    "textColor": "#ECECEC",
+    "accentColor": "#4CAF50",
+    "font": "Roboto Mono",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "5px",
+        "padding": "11px 19px"
+      },
+      "card": {
+        "backgroundColor": "#202124",
+        "boxShadow": "0 2px 6px rgba(0,0,0,0.4)"
+      }
+    }
+  },
+  "theme_021": {
+    "name": "Alt Theme 21",
+    "background": "#0B0C10",
+    "textColor": "#C5C6C7",
+    "accentColor": "#66FCF1",
+    "font": "Share Tech Mono",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "6px",
+        "padding": "8px 15px"
+      },
+      "card": {
+        "backgroundColor": "#0B0C10",
+        "boxShadow": "0 5px 15px rgba(0,0,0,0.9)"
+      }
+    }
+  },
+  "theme_022": {
+    "name": "Alt Theme 22",
+    "background": "#202124",
+    "textColor": "#ECECEC",
+    "accentColor": "#4CAF50",
+    "font": "Space Grotesk",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "14px",
+        "padding": "11px 18px"
+      },
+      "card": {
+        "backgroundColor": "#202124",
+        "boxShadow": "0 2px 6px rgba(0,0,0,0.4)"
+      }
+    }
+  },
+  "theme_023": {
+    "name": "Alt Theme 23",
+    "background": "#111111",
+    "textColor": "#EAEAEA",
+    "accentColor": "#20B2AA",
+    "font": "Space Grotesk",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "16px",
+        "padding": "9px 15px"
+      },
+      "card": {
+        "backgroundColor": "#111111",
+        "boxShadow": "0 5px 15px rgba(0,0,0,0.9)"
+      }
+    }
+  },
+  "theme_024": {
+    "name": "Alt Theme 24",
+    "background": "#0A0A0A",
+    "textColor": "#DADADA",
+    "accentColor": "#FF4500",
+    "font": "Inter",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "13px",
+        "padding": "8px 18px"
+      },
+      "card": {
+        "backgroundColor": "#0A0A0A",
+        "boxShadow": "0 5px 15px rgba(0,0,0,0.9)"
+      }
+    }
+  },
+  "theme_025": {
+    "name": "Alt Theme 25",
+    "background": "#141414",
+    "textColor": "#FAFAFA",
+    "accentColor": "#6A5ACD",
+    "font": "Orbitron",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "3px",
+        "padding": "8px 18px"
+      },
+      "card": {
+        "backgroundColor": "#141414",
+        "boxShadow": "0 4px 12px rgba(0,0,0,0.6)"
+      }
+    }
+  },
+  "theme_026": {
+    "name": "Alt Theme 26",
+    "background": "#202124",
+    "textColor": "#ECECEC",
+    "accentColor": "#4CAF50",
+    "font": "Raleway",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "6px",
+        "padding": "11px 20px"
+      },
+      "card": {
+        "backgroundColor": "#202124",
+        "boxShadow": "0 1px 3px rgba(255,255,255,0.1)"
+      }
+    }
+  },
+  "theme_027": {
+    "name": "Alt Theme 27",
+    "background": "#202124",
+    "textColor": "#ECECEC",
+    "accentColor": "#4CAF50",
+    "font": "Anton",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "12px",
+        "padding": "9px 18px"
+      },
+      "card": {
+        "backgroundColor": "#202124",
+        "boxShadow": "0 3px 10px rgba(50,50,50,0.8)"
+      }
+    }
+  },
+  "theme_028": {
+    "name": "Alt Theme 28",
+    "background": "#181818",
+    "textColor": "#C0C0C0",
+    "accentColor": "#FFD700",
+    "font": "JetBrains Mono",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "1px",
+        "padding": "14px 19px"
+      },
+      "card": {
+        "backgroundColor": "#181818",
+        "boxShadow": "0 2px 6px rgba(0,0,0,0.4)"
+      }
+    }
+  },
+  "theme_029": {
+    "name": "Alt Theme 29",
+    "background": "#111111",
+    "textColor": "#EAEAEA",
+    "accentColor": "#20B2AA",
+    "font": "Space Grotesk",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "15px",
+        "padding": "10px 20px"
+      },
+      "card": {
+        "backgroundColor": "#111111",
+        "boxShadow": "0 4px 12px rgba(0,0,0,0.6)"
+      }
+    }
+  },
+  "theme_030": {
+    "name": "Alt Theme 30",
+    "background": "#1E1E1E",
+    "textColor": "#F5F5F5",
+    "accentColor": "#8B0000",
+    "font": "Inter",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "7px",
+        "padding": "14px 14px"
+      },
+      "card": {
+        "backgroundColor": "#1E1E1E",
+        "boxShadow": "0 2px 6px rgba(0,0,0,0.4)"
+      }
+    }
+  },
+  "theme_031": {
+    "name": "Alt Theme 31",
+    "background": "#1A1A1A",
+    "textColor": "#CCCCCC",
+    "accentColor": "#B22222",
+    "font": "Bebas Neue",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "4px",
+        "padding": "13px 19px"
+      },
+      "card": {
+        "backgroundColor": "#1A1A1A",
+        "boxShadow": "0 5px 15px rgba(0,0,0,0.9)"
+      }
+    }
+  },
+  "theme_032": {
+    "name": "Alt Theme 32",
+    "background": "#181818",
+    "textColor": "#C0C0C0",
+    "accentColor": "#FFD700",
+    "font": "Orbitron",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "7px",
+        "padding": "8px 17px"
+      },
+      "card": {
+        "backgroundColor": "#181818",
+        "boxShadow": "0 4px 12px rgba(0,0,0,0.6)"
+      }
+    }
+  },
+  "theme_033": {
+    "name": "Alt Theme 33",
+    "background": "#111111",
+    "textColor": "#EAEAEA",
+    "accentColor": "#20B2AA",
+    "font": "Share Tech Mono",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "3px",
+        "padding": "12px 15px"
+      },
+      "card": {
+        "backgroundColor": "#111111",
+        "boxShadow": "0 4px 12px rgba(0,0,0,0.6)"
+      }
+    }
+  },
+  "theme_034": {
+    "name": "Alt Theme 34",
+    "background": "#181818",
+    "textColor": "#C0C0C0",
+    "accentColor": "#FFD700",
+    "font": "Crimson Pro",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "16px",
+        "padding": "9px 12px"
+      },
+      "card": {
+        "backgroundColor": "#181818",
+        "boxShadow": "0 2px 6px rgba(0,0,0,0.4)"
+      }
+    }
+  },
+  "theme_035": {
+    "name": "Alt Theme 35",
+    "background": "#1E1E1E",
+    "textColor": "#F5F5F5",
+    "accentColor": "#8B0000",
+    "font": "Roboto Mono",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "0px",
+        "padding": "11px 16px"
+      },
+      "card": {
+        "backgroundColor": "#1E1E1E",
+        "boxShadow": "0 2px 6px rgba(0,0,0,0.4)"
+      }
+    }
+  },
+  "theme_036": {
+    "name": "Alt Theme 36",
+    "background": "#0A0A0A",
+    "textColor": "#DADADA",
+    "accentColor": "#FF4500",
+    "font": "UnifrakturCook",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "8px",
+        "padding": "8px 16px"
+      },
+      "card": {
+        "backgroundColor": "#0A0A0A",
+        "boxShadow": "0 4px 12px rgba(0,0,0,0.6)"
+      }
+    }
+  },
+  "theme_037": {
+    "name": "Alt Theme 37",
+    "background": "#1A1A1A",
+    "textColor": "#CCCCCC",
+    "accentColor": "#B22222",
+    "font": "JetBrains Mono",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "1px",
+        "padding": "13px 19px"
+      },
+      "card": {
+        "backgroundColor": "#1A1A1A",
+        "boxShadow": "0 1px 3px rgba(255,255,255,0.1)"
+      }
+    }
+  },
+  "theme_038": {
+    "name": "Alt Theme 38",
+    "background": "#111111",
+    "textColor": "#EAEAEA",
+    "accentColor": "#20B2AA",
+    "font": "Cormorant Garamond",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "16px",
+        "padding": "13px 16px"
+      },
+      "card": {
+        "backgroundColor": "#111111",
+        "boxShadow": "0 4px 12px rgba(0,0,0,0.6)"
+      }
+    }
+  },
+  "theme_039": {
+    "name": "Alt Theme 39",
+    "background": "#111111",
+    "textColor": "#EAEAEA",
+    "accentColor": "#20B2AA",
+    "font": "Playfair Display",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "2px",
+        "padding": "13px 15px"
+      },
+      "card": {
+        "backgroundColor": "#111111",
+        "boxShadow": "0 3px 10px rgba(50,50,50,0.8)"
+      }
+    }
+  },
+  "theme_040": {
+    "name": "Alt Theme 40",
+    "background": "#2D2D30",
+    "textColor": "#FFFFFF",
+    "accentColor": "#00CED1",
+    "font": "Anton",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "1px",
+        "padding": "8px 12px"
+      },
+      "card": {
+        "backgroundColor": "#2D2D30",
+        "boxShadow": "0 2px 6px rgba(0,0,0,0.4)"
+      }
+    }
+  },
+  "theme_041": {
+    "name": "Alt Theme 41",
+    "background": "#181818",
+    "textColor": "#C0C0C0",
+    "accentColor": "#FFD700",
+    "font": "Raleway",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "11px",
+        "padding": "12px 20px"
+      },
+      "card": {
+        "backgroundColor": "#181818",
+        "boxShadow": "0 1px 3px rgba(255,255,255,0.1)"
+      }
+    }
+  },
+  "theme_042": {
+    "name": "Alt Theme 42",
+    "background": "#141414",
+    "textColor": "#FAFAFA",
+    "accentColor": "#6A5ACD",
+    "font": "Playfair Display",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "2px",
+        "padding": "8px 13px"
+      },
+      "card": {
+        "backgroundColor": "#141414",
+        "boxShadow": "0 3px 10px rgba(50,50,50,0.8)"
+      }
+    }
+  },
+  "theme_043": {
+    "name": "Alt Theme 43",
+    "background": "#181818",
+    "textColor": "#C0C0C0",
+    "accentColor": "#FFD700",
+    "font": "JetBrains Mono",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "16px",
+        "padding": "12px 18px"
+      },
+      "card": {
+        "backgroundColor": "#181818",
+        "boxShadow": "0 5px 15px rgba(0,0,0,0.9)"
+      }
+    }
+  },
+  "theme_044": {
+    "name": "Alt Theme 44",
+    "background": "#111111",
+    "textColor": "#EAEAEA",
+    "accentColor": "#20B2AA",
+    "font": "Fira Sans",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "1px",
+        "padding": "10px 15px"
+      },
+      "card": {
+        "backgroundColor": "#111111",
+        "boxShadow": "0 2px 6px rgba(0,0,0,0.4)"
+      }
+    }
+  },
+  "theme_045": {
+    "name": "Alt Theme 45",
+    "background": "#0A0A0A",
+    "textColor": "#DADADA",
+    "accentColor": "#FF4500",
+    "font": "Cormorant Garamond",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "14px",
+        "padding": "13px 13px"
+      },
+      "card": {
+        "backgroundColor": "#0A0A0A",
+        "boxShadow": "0 5px 15px rgba(0,0,0,0.9)"
+      }
+    }
+  },
+  "theme_046": {
+    "name": "Alt Theme 46",
+    "background": "#181818",
+    "textColor": "#C0C0C0",
+    "accentColor": "#FFD700",
+    "font": "Playfair Display",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "11px",
+        "padding": "14px 12px"
+      },
+      "card": {
+        "backgroundColor": "#181818",
+        "boxShadow": "0 5px 15px rgba(0,0,0,0.9)"
+      }
+    }
+  },
+  "theme_047": {
+    "name": "Alt Theme 47",
+    "background": "#1A1A1A",
+    "textColor": "#CCCCCC",
+    "accentColor": "#B22222",
+    "font": "Cormorant Garamond",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "10px",
+        "padding": "10px 16px"
+      },
+      "card": {
+        "backgroundColor": "#1A1A1A",
+        "boxShadow": "0 3px 10px rgba(50,50,50,0.8)"
+      }
+    }
+  },
+  "theme_048": {
+    "name": "Alt Theme 48",
+    "background": "#111111",
+    "textColor": "#EAEAEA",
+    "accentColor": "#20B2AA",
+    "font": "Bebas Neue",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "13px",
+        "padding": "13px 12px"
+      },
+      "card": {
+        "backgroundColor": "#111111",
+        "boxShadow": "0 3px 10px rgba(50,50,50,0.8)"
+      }
+    }
+  },
+  "theme_049": {
+    "name": "Alt Theme 49",
+    "background": "#0B0C10",
+    "textColor": "#C5C6C7",
+    "accentColor": "#66FCF1",
+    "font": "Space Grotesk",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "1px",
+        "padding": "14px 15px"
+      },
+      "card": {
+        "backgroundColor": "#0B0C10",
+        "boxShadow": "0 5px 15px rgba(0,0,0,0.9)"
+      }
+    }
+  },
+  "theme_050": {
+    "name": "Alt Theme 50",
+    "background": "#1E1E1E",
+    "textColor": "#F5F5F5",
+    "accentColor": "#8B0000",
+    "font": "Teko",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "1px",
+        "padding": "10px 18px"
+      },
+      "card": {
+        "backgroundColor": "#1E1E1E",
+        "boxShadow": "0 1px 3px rgba(255,255,255,0.1)"
+      }
+    }
+  },
+  "theme_051": {
+    "name": "Alt Theme 51",
+    "background": "#0A0A0A",
+    "textColor": "#DADADA",
+    "accentColor": "#FF4500",
+    "font": "Playfair Display",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "1px",
+        "padding": "10px 19px"
+      },
+      "card": {
+        "backgroundColor": "#0A0A0A",
+        "boxShadow": "0 1px 3px rgba(255,255,255,0.1)"
+      }
+    }
+  },
+  "theme_052": {
+    "name": "Alt Theme 52",
+    "background": "#1A1A1A",
+    "textColor": "#CCCCCC",
+    "accentColor": "#B22222",
+    "font": "Anton",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "10px",
+        "padding": "9px 17px"
+      },
+      "card": {
+        "backgroundColor": "#1A1A1A",
+        "boxShadow": "0 2px 6px rgba(0,0,0,0.4)"
+      }
+    }
+  },
+  "theme_053": {
+    "name": "Alt Theme 53",
+    "background": "#0A0A0A",
+    "textColor": "#DADADA",
+    "accentColor": "#FF4500",
+    "font": "Cormorant Garamond",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "10px",
+        "padding": "12px 20px"
+      },
+      "card": {
+        "backgroundColor": "#0A0A0A",
+        "boxShadow": "0 1px 3px rgba(255,255,255,0.1)"
+      }
+    }
+  },
+  "theme_054": {
+    "name": "Alt Theme 54",
+    "background": "#0A0A0A",
+    "textColor": "#DADADA",
+    "accentColor": "#FF4500",
+    "font": "Anton",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "9px",
+        "padding": "9px 12px"
+      },
+      "card": {
+        "backgroundColor": "#0A0A0A",
+        "boxShadow": "0 5px 15px rgba(0,0,0,0.9)"
+      }
+    }
+  },
+  "theme_055": {
+    "name": "Alt Theme 55",
+    "background": "#2D2D30",
+    "textColor": "#FFFFFF",
+    "accentColor": "#00CED1",
+    "font": "UnifrakturCook",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "10px",
+        "padding": "12px 16px"
+      },
+      "card": {
+        "backgroundColor": "#2D2D30",
+        "boxShadow": "0 4px 12px rgba(0,0,0,0.6)"
+      }
+    }
+  },
+  "theme_056": {
+    "name": "Alt Theme 56",
+    "background": "#1E1E1E",
+    "textColor": "#F5F5F5",
+    "accentColor": "#8B0000",
+    "font": "UnifrakturCook",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "13px",
+        "padding": "14px 17px"
+      },
+      "card": {
+        "backgroundColor": "#1E1E1E",
+        "boxShadow": "0 5px 15px rgba(0,0,0,0.9)"
+      }
+    }
+  },
+  "theme_057": {
+    "name": "Alt Theme 57",
+    "background": "#121212",
+    "textColor": "#E0E0E0",
+    "accentColor": "#BB86FC",
+    "font": "Crimson Pro",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "10px",
+        "padding": "8px 15px"
+      },
+      "card": {
+        "backgroundColor": "#121212",
+        "boxShadow": "0 1px 3px rgba(255,255,255,0.1)"
+      }
+    }
+  },
+  "theme_058": {
+    "name": "Alt Theme 58",
+    "background": "#121212",
+    "textColor": "#E0E0E0",
+    "accentColor": "#BB86FC",
+    "font": "Space Grotesk",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "11px",
+        "padding": "9px 17px"
+      },
+      "card": {
+        "backgroundColor": "#121212",
+        "boxShadow": "0 3px 10px rgba(50,50,50,0.8)"
+      }
+    }
+  },
+  "theme_059": {
+    "name": "Alt Theme 59",
+    "background": "#121212",
+    "textColor": "#E0E0E0",
+    "accentColor": "#BB86FC",
+    "font": "Roboto Mono",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "6px",
+        "padding": "8px 17px"
+      },
+      "card": {
+        "backgroundColor": "#121212",
+        "boxShadow": "0 1px 3px rgba(255,255,255,0.1)"
+      }
+    }
+  },
+  "theme_060": {
+    "name": "Alt Theme 60",
+    "background": "#0A0A0A",
+    "textColor": "#DADADA",
+    "accentColor": "#FF4500",
+    "font": "Share Tech Mono",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "0px",
+        "padding": "11px 18px"
+      },
+      "card": {
+        "backgroundColor": "#0A0A0A",
+        "boxShadow": "0 3px 10px rgba(50,50,50,0.8)"
+      }
+    }
+  },
+  "theme_061": {
+    "name": "Alt Theme 61",
+    "background": "#121212",
+    "textColor": "#E0E0E0",
+    "accentColor": "#BB86FC",
+    "font": "Share Tech Mono",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "15px",
+        "padding": "14px 12px"
+      },
+      "card": {
+        "backgroundColor": "#121212",
+        "boxShadow": "0 2px 6px rgba(0,0,0,0.4)"
+      }
+    }
+  },
+  "theme_062": {
+    "name": "Alt Theme 62",
+    "background": "#141414",
+    "textColor": "#FAFAFA",
+    "accentColor": "#6A5ACD",
+    "font": "Raleway",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "1px",
+        "padding": "14px 12px"
+      },
+      "card": {
+        "backgroundColor": "#141414",
+        "boxShadow": "0 4px 12px rgba(0,0,0,0.6)"
+      }
+    }
+  },
+  "theme_063": {
+    "name": "Alt Theme 63",
+    "background": "#111111",
+    "textColor": "#EAEAEA",
+    "accentColor": "#20B2AA",
+    "font": "JetBrains Mono",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "8px",
+        "padding": "10px 12px"
+      },
+      "card": {
+        "backgroundColor": "#111111",
+        "boxShadow": "0 2px 6px rgba(0,0,0,0.4)"
+      }
+    }
+  },
+  "theme_064": {
+    "name": "Alt Theme 64",
+    "background": "#1A1A1A",
+    "textColor": "#CCCCCC",
+    "accentColor": "#B22222",
+    "font": "Space Grotesk",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "4px",
+        "padding": "11px 14px"
+      },
+      "card": {
+        "backgroundColor": "#1A1A1A",
+        "boxShadow": "0 4px 12px rgba(0,0,0,0.6)"
+      }
+    }
+  },
+  "theme_065": {
+    "name": "Alt Theme 65",
+    "background": "#141414",
+    "textColor": "#FAFAFA",
+    "accentColor": "#6A5ACD",
+    "font": "Space Grotesk",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "16px",
+        "padding": "9px 13px"
+      },
+      "card": {
+        "backgroundColor": "#141414",
+        "boxShadow": "0 5px 15px rgba(0,0,0,0.9)"
+      }
+    }
+  },
+  "theme_066": {
+    "name": "Alt Theme 66",
+    "background": "#1E1E1E",
+    "textColor": "#F5F5F5",
+    "accentColor": "#8B0000",
+    "font": "UnifrakturCook",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "10px",
+        "padding": "13px 15px"
+      },
+      "card": {
+        "backgroundColor": "#1E1E1E",
+        "boxShadow": "0 4px 12px rgba(0,0,0,0.6)"
+      }
+    }
+  },
+  "theme_067": {
+    "name": "Alt Theme 67",
+    "background": "#141414",
+    "textColor": "#FAFAFA",
+    "accentColor": "#6A5ACD",
+    "font": "Fira Sans",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "12px",
+        "padding": "13px 18px"
+      },
+      "card": {
+        "backgroundColor": "#141414",
+        "boxShadow": "0 1px 3px rgba(255,255,255,0.1)"
+      }
+    }
+  },
+  "theme_068": {
+    "name": "Alt Theme 68",
+    "background": "#121212",
+    "textColor": "#E0E0E0",
+    "accentColor": "#BB86FC",
+    "font": "UnifrakturCook",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "8px",
+        "padding": "8px 13px"
+      },
+      "card": {
+        "backgroundColor": "#121212",
+        "boxShadow": "0 3px 10px rgba(50,50,50,0.8)"
+      }
+    }
+  },
+  "theme_069": {
+    "name": "Alt Theme 69",
+    "background": "#202124",
+    "textColor": "#ECECEC",
+    "accentColor": "#4CAF50",
+    "font": "Teko",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "6px",
+        "padding": "12px 14px"
+      },
+      "card": {
+        "backgroundColor": "#202124",
+        "boxShadow": "0 2px 6px rgba(0,0,0,0.4)"
+      }
+    }
+  },
+  "theme_070": {
+    "name": "Alt Theme 70",
+    "background": "#1A1A1A",
+    "textColor": "#CCCCCC",
+    "accentColor": "#B22222",
+    "font": "Teko",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "16px",
+        "padding": "12px 19px"
+      },
+      "card": {
+        "backgroundColor": "#1A1A1A",
+        "boxShadow": "0 3px 10px rgba(50,50,50,0.8)"
+      }
+    }
+  },
+  "theme_071": {
+    "name": "Alt Theme 71",
+    "background": "#111111",
+    "textColor": "#EAEAEA",
+    "accentColor": "#20B2AA",
+    "font": "Share Tech Mono",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "10px",
+        "padding": "8px 15px"
+      },
+      "card": {
+        "backgroundColor": "#111111",
+        "boxShadow": "0 4px 12px rgba(0,0,0,0.6)"
+      }
+    }
+  },
+  "theme_072": {
+    "name": "Alt Theme 72",
+    "background": "#1E1E1E",
+    "textColor": "#F5F5F5",
+    "accentColor": "#8B0000",
+    "font": "Cormorant Garamond",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "12px",
+        "padding": "9px 12px"
+      },
+      "card": {
+        "backgroundColor": "#1E1E1E",
+        "boxShadow": "0 2px 6px rgba(0,0,0,0.4)"
+      }
+    }
+  },
+  "theme_073": {
+    "name": "Alt Theme 73",
+    "background": "#121212",
+    "textColor": "#E0E0E0",
+    "accentColor": "#BB86FC",
+    "font": "Fira Sans",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "1px",
+        "padding": "9px 15px"
+      },
+      "card": {
+        "backgroundColor": "#121212",
+        "boxShadow": "0 4px 12px rgba(0,0,0,0.6)"
+      }
+    }
+  },
+  "theme_074": {
+    "name": "Alt Theme 74",
+    "background": "#181818",
+    "textColor": "#C0C0C0",
+    "accentColor": "#FFD700",
+    "font": "Share Tech Mono",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "12px",
+        "padding": "10px 20px"
+      },
+      "card": {
+        "backgroundColor": "#181818",
+        "boxShadow": "0 1px 3px rgba(255,255,255,0.1)"
+      }
+    }
+  },
+  "theme_075": {
+    "name": "Alt Theme 75",
+    "background": "#2D2D30",
+    "textColor": "#FFFFFF",
+    "accentColor": "#00CED1",
+    "font": "Share Tech Mono",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "5px",
+        "padding": "10px 17px"
+      },
+      "card": {
+        "backgroundColor": "#2D2D30",
+        "boxShadow": "0 2px 6px rgba(0,0,0,0.4)"
+      }
+    }
+  },
+  "theme_076": {
+    "name": "Alt Theme 76",
+    "background": "#0A0A0A",
+    "textColor": "#DADADA",
+    "accentColor": "#FF4500",
+    "font": "Teko",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "7px",
+        "padding": "8px 13px"
+      },
+      "card": {
+        "backgroundColor": "#0A0A0A",
+        "boxShadow": "0 1px 3px rgba(255,255,255,0.1)"
+      }
+    }
+  },
+  "theme_077": {
+    "name": "Alt Theme 77",
+    "background": "#181818",
+    "textColor": "#C0C0C0",
+    "accentColor": "#FFD700",
+    "font": "Raleway",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "7px",
+        "padding": "9px 14px"
+      },
+      "card": {
+        "backgroundColor": "#181818",
+        "boxShadow": "0 5px 15px rgba(0,0,0,0.9)"
+      }
+    }
+  },
+  "theme_078": {
+    "name": "Alt Theme 78",
+    "background": "#2D2D30",
+    "textColor": "#FFFFFF",
+    "accentColor": "#00CED1",
+    "font": "Cormorant Garamond",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "3px",
+        "padding": "13px 17px"
+      },
+      "card": {
+        "backgroundColor": "#2D2D30",
+        "boxShadow": "0 3px 10px rgba(50,50,50,0.8)"
+      }
+    }
+  },
+  "theme_079": {
+    "name": "Alt Theme 79",
+    "background": "#111111",
+    "textColor": "#EAEAEA",
+    "accentColor": "#20B2AA",
+    "font": "Fira Sans",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "0px",
+        "padding": "12px 17px"
+      },
+      "card": {
+        "backgroundColor": "#111111",
+        "boxShadow": "0 3px 10px rgba(50,50,50,0.8)"
+      }
+    }
+  },
+  "theme_080": {
+    "name": "Alt Theme 80",
+    "background": "#202124",
+    "textColor": "#ECECEC",
+    "accentColor": "#4CAF50",
+    "font": "Bebas Neue",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "2px",
+        "padding": "14px 12px"
+      },
+      "card": {
+        "backgroundColor": "#202124",
+        "boxShadow": "0 5px 15px rgba(0,0,0,0.9)"
+      }
+    }
+  },
+  "theme_081": {
+    "name": "Alt Theme 81",
+    "background": "#1A1A1A",
+    "textColor": "#CCCCCC",
+    "accentColor": "#B22222",
+    "font": "Share Tech Mono",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "6px",
+        "padding": "11px 13px"
+      },
+      "card": {
+        "backgroundColor": "#1A1A1A",
+        "boxShadow": "0 3px 10px rgba(50,50,50,0.8)"
+      }
+    }
+  },
+  "theme_082": {
+    "name": "Alt Theme 82",
+    "background": "#121212",
+    "textColor": "#E0E0E0",
+    "accentColor": "#BB86FC",
+    "font": "Bebas Neue",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "0px",
+        "padding": "13px 14px"
+      },
+      "card": {
+        "backgroundColor": "#121212",
+        "boxShadow": "0 1px 3px rgba(255,255,255,0.1)"
+      }
+    }
+  },
+  "theme_083": {
+    "name": "Alt Theme 83",
+    "background": "#181818",
+    "textColor": "#C0C0C0",
+    "accentColor": "#FFD700",
+    "font": "JetBrains Mono",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "10px",
+        "padding": "8px 16px"
+      },
+      "card": {
+        "backgroundColor": "#181818",
+        "boxShadow": "0 4px 12px rgba(0,0,0,0.6)"
+      }
+    }
+  },
+  "theme_084": {
+    "name": "Alt Theme 84",
+    "background": "#2D2D30",
+    "textColor": "#FFFFFF",
+    "accentColor": "#00CED1",
+    "font": "Crimson Pro",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "5px",
+        "padding": "11px 20px"
+      },
+      "card": {
+        "backgroundColor": "#2D2D30",
+        "boxShadow": "0 2px 6px rgba(0,0,0,0.4)"
+      }
+    }
+  },
+  "theme_085": {
+    "name": "Alt Theme 85",
+    "background": "#1A1A1A",
+    "textColor": "#CCCCCC",
+    "accentColor": "#B22222",
+    "font": "Space Grotesk",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "5px",
+        "padding": "8px 15px"
+      },
+      "card": {
+        "backgroundColor": "#1A1A1A",
+        "boxShadow": "0 4px 12px rgba(0,0,0,0.6)"
+      }
+    }
+  },
+  "theme_086": {
+    "name": "Alt Theme 86",
+    "background": "#141414",
+    "textColor": "#FAFAFA",
+    "accentColor": "#6A5ACD",
+    "font": "Bebas Neue",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "8px",
+        "padding": "8px 14px"
+      },
+      "card": {
+        "backgroundColor": "#141414",
+        "boxShadow": "0 2px 6px rgba(0,0,0,0.4)"
+      }
+    }
+  },
+  "theme_087": {
+    "name": "Alt Theme 87",
+    "background": "#121212",
+    "textColor": "#E0E0E0",
+    "accentColor": "#BB86FC",
+    "font": "Roboto Mono",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "1px",
+        "padding": "9px 12px"
+      },
+      "card": {
+        "backgroundColor": "#121212",
+        "boxShadow": "0 2px 6px rgba(0,0,0,0.4)"
+      }
+    }
+  },
+  "theme_088": {
+    "name": "Alt Theme 88",
+    "background": "#0A0A0A",
+    "textColor": "#DADADA",
+    "accentColor": "#FF4500",
+    "font": "Share Tech Mono",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "10px",
+        "padding": "9px 12px"
+      },
+      "card": {
+        "backgroundColor": "#0A0A0A",
+        "boxShadow": "0 2px 6px rgba(0,0,0,0.4)"
+      }
+    }
+  },
+  "theme_089": {
+    "name": "Alt Theme 89",
+    "background": "#1E1E1E",
+    "textColor": "#F5F5F5",
+    "accentColor": "#8B0000",
+    "font": "Share Tech Mono",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "11px",
+        "padding": "14px 17px"
+      },
+      "card": {
+        "backgroundColor": "#1E1E1E",
+        "boxShadow": "0 2px 6px rgba(0,0,0,0.4)"
+      }
+    }
+  },
+  "theme_090": {
+    "name": "Alt Theme 90",
+    "background": "#181818",
+    "textColor": "#C0C0C0",
+    "accentColor": "#FFD700",
+    "font": "Space Grotesk",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "6px",
+        "padding": "13px 14px"
+      },
+      "card": {
+        "backgroundColor": "#181818",
+        "boxShadow": "0 4px 12px rgba(0,0,0,0.6)"
+      }
+    }
+  },
+  "theme_091": {
+    "name": "Alt Theme 91",
+    "background": "#202124",
+    "textColor": "#ECECEC",
+    "accentColor": "#4CAF50",
+    "font": "UnifrakturCook",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "10px",
+        "padding": "12px 13px"
+      },
+      "card": {
+        "backgroundColor": "#202124",
+        "boxShadow": "0 4px 12px rgba(0,0,0,0.6)"
+      }
+    }
+  },
+  "theme_092": {
+    "name": "Alt Theme 92",
+    "background": "#0A0A0A",
+    "textColor": "#DADADA",
+    "accentColor": "#FF4500",
+    "font": "Roboto Mono",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "0px",
+        "padding": "14px 14px"
+      },
+      "card": {
+        "backgroundColor": "#0A0A0A",
+        "boxShadow": "0 1px 3px rgba(255,255,255,0.1)"
+      }
+    }
+  },
+  "theme_093": {
+    "name": "Alt Theme 93",
+    "background": "#2D2D30",
+    "textColor": "#FFFFFF",
+    "accentColor": "#00CED1",
+    "font": "Crimson Pro",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "7px",
+        "padding": "10px 18px"
+      },
+      "card": {
+        "backgroundColor": "#2D2D30",
+        "boxShadow": "0 3px 10px rgba(50,50,50,0.8)"
+      }
+    }
+  },
+  "theme_094": {
+    "name": "Alt Theme 94",
+    "background": "#202124",
+    "textColor": "#ECECEC",
+    "accentColor": "#4CAF50",
+    "font": "Anton",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "12px",
+        "padding": "13px 13px"
+      },
+      "card": {
+        "backgroundColor": "#202124",
+        "boxShadow": "0 1px 3px rgba(255,255,255,0.1)"
+      }
+    }
+  },
+  "theme_095": {
+    "name": "Alt Theme 95",
+    "background": "#1A1A1A",
+    "textColor": "#CCCCCC",
+    "accentColor": "#B22222",
+    "font": "JetBrains Mono",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "9px",
+        "padding": "11px 16px"
+      },
+      "card": {
+        "backgroundColor": "#1A1A1A",
+        "boxShadow": "0 2px 6px rgba(0,0,0,0.4)"
+      }
+    }
+  },
+  "theme_096": {
+    "name": "Alt Theme 96",
+    "background": "#0A0A0A",
+    "textColor": "#DADADA",
+    "accentColor": "#FF4500",
+    "font": "Raleway",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "14px",
+        "padding": "13px 19px"
+      },
+      "card": {
+        "backgroundColor": "#0A0A0A",
+        "boxShadow": "0 2px 6px rgba(0,0,0,0.4)"
+      }
+    }
+  },
+  "theme_097": {
+    "name": "Alt Theme 97",
+    "background": "#0A0A0A",
+    "textColor": "#DADADA",
+    "accentColor": "#FF4500",
+    "font": "Share Tech Mono",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "9px",
+        "padding": "8px 14px"
+      },
+      "card": {
+        "backgroundColor": "#0A0A0A",
+        "boxShadow": "0 1px 3px rgba(255,255,255,0.1)"
+      }
+    }
+  },
+  "theme_098": {
+    "name": "Alt Theme 98",
+    "background": "#141414",
+    "textColor": "#FAFAFA",
+    "accentColor": "#6A5ACD",
+    "font": "Playfair Display",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "0px",
+        "padding": "13px 17px"
+      },
+      "card": {
+        "backgroundColor": "#141414",
+        "boxShadow": "0 3px 10px rgba(50,50,50,0.8)"
+      }
+    }
+  },
+  "theme_099": {
+    "name": "Alt Theme 99",
+    "background": "#0A0A0A",
+    "textColor": "#DADADA",
+    "accentColor": "#FF4500",
+    "font": "Share Tech Mono",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "15px",
+        "padding": "12px 20px"
+      },
+      "card": {
+        "backgroundColor": "#0A0A0A",
+        "boxShadow": "0 1px 3px rgba(255,255,255,0.1)"
+      }
+    }
+  },
+  "theme_100": {
+    "name": "Alt Theme 100",
+    "background": "#2D2D30",
+    "textColor": "#FFFFFF",
+    "accentColor": "#00CED1",
+    "font": "Orbitron",
+    "darkMode": true,
+    "components": {
+      "button": {
+        "borderRadius": "8px",
+        "padding": "9px 12px"
+      },
+      "card": {
+        "backgroundColor": "#2D2D30",
+        "boxShadow": "0 5px 15px rgba(0,0,0,0.9)"
+      }
+    }
+  }
+}

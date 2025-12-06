@@ -68,7 +68,7 @@
 │  Learning Hub                                                │
 │  300 micro-lessons with code templates across 25 skill areas│
 │                                                               │
-│  Coming soon: Interactive learning modules integrated with  │
+│  ✅ NOW LIVE: Interactive learning modules integrated with  │
 │  your existing documents                                     │
 └─────────────────────────────────────────────────────────────┘
 ```

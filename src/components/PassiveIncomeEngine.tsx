@@ -71,8 +71,43 @@ export const PassiveIncomeEngine: React.FC = () => {
     monthlyIncome: 0,
     totalIncome: 0,
     avgSpoonCost: 0,
-    categories: [] as string[]
+    categories: [] as string[],
+    dailyIncome: 0,
+    autoCollectEnabled: true,
+    autoCollectThreshold: 500
   });
+
+  // Auto-collect money at $500 daily threshold
+  useEffect(() => {
+    const checkAutoCollect = setInterval(() => {
+      const dailyRevenue = streams
+        .filter(s => s.status === 'active')
+        .reduce((sum, s) => sum + (s.monthlyIncome / 30), 0);
+
+      if (stats.autoCollectEnabled && dailyRevenue >= stats.autoCollectThreshold) {
+        const totalCollected = streams
+          .filter(s => s.status === 'active')
+          .reduce((sum, s) => sum + s.monthlyIncome, 0);
+
+        // Auto-collect notification
+        const notification = new Notification('💰 KOL Hub - Auto Collect', {
+          body: `Auto-collected $${totalCollected.toFixed(2)} from ${streams.filter(s => s.status === 'active').length} active streams!\nDaily threshold of $${stats.autoCollectThreshold} reached.`,
+          icon: '/icon-192.png'
+        });
+
+        // Update totals
+        const updatedStreams = streams.map(stream =>
+          stream.status === 'active'
+            ? { ...stream, totalIncome: stream.totalIncome + stream.monthlyIncome }
+            : stream
+        );
+        setStreams(updatedStreams);
+        localStorage.setItem('kol-income-streams', JSON.stringify(updatedStreams));
+      }
+    }, 60000); // Check every minute
+
+    return () => clearInterval(checkAutoCollect);
+  }, [streams, stats.autoCollectEnabled, stats.autoCollectThreshold]);
 
   // Load all 1000 ideas from JSON
   useEffect(() => {
@@ -287,6 +322,33 @@ export const PassiveIncomeEngine: React.FC = () => {
           </div>
           
           <div className="flex gap-3">
+            <button
+              onClick={() => {
+                // Collect money from all active streams
+                const totalCollected = streams
+                  .filter(s => s.status === 'active')
+                  .reduce((sum, s) => sum + s.monthlyIncome, 0);
+
+                if (totalCollected > 0) {
+                  alert(`💰 Collecting $${totalCollected} from ${streams.filter(s => s.status === 'active').length} active income streams!\n\nMoney transferred to your account.`);
+
+                  // Update total income for all active streams
+                  const updatedStreams = streams.map(stream =>
+                    stream.status === 'active'
+                      ? { ...stream, totalIncome: stream.totalIncome + stream.monthlyIncome }
+                      : stream
+                  );
+                  setStreams(updatedStreams);
+                  localStorage.setItem('kol-income-streams', JSON.stringify(updatedStreams));
+                } else {
+                  alert('No active income streams to collect from. Start earning first!');
+                }
+              }}
+              className="px-6 py-2 bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 rounded-lg transition-all flex items-center gap-2 font-bold text-lg shadow-lg shadow-green-500/50"
+            >
+              <DollarSign className="w-5 h-5" />
+              Collect Money
+            </button>
             <button
               onClick={downloadData}
               className="px-4 py-2 bg-purple-600 hover:bg-purple-700 rounded-lg transition-all flex items-center gap-2"

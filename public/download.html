@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Kol's Hub - Personal OS</title>
+    <link rel="icon" type="image/png" href="/icon-192.png">
+    <meta name="description" content="Download Kol's Hub - Your comprehensive personal operating system with AI Avatar Teacher, wardrobe integration, clothing scanner, health tracking, passive income, and 130+ features.">
+    <meta name="theme-color" content="#667eea">
+    <meta property="og:title" content="Download Kol's Hub - Personal OS">
+    <meta property="og:description" content="Your personal operating system with AI Avatar Teacher that wears your actual clothes!">
+    <meta property="og:image" content="https://kolshub.net/icon-512.png">
+    <meta property="og:url" content="https://kolshub.net/download">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 750px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .logo-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .logo-header img {
+            width: 80px;
+            height: 80px;
+            border-radius: 16px;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .subtitle {
+            text-align: center;
+            opacity: 0.9;
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+        }
+
+        .new-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #f472b6, #ec4899);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-left: 8px;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+
+        .download-btn {
+            display: block;
+            width: 100%;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 12px;
+            text-align: center;
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+        }
+
+        .download-btn .icon {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .download-btn .badge {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            margin-top: 8px;
+        }
+
+        .info {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 12px;
+            margin-top: 20px;
+        }
+
+        .info h3 {
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+
+        .info ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .info li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        .info li:before {
+            content: "\2713";
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+            color: #4ade80;
+        }
+
+        .version {
+            text-align: center;
+            margin-top: 20px;
+            opacity: 0.7;
+            font-size: 0.9rem;
+        }
+
+        .warning {
+            background: rgba(255, 193, 7, 0.2);
+            border: 2px solid rgba(255, 193, 7, 0.5);
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .warning h4 {
+            margin-bottom: 8px;
+            color: #ffd700;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin: 30px 0;
+        }
+
+        .stat {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        .stat-number {
+            font-size: 1.8rem;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
+            font-size: 0.85rem;
+            opacity: 0.8;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .feature-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .feature-card .icon {
+            font-size: 2rem;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .feature-card h4 {
+            font-size: 0.95rem;
+            margin-bottom: 5px;
+        }
+
+        .feature-card p {
+            font-size: 0.8rem;
+            opacity: 0.8;
+        }
+
+        .feature-card.new {
+            border: 2px solid #f472b6;
+            position: relative;
+        }
+
+        .feature-card.new::after {
+            content: "NEW";
+            position: absolute;
+            top: -8px;
+            right: -8px;
+            background: linear-gradient(135deg, #f472b6, #ec4899);
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 0.65rem;
+            font-weight: bold;
+        }
+
+        .qr-section {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+
+        .qr-item {
+            text-align: center;
+        }
+
+        .qr-item img {
+            width: 120px;
+            height: 120px;
+            background: white;
+            border-radius: 12px;
+            padding: 10px;
+        }
+
+        .qr-item p {
+            margin-top: 8px;
+            font-size: 0.9rem;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, rgba(244, 114, 182, 0.3), rgba(139, 92, 246, 0.3));
+            border: 2px solid rgba(244, 114, 182, 0.5);
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .highlight-box h3 {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+        }
+
+        .highlight-box p {
+            opacity: 0.9;
+        }
+
+        @media (max-width: 600px) {
+            .stats {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .container {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo-header">
+            <img src="/icon-192.png" alt="Kol's Hub Logo" onerror="this.style.display='none'">
+            <h1>Kol's Hub</h1>
+            <p class="subtitle">Your Personal Operating System <span class="new-badge">v5.5.0</span></p>
+        </div>
+
+        <div class="highlight-box">
+            <h3>Complete Food & Nutrition Hub - 50 Seed Recipes!</h3>
+            <p>Pantry tracking, meal planning, 50 detailed recipes, water intake, nutrition trends & more</p>
+        </div>
+
+        <div class="stats">
+            <div class="stat">
+                <span class="stat-number">130+</span>
+                <span class="stat-label">Pages</span>
+            </div>
+            <div class="stat">
+                <span class="stat-number">12,500+</span>
+                <span class="stat-label">Features</span>
+            </div>
+            <div class="stat">
+                <span class="stat-number">65+</span>
+                <span class="stat-label">Integrations</span>
+            </div>
+            <div class="stat">
+                <span class="stat-number">5</span>
+                <span class="stat-label">AI Models</span>
+            </div>
+        </div>
+
+        <!-- Android Download - Primary -->
+        <a href="/downloads/KolHub-v5.5.0.apk" download class="download-btn" style="background: linear-gradient(135deg, #3ddc84 0%, #00c853 100%);">
+            <span class="icon">📱</span>
+            Download for Android
+            <span class="badge">v5.5.0 - Food Edition</span>
+        </a>
+
+        <!-- Web App -->
+        <a href="https://kolshub.net" class="download-btn" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+            <span class="icon">🌐</span>
+            Open Web App
+            <span class="badge">Works on any device - Instant Access</span>
+        </a>
+
+        <!-- iOS Install Guide -->
+        <a href="/ios-install.html" class="download-btn" style="background: linear-gradient(135deg, #1a1a1a 0%, #333 100%);">
+            <span class="icon">🍎</span>
+            Install on iPhone/iPad
+            <span class="badge">Add to Home Screen - Full PWA</span>
+        </a>
+
+        <!-- Desktop -->
+        <a href="https://kolshub.net" class="download-btn" style="background: linear-gradient(135deg, #8b5cf6 0%, #a855f7 100%);">
+            <span class="icon">💻</span>
+            Desktop PWA
+            <span class="badge">Install from Chrome/Edge - Works Offline</span>
+        </a>
+
+        <!-- Key Features Grid -->
+        <div class="features-grid">
+            <div class="feature-card new">
+                <span class="icon">🍽️</span>
+                <h4>Food Hub</h4>
+                <p>Complete nutrition tracking</p>
+            </div>
+            <div class="feature-card new">
+                <span class="icon">📋</span>
+                <h4>50 Seed Recipes</h4>
+                <p>Ready-to-cook meals</p>
+            </div>
+            <div class="feature-card">
+                <span class="icon">🤖</span>
+                <h4>AI Integration</h4>
+                <p>Claude, GPT, Grok, Gemini</p>
+            </div>
+            <div class="feature-card">
+                <span class="icon">💰</span>
+                <h4>Passive Income</h4>
+                <p>40+ income strategies</p>
+            </div>
+            <div class="feature-card">
+                <span class="icon">🏥</span>
+                <h4>Health Tracking</h4>
+                <p>Medications, vitals, fitness</p>
+            </div>
+            <div class="feature-card">
+                <span class="icon">🎲</span>
+                <h4>D&D System</h4>
+                <p>AI DM, characters, campaigns</p>
+            </div>
+            <div class="feature-card">
+                <span class="icon">🎓</span>
+                <h4>AI Teacher</h4>
+                <p>Learn anything with AI avatar</p>
+            </div>
+            <div class="feature-card">
+                <span class="icon">🌳</span>
+                <h4>Family Tree</h4>
+                <p>Ancestry integration</p>
+            </div>
+            <div class="feature-card">
+                <span class="icon">🏠</span>
+                <h4>Smart Home</h4>
+                <p>SmartThings, Google Home</p>
+            </div>
+        </div>
+
+        <div class="info">
+            <h3>What's Included:</h3>
+            <ul>
+                <li>🍽️ Complete Food Hub - Pantry, Recipes, Meal Planning, Nutrition</li>
+                <li>📋 50 Seed Recipes - American, Italian, Mexican, Asian & more</li>
+                <li>💧 Water Tracking - Daily intake goals & hydration reminders</li>
+                <li>👗 AI Clothing Scanner - Auto-detect clothes from photos</li>
+                <li>👔 Virtual Wardrobe - Dress your AI avatar with real clothes</li>
+                <li>🎓 AI Avatar Teacher - Personalized learning with YOUR look</li>
+                <li>💊 Complete Medication & Health Tracking</li>
+                <li>💰 AI Passive Income System - 40+ strategies</li>
+                <li>🎲 D&D System with AI Dungeon Master</li>
+                <li>🌳 Family Tree with Ancestry integration</li>
+                <li>💵 4 Payment Methods (Stripe, PayPal, Cash App, Venmo)</li>
+                <li>📊 130+ Pages with 12,500+ Features</li>
+                <li>🔗 65+ Integrations (Google, Spotify, SmartThings & more)</li>
+                <li>🌐 Cross-platform: Web, Desktop, Android, iOS</li>
+            </ul>
+        </div>
+
+        <div class="warning">
+            <h4>⚠️ Android Installation</h4>
+            <p>Since this app isn't on the Play Store:</p>
+            <ol style="margin-left: 20px; margin-top: 10px;">
+                <li>Enable "Install from Unknown Sources" in Settings</li>
+                <li>Download the APK file</li>
+                <li>Open and install</li>
+            </ol>
+        </div>
+
+        <div class="info" style="margin-top: 20px; background: linear-gradient(135deg, rgba(244, 114, 182, 0.2), rgba(139, 92, 246, 0.2));">
+            <h3>🆕 Version 5.5.0 - Food Edition:</h3>
+            <ul>
+                <li>🍽️ NEW: Complete Food & Nutrition Hub with 8 tabs</li>
+                <li>📋 NEW: 50 Detailed Seed Recipes (10 cuisines, 9 categories)</li>
+                <li>🥗 NEW: Pantry inventory tracking with expiry alerts</li>
+                <li>🛒 NEW: Smart grocery list management</li>
+                <li>📆 NEW: Weekly meal planning system</li>
+                <li>💧 NEW: Water intake tracking with daily goals</li>
+                <li>📊 NEW: Nutrition trends & calorie analytics</li>
+                <li>🎯 NEW: Dietary preferences & nutrition goals</li>
+                <li>👗 AI Clothing Scanner & Avatar Wardrobe</li>
+                <li>🎲 D&D System with AI Dungeon Master</li>
+                <li>💰 40+ Passive Income Strategies</li>
+                <li>✅ ZERO "coming soon" - Everything works!</li>
+            </ul>
+        </div>
+
+        <div class="version">
+            <strong>Version 5.5.0 - FOOD EDITION</strong><br>
+            Last Updated: December 6, 2025<br>
+            Size: ~95 MB | Android 7.0+<br>
+            <br>
+            <span style="color: #4ade80;">✓ Production Ready</span> |
+            <span style="color: #60a5fa;">✓ 50 Seed Recipes</span> |
+            <span style="color: #f472b6;">✓ Complete Nutrition Tracking</span>
+        </div>
+
+        <div style="text-align: center; margin-top: 30px; opacity: 0.7;">
+            <p>© 2025 Kol's Hub | <a href="https://kolshub.net" style="color: white;">kolshub.net</a></p>
+        </div>
+    </div>
+</body>
+</html>

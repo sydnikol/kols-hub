@@ -2,7 +2,7 @@ import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'com.unified.megaapp',
-  appName: 'KOL Personal OS',
+  appName: "Kol's Hub",
   webDir: 'dist',
   bundledWebRuntime: false,
   
