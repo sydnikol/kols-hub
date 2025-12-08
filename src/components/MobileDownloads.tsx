@@ -65,19 +65,19 @@ const MobileDownloads: React.FC = () => {
     {
       platform: 'Android',
       version: '5.5.0',
-      size: 'PWA Install',
-      downloadUrl: 'https://kolshub.net',
+      size: '~242 MB',
+      downloadUrl: 'https://github.com/sydnikol/kols-hub/releases/download/v5.5.0/KolHub-v5.5.0.apk',
       icon: <Smartphone className="w-10 h-10" />,
       gradient: 'from-green-500 to-emerald-600',
       bgGradient: 'from-green-500/20 to-emerald-600/20',
       available: true,
-      buttonText: 'Install Android App',
+      buttonText: 'Download APK',
       instructions: [
-        'Open Chrome browser on Android',
-        'Visit kolshub.net',
-        'Tap the menu (⋮) → "Add to Home screen"',
-        'Tap "Install" when prompted',
-        'Launch from your home screen - works offline!'
+        'Click "Download APK" button',
+        'Open the downloaded file',
+        'Enable "Install from Unknown Sources" if prompted',
+        'Install and launch the app',
+        'Or use PWA: visit kolshub.net in Chrome'
       ]
     },
     {
