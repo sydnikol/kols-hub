@@ -37,6 +37,7 @@ const AICharacterHub = React.lazy(() => import('./pages/AICharacterHub'));
 const ClaudeChatPage = React.lazy(() => import('./pages/ClaudeChatPage'));
 const AdvocacyHubPage = React.lazy(() => import('./pages/AdvocacyHubPage'));
 const CaregiverDashboardPage = React.lazy(() => import('./pages/CaregiverDashboardPage'));
+const CarManagementHubPage = React.lazy(() => import('./pages/CarManagementHubPage'));
 const CertificationsHubPage = React.lazy(() => import('./pages/CertificationsHubPage'));
 const CommunityEventsHubPage = React.lazy(() => import('./pages/CommunityEventsHubPage'));
 const CookingHubPage = React.lazy(() => import('./pages/CookingHubPage'));
@@ -748,6 +749,7 @@ const App: React.FC = () => {
               {/* Home & Living */}
               <Route path="/home" element={<HomeManagementHubPage />} />
               <Route path="/home-maintenance" element={<HomeMaintenanceHubPage />} />
+              <Route path="/car" element={<CarManagementHubPage />} />
               <Route path="/housing" element={<HousingHubPage />} />
               <Route path="/cooking" element={<CookingHubPage />} />
               <Route path="/food" element={<FoodHubPage />} />
