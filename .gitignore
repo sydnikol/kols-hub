@@ -40,8 +40,12 @@ out/
 # ============================================
 # 📱 Mobile Build Files
 # ============================================
-android/
-ios/
+# Note: android/ and ios/ folders are tracked for cloud builds
+# Build outputs
+android/app/build/
+ios/App/build/
+ios/App/Pods/
+ios/App/DerivedData/
 *.apk
 *.aab
 *.ipa
