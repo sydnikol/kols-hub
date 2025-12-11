@@ -64,9 +64,9 @@ const MobileDownloads: React.FC = () => {
   const downloads: DownloadOption[] = [
     {
       platform: 'Android',
-      version: '5.5.0',
+      version: '5.6.0',
       size: '~242 MB',
-      downloadUrl: 'https://github.com/sydnikol/kols-hub/releases/download/v5.5.0/KolHub-v5.5.0.apk',
+      downloadUrl: 'https://github.com/sydnikol/kols-hub/releases/download/v5.6.0/KolHub-v5.6.0.apk',
       icon: <Smartphone className="w-10 h-10" />,
       gradient: 'from-green-500 to-emerald-600',
       bgGradient: 'from-green-500/20 to-emerald-600/20',
@@ -82,7 +82,7 @@ const MobileDownloads: React.FC = () => {
     },
     {
       platform: 'iOS',
-      version: '5.5.0',
+      version: '5.6.0',
       size: 'Web App',
       downloadUrl: 'https://kolshub.net',
       icon: <Apple className="w-10 h-10" />,
@@ -100,7 +100,7 @@ const MobileDownloads: React.FC = () => {
     },
     {
       platform: 'Desktop',
-      version: '5.5.0',
+      version: '5.6.0',
       size: 'PWA',
       downloadUrl: 'https://kolshub.net',
       icon: <Monitor className="w-10 h-10" />,
@@ -161,7 +161,7 @@ const MobileDownloads: React.FC = () => {
           <div className="flex justify-center mb-6">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-purple-500/20 border border-purple-500/30 rounded-full text-purple-300 text-sm">
               <Sparkles className="w-4 h-4" />
-              <span>Version 5.5.0 — Your Self-Evolving Personal OS</span>
+              <span>Version 5.6.0 — Your Self-Evolving Personal OS</span>
             </div>
           </div>
 
