@@ -1,0 +1,1008 @@
+{
+  "module": "Pet Care Ideas",
+  "version": "1.0",
+  "total_ideas": 100,
+  "description": "Comprehensive pet care tips for dogs, cats, and other companion animals",
+  "items": [
+    {
+      "id": "pet_001",
+      "category": "Dog Daily Care",
+      "title": "Morning Walk Routine",
+      "description": "Start with a 15-30 minute morning walk for exercise and mental stimulation.",
+      "pet_type": "dog",
+      "difficulty": "easy",
+      "frequency": "daily",
+      "tags": ["exercise", "routine", "walking", "morning"]
+    },
+    {
+      "id": "pet_002",
+      "category": "Dog Daily Care",
+      "title": "Fresh Water Refresh",
+      "description": "Change water bowl at least twice daily. Dogs prefer fresh, cool water.",
+      "pet_type": "dog",
+      "difficulty": "easy",
+      "frequency": "daily",
+      "tags": ["water", "hydration", "basic", "essential"]
+    },
+    {
+      "id": "pet_003",
+      "category": "Dog Daily Care",
+      "title": "Feeding Schedule Consistency",
+      "description": "Feed at same times daily. Consistent schedule aids digestion and reduces anxiety.",
+      "pet_type": "dog",
+      "difficulty": "easy",
+      "frequency": "daily",
+      "tags": ["feeding", "schedule", "routine", "consistency"]
+    },
+    {
+      "id": "pet_004",
+      "category": "Dog Daily Care",
+      "title": "Quick Health Check",
+      "description": "Daily visual check: eyes clear, nose moist, coat healthy, no limping.",
+      "pet_type": "dog",
+      "difficulty": "easy",
+      "frequency": "daily",
+      "tags": ["health", "check", "observation", "prevention"]
+    },
+    {
+      "id": "pet_005",
+      "category": "Dog Daily Care",
+      "title": "Potty Break Schedule",
+      "description": "Regular potty breaks: morning, after meals, and before bed at minimum.",
+      "pet_type": "dog",
+      "difficulty": "easy",
+      "frequency": "daily",
+      "tags": ["potty", "schedule", "housetraining", "routine"]
+    },
+    {
+      "id": "pet_006",
+      "category": "Dog Grooming",
+      "title": "Daily Brushing",
+      "description": "Brush coat daily for long-haired breeds, weekly for short-haired. Removes loose fur and distributes oils.",
+      "pet_type": "dog",
+      "difficulty": "easy",
+      "frequency": "daily-to-weekly",
+      "tags": ["brushing", "coat", "grooming", "shedding"]
+    },
+    {
+      "id": "pet_007",
+      "category": "Dog Grooming",
+      "title": "Teeth Brushing",
+      "description": "Brush teeth 2-3 times weekly with dog-specific toothpaste to prevent dental disease.",
+      "pet_type": "dog",
+      "difficulty": "medium",
+      "frequency": "several-weekly",
+      "tags": ["dental", "teeth", "hygiene", "prevention"]
+    },
+    {
+      "id": "pet_008",
+      "category": "Dog Grooming",
+      "title": "Nail Trimming",
+      "description": "Trim nails every 2-4 weeks. If you hear clicking on floor, they're too long.",
+      "pet_type": "dog",
+      "difficulty": "medium",
+      "frequency": "biweekly",
+      "tags": ["nails", "trimming", "grooming", "paws"]
+    },
+    {
+      "id": "pet_009",
+      "category": "Dog Grooming",
+      "title": "Ear Cleaning",
+      "description": "Clean ears weekly with vet-approved cleaner. Check for odor, redness, or discharge.",
+      "pet_type": "dog",
+      "difficulty": "easy",
+      "frequency": "weekly",
+      "tags": ["ears", "cleaning", "infection-prevention", "grooming"]
+    },
+    {
+      "id": "pet_010",
+      "category": "Dog Grooming",
+      "title": "Bath Time",
+      "description": "Bathe every 4-6 weeks or as needed. Use dog-specific shampoo, not human products.",
+      "pet_type": "dog",
+      "difficulty": "medium",
+      "frequency": "monthly",
+      "tags": ["bathing", "shampoo", "coat", "cleanliness"]
+    },
+    {
+      "id": "pet_011",
+      "category": "Dog Training",
+      "title": "Short Training Sessions",
+      "description": "Practice commands in 5-10 minute sessions. Short and fun beats long and boring.",
+      "pet_type": "dog",
+      "difficulty": "medium",
+      "frequency": "daily",
+      "tags": ["training", "commands", "obedience", "short-sessions"]
+    },
+    {
+      "id": "pet_012",
+      "category": "Dog Training",
+      "title": "Positive Reinforcement",
+      "description": "Reward good behavior immediately with treats, praise, or play. Ignore unwanted behavior.",
+      "pet_type": "dog",
+      "difficulty": "easy",
+      "frequency": "ongoing",
+      "tags": ["positive", "rewards", "training", "behavior"]
+    },
+    {
+      "id": "pet_013",
+      "category": "Dog Training",
+      "title": "Leash Training Practice",
+      "description": "Practice loose-leash walking. Stop when they pull, continue when slack.",
+      "pet_type": "dog",
+      "difficulty": "medium",
+      "frequency": "daily",
+      "tags": ["leash", "walking", "training", "manners"]
+    },
+    {
+      "id": "pet_014",
+      "category": "Dog Training",
+      "title": "Socialization Exposure",
+      "description": "Safely expose to new people, animals, sounds, and environments for well-adjusted dog.",
+      "pet_type": "dog",
+      "difficulty": "medium",
+      "frequency": "regularly",
+      "tags": ["socialization", "exposure", "confidence", "behavior"]
+    },
+    {
+      "id": "pet_015",
+      "category": "Dog Training",
+      "title": "Recall Practice",
+      "description": "Practice come command in safe areas. Make coming to you the best thing ever.",
+      "pet_type": "dog",
+      "difficulty": "medium",
+      "frequency": "daily",
+      "tags": ["recall", "come", "training", "safety"]
+    },
+    {
+      "id": "pet_016",
+      "category": "Dog Health",
+      "title": "Annual Vet Checkup",
+      "description": "Schedule yearly wellness exam even if dog seems healthy. Early detection saves lives.",
+      "pet_type": "dog",
+      "difficulty": "easy",
+      "frequency": "annually",
+      "tags": ["vet", "checkup", "wellness", "prevention"]
+    },
+    {
+      "id": "pet_017",
+      "category": "Dog Health",
+      "title": "Vaccination Schedule",
+      "description": "Keep vaccinations current: rabies, distemper, parvo, and others per vet recommendation.",
+      "pet_type": "dog",
+      "difficulty": "easy",
+      "frequency": "per-schedule",
+      "tags": ["vaccinations", "prevention", "health", "protection"]
+    },
+    {
+      "id": "pet_018",
+      "category": "Dog Health",
+      "title": "Flea and Tick Prevention",
+      "description": "Apply monthly preventative year-round. Check for ticks after outdoor activities.",
+      "pet_type": "dog",
+      "difficulty": "easy",
+      "frequency": "monthly",
+      "tags": ["flea", "tick", "prevention", "parasites"]
+    },
+    {
+      "id": "pet_019",
+      "category": "Dog Health",
+      "title": "Heartworm Prevention",
+      "description": "Give monthly heartworm preventative. Test annually as recommended by vet.",
+      "pet_type": "dog",
+      "difficulty": "easy",
+      "frequency": "monthly",
+      "tags": ["heartworm", "prevention", "medication", "parasites"]
+    },
+    {
+      "id": "pet_020",
+      "category": "Dog Health",
+      "title": "Weight Monitoring",
+      "description": "Weigh regularly and adjust food portions. You should feel ribs but not see them.",
+      "pet_type": "dog",
+      "difficulty": "easy",
+      "frequency": "monthly",
+      "tags": ["weight", "obesity", "health", "diet"]
+    },
+    {
+      "id": "pet_021",
+      "category": "Dog Enrichment",
+      "title": "Puzzle Feeder Use",
+      "description": "Serve meals in puzzle feeders for mental stimulation and slower eating.",
+      "pet_type": "dog",
+      "difficulty": "easy",
+      "frequency": "daily",
+      "tags": ["puzzle", "enrichment", "mental", "feeding"]
+    },
+    {
+      "id": "pet_022",
+      "category": "Dog Enrichment",
+      "title": "Sniff Walks",
+      "description": "Let dog lead and sniff on some walks. Sniffing is mental exercise for dogs.",
+      "pet_type": "dog",
+      "difficulty": "easy",
+      "frequency": "regularly",
+      "tags": ["sniffing", "enrichment", "mental", "walking"]
+    },
+    {
+      "id": "pet_023",
+      "category": "Dog Enrichment",
+      "title": "New Toy Rotation",
+      "description": "Rotate toys weekly to maintain interest. Old toys feel new after being away.",
+      "pet_type": "dog",
+      "difficulty": "easy",
+      "frequency": "weekly",
+      "tags": ["toys", "rotation", "enrichment", "play"]
+    },
+    {
+      "id": "pet_024",
+      "category": "Dog Enrichment",
+      "title": "Hide and Seek Games",
+      "description": "Hide treats or yourself around house for dog to find using nose.",
+      "pet_type": "dog",
+      "difficulty": "easy",
+      "frequency": "regularly",
+      "tags": ["games", "hide-seek", "nose-work", "fun"]
+    },
+    {
+      "id": "pet_025",
+      "category": "Dog Enrichment",
+      "title": "New Route Exploration",
+      "description": "Take different walking routes to expose dog to new sights and smells.",
+      "pet_type": "dog",
+      "difficulty": "easy",
+      "frequency": "weekly",
+      "tags": ["walking", "exploration", "variety", "stimulation"]
+    },
+    {
+      "id": "pet_026",
+      "category": "Cat Daily Care",
+      "title": "Litter Box Scooping",
+      "description": "Scoop litter box at least once daily. Cats may avoid dirty boxes, causing issues.",
+      "pet_type": "cat",
+      "difficulty": "easy",
+      "frequency": "daily",
+      "tags": ["litter", "cleaning", "hygiene", "essential"]
+    },
+    {
+      "id": "pet_027",
+      "category": "Cat Daily Care",
+      "title": "Fresh Water Daily",
+      "description": "Provide fresh water daily. Many cats prefer running water - consider a fountain.",
+      "pet_type": "cat",
+      "difficulty": "easy",
+      "frequency": "daily",
+      "tags": ["water", "hydration", "fountain", "essential"]
+    },
+    {
+      "id": "pet_028",
+      "category": "Cat Daily Care",
+      "title": "Playtime Sessions",
+      "description": "Interactive play 10-15 minutes twice daily. Wand toys satisfy hunting instincts.",
+      "pet_type": "cat",
+      "difficulty": "easy",
+      "frequency": "daily",
+      "tags": ["play", "exercise", "hunting", "bonding"]
+    },
+    {
+      "id": "pet_029",
+      "category": "Cat Daily Care",
+      "title": "Feeding Schedule",
+      "description": "Feed measured portions 2-3 times daily rather than free-feeding to prevent obesity.",
+      "pet_type": "cat",
+      "difficulty": "easy",
+      "frequency": "daily",
+      "tags": ["feeding", "portions", "schedule", "weight"]
+    },
+    {
+      "id": "pet_030",
+      "category": "Cat Daily Care",
+      "title": "Check Food and Water Bowls",
+      "description": "Clean food and water bowls daily to prevent bacteria buildup.",
+      "pet_type": "cat",
+      "difficulty": "easy",
+      "frequency": "daily",
+      "tags": ["bowls", "cleaning", "hygiene", "health"]
+    },
+    {
+      "id": "pet_031",
+      "category": "Cat Grooming",
+      "title": "Regular Brushing",
+      "description": "Brush weekly for short-haired, daily for long-haired cats. Reduces hairballs.",
+      "pet_type": "cat",
+      "difficulty": "easy",
+      "frequency": "weekly-to-daily",
+      "tags": ["brushing", "coat", "hairballs", "grooming"]
+    },
+    {
+      "id": "pet_032",
+      "category": "Cat Grooming",
+      "title": "Nail Trimming",
+      "description": "Trim nails every 2-3 weeks. Just the clear tip to avoid the quick.",
+      "pet_type": "cat",
+      "difficulty": "medium",
+      "frequency": "biweekly",
+      "tags": ["nails", "trimming", "grooming", "safety"]
+    },
+    {
+      "id": "pet_033",
+      "category": "Cat Grooming",
+      "title": "Ear Check",
+      "description": "Check ears weekly for dirt, wax buildup, or signs of mites or infection.",
+      "pet_type": "cat",
+      "difficulty": "easy",
+      "frequency": "weekly",
+      "tags": ["ears", "inspection", "health", "grooming"]
+    },
+    {
+      "id": "pet_034",
+      "category": "Cat Grooming",
+      "title": "Eye Cleaning",
+      "description": "Gently wipe eye discharge with damp cloth. Persistent discharge needs vet attention.",
+      "pet_type": "cat",
+      "difficulty": "easy",
+      "frequency": "as-needed",
+      "tags": ["eyes", "cleaning", "discharge", "health"]
+    },
+    {
+      "id": "pet_035",
+      "category": "Cat Grooming",
+      "title": "Dental Care",
+      "description": "Brush teeth if cat tolerates, or use dental treats and water additives.",
+      "pet_type": "cat",
+      "difficulty": "hard",
+      "frequency": "weekly",
+      "tags": ["dental", "teeth", "prevention", "health"]
+    },
+    {
+      "id": "pet_036",
+      "category": "Cat Environment",
+      "title": "Scratching Post Placement",
+      "description": "Place scratching posts near sleeping areas. Cats stretch and scratch upon waking.",
+      "pet_type": "cat",
+      "difficulty": "easy",
+      "frequency": "setup",
+      "tags": ["scratching", "furniture", "natural-behavior", "environment"]
+    },
+    {
+      "id": "pet_037",
+      "category": "Cat Environment",
+      "title": "Vertical Space Creation",
+      "description": "Provide cat trees, shelves, or perches. Cats feel secure with height options.",
+      "pet_type": "cat",
+      "difficulty": "medium",
+      "frequency": "setup",
+      "tags": ["vertical", "cat-tree", "perches", "security"]
+    },
+    {
+      "id": "pet_038",
+      "category": "Cat Environment",
+      "title": "Window Perch Setup",
+      "description": "Create window viewing spots. Watching outside is cat television.",
+      "pet_type": "cat",
+      "difficulty": "easy",
+      "frequency": "setup",
+      "tags": ["window", "perch", "enrichment", "viewing"]
+    },
+    {
+      "id": "pet_039",
+      "category": "Cat Environment",
+      "title": "Hiding Spots",
+      "description": "Provide hiding places like boxes, cat caves, or blanket forts for stress relief.",
+      "pet_type": "cat",
+      "difficulty": "easy",
+      "frequency": "setup",
+      "tags": ["hiding", "security", "stress", "comfort"]
+    },
+    {
+      "id": "pet_040",
+      "category": "Cat Environment",
+      "title": "Litter Box Rule",
+      "description": "One litter box per cat plus one extra, in different locations. Private, accessible spots.",
+      "pet_type": "cat",
+      "difficulty": "easy",
+      "frequency": "setup",
+      "tags": ["litter-box", "placement", "multi-cat", "essential"]
+    },
+    {
+      "id": "pet_041",
+      "category": "Cat Health",
+      "title": "Annual Vet Visit",
+      "description": "Yearly wellness exams for cats under 10, twice yearly for seniors.",
+      "pet_type": "cat",
+      "difficulty": "easy",
+      "frequency": "annually",
+      "tags": ["vet", "wellness", "checkup", "prevention"]
+    },
+    {
+      "id": "pet_042",
+      "category": "Cat Health",
+      "title": "Core Vaccinations",
+      "description": "Keep rabies and FVRCP vaccinations current per vet schedule.",
+      "pet_type": "cat",
+      "difficulty": "easy",
+      "frequency": "per-schedule",
+      "tags": ["vaccinations", "prevention", "health", "core"]
+    },
+    {
+      "id": "pet_043",
+      "category": "Cat Health",
+      "title": "Flea Prevention",
+      "description": "Monthly flea prevention even for indoor cats. Fleas come in on humans.",
+      "pet_type": "cat",
+      "difficulty": "easy",
+      "frequency": "monthly",
+      "tags": ["flea", "prevention", "parasites", "indoor"]
+    },
+    {
+      "id": "pet_044",
+      "category": "Cat Health",
+      "title": "Weight Monitoring",
+      "description": "Weigh monthly. Obesity is common in cats and leads to diabetes and joint issues.",
+      "pet_type": "cat",
+      "difficulty": "easy",
+      "frequency": "monthly",
+      "tags": ["weight", "obesity", "health", "monitoring"]
+    },
+    {
+      "id": "pet_045",
+      "category": "Cat Health",
+      "title": "Litter Box Monitoring",
+      "description": "Monitor litter box habits. Changes in urination or defecation signal health issues.",
+      "pet_type": "cat",
+      "difficulty": "easy",
+      "frequency": "daily",
+      "tags": ["litter-box", "health", "monitoring", "warning-signs"]
+    },
+    {
+      "id": "pet_046",
+      "category": "Cat Enrichment",
+      "title": "Puzzle Feeder Introduction",
+      "description": "Use puzzle feeders to make cats work for food. Mental stimulation and slower eating.",
+      "pet_type": "cat",
+      "difficulty": "easy",
+      "frequency": "daily",
+      "tags": ["puzzle", "feeding", "enrichment", "mental"]
+    },
+    {
+      "id": "pet_047",
+      "category": "Cat Enrichment",
+      "title": "Catnip or Silver Vine",
+      "description": "Offer catnip or silver vine for cats who respond. Fun enrichment for sensitive cats.",
+      "pet_type": "cat",
+      "difficulty": "easy",
+      "frequency": "weekly",
+      "tags": ["catnip", "silver-vine", "enrichment", "play"]
+    },
+    {
+      "id": "pet_048",
+      "category": "Cat Enrichment",
+      "title": "Box Day",
+      "description": "Give cat a cardboard box to explore. Boxes provide hiding and play opportunities.",
+      "pet_type": "cat",
+      "difficulty": "easy",
+      "frequency": "regularly",
+      "tags": ["boxes", "play", "hiding", "free"]
+    },
+    {
+      "id": "pet_049",
+      "category": "Cat Enrichment",
+      "title": "Feather Wand Sessions",
+      "description": "Interactive play with feather wand mimics hunting. Let cat catch prey sometimes.",
+      "pet_type": "cat",
+      "difficulty": "easy",
+      "frequency": "daily",
+      "tags": ["wand", "hunting", "interactive", "exercise"]
+    },
+    {
+      "id": "pet_050",
+      "category": "Cat Enrichment",
+      "title": "Bird Watching Setup",
+      "description": "Place bird feeder outside window for cat TV entertainment.",
+      "pet_type": "cat",
+      "difficulty": "easy",
+      "frequency": "setup",
+      "tags": ["birds", "watching", "entertainment", "window"]
+    },
+    {
+      "id": "pet_051",
+      "category": "Small Pets",
+      "title": "Cage Spot Cleaning",
+      "description": "Remove soiled bedding and droppings daily for hamsters, guinea pigs, rabbits.",
+      "pet_type": "small-animal",
+      "difficulty": "easy",
+      "frequency": "daily",
+      "tags": ["cage", "cleaning", "bedding", "hygiene"]
+    },
+    {
+      "id": "pet_052",
+      "category": "Small Pets",
+      "title": "Fresh Hay Daily",
+      "description": "Provide unlimited timothy hay daily for rabbits and guinea pigs. Essential for digestion.",
+      "pet_type": "small-animal",
+      "difficulty": "easy",
+      "frequency": "daily",
+      "tags": ["hay", "diet", "rabbits", "guinea-pigs"]
+    },
+    {
+      "id": "pet_053",
+      "category": "Small Pets",
+      "title": "Fresh Vegetables",
+      "description": "Offer fresh vegetables daily for guinea pigs (vitamin C) and rabbits.",
+      "pet_type": "small-animal",
+      "difficulty": "easy",
+      "frequency": "daily",
+      "tags": ["vegetables", "diet", "vitamins", "fresh"]
+    },
+    {
+      "id": "pet_054",
+      "category": "Small Pets",
+      "title": "Water Bottle Check",
+      "description": "Check water bottle function daily. Ensure ball bearing works and water flows.",
+      "pet_type": "small-animal",
+      "difficulty": "easy",
+      "frequency": "daily",
+      "tags": ["water", "bottle", "function", "hydration"]
+    },
+    {
+      "id": "pet_055",
+      "category": "Small Pets",
+      "title": "Full Cage Cleaning",
+      "description": "Complete cage clean with fresh bedding weekly. Sanitize cage monthly.",
+      "pet_type": "small-animal",
+      "difficulty": "medium",
+      "frequency": "weekly",
+      "tags": ["cage", "deep-clean", "bedding", "sanitize"]
+    },
+    {
+      "id": "pet_056",
+      "category": "Small Pets",
+      "title": "Handling and Socialization",
+      "description": "Handle small pets daily for taming and bonding. Gentle, consistent interaction.",
+      "pet_type": "small-animal",
+      "difficulty": "easy",
+      "frequency": "daily",
+      "tags": ["handling", "bonding", "socialization", "taming"]
+    },
+    {
+      "id": "pet_057",
+      "category": "Small Pets",
+      "title": "Nail Trimming",
+      "description": "Trim small pet nails every 4-6 weeks. Overgrown nails cause discomfort.",
+      "pet_type": "small-animal",
+      "difficulty": "medium",
+      "frequency": "monthly",
+      "tags": ["nails", "trimming", "grooming", "maintenance"]
+    },
+    {
+      "id": "pet_058",
+      "category": "Small Pets",
+      "title": "Exercise Time",
+      "description": "Provide supervised out-of-cage time in safe, enclosed space for exercise.",
+      "pet_type": "small-animal",
+      "difficulty": "medium",
+      "frequency": "daily",
+      "tags": ["exercise", "playtime", "out-of-cage", "supervision"]
+    },
+    {
+      "id": "pet_059",
+      "category": "Fish Care",
+      "title": "Daily Feeding",
+      "description": "Feed fish small amount once or twice daily. What they eat in 2-3 minutes.",
+      "pet_type": "fish",
+      "difficulty": "easy",
+      "frequency": "daily",
+      "tags": ["feeding", "fish", "portions", "daily"]
+    },
+    {
+      "id": "pet_060",
+      "category": "Fish Care",
+      "title": "Water Temperature Check",
+      "description": "Check tank temperature daily. Stable temperature is crucial for fish health.",
+      "pet_type": "fish",
+      "difficulty": "easy",
+      "frequency": "daily",
+      "tags": ["temperature", "tank", "monitoring", "health"]
+    },
+    {
+      "id": "pet_061",
+      "category": "Fish Care",
+      "title": "Visual Health Check",
+      "description": "Observe fish daily for signs of disease: spots, fin damage, unusual behavior.",
+      "pet_type": "fish",
+      "difficulty": "easy",
+      "frequency": "daily",
+      "tags": ["observation", "health", "disease", "monitoring"]
+    },
+    {
+      "id": "pet_062",
+      "category": "Fish Care",
+      "title": "Weekly Water Testing",
+      "description": "Test ammonia, nitrite, nitrate, and pH weekly. Key to preventing fish death.",
+      "pet_type": "fish",
+      "difficulty": "medium",
+      "frequency": "weekly",
+      "tags": ["water-testing", "parameters", "chemistry", "health"]
+    },
+    {
+      "id": "pet_063",
+      "category": "Fish Care",
+      "title": "Partial Water Change",
+      "description": "Replace 10-25% of tank water weekly with dechlorinated water.",
+      "pet_type": "fish",
+      "difficulty": "medium",
+      "frequency": "weekly",
+      "tags": ["water-change", "maintenance", "tank", "weekly"]
+    },
+    {
+      "id": "pet_064",
+      "category": "Fish Care",
+      "title": "Filter Maintenance",
+      "description": "Rinse filter media in old tank water monthly. Never tap water - kills bacteria.",
+      "pet_type": "fish",
+      "difficulty": "medium",
+      "frequency": "monthly",
+      "tags": ["filter", "maintenance", "bacteria", "monthly"]
+    },
+    {
+      "id": "pet_065",
+      "category": "Fish Care",
+      "title": "Algae Management",
+      "description": "Clean algae from glass and decorations weekly. Some algae is natural and healthy.",
+      "pet_type": "fish",
+      "difficulty": "easy",
+      "frequency": "weekly",
+      "tags": ["algae", "cleaning", "tank", "maintenance"]
+    },
+    {
+      "id": "pet_066",
+      "category": "Bird Care",
+      "title": "Fresh Food and Water",
+      "description": "Provide fresh food and water daily. Remove uneaten fresh foods after few hours.",
+      "pet_type": "bird",
+      "difficulty": "easy",
+      "frequency": "daily",
+      "tags": ["food", "water", "fresh", "essential"]
+    },
+    {
+      "id": "pet_067",
+      "category": "Bird Care",
+      "title": "Cage Paper Change",
+      "description": "Change cage liner daily to monitor droppings and maintain hygiene.",
+      "pet_type": "bird",
+      "difficulty": "easy",
+      "frequency": "daily",
+      "tags": ["cage", "liner", "droppings", "hygiene"]
+    },
+    {
+      "id": "pet_068",
+      "category": "Bird Care",
+      "title": "Out of Cage Time",
+      "description": "Supervised time outside cage daily for exercise and socialization.",
+      "pet_type": "bird",
+      "difficulty": "medium",
+      "frequency": "daily",
+      "tags": ["exercise", "socialization", "out-of-cage", "bonding"]
+    },
+    {
+      "id": "pet_069",
+      "category": "Bird Care",
+      "title": "Perch Variety",
+      "description": "Provide various perch sizes and textures for foot health and exercise.",
+      "pet_type": "bird",
+      "difficulty": "easy",
+      "frequency": "setup",
+      "tags": ["perches", "variety", "feet", "exercise"]
+    },
+    {
+      "id": "pet_070",
+      "category": "Bird Care",
+      "title": "Cage Deep Cleaning",
+      "description": "Thoroughly clean and disinfect entire cage weekly. Rinse well.",
+      "pet_type": "bird",
+      "difficulty": "medium",
+      "frequency": "weekly",
+      "tags": ["cage", "cleaning", "disinfect", "weekly"]
+    },
+    {
+      "id": "pet_071",
+      "category": "Bird Care",
+      "title": "Foraging Toys",
+      "description": "Provide foraging toys that make birds work for treats. Mental stimulation essential.",
+      "pet_type": "bird",
+      "difficulty": "easy",
+      "frequency": "regularly",
+      "tags": ["foraging", "toys", "enrichment", "mental"]
+    },
+    {
+      "id": "pet_072",
+      "category": "Bird Care",
+      "title": "Nail and Beak Check",
+      "description": "Monitor nail and beak length. May need trimming if overgrown.",
+      "pet_type": "bird",
+      "difficulty": "easy",
+      "frequency": "weekly",
+      "tags": ["nails", "beak", "monitoring", "grooming"]
+    },
+    {
+      "id": "pet_073",
+      "category": "Bird Care",
+      "title": "Sleep Schedule",
+      "description": "Cover cage for 10-12 hours of uninterrupted sleep. Birds need consistent rest.",
+      "pet_type": "bird",
+      "difficulty": "easy",
+      "frequency": "daily",
+      "tags": ["sleep", "schedule", "cover", "rest"]
+    },
+    {
+      "id": "pet_074",
+      "category": "Reptile Care",
+      "title": "Temperature Gradient Check",
+      "description": "Verify basking and cool zone temperatures daily. Critical for reptile health.",
+      "pet_type": "reptile",
+      "difficulty": "easy",
+      "frequency": "daily",
+      "tags": ["temperature", "gradient", "basking", "health"]
+    },
+    {
+      "id": "pet_075",
+      "category": "Reptile Care",
+      "title": "Humidity Monitoring",
+      "description": "Check and maintain appropriate humidity for species. Mist if needed.",
+      "pet_type": "reptile",
+      "difficulty": "easy",
+      "frequency": "daily",
+      "tags": ["humidity", "misting", "monitoring", "species-specific"]
+    },
+    {
+      "id": "pet_076",
+      "category": "Reptile Care",
+      "title": "Fresh Water Daily",
+      "description": "Provide fresh water daily in appropriate sized dish. Clean dish regularly.",
+      "pet_type": "reptile",
+      "difficulty": "easy",
+      "frequency": "daily",
+      "tags": ["water", "fresh", "hydration", "dish"]
+    },
+    {
+      "id": "pet_077",
+      "category": "Reptile Care",
+      "title": "Spot Cleaning",
+      "description": "Remove waste and soiled substrate daily to prevent bacteria growth.",
+      "pet_type": "reptile",
+      "difficulty": "easy",
+      "frequency": "daily",
+      "tags": ["cleaning", "substrate", "waste", "hygiene"]
+    },
+    {
+      "id": "pet_078",
+      "category": "Reptile Care",
+      "title": "UVB Light Check",
+      "description": "Ensure UVB lights work and are within effective lifespan (usually 6-12 months).",
+      "pet_type": "reptile",
+      "difficulty": "easy",
+      "frequency": "monthly",
+      "tags": ["uvb", "lighting", "replacement", "health"]
+    },
+    {
+      "id": "pet_079",
+      "category": "Reptile Care",
+      "title": "Feeding Schedule",
+      "description": "Feed appropriate diet on species-specific schedule. Research prey size and frequency.",
+      "pet_type": "reptile",
+      "difficulty": "medium",
+      "frequency": "per-species",
+      "tags": ["feeding", "diet", "schedule", "species-specific"]
+    },
+    {
+      "id": "pet_080",
+      "category": "Reptile Care",
+      "title": "Full Enclosure Clean",
+      "description": "Deep clean enclosure monthly with reptile-safe disinfectant.",
+      "pet_type": "reptile",
+      "difficulty": "medium",
+      "frequency": "monthly",
+      "tags": ["enclosure", "deep-clean", "disinfect", "monthly"]
+    },
+    {
+      "id": "pet_081",
+      "category": "Emergency Prep",
+      "title": "Emergency Vet Info",
+      "description": "Keep emergency vet and poison control numbers posted and saved in phone.",
+      "pet_type": "all",
+      "difficulty": "easy",
+      "frequency": "setup",
+      "tags": ["emergency", "vet", "contacts", "preparation"]
+    },
+    {
+      "id": "pet_082",
+      "category": "Emergency Prep",
+      "title": "Pet First Aid Kit",
+      "description": "Assemble pet first aid kit with gauze, tape, tweezers, styptic powder, and emergency numbers.",
+      "pet_type": "all",
+      "difficulty": "easy",
+      "frequency": "setup",
+      "tags": ["first-aid", "kit", "emergency", "supplies"]
+    },
+    {
+      "id": "pet_083",
+      "category": "Emergency Prep",
+      "title": "Evacuation Plan",
+      "description": "Plan for evacuating with pets. Know pet-friendly hotels and have carrier ready.",
+      "pet_type": "all",
+      "difficulty": "easy",
+      "frequency": "setup",
+      "tags": ["evacuation", "emergency", "planning", "safety"]
+    },
+    {
+      "id": "pet_084",
+      "category": "Emergency Prep",
+      "title": "Pet ID Update",
+      "description": "Ensure microchip info is current. Update ID tags with current phone number.",
+      "pet_type": "all",
+      "difficulty": "easy",
+      "frequency": "as-needed",
+      "tags": ["id", "microchip", "tags", "identification"]
+    },
+    {
+      "id": "pet_085",
+      "category": "Emergency Prep",
+      "title": "Emergency Food Supply",
+      "description": "Keep 2-week supply of pet food rotated and ready for emergencies.",
+      "pet_type": "all",
+      "difficulty": "easy",
+      "frequency": "ongoing",
+      "tags": ["food", "supply", "emergency", "preparation"]
+    },
+    {
+      "id": "pet_086",
+      "category": "Travel",
+      "title": "Carrier Training",
+      "description": "Make carrier a positive space before travel. Treats, meals, naps in carrier.",
+      "pet_type": "all",
+      "difficulty": "medium",
+      "frequency": "before-travel",
+      "tags": ["carrier", "training", "travel", "positive"]
+    },
+    {
+      "id": "pet_087",
+      "category": "Travel",
+      "title": "Travel Kit Assembly",
+      "description": "Pack food, water, bowls, leash, waste bags, medications, and comfort items.",
+      "pet_type": "all",
+      "difficulty": "easy",
+      "frequency": "per-trip",
+      "tags": ["travel", "kit", "packing", "essentials"]
+    },
+    {
+      "id": "pet_088",
+      "category": "Travel",
+      "title": "Vet Records Copy",
+      "description": "Carry copies of vaccination records and health certificate when traveling.",
+      "pet_type": "all",
+      "difficulty": "easy",
+      "frequency": "per-trip",
+      "tags": ["records", "vaccinations", "travel", "documents"]
+    },
+    {
+      "id": "pet_089",
+      "category": "Travel",
+      "title": "Pet-Friendly Accommodation Research",
+      "description": "Research and book pet-friendly hotels in advance. Confirm pet policies.",
+      "pet_type": "all",
+      "difficulty": "easy",
+      "frequency": "per-trip",
+      "tags": ["hotels", "pet-friendly", "booking", "research"]
+    },
+    {
+      "id": "pet_090",
+      "category": "Travel",
+      "title": "Car Safety Setup",
+      "description": "Use appropriate restraint: carrier, seat belt harness, or barrier for car safety.",
+      "pet_type": "all",
+      "difficulty": "easy",
+      "frequency": "per-trip",
+      "tags": ["car", "safety", "restraint", "travel"]
+    },
+    {
+      "id": "pet_091",
+      "category": "Seasonal Care",
+      "title": "Hot Weather Safety",
+      "description": "Provide shade, fresh water, and limit exercise in heat. Never leave in hot car.",
+      "pet_type": "all",
+      "difficulty": "easy",
+      "frequency": "seasonal",
+      "tags": ["summer", "heat", "safety", "hydration"]
+    },
+    {
+      "id": "pet_092",
+      "category": "Seasonal Care",
+      "title": "Cold Weather Protection",
+      "description": "Limit outdoor time in cold. Use sweaters for short-haired pets. Check paws for ice.",
+      "pet_type": "all",
+      "difficulty": "easy",
+      "frequency": "seasonal",
+      "tags": ["winter", "cold", "protection", "paws"]
+    },
+    {
+      "id": "pet_093",
+      "category": "Seasonal Care",
+      "title": "Holiday Hazard Awareness",
+      "description": "Secure holiday decorations, toxic plants, and chocolate away from pets.",
+      "pet_type": "all",
+      "difficulty": "easy",
+      "frequency": "seasonal",
+      "tags": ["holidays", "hazards", "toxic", "safety"]
+    },
+    {
+      "id": "pet_094",
+      "category": "Seasonal Care",
+      "title": "Flea and Tick Season Prep",
+      "description": "Increase vigilance for parasites in spring and summer. Check after outdoor time.",
+      "pet_type": "all",
+      "difficulty": "easy",
+      "frequency": "seasonal",
+      "tags": ["parasites", "spring", "summer", "prevention"]
+    },
+    {
+      "id": "pet_095",
+      "category": "Seasonal Care",
+      "title": "Allergy Season Watch",
+      "description": "Watch for seasonal allergy signs: itching, sneezing, watery eyes. Consult vet if needed.",
+      "pet_type": "all",
+      "difficulty": "easy",
+      "frequency": "seasonal",
+      "tags": ["allergies", "seasonal", "symptoms", "vet"]
+    },
+    {
+      "id": "pet_096",
+      "category": "Multi-Pet Household",
+      "title": "Individual Feeding Stations",
+      "description": "Feed pets separately to prevent food aggression and ensure each eats appropriately.",
+      "pet_type": "all",
+      "difficulty": "easy",
+      "frequency": "daily",
+      "tags": ["feeding", "multi-pet", "separation", "routine"]
+    },
+    {
+      "id": "pet_097",
+      "category": "Multi-Pet Household",
+      "title": "One-on-One Time",
+      "description": "Spend individual quality time with each pet daily for bonding and behavior monitoring.",
+      "pet_type": "all",
+      "difficulty": "easy",
+      "frequency": "daily",
+      "tags": ["bonding", "attention", "individual", "multi-pet"]
+    },
+    {
+      "id": "pet_098",
+      "category": "Multi-Pet Household",
+      "title": "Resource Availability",
+      "description": "Provide enough resources for all: beds, toys, food stations, litter boxes.",
+      "pet_type": "all",
+      "difficulty": "easy",
+      "frequency": "setup",
+      "tags": ["resources", "multi-pet", "sharing", "conflict-prevention"]
+    },
+    {
+      "id": "pet_099",
+      "category": "Multi-Pet Household",
+      "title": "Introduction Protocol",
+      "description": "Introduce new pets slowly through barriers first. Supervised meetings, separate spaces.",
+      "pet_type": "all",
+      "difficulty": "hard",
+      "frequency": "as-needed",
+      "tags": ["introduction", "new-pet", "slow", "supervised"]
+    },
+    {
+      "id": "pet_100",
+      "category": "Multi-Pet Household",
+      "title": "Harmony Monitoring",
+      "description": "Watch for stress signs in multi-pet homes: hiding, aggression, changes in eating or elimination.",
+      "pet_type": "all",
+      "difficulty": "easy",
+      "frequency": "ongoing",
+      "tags": ["stress", "harmony", "monitoring", "multi-pet"]
+    }
+  ]
+}

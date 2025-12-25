@@ -1,0 +1,908 @@
+{
+  "module": "Household Ideas",
+  "version": "1.0",
+  "total_ideas": 100,
+  "description": "Comprehensive household management tips for cleaning, organizing, maintenance, and daily living",
+  "items": [
+    {
+      "id": "house_001",
+      "category": "Daily Cleaning",
+      "title": "5-Minute Kitchen Wipe Down",
+      "description": "Quickly wipe counters, stovetop, and sink after cooking to prevent buildup.",
+      "difficulty": "easy",
+      "duration": "5 min",
+      "tags": ["kitchen", "cleaning", "quick", "daily"]
+    },
+    {
+      "id": "house_002",
+      "category": "Daily Cleaning",
+      "title": "One-Touch Rule",
+      "description": "Put items away immediately instead of setting them down temporarily.",
+      "difficulty": "easy",
+      "duration": "ongoing",
+      "tags": ["organization", "habit", "clutter", "daily"]
+    },
+    {
+      "id": "house_003",
+      "category": "Daily Cleaning",
+      "title": "Make Bed First Thing",
+      "description": "Start the day by making your bed to create immediate sense of accomplishment.",
+      "difficulty": "easy",
+      "duration": "2 min",
+      "tags": ["bedroom", "morning", "routine", "habit"]
+    },
+    {
+      "id": "house_004",
+      "category": "Daily Cleaning",
+      "title": "Evening Reset Routine",
+      "description": "Spend 10 minutes before bed putting away items and prepping for tomorrow.",
+      "difficulty": "easy",
+      "duration": "10 min",
+      "tags": ["evening", "routine", "reset", "daily"]
+    },
+    {
+      "id": "house_005",
+      "category": "Daily Cleaning",
+      "title": "Dishes Before Bed",
+      "description": "Never go to sleep with dirty dishes in the sink for fresh morning starts.",
+      "difficulty": "easy",
+      "duration": "15 min",
+      "tags": ["kitchen", "dishes", "evening", "habit"]
+    },
+    {
+      "id": "house_006",
+      "category": "Daily Cleaning",
+      "title": "Bathroom Quick Clean",
+      "description": "Wipe mirror, counter, and toilet daily to prevent deep cleaning needs.",
+      "difficulty": "easy",
+      "duration": "5 min",
+      "tags": ["bathroom", "quick", "maintenance", "daily"]
+    },
+    {
+      "id": "house_007",
+      "category": "Daily Cleaning",
+      "title": "Sweep High Traffic Areas",
+      "description": "Quick sweep of entryway and kitchen floor to manage daily dirt.",
+      "difficulty": "easy",
+      "duration": "5 min",
+      "tags": ["floors", "sweeping", "entryway", "daily"]
+    },
+    {
+      "id": "house_008",
+      "category": "Daily Cleaning",
+      "title": "Laundry Basket Return",
+      "description": "Return clean laundry baskets to bedrooms immediately after folding.",
+      "difficulty": "easy",
+      "duration": "5 min",
+      "tags": ["laundry", "organization", "habit", "daily"]
+    },
+    {
+      "id": "house_009",
+      "category": "Weekly Cleaning",
+      "title": "Vacuum All Floors",
+      "description": "Vacuum carpets and hard floors throughout the house weekly.",
+      "difficulty": "medium",
+      "duration": "30 min",
+      "tags": ["floors", "vacuum", "weekly", "thorough"]
+    },
+    {
+      "id": "house_010",
+      "category": "Weekly Cleaning",
+      "title": "Mop Hard Floors",
+      "description": "Mop kitchen, bathroom, and entry floors for thorough cleaning.",
+      "difficulty": "medium",
+      "duration": "20 min",
+      "tags": ["floors", "mopping", "weekly", "deep-clean"]
+    },
+    {
+      "id": "house_011",
+      "category": "Weekly Cleaning",
+      "title": "Change Bed Sheets",
+      "description": "Wash and change bed sheets and pillowcases weekly for freshness.",
+      "difficulty": "medium",
+      "duration": "15 min",
+      "tags": ["bedroom", "laundry", "sheets", "weekly"]
+    },
+    {
+      "id": "house_012",
+      "category": "Weekly Cleaning",
+      "title": "Deep Clean Bathroom",
+      "description": "Scrub toilet, shower, tub, and sink thoroughly once per week.",
+      "difficulty": "medium",
+      "duration": "30 min",
+      "tags": ["bathroom", "deep-clean", "scrubbing", "weekly"]
+    },
+    {
+      "id": "house_013",
+      "category": "Weekly Cleaning",
+      "title": "Dust All Surfaces",
+      "description": "Dust furniture, shelves, and decor throughout the house.",
+      "difficulty": "medium",
+      "duration": "20 min",
+      "tags": ["dusting", "surfaces", "weekly", "allergens"]
+    },
+    {
+      "id": "house_014",
+      "category": "Weekly Cleaning",
+      "title": "Trash and Recycling Out",
+      "description": "Empty all trash cans and recycling bins, take to curb if needed.",
+      "difficulty": "easy",
+      "duration": "10 min",
+      "tags": ["trash", "recycling", "weekly", "maintenance"]
+    },
+    {
+      "id": "house_015",
+      "category": "Weekly Cleaning",
+      "title": "Wipe Kitchen Appliances",
+      "description": "Clean exterior of refrigerator, microwave, oven, and small appliances.",
+      "difficulty": "easy",
+      "duration": "15 min",
+      "tags": ["kitchen", "appliances", "weekly", "cleaning"]
+    },
+    {
+      "id": "house_016",
+      "category": "Weekly Cleaning",
+      "title": "Clean Mirrors and Glass",
+      "description": "Clean all mirrors and glass surfaces for streak-free shine.",
+      "difficulty": "easy",
+      "duration": "10 min",
+      "tags": ["mirrors", "glass", "weekly", "shine"]
+    },
+    {
+      "id": "house_017",
+      "category": "Monthly Cleaning",
+      "title": "Deep Clean Refrigerator",
+      "description": "Remove all items, wipe shelves, check expiration dates monthly.",
+      "difficulty": "medium",
+      "duration": "30 min",
+      "tags": ["kitchen", "refrigerator", "monthly", "deep-clean"]
+    },
+    {
+      "id": "house_018",
+      "category": "Monthly Cleaning",
+      "title": "Clean Under Furniture",
+      "description": "Move furniture to clean underneath and vacuum hidden dust.",
+      "difficulty": "hard",
+      "duration": "45 min",
+      "tags": ["furniture", "deep-clean", "monthly", "dust"]
+    },
+    {
+      "id": "house_019",
+      "category": "Monthly Cleaning",
+      "title": "Wash Windows Inside",
+      "description": "Clean interior windows for clear views and better light.",
+      "difficulty": "medium",
+      "duration": "30 min",
+      "tags": ["windows", "cleaning", "monthly", "light"]
+    },
+    {
+      "id": "house_020",
+      "category": "Monthly Cleaning",
+      "title": "Clean Oven Interior",
+      "description": "Deep clean oven interior, removing grease and burnt residue.",
+      "difficulty": "hard",
+      "duration": "45 min",
+      "tags": ["kitchen", "oven", "monthly", "deep-clean"]
+    },
+    {
+      "id": "house_021",
+      "category": "Monthly Cleaning",
+      "title": "Descale Coffee Maker",
+      "description": "Run descaling solution through coffee maker to remove mineral buildup.",
+      "difficulty": "easy",
+      "duration": "20 min",
+      "tags": ["kitchen", "coffee", "descaling", "monthly"]
+    },
+    {
+      "id": "house_022",
+      "category": "Monthly Cleaning",
+      "title": "Clean Washing Machine",
+      "description": "Run empty hot cycle with cleaner to prevent mold and odors.",
+      "difficulty": "easy",
+      "duration": "1 hour",
+      "tags": ["laundry", "washing-machine", "monthly", "maintenance"]
+    },
+    {
+      "id": "house_023",
+      "category": "Monthly Cleaning",
+      "title": "Vacuum Upholstery",
+      "description": "Vacuum sofas, chairs, and fabric furniture monthly.",
+      "difficulty": "medium",
+      "duration": "20 min",
+      "tags": ["furniture", "vacuum", "upholstery", "monthly"]
+    },
+    {
+      "id": "house_024",
+      "category": "Monthly Cleaning",
+      "title": "Clean Light Fixtures",
+      "description": "Dust and wipe light fixtures, ceiling fans, and lamps.",
+      "difficulty": "medium",
+      "duration": "25 min",
+      "tags": ["lighting", "dust", "monthly", "cleaning"]
+    },
+    {
+      "id": "house_025",
+      "category": "Organization",
+      "title": "Closet Purge Session",
+      "description": "Go through clothes and donate items not worn in the past year.",
+      "difficulty": "medium",
+      "duration": "1 hour",
+      "tags": ["closet", "declutter", "donate", "organization"]
+    },
+    {
+      "id": "house_026",
+      "category": "Organization",
+      "title": "Drawer Organization",
+      "description": "Use dividers to organize junk drawers, utensil drawers, and dressers.",
+      "difficulty": "medium",
+      "duration": "30 min",
+      "tags": ["drawers", "dividers", "organization", "storage"]
+    },
+    {
+      "id": "house_027",
+      "category": "Organization",
+      "title": "Paper Filing System",
+      "description": "Create filing system for important documents, bills, and receipts.",
+      "difficulty": "medium",
+      "duration": "1 hour",
+      "tags": ["papers", "filing", "documents", "organization"]
+    },
+    {
+      "id": "house_028",
+      "category": "Organization",
+      "title": "Pantry Organization",
+      "description": "Use clear containers and labels to organize pantry items.",
+      "difficulty": "medium",
+      "duration": "1 hour",
+      "tags": ["pantry", "containers", "labels", "kitchen"]
+    },
+    {
+      "id": "house_029",
+      "category": "Organization",
+      "title": "Medicine Cabinet Check",
+      "description": "Check expiration dates and organize medicine cabinet contents.",
+      "difficulty": "easy",
+      "duration": "15 min",
+      "tags": ["bathroom", "medicine", "expiration", "safety"]
+    },
+    {
+      "id": "house_030",
+      "category": "Organization",
+      "title": "Digital Photo Backup",
+      "description": "Back up digital photos to cloud storage and organize into albums.",
+      "difficulty": "medium",
+      "duration": "1 hour",
+      "tags": ["digital", "photos", "backup", "organization"]
+    },
+    {
+      "id": "house_031",
+      "category": "Organization",
+      "title": "Cord Management",
+      "description": "Use cable ties, cord covers, or boxes to organize electronics cords.",
+      "difficulty": "easy",
+      "duration": "30 min",
+      "tags": ["electronics", "cords", "cables", "organization"]
+    },
+    {
+      "id": "house_032",
+      "category": "Organization",
+      "title": "Entryway Station",
+      "description": "Create landing zone for keys, mail, bags, and everyday items.",
+      "difficulty": "easy",
+      "duration": "30 min",
+      "tags": ["entryway", "keys", "landing-zone", "organization"]
+    },
+    {
+      "id": "house_033",
+      "category": "Home Maintenance",
+      "title": "HVAC Filter Change",
+      "description": "Replace HVAC air filters monthly for better air quality and efficiency.",
+      "difficulty": "easy",
+      "duration": "10 min",
+      "tags": ["hvac", "filters", "air-quality", "monthly"]
+    },
+    {
+      "id": "house_034",
+      "category": "Home Maintenance",
+      "title": "Smoke Detector Test",
+      "description": "Test smoke and carbon monoxide detectors monthly, replace batteries yearly.",
+      "difficulty": "easy",
+      "duration": "10 min",
+      "tags": ["safety", "smoke-detector", "batteries", "monthly"]
+    },
+    {
+      "id": "house_035",
+      "category": "Home Maintenance",
+      "title": "Drain Cleaning",
+      "description": "Use enzyme cleaner or baking soda/vinegar to keep drains flowing.",
+      "difficulty": "easy",
+      "duration": "15 min",
+      "tags": ["plumbing", "drains", "maintenance", "monthly"]
+    },
+    {
+      "id": "house_036",
+      "category": "Home Maintenance",
+      "title": "Weather Stripping Check",
+      "description": "Inspect and replace worn weather stripping around doors and windows.",
+      "difficulty": "medium",
+      "duration": "30 min",
+      "tags": ["doors", "windows", "energy", "seasonal"]
+    },
+    {
+      "id": "house_037",
+      "category": "Home Maintenance",
+      "title": "Gutter Cleaning",
+      "description": "Clear gutters of leaves and debris to prevent water damage.",
+      "difficulty": "hard",
+      "duration": "1 hour",
+      "tags": ["exterior", "gutters", "seasonal", "water"]
+    },
+    {
+      "id": "house_038",
+      "category": "Home Maintenance",
+      "title": "Dryer Vent Cleaning",
+      "description": "Clean dryer vent and duct to prevent fire hazards and improve efficiency.",
+      "difficulty": "medium",
+      "duration": "30 min",
+      "tags": ["laundry", "dryer", "safety", "fire-prevention"]
+    },
+    {
+      "id": "house_039",
+      "category": "Home Maintenance",
+      "title": "Check Water Heater",
+      "description": "Inspect water heater for leaks and flush sediment annually.",
+      "difficulty": "medium",
+      "duration": "30 min",
+      "tags": ["plumbing", "water-heater", "annual", "maintenance"]
+    },
+    {
+      "id": "house_040",
+      "category": "Home Maintenance",
+      "title": "Refrigerator Coils Clean",
+      "description": "Vacuum refrigerator coils for better energy efficiency.",
+      "difficulty": "medium",
+      "duration": "20 min",
+      "tags": ["kitchen", "refrigerator", "energy", "biannual"]
+    },
+    {
+      "id": "house_041",
+      "category": "Kitchen Tips",
+      "title": "Meal Prep Sunday",
+      "description": "Prep ingredients and cook basics on Sunday for easier weeknight meals.",
+      "difficulty": "medium",
+      "duration": "2 hours",
+      "tags": ["kitchen", "meal-prep", "cooking", "weekly"]
+    },
+    {
+      "id": "house_042",
+      "category": "Kitchen Tips",
+      "title": "Clean As You Cook",
+      "description": "Wash dishes and wipe surfaces while cooking to minimize after-meal cleanup.",
+      "difficulty": "easy",
+      "duration": "ongoing",
+      "tags": ["kitchen", "cooking", "habit", "cleaning"]
+    },
+    {
+      "id": "house_043",
+      "category": "Kitchen Tips",
+      "title": "Freezer Inventory",
+      "description": "Keep list of freezer contents to reduce waste and plan meals.",
+      "difficulty": "easy",
+      "duration": "15 min",
+      "tags": ["kitchen", "freezer", "inventory", "planning"]
+    },
+    {
+      "id": "house_044",
+      "category": "Kitchen Tips",
+      "title": "Sharp Knives Maintenance",
+      "description": "Sharpen kitchen knives regularly for safer, more efficient cutting.",
+      "difficulty": "easy",
+      "duration": "10 min",
+      "tags": ["kitchen", "knives", "safety", "maintenance"]
+    },
+    {
+      "id": "house_045",
+      "category": "Kitchen Tips",
+      "title": "Spice Cabinet Rotation",
+      "description": "Check spice dates and rotate older spices to front for use.",
+      "difficulty": "easy",
+      "duration": "15 min",
+      "tags": ["kitchen", "spices", "rotation", "organization"]
+    },
+    {
+      "id": "house_046",
+      "category": "Kitchen Tips",
+      "title": "Clean Cutting Boards",
+      "description": "Sanitize cutting boards with lemon and salt or diluted bleach.",
+      "difficulty": "easy",
+      "duration": "10 min",
+      "tags": ["kitchen", "cutting-boards", "sanitize", "food-safety"]
+    },
+    {
+      "id": "house_047",
+      "category": "Kitchen Tips",
+      "title": "Garbage Disposal Freshening",
+      "description": "Clean garbage disposal with ice, salt, and citrus peels.",
+      "difficulty": "easy",
+      "duration": "5 min",
+      "tags": ["kitchen", "disposal", "odors", "freshening"]
+    },
+    {
+      "id": "house_048",
+      "category": "Kitchen Tips",
+      "title": "Cast Iron Care",
+      "description": "Season and properly maintain cast iron cookware for longevity.",
+      "difficulty": "easy",
+      "duration": "15 min",
+      "tags": ["kitchen", "cast-iron", "seasoning", "maintenance"]
+    },
+    {
+      "id": "house_049",
+      "category": "Laundry Tips",
+      "title": "Sort As You Go",
+      "description": "Use multiple hampers for whites, darks, and delicates to pre-sort.",
+      "difficulty": "easy",
+      "duration": "ongoing",
+      "tags": ["laundry", "sorting", "organization", "habit"]
+    },
+    {
+      "id": "house_050",
+      "category": "Laundry Tips",
+      "title": "Stain Treatment Station",
+      "description": "Keep stain remover near hamper to treat stains immediately.",
+      "difficulty": "easy",
+      "duration": "2 min",
+      "tags": ["laundry", "stains", "treatment", "prep"]
+    },
+    {
+      "id": "house_051",
+      "category": "Laundry Tips",
+      "title": "Towel Refresh Cycle",
+      "description": "Run towels with vinegar then baking soda to remove musty odors.",
+      "difficulty": "easy",
+      "duration": "2 hours",
+      "tags": ["laundry", "towels", "odors", "refresh"]
+    },
+    {
+      "id": "house_052",
+      "category": "Laundry Tips",
+      "title": "Delicates in Mesh Bags",
+      "description": "Protect delicate items by washing in mesh laundry bags.",
+      "difficulty": "easy",
+      "duration": "2 min",
+      "tags": ["laundry", "delicates", "protection", "mesh-bags"]
+    },
+    {
+      "id": "house_053",
+      "category": "Laundry Tips",
+      "title": "Fold Immediately",
+      "description": "Fold clothes right after drying to prevent wrinkles and pile-up.",
+      "difficulty": "easy",
+      "duration": "15 min",
+      "tags": ["laundry", "folding", "wrinkles", "habit"]
+    },
+    {
+      "id": "house_054",
+      "category": "Laundry Tips",
+      "title": "Seasonal Clothes Rotation",
+      "description": "Pack away off-season clothes to free closet space.",
+      "difficulty": "medium",
+      "duration": "1 hour",
+      "tags": ["laundry", "closet", "seasonal", "storage"]
+    },
+    {
+      "id": "house_055",
+      "category": "Laundry Tips",
+      "title": "Lint Trap Every Load",
+      "description": "Clean dryer lint trap before every load for efficiency and safety.",
+      "difficulty": "easy",
+      "duration": "1 min",
+      "tags": ["laundry", "dryer", "lint", "safety"]
+    },
+    {
+      "id": "house_056",
+      "category": "Laundry Tips",
+      "title": "Iron Smart Not Often",
+      "description": "Remove items promptly and hang properly to minimize ironing needs.",
+      "difficulty": "easy",
+      "duration": "5 min",
+      "tags": ["laundry", "ironing", "wrinkles", "efficiency"]
+    },
+    {
+      "id": "house_057",
+      "category": "Bathroom Tips",
+      "title": "Shower Spray After Use",
+      "description": "Spray shower walls with daily cleaner after use to prevent buildup.",
+      "difficulty": "easy",
+      "duration": "1 min",
+      "tags": ["bathroom", "shower", "prevention", "daily"]
+    },
+    {
+      "id": "house_058",
+      "category": "Bathroom Tips",
+      "title": "Ventilation After Showers",
+      "description": "Run exhaust fan 20 minutes after showers to prevent mold.",
+      "difficulty": "easy",
+      "duration": "20 min",
+      "tags": ["bathroom", "ventilation", "mold", "prevention"]
+    },
+    {
+      "id": "house_059",
+      "category": "Bathroom Tips",
+      "title": "Toothbrush Holder Cleaning",
+      "description": "Clean toothbrush holder weekly to prevent bacteria buildup.",
+      "difficulty": "easy",
+      "duration": "5 min",
+      "tags": ["bathroom", "hygiene", "toothbrush", "weekly"]
+    },
+    {
+      "id": "house_060",
+      "category": "Bathroom Tips",
+      "title": "Grout Cleaning",
+      "description": "Scrub grout lines with paste of baking soda and hydrogen peroxide.",
+      "difficulty": "medium",
+      "duration": "30 min",
+      "tags": ["bathroom", "grout", "tiles", "deep-clean"]
+    },
+    {
+      "id": "house_061",
+      "category": "Bathroom Tips",
+      "title": "Toilet Brush Sanitize",
+      "description": "Sanitize toilet brush holder with bleach solution regularly.",
+      "difficulty": "easy",
+      "duration": "10 min",
+      "tags": ["bathroom", "toilet", "sanitize", "hygiene"]
+    },
+    {
+      "id": "house_062",
+      "category": "Bathroom Tips",
+      "title": "Shower Curtain Wash",
+      "description": "Wash fabric shower curtains or replace plastic liners monthly.",
+      "difficulty": "easy",
+      "duration": "5 min",
+      "tags": ["bathroom", "shower-curtain", "mold", "monthly"]
+    },
+    {
+      "id": "house_063",
+      "category": "Bathroom Tips",
+      "title": "Showerhead Descale",
+      "description": "Soak showerhead in vinegar to remove mineral deposits.",
+      "difficulty": "easy",
+      "duration": "1 hour",
+      "tags": ["bathroom", "showerhead", "descale", "maintenance"]
+    },
+    {
+      "id": "house_064",
+      "category": "Bathroom Tips",
+      "title": "Bath Mat Rotation",
+      "description": "Wash bath mats weekly and allow to dry completely between uses.",
+      "difficulty": "easy",
+      "duration": "5 min",
+      "tags": ["bathroom", "bath-mat", "laundry", "hygiene"]
+    },
+    {
+      "id": "house_065",
+      "category": "Bedroom Tips",
+      "title": "Pillow Fluffing Routine",
+      "description": "Fluff pillows daily and wash monthly for freshness and support.",
+      "difficulty": "easy",
+      "duration": "2 min",
+      "tags": ["bedroom", "pillows", "maintenance", "daily"]
+    },
+    {
+      "id": "house_066",
+      "category": "Bedroom Tips",
+      "title": "Under-Bed Storage",
+      "description": "Use under-bed containers for seasonal items and extra linens.",
+      "difficulty": "easy",
+      "duration": "30 min",
+      "tags": ["bedroom", "storage", "organization", "space"]
+    },
+    {
+      "id": "house_067",
+      "category": "Bedroom Tips",
+      "title": "Mattress Rotation",
+      "description": "Rotate mattress head-to-foot every 3 months for even wear.",
+      "difficulty": "medium",
+      "duration": "10 min",
+      "tags": ["bedroom", "mattress", "maintenance", "quarterly"]
+    },
+    {
+      "id": "house_068",
+      "category": "Bedroom Tips",
+      "title": "Nightstand Declutter",
+      "description": "Keep only essentials on nightstand - lamp, book, clock, water.",
+      "difficulty": "easy",
+      "duration": "10 min",
+      "tags": ["bedroom", "nightstand", "declutter", "minimal"]
+    },
+    {
+      "id": "house_069",
+      "category": "Bedroom Tips",
+      "title": "Closet Light Timer",
+      "description": "Install timer or motion sensor in closet to remember to turn off lights.",
+      "difficulty": "medium",
+      "duration": "30 min",
+      "tags": ["bedroom", "closet", "lighting", "energy"]
+    },
+    {
+      "id": "house_070",
+      "category": "Bedroom Tips",
+      "title": "Dust Mite Prevention",
+      "description": "Use dust mite covers on pillows and mattress for allergen control.",
+      "difficulty": "easy",
+      "duration": "15 min",
+      "tags": ["bedroom", "dust-mites", "allergens", "prevention"]
+    },
+    {
+      "id": "house_071",
+      "category": "Bedroom Tips",
+      "title": "Morning Air Out",
+      "description": "Open windows briefly each morning to air out bedroom.",
+      "difficulty": "easy",
+      "duration": "5 min",
+      "tags": ["bedroom", "ventilation", "fresh-air", "morning"]
+    },
+    {
+      "id": "house_072",
+      "category": "Bedroom Tips",
+      "title": "Charging Station Setup",
+      "description": "Create designated charging area to reduce bedroom cord clutter.",
+      "difficulty": "easy",
+      "duration": "15 min",
+      "tags": ["bedroom", "electronics", "charging", "organization"]
+    },
+    {
+      "id": "house_073",
+      "category": "Living Room Tips",
+      "title": "Couch Cushion Flip",
+      "description": "Flip and rotate couch cushions weekly for even wear.",
+      "difficulty": "easy",
+      "duration": "5 min",
+      "tags": ["living-room", "couch", "maintenance", "weekly"]
+    },
+    {
+      "id": "house_074",
+      "category": "Living Room Tips",
+      "title": "Remote Control Cleaning",
+      "description": "Sanitize remote controls weekly - they harbor lots of germs.",
+      "difficulty": "easy",
+      "duration": "5 min",
+      "tags": ["living-room", "remotes", "sanitize", "weekly"]
+    },
+    {
+      "id": "house_075",
+      "category": "Living Room Tips",
+      "title": "Book Shelf Dusting",
+      "description": "Dust books and shelves with soft cloth or vacuum attachment.",
+      "difficulty": "medium",
+      "duration": "20 min",
+      "tags": ["living-room", "books", "dusting", "monthly"]
+    },
+    {
+      "id": "house_076",
+      "category": "Living Room Tips",
+      "title": "TV Screen Cleaning",
+      "description": "Clean TV and monitor screens with microfiber cloth, no harsh chemicals.",
+      "difficulty": "easy",
+      "duration": "5 min",
+      "tags": ["living-room", "tv", "electronics", "cleaning"]
+    },
+    {
+      "id": "house_077",
+      "category": "Living Room Tips",
+      "title": "Plant Care Schedule",
+      "description": "Create consistent watering and dusting schedule for houseplants.",
+      "difficulty": "easy",
+      "duration": "15 min",
+      "tags": ["living-room", "plants", "watering", "schedule"]
+    },
+    {
+      "id": "house_078",
+      "category": "Living Room Tips",
+      "title": "Throw Blanket Refresh",
+      "description": "Wash throw blankets bi-weekly for freshness.",
+      "difficulty": "easy",
+      "duration": "5 min",
+      "tags": ["living-room", "blankets", "laundry", "biweekly"]
+    },
+    {
+      "id": "house_079",
+      "category": "Living Room Tips",
+      "title": "Rug Vacuuming Under",
+      "description": "Lift area rugs monthly to vacuum underneath and prevent dust buildup.",
+      "difficulty": "medium",
+      "duration": "15 min",
+      "tags": ["living-room", "rugs", "vacuum", "monthly"]
+    },
+    {
+      "id": "house_080",
+      "category": "Living Room Tips",
+      "title": "Window Treatment Dusting",
+      "description": "Dust blinds or vacuum curtains monthly.",
+      "difficulty": "medium",
+      "duration": "20 min",
+      "tags": ["living-room", "blinds", "curtains", "dusting"]
+    },
+    {
+      "id": "house_081",
+      "category": "Energy Saving",
+      "title": "Unplug Phantom Loads",
+      "description": "Unplug devices not in use or use smart power strips.",
+      "difficulty": "easy",
+      "duration": "5 min",
+      "tags": ["energy", "electricity", "savings", "habit"]
+    },
+    {
+      "id": "house_082",
+      "category": "Energy Saving",
+      "title": "LED Bulb Switch",
+      "description": "Replace incandescent bulbs with LED for energy savings.",
+      "difficulty": "easy",
+      "duration": "15 min",
+      "tags": ["energy", "lighting", "led", "savings"]
+    },
+    {
+      "id": "house_083",
+      "category": "Energy Saving",
+      "title": "Thermostat Programming",
+      "description": "Program thermostat to lower when away and sleeping.",
+      "difficulty": "easy",
+      "duration": "15 min",
+      "tags": ["energy", "thermostat", "heating", "cooling"]
+    },
+    {
+      "id": "house_084",
+      "category": "Energy Saving",
+      "title": "Full Loads Only",
+      "description": "Run dishwasher and laundry only with full loads.",
+      "difficulty": "easy",
+      "duration": "ongoing",
+      "tags": ["energy", "water", "efficiency", "habit"]
+    },
+    {
+      "id": "house_085",
+      "category": "Energy Saving",
+      "title": "Cold Water Washing",
+      "description": "Wash clothes in cold water to save energy and protect fabrics.",
+      "difficulty": "easy",
+      "duration": "ongoing",
+      "tags": ["energy", "laundry", "cold-water", "savings"]
+    },
+    {
+      "id": "house_086",
+      "category": "Energy Saving",
+      "title": "Air Dry When Possible",
+      "description": "Use drying rack or clothesline instead of dryer for some loads.",
+      "difficulty": "easy",
+      "duration": "5 min",
+      "tags": ["energy", "laundry", "air-dry", "savings"]
+    },
+    {
+      "id": "house_087",
+      "category": "Energy Saving",
+      "title": "Curtain Temperature Control",
+      "description": "Open curtains for sun warmth in winter, close for cooling in summer.",
+      "difficulty": "easy",
+      "duration": "2 min",
+      "tags": ["energy", "curtains", "temperature", "passive"]
+    },
+    {
+      "id": "house_088",
+      "category": "Energy Saving",
+      "title": "Water Heater Temperature",
+      "description": "Set water heater to 120°F for safety and energy savings.",
+      "difficulty": "easy",
+      "duration": "5 min",
+      "tags": ["energy", "water-heater", "temperature", "settings"]
+    },
+    {
+      "id": "house_089",
+      "category": "Safety Checks",
+      "title": "Fire Extinguisher Inspection",
+      "description": "Check fire extinguisher pressure and expiration date monthly.",
+      "difficulty": "easy",
+      "duration": "2 min",
+      "tags": ["safety", "fire", "extinguisher", "monthly"]
+    },
+    {
+      "id": "house_090",
+      "category": "Safety Checks",
+      "title": "Emergency Kit Review",
+      "description": "Check and update emergency kit supplies and expiration dates.",
+      "difficulty": "medium",
+      "duration": "30 min",
+      "tags": ["safety", "emergency", "preparedness", "biannual"]
+    },
+    {
+      "id": "house_091",
+      "category": "Safety Checks",
+      "title": "First Aid Kit Stock",
+      "description": "Restock first aid kit with needed supplies after use.",
+      "difficulty": "easy",
+      "duration": "15 min",
+      "tags": ["safety", "first-aid", "medical", "stock"]
+    },
+    {
+      "id": "house_092",
+      "category": "Safety Checks",
+      "title": "Nightlight Placement",
+      "description": "Ensure nightlights in hallways and bathrooms for safe navigation.",
+      "difficulty": "easy",
+      "duration": "10 min",
+      "tags": ["safety", "lighting", "nightlight", "navigation"]
+    },
+    {
+      "id": "house_093",
+      "category": "Safety Checks",
+      "title": "Cord Safety Check",
+      "description": "Inspect electrical cords for damage and proper placement.",
+      "difficulty": "easy",
+      "duration": "10 min",
+      "tags": ["safety", "electrical", "cords", "inspection"]
+    },
+    {
+      "id": "house_094",
+      "category": "Safety Checks",
+      "title": "Lock Function Test",
+      "description": "Test all door and window locks for proper function.",
+      "difficulty": "easy",
+      "duration": "15 min",
+      "tags": ["safety", "security", "locks", "doors"]
+    },
+    {
+      "id": "house_095",
+      "category": "Safety Checks",
+      "title": "Escape Route Review",
+      "description": "Review and practice emergency escape routes with household.",
+      "difficulty": "easy",
+      "duration": "15 min",
+      "tags": ["safety", "emergency", "escape", "family"]
+    },
+    {
+      "id": "house_096",
+      "category": "Safety Checks",
+      "title": "Outdoor Lighting Check",
+      "description": "Ensure exterior lights work for security and safe navigation.",
+      "difficulty": "easy",
+      "duration": "10 min",
+      "tags": ["safety", "security", "outdoor", "lighting"]
+    },
+    {
+      "id": "house_097",
+      "category": "Seasonal Tasks",
+      "title": "Spring Deep Clean",
+      "description": "Annual deep cleaning including windows, carpets, and decluttering.",
+      "difficulty": "hard",
+      "duration": "1 day",
+      "tags": ["seasonal", "spring", "deep-clean", "annual"]
+    },
+    {
+      "id": "house_098",
+      "category": "Seasonal Tasks",
+      "title": "Fall Weatherization",
+      "description": "Prepare home for winter with insulation, heating checks, and supplies.",
+      "difficulty": "medium",
+      "duration": "3 hours",
+      "tags": ["seasonal", "fall", "winter-prep", "weatherization"]
+    },
+    {
+      "id": "house_099",
+      "category": "Seasonal Tasks",
+      "title": "AC/Heating Transition",
+      "description": "Schedule HVAC maintenance before switching between heating and cooling.",
+      "difficulty": "easy",
+      "duration": "1 hour",
+      "tags": ["seasonal", "hvac", "maintenance", "biannual"]
+    },
+    {
+      "id": "house_100",
+      "category": "Seasonal Tasks",
+      "title": "Holiday Decoration Storage",
+      "description": "Properly store seasonal decorations in labeled containers.",
+      "difficulty": "medium",
+      "duration": "1 hour",
+      "tags": ["seasonal", "decorations", "storage", "organization"]
+    }
+  ]
+}

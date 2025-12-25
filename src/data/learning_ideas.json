@@ -1,0 +1,1808 @@
+{
+  "module": "Creative Learning Ideas",
+  "version": "1.0",
+  "total_ideas": 200,
+  "description": "New techniques and skills to learn across drawing, digital art, painting, poetry, sewing, music, coding, and creative disciplines",
+  "items": [
+    {
+      "id": "learn_001",
+      "category": "Drawing Fundamentals",
+      "title": "Gesture Drawing 30-Second Poses",
+      "description": "Practice capturing the essence of a figure in 30-second sketches. Focus on movement and flow, not details.",
+      "difficulty": "beginner",
+      "duration": "15 min",
+      "tags": ["drawing", "gesture", "figure", "practice"]
+    },
+    {
+      "id": "learn_002",
+      "category": "Drawing Fundamentals",
+      "title": "Contour Drawing Without Looking",
+      "description": "Draw an object while only looking at it, not your paper. Builds hand-eye coordination and observation skills.",
+      "difficulty": "beginner",
+      "duration": "10 min",
+      "tags": ["drawing", "contour", "observation", "technique"]
+    },
+    {
+      "id": "learn_003",
+      "category": "Drawing Fundamentals",
+      "title": "Negative Space Drawing",
+      "description": "Instead of drawing the object, draw the space around it. Helps see shapes more accurately.",
+      "difficulty": "beginner",
+      "duration": "20 min",
+      "tags": ["drawing", "negative-space", "perception", "shapes"]
+    },
+    {
+      "id": "learn_004",
+      "category": "Drawing Fundamentals",
+      "title": "Value Scale Creation",
+      "description": "Create a 9-step value scale from white to black using pencil. Master smooth gradations.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["drawing", "values", "shading", "fundamentals"]
+    },
+    {
+      "id": "learn_005",
+      "category": "Drawing Fundamentals",
+      "title": "One-Point Perspective Room",
+      "description": "Draw a room interior using one-point perspective with a single vanishing point.",
+      "difficulty": "intermediate",
+      "duration": "45 min",
+      "tags": ["drawing", "perspective", "architecture", "spatial"]
+    },
+    {
+      "id": "learn_006",
+      "category": "Drawing Fundamentals",
+      "title": "Two-Point Perspective Buildings",
+      "description": "Create cityscapes using two vanishing points for more dynamic architectural drawings.",
+      "difficulty": "intermediate",
+      "duration": "1 hour",
+      "tags": ["drawing", "perspective", "buildings", "urban"]
+    },
+    {
+      "id": "learn_007",
+      "category": "Drawing Fundamentals",
+      "title": "Cross-Hatching Technique",
+      "description": "Layer intersecting lines at different angles to create value and texture in drawings.",
+      "difficulty": "intermediate",
+      "duration": "30 min",
+      "tags": ["drawing", "hatching", "shading", "texture"]
+    },
+    {
+      "id": "learn_008",
+      "category": "Drawing Fundamentals",
+      "title": "Proportional Grid Method",
+      "description": "Use a grid overlay to accurately transfer and scale reference images.",
+      "difficulty": "beginner",
+      "duration": "45 min",
+      "tags": ["drawing", "grid", "proportions", "accuracy"]
+    },
+    {
+      "id": "learn_009",
+      "category": "Drawing Fundamentals",
+      "title": "Loomis Head Construction",
+      "description": "Learn the Loomis method for constructing proportional heads from any angle.",
+      "difficulty": "intermediate",
+      "duration": "1 hour",
+      "tags": ["drawing", "anatomy", "head", "loomis"]
+    },
+    {
+      "id": "learn_010",
+      "category": "Drawing Fundamentals",
+      "title": "Hand Studies from Life",
+      "description": "Draw your own hand in 10 different poses. Hands are excellent anatomy practice.",
+      "difficulty": "intermediate",
+      "duration": "1 hour",
+      "tags": ["drawing", "anatomy", "hands", "study"]
+    },
+    {
+      "id": "learn_011",
+      "category": "Digital Art",
+      "title": "Brush Pressure Sensitivity Setup",
+      "description": "Configure tablet pressure sensitivity and test different brush pressure curves.",
+      "difficulty": "beginner",
+      "duration": "20 min",
+      "tags": ["digital", "tablet", "setup", "brushes"]
+    },
+    {
+      "id": "learn_012",
+      "category": "Digital Art",
+      "title": "Custom Brush Creation",
+      "description": "Create your own custom brushes with unique textures and behavior settings.",
+      "difficulty": "intermediate",
+      "duration": "45 min",
+      "tags": ["digital", "brushes", "custom", "creation"]
+    },
+    {
+      "id": "learn_013",
+      "category": "Digital Art",
+      "title": "Layer Blending Modes Exploration",
+      "description": "Experiment with Multiply, Screen, Overlay, and other blending modes to understand effects.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["digital", "layers", "blending", "effects"]
+    },
+    {
+      "id": "learn_014",
+      "category": "Digital Art",
+      "title": "Clipping Masks for Shading",
+      "description": "Use clipping masks to add shading and highlights that stay within base colors.",
+      "difficulty": "beginner",
+      "duration": "20 min",
+      "tags": ["digital", "clipping-mask", "shading", "workflow"]
+    },
+    {
+      "id": "learn_015",
+      "category": "Digital Art",
+      "title": "Color Picking from References",
+      "description": "Practice sampling colors from photos to build more naturalistic palettes.",
+      "difficulty": "beginner",
+      "duration": "15 min",
+      "tags": ["digital", "color", "reference", "sampling"]
+    },
+    {
+      "id": "learn_016",
+      "category": "Digital Art",
+      "title": "Clip Studio Paint Asset Store",
+      "description": "Download and install brushes, materials, and 3D models from the asset store.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["digital", "clip-studio", "assets", "resources"]
+    },
+    {
+      "id": "learn_017",
+      "category": "Digital Art",
+      "title": "Vector Layer Lineart",
+      "description": "Use vector layers for clean, adjustable lineart that can be resized without quality loss.",
+      "difficulty": "intermediate",
+      "duration": "45 min",
+      "tags": ["digital", "vector", "lineart", "clean"]
+    },
+    {
+      "id": "learn_018",
+      "category": "Digital Art",
+      "title": "3D Model Posing for Reference",
+      "description": "Use 3D mannequins or models as pose references for complex angles.",
+      "difficulty": "intermediate",
+      "duration": "30 min",
+      "tags": ["digital", "3d-models", "reference", "poses"]
+    },
+    {
+      "id": "learn_019",
+      "category": "Digital Art",
+      "title": "Selection Tools Mastery",
+      "description": "Practice lasso, magic wand, and quick selection for efficient editing.",
+      "difficulty": "beginner",
+      "duration": "25 min",
+      "tags": ["digital", "selection", "tools", "workflow"]
+    },
+    {
+      "id": "learn_020",
+      "category": "Digital Art",
+      "title": "Transform and Liquify Corrections",
+      "description": "Use transform and liquify tools to fix proportions and adjust anatomy.",
+      "difficulty": "intermediate",
+      "duration": "20 min",
+      "tags": ["digital", "transform", "liquify", "corrections"]
+    },
+    {
+      "id": "learn_021",
+      "category": "Painting Techniques",
+      "title": "Color Wheel Mixing Exercise",
+      "description": "Mix secondary and tertiary colors using only primary paints to understand color theory.",
+      "difficulty": "beginner",
+      "duration": "45 min",
+      "tags": ["painting", "color-theory", "mixing", "fundamentals"]
+    },
+    {
+      "id": "learn_022",
+      "category": "Painting Techniques",
+      "title": "Wet-on-Wet Watercolor",
+      "description": "Apply wet paint to wet paper for soft, diffused edges and color blending.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["painting", "watercolor", "wet-on-wet", "technique"]
+    },
+    {
+      "id": "learn_023",
+      "category": "Painting Techniques",
+      "title": "Dry Brush Texture Effects",
+      "description": "Use minimal paint on a dry brush to create rough textures like grass or fur.",
+      "difficulty": "intermediate",
+      "duration": "25 min",
+      "tags": ["painting", "dry-brush", "texture", "technique"]
+    },
+    {
+      "id": "learn_024",
+      "category": "Painting Techniques",
+      "title": "Glazing Layers for Depth",
+      "description": "Apply thin transparent layers over dried paint to build depth and luminosity.",
+      "difficulty": "intermediate",
+      "duration": "1 hour",
+      "tags": ["painting", "glazing", "layers", "depth"]
+    },
+    {
+      "id": "learn_025",
+      "category": "Painting Techniques",
+      "title": "Palette Knife Impasto",
+      "description": "Apply thick paint with palette knife for textured, sculptural effects.",
+      "difficulty": "intermediate",
+      "duration": "45 min",
+      "tags": ["painting", "palette-knife", "impasto", "texture"]
+    },
+    {
+      "id": "learn_026",
+      "category": "Painting Techniques",
+      "title": "Limited Palette Challenge",
+      "description": "Create a painting using only 3-4 colors to understand color relationships.",
+      "difficulty": "intermediate",
+      "duration": "1 hour",
+      "tags": ["painting", "limited-palette", "color", "challenge"]
+    },
+    {
+      "id": "learn_027",
+      "category": "Painting Techniques",
+      "title": "Underpainting in Monochrome",
+      "description": "Start with a single-color underpainting to establish values before adding color.",
+      "difficulty": "intermediate",
+      "duration": "45 min",
+      "tags": ["painting", "underpainting", "values", "technique"]
+    },
+    {
+      "id": "learn_028",
+      "category": "Painting Techniques",
+      "title": "Alla Prima One-Session Painting",
+      "description": "Complete an entire painting in one session while paint is still wet.",
+      "difficulty": "advanced",
+      "duration": "2 hours",
+      "tags": ["painting", "alla-prima", "wet-on-wet", "direct"]
+    },
+    {
+      "id": "learn_029",
+      "category": "Painting Techniques",
+      "title": "Color Temperature Studies",
+      "description": "Paint the same scene twice - once with warm palette, once with cool.",
+      "difficulty": "intermediate",
+      "duration": "1.5 hours",
+      "tags": ["painting", "color-temperature", "study", "mood"]
+    },
+    {
+      "id": "learn_030",
+      "category": "Painting Techniques",
+      "title": "Sgraffito Scratch Technique",
+      "description": "Scratch through wet paint layers to reveal colors underneath.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["painting", "sgraffito", "scratch", "technique"]
+    },
+    {
+      "id": "learn_031",
+      "category": "Poetry Writing",
+      "title": "Haiku Daily Practice",
+      "description": "Write one haiku (5-7-5 syllables) each day capturing a moment in nature.",
+      "difficulty": "beginner",
+      "duration": "10 min",
+      "tags": ["poetry", "haiku", "daily", "nature"]
+    },
+    {
+      "id": "learn_032",
+      "category": "Poetry Writing",
+      "title": "Free Verse Stream of Consciousness",
+      "description": "Write poetry without rules - let thoughts flow directly onto paper for 10 minutes.",
+      "difficulty": "beginner",
+      "duration": "10 min",
+      "tags": ["poetry", "free-verse", "stream", "writing"]
+    },
+    {
+      "id": "learn_033",
+      "category": "Poetry Writing",
+      "title": "Sonnet Structure Study",
+      "description": "Learn the 14-line sonnet form with iambic pentameter and rhyme scheme.",
+      "difficulty": "advanced",
+      "duration": "1 hour",
+      "tags": ["poetry", "sonnet", "form", "classical"]
+    },
+    {
+      "id": "learn_034",
+      "category": "Poetry Writing",
+      "title": "Found Poetry Creation",
+      "description": "Create poetry by selecting and rearranging words from existing texts.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["poetry", "found-poetry", "collage", "creative"]
+    },
+    {
+      "id": "learn_035",
+      "category": "Poetry Writing",
+      "title": "Metaphor Development Exercise",
+      "description": "Take one concept and create 10 different metaphors for it.",
+      "difficulty": "intermediate",
+      "duration": "25 min",
+      "tags": ["poetry", "metaphor", "imagery", "exercise"]
+    },
+    {
+      "id": "learn_036",
+      "category": "Poetry Writing",
+      "title": "Concrete/Shape Poetry",
+      "description": "Arrange words on the page to create a visual shape related to the poem's subject.",
+      "difficulty": "intermediate",
+      "duration": "30 min",
+      "tags": ["poetry", "concrete", "visual", "shape"]
+    },
+    {
+      "id": "learn_037",
+      "category": "Poetry Writing",
+      "title": "Ekphrastic Poetry from Art",
+      "description": "Write a poem inspired by and responding to a piece of visual art.",
+      "difficulty": "intermediate",
+      "duration": "45 min",
+      "tags": ["poetry", "ekphrastic", "art", "response"]
+    },
+    {
+      "id": "learn_038",
+      "category": "Poetry Writing",
+      "title": "Limerick Writing for Fun",
+      "description": "Write humorous limericks using the AABBA rhyme scheme.",
+      "difficulty": "beginner",
+      "duration": "15 min",
+      "tags": ["poetry", "limerick", "humor", "rhyme"]
+    },
+    {
+      "id": "learn_039",
+      "category": "Poetry Writing",
+      "title": "Villanelle Pattern Mastery",
+      "description": "Learn the 19-line villanelle form with its repeating refrains.",
+      "difficulty": "advanced",
+      "duration": "1.5 hours",
+      "tags": ["poetry", "villanelle", "form", "advanced"]
+    },
+    {
+      "id": "learn_040",
+      "category": "Poetry Writing",
+      "title": "Sensory Detail Focus",
+      "description": "Write a poem using all five senses to describe a single moment.",
+      "difficulty": "beginner",
+      "duration": "20 min",
+      "tags": ["poetry", "sensory", "detail", "imagery"]
+    },
+    {
+      "id": "learn_041",
+      "category": "Sewing Skills",
+      "title": "Hand Stitch Sampler",
+      "description": "Practice running stitch, backstitch, whip stitch, and blanket stitch on scrap fabric.",
+      "difficulty": "beginner",
+      "duration": "45 min",
+      "tags": ["sewing", "hand-stitch", "basics", "sampler"]
+    },
+    {
+      "id": "learn_042",
+      "category": "Sewing Skills",
+      "title": "Threading Machine and Bobbin",
+      "description": "Master threading your sewing machine including winding and inserting bobbin.",
+      "difficulty": "beginner",
+      "duration": "20 min",
+      "tags": ["sewing", "machine", "threading", "setup"]
+    },
+    {
+      "id": "learn_043",
+      "category": "Sewing Skills",
+      "title": "Straight Seam Practice",
+      "description": "Sew straight seams on practice fabric maintaining consistent seam allowance.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["sewing", "seams", "straight", "practice"]
+    },
+    {
+      "id": "learn_044",
+      "category": "Sewing Skills",
+      "title": "Curved Seam Sewing",
+      "description": "Practice sewing curved seams and clipping/notching curves for flat finish.",
+      "difficulty": "intermediate",
+      "duration": "45 min",
+      "tags": ["sewing", "curves", "seams", "technique"]
+    },
+    {
+      "id": "learn_045",
+      "category": "Sewing Skills",
+      "title": "Zipper Installation",
+      "description": "Learn to install a basic centered zipper using zipper foot.",
+      "difficulty": "intermediate",
+      "duration": "1 hour",
+      "tags": ["sewing", "zipper", "closures", "technique"]
+    },
+    {
+      "id": "learn_046",
+      "category": "Sewing Skills",
+      "title": "Buttonhole Making",
+      "description": "Create buttonholes using machine buttonhole foot and sew on buttons.",
+      "difficulty": "intermediate",
+      "duration": "45 min",
+      "tags": ["sewing", "buttonhole", "buttons", "closures"]
+    },
+    {
+      "id": "learn_047",
+      "category": "Sewing Skills",
+      "title": "Gathering and Ruffle Creation",
+      "description": "Learn to create gathers and ruffles using basting stitches.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["sewing", "gathering", "ruffles", "embellishment"]
+    },
+    {
+      "id": "learn_048",
+      "category": "Sewing Skills",
+      "title": "Bias Tape Application",
+      "description": "Make and apply bias tape for finishing edges and armholes.",
+      "difficulty": "intermediate",
+      "duration": "1 hour",
+      "tags": ["sewing", "bias-tape", "finishing", "edges"]
+    },
+    {
+      "id": "learn_049",
+      "category": "Sewing Skills",
+      "title": "Pattern Reading Basics",
+      "description": "Learn to read commercial sewing patterns including symbols and markings.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["sewing", "patterns", "reading", "symbols"]
+    },
+    {
+      "id": "learn_050",
+      "category": "Sewing Skills",
+      "title": "Fabric Cutting with Layouts",
+      "description": "Practice efficient fabric cutting following pattern layout guides.",
+      "difficulty": "beginner",
+      "duration": "45 min",
+      "tags": ["sewing", "cutting", "layout", "fabric"]
+    },
+    {
+      "id": "learn_051",
+      "category": "Music Skills",
+      "title": "Major Scale Practice All Keys",
+      "description": "Practice major scales in all 12 keys to build finger dexterity and key familiarity.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["music", "scales", "practice", "keys"]
+    },
+    {
+      "id": "learn_052",
+      "category": "Music Skills",
+      "title": "Chord Progression I-IV-V-I",
+      "description": "Learn the most common chord progression in multiple keys.",
+      "difficulty": "beginner",
+      "duration": "25 min",
+      "tags": ["music", "chords", "progression", "theory"]
+    },
+    {
+      "id": "learn_053",
+      "category": "Music Skills",
+      "title": "Ear Training Intervals",
+      "description": "Practice identifying musical intervals by ear using apps or piano.",
+      "difficulty": "intermediate",
+      "duration": "20 min",
+      "tags": ["music", "ear-training", "intervals", "listening"]
+    },
+    {
+      "id": "learn_054",
+      "category": "Music Skills",
+      "title": "Metronome Speed Building",
+      "description": "Practice a passage starting slow and gradually increase tempo with metronome.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["music", "metronome", "tempo", "practice"]
+    },
+    {
+      "id": "learn_055",
+      "category": "Music Skills",
+      "title": "Music Theory Flashcards",
+      "description": "Study key signatures, note names, and music symbols with flashcards.",
+      "difficulty": "beginner",
+      "duration": "15 min",
+      "tags": ["music", "theory", "flashcards", "study"]
+    },
+    {
+      "id": "learn_056",
+      "category": "Music Skills",
+      "title": "Rhythm Clapping Exercises",
+      "description": "Clap along to different rhythmic patterns to internalize time signatures.",
+      "difficulty": "beginner",
+      "duration": "15 min",
+      "tags": ["music", "rhythm", "clapping", "timing"]
+    },
+    {
+      "id": "learn_057",
+      "category": "Music Skills",
+      "title": "Sight Reading Practice",
+      "description": "Read and play new sheet music you've never seen before at slow tempo.",
+      "difficulty": "intermediate",
+      "duration": "30 min",
+      "tags": ["music", "sight-reading", "sheet-music", "reading"]
+    },
+    {
+      "id": "learn_058",
+      "category": "Music Skills",
+      "title": "Song Transcription by Ear",
+      "description": "Listen to a simple song and write down the melody by ear.",
+      "difficulty": "advanced",
+      "duration": "1 hour",
+      "tags": ["music", "transcription", "ear", "melody"]
+    },
+    {
+      "id": "learn_059",
+      "category": "Music Skills",
+      "title": "Dynamic Control Practice",
+      "description": "Practice playing passages at different volumes from pianissimo to fortissimo.",
+      "difficulty": "intermediate",
+      "duration": "20 min",
+      "tags": ["music", "dynamics", "volume", "expression"]
+    },
+    {
+      "id": "learn_060",
+      "category": "Music Skills",
+      "title": "Improvisation Over Backing Track",
+      "description": "Practice improvising melodies over simple chord progression backing tracks.",
+      "difficulty": "intermediate",
+      "duration": "30 min",
+      "tags": ["music", "improvisation", "creativity", "practice"]
+    },
+    {
+      "id": "learn_061",
+      "category": "Coding Basics",
+      "title": "Variables and Data Types",
+      "description": "Learn to declare variables and understand strings, numbers, booleans, and arrays.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["coding", "variables", "data-types", "fundamentals"]
+    },
+    {
+      "id": "learn_062",
+      "category": "Coding Basics",
+      "title": "Conditional Statements",
+      "description": "Master if/else statements and logical operators for decision making.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["coding", "conditionals", "if-else", "logic"]
+    },
+    {
+      "id": "learn_063",
+      "category": "Coding Basics",
+      "title": "Loops: For and While",
+      "description": "Learn to repeat code using for loops, while loops, and forEach.",
+      "difficulty": "beginner",
+      "duration": "45 min",
+      "tags": ["coding", "loops", "iteration", "fundamentals"]
+    },
+    {
+      "id": "learn_064",
+      "category": "Coding Basics",
+      "title": "Functions and Parameters",
+      "description": "Create reusable code blocks with functions, parameters, and return values.",
+      "difficulty": "beginner",
+      "duration": "45 min",
+      "tags": ["coding", "functions", "parameters", "reusability"]
+    },
+    {
+      "id": "learn_065",
+      "category": "Coding Basics",
+      "title": "Array Methods Mastery",
+      "description": "Learn map, filter, reduce, find, and other powerful array methods.",
+      "difficulty": "intermediate",
+      "duration": "1 hour",
+      "tags": ["coding", "arrays", "methods", "javascript"]
+    },
+    {
+      "id": "learn_066",
+      "category": "Coding Basics",
+      "title": "Object-Oriented Concepts",
+      "description": "Understand classes, objects, inheritance, and encapsulation.",
+      "difficulty": "intermediate",
+      "duration": "1.5 hours",
+      "tags": ["coding", "oop", "classes", "objects"]
+    },
+    {
+      "id": "learn_067",
+      "category": "Coding Basics",
+      "title": "Debugging with Console",
+      "description": "Learn to use console.log, breakpoints, and debugging tools effectively.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["coding", "debugging", "console", "tools"]
+    },
+    {
+      "id": "learn_068",
+      "category": "Coding Basics",
+      "title": "API Fetching Basics",
+      "description": "Learn to fetch data from APIs using fetch() and handle JSON responses.",
+      "difficulty": "intermediate",
+      "duration": "1 hour",
+      "tags": ["coding", "api", "fetch", "json"]
+    },
+    {
+      "id": "learn_069",
+      "category": "Coding Basics",
+      "title": "Async/Await Patterns",
+      "description": "Master asynchronous JavaScript with async/await and Promises.",
+      "difficulty": "intermediate",
+      "duration": "1 hour",
+      "tags": ["coding", "async", "promises", "javascript"]
+    },
+    {
+      "id": "learn_070",
+      "category": "Coding Basics",
+      "title": "Version Control with Git",
+      "description": "Learn git add, commit, push, pull, and branching for code management.",
+      "difficulty": "beginner",
+      "duration": "45 min",
+      "tags": ["coding", "git", "version-control", "workflow"]
+    },
+    {
+      "id": "learn_071",
+      "category": "Web Development",
+      "title": "HTML Semantic Elements",
+      "description": "Use header, nav, main, article, section, and footer for meaningful structure.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["web", "html", "semantic", "accessibility"]
+    },
+    {
+      "id": "learn_072",
+      "category": "Web Development",
+      "title": "CSS Flexbox Layout",
+      "description": "Master flexbox for one-dimensional layouts with justify and align properties.",
+      "difficulty": "beginner",
+      "duration": "45 min",
+      "tags": ["web", "css", "flexbox", "layout"]
+    },
+    {
+      "id": "learn_073",
+      "category": "Web Development",
+      "title": "CSS Grid Layout",
+      "description": "Create two-dimensional layouts with CSS Grid rows, columns, and areas.",
+      "difficulty": "intermediate",
+      "duration": "1 hour",
+      "tags": ["web", "css", "grid", "layout"]
+    },
+    {
+      "id": "learn_074",
+      "category": "Web Development",
+      "title": "Responsive Media Queries",
+      "description": "Build responsive designs that adapt to different screen sizes.",
+      "difficulty": "beginner",
+      "duration": "45 min",
+      "tags": ["web", "css", "responsive", "mobile"]
+    },
+    {
+      "id": "learn_075",
+      "category": "Web Development",
+      "title": "React Component Creation",
+      "description": "Build reusable React components with props and state.",
+      "difficulty": "intermediate",
+      "duration": "1 hour",
+      "tags": ["web", "react", "components", "javascript"]
+    },
+    {
+      "id": "learn_076",
+      "category": "Web Development",
+      "title": "React Hooks useState/useEffect",
+      "description": "Manage state and side effects in functional components.",
+      "difficulty": "intermediate",
+      "duration": "1 hour",
+      "tags": ["web", "react", "hooks", "state"]
+    },
+    {
+      "id": "learn_077",
+      "category": "Web Development",
+      "title": "Form Validation Implementation",
+      "description": "Build forms with client-side validation and error handling.",
+      "difficulty": "intermediate",
+      "duration": "1 hour",
+      "tags": ["web", "forms", "validation", "ux"]
+    },
+    {
+      "id": "learn_078",
+      "category": "Web Development",
+      "title": "CSS Animations and Transitions",
+      "description": "Add smooth animations with CSS transitions and keyframe animations.",
+      "difficulty": "intermediate",
+      "duration": "45 min",
+      "tags": ["web", "css", "animations", "ux"]
+    },
+    {
+      "id": "learn_079",
+      "category": "Web Development",
+      "title": "Tailwind CSS Utility Classes",
+      "description": "Build designs quickly using Tailwind's utility-first CSS framework.",
+      "difficulty": "beginner",
+      "duration": "1 hour",
+      "tags": ["web", "tailwind", "css", "styling"]
+    },
+    {
+      "id": "learn_080",
+      "category": "Web Development",
+      "title": "Accessibility Testing",
+      "description": "Test websites for accessibility using screen readers and audit tools.",
+      "difficulty": "intermediate",
+      "duration": "45 min",
+      "tags": ["web", "accessibility", "testing", "a11y"]
+    },
+    {
+      "id": "learn_081",
+      "category": "AI Art Tools",
+      "title": "Prompt Engineering Basics",
+      "description": "Learn to write effective prompts for AI image generators with style, subject, and detail.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["ai-art", "prompts", "midjourney", "stable-diffusion"]
+    },
+    {
+      "id": "learn_082",
+      "category": "AI Art Tools",
+      "title": "Negative Prompts Usage",
+      "description": "Use negative prompts to exclude unwanted elements from AI-generated images.",
+      "difficulty": "beginner",
+      "duration": "20 min",
+      "tags": ["ai-art", "negative-prompts", "refinement", "control"]
+    },
+    {
+      "id": "learn_083",
+      "category": "AI Art Tools",
+      "title": "Style Mixing Techniques",
+      "description": "Combine multiple art styles in prompts for unique aesthetic blends.",
+      "difficulty": "intermediate",
+      "duration": "30 min",
+      "tags": ["ai-art", "styles", "mixing", "creative"]
+    },
+    {
+      "id": "learn_084",
+      "category": "AI Art Tools",
+      "title": "ControlNet Pose Guidance",
+      "description": "Use ControlNet with pose references to guide AI image composition.",
+      "difficulty": "intermediate",
+      "duration": "45 min",
+      "tags": ["ai-art", "controlnet", "poses", "guidance"]
+    },
+    {
+      "id": "learn_085",
+      "category": "AI Art Tools",
+      "title": "Inpainting and Outpainting",
+      "description": "Edit specific parts of images or extend them using AI inpainting.",
+      "difficulty": "intermediate",
+      "duration": "30 min",
+      "tags": ["ai-art", "inpainting", "editing", "extension"]
+    },
+    {
+      "id": "learn_086",
+      "category": "AI Art Tools",
+      "title": "Image-to-Image Variation",
+      "description": "Use existing images as starting points for AI variations and transformations.",
+      "difficulty": "beginner",
+      "duration": "25 min",
+      "tags": ["ai-art", "img2img", "variation", "transformation"]
+    },
+    {
+      "id": "learn_087",
+      "category": "AI Art Tools",
+      "title": "Upscaling AI Generated Art",
+      "description": "Use AI upscalers to increase resolution while preserving detail.",
+      "difficulty": "beginner",
+      "duration": "20 min",
+      "tags": ["ai-art", "upscaling", "resolution", "quality"]
+    },
+    {
+      "id": "learn_088",
+      "category": "AI Art Tools",
+      "title": "Training LoRA Models",
+      "description": "Create custom LoRA models to capture specific styles or characters.",
+      "difficulty": "advanced",
+      "duration": "2 hours",
+      "tags": ["ai-art", "lora", "training", "custom"]
+    },
+    {
+      "id": "learn_089",
+      "category": "AI Art Tools",
+      "title": "ComfyUI Workflow Building",
+      "description": "Build node-based AI art generation workflows in ComfyUI.",
+      "difficulty": "advanced",
+      "duration": "1.5 hours",
+      "tags": ["ai-art", "comfyui", "workflows", "nodes"]
+    },
+    {
+      "id": "learn_090",
+      "category": "AI Art Tools",
+      "title": "Combining AI with Traditional Art",
+      "description": "Use AI-generated elements as references or bases for traditional artwork.",
+      "difficulty": "intermediate",
+      "duration": "1 hour",
+      "tags": ["ai-art", "hybrid", "workflow", "traditional"]
+    },
+    {
+      "id": "learn_091",
+      "category": "Embroidery",
+      "title": "Basic Embroidery Stitches",
+      "description": "Learn running stitch, back stitch, satin stitch, and French knots on fabric.",
+      "difficulty": "beginner",
+      "duration": "1 hour",
+      "tags": ["embroidery", "stitches", "basics", "handwork"]
+    },
+    {
+      "id": "learn_092",
+      "category": "Embroidery",
+      "title": "Hoop Setup and Fabric Tension",
+      "description": "Properly mount fabric in embroidery hoop with correct tension.",
+      "difficulty": "beginner",
+      "duration": "15 min",
+      "tags": ["embroidery", "hoop", "setup", "tension"]
+    },
+    {
+      "id": "learn_093",
+      "category": "Embroidery",
+      "title": "Pattern Transfer Methods",
+      "description": "Learn to transfer embroidery patterns using tracing, iron-on, or lightbox.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["embroidery", "patterns", "transfer", "setup"]
+    },
+    {
+      "id": "learn_094",
+      "category": "Embroidery",
+      "title": "Thread Blending Techniques",
+      "description": "Combine multiple thread colors in needle for gradient effects.",
+      "difficulty": "intermediate",
+      "duration": "45 min",
+      "tags": ["embroidery", "thread", "blending", "color"]
+    },
+    {
+      "id": "learn_095",
+      "category": "Embroidery",
+      "title": "Lettering and Monograms",
+      "description": "Embroider text and decorative letters using split stitch or stem stitch.",
+      "difficulty": "intermediate",
+      "duration": "1 hour",
+      "tags": ["embroidery", "lettering", "monogram", "text"]
+    },
+    {
+      "id": "learn_096",
+      "category": "Crochet",
+      "title": "Chain Stitch Foundation",
+      "description": "Master the chain stitch as the foundation for all crochet projects.",
+      "difficulty": "beginner",
+      "duration": "20 min",
+      "tags": ["crochet", "chain", "basics", "foundation"]
+    },
+    {
+      "id": "learn_097",
+      "category": "Crochet",
+      "title": "Single Crochet Rows",
+      "description": "Work single crochet stitches in rows to create fabric.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["crochet", "single", "rows", "basics"]
+    },
+    {
+      "id": "learn_098",
+      "category": "Crochet",
+      "title": "Double Crochet Stitch",
+      "description": "Learn the taller double crochet stitch for faster project progress.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["crochet", "double", "stitch", "technique"]
+    },
+    {
+      "id": "learn_099",
+      "category": "Crochet",
+      "title": "Reading Crochet Patterns",
+      "description": "Understand crochet abbreviations, stitch counts, and pattern instructions.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["crochet", "patterns", "reading", "abbreviations"]
+    },
+    {
+      "id": "learn_100",
+      "category": "Crochet",
+      "title": "Amigurumi Magic Ring",
+      "description": "Start amigurumi projects with the adjustable magic ring technique.",
+      "difficulty": "intermediate",
+      "duration": "30 min",
+      "tags": ["crochet", "amigurumi", "magic-ring", "technique"]
+    },
+    {
+      "id": "learn_101",
+      "category": "Knitting",
+      "title": "Cast On Methods",
+      "description": "Learn long-tail cast on and knitted cast on for starting projects.",
+      "difficulty": "beginner",
+      "duration": "25 min",
+      "tags": ["knitting", "cast-on", "basics", "start"]
+    },
+    {
+      "id": "learn_102",
+      "category": "Knitting",
+      "title": "Knit Stitch Practice",
+      "description": "Master the basic knit stitch with proper tension and technique.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["knitting", "knit-stitch", "basics", "technique"]
+    },
+    {
+      "id": "learn_103",
+      "category": "Knitting",
+      "title": "Purl Stitch Introduction",
+      "description": "Learn the purl stitch to combine with knit for stockinette and patterns.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["knitting", "purl", "stitch", "basics"]
+    },
+    {
+      "id": "learn_104",
+      "category": "Knitting",
+      "title": "Binding Off Techniques",
+      "description": "Finish projects with standard bind off and stretchy bind off methods.",
+      "difficulty": "beginner",
+      "duration": "20 min",
+      "tags": ["knitting", "bind-off", "finishing", "technique"]
+    },
+    {
+      "id": "learn_105",
+      "category": "Knitting",
+      "title": "Simple Cable Pattern",
+      "description": "Create basic cable patterns using cable needle or cabling without needle.",
+      "difficulty": "intermediate",
+      "duration": "1 hour",
+      "tags": ["knitting", "cables", "pattern", "texture"]
+    },
+    {
+      "id": "learn_106",
+      "category": "Calligraphy",
+      "title": "Basic Strokes Practice",
+      "description": "Practice fundamental strokes - upstrokes, downstrokes, ovals, and curves.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["calligraphy", "strokes", "basics", "practice"]
+    },
+    {
+      "id": "learn_107",
+      "category": "Calligraphy",
+      "title": "Pen Angle and Pressure",
+      "description": "Master consistent pen angle and pressure variation for thick-thin lines.",
+      "difficulty": "beginner",
+      "duration": "25 min",
+      "tags": ["calligraphy", "pen-angle", "pressure", "technique"]
+    },
+    {
+      "id": "learn_108",
+      "category": "Calligraphy",
+      "title": "Lowercase Alphabet Drills",
+      "description": "Practice lowercase letterforms in your chosen calligraphy style.",
+      "difficulty": "beginner",
+      "duration": "45 min",
+      "tags": ["calligraphy", "lowercase", "alphabet", "drills"]
+    },
+    {
+      "id": "learn_109",
+      "category": "Calligraphy",
+      "title": "Uppercase Flourishes",
+      "description": "Add decorative flourishes to capital letters while maintaining balance.",
+      "difficulty": "intermediate",
+      "duration": "1 hour",
+      "tags": ["calligraphy", "flourishes", "uppercase", "decorative"]
+    },
+    {
+      "id": "learn_110",
+      "category": "Calligraphy",
+      "title": "Brush Lettering Basics",
+      "description": "Use brush pens to create modern calligraphy with bounce and flow.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["calligraphy", "brush-lettering", "modern", "pens"]
+    },
+    {
+      "id": "learn_111",
+      "category": "Photography",
+      "title": "Rule of Thirds Composition",
+      "description": "Practice placing subjects at rule of thirds intersections for balanced photos.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["photography", "composition", "rule-of-thirds", "framing"]
+    },
+    {
+      "id": "learn_112",
+      "category": "Photography",
+      "title": "Aperture Priority Mode",
+      "description": "Use aperture priority to control depth of field while camera sets shutter.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["photography", "aperture", "depth-of-field", "camera"]
+    },
+    {
+      "id": "learn_113",
+      "category": "Photography",
+      "title": "Golden Hour Shooting",
+      "description": "Photograph during golden hour for warm, soft, directional lighting.",
+      "difficulty": "beginner",
+      "duration": "1 hour",
+      "tags": ["photography", "lighting", "golden-hour", "outdoor"]
+    },
+    {
+      "id": "learn_114",
+      "category": "Photography",
+      "title": "Leading Lines Technique",
+      "description": "Use natural lines in scenes to guide viewer's eye through the image.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["photography", "composition", "leading-lines", "visual"]
+    },
+    {
+      "id": "learn_115",
+      "category": "Photography",
+      "title": "Basic Photo Editing Workflow",
+      "description": "Learn exposure, contrast, color, and sharpening adjustments in editing.",
+      "difficulty": "beginner",
+      "duration": "45 min",
+      "tags": ["photography", "editing", "workflow", "post-processing"]
+    },
+    {
+      "id": "learn_116",
+      "category": "Sculpting",
+      "title": "Pinch Pot Technique",
+      "description": "Create vessels by pinching and shaping clay from a ball.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["sculpting", "clay", "pinch-pot", "handbuilding"]
+    },
+    {
+      "id": "learn_117",
+      "category": "Sculpting",
+      "title": "Coil Building Method",
+      "description": "Roll coils and stack them to build sculptural forms.",
+      "difficulty": "beginner",
+      "duration": "45 min",
+      "tags": ["sculpting", "clay", "coil", "handbuilding"]
+    },
+    {
+      "id": "learn_118",
+      "category": "Sculpting",
+      "title": "Armature Construction",
+      "description": "Build wire armatures as internal structure for figure sculptures.",
+      "difficulty": "intermediate",
+      "duration": "45 min",
+      "tags": ["sculpting", "armature", "wire", "structure"]
+    },
+    {
+      "id": "learn_119",
+      "category": "Sculpting",
+      "title": "Surface Texturing Tools",
+      "description": "Use sculpting tools to create textures and surface details.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["sculpting", "texture", "tools", "surface"]
+    },
+    {
+      "id": "learn_120",
+      "category": "Sculpting",
+      "title": "Basic Facial Features",
+      "description": "Learn proportions and techniques for sculpting eyes, nose, and mouth.",
+      "difficulty": "intermediate",
+      "duration": "1 hour",
+      "tags": ["sculpting", "face", "features", "anatomy"]
+    },
+    {
+      "id": "learn_121",
+      "category": "Animation Basics",
+      "title": "Squash and Stretch Principle",
+      "description": "Apply squash and stretch to bouncing ball for believable motion.",
+      "difficulty": "beginner",
+      "duration": "45 min",
+      "tags": ["animation", "principles", "squash-stretch", "motion"]
+    },
+    {
+      "id": "learn_122",
+      "category": "Animation Basics",
+      "title": "Timing and Spacing Study",
+      "description": "Understand how frame spacing affects animation speed and weight.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["animation", "timing", "spacing", "motion"]
+    },
+    {
+      "id": "learn_123",
+      "category": "Animation Basics",
+      "title": "Anticipation Before Action",
+      "description": "Add preparatory movements before main actions for natural animation.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["animation", "anticipation", "principles", "motion"]
+    },
+    {
+      "id": "learn_124",
+      "category": "Animation Basics",
+      "title": "Simple Walk Cycle",
+      "description": "Create a basic 8-frame walk cycle with contact and passing poses.",
+      "difficulty": "intermediate",
+      "duration": "2 hours",
+      "tags": ["animation", "walk-cycle", "character", "locomotion"]
+    },
+    {
+      "id": "learn_125",
+      "category": "Animation Basics",
+      "title": "Ease In and Ease Out",
+      "description": "Apply acceleration and deceleration to make movements feel natural.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["animation", "easing", "motion", "natural"]
+    },
+    {
+      "id": "learn_126",
+      "category": "Graphic Design",
+      "title": "Typography Hierarchy",
+      "description": "Create visual hierarchy using type size, weight, and spacing.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["design", "typography", "hierarchy", "layout"]
+    },
+    {
+      "id": "learn_127",
+      "category": "Graphic Design",
+      "title": "Color Palette Creation",
+      "description": "Build cohesive color palettes using color theory and online tools.",
+      "difficulty": "beginner",
+      "duration": "25 min",
+      "tags": ["design", "color", "palette", "theory"]
+    },
+    {
+      "id": "learn_128",
+      "category": "Graphic Design",
+      "title": "White Space Usage",
+      "description": "Use negative space effectively to improve readability and impact.",
+      "difficulty": "beginner",
+      "duration": "20 min",
+      "tags": ["design", "white-space", "layout", "composition"]
+    },
+    {
+      "id": "learn_129",
+      "category": "Graphic Design",
+      "title": "Grid System Layout",
+      "description": "Design layouts using consistent grid systems for alignment and structure.",
+      "difficulty": "intermediate",
+      "duration": "45 min",
+      "tags": ["design", "grid", "layout", "alignment"]
+    },
+    {
+      "id": "learn_130",
+      "category": "Graphic Design",
+      "title": "Icon Design Principles",
+      "description": "Create simple, recognizable icons with consistent style and sizing.",
+      "difficulty": "intermediate",
+      "duration": "1 hour",
+      "tags": ["design", "icons", "vector", "ui"]
+    },
+    {
+      "id": "learn_131",
+      "category": "Creative Writing",
+      "title": "Character Voice Development",
+      "description": "Create distinct voices for characters through dialogue and internal monologue.",
+      "difficulty": "intermediate",
+      "duration": "45 min",
+      "tags": ["writing", "character", "voice", "dialogue"]
+    },
+    {
+      "id": "learn_132",
+      "category": "Creative Writing",
+      "title": "Show Don't Tell Practice",
+      "description": "Rewrite telling statements as scenes that show through action and detail.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["writing", "show-dont-tell", "technique", "description"]
+    },
+    {
+      "id": "learn_133",
+      "category": "Creative Writing",
+      "title": "Dialogue Punctuation Rules",
+      "description": "Master quotation marks, dialogue tags, and proper formatting.",
+      "difficulty": "beginner",
+      "duration": "25 min",
+      "tags": ["writing", "dialogue", "punctuation", "formatting"]
+    },
+    {
+      "id": "learn_134",
+      "category": "Creative Writing",
+      "title": "Three-Act Structure Planning",
+      "description": "Outline stories using setup, confrontation, and resolution structure.",
+      "difficulty": "beginner",
+      "duration": "45 min",
+      "tags": ["writing", "structure", "plot", "planning"]
+    },
+    {
+      "id": "learn_135",
+      "category": "Creative Writing",
+      "title": "Sensory Description Exercise",
+      "description": "Describe a scene using all five senses for immersive writing.",
+      "difficulty": "beginner",
+      "duration": "25 min",
+      "tags": ["writing", "sensory", "description", "immersion"]
+    },
+    {
+      "id": "learn_136",
+      "category": "Jewelry Making",
+      "title": "Wire Wrapping Basics",
+      "description": "Learn simple wire wraps to create loops and secure beads.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["jewelry", "wire", "wrapping", "basics"]
+    },
+    {
+      "id": "learn_137",
+      "category": "Jewelry Making",
+      "title": "Beading Patterns",
+      "description": "Create beaded jewelry using stringing and pattern techniques.",
+      "difficulty": "beginner",
+      "duration": "45 min",
+      "tags": ["jewelry", "beading", "patterns", "stringing"]
+    },
+    {
+      "id": "learn_138",
+      "category": "Jewelry Making",
+      "title": "Clasp Attachment Methods",
+      "description": "Learn to attach lobster clasps, toggle clasps, and magnetic closures.",
+      "difficulty": "beginner",
+      "duration": "20 min",
+      "tags": ["jewelry", "clasps", "attachment", "finishing"]
+    },
+    {
+      "id": "learn_139",
+      "category": "Jewelry Making",
+      "title": "Resin Jewelry Creation",
+      "description": "Pour and cure resin pieces with embedded flowers or glitter.",
+      "difficulty": "intermediate",
+      "duration": "2 hours",
+      "tags": ["jewelry", "resin", "casting", "embedded"]
+    },
+    {
+      "id": "learn_140",
+      "category": "Jewelry Making",
+      "title": "Metal Stamping Technique",
+      "description": "Stamp letters and designs into metal blanks for personalized jewelry.",
+      "difficulty": "intermediate",
+      "duration": "45 min",
+      "tags": ["jewelry", "metal", "stamping", "personalized"]
+    },
+    {
+      "id": "learn_141",
+      "category": "Paper Crafts",
+      "title": "Origami Basic Folds",
+      "description": "Master valley fold, mountain fold, and basic origami bases.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["paper", "origami", "folding", "basics"]
+    },
+    {
+      "id": "learn_142",
+      "category": "Paper Crafts",
+      "title": "Paper Quilling Coils",
+      "description": "Roll paper strips into coils and shapes for decorative designs.",
+      "difficulty": "beginner",
+      "duration": "45 min",
+      "tags": ["paper", "quilling", "coils", "decorative"]
+    },
+    {
+      "id": "learn_143",
+      "category": "Paper Crafts",
+      "title": "Pop-Up Card Mechanisms",
+      "description": "Create simple pop-up mechanisms for 3D greeting cards.",
+      "difficulty": "intermediate",
+      "duration": "1 hour",
+      "tags": ["paper", "pop-up", "cards", "3d"]
+    },
+    {
+      "id": "learn_144",
+      "category": "Paper Crafts",
+      "title": "Bookbinding Japanese Stab",
+      "description": "Bind pages using decorative Japanese stab binding technique.",
+      "difficulty": "intermediate",
+      "duration": "1 hour",
+      "tags": ["paper", "bookbinding", "japanese", "handmade"]
+    },
+    {
+      "id": "learn_145",
+      "category": "Paper Crafts",
+      "title": "Papier-Mâché Sculpture",
+      "description": "Create sculptures using paper strips and paste over armatures.",
+      "difficulty": "beginner",
+      "duration": "2 hours",
+      "tags": ["paper", "papier-mache", "sculpture", "mixed-media"]
+    },
+    {
+      "id": "learn_146",
+      "category": "Print Making",
+      "title": "Linocut Carving Basics",
+      "description": "Carve simple designs into linoleum blocks for relief printing.",
+      "difficulty": "intermediate",
+      "duration": "1.5 hours",
+      "tags": ["printmaking", "linocut", "carving", "relief"]
+    },
+    {
+      "id": "learn_147",
+      "category": "Print Making",
+      "title": "Monoprint Techniques",
+      "description": "Create one-of-a-kind prints using ink on smooth surfaces.",
+      "difficulty": "beginner",
+      "duration": "45 min",
+      "tags": ["printmaking", "monoprint", "unique", "ink"]
+    },
+    {
+      "id": "learn_148",
+      "category": "Print Making",
+      "title": "Gel Plate Printing",
+      "description": "Use gel printing plates for layered, textured prints.",
+      "difficulty": "beginner",
+      "duration": "1 hour",
+      "tags": ["printmaking", "gel-plate", "layers", "texture"]
+    },
+    {
+      "id": "learn_149",
+      "category": "Print Making",
+      "title": "Screen Printing Basics",
+      "description": "Set up simple screen prints with photo emulsion or drawing fluid.",
+      "difficulty": "intermediate",
+      "duration": "2 hours",
+      "tags": ["printmaking", "screen-print", "silkscreen", "fabric"]
+    },
+    {
+      "id": "learn_150",
+      "category": "Print Making",
+      "title": "Collagraph Plate Making",
+      "description": "Create printing plates from textured materials glued to cardboard.",
+      "difficulty": "intermediate",
+      "duration": "1.5 hours",
+      "tags": ["printmaking", "collagraph", "texture", "collage"]
+    },
+    {
+      "id": "learn_151",
+      "category": "Digital Music Production",
+      "title": "DAW Navigation Basics",
+      "description": "Learn to navigate your digital audio workstation's interface and tools.",
+      "difficulty": "beginner",
+      "duration": "45 min",
+      "tags": ["music-production", "daw", "basics", "software"]
+    },
+    {
+      "id": "learn_152",
+      "category": "Digital Music Production",
+      "title": "MIDI Recording and Editing",
+      "description": "Record MIDI performances and edit notes in piano roll view.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["music-production", "midi", "recording", "editing"]
+    },
+    {
+      "id": "learn_153",
+      "category": "Digital Music Production",
+      "title": "Basic EQ Techniques",
+      "description": "Use EQ to shape frequencies and clean up audio tracks.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["music-production", "eq", "mixing", "frequencies"]
+    },
+    {
+      "id": "learn_154",
+      "category": "Digital Music Production",
+      "title": "Compression Fundamentals",
+      "description": "Apply compression to control dynamics and add punch to tracks.",
+      "difficulty": "intermediate",
+      "duration": "45 min",
+      "tags": ["music-production", "compression", "dynamics", "mixing"]
+    },
+    {
+      "id": "learn_155",
+      "category": "Digital Music Production",
+      "title": "Beat Making with Drums",
+      "description": "Program drum patterns using samples or drum machines.",
+      "difficulty": "beginner",
+      "duration": "1 hour",
+      "tags": ["music-production", "drums", "beats", "rhythm"]
+    },
+    {
+      "id": "learn_156",
+      "category": "3D Modeling",
+      "title": "Blender Interface Navigation",
+      "description": "Learn Blender's viewport navigation, selection, and basic tools.",
+      "difficulty": "beginner",
+      "duration": "45 min",
+      "tags": ["3d", "blender", "interface", "navigation"]
+    },
+    {
+      "id": "learn_157",
+      "category": "3D Modeling",
+      "title": "Box Modeling Technique",
+      "description": "Start from a cube and extrude, scale, move vertices to create shapes.",
+      "difficulty": "beginner",
+      "duration": "1 hour",
+      "tags": ["3d", "modeling", "box-modeling", "technique"]
+    },
+    {
+      "id": "learn_158",
+      "category": "3D Modeling",
+      "title": "UV Unwrapping Basics",
+      "description": "Unwrap 3D models for texture application with minimal distortion.",
+      "difficulty": "intermediate",
+      "duration": "1 hour",
+      "tags": ["3d", "uv", "unwrapping", "texturing"]
+    },
+    {
+      "id": "learn_159",
+      "category": "3D Modeling",
+      "title": "Basic Material Creation",
+      "description": "Create and apply materials with color, roughness, and metallic properties.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["3d", "materials", "shading", "rendering"]
+    },
+    {
+      "id": "learn_160",
+      "category": "3D Modeling",
+      "title": "Simple Rigging for Animation",
+      "description": "Add armature bones to a model for basic animation capability.",
+      "difficulty": "intermediate",
+      "duration": "1.5 hours",
+      "tags": ["3d", "rigging", "armature", "animation"]
+    },
+    {
+      "id": "learn_161",
+      "category": "Woodworking",
+      "title": "Hand Tool Safety",
+      "description": "Learn proper handling and safety for chisels, saws, and planes.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["woodworking", "safety", "hand-tools", "basics"]
+    },
+    {
+      "id": "learn_162",
+      "category": "Woodworking",
+      "title": "Basic Joinery: Butt Joint",
+      "description": "Create simple butt joints with glue and reinforcement options.",
+      "difficulty": "beginner",
+      "duration": "45 min",
+      "tags": ["woodworking", "joinery", "butt-joint", "construction"]
+    },
+    {
+      "id": "learn_163",
+      "category": "Woodworking",
+      "title": "Measuring and Marking",
+      "description": "Use squares, rulers, and marking gauges for accurate layouts.",
+      "difficulty": "beginner",
+      "duration": "25 min",
+      "tags": ["woodworking", "measuring", "marking", "accuracy"]
+    },
+    {
+      "id": "learn_164",
+      "category": "Woodworking",
+      "title": "Sanding and Finishing",
+      "description": "Progress through grits and apply basic finishes like oil or wax.",
+      "difficulty": "beginner",
+      "duration": "45 min",
+      "tags": ["woodworking", "sanding", "finishing", "surface"]
+    },
+    {
+      "id": "learn_165",
+      "category": "Woodworking",
+      "title": "Wood Burning Pyrography",
+      "description": "Use pyrography pen to burn designs into wood surfaces.",
+      "difficulty": "intermediate",
+      "duration": "1 hour",
+      "tags": ["woodworking", "pyrography", "burning", "decorative"]
+    },
+    {
+      "id": "learn_166",
+      "category": "Glass Art",
+      "title": "Glass Painting Technique",
+      "description": "Apply specialized glass paints for stained glass effects.",
+      "difficulty": "beginner",
+      "duration": "1 hour",
+      "tags": ["glass", "painting", "decorative", "technique"]
+    },
+    {
+      "id": "learn_167",
+      "category": "Glass Art",
+      "title": "Glass Cutting Basics",
+      "description": "Score and break glass safely for mosaic and stained glass work.",
+      "difficulty": "intermediate",
+      "duration": "1 hour",
+      "tags": ["glass", "cutting", "scoring", "safety"]
+    },
+    {
+      "id": "learn_168",
+      "category": "Glass Art",
+      "title": "Copper Foil Method",
+      "description": "Wrap glass pieces with copper foil for Tiffany-style stained glass.",
+      "difficulty": "intermediate",
+      "duration": "1.5 hours",
+      "tags": ["glass", "copper-foil", "stained-glass", "tiffany"]
+    },
+    {
+      "id": "learn_169",
+      "category": "Glass Art",
+      "title": "Fused Glass Basics",
+      "description": "Layer glass pieces and fuse in kiln for decorative tiles.",
+      "difficulty": "intermediate",
+      "duration": "2 hours",
+      "tags": ["glass", "fusing", "kiln", "layering"]
+    },
+    {
+      "id": "learn_170",
+      "category": "Glass Art",
+      "title": "Sea Glass Jewelry",
+      "description": "Wire wrap and set sea glass pieces in jewelry designs.",
+      "difficulty": "beginner",
+      "duration": "45 min",
+      "tags": ["glass", "sea-glass", "jewelry", "wire-wrap"]
+    },
+    {
+      "id": "learn_171",
+      "category": "Textile Arts",
+      "title": "Basic Weaving on Frame Loom",
+      "description": "Set up warp and weave simple patterns on a frame loom.",
+      "difficulty": "beginner",
+      "duration": "1.5 hours",
+      "tags": ["textile", "weaving", "frame-loom", "basics"]
+    },
+    {
+      "id": "learn_172",
+      "category": "Textile Arts",
+      "title": "Natural Fabric Dyeing",
+      "description": "Dye fabrics using natural materials like onion skins, avocado pits, or berries.",
+      "difficulty": "intermediate",
+      "duration": "3 hours",
+      "tags": ["textile", "dyeing", "natural", "eco-friendly"]
+    },
+    {
+      "id": "learn_173",
+      "category": "Textile Arts",
+      "title": "Tie-Dye Techniques",
+      "description": "Create spirals, stripes, and crumple patterns with tie-dye.",
+      "difficulty": "beginner",
+      "duration": "2 hours",
+      "tags": ["textile", "tie-dye", "patterns", "colorful"]
+    },
+    {
+      "id": "learn_174",
+      "category": "Textile Arts",
+      "title": "Macramé Knots",
+      "description": "Learn square knot, spiral knot, and half hitch for macramé projects.",
+      "difficulty": "beginner",
+      "duration": "45 min",
+      "tags": ["textile", "macrame", "knots", "fiber"]
+    },
+    {
+      "id": "learn_175",
+      "category": "Textile Arts",
+      "title": "Felting with Needle",
+      "description": "Sculpt wool roving into shapes using felting needles.",
+      "difficulty": "beginner",
+      "duration": "1 hour",
+      "tags": ["textile", "felting", "needle", "wool"]
+    },
+    {
+      "id": "learn_176",
+      "category": "Game Development",
+      "title": "Game Loop Concept",
+      "description": "Understand the input-update-render cycle that drives games.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["gamedev", "programming", "loop", "concept"]
+    },
+    {
+      "id": "learn_177",
+      "category": "Game Development",
+      "title": "Sprite Animation Setup",
+      "description": "Create and implement sprite sheet animations for characters.",
+      "difficulty": "beginner",
+      "duration": "45 min",
+      "tags": ["gamedev", "sprites", "animation", "2d"]
+    },
+    {
+      "id": "learn_178",
+      "category": "Game Development",
+      "title": "Collision Detection Basics",
+      "description": "Implement basic rectangle and circle collision detection.",
+      "difficulty": "intermediate",
+      "duration": "1 hour",
+      "tags": ["gamedev", "collision", "physics", "programming"]
+    },
+    {
+      "id": "learn_179",
+      "category": "Game Development",
+      "title": "Simple State Machine",
+      "description": "Create state machines for game states and character behavior.",
+      "difficulty": "intermediate",
+      "duration": "1 hour",
+      "tags": ["gamedev", "state-machine", "logic", "patterns"]
+    },
+    {
+      "id": "learn_180",
+      "category": "Game Development",
+      "title": "Tile-Based Level Design",
+      "description": "Build levels using tile maps and tileset graphics.",
+      "difficulty": "beginner",
+      "duration": "1 hour",
+      "tags": ["gamedev", "tiles", "level-design", "2d"]
+    },
+    {
+      "id": "learn_181",
+      "category": "Mobile App Development",
+      "title": "React Native Components",
+      "description": "Build mobile UIs using View, Text, Image, and ScrollView components.",
+      "difficulty": "beginner",
+      "duration": "1 hour",
+      "tags": ["mobile", "react-native", "components", "ui"]
+    },
+    {
+      "id": "learn_182",
+      "category": "Mobile App Development",
+      "title": "Touch Handling",
+      "description": "Implement touch events and gestures for mobile interactions.",
+      "difficulty": "intermediate",
+      "duration": "45 min",
+      "tags": ["mobile", "touch", "gestures", "input"]
+    },
+    {
+      "id": "learn_183",
+      "category": "Mobile App Development",
+      "title": "Navigation Patterns",
+      "description": "Implement stack, tab, and drawer navigation in mobile apps.",
+      "difficulty": "intermediate",
+      "duration": "1 hour",
+      "tags": ["mobile", "navigation", "routing", "patterns"]
+    },
+    {
+      "id": "learn_184",
+      "category": "Mobile App Development",
+      "title": "Local Storage with AsyncStorage",
+      "description": "Store and retrieve data locally using AsyncStorage.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["mobile", "storage", "asyncstorage", "data"]
+    },
+    {
+      "id": "learn_185",
+      "category": "Mobile App Development",
+      "title": "Push Notifications Setup",
+      "description": "Configure and handle push notifications in mobile apps.",
+      "difficulty": "intermediate",
+      "duration": "1 hour",
+      "tags": ["mobile", "notifications", "push", "engagement"]
+    },
+    {
+      "id": "learn_186",
+      "category": "Data Science",
+      "title": "Pandas DataFrame Basics",
+      "description": "Load, explore, and manipulate data using pandas DataFrames.",
+      "difficulty": "beginner",
+      "duration": "1 hour",
+      "tags": ["data-science", "pandas", "python", "analysis"]
+    },
+    {
+      "id": "learn_187",
+      "category": "Data Science",
+      "title": "Data Visualization with Matplotlib",
+      "description": "Create line plots, bar charts, and scatter plots with matplotlib.",
+      "difficulty": "beginner",
+      "duration": "45 min",
+      "tags": ["data-science", "visualization", "matplotlib", "charts"]
+    },
+    {
+      "id": "learn_188",
+      "category": "Data Science",
+      "title": "Data Cleaning Techniques",
+      "description": "Handle missing values, duplicates, and data type conversions.",
+      "difficulty": "intermediate",
+      "duration": "1 hour",
+      "tags": ["data-science", "cleaning", "preprocessing", "quality"]
+    },
+    {
+      "id": "learn_189",
+      "category": "Data Science",
+      "title": "Basic Statistical Analysis",
+      "description": "Calculate mean, median, standard deviation, and correlations.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["data-science", "statistics", "analysis", "math"]
+    },
+    {
+      "id": "learn_190",
+      "category": "Data Science",
+      "title": "Machine Learning with Scikit-learn",
+      "description": "Train a simple classification model using scikit-learn.",
+      "difficulty": "intermediate",
+      "duration": "1.5 hours",
+      "tags": ["data-science", "ml", "scikit-learn", "classification"]
+    },
+    {
+      "id": "learn_191",
+      "category": "UI/UX Design",
+      "title": "User Persona Creation",
+      "description": "Develop detailed user personas based on research and assumptions.",
+      "difficulty": "beginner",
+      "duration": "45 min",
+      "tags": ["ux", "personas", "research", "users"]
+    },
+    {
+      "id": "learn_192",
+      "category": "UI/UX Design",
+      "title": "Wireframing Fundamentals",
+      "description": "Create low-fidelity wireframes to plan screen layouts.",
+      "difficulty": "beginner",
+      "duration": "30 min",
+      "tags": ["ux", "wireframes", "planning", "layout"]
+    },
+    {
+      "id": "learn_193",
+      "category": "UI/UX Design",
+      "title": "Prototyping Interactions",
+      "description": "Build interactive prototypes with click-through flows.",
+      "difficulty": "intermediate",
+      "duration": "1 hour",
+      "tags": ["ux", "prototyping", "interactions", "testing"]
+    },
+    {
+      "id": "learn_194",
+      "category": "UI/UX Design",
+      "title": "Usability Testing Basics",
+      "description": "Plan and conduct simple usability tests with real users.",
+      "difficulty": "intermediate",
+      "duration": "2 hours",
+      "tags": ["ux", "usability", "testing", "feedback"]
+    },
+    {
+      "id": "learn_195",
+      "category": "UI/UX Design",
+      "title": "Design System Components",
+      "description": "Create reusable UI components for consistent design systems.",
+      "difficulty": "intermediate",
+      "duration": "1.5 hours",
+      "tags": ["ui", "design-system", "components", "consistency"]
+    },
+    {
+      "id": "learn_196",
+      "category": "Mixed Media Art",
+      "title": "Collage Composition",
+      "description": "Combine paper, photos, and found materials into cohesive artwork.",
+      "difficulty": "beginner",
+      "duration": "1 hour",
+      "tags": ["mixed-media", "collage", "composition", "found-materials"]
+    },
+    {
+      "id": "learn_197",
+      "category": "Mixed Media Art",
+      "title": "Texture Paste Application",
+      "description": "Apply modeling paste and gesso for dimensional texture.",
+      "difficulty": "intermediate",
+      "duration": "45 min",
+      "tags": ["mixed-media", "texture", "paste", "dimensional"]
+    },
+    {
+      "id": "learn_198",
+      "category": "Mixed Media Art",
+      "title": "Image Transfer Techniques",
+      "description": "Transfer printed images to canvas or wood using gel medium.",
+      "difficulty": "intermediate",
+      "duration": "1 hour",
+      "tags": ["mixed-media", "transfer", "gel-medium", "technique"]
+    },
+    {
+      "id": "learn_199",
+      "category": "Mixed Media Art",
+      "title": "Layering Paint and Paper",
+      "description": "Build up layers of paint and paper for rich, complex surfaces.",
+      "difficulty": "beginner",
+      "duration": "1 hour",
+      "tags": ["mixed-media", "layering", "paint", "depth"]
+    },
+    {
+      "id": "learn_200",
+      "category": "Mixed Media Art",
+      "title": "Found Object Assemblage",
+      "description": "Create 3D artwork by assembling found objects and materials.",
+      "difficulty": "intermediate",
+      "duration": "2 hours",
+      "tags": ["mixed-media", "assemblage", "3d", "sculpture"]
+    }
+  ]
+}

@@ -1,0 +1,908 @@
+{
+  "module": "Sleep Ideas",
+  "version": "1.0",
+  "generated_at": "2025-12-24",
+  "total_ideas": 100,
+  "items": [
+    {
+      "id": "sleep_001",
+      "category": "Wind Down Routine",
+      "title": "90-Minute Screen-Free Zone",
+      "description": "Turn off all screens 90 minutes before bed. Blue light suppresses melatonin production. Read, journal, or do gentle stretching instead.",
+      "energy_level": "low",
+      "difficulty": "medium",
+      "tags": ["screen-free", "routine", "melatonin"]
+    },
+    {
+      "id": "sleep_002",
+      "category": "Wind Down Routine",
+      "title": "Warm Bath or Shower",
+      "description": "Take a warm bath 1-2 hours before bed. The drop in body temperature afterward signals to your brain it's time to sleep.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["bath", "temperature", "relaxation"]
+    },
+    {
+      "id": "sleep_003",
+      "category": "Wind Down Routine",
+      "title": "Dim Lights Gradually",
+      "description": "Start dimming household lights 2 hours before bed. Use warm-toned bulbs or candles to signal sunset to your circadian rhythm.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["lighting", "circadian", "routine"]
+    },
+    {
+      "id": "sleep_004",
+      "category": "Wind Down Routine",
+      "title": "Sleepy Time Tea Ritual",
+      "description": "Brew chamomile, valerian root, or lavender tea 1 hour before bed. The ritual itself signals wind-down time.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["tea", "herbal", "ritual"]
+    },
+    {
+      "id": "sleep_005",
+      "category": "Wind Down Routine",
+      "title": "Worry Journal Dump",
+      "description": "Spend 10 minutes writing down worries and tomorrow's to-dos. Getting thoughts out of your head reduces racing mind at bedtime.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["journaling", "anxiety", "mental-clearing"]
+    },
+    {
+      "id": "sleep_006",
+      "category": "Sleep Environment",
+      "title": "Cool Room Temperature",
+      "description": "Set bedroom to 65-68°F (18-20°C). Cool temperatures help trigger the natural drop in body temp needed for sleep.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["temperature", "environment", "thermostat"]
+    },
+    {
+      "id": "sleep_007",
+      "category": "Sleep Environment",
+      "title": "Blackout Curtains",
+      "description": "Install blackout curtains or use a sleep mask. Complete darkness optimizes melatonin production throughout the night.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["darkness", "melatonin", "curtains"]
+    },
+    {
+      "id": "sleep_008",
+      "category": "Sleep Environment",
+      "title": "White Noise Machine",
+      "description": "Use white, pink, or brown noise to mask disruptive sounds. Consistent sound helps the brain tune out disturbances.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["noise", "sound", "consistency"]
+    },
+    {
+      "id": "sleep_009",
+      "category": "Sleep Environment",
+      "title": "Lavender Pillow Spray",
+      "description": "Spritz lavender essential oil spray on pillows. Lavender has been shown to decrease heart rate and blood pressure.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["aromatherapy", "lavender", "relaxation"]
+    },
+    {
+      "id": "sleep_010",
+      "category": "Sleep Environment",
+      "title": "Declutter Bedroom",
+      "description": "Keep bedroom tidy and free of work materials. A clutter-free space reduces mental stimulation and anxiety.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["organization", "environment", "calm"]
+    },
+    {
+      "id": "sleep_011",
+      "category": "Sleep Environment",
+      "title": "Weighted Blanket",
+      "description": "Use a weighted blanket (8-12% of body weight). Deep pressure stimulation can increase serotonin and melatonin.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["pressure", "weighted", "comfort"]
+    },
+    {
+      "id": "sleep_012",
+      "category": "Sleep Environment",
+      "title": "Mattress Refresh",
+      "description": "Rotate mattress seasonally, replace every 7-10 years. A supportive mattress reduces pain and improves sleep quality.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["mattress", "comfort", "maintenance"]
+    },
+    {
+      "id": "sleep_013",
+      "category": "Sleep Environment",
+      "title": "Pillow Stack Check",
+      "description": "Ensure proper neck alignment with the right pillow height. Side sleepers need thicker, back sleepers thinner pillows.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["pillow", "posture", "alignment"]
+    },
+    {
+      "id": "sleep_014",
+      "category": "Sleep Environment",
+      "title": "Remove Electronics",
+      "description": "Keep phones and tablets outside the bedroom or face-down. LED lights can disrupt sleep even through closed eyelids.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["electronics", "light", "distraction"]
+    },
+    {
+      "id": "sleep_015",
+      "category": "Sleep Environment",
+      "title": "Bedroom for Sleep Only",
+      "description": "Avoid working, watching TV, or eating in bed. Train your brain to associate the bed exclusively with sleep.",
+      "energy_level": "low",
+      "difficulty": "medium",
+      "tags": ["association", "conditioning", "habits"]
+    },
+    {
+      "id": "sleep_016",
+      "category": "Relaxation Techniques",
+      "title": "4-7-8 Breathing",
+      "description": "Inhale 4 seconds, hold 7 seconds, exhale 8 seconds. This activates the parasympathetic nervous system.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["breathing", "relaxation", "technique"]
+    },
+    {
+      "id": "sleep_017",
+      "category": "Relaxation Techniques",
+      "title": "Progressive Muscle Relaxation",
+      "description": "Tense and release each muscle group from toes to head. Takes 10-15 minutes and deeply relaxes the body.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["muscles", "tension", "release"]
+    },
+    {
+      "id": "sleep_018",
+      "category": "Relaxation Techniques",
+      "title": "Body Scan Meditation",
+      "description": "Slowly move attention from head to toe, noticing sensations without judgment. Promotes body awareness and calm.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["meditation", "awareness", "body"]
+    },
+    {
+      "id": "sleep_019",
+      "category": "Relaxation Techniques",
+      "title": "Yoga Nidra",
+      "description": "Guided 'yogic sleep' meditation. Lie still while a recording guides you through deep relaxation states.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["yoga", "guided", "deep-relaxation"]
+    },
+    {
+      "id": "sleep_020",
+      "category": "Relaxation Techniques",
+      "title": "Visualization Journey",
+      "description": "Imagine a peaceful place in detail - sounds, smells, textures. This redirects the brain from worries.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["visualization", "imagination", "calm"]
+    },
+    {
+      "id": "sleep_021",
+      "category": "Relaxation Techniques",
+      "title": "Sleep Stories",
+      "description": "Listen to calm, monotone bedtime stories designed for adults. Apps like Calm and Headspace offer many options.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["stories", "audio", "apps"]
+    },
+    {
+      "id": "sleep_022",
+      "category": "Relaxation Techniques",
+      "title": "ASMR for Sleep",
+      "description": "Find ASMR triggers that relax you - whispers, tapping, brushing sounds. Many find these deeply sleep-inducing.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["asmr", "sounds", "triggers"]
+    },
+    {
+      "id": "sleep_023",
+      "category": "Relaxation Techniques",
+      "title": "Humming Bee Breath",
+      "description": "Close ears, inhale deeply, exhale with humming sound. The vibration calms the nervous system.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["breathing", "humming", "vibration"]
+    },
+    {
+      "id": "sleep_024",
+      "category": "Relaxation Techniques",
+      "title": "Legs Up the Wall",
+      "description": "Lie with legs vertical against wall for 5-10 minutes. Promotes circulation and calms the nervous system.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["yoga", "circulation", "relaxation"]
+    },
+    {
+      "id": "sleep_025",
+      "category": "Relaxation Techniques",
+      "title": "Self-Massage",
+      "description": "Gently massage temples, jaw, neck, and shoulders. Release tension held from the day.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["massage", "tension", "self-care"]
+    },
+    {
+      "id": "sleep_026",
+      "category": "Sleep Schedule",
+      "title": "Consistent Wake Time",
+      "description": "Wake at the same time every day, even weekends. This is the most important factor for sleep regulation.",
+      "energy_level": "medium",
+      "difficulty": "hard",
+      "tags": ["schedule", "consistency", "circadian"]
+    },
+    {
+      "id": "sleep_027",
+      "category": "Sleep Schedule",
+      "title": "Morning Light Exposure",
+      "description": "Get 10-30 minutes of bright light within 1 hour of waking. This sets your circadian clock for the day.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["light", "morning", "circadian"]
+    },
+    {
+      "id": "sleep_028",
+      "category": "Sleep Schedule",
+      "title": "No Naps After 3pm",
+      "description": "If you nap, keep it before 3pm and under 20 minutes. Late naps steal from nighttime sleep pressure.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["naps", "timing", "sleep-pressure"]
+    },
+    {
+      "id": "sleep_029",
+      "category": "Sleep Schedule",
+      "title": "Sleep Window Method",
+      "description": "Calculate your ideal sleep window (usually 7-9 hours) and stick to it. Quality over quantity.",
+      "energy_level": "low",
+      "difficulty": "medium",
+      "tags": ["schedule", "duration", "consistency"]
+    },
+    {
+      "id": "sleep_030",
+      "category": "Sleep Schedule",
+      "title": "Gradual Bedtime Shift",
+      "description": "Shift bedtime by 15 minutes every few days. Gradual changes are more sustainable than dramatic ones.",
+      "energy_level": "low",
+      "difficulty": "medium",
+      "tags": ["adjustment", "gradual", "timing"]
+    },
+    {
+      "id": "sleep_031",
+      "category": "Nutrition for Sleep",
+      "title": "Tryptophan-Rich Dinner",
+      "description": "Include turkey, eggs, cheese, nuts, or seeds at dinner. Tryptophan is a precursor to melatonin.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["nutrition", "tryptophan", "dinner"]
+    },
+    {
+      "id": "sleep_032",
+      "category": "Nutrition for Sleep",
+      "title": "Limit Caffeine After 2pm",
+      "description": "Caffeine has a 6-8 hour half-life. Afternoon coffee can still be in your system at bedtime.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["caffeine", "timing", "stimulants"]
+    },
+    {
+      "id": "sleep_033",
+      "category": "Nutrition for Sleep",
+      "title": "Avoid Heavy Late Meals",
+      "description": "Finish eating 2-3 hours before bed. Digestion can interfere with sleep quality.",
+      "energy_level": "low",
+      "difficulty": "medium",
+      "tags": ["eating", "timing", "digestion"]
+    },
+    {
+      "id": "sleep_034",
+      "category": "Nutrition for Sleep",
+      "title": "Magnesium-Rich Snack",
+      "description": "Try banana, almonds, or pumpkin seeds before bed. Magnesium supports muscle relaxation and GABA production.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["magnesium", "snack", "relaxation"]
+    },
+    {
+      "id": "sleep_035",
+      "category": "Nutrition for Sleep",
+      "title": "Tart Cherry Juice",
+      "description": "Drink 8oz tart cherry juice 1-2 hours before bed. Natural source of melatonin and anti-inflammatory compounds.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["cherry", "melatonin", "natural"]
+    },
+    {
+      "id": "sleep_036",
+      "category": "Nutrition for Sleep",
+      "title": "Limit Alcohol",
+      "description": "Alcohol may help you fall asleep but disrupts REM sleep. Avoid within 3 hours of bedtime.",
+      "energy_level": "low",
+      "difficulty": "medium",
+      "tags": ["alcohol", "REM", "sleep-quality"]
+    },
+    {
+      "id": "sleep_037",
+      "category": "Nutrition for Sleep",
+      "title": "Hydration Balance",
+      "description": "Stay hydrated during day but limit fluids 2 hours before bed to reduce nighttime bathroom trips.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["hydration", "bathroom", "timing"]
+    },
+    {
+      "id": "sleep_038",
+      "category": "Nutrition for Sleep",
+      "title": "Golden Milk",
+      "description": "Warm milk with turmeric, ginger, and honey. Anti-inflammatory and sleep-promoting traditional remedy.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["turmeric", "milk", "traditional"]
+    },
+    {
+      "id": "sleep_039",
+      "category": "Nutrition for Sleep",
+      "title": "Kiwi Before Bed",
+      "description": "Eat 2 kiwis 1 hour before sleep. Studies show improved sleep onset and duration.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["kiwi", "fruit", "research-backed"]
+    },
+    {
+      "id": "sleep_040",
+      "category": "Nutrition for Sleep",
+      "title": "Avoid Spicy Foods",
+      "description": "Spicy foods can cause heartburn and raise body temperature, both disruptive to sleep.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["spicy", "heartburn", "temperature"]
+    },
+    {
+      "id": "sleep_041",
+      "category": "Exercise & Sleep",
+      "title": "Morning Exercise",
+      "description": "Exercise in the morning for best sleep benefits. Morning workouts enhance circadian rhythm.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["exercise", "morning", "circadian"]
+    },
+    {
+      "id": "sleep_042",
+      "category": "Exercise & Sleep",
+      "title": "Finish Workouts Early",
+      "description": "Complete vigorous exercise at least 4-6 hours before bed. Exercise raises body temp and alertness.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["timing", "workout", "temperature"]
+    },
+    {
+      "id": "sleep_043",
+      "category": "Exercise & Sleep",
+      "title": "Evening Yoga",
+      "description": "Gentle yoga in the evening promotes relaxation. Focus on forward folds, twists, and restorative poses.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["yoga", "gentle", "evening"]
+    },
+    {
+      "id": "sleep_044",
+      "category": "Exercise & Sleep",
+      "title": "Daily Movement Minimum",
+      "description": "Aim for at least 30 minutes of movement daily. Regular exercise improves sleep quality over time.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["movement", "daily", "consistency"]
+    },
+    {
+      "id": "sleep_045",
+      "category": "Exercise & Sleep",
+      "title": "Evening Walk",
+      "description": "Take a gentle 15-20 minute walk after dinner. Aids digestion and provides light movement.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["walking", "evening", "digestion"]
+    },
+    {
+      "id": "sleep_046",
+      "category": "Cognitive Techniques",
+      "title": "Worry Time Earlier",
+      "description": "Schedule 15 minutes of 'worry time' in the afternoon. Write worries down then close the notebook.",
+      "energy_level": "low",
+      "difficulty": "medium",
+      "tags": ["worry", "scheduling", "containment"]
+    },
+    {
+      "id": "sleep_047",
+      "category": "Cognitive Techniques",
+      "title": "Cognitive Shuffle",
+      "description": "Think of random unconnected images (apple, mountain, bicycle). Prevents the brain from forming anxious narratives.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["cognitive", "distraction", "images"]
+    },
+    {
+      "id": "sleep_048",
+      "category": "Cognitive Techniques",
+      "title": "Gratitude List",
+      "description": "Name 3 things you're grateful for from today. Shifts focus from worries to positives.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["gratitude", "positive", "mindset"]
+    },
+    {
+      "id": "sleep_049",
+      "category": "Cognitive Techniques",
+      "title": "Tomorrow's Plan",
+      "description": "Write tomorrow's to-do list before bed. Externalizing plans reduces 'remembering' anxiety.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["planning", "anxiety", "organization"]
+    },
+    {
+      "id": "sleep_050",
+      "category": "Cognitive Techniques",
+      "title": "Paradoxical Intention",
+      "description": "Try to stay awake with eyes open in the dark. Reducing effort to sleep often allows sleep to come.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["paradox", "technique", "insomnia"]
+    },
+    {
+      "id": "sleep_051",
+      "category": "Sleep Aids",
+      "title": "Melatonin Timing",
+      "description": "If using melatonin, take 0.5-3mg 30-60 minutes before bed. Lower doses are often more effective.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["melatonin", "supplement", "timing"]
+    },
+    {
+      "id": "sleep_052",
+      "category": "Sleep Aids",
+      "title": "Magnesium Glycinate",
+      "description": "Consider 200-400mg magnesium glycinate before bed. Well-absorbed form that supports relaxation.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["magnesium", "supplement", "relaxation"]
+    },
+    {
+      "id": "sleep_053",
+      "category": "Sleep Aids",
+      "title": "L-Theanine",
+      "description": "100-200mg L-theanine promotes calm without drowsiness. Found naturally in tea.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["theanine", "calm", "supplement"]
+    },
+    {
+      "id": "sleep_054",
+      "category": "Sleep Aids",
+      "title": "Valerian Root",
+      "description": "Herbal supplement used for centuries. May take 2-4 weeks for full effect.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["valerian", "herbal", "traditional"]
+    },
+    {
+      "id": "sleep_055",
+      "category": "Sleep Aids",
+      "title": "Passionflower Tea",
+      "description": "Mild sedative effect, especially helpful for anxiety-related sleep issues.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["passionflower", "herbal", "anxiety"]
+    },
+    {
+      "id": "sleep_056",
+      "category": "Technology",
+      "title": "Blue Light Glasses",
+      "description": "Wear blue light blocking glasses 2-3 hours before bed when using screens.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["blue-light", "glasses", "screens"]
+    },
+    {
+      "id": "sleep_057",
+      "category": "Technology",
+      "title": "Night Mode Settings",
+      "description": "Enable night/warm mode on all devices. Schedule to activate automatically at sunset.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["night-mode", "settings", "automatic"]
+    },
+    {
+      "id": "sleep_058",
+      "category": "Technology",
+      "title": "Sleep Tracking App",
+      "description": "Use apps like Sleep Cycle or AutoSleep to understand patterns. Track without obsessing.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["tracking", "apps", "patterns"]
+    },
+    {
+      "id": "sleep_059",
+      "category": "Technology",
+      "title": "Smart Alarm",
+      "description": "Use alarms that wake you during light sleep phases. Less jarring than traditional alarms.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["alarm", "smart", "gentle"]
+    },
+    {
+      "id": "sleep_060",
+      "category": "Technology",
+      "title": "Sunset Lamp",
+      "description": "Use a lamp that simulates sunset, gradually dimming and warming over 30-60 minutes.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["lighting", "sunset", "simulation"]
+    },
+    {
+      "id": "sleep_061",
+      "category": "Chronic Illness Sleep",
+      "title": "Pain Management Before Bed",
+      "description": "Address pain proactively - heating pad, gentle stretches, medications on schedule.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["pain", "chronic", "management"]
+    },
+    {
+      "id": "sleep_062",
+      "category": "Chronic Illness Sleep",
+      "title": "Elevation for Breathing",
+      "description": "Use pillows or adjustable bed to elevate upper body if breathing issues affect sleep.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["elevation", "breathing", "positioning"]
+    },
+    {
+      "id": "sleep_063",
+      "category": "Chronic Illness Sleep",
+      "title": "Temperature Regulation",
+      "description": "Layer blankets for easy adjustment. Keep water nearby. Some conditions cause temperature swings.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["temperature", "chronic", "adaptation"]
+    },
+    {
+      "id": "sleep_064",
+      "category": "Chronic Illness Sleep",
+      "title": "Bathroom Proximity",
+      "description": "Keep path to bathroom clear and lightly lit. Night lights along the route.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["bathroom", "safety", "accessibility"]
+    },
+    {
+      "id": "sleep_065",
+      "category": "Chronic Illness Sleep",
+      "title": "Medication Timing Review",
+      "description": "Work with doctor to optimize medication timing. Some meds are better at different times.",
+      "energy_level": "low",
+      "difficulty": "medium",
+      "tags": ["medication", "timing", "optimization"]
+    },
+    {
+      "id": "sleep_066",
+      "category": "Chronic Illness Sleep",
+      "title": "Pacing During Day",
+      "description": "Avoid boom-bust cycles. Consistent activity levels lead to more consistent sleep.",
+      "energy_level": "medium",
+      "difficulty": "hard",
+      "tags": ["pacing", "energy", "consistency"]
+    },
+    {
+      "id": "sleep_067",
+      "category": "Chronic Illness Sleep",
+      "title": "Rest vs Sleep",
+      "description": "Accept that rest has value even without sleep. Quiet, dark time still helps recovery.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["rest", "acceptance", "value"]
+    },
+    {
+      "id": "sleep_068",
+      "category": "Chronic Illness Sleep",
+      "title": "CPAP Comfort",
+      "description": "If using CPAP, optimize mask fit and humidity. Discomfort reduces compliance.",
+      "energy_level": "low",
+      "difficulty": "medium",
+      "tags": ["cpap", "apnea", "equipment"]
+    },
+    {
+      "id": "sleep_069",
+      "category": "Chronic Illness Sleep",
+      "title": "Symptom Log",
+      "description": "Track symptoms and sleep quality to identify patterns. Data helps conversations with doctors.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["tracking", "patterns", "data"]
+    },
+    {
+      "id": "sleep_070",
+      "category": "Chronic Illness Sleep",
+      "title": "Gentle Position Changes",
+      "description": "Use body pillows for support. Change positions to prevent stiffness without fully waking.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["positioning", "comfort", "support"]
+    },
+    {
+      "id": "sleep_071",
+      "category": "Mental Health & Sleep",
+      "title": "Anxiety Wind-Down Protocol",
+      "description": "30 min before bed: journal worries, do breathing exercises, then pleasant visualization.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["anxiety", "protocol", "routine"]
+    },
+    {
+      "id": "sleep_072",
+      "category": "Mental Health & Sleep",
+      "title": "Depression Morning Light",
+      "description": "Use a 10,000 lux light box for 20-30 min each morning. Helps regulate mood and sleep.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["depression", "light-therapy", "SAD"]
+    },
+    {
+      "id": "sleep_073",
+      "category": "Mental Health & Sleep",
+      "title": "Nightmare Rehearsal",
+      "description": "Rewrite recurring nightmares with positive endings while awake. Rehearse new version before sleep.",
+      "energy_level": "low",
+      "difficulty": "medium",
+      "tags": ["nightmares", "rehearsal", "reframing"]
+    },
+    {
+      "id": "sleep_074",
+      "category": "Mental Health & Sleep",
+      "title": "Safety Object",
+      "description": "Keep a comforting object nearby - stuffed animal, partner's item, weighted blanket.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["comfort", "safety", "object"]
+    },
+    {
+      "id": "sleep_075",
+      "category": "Mental Health & Sleep",
+      "title": "Crisis Plan Review",
+      "description": "Have a written plan for nighttime distress. Knowing what to do reduces panic.",
+      "energy_level": "low",
+      "difficulty": "medium",
+      "tags": ["crisis", "plan", "preparation"]
+    },
+    {
+      "id": "sleep_076",
+      "category": "Insomnia Strategies",
+      "title": "20-Minute Rule",
+      "description": "If not asleep in 20 minutes, get up. Do something boring in dim light until sleepy.",
+      "energy_level": "low",
+      "difficulty": "medium",
+      "tags": ["insomnia", "technique", "stimulus-control"]
+    },
+    {
+      "id": "sleep_077",
+      "category": "Insomnia Strategies",
+      "title": "Sleep Restriction",
+      "description": "Temporarily limit time in bed to actual sleep time. Builds sleep pressure. Use with guidance.",
+      "energy_level": "low",
+      "difficulty": "hard",
+      "tags": ["restriction", "CBT-I", "pressure"]
+    },
+    {
+      "id": "sleep_078",
+      "category": "Insomnia Strategies",
+      "title": "Stimulus Control",
+      "description": "Only use bed for sleep and intimacy. Rebuild the bed-sleep association.",
+      "energy_level": "low",
+      "difficulty": "medium",
+      "tags": ["stimulus", "association", "conditioning"]
+    },
+    {
+      "id": "sleep_079",
+      "category": "Insomnia Strategies",
+      "title": "Clock Hiding",
+      "description": "Turn clocks away from view. Clock-watching increases anxiety and vigilance.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["clock", "anxiety", "vigilance"]
+    },
+    {
+      "id": "sleep_080",
+      "category": "Insomnia Strategies",
+      "title": "Boring Audio",
+      "description": "Listen to extremely boring content - academic lectures, financial reports. Occupies mind without engaging.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["audio", "boring", "distraction"]
+    },
+    {
+      "id": "sleep_081",
+      "category": "Partner Sleep",
+      "title": "Different Schedules Talk",
+      "description": "Discuss mismatched sleep schedules openly. Find compromises that work for both.",
+      "energy_level": "low",
+      "difficulty": "medium",
+      "tags": ["partner", "communication", "schedules"]
+    },
+    {
+      "id": "sleep_082",
+      "category": "Partner Sleep",
+      "title": "Separate Blankets",
+      "description": "Use individual blankets to prevent cover-stealing and temperature preference issues.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["blankets", "partner", "comfort"]
+    },
+    {
+      "id": "sleep_083",
+      "category": "Partner Sleep",
+      "title": "Snoring Solutions",
+      "description": "Address snoring with nose strips, elevated pillows, or sleep study referral if severe.",
+      "energy_level": "low",
+      "difficulty": "medium",
+      "tags": ["snoring", "partner", "solutions"]
+    },
+    {
+      "id": "sleep_084",
+      "category": "Partner Sleep",
+      "title": "Movement Mattress",
+      "description": "Consider memory foam or split mattress to reduce partner movement transfer.",
+      "energy_level": "low",
+      "difficulty": "medium",
+      "tags": ["mattress", "movement", "partner"]
+    },
+    {
+      "id": "sleep_085",
+      "category": "Partner Sleep",
+      "title": "Pre-Sleep Connection",
+      "description": "Brief check-in or cuddle before turning away to sleep. Maintains connection.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["connection", "intimacy", "ritual"]
+    },
+    {
+      "id": "sleep_086",
+      "category": "Shift Work",
+      "title": "Blackout for Day Sleep",
+      "description": "Create complete darkness for daytime sleep with blackout curtains and eye mask.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["shift-work", "darkness", "daytime"]
+    },
+    {
+      "id": "sleep_087",
+      "category": "Shift Work",
+      "title": "Strategic Caffeine",
+      "description": "Use caffeine strategically for shift work but avoid within 6 hours of sleep time.",
+      "energy_level": "low",
+      "difficulty": "medium",
+      "tags": ["caffeine", "shift-work", "strategy"]
+    },
+    {
+      "id": "sleep_088",
+      "category": "Shift Work",
+      "title": "Light Exposure Timing",
+      "description": "Use bright light at start of shift, avoid before sleep. Sunglasses when leaving morning shift.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["light", "shift-work", "timing"]
+    },
+    {
+      "id": "sleep_089",
+      "category": "Shift Work",
+      "title": "Anchor Sleep",
+      "description": "Keep at least 4 hours of sleep at the same time daily, even on days off.",
+      "energy_level": "low",
+      "difficulty": "medium",
+      "tags": ["anchor", "consistency", "shift-work"]
+    },
+    {
+      "id": "sleep_090",
+      "category": "Shift Work",
+      "title": "Family Communication",
+      "description": "Educate family about sleep needs. Use do-not-disturb signs and silent phones.",
+      "energy_level": "low",
+      "difficulty": "medium",
+      "tags": ["family", "communication", "boundaries"]
+    },
+    {
+      "id": "sleep_091",
+      "category": "Travel Sleep",
+      "title": "Jet Lag Prevention",
+      "description": "Start shifting sleep schedule 3 days before travel. 1 hour per day toward destination time.",
+      "energy_level": "low",
+      "difficulty": "medium",
+      "tags": ["jet-lag", "travel", "preparation"]
+    },
+    {
+      "id": "sleep_092",
+      "category": "Travel Sleep",
+      "title": "Travel Sleep Kit",
+      "description": "Pack eye mask, earplugs, familiar pillow case, and sleep tea bags for consistency away from home.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["travel", "kit", "consistency"]
+    },
+    {
+      "id": "sleep_093",
+      "category": "Travel Sleep",
+      "title": "Destination Time Immediately",
+      "description": "Switch to destination time as soon as you board the plane. Eat and sleep on new schedule.",
+      "energy_level": "low",
+      "difficulty": "medium",
+      "tags": ["jet-lag", "adaptation", "immediate"]
+    },
+    {
+      "id": "sleep_094",
+      "category": "Travel Sleep",
+      "title": "Hotel Room Prep",
+      "description": "Check room for light leaks, noise, and temperature. Request room changes if needed.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["hotel", "environment", "preparation"]
+    },
+    {
+      "id": "sleep_095",
+      "category": "Travel Sleep",
+      "title": "Avoid Arrival Naps",
+      "description": "Stay awake until local bedtime if arriving during day. Helps reset faster.",
+      "energy_level": "medium",
+      "difficulty": "hard",
+      "tags": ["arrival", "naps", "adaptation"]
+    },
+    {
+      "id": "sleep_096",
+      "category": "Seasonal Sleep",
+      "title": "Winter Light Therapy",
+      "description": "Use light therapy lamp in dark winter mornings. 10,000 lux for 20-30 minutes.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["winter", "SAD", "light-therapy"]
+    },
+    {
+      "id": "sleep_097",
+      "category": "Seasonal Sleep",
+      "title": "Summer Sleep Cooling",
+      "description": "Use cooling sheets, fan, or AC to combat summer heat that disrupts sleep.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["summer", "cooling", "heat"]
+    },
+    {
+      "id": "sleep_098",
+      "category": "Seasonal Sleep",
+      "title": "Daylight Saving Adjustment",
+      "description": "Shift sleep time by 15 minutes per day for 4 days before time change.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["daylight-saving", "adjustment", "gradual"]
+    },
+    {
+      "id": "sleep_099",
+      "category": "Seasonal Sleep",
+      "title": "Allergy Management",
+      "description": "During allergy season, shower before bed and keep windows closed. Use air purifier.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["allergies", "seasonal", "management"]
+    },
+    {
+      "id": "sleep_100",
+      "category": "Seasonal Sleep",
+      "title": "Holiday Sleep Protection",
+      "description": "Maintain sleep schedule during holidays as much as possible. Brief variations are okay.",
+      "energy_level": "low",
+      "difficulty": "medium",
+      "tags": ["holidays", "consistency", "balance"]
+    }
+  ]
+}

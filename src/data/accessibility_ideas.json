@@ -1,0 +1,808 @@
+{
+  "module": "Accessibility Ideas",
+  "version": "1.0",
+  "total_ideas": 100,
+  "description": "Comprehensive accessibility accommodations and adaptive strategies for daily living",
+  "items": [
+    {
+      "id": "access_001",
+      "category": "Visual Accessibility",
+      "title": "High Contrast Mode",
+      "description": "Enable high contrast display settings on all devices to improve text readability and reduce eye strain.",
+      "difficulty": "easy",
+      "tags": ["visual", "display", "contrast", "eye-strain"]
+    },
+    {
+      "id": "access_002",
+      "category": "Visual Accessibility",
+      "title": "Screen Reader Setup",
+      "description": "Configure a screen reader like NVDA, JAWS, or VoiceOver to navigate digital content through audio feedback.",
+      "difficulty": "medium",
+      "tags": ["visual", "screen-reader", "audio", "navigation"]
+    },
+    {
+      "id": "access_003",
+      "category": "Visual Accessibility",
+      "title": "Text-to-Speech for Documents",
+      "description": "Use text-to-speech software to have documents, emails, and web content read aloud.",
+      "difficulty": "easy",
+      "tags": ["visual", "text-to-speech", "reading", "documents"]
+    },
+    {
+      "id": "access_004",
+      "category": "Visual Accessibility",
+      "title": "Magnification Tools",
+      "description": "Set up screen magnification software or use built-in zoom features to enlarge content on screen.",
+      "difficulty": "easy",
+      "tags": ["visual", "magnification", "zoom", "enlargement"]
+    },
+    {
+      "id": "access_005",
+      "category": "Visual Accessibility",
+      "title": "Color Blind Filters",
+      "description": "Apply color blind accessibility filters to distinguish colors that might otherwise appear similar.",
+      "difficulty": "easy",
+      "tags": ["visual", "colorblind", "filters", "color-correction"]
+    },
+    {
+      "id": "access_006",
+      "category": "Visual Accessibility",
+      "title": "Audio Description Settings",
+      "description": "Enable audio descriptions for movies, TV shows, and video content to understand visual elements.",
+      "difficulty": "easy",
+      "tags": ["visual", "audio-description", "video", "entertainment"]
+    },
+    {
+      "id": "access_007",
+      "category": "Visual Accessibility",
+      "title": "Braille Display Connection",
+      "description": "Connect and configure a refreshable Braille display for tactile reading of digital content.",
+      "difficulty": "hard",
+      "tags": ["visual", "braille", "tactile", "hardware"]
+    },
+    {
+      "id": "access_008",
+      "category": "Visual Accessibility",
+      "title": "Voice Assistant Integration",
+      "description": "Set up voice assistants like Siri, Alexa, or Google Assistant for hands-free device control.",
+      "difficulty": "medium",
+      "tags": ["visual", "voice-assistant", "hands-free", "smart-home"]
+    },
+    {
+      "id": "access_009",
+      "category": "Hearing Accessibility",
+      "title": "Closed Captions Everywhere",
+      "description": "Enable closed captions on all streaming services, social media, and video platforms.",
+      "difficulty": "easy",
+      "tags": ["hearing", "captions", "subtitles", "video"]
+    },
+    {
+      "id": "access_010",
+      "category": "Hearing Accessibility",
+      "title": "Live Transcription Apps",
+      "description": "Use apps like Live Transcribe or Otter.ai to convert spoken words to text in real-time.",
+      "difficulty": "easy",
+      "tags": ["hearing", "transcription", "speech-to-text", "conversation"]
+    },
+    {
+      "id": "access_011",
+      "category": "Hearing Accessibility",
+      "title": "Visual Alerts Setup",
+      "description": "Configure devices to flash lights or vibrate for notifications, alarms, and doorbells.",
+      "difficulty": "medium",
+      "tags": ["hearing", "visual-alerts", "notifications", "vibration"]
+    },
+    {
+      "id": "access_012",
+      "category": "Hearing Accessibility",
+      "title": "Video Relay Services",
+      "description": "Register for video relay services to make phone calls using sign language interpreters.",
+      "difficulty": "medium",
+      "tags": ["hearing", "vrs", "sign-language", "phone-calls"]
+    },
+    {
+      "id": "access_013",
+      "category": "Hearing Accessibility",
+      "title": "Hearing Loop Compatibility",
+      "description": "Check hearing aids for T-coil compatibility to use with hearing loops in public venues.",
+      "difficulty": "easy",
+      "tags": ["hearing", "hearing-loop", "t-coil", "public-spaces"]
+    },
+    {
+      "id": "access_014",
+      "category": "Hearing Accessibility",
+      "title": "Bluetooth Hearing Aids",
+      "description": "Connect Bluetooth-enabled hearing aids directly to phones and TVs for clearer audio.",
+      "difficulty": "medium",
+      "tags": ["hearing", "bluetooth", "hearing-aids", "connectivity"]
+    },
+    {
+      "id": "access_015",
+      "category": "Hearing Accessibility",
+      "title": "Sign Language Learning",
+      "description": "Learn basic sign language through apps like SignSchool or The ASL App for communication.",
+      "difficulty": "hard",
+      "tags": ["hearing", "sign-language", "learning", "communication"]
+    },
+    {
+      "id": "access_016",
+      "category": "Hearing Accessibility",
+      "title": "Sound Amplifier Apps",
+      "description": "Use smartphone sound amplifier apps to boost and clarify environmental sounds.",
+      "difficulty": "easy",
+      "tags": ["hearing", "amplification", "smartphone", "environmental"]
+    },
+    {
+      "id": "access_017",
+      "category": "Mobility Accessibility",
+      "title": "Voice Control Navigation",
+      "description": "Enable voice control on devices to navigate, type, and interact without physical touch.",
+      "difficulty": "medium",
+      "tags": ["mobility", "voice-control", "hands-free", "navigation"]
+    },
+    {
+      "id": "access_018",
+      "category": "Mobility Accessibility",
+      "title": "Switch Access Configuration",
+      "description": "Set up switch access controls for users who cannot use standard touch or mouse input.",
+      "difficulty": "hard",
+      "tags": ["mobility", "switch-access", "adaptive", "input"]
+    },
+    {
+      "id": "access_019",
+      "category": "Mobility Accessibility",
+      "title": "Eye Tracking Setup",
+      "description": "Configure eye tracking technology for cursor control and device navigation.",
+      "difficulty": "hard",
+      "tags": ["mobility", "eye-tracking", "cursor", "navigation"]
+    },
+    {
+      "id": "access_020",
+      "category": "Mobility Accessibility",
+      "title": "Keyboard Navigation Mastery",
+      "description": "Learn keyboard shortcuts to navigate without a mouse using Tab, Enter, and arrow keys.",
+      "difficulty": "medium",
+      "tags": ["mobility", "keyboard", "shortcuts", "navigation"]
+    },
+    {
+      "id": "access_021",
+      "category": "Mobility Accessibility",
+      "title": "Adaptive Mouse Settings",
+      "description": "Adjust mouse sensitivity, cursor size, and click speed for easier physical control.",
+      "difficulty": "easy",
+      "tags": ["mobility", "mouse", "sensitivity", "customization"]
+    },
+    {
+      "id": "access_022",
+      "category": "Mobility Accessibility",
+      "title": "One-Handed Keyboard Layouts",
+      "description": "Enable one-handed keyboard layouts for typing with a single hand on mobile devices.",
+      "difficulty": "easy",
+      "tags": ["mobility", "keyboard", "one-handed", "mobile"]
+    },
+    {
+      "id": "access_023",
+      "category": "Mobility Accessibility",
+      "title": "Dictation Software",
+      "description": "Use dictation software like Dragon NaturallySpeaking for hands-free writing and computer control.",
+      "difficulty": "medium",
+      "tags": ["mobility", "dictation", "speech-to-text", "writing"]
+    },
+    {
+      "id": "access_024",
+      "category": "Mobility Accessibility",
+      "title": "Smart Home Automation",
+      "description": "Set up smart home devices to control lights, locks, and appliances without physical movement.",
+      "difficulty": "medium",
+      "tags": ["mobility", "smart-home", "automation", "independence"]
+    },
+    {
+      "id": "access_025",
+      "category": "Cognitive Accessibility",
+      "title": "Simplified Interface Mode",
+      "description": "Enable simplified or easy modes on devices to reduce visual clutter and complexity.",
+      "difficulty": "easy",
+      "tags": ["cognitive", "simplified", "interface", "focus"]
+    },
+    {
+      "id": "access_026",
+      "category": "Cognitive Accessibility",
+      "title": "Reading Mode Activation",
+      "description": "Use browser reading modes to strip away ads and distractions from web articles.",
+      "difficulty": "easy",
+      "tags": ["cognitive", "reading-mode", "focus", "distraction-free"]
+    },
+    {
+      "id": "access_027",
+      "category": "Cognitive Accessibility",
+      "title": "Text Formatting Preferences",
+      "description": "Adjust font size, line spacing, and font type (like OpenDyslexic) for easier reading.",
+      "difficulty": "easy",
+      "tags": ["cognitive", "fonts", "readability", "dyslexia"]
+    },
+    {
+      "id": "access_028",
+      "category": "Cognitive Accessibility",
+      "title": "Focus Mode Settings",
+      "description": "Enable Do Not Disturb and focus modes to minimize interruptions during tasks.",
+      "difficulty": "easy",
+      "tags": ["cognitive", "focus", "notifications", "concentration"]
+    },
+    {
+      "id": "access_029",
+      "category": "Cognitive Accessibility",
+      "title": "Task Breakdown Apps",
+      "description": "Use apps that break complex tasks into smaller, manageable steps with visual progress.",
+      "difficulty": "medium",
+      "tags": ["cognitive", "task-management", "steps", "executive-function"]
+    },
+    {
+      "id": "access_030",
+      "category": "Cognitive Accessibility",
+      "title": "Visual Schedule Creation",
+      "description": "Create visual schedules with pictures and icons instead of text-only calendars.",
+      "difficulty": "medium",
+      "tags": ["cognitive", "visual-schedule", "routine", "planning"]
+    },
+    {
+      "id": "access_031",
+      "category": "Cognitive Accessibility",
+      "title": "Memory Aid Reminders",
+      "description": "Set up multiple reminder systems across devices for important tasks and appointments.",
+      "difficulty": "easy",
+      "tags": ["cognitive", "reminders", "memory", "organization"]
+    },
+    {
+      "id": "access_032",
+      "category": "Cognitive Accessibility",
+      "title": "Reduced Motion Settings",
+      "description": "Disable animations and motion effects that can be distracting or cause discomfort.",
+      "difficulty": "easy",
+      "tags": ["cognitive", "motion", "animations", "vestibular"]
+    },
+    {
+      "id": "access_033",
+      "category": "Physical Environment",
+      "title": "Adjustable Desk Setup",
+      "description": "Configure a sit-stand desk at proper heights for comfortable working positions.",
+      "difficulty": "medium",
+      "tags": ["physical", "ergonomics", "desk", "posture"]
+    },
+    {
+      "id": "access_034",
+      "category": "Physical Environment",
+      "title": "Ergonomic Keyboard Placement",
+      "description": "Position keyboard and mouse at elbow height with wrists in neutral position.",
+      "difficulty": "easy",
+      "tags": ["physical", "ergonomics", "keyboard", "wrist-health"]
+    },
+    {
+      "id": "access_035",
+      "category": "Physical Environment",
+      "title": "Monitor Height Adjustment",
+      "description": "Set monitor top at eye level and arm's length away to reduce neck strain.",
+      "difficulty": "easy",
+      "tags": ["physical", "ergonomics", "monitor", "neck-strain"]
+    },
+    {
+      "id": "access_036",
+      "category": "Physical Environment",
+      "title": "Lighting Optimization",
+      "description": "Adjust room lighting to reduce glare on screens and prevent eye fatigue.",
+      "difficulty": "medium",
+      "tags": ["physical", "lighting", "glare", "eye-health"]
+    },
+    {
+      "id": "access_037",
+      "category": "Physical Environment",
+      "title": "Wheelchair Accessible Workspace",
+      "description": "Ensure desk height and clearance accommodate wheelchair access comfortably.",
+      "difficulty": "medium",
+      "tags": ["physical", "wheelchair", "workspace", "accessibility"]
+    },
+    {
+      "id": "access_038",
+      "category": "Physical Environment",
+      "title": "Grab Bar Installation",
+      "description": "Install grab bars in bathrooms and high-traffic areas for stability support.",
+      "difficulty": "medium",
+      "tags": ["physical", "grab-bars", "safety", "bathroom"]
+    },
+    {
+      "id": "access_039",
+      "category": "Physical Environment",
+      "title": "Non-Slip Surface Application",
+      "description": "Apply non-slip mats and strips in wet areas and on stairs to prevent falls.",
+      "difficulty": "easy",
+      "tags": ["physical", "non-slip", "safety", "fall-prevention"]
+    },
+    {
+      "id": "access_040",
+      "category": "Physical Environment",
+      "title": "Lever Handle Replacement",
+      "description": "Replace round doorknobs with lever handles for easier operation with limited grip.",
+      "difficulty": "medium",
+      "tags": ["physical", "doorknobs", "lever", "grip"]
+    },
+    {
+      "id": "access_041",
+      "category": "Communication Tools",
+      "title": "AAC App Setup",
+      "description": "Configure augmentative and alternative communication apps for non-verbal communication.",
+      "difficulty": "medium",
+      "tags": ["communication", "aac", "non-verbal", "speech"]
+    },
+    {
+      "id": "access_042",
+      "category": "Communication Tools",
+      "title": "Symbol Communication Boards",
+      "description": "Create physical or digital communication boards with picture symbols for quick messages.",
+      "difficulty": "medium",
+      "tags": ["communication", "symbols", "visual", "boards"]
+    },
+    {
+      "id": "access_043",
+      "category": "Communication Tools",
+      "title": "Speech Generating Device",
+      "description": "Set up and customize speech generating devices for text-to-speech communication.",
+      "difficulty": "hard",
+      "tags": ["communication", "sgd", "text-to-speech", "assistive"]
+    },
+    {
+      "id": "access_044",
+      "category": "Communication Tools",
+      "title": "Predictive Text Optimization",
+      "description": "Train predictive text to learn frequently used phrases and vocabulary.",
+      "difficulty": "easy",
+      "tags": ["communication", "predictive-text", "typing", "efficiency"]
+    },
+    {
+      "id": "access_045",
+      "category": "Communication Tools",
+      "title": "Quick Phrase Shortcuts",
+      "description": "Set up text shortcuts for common phrases to reduce typing effort.",
+      "difficulty": "easy",
+      "tags": ["communication", "shortcuts", "phrases", "efficiency"]
+    },
+    {
+      "id": "access_046",
+      "category": "Communication Tools",
+      "title": "Translation App for Sign Language",
+      "description": "Use apps that translate text or speech to sign language animations.",
+      "difficulty": "medium",
+      "tags": ["communication", "translation", "sign-language", "apps"]
+    },
+    {
+      "id": "access_047",
+      "category": "Communication Tools",
+      "title": "Email Templates",
+      "description": "Create email and message templates for common communication scenarios.",
+      "difficulty": "easy",
+      "tags": ["communication", "templates", "email", "efficiency"]
+    },
+    {
+      "id": "access_048",
+      "category": "Communication Tools",
+      "title": "Voice Banking",
+      "description": "Record and bank your voice for use with speech generating devices if needed later.",
+      "difficulty": "hard",
+      "tags": ["communication", "voice-banking", "preservation", "speech"]
+    },
+    {
+      "id": "access_049",
+      "category": "Sensory Accommodations",
+      "title": "Noise-Canceling Headphones",
+      "description": "Use noise-canceling headphones to reduce overwhelming environmental sounds.",
+      "difficulty": "easy",
+      "tags": ["sensory", "noise", "headphones", "overwhelm"]
+    },
+    {
+      "id": "access_050",
+      "category": "Sensory Accommodations",
+      "title": "Weighted Blanket Use",
+      "description": "Use a weighted blanket for deep pressure input to promote calm and focus.",
+      "difficulty": "easy",
+      "tags": ["sensory", "weighted-blanket", "pressure", "calming"]
+    },
+    {
+      "id": "access_051",
+      "category": "Sensory Accommodations",
+      "title": "Fidget Tool Collection",
+      "description": "Keep various fidget tools available for sensory regulation during focus tasks.",
+      "difficulty": "easy",
+      "tags": ["sensory", "fidget", "regulation", "focus"]
+    },
+    {
+      "id": "access_052",
+      "category": "Sensory Accommodations",
+      "title": "Blue Light Filtering",
+      "description": "Enable blue light filters on devices or use blue light blocking glasses.",
+      "difficulty": "easy",
+      "tags": ["sensory", "blue-light", "eye-strain", "sleep"]
+    },
+    {
+      "id": "access_053",
+      "category": "Sensory Accommodations",
+      "title": "Sensory Break Schedule",
+      "description": "Schedule regular sensory breaks throughout the day to prevent overload.",
+      "difficulty": "medium",
+      "tags": ["sensory", "breaks", "regulation", "schedule"]
+    },
+    {
+      "id": "access_054",
+      "category": "Sensory Accommodations",
+      "title": "Texture-Friendly Clothing",
+      "description": "Choose seamless, tagless clothing in comfortable textures to reduce sensory irritation.",
+      "difficulty": "easy",
+      "tags": ["sensory", "clothing", "texture", "comfort"]
+    },
+    {
+      "id": "access_055",
+      "category": "Sensory Accommodations",
+      "title": "Scent-Free Zone",
+      "description": "Create scent-free environments by using unscented products and air purifiers.",
+      "difficulty": "medium",
+      "tags": ["sensory", "scent-free", "fragrance", "environment"]
+    },
+    {
+      "id": "access_056",
+      "category": "Sensory Accommodations",
+      "title": "Sunglasses Indoors Permission",
+      "description": "Use tinted glasses or sunglasses indoors when lighting is overwhelming.",
+      "difficulty": "easy",
+      "tags": ["sensory", "light-sensitivity", "glasses", "photophobia"]
+    },
+    {
+      "id": "access_057",
+      "category": "Time Management",
+      "title": "Visual Timer Use",
+      "description": "Use visual timers to see time passing and understand duration of tasks.",
+      "difficulty": "easy",
+      "tags": ["time", "visual-timer", "duration", "awareness"]
+    },
+    {
+      "id": "access_058",
+      "category": "Time Management",
+      "title": "Time Blocking Method",
+      "description": "Assign specific time blocks to different activities with buffer time between.",
+      "difficulty": "medium",
+      "tags": ["time", "time-blocking", "schedule", "planning"]
+    },
+    {
+      "id": "access_059",
+      "category": "Time Management",
+      "title": "Transition Warnings",
+      "description": "Set multiple alarms before activity transitions to prepare for changes.",
+      "difficulty": "easy",
+      "tags": ["time", "transitions", "warnings", "preparation"]
+    },
+    {
+      "id": "access_060",
+      "category": "Time Management",
+      "title": "Energy Level Tracking",
+      "description": "Track energy patterns to schedule demanding tasks during peak energy times.",
+      "difficulty": "medium",
+      "tags": ["time", "energy", "tracking", "productivity"]
+    },
+    {
+      "id": "access_061",
+      "category": "Time Management",
+      "title": "Automatic Scheduling",
+      "description": "Use AI scheduling tools that automatically optimize your calendar around energy and preferences.",
+      "difficulty": "medium",
+      "tags": ["time", "ai-scheduling", "automation", "optimization"]
+    },
+    {
+      "id": "access_062",
+      "category": "Time Management",
+      "title": "Pomodoro Technique Adaptation",
+      "description": "Modify Pomodoro intervals to match your attention span and break needs.",
+      "difficulty": "easy",
+      "tags": ["time", "pomodoro", "intervals", "attention"]
+    },
+    {
+      "id": "access_063",
+      "category": "Time Management",
+      "title": "Calendar Color Coding",
+      "description": "Use consistent colors for different activity types in digital calendars.",
+      "difficulty": "easy",
+      "tags": ["time", "calendar", "color-coding", "organization"]
+    },
+    {
+      "id": "access_064",
+      "category": "Time Management",
+      "title": "Routine Anchoring",
+      "description": "Attach new habits to existing routines using anchor points throughout the day.",
+      "difficulty": "medium",
+      "tags": ["time", "routines", "habits", "anchoring"]
+    },
+    {
+      "id": "access_065",
+      "category": "Digital Accessibility",
+      "title": "Browser Extension Setup",
+      "description": "Install accessibility browser extensions for enhanced web browsing experience.",
+      "difficulty": "easy",
+      "tags": ["digital", "browser", "extensions", "web"]
+    },
+    {
+      "id": "access_066",
+      "category": "Digital Accessibility",
+      "title": "Accessibility Shortcuts Learning",
+      "description": "Learn built-in accessibility keyboard shortcuts for your operating system.",
+      "difficulty": "medium",
+      "tags": ["digital", "shortcuts", "keyboard", "os"]
+    },
+    {
+      "id": "access_067",
+      "category": "Digital Accessibility",
+      "title": "Document Accessibility Check",
+      "description": "Run accessibility checkers on documents before sharing to ensure compatibility.",
+      "difficulty": "medium",
+      "tags": ["digital", "documents", "checker", "compatibility"]
+    },
+    {
+      "id": "access_068",
+      "category": "Digital Accessibility",
+      "title": "Alt Text Settings",
+      "description": "Enable image descriptions and alt text display in social media and browsers.",
+      "difficulty": "easy",
+      "tags": ["digital", "alt-text", "images", "descriptions"]
+    },
+    {
+      "id": "access_069",
+      "category": "Digital Accessibility",
+      "title": "PDF Accessibility Tools",
+      "description": "Use tools to make PDFs accessible with proper reading order and tags.",
+      "difficulty": "hard",
+      "tags": ["digital", "pdf", "accessibility", "documents"]
+    },
+    {
+      "id": "access_070",
+      "category": "Digital Accessibility",
+      "title": "Video Playback Controls",
+      "description": "Use video players with speed control, rewind, and subtitle customization.",
+      "difficulty": "easy",
+      "tags": ["digital", "video", "playback", "controls"]
+    },
+    {
+      "id": "access_071",
+      "category": "Digital Accessibility",
+      "title": "Password Manager Setup",
+      "description": "Use a password manager to reduce memory load and simplify logins.",
+      "difficulty": "medium",
+      "tags": ["digital", "passwords", "security", "memory"]
+    },
+    {
+      "id": "access_072",
+      "category": "Digital Accessibility",
+      "title": "Cloud Sync Everything",
+      "description": "Enable cloud sync across devices so content is always accessible anywhere.",
+      "difficulty": "medium",
+      "tags": ["digital", "cloud", "sync", "access"]
+    },
+    {
+      "id": "access_073",
+      "category": "Social Accessibility",
+      "title": "Communication Card Creation",
+      "description": "Create cards explaining your access needs to show in social situations.",
+      "difficulty": "easy",
+      "tags": ["social", "communication-cards", "disclosure", "needs"]
+    },
+    {
+      "id": "access_074",
+      "category": "Social Accessibility",
+      "title": "Script Preparation",
+      "description": "Prepare scripts for common social interactions like ordering food or phone calls.",
+      "difficulty": "medium",
+      "tags": ["social", "scripts", "preparation", "anxiety"]
+    },
+    {
+      "id": "access_075",
+      "category": "Social Accessibility",
+      "title": "Exit Strategy Planning",
+      "description": "Plan exit strategies before social events including signals and transportation.",
+      "difficulty": "easy",
+      "tags": ["social", "exit-strategy", "events", "safety"]
+    },
+    {
+      "id": "access_076",
+      "category": "Social Accessibility",
+      "title": "Quiet Space Identification",
+      "description": "Identify quiet spaces in venues before events for sensory breaks.",
+      "difficulty": "easy",
+      "tags": ["social", "quiet-space", "breaks", "venues"]
+    },
+    {
+      "id": "access_077",
+      "category": "Social Accessibility",
+      "title": "Buddy System Setup",
+      "description": "Arrange a buddy for events who understands your needs and can assist.",
+      "difficulty": "medium",
+      "tags": ["social", "buddy", "support", "events"]
+    },
+    {
+      "id": "access_078",
+      "category": "Social Accessibility",
+      "title": "Energy Budget Planning",
+      "description": "Plan social activities based on available energy with built-in recovery time.",
+      "difficulty": "medium",
+      "tags": ["social", "energy", "spoons", "planning"]
+    },
+    {
+      "id": "access_079",
+      "category": "Social Accessibility",
+      "title": "Virtual Attendance Option",
+      "description": "Request virtual attendance options for meetings and events when needed.",
+      "difficulty": "easy",
+      "tags": ["social", "virtual", "remote", "accommodation"]
+    },
+    {
+      "id": "access_080",
+      "category": "Social Accessibility",
+      "title": "Accessibility Request Template",
+      "description": "Create a template for requesting accommodations at events and venues.",
+      "difficulty": "medium",
+      "tags": ["social", "template", "requests", "accommodations"]
+    },
+    {
+      "id": "access_081",
+      "category": "Emergency Preparedness",
+      "title": "Emergency Contact Card",
+      "description": "Create a card with emergency contacts, medical info, and communication needs.",
+      "difficulty": "easy",
+      "tags": ["emergency", "contacts", "medical", "information"]
+    },
+    {
+      "id": "access_082",
+      "category": "Emergency Preparedness",
+      "title": "Medical ID Setup",
+      "description": "Set up Medical ID on smartphone accessible from lock screen.",
+      "difficulty": "easy",
+      "tags": ["emergency", "medical-id", "smartphone", "health"]
+    },
+    {
+      "id": "access_083",
+      "category": "Emergency Preparedness",
+      "title": "Visual Emergency Guide",
+      "description": "Create visual guides for emergency procedures in picture format.",
+      "difficulty": "medium",
+      "tags": ["emergency", "visual-guide", "procedures", "safety"]
+    },
+    {
+      "id": "access_084",
+      "category": "Emergency Preparedness",
+      "title": "Sensory Emergency Kit",
+      "description": "Pack an emergency kit with sensory tools, headphones, sunglasses, and fidgets.",
+      "difficulty": "easy",
+      "tags": ["emergency", "sensory-kit", "tools", "preparedness"]
+    },
+    {
+      "id": "access_085",
+      "category": "Emergency Preparedness",
+      "title": "Location Sharing Setup",
+      "description": "Enable location sharing with trusted contacts for safety tracking.",
+      "difficulty": "easy",
+      "tags": ["emergency", "location", "safety", "tracking"]
+    },
+    {
+      "id": "access_086",
+      "category": "Emergency Preparedness",
+      "title": "Backup Power Planning",
+      "description": "Keep portable chargers and backup batteries for essential assistive devices.",
+      "difficulty": "easy",
+      "tags": ["emergency", "backup-power", "chargers", "devices"]
+    },
+    {
+      "id": "access_087",
+      "category": "Emergency Preparedness",
+      "title": "Alternative Communication Plan",
+      "description": "Plan backup communication methods if primary AAC or devices fail.",
+      "difficulty": "medium",
+      "tags": ["emergency", "communication", "backup", "planning"]
+    },
+    {
+      "id": "access_088",
+      "category": "Emergency Preparedness",
+      "title": "Medication Management System",
+      "description": "Set up pill organizers with alarms and backup supplies for emergencies.",
+      "difficulty": "medium",
+      "tags": ["emergency", "medication", "management", "alarms"]
+    },
+    {
+      "id": "access_089",
+      "category": "Learning Accommodations",
+      "title": "Recording Permission Request",
+      "description": "Request permission to record lectures and meetings for later review.",
+      "difficulty": "easy",
+      "tags": ["learning", "recording", "lectures", "review"]
+    },
+    {
+      "id": "access_090",
+      "category": "Learning Accommodations",
+      "title": "Extended Time Documentation",
+      "description": "Document and request extended time for tests and assignments.",
+      "difficulty": "medium",
+      "tags": ["learning", "extended-time", "tests", "documentation"]
+    },
+    {
+      "id": "access_091",
+      "category": "Learning Accommodations",
+      "title": "Note-Taking Support",
+      "description": "Arrange for note-takers, shared notes, or lecture recordings.",
+      "difficulty": "medium",
+      "tags": ["learning", "note-taking", "support", "lectures"]
+    },
+    {
+      "id": "access_092",
+      "category": "Learning Accommodations",
+      "title": "Alternative Format Materials",
+      "description": "Request learning materials in accessible formats like audio, large print, or digital.",
+      "difficulty": "medium",
+      "tags": ["learning", "formats", "materials", "accessible"]
+    },
+    {
+      "id": "access_093",
+      "category": "Learning Accommodations",
+      "title": "Preferential Seating",
+      "description": "Arrange seating near front, exits, or quiet areas based on needs.",
+      "difficulty": "easy",
+      "tags": ["learning", "seating", "classroom", "accommodation"]
+    },
+    {
+      "id": "access_094",
+      "category": "Learning Accommodations",
+      "title": "Break Time Allowance",
+      "description": "Request permission for sensory or rest breaks during long sessions.",
+      "difficulty": "easy",
+      "tags": ["learning", "breaks", "rest", "sensory"]
+    },
+    {
+      "id": "access_095",
+      "category": "Learning Accommodations",
+      "title": "Assignment Breakdown Help",
+      "description": "Request syllabi and assignment breakdowns in advance for planning.",
+      "difficulty": "easy",
+      "tags": ["learning", "assignments", "planning", "advance"]
+    },
+    {
+      "id": "access_096",
+      "category": "Learning Accommodations",
+      "title": "Quiet Testing Environment",
+      "description": "Arrange for separate, quiet testing spaces to reduce distraction.",
+      "difficulty": "medium",
+      "tags": ["learning", "testing", "quiet", "environment"]
+    },
+    {
+      "id": "access_097",
+      "category": "Work Accommodations",
+      "title": "Flexible Schedule Request",
+      "description": "Request flexible work hours or schedule adjustments based on energy patterns.",
+      "difficulty": "medium",
+      "tags": ["work", "flexible", "schedule", "hours"]
+    },
+    {
+      "id": "access_098",
+      "category": "Work Accommodations",
+      "title": "Remote Work Setup",
+      "description": "Request and optimize remote work arrangements with proper equipment.",
+      "difficulty": "medium",
+      "tags": ["work", "remote", "home-office", "equipment"]
+    },
+    {
+      "id": "access_099",
+      "category": "Work Accommodations",
+      "title": "Job Coaching Support",
+      "description": "Arrange for job coaching or workplace support services if available.",
+      "difficulty": "hard",
+      "tags": ["work", "job-coaching", "support", "services"]
+    },
+    {
+      "id": "access_100",
+      "category": "Work Accommodations",
+      "title": "Accommodation Documentation",
+      "description": "Document all workplace accommodations formally with HR for protection.",
+      "difficulty": "medium",
+      "tags": ["work", "documentation", "hr", "accommodations"]
+    }
+  ]
+}

@@ -1,1407 +1,3158 @@
 {
   "module": "Art Ideas",
-  "version": "1.0",
-  "generated_at": "2025-11-18",
+  "version": "2.1",
+  "generated_at": "2025-12-11",
+  "total_ideas": 350,
   "items": [
     {
-      "id": "art_ideas_001",
+      "id": "art_001",
       "category": "Digital Art",
-      "title": "Art Ideas Idea 1",
-      "description": "Placeholder idea #1 in 'Digital Art'.",
-      "energy_level": "low"
+      "title": "Neon Cityscape at Midnight",
+      "description": "Create a cyberpunk-inspired city scene with glowing neon signs reflected in rain-slicked streets. Focus on color contrast between warm neons and cool shadows.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["cyberpunk", "neon", "city", "night"]
     },
     {
-      "id": "art_ideas_002",
-      "category": "Photography",
-      "title": "Art Ideas Idea 2",
-      "description": "Placeholder idea #2 in 'Photography'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_003",
-      "category": "Design",
-      "title": "Art Ideas Idea 3",
-      "description": "Placeholder idea #3 in 'Design'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_004",
+      "id": "art_002",
       "category": "Painting",
-      "title": "Art Ideas Idea 4",
-      "description": "Placeholder idea #4 in 'Painting'.",
-      "energy_level": "high"
+      "title": "Golden Hour Self-Portrait",
+      "description": "Paint a self-portrait during golden hour lighting. Capture the warm orange and pink tones on skin and the soft shadows they create.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["portrait", "golden hour", "warm tones"]
     },
     {
-      "id": "art_ideas_005",
-      "category": "Digital Art",
-      "title": "Art Ideas Idea 5",
-      "description": "Placeholder idea #5 in 'Digital Art'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_006",
-      "category": "Worldbuilding",
-      "title": "Art Ideas Idea 6",
-      "description": "Placeholder idea #6 in 'Worldbuilding'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_007",
-      "category": "Design",
-      "title": "Art Ideas Idea 7",
-      "description": "Placeholder idea #7 in 'Design'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_008",
-      "category": "Photography",
-      "title": "Art Ideas Idea 8",
-      "description": "Placeholder idea #8 in 'Photography'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_009",
-      "category": "Painting",
-      "title": "Art Ideas Idea 9",
-      "description": "Placeholder idea #9 in 'Painting'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_010",
-      "category": "Worldbuilding",
-      "title": "Art Ideas Idea 10",
-      "description": "Placeholder idea #10 in 'Worldbuilding'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_011",
-      "category": "Character Design",
-      "title": "Art Ideas Idea 11",
-      "description": "Placeholder idea #11 in 'Character Design'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_012",
-      "category": "Design",
-      "title": "Art Ideas Idea 12",
-      "description": "Placeholder idea #12 in 'Design'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_013",
-      "category": "Design",
-      "title": "Art Ideas Idea 13",
-      "description": "Placeholder idea #13 in 'Design'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_014",
-      "category": "Digital Art",
-      "title": "Art Ideas Idea 14",
-      "description": "Placeholder idea #14 in 'Digital Art'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_015",
-      "category": "Digital Art",
-      "title": "Art Ideas Idea 15",
-      "description": "Placeholder idea #15 in 'Digital Art'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_016",
-      "category": "Painting",
-      "title": "Art Ideas Idea 16",
-      "description": "Placeholder idea #16 in 'Painting'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_017",
-      "category": "Worldbuilding",
-      "title": "Art Ideas Idea 17",
-      "description": "Placeholder idea #17 in 'Worldbuilding'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_018",
-      "category": "Worldbuilding",
-      "title": "Art Ideas Idea 18",
-      "description": "Placeholder idea #18 in 'Worldbuilding'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_019",
-      "category": "Mixed Media",
-      "title": "Art Ideas Idea 19",
-      "description": "Placeholder idea #19 in 'Mixed Media'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_020",
-      "category": "Character Design",
-      "title": "Art Ideas Idea 20",
-      "description": "Placeholder idea #20 in 'Character Design'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_021",
-      "category": "Worldbuilding",
-      "title": "Art Ideas Idea 21",
-      "description": "Placeholder idea #21 in 'Worldbuilding'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_022",
-      "category": "Design",
-      "title": "Art Ideas Idea 22",
-      "description": "Placeholder idea #22 in 'Design'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_023",
-      "category": "Painting",
-      "title": "Art Ideas Idea 23",
-      "description": "Placeholder idea #23 in 'Painting'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_024",
-      "category": "Character Design",
-      "title": "Art Ideas Idea 24",
-      "description": "Placeholder idea #24 in 'Character Design'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_025",
-      "category": "Character Design",
-      "title": "Art Ideas Idea 25",
-      "description": "Placeholder idea #25 in 'Character Design'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_026",
-      "category": "Painting",
-      "title": "Art Ideas Idea 26",
-      "description": "Placeholder idea #26 in 'Painting'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_027",
-      "category": "Design",
-      "title": "Art Ideas Idea 27",
-      "description": "Placeholder idea #27 in 'Design'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_028",
+      "id": "art_003",
       "category": "Drawing",
-      "title": "Art Ideas Idea 28",
-      "description": "Placeholder idea #28 in 'Drawing'.",
-      "energy_level": "high"
+      "title": "100 Hands Challenge",
+      "description": "Draw 100 different hand poses and gestures. Focus on different ages, expressions, and actions. Great anatomy practice.",
+      "energy_level": "low",
+      "difficulty": "medium",
+      "tags": ["anatomy", "practice", "hands", "challenge"]
     },
     {
-      "id": "art_ideas_029",
-      "category": "Drawing",
-      "title": "Art Ideas Idea 29",
-      "description": "Placeholder idea #29 in 'Drawing'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_030",
-      "category": "Character Design",
-      "title": "Art Ideas Idea 30",
-      "description": "Placeholder idea #30 in 'Character Design'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_031",
-      "category": "Character Design",
-      "title": "Art Ideas Idea 31",
-      "description": "Placeholder idea #31 in 'Character Design'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_032",
+      "id": "art_004",
       "category": "Photography",
-      "title": "Art Ideas Idea 32",
-      "description": "Placeholder idea #32 in 'Photography'.",
-      "energy_level": "low"
+      "title": "Reflections in Puddles",
+      "description": "Capture the world reflected in puddles after rain. Shoot from ground level to create surreal upside-down cityscapes or nature scenes.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["reflection", "water", "perspective", "outdoor"]
     },
     {
-      "id": "art_ideas_033",
-      "category": "Digital Art",
-      "title": "Art Ideas Idea 33",
-      "description": "Placeholder idea #33 in 'Digital Art'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_034",
-      "category": "Character Design",
-      "title": "Art Ideas Idea 34",
-      "description": "Placeholder idea #34 in 'Character Design'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_035",
-      "category": "Digital Art",
-      "title": "Art Ideas Idea 35",
-      "description": "Placeholder idea #35 in 'Digital Art'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_036",
-      "category": "Drawing",
-      "title": "Art Ideas Idea 36",
-      "description": "Placeholder idea #36 in 'Drawing'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_037",
-      "category": "Photography",
-      "title": "Art Ideas Idea 37",
-      "description": "Placeholder idea #37 in 'Photography'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_038",
+      "id": "art_005",
       "category": "Mixed Media",
-      "title": "Art Ideas Idea 38",
-      "description": "Placeholder idea #38 in 'Mixed Media'.",
-      "energy_level": "low"
+      "title": "Magazine Collage Portrait",
+      "description": "Create a portrait using only cut-outs from magazines. Layer textures, patterns, and colors to build facial features and emotions.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["collage", "portrait", "texture", "recycled"]
     },
     {
-      "id": "art_ideas_039",
-      "category": "Drawing",
-      "title": "Art Ideas Idea 39",
-      "description": "Placeholder idea #39 in 'Drawing'.",
-      "energy_level": "medium"
+      "id": "art_006",
+      "category": "Character Design",
+      "title": "Mythical Creature Mashup",
+      "description": "Combine elements from two different mythological creatures (like a griffin and kitsune) to create an original being with its own backstory.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["creature", "mythology", "fantasy", "original"]
     },
     {
-      "id": "art_ideas_040",
+      "id": "art_007",
       "category": "Worldbuilding",
-      "title": "Art Ideas Idea 40",
-      "description": "Placeholder idea #40 in 'Worldbuilding'.",
-      "energy_level": "medium"
+      "title": "Floating Island Ecosystem",
+      "description": "Design a floating island with its own unique ecosystem. Consider how plants and animals adapted to aerial life and limited resources.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["fantasy", "environment", "ecosystem", "floating"]
     },
     {
-      "id": "art_ideas_041",
+      "id": "art_008",
       "category": "Design",
-      "title": "Art Ideas Idea 41",
-      "description": "Placeholder idea #41 in 'Design'.",
-      "energy_level": "low"
+      "title": "App Icon Series",
+      "description": "Design a cohesive set of 10 app icons with a consistent style. Try flat design, skeuomorphism, or glassmorphism.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["ui", "icons", "app", "series"]
     },
     {
-      "id": "art_ideas_042",
+      "id": "art_009",
       "category": "Digital Art",
-      "title": "Art Ideas Idea 42",
-      "description": "Placeholder idea #42 in 'Digital Art'.",
-      "energy_level": "medium"
+      "title": "Underwater Temple Ruins",
+      "description": "Illustrate ancient temple ruins submerged underwater. Play with light rays filtering through water and bioluminescent sea life.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["underwater", "ruins", "fantasy", "lighting"]
     },
     {
-      "id": "art_ideas_043",
-      "category": "Photography",
-      "title": "Art Ideas Idea 43",
-      "description": "Placeholder idea #43 in 'Photography'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_044",
-      "category": "Worldbuilding",
-      "title": "Art Ideas Idea 44",
-      "description": "Placeholder idea #44 in 'Worldbuilding'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_045",
-      "category": "Mixed Media",
-      "title": "Art Ideas Idea 45",
-      "description": "Placeholder idea #45 in 'Mixed Media'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_046",
-      "category": "Worldbuilding",
-      "title": "Art Ideas Idea 46",
-      "description": "Placeholder idea #46 in 'Worldbuilding'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_047",
-      "category": "Character Design",
-      "title": "Art Ideas Idea 47",
-      "description": "Placeholder idea #47 in 'Character Design'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_048",
+      "id": "art_010",
       "category": "Painting",
-      "title": "Art Ideas Idea 48",
-      "description": "Placeholder idea #48 in 'Painting'.",
-      "energy_level": "high"
+      "title": "Emotions in Abstract",
+      "description": "Express a specific emotion (joy, grief, anxiety, peace) using only abstract shapes, colors, and brushstrokes. No representational imagery.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["abstract", "emotion", "expressionism"]
     },
     {
-      "id": "art_ideas_049",
-      "category": "Worldbuilding",
-      "title": "Art Ideas Idea 49",
-      "description": "Placeholder idea #49 in 'Worldbuilding'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_050",
-      "category": "Mixed Media",
-      "title": "Art Ideas Idea 50",
-      "description": "Placeholder idea #50 in 'Mixed Media'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_051",
-      "category": "Worldbuilding",
-      "title": "Art Ideas Idea 51",
-      "description": "Placeholder idea #51 in 'Worldbuilding'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_052",
-      "category": "Photography",
-      "title": "Art Ideas Idea 52",
-      "description": "Placeholder idea #52 in 'Photography'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_053",
+      "id": "art_011",
       "category": "Drawing",
-      "title": "Art Ideas Idea 53",
-      "description": "Placeholder idea #53 in 'Drawing'.",
-      "energy_level": "medium"
+      "title": "Urban Sketching - Your Neighborhood",
+      "description": "Sketch a scene from your neighborhood in 30 minutes. Capture the essence with quick, confident lines. Include at least one person.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["urban", "sketch", "quick", "outdoor"]
     },
     {
-      "id": "art_ideas_054",
+      "id": "art_012",
       "category": "Photography",
-      "title": "Art Ideas Idea 54",
-      "description": "Placeholder idea #54 in 'Photography'.",
-      "energy_level": "medium"
+      "title": "Light Painting Portraits",
+      "description": "Create long-exposure portraits using light painting. Use flashlights, LED strips, or sparklers to paint around your subject.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["long exposure", "portrait", "light", "night"]
     },
     {
-      "id": "art_ideas_055",
-      "category": "Digital Art",
-      "title": "Art Ideas Idea 55",
-      "description": "Placeholder idea #55 in 'Digital Art'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_056",
-      "category": "Character Design",
-      "title": "Art Ideas Idea 56",
-      "description": "Placeholder idea #56 in 'Character Design'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_057",
-      "category": "Digital Art",
-      "title": "Art Ideas Idea 57",
-      "description": "Placeholder idea #57 in 'Digital Art'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_058",
-      "category": "Painting",
-      "title": "Art Ideas Idea 58",
-      "description": "Placeholder idea #58 in 'Painting'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_059",
-      "category": "Painting",
-      "title": "Art Ideas Idea 59",
-      "description": "Placeholder idea #59 in 'Painting'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_060",
-      "category": "Painting",
-      "title": "Art Ideas Idea 60",
-      "description": "Placeholder idea #60 in 'Painting'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_061",
+      "id": "art_013",
       "category": "Mixed Media",
-      "title": "Art Ideas Idea 61",
-      "description": "Placeholder idea #61 in 'Mixed Media'.",
-      "energy_level": "low"
+      "title": "Nature Journal Page",
+      "description": "Create a nature journal spread combining pressed flowers, sketches, watercolor, and handwritten observations about local flora.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["journal", "nature", "botanical", "mixed media"]
     },
     {
-      "id": "art_ideas_062",
-      "category": "Painting",
-      "title": "Art Ideas Idea 62",
-      "description": "Placeholder idea #62 in 'Painting'.",
-      "energy_level": "low"
+      "id": "art_014",
+      "category": "Character Design",
+      "title": "Villain Turned Hero",
+      "description": "Redesign a classic villain as a hero. Change their color palette, posture, and accessories while keeping them recognizable.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["character", "redesign", "storytelling"]
     },
     {
-      "id": "art_ideas_063",
+      "id": "art_015",
       "category": "Worldbuilding",
-      "title": "Art Ideas Idea 63",
-      "description": "Placeholder idea #63 in 'Worldbuilding'.",
-      "energy_level": "medium"
+      "title": "Post-Apocalyptic Mall",
+      "description": "Design an abandoned shopping mall 50 years after an apocalypse. Show how nature reclaimed the space and how survivors repurposed it.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["post-apocalyptic", "environment", "overgrown"]
     },
     {
-      "id": "art_ideas_064",
-      "category": "Mixed Media",
-      "title": "Art Ideas Idea 64",
-      "description": "Placeholder idea #64 in 'Mixed Media'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_065",
-      "category": "Character Design",
-      "title": "Art Ideas Idea 65",
-      "description": "Placeholder idea #65 in 'Character Design'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_066",
-      "category": "Painting",
-      "title": "Art Ideas Idea 66",
-      "description": "Placeholder idea #66 in 'Painting'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_067",
-      "category": "Mixed Media",
-      "title": "Art Ideas Idea 67",
-      "description": "Placeholder idea #67 in 'Mixed Media'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_068",
-      "category": "Character Design",
-      "title": "Art Ideas Idea 68",
-      "description": "Placeholder idea #68 in 'Character Design'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_069",
-      "category": "Character Design",
-      "title": "Art Ideas Idea 69",
-      "description": "Placeholder idea #69 in 'Character Design'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_070",
-      "category": "Photography",
-      "title": "Art Ideas Idea 70",
-      "description": "Placeholder idea #70 in 'Photography'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_071",
-      "category": "Mixed Media",
-      "title": "Art Ideas Idea 71",
-      "description": "Placeholder idea #71 in 'Mixed Media'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_072",
-      "category": "Photography",
-      "title": "Art Ideas Idea 72",
-      "description": "Placeholder idea #72 in 'Photography'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_073",
-      "category": "Drawing",
-      "title": "Art Ideas Idea 73",
-      "description": "Placeholder idea #73 in 'Drawing'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_074",
-      "category": "Painting",
-      "title": "Art Ideas Idea 74",
-      "description": "Placeholder idea #74 in 'Painting'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_075",
-      "category": "Character Design",
-      "title": "Art Ideas Idea 75",
-      "description": "Placeholder idea #75 in 'Character Design'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_076",
-      "category": "Mixed Media",
-      "title": "Art Ideas Idea 76",
-      "description": "Placeholder idea #76 in 'Mixed Media'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_077",
-      "category": "Photography",
-      "title": "Art Ideas Idea 77",
-      "description": "Placeholder idea #77 in 'Photography'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_078",
-      "category": "Mixed Media",
-      "title": "Art Ideas Idea 78",
-      "description": "Placeholder idea #78 in 'Mixed Media'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_079",
-      "category": "Mixed Media",
-      "title": "Art Ideas Idea 79",
-      "description": "Placeholder idea #79 in 'Mixed Media'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_080",
-      "category": "Worldbuilding",
-      "title": "Art Ideas Idea 80",
-      "description": "Placeholder idea #80 in 'Worldbuilding'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_081",
-      "category": "Painting",
-      "title": "Art Ideas Idea 81",
-      "description": "Placeholder idea #81 in 'Painting'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_082",
-      "category": "Drawing",
-      "title": "Art Ideas Idea 82",
-      "description": "Placeholder idea #82 in 'Drawing'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_083",
-      "category": "Character Design",
-      "title": "Art Ideas Idea 83",
-      "description": "Placeholder idea #83 in 'Character Design'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_084",
-      "category": "Painting",
-      "title": "Art Ideas Idea 84",
-      "description": "Placeholder idea #84 in 'Painting'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_085",
-      "category": "Painting",
-      "title": "Art Ideas Idea 85",
-      "description": "Placeholder idea #85 in 'Painting'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_086",
-      "category": "Drawing",
-      "title": "Art Ideas Idea 86",
-      "description": "Placeholder idea #86 in 'Drawing'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_087",
-      "category": "Worldbuilding",
-      "title": "Art Ideas Idea 87",
-      "description": "Placeholder idea #87 in 'Worldbuilding'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_088",
-      "category": "Worldbuilding",
-      "title": "Art Ideas Idea 88",
-      "description": "Placeholder idea #88 in 'Worldbuilding'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_089",
-      "category": "Worldbuilding",
-      "title": "Art Ideas Idea 89",
-      "description": "Placeholder idea #89 in 'Worldbuilding'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_090",
-      "category": "Photography",
-      "title": "Art Ideas Idea 90",
-      "description": "Placeholder idea #90 in 'Photography'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_091",
+      "id": "art_016",
       "category": "Design",
-      "title": "Art Ideas Idea 91",
-      "description": "Placeholder idea #91 in 'Design'.",
-      "energy_level": "medium"
+      "title": "Retro Poster - Modern Product",
+      "description": "Design an advertisement for a modern product (smartphone, streaming service) in the style of 1950s vintage posters.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["retro", "advertising", "vintage", "poster"]
     },
     {
-      "id": "art_ideas_092",
-      "category": "Character Design",
-      "title": "Art Ideas Idea 92",
-      "description": "Placeholder idea #92 in 'Character Design'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_093",
-      "category": "Photography",
-      "title": "Art Ideas Idea 93",
-      "description": "Placeholder idea #93 in 'Photography'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_094",
-      "category": "Worldbuilding",
-      "title": "Art Ideas Idea 94",
-      "description": "Placeholder idea #94 in 'Worldbuilding'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_095",
-      "category": "Painting",
-      "title": "Art Ideas Idea 95",
-      "description": "Placeholder idea #95 in 'Painting'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_096",
-      "category": "Mixed Media",
-      "title": "Art Ideas Idea 96",
-      "description": "Placeholder idea #96 in 'Mixed Media'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_097",
-      "category": "Painting",
-      "title": "Art Ideas Idea 97",
-      "description": "Placeholder idea #97 in 'Painting'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_098",
-      "category": "Painting",
-      "title": "Art Ideas Idea 98",
-      "description": "Placeholder idea #98 in 'Painting'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_099",
-      "category": "Painting",
-      "title": "Art Ideas Idea 99",
-      "description": "Placeholder idea #99 in 'Painting'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_100",
-      "category": "Mixed Media",
-      "title": "Art Ideas Idea 100",
-      "description": "Placeholder idea #100 in 'Mixed Media'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_101",
-      "category": "Mixed Media",
-      "title": "Art Ideas Idea 101",
-      "description": "Placeholder idea #101 in 'Mixed Media'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_102",
-      "category": "Mixed Media",
-      "title": "Art Ideas Idea 102",
-      "description": "Placeholder idea #102 in 'Mixed Media'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_103",
+      "id": "art_017",
       "category": "Digital Art",
-      "title": "Art Ideas Idea 103",
-      "description": "Placeholder idea #103 in 'Digital Art'.",
-      "energy_level": "medium"
+      "title": "Cozy Reading Nook",
+      "description": "Illustrate your ideal reading spot. Focus on warm lighting, comfortable textures, and small personal details that make a space feel lived-in.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["cozy", "interior", "warm", "comfort"]
     },
     {
-      "id": "art_ideas_104",
-      "category": "Photography",
-      "title": "Art Ideas Idea 104",
-      "description": "Placeholder idea #104 in 'Photography'.",
-      "energy_level": "medium"
+      "id": "art_018",
+      "category": "Painting",
+      "title": "Storm Clouds Study",
+      "description": "Paint dramatic storm clouds in oils or acrylics. Study how light breaks through and how colors shift from bright sky to dark clouds.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["clouds", "storm", "landscape", "drama"]
     },
     {
-      "id": "art_ideas_105",
+      "id": "art_019",
       "category": "Drawing",
-      "title": "Art Ideas Idea 105",
-      "description": "Placeholder idea #105 in 'Drawing'.",
-      "energy_level": "medium"
+      "title": "Texture Study Sheet",
+      "description": "Fill a page with small squares, each showing a different texture: fur, scales, bark, metal, fabric, water, etc. Practice rendering techniques.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["texture", "practice", "technique", "study"]
     },
     {
-      "id": "art_ideas_106",
-      "category": "Design",
-      "title": "Art Ideas Idea 106",
-      "description": "Placeholder idea #106 in 'Design'.",
-      "energy_level": "low"
+      "id": "art_020",
+      "category": "Photography",
+      "title": "One Color Challenge",
+      "description": "Photograph a series where one specific color (red, blue, yellow) is the dominant element in every image. Find it in unexpected places.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["color", "series", "challenge", "monochrome"]
     },
     {
-      "id": "art_ideas_107",
-      "category": "Digital Art",
-      "title": "Art Ideas Idea 107",
-      "description": "Placeholder idea #107 in 'Digital Art'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_108",
-      "category": "Worldbuilding",
-      "title": "Art Ideas Idea 108",
-      "description": "Placeholder idea #108 in 'Worldbuilding'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_109",
+      "id": "art_021",
       "category": "Mixed Media",
-      "title": "Art Ideas Idea 109",
-      "description": "Placeholder idea #109 in 'Mixed Media'.",
-      "energy_level": "low"
+      "title": "Map of a Fictional Place",
+      "description": "Create a detailed map of an imaginary location using coffee staining, pen work, and collage. Add legends, compass roses, and sea monsters.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["map", "fantasy", "vintage", "worldbuilding"]
     },
     {
-      "id": "art_ideas_110",
+      "id": "art_022",
+      "category": "Character Design",
+      "title": "Everyday Hero",
+      "description": "Design a superhero based on an everyday profession: teacher, nurse, librarian, chef. Their powers relate to their job skills.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["superhero", "profession", "original", "costume"]
+    },
+    {
+      "id": "art_023",
+      "category": "Worldbuilding",
+      "title": "Bioluminescent Forest",
+      "description": "Create a forest ecosystem where all life is bioluminescent. Design the plants, fungi, and creatures that would thrive in permanent darkness.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["bioluminescent", "fantasy", "nature", "glow"]
+    },
+    {
+      "id": "art_024",
+      "category": "Design",
+      "title": "Album Cover Art",
+      "description": "Design an album cover for a fictional band. Create the band name, album title, and artwork that reflects a specific music genre.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["music", "album", "cover art", "branding"]
+    },
+    {
+      "id": "art_025",
+      "category": "Digital Art",
+      "title": "Witch's Kitchen",
+      "description": "Illustrate a witch's cozy kitchen filled with bubbling potions, hanging herbs, spell books, and magical ingredients. Add a familiar pet.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["witch", "interior", "fantasy", "cozy"]
+    },
+    {
+      "id": "art_026",
       "category": "Painting",
-      "title": "Art Ideas Idea 110",
-      "description": "Placeholder idea #110 in 'Painting'.",
-      "energy_level": "high"
+      "title": "Portrait of a Pet",
+      "description": "Paint a portrait of a pet (yours or a friend's) showing their unique personality. Capture their eyes and expression with care.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["pet", "portrait", "animal", "personal"]
     },
     {
-      "id": "art_ideas_111",
-      "category": "Mixed Media",
-      "title": "Art Ideas Idea 111",
-      "description": "Placeholder idea #111 in 'Mixed Media'.",
-      "energy_level": "medium"
+      "id": "art_027",
+      "category": "Drawing",
+      "title": "Blind Contour Faces",
+      "description": "Draw 10 portraits without looking at your paper (blind contour technique). Focus on training hand-eye coordination.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["blind contour", "practice", "portrait", "technique"]
     },
     {
-      "id": "art_ideas_112",
+      "id": "art_028",
       "category": "Photography",
-      "title": "Art Ideas Idea 112",
-      "description": "Placeholder idea #112 in 'Photography'.",
-      "energy_level": "high"
+      "title": "Shadows as Subjects",
+      "description": "Create a photo series where shadows are the main subject. Capture interesting shadow patterns from everyday objects.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["shadows", "light", "abstract", "patterns"]
     },
     {
-      "id": "art_ideas_113",
+      "id": "art_029",
+      "category": "Mixed Media",
+      "title": "Altered Book Art",
+      "description": "Transform an old book into art. Cut, fold, paint, and collage pages to create a sculptural or visual piece.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["book", "sculpture", "recycled", "3D"]
+    },
+    {
+      "id": "art_030",
+      "category": "Character Design",
+      "title": "Seasonal Spirits",
+      "description": "Design four spirits representing each season. Show how their appearance, colors, and accessories reflect their season's traits.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["seasons", "spirits", "series", "fantasy"]
+    },
+    {
+      "id": "art_031",
+      "category": "Worldbuilding",
+      "title": "Underground City",
+      "description": "Design a city built entirely underground. Consider lighting solutions, architecture, transportation, and how residents get food and air.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["underground", "city", "architecture", "sci-fi"]
+    },
+    {
+      "id": "art_032",
+      "category": "Design",
+      "title": "Personal Logo",
+      "description": "Create a personal logo/monogram using your initials. Try at least 10 different approaches before choosing a favorite.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["logo", "branding", "personal", "typography"]
+    },
+    {
+      "id": "art_033",
+      "category": "Digital Art",
+      "title": "Space Station Garden",
+      "description": "Illustrate a garden aboard a space station. Combine the sterile tech of space travel with lush growing plants and soft natural light.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["space", "garden", "sci-fi", "contrast"]
+    },
+    {
+      "id": "art_034",
       "category": "Painting",
-      "title": "Art Ideas Idea 113",
-      "description": "Placeholder idea #113 in 'Painting'.",
-      "energy_level": "low"
+      "title": "Still Life with Meaning",
+      "description": "Arrange and paint a still life where every object has personal significance to you. Create a visual autobiography.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["still life", "personal", "symbolism"]
     },
     {
-      "id": "art_ideas_114",
-      "category": "Character Design",
-      "title": "Art Ideas Idea 114",
-      "description": "Placeholder idea #114 in 'Character Design'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_115",
-      "category": "Photography",
-      "title": "Art Ideas Idea 115",
-      "description": "Placeholder idea #115 in 'Photography'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_116",
-      "category": "Worldbuilding",
-      "title": "Art Ideas Idea 116",
-      "description": "Placeholder idea #116 in 'Worldbuilding'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_117",
-      "category": "Design",
-      "title": "Art Ideas Idea 117",
-      "description": "Placeholder idea #117 in 'Design'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_118",
-      "category": "Mixed Media",
-      "title": "Art Ideas Idea 118",
-      "description": "Placeholder idea #118 in 'Mixed Media'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_119",
+      "id": "art_035",
       "category": "Drawing",
-      "title": "Art Ideas Idea 119",
-      "description": "Placeholder idea #119 in 'Drawing'.",
-      "energy_level": "low"
+      "title": "Architecture Sketch Walk",
+      "description": "Walk around your area and sketch 5 different architectural details: doorways, windows, rooflines, or decorative elements.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["architecture", "urban", "details", "outdoor"]
     },
     {
-      "id": "art_ideas_120",
-      "category": "Design",
-      "title": "Art Ideas Idea 120",
-      "description": "Placeholder idea #120 in 'Design'.",
-      "energy_level": "medium"
+      "id": "art_036",
+      "category": "Photography",
+      "title": "Morning Routine Documentary",
+      "description": "Document your entire morning routine in photos. Capture the mundane beauty of everyday rituals.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["documentary", "personal", "routine", "storytelling"]
     },
     {
-      "id": "art_ideas_121",
-      "category": "Character Design",
-      "title": "Art Ideas Idea 121",
-      "description": "Placeholder idea #121 in 'Character Design'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_122",
+      "id": "art_037",
       "category": "Mixed Media",
-      "title": "Art Ideas Idea 122",
-      "description": "Placeholder idea #122 in 'Mixed Media'.",
-      "energy_level": "high"
+      "title": "Memory Box Art",
+      "description": "Create a small shadow box containing objects and imagery representing a significant memory. Layer 2D and 3D elements.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["shadow box", "memory", "3D", "personal"]
     },
     {
-      "id": "art_ideas_123",
+      "id": "art_038",
       "category": "Character Design",
-      "title": "Art Ideas Idea 123",
-      "description": "Placeholder idea #123 in 'Character Design'.",
-      "energy_level": "medium"
+      "title": "Age Progression",
+      "description": "Design the same character at ages 5, 15, 35, and 70. Show how their personality and life experiences change their appearance.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["age", "progression", "storytelling", "series"]
     },
     {
-      "id": "art_ideas_124",
-      "category": "Design",
-      "title": "Art Ideas Idea 124",
-      "description": "Placeholder idea #124 in 'Design'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_125",
-      "category": "Design",
-      "title": "Art Ideas Idea 125",
-      "description": "Placeholder idea #125 in 'Design'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_126",
+      "id": "art_039",
       "category": "Worldbuilding",
-      "title": "Art Ideas Idea 126",
-      "description": "Placeholder idea #126 in 'Worldbuilding'.",
-      "energy_level": "medium"
+      "title": "Living Architecture",
+      "description": "Design buildings grown from living plants and trees. Show how different building types (home, office, temple) would look.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["organic", "architecture", "fantasy", "nature"]
     },
     {
-      "id": "art_ideas_127",
-      "category": "Character Design",
-      "title": "Art Ideas Idea 127",
-      "description": "Placeholder idea #127 in 'Character Design'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_128",
-      "category": "Character Design",
-      "title": "Art Ideas Idea 128",
-      "description": "Placeholder idea #128 in 'Character Design'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_129",
-      "category": "Photography",
-      "title": "Art Ideas Idea 129",
-      "description": "Placeholder idea #129 in 'Photography'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_130",
-      "category": "Photography",
-      "title": "Art Ideas Idea 130",
-      "description": "Placeholder idea #130 in 'Photography'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_131",
-      "category": "Drawing",
-      "title": "Art Ideas Idea 131",
-      "description": "Placeholder idea #131 in 'Drawing'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_132",
+      "id": "art_040",
       "category": "Design",
-      "title": "Art Ideas Idea 132",
-      "description": "Placeholder idea #132 in 'Design'.",
-      "energy_level": "low"
+      "title": "Tarot Card Design",
+      "description": "Create your own interpretation of a major arcana tarot card. Research traditional symbolism, then add your personal twist.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["tarot", "symbolism", "mystical", "illustration"]
     },
     {
-      "id": "art_ideas_133",
-      "category": "Photography",
-      "title": "Art Ideas Idea 133",
-      "description": "Placeholder idea #133 in 'Photography'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_134",
-      "category": "Mixed Media",
-      "title": "Art Ideas Idea 134",
-      "description": "Placeholder idea #134 in 'Mixed Media'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_135",
-      "category": "Mixed Media",
-      "title": "Art Ideas Idea 135",
-      "description": "Placeholder idea #135 in 'Mixed Media'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_136",
-      "category": "Design",
-      "title": "Art Ideas Idea 136",
-      "description": "Placeholder idea #136 in 'Design'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_137",
-      "category": "Design",
-      "title": "Art Ideas Idea 137",
-      "description": "Placeholder idea #137 in 'Design'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_138",
-      "category": "Character Design",
-      "title": "Art Ideas Idea 138",
-      "description": "Placeholder idea #138 in 'Character Design'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_139",
-      "category": "Character Design",
-      "title": "Art Ideas Idea 139",
-      "description": "Placeholder idea #139 in 'Character Design'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_140",
-      "category": "Worldbuilding",
-      "title": "Art Ideas Idea 140",
-      "description": "Placeholder idea #140 in 'Worldbuilding'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_141",
-      "category": "Mixed Media",
-      "title": "Art Ideas Idea 141",
-      "description": "Placeholder idea #141 in 'Mixed Media'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_142",
+      "id": "art_041",
       "category": "Digital Art",
-      "title": "Art Ideas Idea 142",
-      "description": "Placeholder idea #142 in 'Digital Art'.",
-      "energy_level": "low"
+      "title": "Rainy Window View",
+      "description": "Paint the view through a rain-streaked window. Focus on how water droplets distort and blur the world outside.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["rain", "window", "atmosphere", "mood"]
     },
     {
-      "id": "art_ideas_143",
-      "category": "Character Design",
-      "title": "Art Ideas Idea 143",
-      "description": "Placeholder idea #143 in 'Character Design'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_144",
-      "category": "Photography",
-      "title": "Art Ideas Idea 144",
-      "description": "Placeholder idea #144 in 'Photography'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_145",
-      "category": "Digital Art",
-      "title": "Art Ideas Idea 145",
-      "description": "Placeholder idea #145 in 'Digital Art'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_146",
+      "id": "art_042",
       "category": "Painting",
-      "title": "Art Ideas Idea 146",
-      "description": "Placeholder idea #146 in 'Painting'.",
-      "energy_level": "high"
+      "title": "Monochromatic Landscape",
+      "description": "Paint a landscape using only shades of one color (blue, sepia, green). Learn how value creates depth without hue variety.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["monochrome", "landscape", "value", "study"]
     },
     {
-      "id": "art_ideas_147",
+      "id": "art_043",
+      "category": "Drawing",
+      "title": "Gesture Drawings - 60 Seconds",
+      "description": "Do 20 one-minute gesture drawings of people. Focus on capturing motion and weight, not details.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["gesture", "figure", "quick", "practice"]
+    },
+    {
+      "id": "art_044",
+      "category": "Photography",
+      "title": "Macro World",
+      "description": "Explore macro photography. Find tiny subjects (insects, flowers, textures) and reveal details invisible to the naked eye.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["macro", "detail", "nature", "close-up"]
+    },
+    {
+      "id": "art_045",
       "category": "Mixed Media",
-      "title": "Art Ideas Idea 147",
-      "description": "Placeholder idea #147 in 'Mixed Media'.",
-      "energy_level": "high"
+      "title": "Fabric Collage Landscape",
+      "description": "Create a landscape using only fabric scraps. Layer textures for sky, mountains, trees, and water.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["fabric", "collage", "landscape", "texture"]
     },
     {
-      "id": "art_ideas_148",
-      "category": "Worldbuilding",
-      "title": "Art Ideas Idea 148",
-      "description": "Placeholder idea #148 in 'Worldbuilding'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_149",
-      "category": "Painting",
-      "title": "Art Ideas Idea 149",
-      "description": "Placeholder idea #149 in 'Painting'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_150",
-      "category": "Digital Art",
-      "title": "Art Ideas Idea 150",
-      "description": "Placeholder idea #150 in 'Digital Art'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_151",
+      "id": "art_046",
       "category": "Character Design",
-      "title": "Art Ideas Idea 151",
-      "description": "Placeholder idea #151 in 'Character Design'.",
-      "energy_level": "medium"
+      "title": "Emotion Expressions Sheet",
+      "description": "Create an expression sheet for your character showing 20 different emotions. Push the expressions to extremes.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["expressions", "emotions", "character", "practice"]
     },
     {
-      "id": "art_ideas_152",
-      "category": "Mixed Media",
-      "title": "Art Ideas Idea 152",
-      "description": "Placeholder idea #152 in 'Mixed Media'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_153",
-      "category": "Digital Art",
-      "title": "Art Ideas Idea 153",
-      "description": "Placeholder idea #153 in 'Digital Art'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_154",
-      "category": "Photography",
-      "title": "Art Ideas Idea 154",
-      "description": "Placeholder idea #154 in 'Photography'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_155",
+      "id": "art_047",
       "category": "Worldbuilding",
-      "title": "Art Ideas Idea 155",
-      "description": "Placeholder idea #155 in 'Worldbuilding'.",
-      "energy_level": "high"
+      "title": "Desert Oasis Civilization",
+      "description": "Design a civilization built around a desert oasis. Show architecture, clothing, and customs adapted to the harsh environment.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["desert", "civilization", "culture", "environment"]
     },
     {
-      "id": "art_ideas_156",
-      "category": "Photography",
-      "title": "Art Ideas Idea 156",
-      "description": "Placeholder idea #156 in 'Photography'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_157",
-      "category": "Painting",
-      "title": "Art Ideas Idea 157",
-      "description": "Placeholder idea #157 in 'Painting'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_158",
-      "category": "Drawing",
-      "title": "Art Ideas Idea 158",
-      "description": "Placeholder idea #158 in 'Drawing'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_159",
-      "category": "Digital Art",
-      "title": "Art Ideas Idea 159",
-      "description": "Placeholder idea #159 in 'Digital Art'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_160",
-      "category": "Photography",
-      "title": "Art Ideas Idea 160",
-      "description": "Placeholder idea #160 in 'Photography'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_161",
-      "category": "Painting",
-      "title": "Art Ideas Idea 161",
-      "description": "Placeholder idea #161 in 'Painting'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_162",
-      "category": "Painting",
-      "title": "Art Ideas Idea 162",
-      "description": "Placeholder idea #162 in 'Painting'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_163",
-      "category": "Drawing",
-      "title": "Art Ideas Idea 163",
-      "description": "Placeholder idea #163 in 'Drawing'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_164",
-      "category": "Worldbuilding",
-      "title": "Art Ideas Idea 164",
-      "description": "Placeholder idea #164 in 'Worldbuilding'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_165",
-      "category": "Digital Art",
-      "title": "Art Ideas Idea 165",
-      "description": "Placeholder idea #165 in 'Digital Art'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_166",
-      "category": "Drawing",
-      "title": "Art Ideas Idea 166",
-      "description": "Placeholder idea #166 in 'Drawing'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_167",
-      "category": "Mixed Media",
-      "title": "Art Ideas Idea 167",
-      "description": "Placeholder idea #167 in 'Mixed Media'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_168",
-      "category": "Character Design",
-      "title": "Art Ideas Idea 168",
-      "description": "Placeholder idea #168 in 'Character Design'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_169",
-      "category": "Drawing",
-      "title": "Art Ideas Idea 169",
-      "description": "Placeholder idea #169 in 'Drawing'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_170",
-      "category": "Painting",
-      "title": "Art Ideas Idea 170",
-      "description": "Placeholder idea #170 in 'Painting'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_171",
-      "category": "Digital Art",
-      "title": "Art Ideas Idea 171",
-      "description": "Placeholder idea #171 in 'Digital Art'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_172",
-      "category": "Worldbuilding",
-      "title": "Art Ideas Idea 172",
-      "description": "Placeholder idea #172 in 'Worldbuilding'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_173",
-      "category": "Worldbuilding",
-      "title": "Art Ideas Idea 173",
-      "description": "Placeholder idea #173 in 'Worldbuilding'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_174",
-      "category": "Mixed Media",
-      "title": "Art Ideas Idea 174",
-      "description": "Placeholder idea #174 in 'Mixed Media'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_175",
-      "category": "Worldbuilding",
-      "title": "Art Ideas Idea 175",
-      "description": "Placeholder idea #175 in 'Worldbuilding'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_176",
-      "category": "Character Design",
-      "title": "Art Ideas Idea 176",
-      "description": "Placeholder idea #176 in 'Character Design'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_177",
-      "category": "Mixed Media",
-      "title": "Art Ideas Idea 177",
-      "description": "Placeholder idea #177 in 'Mixed Media'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_178",
-      "category": "Digital Art",
-      "title": "Art Ideas Idea 178",
-      "description": "Placeholder idea #178 in 'Digital Art'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_179",
-      "category": "Mixed Media",
-      "title": "Art Ideas Idea 179",
-      "description": "Placeholder idea #179 in 'Mixed Media'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_180",
-      "category": "Photography",
-      "title": "Art Ideas Idea 180",
-      "description": "Placeholder idea #180 in 'Photography'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_181",
-      "category": "Digital Art",
-      "title": "Art Ideas Idea 181",
-      "description": "Placeholder idea #181 in 'Digital Art'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_182",
-      "category": "Photography",
-      "title": "Art Ideas Idea 182",
-      "description": "Placeholder idea #182 in 'Photography'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_183",
-      "category": "Worldbuilding",
-      "title": "Art Ideas Idea 183",
-      "description": "Placeholder idea #183 in 'Worldbuilding'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_184",
+      "id": "art_048",
       "category": "Design",
-      "title": "Art Ideas Idea 184",
-      "description": "Placeholder idea #184 in 'Design'.",
-      "energy_level": "high"
+      "title": "Food Packaging Redesign",
+      "description": "Redesign the packaging for a common grocery item. Make it more appealing, sustainable, or fun.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["packaging", "product", "redesign", "branding"]
     },
     {
-      "id": "art_ideas_185",
-      "category": "Painting",
-      "title": "Art Ideas Idea 185",
-      "description": "Placeholder idea #185 in 'Painting'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_186",
-      "category": "Design",
-      "title": "Art Ideas Idea 186",
-      "description": "Placeholder idea #186 in 'Design'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_187",
-      "category": "Drawing",
-      "title": "Art Ideas Idea 187",
-      "description": "Placeholder idea #187 in 'Drawing'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_188",
-      "category": "Worldbuilding",
-      "title": "Art Ideas Idea 188",
-      "description": "Placeholder idea #188 in 'Worldbuilding'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_189",
+      "id": "art_049",
       "category": "Digital Art",
-      "title": "Art Ideas Idea 189",
-      "description": "Placeholder idea #189 in 'Digital Art'.",
-      "energy_level": "medium"
+      "title": "Potion Ingredient Study",
+      "description": "Illustrate a collection of magical potion ingredients: glowing mushrooms, dragon scales, moonflowers, etc. with labels.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["fantasy", "potions", "botanical", "magical"]
     },
     {
-      "id": "art_ideas_190",
+      "id": "art_050",
+      "category": "Painting",
+      "title": "Reflections in Metal",
+      "description": "Paint a chrome or metallic object showing complex reflections of its environment. Study how metal distorts what it reflects.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["metal", "reflections", "realism", "study"]
+    },
+    {
+      "id": "art_051",
+      "category": "Drawing",
+      "title": "Favorite Book Scene",
+      "description": "Illustrate a scene from your favorite book that has never been officially illustrated. Interpret the author's words visually.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["illustration", "book", "narrative", "personal"]
+    },
+    {
+      "id": "art_052",
       "category": "Photography",
-      "title": "Art Ideas Idea 190",
-      "description": "Placeholder idea #190 in 'Photography'.",
-      "energy_level": "high"
+      "title": "Local Wildlife Watch",
+      "description": "Photograph local wildlife in your area. Birds, squirrels, insects - document the creatures sharing your space.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["wildlife", "nature", "local", "documentary"]
     },
     {
-      "id": "art_ideas_191",
-      "category": "Design",
-      "title": "Art Ideas Idea 191",
-      "description": "Placeholder idea #191 in 'Design'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "art_ideas_192",
+      "id": "art_053",
       "category": "Mixed Media",
-      "title": "Art Ideas Idea 192",
-      "description": "Placeholder idea #192 in 'Mixed Media'.",
-      "energy_level": "high"
+      "title": "Ephemera Postcard",
+      "description": "Create a postcard using ephemera (tickets, stamps, receipts, wrappers) from a memorable day or trip.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["ephemera", "postcard", "memory", "collage"]
     },
     {
-      "id": "art_ideas_193",
+      "id": "art_054",
+      "category": "Character Design",
+      "title": "Animal Anthro Warrior",
+      "description": "Design an anthropomorphic animal warrior. Consider how their animal traits influence their fighting style and armor design.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["anthro", "warrior", "fantasy", "armor"]
+    },
+    {
+      "id": "art_055",
       "category": "Worldbuilding",
-      "title": "Art Ideas Idea 193",
-      "description": "Placeholder idea #193 in 'Worldbuilding'.",
-      "energy_level": "high"
+      "title": "Steampunk Transportation",
+      "description": "Design vehicles for a steampunk world: personal transport, public transit, and cargo hauling. Mix Victorian aesthetics with impossible machinery.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["steampunk", "vehicles", "design", "mechanical"]
     },
     {
-      "id": "art_ideas_194",
-      "category": "Drawing",
-      "title": "Art Ideas Idea 194",
-      "description": "Placeholder idea #194 in 'Drawing'.",
-      "energy_level": "low"
+      "id": "art_056",
+      "category": "Design",
+      "title": "Enamel Pin Designs",
+      "description": "Design 5 enamel pins in a cohesive theme (plants, space, food, animals). Keep designs simple and bold for manufacturing.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["pins", "merchandise", "simple", "series"]
     },
     {
-      "id": "art_ideas_195",
-      "category": "Character Design",
-      "title": "Art Ideas Idea 195",
-      "description": "Placeholder idea #195 in 'Character Design'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_196",
+      "id": "art_057",
       "category": "Digital Art",
-      "title": "Art Ideas Idea 196",
-      "description": "Placeholder idea #196 in 'Digital Art'.",
-      "energy_level": "medium"
+      "title": "Afrofuturist Portrait",
+      "description": "Create a portrait that blends African cultural elements with futuristic technology. Celebrate heritage through a sci-fi lens.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["afrofuturism", "portrait", "culture", "sci-fi"]
     },
     {
-      "id": "art_ideas_197",
-      "category": "Character Design",
-      "title": "Art Ideas Idea 197",
-      "description": "Placeholder idea #197 in 'Character Design'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "art_ideas_198",
-      "category": "Drawing",
-      "title": "Art Ideas Idea 198",
-      "description": "Placeholder idea #198 in 'Drawing'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "art_ideas_199",
+      "id": "art_058",
       "category": "Painting",
-      "title": "Art Ideas Idea 199",
-      "description": "Placeholder idea #199 in 'Painting'.",
-      "energy_level": "medium"
+      "title": "Impasto Texture Exploration",
+      "description": "Create a painting using heavy impasto technique. Let brushstrokes and palette knife marks become part of the artwork.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["impasto", "texture", "technique", "expressive"]
     },
     {
-      "id": "art_ideas_200",
+      "id": "art_059",
       "category": "Drawing",
-      "title": "Art Ideas Idea 200",
-      "description": "Placeholder idea #200 in 'Drawing'.",
-      "energy_level": "high"
+      "title": "Daily Doodle Challenge",
+      "description": "Draw one small doodle every day for a month. Keep them simple (5 minutes max) but try to vary subjects.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["daily", "doodle", "challenge", "habit"]
+    },
+    {
+      "id": "art_060",
+      "category": "Photography",
+      "title": "Golden Hour Portraits",
+      "description": "Photograph portraits during golden hour. Master the warm, soft light of sunrise or sunset.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["golden hour", "portrait", "natural light", "warm"]
+    },
+    {
+      "id": "art_061",
+      "category": "Mixed Media",
+      "title": "Woven Paper Art",
+      "description": "Create art by weaving strips of different papers together. Use patterns, photos, or painted papers.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["weaving", "paper", "pattern", "craft"]
+    },
+    {
+      "id": "art_062",
+      "category": "Character Design",
+      "title": "Modern Deity",
+      "description": "Design a deity for the modern age - god of WiFi, goddess of caffeine, spirit of social media. Give them appropriate divine attributes.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["deity", "modern", "fantasy", "humor"]
+    },
+    {
+      "id": "art_063",
+      "category": "Worldbuilding",
+      "title": "Giant Creature Village",
+      "description": "Design a village built on or around a giant sleeping creature. How do residents live with their unusual foundation?",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["creature", "village", "fantasy", "scale"]
+    },
+    {
+      "id": "art_064",
+      "category": "Design",
+      "title": "Event Poster",
+      "description": "Design a poster for a local or fictional event. Include all necessary information while creating visual impact.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["poster", "event", "typography", "layout"]
+    },
+    {
+      "id": "art_065",
+      "category": "Digital Art",
+      "title": "Seasonal Tree",
+      "description": "Illustrate the same tree in all four seasons. Show how light, color, and environment change throughout the year.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["tree", "seasons", "series", "nature"]
+    },
+    {
+      "id": "art_066",
+      "category": "Painting",
+      "title": "Colorful Hair Portrait",
+      "description": "Paint a portrait featuring vibrant, unnatural hair colors. Practice rendering reflective, colorful strands.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["portrait", "hair", "colorful", "fantasy"]
+    },
+    {
+      "id": "art_067",
+      "category": "Drawing",
+      "title": "Mechanical Breakdown",
+      "description": "Draw an exploded view of a mechanical object showing all its parts separated but in spatial relationship.",
+      "energy_level": "medium",
+      "difficulty": "complex",
+      "tags": ["mechanical", "technical", "exploded view", "detail"]
+    },
+    {
+      "id": "art_068",
+      "category": "Photography",
+      "title": "Architecture Abstract",
+      "description": "Photograph architectural details abstractly - focus on patterns, lines, and shapes rather than recognizable buildings.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["architecture", "abstract", "patterns", "urban"]
+    },
+    {
+      "id": "art_069",
+      "category": "Mixed Media",
+      "title": "Music Visualization",
+      "description": "Listen to a song and create art that represents how it makes you feel. Use any media that fits the mood.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["music", "synesthesia", "abstract", "emotion"]
+    },
+    {
+      "id": "art_070",
+      "category": "Character Design",
+      "title": "Nightmare Creature",
+      "description": "Design a creature from nightmares. Research sleep paralysis demons and childhood fears for inspiration.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["horror", "creature", "nightmare", "dark"]
+    },
+    {
+      "id": "art_071",
+      "category": "Worldbuilding",
+      "title": "Gravity-Shifted City",
+      "description": "Design a city where gravity works differently - maybe it pulls toward the center, or changes direction by district.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["gravity", "city", "surreal", "architecture"]
+    },
+    {
+      "id": "art_072",
+      "category": "Design",
+      "title": "Book Cover Series",
+      "description": "Design covers for a three-book series. Create visual continuity while giving each book its own identity.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["book cover", "series", "publishing", "typography"]
+    },
+    {
+      "id": "art_073",
+      "category": "Digital Art",
+      "title": "Glitch Art Portrait",
+      "description": "Create a portrait incorporating intentional digital glitches. Experiment with data bending, pixel sorting, and corruption effects.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["glitch", "digital", "portrait", "experimental"]
+    },
+    {
+      "id": "art_074",
+      "category": "Painting",
+      "title": "Alla Prima Portrait",
+      "description": "Complete a portrait in a single painting session (alla prima/wet-on-wet). Work quickly and embrace imperfections.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["portrait", "alla prima", "quick", "oil"]
+    },
+    {
+      "id": "art_075",
+      "category": "Drawing",
+      "title": "Comic Strip",
+      "description": "Create a 4-panel comic strip about something that happened to you today. Practice visual storytelling.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["comic", "narrative", "humor", "personal"]
+    },
+    {
+      "id": "art_076",
+      "category": "Photography",
+      "title": "Food Styling",
+      "description": "Style and photograph a meal like it's for a cookbook. Pay attention to props, lighting, and composition.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["food", "styling", "commercial", "composition"]
+    },
+    {
+      "id": "art_077",
+      "category": "Mixed Media",
+      "title": "Found Poetry Visual",
+      "description": "Create found poetry from old books or newspapers, then create visual art around the words you selected.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["poetry", "found", "text", "collage"]
+    },
+    {
+      "id": "art_078",
+      "category": "Character Design",
+      "title": "D&D Character Portrait",
+      "description": "Design a Dungeons & Dragons character with full backstory. Show their class, race, equipment, and personality.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["dnd", "rpg", "fantasy", "character sheet"]
+    },
+    {
+      "id": "art_079",
+      "category": "Worldbuilding",
+      "title": "Crystal Cave Ecosystem",
+      "description": "Design life forms that evolved in giant crystal caves. How do they navigate, communicate, and survive?",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["crystal", "ecosystem", "underground", "fantasy"]
+    },
+    {
+      "id": "art_080",
+      "category": "Design",
+      "title": "Infographic Design",
+      "description": "Design an infographic explaining something you know well. Make complex information visual and accessible.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["infographic", "data", "information", "layout"]
+    },
+    {
+      "id": "art_081",
+      "category": "Digital Art",
+      "title": "Pixel Art Room",
+      "description": "Create a detailed pixel art scene of an interior room. Limit yourself to a small color palette.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["pixel art", "interior", "retro", "limited palette"]
+    },
+    {
+      "id": "art_082",
+      "category": "Painting",
+      "title": "Nocturne Study",
+      "description": "Paint a night scene focusing on how artificial and natural light sources interact in darkness.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["night", "nocturne", "lighting", "atmosphere"]
+    },
+    {
+      "id": "art_083",
+      "category": "Drawing",
+      "title": "Extreme Perspective",
+      "description": "Draw a scene with dramatic perspective - extreme worm's eye or bird's eye view. Push the vanishing points.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["perspective", "dramatic", "technique", "architecture"]
+    },
+    {
+      "id": "art_084",
+      "category": "Photography",
+      "title": "Forced Perspective",
+      "description": "Create photos using forced perspective illusions - make small things look giant or vice versa.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["forced perspective", "illusion", "creative", "fun"]
+    },
+    {
+      "id": "art_085",
+      "category": "Mixed Media",
+      "title": "Zine Creation",
+      "description": "Create a mini zine (8-page fold from one sheet). Pick a theme and fill it with drawings, collage, or photos.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["zine", "mini", "fold", "self-publish"]
+    },
+    {
+      "id": "art_086",
+      "category": "Character Design",
+      "title": "Historical Figure Reimagined",
+      "description": "Redesign a historical figure as a fantasy or sci-fi character. Keep their personality traits while changing the setting.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["historical", "reimagine", "fantasy", "costume"]
+    },
+    {
+      "id": "art_087",
+      "category": "Worldbuilding",
+      "title": "Nomadic Sky People",
+      "description": "Design a culture that lives entirely in airships or on flying creatures. Show their homes, customs, and technology.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["airship", "nomadic", "culture", "sky"]
+    },
+    {
+      "id": "art_088",
+      "category": "Design",
+      "title": "Brand Identity Kit",
+      "description": "Create a complete brand identity for a fictional business: logo, colors, typography, and application examples.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["branding", "identity", "logo", "business"]
+    },
+    {
+      "id": "art_089",
+      "category": "Digital Art",
+      "title": "Mermaid Redesign",
+      "description": "Redesign mermaids based on real deep-sea fish. Create beautiful but unsettling creatures of the deep.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["mermaid", "deep sea", "creature", "redesign"]
+    },
+    {
+      "id": "art_090",
+      "category": "Painting",
+      "title": "Color Temperature Study",
+      "description": "Paint a scene focusing only on warm vs cool colors. Practice using temperature to create depth and mood.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["color", "temperature", "study", "technique"]
+    },
+    {
+      "id": "art_091",
+      "category": "Drawing",
+      "title": "Object Drawing: 50 Items",
+      "description": "Draw 50 different everyday objects from observation. Focus on accuracy and rendering techniques.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["observation", "objects", "challenge", "practice"]
+    },
+    {
+      "id": "art_092",
+      "category": "Photography",
+      "title": "Street Photography Day",
+      "description": "Spend a day doing street photography. Capture candid moments, interesting characters, and urban life.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["street", "candid", "urban", "documentary"]
+    },
+    {
+      "id": "art_093",
+      "category": "Mixed Media",
+      "title": "Embroidered Photo",
+      "description": "Print a photo and add embroidery over it. Use thread to highlight, decorate, or transform the image.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["embroidery", "photo", "hybrid", "textile"]
+    },
+    {
+      "id": "art_094",
+      "category": "Character Design",
+      "title": "Weather Personification",
+      "description": "Design characters representing different weather phenomena: thunder, fog, sunshine, hurricane. Show their personalities.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["weather", "personification", "elements", "series"]
+    },
+    {
+      "id": "art_095",
+      "category": "Worldbuilding",
+      "title": "Mushroom Kingdom",
+      "description": "Design a civilization of small creatures living in a giant mushroom forest. Scale everyday things to their perspective.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["mushroom", "tiny", "forest", "scale"]
+    },
+    {
+      "id": "art_096",
+      "category": "Design",
+      "title": "Playing Card Design",
+      "description": "Design a complete suit of playing cards (13 cards) with a unique theme. Create consistent court card illustrations.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["cards", "series", "illustration", "game"]
+    },
+    {
+      "id": "art_097",
+      "category": "Digital Art",
+      "title": "Isometric Room",
+      "description": "Create an isometric illustration of a themed room (game room, music studio, garden shed). Pack in details.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["isometric", "interior", "detail", "3D"]
+    },
+    {
+      "id": "art_098",
+      "category": "Painting",
+      "title": "Plein Air Challenge",
+      "description": "Take your paints outside and paint from life. Complete a landscape or urban scene in natural light.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["plein air", "outdoor", "landscape", "natural light"]
+    },
+    {
+      "id": "art_099",
+      "category": "Drawing",
+      "title": "Continuous Line Portrait",
+      "description": "Draw a portrait without lifting your pen from the paper. Create a flowing, connected line drawing.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["continuous line", "portrait", "technique", "challenge"]
+    },
+    {
+      "id": "art_100",
+      "category": "Photography",
+      "title": "Self-Portrait Project",
+      "description": "Create a series of self-portraits that tell a story or explore your identity. Use creative lighting and composition.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["self-portrait", "identity", "series", "personal"]
+    },
+    {
+      "id": "art_101",
+      "category": "Sculpture",
+      "title": "Air-Dry Clay Figure",
+      "description": "Create a small figure or creature from air-dry clay. Focus on form and gesture over fine details.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["clay", "sculpture", "3D", "figure"]
+    },
+    {
+      "id": "art_102",
+      "category": "Digital Art",
+      "title": "VHS Aesthetic Illustration",
+      "description": "Create art in the style of 80s VHS covers. Include scan lines, vintage colors, and retro typography.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["retro", "80s", "vhs", "aesthetic"]
+    },
+    {
+      "id": "art_103",
+      "category": "Painting",
+      "title": "Complementary Color Scene",
+      "description": "Paint a scene using primarily complementary colors (red/green, blue/orange, purple/yellow). Master color vibration.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["color theory", "complementary", "vibrant", "study"]
+    },
+    {
+      "id": "art_104",
+      "category": "Drawing",
+      "title": "Interior Sketch",
+      "description": "Sketch the room you're in right now. Focus on capturing space, furniture, and light.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["interior", "observation", "sketch", "immediate"]
+    },
+    {
+      "id": "art_105",
+      "category": "Photography",
+      "title": "Double Exposure",
+      "description": "Create double exposure images, either in-camera or in post. Blend portraits with textures or landscapes.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["double exposure", "experimental", "portrait", "overlay"]
+    },
+    {
+      "id": "art_106",
+      "category": "Mixed Media",
+      "title": "Mail Art Exchange",
+      "description": "Create a piece of mail art to send to a friend. Decorate an envelope or postcard with mixed media.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["mail art", "postcard", "exchange", "gift"]
+    },
+    {
+      "id": "art_107",
+      "category": "Character Design",
+      "title": "Robot Companion",
+      "description": "Design a friendly robot companion for daily life. Consider its personality, function, and visual design language.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["robot", "sci-fi", "companion", "friendly"]
+    },
+    {
+      "id": "art_108",
+      "category": "Worldbuilding",
+      "title": "Clockwork City",
+      "description": "Design a city that runs entirely on clockwork mechanisms. Show the gears, springs, and mechanical systems.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["clockwork", "mechanical", "city", "steampunk"]
+    },
+    {
+      "id": "art_109",
+      "category": "Design",
+      "title": "Social Media Template",
+      "description": "Design a set of social media post templates for a specific brand or purpose. Include multiple layouts.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["social media", "template", "digital", "marketing"]
+    },
+    {
+      "id": "art_110",
+      "category": "Digital Art",
+      "title": "Magic Item Collection",
+      "description": "Illustrate a collection of magical items for an RPG: weapons, armor, potions, and artifacts.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["rpg", "items", "fantasy", "game art"]
+    },
+    {
+      "id": "art_111",
+      "category": "Painting",
+      "title": "Fog and Mist Study",
+      "description": "Paint a scene heavy with fog or mist. Practice how atmosphere affects value and color.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["atmosphere", "fog", "mist", "landscape"]
+    },
+    {
+      "id": "art_112",
+      "category": "Drawing",
+      "title": "Vehicle Design",
+      "description": "Design a vehicle that doesn't exist yet - flying car, hover bike, submarine bus. Make it functional-looking.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["vehicle", "design", "sci-fi", "concept"]
+    },
+    {
+      "id": "art_113",
+      "category": "Photography",
+      "title": "Blue Hour Magic",
+      "description": "Photograph during blue hour (just after sunset). Capture the beautiful blue tones and city lights.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["blue hour", "twilight", "city", "atmospheric"]
+    },
+    {
+      "id": "art_114",
+      "category": "Mixed Media",
+      "title": "Gratitude Art Journal",
+      "description": "Create a journal page about something you're grateful for. Combine writing, drawing, and collage.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["journal", "gratitude", "personal", "therapeutic"]
+    },
+    {
+      "id": "art_115",
+      "category": "Character Design",
+      "title": "Zodiac Character",
+      "description": "Design a character based on your zodiac sign. Incorporate the sign's symbols, colors, and personality traits.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["zodiac", "astrology", "personal", "symbolism"]
+    },
+    {
+      "id": "art_116",
+      "category": "Worldbuilding",
+      "title": "Vertical City",
+      "description": "Design a city that exists entirely vertically - on a cliff face, in a chasm, or on a giant tree trunk.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["vertical", "city", "architecture", "unique"]
+    },
+    {
+      "id": "art_117",
+      "category": "Design",
+      "title": "Sticker Sheet",
+      "description": "Design a sheet of stickers around a theme. Keep designs simple, cute, and die-cut friendly.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["stickers", "cute", "merchandise", "simple"]
+    },
+    {
+      "id": "art_118",
+      "category": "Digital Art",
+      "title": "Dream Sequence",
+      "description": "Illustrate a scene from a dream you've had. Embrace surreal logic and impossible scenarios.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["dream", "surreal", "personal", "subconscious"]
+    },
+    {
+      "id": "art_119",
+      "category": "Painting",
+      "title": "Underwater Portrait",
+      "description": "Paint a portrait as if the subject is underwater. Show floating hair, distorted light, and bubbles.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["underwater", "portrait", "distortion", "unique"]
+    },
+    {
+      "id": "art_120",
+      "category": "Drawing",
+      "title": "Childhood Toy Portrait",
+      "description": "Draw a detailed portrait of a toy from your childhood. Capture the memories and wear.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["toy", "nostalgia", "personal", "object"]
+    },
+    {
+      "id": "art_121",
+      "category": "Photography",
+      "title": "Minimal Composition",
+      "description": "Create minimalist photos with lots of negative space. Focus on single subjects and clean compositions.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["minimal", "negative space", "clean", "simple"]
+    },
+    {
+      "id": "art_122",
+      "category": "Mixed Media",
+      "title": "Recipe Art",
+      "description": "Turn a favorite recipe into an illustrated artwork. Include ingredients, steps, and personal memories.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["recipe", "food", "illustration", "family"]
+    },
+    {
+      "id": "art_123",
+      "category": "Character Design",
+      "title": "Food Mascot",
+      "description": "Design a mascot character for a food product or restaurant. Make it memorable and brand-appropriate.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["mascot", "food", "brand", "commercial"]
+    },
+    {
+      "id": "art_124",
+      "category": "Worldbuilding",
+      "title": "Ice Age Society",
+      "description": "Design a human society that survived an ice age. Show their architecture, clothing, and survival technology.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["ice age", "survival", "society", "environment"]
+    },
+    {
+      "id": "art_125",
+      "category": "Design",
+      "title": "T-Shirt Design",
+      "description": "Create a t-shirt design you'd want to wear. Consider printing limitations and visual impact from a distance.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["t-shirt", "apparel", "merchandise", "wearable"]
+    },
+    {
+      "id": "art_126",
+      "category": "Digital Art",
+      "title": "Synthwave Landscape",
+      "description": "Create a retro-futuristic synthwave landscape with neon grids, chrome mountains, and sunset gradients.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["synthwave", "retro", "80s", "neon"]
+    },
+    {
+      "id": "art_127",
+      "category": "Painting",
+      "title": "Water Reflection Study",
+      "description": "Paint a scene with water reflections. Study how reflections differ from what they're reflecting.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["water", "reflection", "study", "nature"]
+    },
+    {
+      "id": "art_128",
+      "category": "Drawing",
+      "title": "Fantasy Map",
+      "description": "Draw a detailed fantasy map for an imaginary world. Include terrain, cities, and decorative elements.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["map", "fantasy", "worldbuilding", "detail"]
+    },
+    {
+      "id": "art_129",
+      "category": "Photography",
+      "title": "Flat Lay Collection",
+      "description": "Create flat lay photos of themed collections: your bag contents, craft supplies, favorite things.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["flat lay", "collection", "arrangement", "overhead"]
+    },
+    {
+      "id": "art_130",
+      "category": "Mixed Media",
+      "title": "Pressed Flower Art",
+      "description": "Collect and press flowers, then create artwork incorporating them. Add drawing or painting around them.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["flowers", "pressed", "botanical", "nature"]
+    },
+    {
+      "id": "art_131",
+      "category": "Character Design",
+      "title": "Opposite Day",
+      "description": "Take one of your existing characters and design their opposite. Flip their personality, aesthetic, and role.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["opposite", "character", "contrast", "redesign"]
+    },
+    {
+      "id": "art_132",
+      "category": "Worldbuilding",
+      "title": "Solarpunk Future",
+      "description": "Design an optimistic future city where technology and nature exist in harmony. Show green architecture.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["solarpunk", "optimistic", "green", "future"]
+    },
+    {
+      "id": "art_133",
+      "category": "Design",
+      "title": "Menu Design",
+      "description": "Design a restaurant menu. Consider hierarchy, readability, and how design reflects the restaurant's vibe.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["menu", "restaurant", "typography", "layout"]
+    },
+    {
+      "id": "art_134",
+      "category": "Digital Art",
+      "title": "Magical Library",
+      "description": "Illustrate a magical library with floating books, hidden passages, and mystical lighting.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["library", "magic", "books", "fantasy"]
+    },
+    {
+      "id": "art_135",
+      "category": "Painting",
+      "title": "Colorful Shadows",
+      "description": "Paint a scene where shadows aren't gray or black but vibrant colors. Study how light affects shadow color.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["shadows", "color", "light", "impressionist"]
+    },
+    {
+      "id": "art_136",
+      "category": "Drawing",
+      "title": "Skeleton Study",
+      "description": "Draw a human skeleton from reference. Understand how bones create the framework for the body.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["anatomy", "skeleton", "study", "medical"]
+    },
+    {
+      "id": "art_137",
+      "category": "Photography",
+      "title": "Motion Blur Art",
+      "description": "Experiment with intentional camera movement to create abstract motion blur images.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["motion blur", "abstract", "experimental", "movement"]
+    },
+    {
+      "id": "art_138",
+      "category": "Mixed Media",
+      "title": "Texture Rubbing Collection",
+      "description": "Create a collection of texture rubbings from interesting surfaces. Arrange them into a composition.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["texture", "rubbing", "collection", "found"]
+    },
+    {
+      "id": "art_139",
+      "category": "Character Design",
+      "title": "Elemental Guardians",
+      "description": "Design guardians for each classical element: earth, water, fire, air. Show their elemental powers visually.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["elements", "guardians", "fantasy", "series"]
+    },
+    {
+      "id": "art_140",
+      "category": "Worldbuilding",
+      "title": "Abandoned Theme Park",
+      "description": "Design an abandoned theme park being reclaimed by nature. Tell stories through the decay.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["abandoned", "theme park", "decay", "nature"]
+    },
+    {
+      "id": "art_141",
+      "category": "Design",
+      "title": "Calendar Illustration",
+      "description": "Create illustrations for each month of a calendar. Consider seasonal themes and visual consistency.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["calendar", "months", "series", "seasonal"]
+    },
+    {
+      "id": "art_142",
+      "category": "Digital Art",
+      "title": "Holographic Portrait",
+      "description": "Create a portrait with holographic/iridescent effects. Play with rainbow colors and light refraction.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["holographic", "iridescent", "portrait", "futuristic"]
+    },
+    {
+      "id": "art_143",
+      "category": "Painting",
+      "title": "Broken Glass Effect",
+      "description": "Paint a portrait or scene as if viewed through broken glass, with fragments showing different perspectives.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["broken", "glass", "fragmented", "experimental"]
+    },
+    {
+      "id": "art_144",
+      "category": "Drawing",
+      "title": "Negative Space Drawing",
+      "description": "Draw the negative space around an object rather than the object itself. Train your eye to see differently.",
+      "energy_level": "low",
+      "difficulty": "medium",
+      "tags": ["negative space", "technique", "perception", "practice"]
+    },
+    {
+      "id": "art_145",
+      "category": "Photography",
+      "title": "Pet Personality",
+      "description": "Create a photo series capturing your pet's personality. Show their quirks, habits, and character.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["pet", "personality", "series", "documentary"]
+    },
+    {
+      "id": "art_146",
+      "category": "Mixed Media",
+      "title": "Timeline Art",
+      "description": "Create a visual timeline of your life or a year using photos, tickets, drawings, and memorabilia.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["timeline", "personal", "memory", "collage"]
+    },
+    {
+      "id": "art_147",
+      "category": "Character Design",
+      "title": "Plant Person",
+      "description": "Design a character that's part plant, part person. Show how photosynthesis and growth affect their life.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["plant", "hybrid", "fantasy", "nature"]
+    },
+    {
+      "id": "art_148",
+      "category": "Worldbuilding",
+      "title": "Library Dimension",
+      "description": "Design a dimension that's an infinite library. Show impossible architecture and the guardians who maintain it.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["library", "dimension", "infinite", "surreal"]
+    },
+    {
+      "id": "art_149",
+      "category": "Design",
+      "title": "Icon Set",
+      "description": "Design a cohesive icon set for a specific app or website. Maintain consistent style across all icons.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["icons", "ui", "consistent", "digital"]
+    },
+    {
+      "id": "art_150",
+      "category": "Digital Art",
+      "title": "Candy Kingdom",
+      "description": "Illustrate a kingdom made entirely of candy and sweets. Design the architecture and inhabitants.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["candy", "fantasy", "colorful", "whimsical"]
+    },
+    {
+      "id": "art_151",
+      "category": "Painting",
+      "title": "Fabric Draping Study",
+      "description": "Set up and paint draped fabric. Study how folds create shadows and how different fabrics behave.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["fabric", "draping", "folds", "study"]
+    },
+    {
+      "id": "art_152",
+      "category": "Drawing",
+      "title": "Cross-Section Drawing",
+      "description": "Draw a cross-section of something: a building, a fruit, a machine, an animal. Show what's inside.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["cross-section", "educational", "diagram", "inside"]
+    },
+    {
+      "id": "art_153",
+      "category": "Photography",
+      "title": "Day in the Life",
+      "description": "Document an entire day in photos, from waking up to going to sleep. Tell your daily story.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["documentary", "daily", "personal", "story"]
+    },
+    {
+      "id": "art_154",
+      "category": "Mixed Media",
+      "title": "Monotype Print",
+      "description": "Create monotype prints using glass or plexiglass. Experiment with this unique one-of-a-kind printmaking.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["monotype", "printmaking", "unique", "paint"]
+    },
+    {
+      "id": "art_155",
+      "category": "Character Design",
+      "title": "Music Genre Personified",
+      "description": "Design characters representing different music genres: punk, classical, hip-hop, country, electronic.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["music", "genre", "personification", "series"]
+    },
+    {
+      "id": "art_156",
+      "category": "Worldbuilding",
+      "title": "Micro Civilization",
+      "description": "Design a civilization of tiny beings living in a human garden. Show their cities, transportation, and culture.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["tiny", "civilization", "garden", "scale"]
+    },
+    {
+      "id": "art_157",
+      "category": "Design",
+      "title": "Wine Label",
+      "description": "Design a wine or beer label. Balance elegance with information and create shelf appeal.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["wine", "label", "packaging", "elegant"]
+    },
+    {
+      "id": "art_158",
+      "category": "Digital Art",
+      "title": "Ghost Town",
+      "description": "Illustrate an Old West ghost town at twilight. Add subtle supernatural elements hidden throughout.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["western", "ghost", "twilight", "spooky"]
+    },
+    {
+      "id": "art_159",
+      "category": "Painting",
+      "title": "Painting from a Song",
+      "description": "Listen to a song and paint what you see in your mind. Let the music guide your colors and composition.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["music", "synesthesia", "interpretation", "emotion"]
+    },
+    {
+      "id": "art_160",
+      "category": "Drawing",
+      "title": "Upside Down Drawing",
+      "description": "Turn a reference photo upside down and draw it that way. This tricks your brain into seeing shapes, not symbols.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["technique", "perception", "practice", "trick"]
+    },
+    {
+      "id": "art_161",
+      "category": "Photography",
+      "title": "Symmetry Hunt",
+      "description": "Photograph symmetrical subjects. Seek out natural and architectural symmetry in your environment.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["symmetry", "pattern", "architecture", "nature"]
+    },
+    {
+      "id": "art_162",
+      "category": "Mixed Media",
+      "title": "Vision Board",
+      "description": "Create an artistic vision board for your goals. Make it beautiful, not just functional.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["vision board", "goals", "collage", "personal"]
+    },
+    {
+      "id": "art_163",
+      "category": "Character Design",
+      "title": "Familiar Spirits",
+      "description": "Design familiar spirits (magical animal companions) for different types of magic users.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["familiar", "magic", "animals", "fantasy"]
+    },
+    {
+      "id": "art_164",
+      "category": "Worldbuilding",
+      "title": "Underwater City",
+      "description": "Design an underwater city for air-breathing inhabitants. Show how they solved the engineering challenges.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["underwater", "city", "engineering", "sci-fi"]
+    },
+    {
+      "id": "art_165",
+      "category": "Design",
+      "title": "Letterhead Design",
+      "description": "Design complete business stationery: letterhead, envelope, and business card with cohesive branding.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["stationery", "business", "branding", "professional"]
+    },
+    {
+      "id": "art_166",
+      "category": "Digital Art",
+      "title": "Overgrown Technology",
+      "description": "Illustrate modern technology being overtaken by nature - computers with vines, phones with moss.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["nature", "technology", "overgrown", "contrast"]
+    },
+    {
+      "id": "art_167",
+      "category": "Painting",
+      "title": "Knife Painting Only",
+      "description": "Complete a painting using only palette knives, no brushes. Embrace bold marks and texture.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["palette knife", "texture", "technique", "bold"]
+    },
+    {
+      "id": "art_168",
+      "category": "Drawing",
+      "title": "Eye Study Collection",
+      "description": "Draw eyes from many different angles, ages, and expressions. Build a reference sheet.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["eyes", "anatomy", "expression", "study"]
+    },
+    {
+      "id": "art_169",
+      "category": "Photography",
+      "title": "Through the Window",
+      "description": "Photograph scenes through windows. Capture reflections, frames, and the barrier between inside and out.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["window", "framing", "reflection", "perspective"]
+    },
+    {
+      "id": "art_170",
+      "category": "Mixed Media",
+      "title": "Seed Packet Art",
+      "description": "Design vintage-style seed packets for fantastical plants. Include planting instructions.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["seeds", "vintage", "botanical", "fantasy"]
+    },
+    {
+      "id": "art_171",
+      "category": "Character Design",
+      "title": "Shapeshifter Forms",
+      "description": "Design a shapeshifter and all their different forms. Keep recognizable elements across transformations.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["shapeshifter", "forms", "transformation", "series"]
+    },
+    {
+      "id": "art_172",
+      "category": "Worldbuilding",
+      "title": "Tree City",
+      "description": "Design a city built in and around giant trees. Show how different levels serve different purposes.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["tree", "city", "vertical", "nature"]
+    },
+    {
+      "id": "art_173",
+      "category": "Design",
+      "title": "Magazine Spread",
+      "description": "Design a two-page magazine spread for an article of your choice. Balance text and images.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["magazine", "layout", "editorial", "spread"]
+    },
+    {
+      "id": "art_174",
+      "category": "Digital Art",
+      "title": "Cottagecore Scene",
+      "description": "Create a cozy cottagecore illustration: gardens, baking, rustic homes, and pastoral peace.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["cottagecore", "cozy", "pastoral", "aesthetic"]
+    },
+    {
+      "id": "art_175",
+      "category": "Painting",
+      "title": "Movement in Stillness",
+      "description": "Paint a still image that conveys motion - flowing water, blowing wind, falling leaves.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["motion", "still life", "dynamic", "technique"]
+    },
+    {
+      "id": "art_176",
+      "category": "Drawing",
+      "title": "Mechanical Creature",
+      "description": "Design a creature that's part organic, part mechanical. Show how the systems integrate.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["mechanical", "organic", "creature", "hybrid"]
+    },
+    {
+      "id": "art_177",
+      "category": "Photography",
+      "title": "Bokeh Light Art",
+      "description": "Create images with beautiful bokeh. Experiment with different light sources and aperture settings.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["bokeh", "lights", "blur", "atmospheric"]
+    },
+    {
+      "id": "art_178",
+      "category": "Mixed Media",
+      "title": "Accordion Book",
+      "description": "Create a small accordion-fold book telling a visual story. Each panel should connect to the next.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["book", "accordion", "narrative", "fold"]
+    },
+    {
+      "id": "art_179",
+      "category": "Character Design",
+      "title": "Constellation Being",
+      "description": "Design a being made of stars and constellations. Show how they shift and change with the night sky.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["constellation", "stars", "celestial", "ethereal"]
+    },
+    {
+      "id": "art_180",
+      "category": "Worldbuilding",
+      "title": "Floating Market",
+      "description": "Design a market that takes place on boats or floating platforms. Show the goods, vendors, and atmosphere.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["market", "floating", "boats", "commerce"]
+    },
+    {
+      "id": "art_181",
+      "category": "Design",
+      "title": "Postage Stamp Set",
+      "description": "Design a series of commemorative stamps around a theme. Work within the small format constraints.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["stamps", "small", "series", "commemorative"]
+    },
+    {
+      "id": "art_182",
+      "category": "Digital Art",
+      "title": "Magical Girl Transformation",
+      "description": "Design a magical girl character including their transformation sequence and magical form.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["magical girl", "transformation", "anime", "costume"]
+    },
+    {
+      "id": "art_183",
+      "category": "Painting",
+      "title": "Rim Lighting Portrait",
+      "description": "Paint a portrait with dramatic rim lighting (light from behind the subject). Master the glowing edges.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["rim light", "portrait", "dramatic", "lighting"]
+    },
+    {
+      "id": "art_184",
+      "category": "Drawing",
+      "title": "Drapery Challenge",
+      "description": "Draw fabric in 10 different situations: hanging, draped, twisted, wet, flowing, etc.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["drapery", "fabric", "challenge", "study"]
+    },
+    {
+      "id": "art_185",
+      "category": "Photography",
+      "title": "Texture Exploration",
+      "description": "Create a photo series focused entirely on textures. Get close and fill the frame with surface detail.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["texture", "close-up", "detail", "series"]
+    },
+    {
+      "id": "art_186",
+      "category": "Mixed Media",
+      "title": "Painted Photo",
+      "description": "Print a photo and paint over it, extending the scene beyond the photo's edges or adding elements.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["photo", "paint", "extension", "hybrid"]
+    },
+    {
+      "id": "art_187",
+      "category": "Character Design",
+      "title": "Outfit Variations",
+      "description": "Design 7 different outfits for one character, one for each day of the week. Show their style range.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["outfits", "fashion", "series", "character"]
+    },
+    {
+      "id": "art_188",
+      "category": "Worldbuilding",
+      "title": "Coral City",
+      "description": "Design a city built from and integrated with living coral. Show the symbiotic relationship.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["coral", "ocean", "symbiotic", "organic"]
+    },
+    {
+      "id": "art_189",
+      "category": "Design",
+      "title": "App Loading Screens",
+      "description": "Design interesting loading screens for an app. Make waiting entertaining.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["app", "loading", "ui", "animation"]
+    },
+    {
+      "id": "art_190",
+      "category": "Digital Art",
+      "title": "Bioluminescent Sea",
+      "description": "Illustrate a night ocean scene lit only by bioluminescent creatures. Focus on the glow effects.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["bioluminescent", "ocean", "night", "glow"]
+    },
+    {
+      "id": "art_191",
+      "category": "Painting",
+      "title": "Single Light Source",
+      "description": "Paint a scene lit by a single light source (candle, lamp, screen). Master dramatic lighting.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["lighting", "dramatic", "single source", "chiaroscuro"]
+    },
+    {
+      "id": "art_192",
+      "category": "Drawing",
+      "title": "Hands Holding Things",
+      "description": "Draw hands holding 10 different objects. Focus on how hands grip different shapes and weights.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["hands", "objects", "interaction", "study"]
+    },
+    {
+      "id": "art_193",
+      "category": "Photography",
+      "title": "Silhouette Stories",
+      "description": "Create silhouette photographs that tell stories through shape and body language alone.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["silhouette", "story", "backlight", "shape"]
+    },
+    {
+      "id": "art_194",
+      "category": "Mixed Media",
+      "title": "Newspaper Collage",
+      "description": "Create art using newspaper and magazine clippings. Layer text and images to create meaning.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["newspaper", "collage", "text", "found"]
+    },
+    {
+      "id": "art_195",
+      "category": "Character Design",
+      "title": "Evolution Design",
+      "description": "Design a creature and show its evolution across 5 stages from primitive to advanced form.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["evolution", "creature", "stages", "development"]
+    },
+    {
+      "id": "art_196",
+      "category": "Worldbuilding",
+      "title": "Mirror World",
+      "description": "Design a world that's a mirror/opposite of ours. What would familiar places look like reversed?",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["mirror", "opposite", "parallel", "surreal"]
+    },
+    {
+      "id": "art_197",
+      "category": "Design",
+      "title": "Chocolate Bar Packaging",
+      "description": "Design luxurious chocolate bar packaging. Create an unboxing experience through design.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["chocolate", "packaging", "luxury", "unboxing"]
+    },
+    {
+      "id": "art_198",
+      "category": "Digital Art",
+      "title": "Spirit Animal Guide",
+      "description": "Illustrate your spirit animal in a mystical setting. Add ethereal, spiritual elements.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["spirit animal", "mystical", "personal", "spiritual"]
+    },
+    {
+      "id": "art_199",
+      "category": "Painting",
+      "title": "Expressive Brushwork",
+      "description": "Paint a scene focusing on visible, expressive brushwork. Let each stroke show emotion.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["brushwork", "expressive", "emotion", "visible"]
+    },
+    {
+      "id": "art_200",
+      "category": "Drawing",
+      "title": "Favorite Memory",
+      "description": "Draw your favorite memory. Focus on capturing the feeling more than perfect accuracy.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["memory", "personal", "emotion", "narrative"]
+    },
+    {
+      "id": "art_201",
+      "category": "Textile Art",
+      "title": "Embroidered Affirmation",
+      "description": "Embroider a positive affirmation or quote. Practice lettering with thread.",
+      "energy_level": "low",
+      "difficulty": "medium",
+      "tags": ["embroidery", "text", "affirmation", "textile"]
+    },
+    {
+      "id": "art_202",
+      "category": "Digital Art",
+      "title": "Avatar Creator",
+      "description": "Design multiple avatar options (hair, features, accessories) that work together as a system.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["avatar", "system", "modular", "game"]
+    },
+    {
+      "id": "art_203",
+      "category": "Painting",
+      "title": "Loose Watercolor Florals",
+      "description": "Paint flowers in loose watercolor style. Let the paint flow and embrace happy accidents.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["watercolor", "flowers", "loose", "flow"]
+    },
+    {
+      "id": "art_204",
+      "category": "Drawing",
+      "title": "Tree Species Study",
+      "description": "Draw 10 different tree species. Study how bark, branches, and leaves differ.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["trees", "botanical", "species", "study"]
+    },
+    {
+      "id": "art_205",
+      "category": "Photography",
+      "title": "Lens Flare Magic",
+      "description": "Intentionally capture beautiful lens flare. Learn to work with this often-avoided effect.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["lens flare", "sun", "light", "intentional"]
+    },
+    {
+      "id": "art_206",
+      "category": "Mixed Media",
+      "title": "Book Cover Alteration",
+      "description": "Alter an old book cover with paint, collage, and embellishments. Transform its identity.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["book", "alter", "cover", "recycled"]
+    },
+    {
+      "id": "art_207",
+      "category": "Character Design",
+      "title": "Cafe Worker Characters",
+      "description": "Design the cast of characters who work at a cozy fantasy cafe. Give each a unique personality.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["cafe", "workers", "cast", "cozy"]
+    },
+    {
+      "id": "art_208",
+      "category": "Worldbuilding",
+      "title": "Storm Chasers Culture",
+      "description": "Design a culture that follows and lives with massive storms. Show their technology and traditions.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["storm", "nomadic", "culture", "weather"]
+    },
+    {
+      "id": "art_209",
+      "category": "Design",
+      "title": "Tattoo Flash Sheet",
+      "description": "Create a flash sheet of small tattoo designs around a theme. Design for skin placement.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["tattoo", "flash", "small", "collection"]
+    },
+    {
+      "id": "art_210",
+      "category": "Digital Art",
+      "title": "Cyberpunk Street Food",
+      "description": "Illustrate a street food vendor in a cyberpunk city. Show the clash of low-tech food and high-tech setting.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["cyberpunk", "food", "street", "vendor"]
+    },
+    {
+      "id": "art_211",
+      "category": "Painting",
+      "title": "Wet Street Reflections",
+      "description": "Paint a city street after rain. Focus on reflections in puddles and wet surfaces.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["rain", "city", "reflections", "wet"]
+    },
+    {
+      "id": "art_212",
+      "category": "Drawing",
+      "title": "Foot Study",
+      "description": "Draw feet from 20 different angles. Often neglected but essential anatomy to master.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["feet", "anatomy", "angles", "study"]
+    },
+    {
+      "id": "art_213",
+      "category": "Photography",
+      "title": "Candid Emotions",
+      "description": "Capture genuine emotional moments in candid photography. No posed shots allowed.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["candid", "emotion", "genuine", "moment"]
+    },
+    {
+      "id": "art_214",
+      "category": "Mixed Media",
+      "title": "Matchbox Art",
+      "description": "Create tiny dioramas inside matchboxes. Tell a story in a miniature space.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["matchbox", "miniature", "diorama", "tiny"]
+    },
+    {
+      "id": "art_215",
+      "category": "Character Design",
+      "title": "Mech Pilot",
+      "description": "Design a mech pilot and their machine. Show the relationship between operator and robot.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["mech", "pilot", "robot", "sci-fi"]
+    },
+    {
+      "id": "art_216",
+      "category": "Worldbuilding",
+      "title": "Spice Trade Route",
+      "description": "Design locations along a fantasy spice trade route. Show different cultures connected by trade.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["trade", "route", "spice", "culture"]
+    },
+    {
+      "id": "art_217",
+      "category": "Design",
+      "title": "Board Game Box",
+      "description": "Design the box art and logo for a board game. Create intrigue and convey the game's theme.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["board game", "box", "logo", "game"]
+    },
+    {
+      "id": "art_218",
+      "category": "Digital Art",
+      "title": "Enchanted Greenhouse",
+      "description": "Illustrate a magical greenhouse with plants that glow, move, or have unusual properties.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["greenhouse", "magic", "plants", "fantasy"]
+    },
+    {
+      "id": "art_219",
+      "category": "Painting",
+      "title": "Thick vs Thin Paint",
+      "description": "Create a painting exploring the contrast between thick impasto and thin glazes.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["texture", "impasto", "glazing", "technique"]
+    },
+    {
+      "id": "art_220",
+      "category": "Drawing",
+      "title": "Facial Hair Styles",
+      "description": "Draw the same face with 12 different facial hair styles. Study how it changes perception.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["facial hair", "variations", "face", "style"]
+    },
+    {
+      "id": "art_221",
+      "category": "Photography",
+      "title": "Leading Lines",
+      "description": "Create photos that use leading lines to draw the viewer's eye through the image.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["leading lines", "composition", "perspective", "technique"]
+    },
+    {
+      "id": "art_222",
+      "category": "Mixed Media",
+      "title": "Treasure Map",
+      "description": "Create an aged treasure map with tea-staining, burned edges, and mysterious symbols.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["map", "treasure", "aged", "adventure"]
+    },
+    {
+      "id": "art_223",
+      "category": "Character Design",
+      "title": "Shadow Self",
+      "description": "Design a character and their shadow self - their dark reflection that shows hidden traits.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["shadow", "dual", "psychology", "dark"]
+    },
+    {
+      "id": "art_224",
+      "category": "Worldbuilding",
+      "title": "Giant's Belongings",
+      "description": "Design everyday items scaled up for a giant. Show wear, personality, and use.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["giant", "scale", "objects", "perspective"]
+    },
+    {
+      "id": "art_225",
+      "category": "Design",
+      "title": "Mobile Game UI",
+      "description": "Design the UI for a mobile game. Create buttons, menus, and game interface elements.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["game", "ui", "mobile", "interface"]
+    },
+    {
+      "id": "art_226",
+      "category": "Digital Art",
+      "title": "Cloud Kingdom",
+      "description": "Illustrate a kingdom built on clouds. Show how inhabitants live on this insubstantial foundation.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["clouds", "kingdom", "sky", "fantasy"]
+    },
+    {
+      "id": "art_227",
+      "category": "Painting",
+      "title": "Painting Memories",
+      "description": "Paint a scene from a photograph, but change one significant element based on how you remember it.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["memory", "photo", "interpretation", "personal"]
+    },
+    {
+      "id": "art_228",
+      "category": "Drawing",
+      "title": "Animal Anatomy Comparison",
+      "description": "Draw comparative anatomy of similar animals: cats vs dogs, horses vs donkeys. Note differences.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["anatomy", "comparison", "animals", "study"]
+    },
+    {
+      "id": "art_229",
+      "category": "Photography",
+      "title": "Environmental Portrait",
+      "description": "Create portraits showing people in their element: work space, hobby space, or favorite place.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["environmental", "portrait", "context", "story"]
+    },
+    {
+      "id": "art_230",
+      "category": "Mixed Media",
+      "title": "Postcard Series",
+      "description": "Create a series of postcards from an imaginary vacation. Include drawings and 'stamps'.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["postcard", "travel", "series", "fictional"]
+    },
+    {
+      "id": "art_231",
+      "category": "Character Design",
+      "title": "Folklore Creature Update",
+      "description": "Take a creature from folklore (leprechaun, kappa, domovoi) and redesign it for modern times.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["folklore", "creature", "modern", "redesign"]
+    },
+    {
+      "id": "art_232",
+      "category": "Worldbuilding",
+      "title": "Memory Keeper's Archive",
+      "description": "Design a place where memories are stored as physical objects. Show the architecture and keepers.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["memory", "archive", "storage", "mystical"]
+    },
+    {
+      "id": "art_233",
+      "category": "Design",
+      "title": "Podcast Cover Art",
+      "description": "Design cover art for a podcast. Create something eye-catching at small sizes.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["podcast", "cover", "small", "icon"]
+    },
+    {
+      "id": "art_234",
+      "category": "Digital Art",
+      "title": "Seasonal Witch",
+      "description": "Design witches representing each season. Show how their magic and aesthetic reflect their time.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["witch", "seasons", "series", "magic"]
+    },
+    {
+      "id": "art_235",
+      "category": "Painting",
+      "title": "Paint Your Comfort Food",
+      "description": "Paint your ultimate comfort food in loving detail. Capture what makes it comforting.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["food", "comfort", "personal", "still life"]
+    },
+    {
+      "id": "art_236",
+      "category": "Drawing",
+      "title": "Hairstyle Collection",
+      "description": "Draw 20 different hairstyles. Include historical, cultural, and fantasy options.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["hair", "style", "collection", "variety"]
+    },
+    {
+      "id": "art_237",
+      "category": "Photography",
+      "title": "Color Story",
+      "description": "Create a photo series telling a story through color progression. Move through the spectrum.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["color", "story", "series", "progression"]
+    },
+    {
+      "id": "art_238",
+      "category": "Mixed Media",
+      "title": "Spell Book Page",
+      "description": "Create a page from a spell book with illustrations, handwritten text, and mystical elements.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["spell", "book", "mystical", "handmade"]
+    },
+    {
+      "id": "art_239",
+      "category": "Character Design",
+      "title": "Coffee Shop AU",
+      "description": "Take any characters and design them as coffee shop workers. This classic AU needs your vision.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["au", "coffee", "casual", "fun"]
+    },
+    {
+      "id": "art_240",
+      "category": "Worldbuilding",
+      "title": "Library of Lost Things",
+      "description": "Design a mystical library that contains all lost things. Show the strange collections.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["library", "lost", "collection", "mystical"]
+    },
+    {
+      "id": "art_241",
+      "category": "Design",
+      "title": "Pet Food Packaging",
+      "description": "Design fun, premium pet food packaging. Appeal to pet parents while being practical.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["pet", "food", "packaging", "fun"]
+    },
+    {
+      "id": "art_242",
+      "category": "Digital Art",
+      "title": "Lo-fi Study Scene",
+      "description": "Create a cozy lo-fi study scene with rain, warm lighting, and a studying character.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["lo-fi", "study", "cozy", "aesthetic"]
+    },
+    {
+      "id": "art_243",
+      "category": "Painting",
+      "title": "Painting Without Black",
+      "description": "Create a painting without using black paint. Mix your darks from colors.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["color", "challenge", "mixing", "technique"]
+    },
+    {
+      "id": "art_244",
+      "category": "Drawing",
+      "title": "Nose Variations",
+      "description": "Draw 20 different nose shapes and sizes. Study this often-oversimplified feature.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["nose", "anatomy", "variations", "study"]
+    },
+    {
+      "id": "art_245",
+      "category": "Photography",
+      "title": "Morning Light",
+      "description": "Document how light changes in the first hour after sunrise. Capture the transformation.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["morning", "light", "time", "series"]
+    },
+    {
+      "id": "art_246",
+      "category": "Mixed Media",
+      "title": "Fortune Teller Cards",
+      "description": "Create your own set of divination cards with personal symbols and meanings.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["divination", "cards", "personal", "mystical"]
+    },
+    {
+      "id": "art_247",
+      "category": "Character Design",
+      "title": "Ocean Themed Heroes",
+      "description": "Design a team of heroes with ocean-themed powers and appearances.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["ocean", "heroes", "team", "powers"]
+    },
+    {
+      "id": "art_248",
+      "category": "Worldbuilding",
+      "title": "Night Market",
+      "description": "Design a magical night market where unusual goods are sold under moonlight.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["night", "market", "magical", "commerce"]
+    },
+    {
+      "id": "art_249",
+      "category": "Design",
+      "title": "Event Ticket",
+      "description": "Design a collectible event ticket. Make it something people would want to keep.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["ticket", "event", "collectible", "keepsake"]
+    },
+    {
+      "id": "art_250",
+      "category": "Digital Art",
+      "title": "Haunted Mansion Room",
+      "description": "Design one room of a haunted mansion. Hide spooky details for viewers to discover.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["haunted", "mansion", "spooky", "detailed"]
+    },
+    {
+      "id": "art_251",
+      "category": "Painting",
+      "title": "Sunset Gradient Study",
+      "description": "Paint a sunset focusing on smooth color gradients. Master the transition between colors.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["sunset", "gradient", "color", "sky"]
+    },
+    {
+      "id": "art_252",
+      "category": "Drawing",
+      "title": "Lip Expressions",
+      "description": "Draw 15 different lip expressions and mouth positions. Study the range of mouth shapes.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["lips", "mouth", "expression", "study"]
+    },
+    {
+      "id": "art_253",
+      "category": "Photography",
+      "title": "Same Place, Different Times",
+      "description": "Photograph the same location at different times of day. Show how light transforms space.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["time", "location", "light", "comparison"]
+    },
+    {
+      "id": "art_254",
+      "category": "Mixed Media",
+      "title": "Jar Label Designs",
+      "description": "Create vintage-style labels for mysterious apothecary jars. Include warnings and instructions.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["labels", "apothecary", "vintage", "mysterious"]
+    },
+    {
+      "id": "art_255",
+      "category": "Character Design",
+      "title": "Cryptid Documentation",
+      "description": "Design and document a new cryptid. Include 'scientific' illustrations and sighting reports.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["cryptid", "documentation", "fake science", "creature"]
+    },
+    {
+      "id": "art_256",
+      "category": "Worldbuilding",
+      "title": "Vertical Farm Tower",
+      "description": "Design a futuristic vertical farm. Show different levels growing different crops.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["farm", "vertical", "future", "food"]
+    },
+    {
+      "id": "art_257",
+      "category": "Design",
+      "title": "Bookmark Set",
+      "description": "Design a set of bookmarks with a cohesive theme. Make readers want to collect them all.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["bookmark", "set", "reading", "collectible"]
+    },
+    {
+      "id": "art_258",
+      "category": "Digital Art",
+      "title": "Boss Battle Scene",
+      "description": "Illustrate an epic boss battle moment from a game that doesn't exist.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["boss", "battle", "game", "epic"]
+    },
+    {
+      "id": "art_259",
+      "category": "Painting",
+      "title": "Moonlit Scene",
+      "description": "Paint a scene lit only by moonlight. Study how moonlight differs from sunlight.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["moon", "night", "lighting", "cool"]
+    },
+    {
+      "id": "art_260",
+      "category": "Drawing",
+      "title": "Ear Angles Study",
+      "description": "Draw ears from 10 different angles. This often-forgotten feature needs attention.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["ears", "anatomy", "angles", "study"]
+    },
+    {
+      "id": "art_261",
+      "category": "Photography",
+      "title": "Abstract Nature",
+      "description": "Photograph nature in abstract ways. Get close, crop tight, find patterns and shapes.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["abstract", "nature", "patterns", "close-up"]
+    },
+    {
+      "id": "art_262",
+      "category": "Mixed Media",
+      "title": "Music Playlist Cover",
+      "description": "Create cover art for a personal playlist. Let the music inspire mixed media choices.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["music", "playlist", "cover", "personal"]
+    },
+    {
+      "id": "art_263",
+      "category": "Character Design",
+      "title": "Historical Fashion Fantasy",
+      "description": "Take historical fashion (Victorian, 1920s, etc.) and add fantasy elements.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["historical", "fashion", "fantasy", "fusion"]
+    },
+    {
+      "id": "art_264",
+      "category": "Worldbuilding",
+      "title": "Traveling Circus",
+      "description": "Design a fantastical traveling circus with magical acts and unusual performers.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["circus", "traveling", "magical", "performers"]
+    },
+    {
+      "id": "art_265",
+      "category": "Design",
+      "title": "Tea Packaging",
+      "description": "Design packaging for a fancy tea brand. Communicate flavor and quality through design.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["tea", "packaging", "elegant", "flavor"]
+    },
+    {
+      "id": "art_266",
+      "category": "Digital Art",
+      "title": "Arcade Cabinet Art",
+      "description": "Design side art for a retro arcade cabinet. Capture 80s/90s arcade aesthetic.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["arcade", "retro", "game", "80s"]
+    },
+    {
+      "id": "art_267",
+      "category": "Painting",
+      "title": "Transparent Objects",
+      "description": "Paint a still life featuring transparent objects: glass, crystal, water. Master transparency.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["transparent", "glass", "still life", "technique"]
+    },
+    {
+      "id": "art_268",
+      "category": "Drawing",
+      "title": "Body Types Study",
+      "description": "Draw the same pose with 5 different body types. Celebrate diversity in figure drawing.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["body types", "figure", "diversity", "study"]
+    },
+    {
+      "id": "art_269",
+      "category": "Photography",
+      "title": "Rainy Day Series",
+      "description": "Create a photo series on a rainy day. Capture the mood, reflections, and atmosphere.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["rain", "mood", "series", "weather"]
+    },
+    {
+      "id": "art_270",
+      "category": "Mixed Media",
+      "title": "Time Capsule Art",
+      "description": "Create art that captures this moment in time. Include current events, trends, and personal moments.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["time capsule", "current", "moment", "personal"]
+    },
+    {
+      "id": "art_271",
+      "category": "Character Design",
+      "title": "Garden Spirits",
+      "description": "Design spirits that tend and protect different types of gardens (vegetable, flower, rock, etc.).",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["garden", "spirits", "nature", "guardians"]
+    },
+    {
+      "id": "art_272",
+      "category": "Worldbuilding",
+      "title": "Bookseller's Shop",
+      "description": "Design a magical bookshop where the books have special properties or are alive.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["bookshop", "magical", "interior", "cozy"]
+    },
+    {
+      "id": "art_273",
+      "category": "Design",
+      "title": "Candle Packaging",
+      "description": "Design packaging for a line of candles. Communicate scents visually.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["candle", "packaging", "scent", "visual"]
+    },
+    {
+      "id": "art_274",
+      "category": "Digital Art",
+      "title": "Pastel Goth Portrait",
+      "description": "Create a portrait in pastel goth aesthetic. Combine cute pastels with dark, gothic elements.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["pastel goth", "portrait", "aesthetic", "contrast"]
+    },
+    {
+      "id": "art_275",
+      "category": "Painting",
+      "title": "Kitchen Still Life",
+      "description": "Paint a still life from your kitchen. Capture the everyday beauty of cooking items.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["kitchen", "still life", "everyday", "domestic"]
+    },
+    {
+      "id": "art_276",
+      "category": "Drawing",
+      "title": "Wing Designs",
+      "description": "Design 10 different wing types: bird, bat, insect, dragon, fairy, mechanical, etc.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["wings", "fantasy", "variety", "design"]
+    },
+    {
+      "id": "art_277",
+      "category": "Photography",
+      "title": "Vanishing Point",
+      "description": "Capture images with strong vanishing points. Use perspective to draw the eye deep into the image.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["perspective", "vanishing point", "depth", "composition"]
+    },
+    {
+      "id": "art_278",
+      "category": "Mixed Media",
+      "title": "Dream Catcher Art",
+      "description": "Create a unique dream catcher with personal symbols and unconventional materials.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["dream catcher", "personal", "craft", "symbolic"]
+    },
+    {
+      "id": "art_279",
+      "category": "Character Design",
+      "title": "Villain Fashion",
+      "description": "Design high fashion looks inspired by classic villains. Make evil look fabulous.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["villain", "fashion", "haute couture", "dramatic"]
+    },
+    {
+      "id": "art_280",
+      "category": "Worldbuilding",
+      "title": "Storm Giant's Home",
+      "description": "Design the home of a storm giant. Show scale through architecture and furnishings.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["giant", "home", "scale", "storm"]
+    },
+    {
+      "id": "art_281",
+      "category": "Design",
+      "title": "Weather App Icons",
+      "description": "Design a complete set of weather icons. Create consistent style across all conditions.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["weather", "icons", "app", "set"]
+    },
+    {
+      "id": "art_282",
+      "category": "Digital Art",
+      "title": "Cozy Winter Night",
+      "description": "Illustrate a cozy winter scene: warm interior, cold outside, comfort everywhere.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["winter", "cozy", "warmth", "contrast"]
+    },
+    {
+      "id": "art_283",
+      "category": "Painting",
+      "title": "Complementary Color Portrait",
+      "description": "Paint a portrait using only complementary colors. Push the color vibration.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["complementary", "portrait", "color theory", "vibrant"]
+    },
+    {
+      "id": "art_284",
+      "category": "Drawing",
+      "title": "Fashion Flats",
+      "description": "Draw technical fashion flats for 5 garments. Practice clean, precise line work.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["fashion", "technical", "flats", "design"]
+    },
+    {
+      "id": "art_285",
+      "category": "Photography",
+      "title": "Frozen in Motion",
+      "description": "Freeze fast motion in photographs. Water splashes, jumping, sports - capture split seconds.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["motion", "freeze", "action", "fast"]
+    },
+    {
+      "id": "art_286",
+      "category": "Mixed Media",
+      "title": "Herbal Apothecary Page",
+      "description": "Create an illustrated guide page for a medicinal herb. Include uses, preparation, and warnings.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["herbal", "apothecary", "botanical", "medicinal"]
+    },
+    {
+      "id": "art_287",
+      "category": "Character Design",
+      "title": "Space Pirate Crew",
+      "description": "Design a crew of space pirates with diverse backgrounds and specialties.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["space", "pirate", "crew", "sci-fi"]
+    },
+    {
+      "id": "art_288",
+      "category": "Worldbuilding",
+      "title": "Witch's Tower",
+      "description": "Design a witch's tower from the outside and in. Show how magical living affects architecture.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["witch", "tower", "magic", "architecture"]
+    },
+    {
+      "id": "art_289",
+      "category": "Design",
+      "title": "Hot Sauce Label",
+      "description": "Design a label for an artisanal hot sauce. Communicate heat level and flavor profile.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["label", "hot sauce", "spicy", "artisanal"]
+    },
+    {
+      "id": "art_290",
+      "category": "Digital Art",
+      "title": "Flower Crown Portrait",
+      "description": "Create a portrait with an elaborate, magical flower crown. Make the flowers extraordinary.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["flowers", "crown", "portrait", "magical"]
+    },
+    {
+      "id": "art_291",
+      "category": "Painting",
+      "title": "View From Above",
+      "description": "Paint a scene from a bird's eye view. Practice this unusual perspective.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["bird's eye", "perspective", "above", "overhead"]
+    },
+    {
+      "id": "art_292",
+      "category": "Drawing",
+      "title": "Shoe Collection",
+      "description": "Draw 15 different shoe styles. Study how design, era, and function affect form.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["shoes", "fashion", "variety", "study"]
+    },
+    {
+      "id": "art_293",
+      "category": "Photography",
+      "title": "Family Heirlooms",
+      "description": "Photograph family heirlooms or meaningful objects. Tell their stories through images.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["heirlooms", "objects", "story", "personal"]
+    },
+    {
+      "id": "art_294",
+      "category": "Mixed Media",
+      "title": "Pocket Shrine",
+      "description": "Create a tiny portable shrine in a tin or small box. Honor something important to you.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["shrine", "miniature", "personal", "sacred"]
+    },
+    {
+      "id": "art_295",
+      "category": "Character Design",
+      "title": "Emotion Demons",
+      "description": "Design small creatures that represent different emotions. Anxiety, joy, anger, calm - visualize them.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["emotions", "creatures", "personification", "mental health"]
+    },
+    {
+      "id": "art_296",
+      "category": "Worldbuilding",
+      "title": "Dragon Hoard",
+      "description": "Design a dragon's treasure hoard. Show what unusual things this particular dragon collects.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["dragon", "treasure", "collection", "fantasy"]
+    },
+    {
+      "id": "art_297",
+      "category": "Design",
+      "title": "Vintage Badge",
+      "description": "Design a vintage-style badge or patch. Capture retro authenticity.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["badge", "vintage", "patch", "retro"]
+    },
+    {
+      "id": "art_298",
+      "category": "Digital Art",
+      "title": "Healing Sanctuary",
+      "description": "Design a peaceful sanctuary dedicated to rest and healing. Make it feel safe and rejuvenating.",
+      "energy_level": "low",
+      "difficulty": "medium",
+      "tags": ["sanctuary", "healing", "peace", "rest"]
+    },
+    {
+      "id": "art_299",
+      "category": "Painting",
+      "title": "Childhood Bedroom Memory",
+      "description": "Paint your childhood bedroom from memory. See what details your mind preserved.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["childhood", "memory", "bedroom", "nostalgia"]
+    },
+    {
+      "id": "art_300",
+      "category": "Drawing",
+      "title": "Self Portrait Series",
+      "description": "Draw yourself in 5 different art styles: realistic, anime, cartoon, abstract, and one of your choice.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["self portrait", "styles", "variety", "exploration"]
+    },
+    {
+      "id": "art_301",
+      "category": "Digital Art - Clip Studio",
+      "title": "Vector Layer Logo Design",
+      "description": "Use Clip Studio's vector layers to create a clean, scalable logo. Practice with bezier curves and anchor point manipulation for crisp edges.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["clip studio", "vector", "logo", "digital", "design"]
+    },
+    {
+      "id": "art_302",
+      "category": "Digital Art - Clip Studio",
+      "title": "Custom Brush Creation",
+      "description": "Design and create 5 custom brushes in Clip Studio Paint. Include a texture brush, scatter brush, pattern brush, and two specialty brushes.",
+      "energy_level": "medium",
+      "difficulty": "complex",
+      "tags": ["clip studio", "brushes", "custom", "tools", "digital"]
+    },
+    {
+      "id": "art_303",
+      "category": "Digital Art - Clip Studio",
+      "title": "Manga Page Layout",
+      "description": "Create a full manga page with panel layouts, speech bubbles, and speed lines using Clip Studio's comic features. Include at least 6 panels.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["clip studio", "manga", "comic", "panels", "sequential"]
+    },
+    {
+      "id": "art_304",
+      "category": "Digital Art - Clip Studio",
+      "title": "3D Model Pose Reference",
+      "description": "Use Clip Studio's 3D models to set up a complex action pose, then draw over it with your own style. Focus on dynamic movement.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["clip studio", "3d", "pose", "reference", "action"]
+    },
+    {
+      "id": "art_305",
+      "category": "Digital Art - Clip Studio",
+      "title": "Webtoon Episode",
+      "description": "Create a short 10-panel vertical webtoon episode using Clip Studio's webtoon canvas settings. Include dialogue and simple backgrounds.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["clip studio", "webtoon", "comic", "vertical", "episode"]
+    },
+    {
+      "id": "art_306",
+      "category": "Digital Art - Clip Studio",
+      "title": "Screentone Mastery",
+      "description": "Create a black and white illustration using only screentones for shading. Experiment with different dot patterns and gradients.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["clip studio", "screentone", "manga", "monochrome", "shading"]
+    },
+    {
+      "id": "art_307",
+      "category": "Digital Art - Clip Studio",
+      "title": "Animation Keyframes",
+      "description": "Create a simple 24-frame animation loop in Clip Studio. Options: bouncing ball, walk cycle, or flowing hair movement.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["clip studio", "animation", "loop", "keyframes", "motion"]
+    },
+    {
+      "id": "art_308",
+      "category": "Digital Art - Clip Studio",
+      "title": "Color Halftone Effect",
+      "description": "Create a pop-art style illustration using Clip Studio's color halftone and gradient map features. Channel Roy Lichtenstein vibes.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["clip studio", "halftone", "pop art", "effects", "color"]
+    },
+    {
+      "id": "art_309",
+      "category": "Digital Art - Clip Studio",
+      "title": "Perspective Ruler Cityscape",
+      "description": "Use Clip Studio's perspective rulers to create a detailed 3-point perspective cityscape. Include buildings at various depths.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["clip studio", "perspective", "cityscape", "rulers", "architecture"]
+    },
+    {
+      "id": "art_310",
+      "category": "Digital Art - Clip Studio",
+      "title": "Symmetry Tool Portrait",
+      "description": "Use Clip Studio's symmetry ruler to create a perfectly symmetrical fantasy character portrait with intricate face paint or tattoos.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["clip studio", "symmetry", "portrait", "fantasy", "detailed"]
+    },
+    {
+      "id": "art_311",
+      "category": "Digital Art",
+      "title": "Layer Blend Mode Exploration",
+      "description": "Create a single illustration experimenting with at least 8 different blend modes: multiply, overlay, screen, color dodge, soft light, etc.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["digital", "blend modes", "layers", "effects", "technique"]
+    },
+    {
+      "id": "art_312",
+      "category": "Digital Art",
+      "title": "Grayscale to Color Workflow",
+      "description": "Paint an illustration entirely in grayscale first, then add color using overlay and color blend modes. Great for value practice.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["digital", "grayscale", "workflow", "values", "color"]
+    },
+    {
+      "id": "art_313",
+      "category": "Digital Art",
+      "title": "Pixel Art Character Sprites",
+      "description": "Create a character sprite sheet with idle, walk, jump, and attack animations. Use 32x32 or 64x64 pixel canvas.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["pixel art", "sprites", "animation", "character", "game art"]
+    },
+    {
+      "id": "art_314",
+      "category": "Digital Art",
+      "title": "Isometric Room Design",
+      "description": "Design a cozy isometric room scene with furniture, plants, and personality. Think tiny diorama aesthetic.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["isometric", "room", "interior", "cozy", "pixel art"]
+    },
+    {
+      "id": "art_315",
+      "category": "Digital Art",
+      "title": "Photo Manipulation Fantasy",
+      "description": "Take a regular photo and transform it into a fantasy scene. Add magical elements, change the sky, alter lighting dramatically.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["photo manipulation", "fantasy", "composite", "magical", "editing"]
+    },
+    {
+      "id": "art_316",
+      "category": "Digital Art",
+      "title": "Speed Paint Challenge - 30 Minutes",
+      "description": "Complete an entire illustration in exactly 30 minutes. Focus on big shapes and mood over details. Time yourself strictly.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["speedpaint", "challenge", "timed", "loose", "efficiency"]
+    },
+    {
+      "id": "art_317",
+      "category": "Digital Art",
+      "title": "Limited Palette Study",
+      "description": "Create a full illustration using only 5 colors (including black and white). Focus on how to create depth and interest with limitation.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["limited palette", "color", "constraint", "study", "creative"]
+    },
+    {
+      "id": "art_318",
+      "category": "Digital Art",
+      "title": "Texture Overlay Experimentation",
+      "description": "Create a digital painting then add various texture overlays to give it a traditional media feel. Try paper, canvas, and noise textures.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["texture", "overlay", "traditional feel", "digital", "finishing"]
+    },
+    {
+      "id": "art_319",
+      "category": "Digital Art",
+      "title": "Procreate/CSP Brush Mimicry",
+      "description": "Try to recreate traditional media effects digitally: watercolor bleeds, oil paint impasto, charcoal smudging, etc.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["digital", "traditional mimicry", "brushes", "technique", "simulation"]
+    },
+    {
+      "id": "art_320",
+      "category": "Digital Art",
+      "title": "Environment Concept - Mood Board First",
+      "description": "Create a mood board with 10+ reference images, then design an original environment based on the collective feeling. Document your process.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["concept art", "environment", "mood board", "reference", "process"]
+    },
+    {
+      "id": "art_321",
+      "category": "Digital Art - Clip Studio",
+      "title": "Auto Action Workflow",
+      "description": "Create 3 custom auto actions in Clip Studio Paint: one for starting new illustrations, one for color adjustments, one for exporting.",
+      "energy_level": "low",
+      "difficulty": "medium",
+      "tags": ["clip studio", "auto action", "workflow", "automation", "efficiency"]
+    },
+    {
+      "id": "art_322",
+      "category": "Digital Art - Clip Studio",
+      "title": "Sub View Reference Drawing",
+      "description": "Use Clip Studio's sub view window to set up a reference image and create a study of it. Practice using the color picker on references.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["clip studio", "reference", "study", "sub view", "learning"]
+    },
+    {
+      "id": "art_323",
+      "category": "Digital Art - Clip Studio",
+      "title": "Figure Drawing with 3D Model",
+      "description": "Use Clip Studio's 3D drawing figures to create 10 quick gesture drawings. Adjust poses and lighting before each sketch.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["clip studio", "3d", "figure drawing", "gesture", "practice"]
+    },
+    {
+      "id": "art_324",
+      "category": "Digital Art - Clip Studio",
+      "title": "Material Catalog Organization",
+      "description": "Organize your Clip Studio materials library. Create custom folders, tag assets, and download 10 new brushes/materials from the Asset Store.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["clip studio", "organization", "materials", "assets", "workflow"]
+    },
+    {
+      "id": "art_325",
+      "category": "Digital Art - Clip Studio",
+      "title": "Layer Mask Compositing",
+      "description": "Create a complex illustration using layer masks to seamlessly blend multiple elements. Include at least 3 composite elements.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["clip studio", "layer mask", "compositing", "blending", "advanced"]
+    },
+    {
+      "id": "art_326",
+      "category": "Digital Art",
+      "title": "UI Icon Set Design",
+      "description": "Design a cohesive set of 20 UI icons for an app. Focus on consistent stroke weight, sizing, and visual language.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["ui design", "icons", "consistency", "app design", "vector"]
+    },
+    {
+      "id": "art_327",
+      "category": "Digital Art",
+      "title": "Character Turnaround Sheet",
+      "description": "Create a professional character turnaround with front, 3/4, side, and back views. Include expression and pose variations.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["character design", "turnaround", "professional", "reference sheet", "model"]
+    },
+    {
+      "id": "art_328",
+      "category": "Digital Art",
+      "title": "VTuber Model Design",
+      "description": "Design a VTuber character with clear front-facing features suitable for rigging. Include multiple expressions and accessories.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["vtuber", "character design", "live2d", "streaming", "expressions"]
+    },
+    {
+      "id": "art_329",
+      "category": "Digital Art",
+      "title": "Game Background Layers",
+      "description": "Create a parallax-ready game background with 4-5 separate layers: sky, far mountains, mid trees, near foliage, ground.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["game art", "parallax", "background", "layers", "environment"]
+    },
+    {
+      "id": "art_330",
+      "category": "Digital Art",
+      "title": "Twitch Emote Set",
+      "description": "Create a set of 8 Twitch emotes for a fictional streamer. Include standard emotions: happy, sad, hype, thinking, love, laugh, rage, wave.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["emotes", "twitch", "streaming", "expressions", "small scale"]
+    },
+    {
+      "id": "art_331",
+      "category": "Digital Art - Clip Studio",
+      "title": "Timelapse Recording Project",
+      "description": "Use Clip Studio's timelapse feature to record an entire illustration process. Share or review your workflow afterward.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["clip studio", "timelapse", "process", "recording", "sharing"]
+    },
+    {
+      "id": "art_332",
+      "category": "Digital Art - Clip Studio",
+      "title": "Decoration Brush Border",
+      "description": "Use Clip Studio's decoration brushes to create an ornate illustrated border or frame design. Make it reusable as a material.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["clip studio", "decoration", "border", "frame", "ornate"]
+    },
+    {
+      "id": "art_333",
+      "category": "Digital Art - Clip Studio",
+      "title": "Color Set Creation",
+      "description": "Create 5 custom color palettes in Clip Studio Paint for different moods: warm sunset, cool forest, neon night, earthy natural, candy pastel.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["clip studio", "color palette", "organization", "mood", "planning"]
+    },
+    {
+      "id": "art_334",
+      "category": "Digital Art",
+      "title": "Art Station Portfolio Piece",
+      "description": "Create a polished, portfolio-worthy illustration specifically designed to showcase your strongest skills. Spend extra time on presentation.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["portfolio", "professional", "showcase", "polished", "career"]
+    },
+    {
+      "id": "art_335",
+      "category": "Digital Art",
+      "title": "Daily Sketch Compilation",
+      "description": "Do one small sketch every day for a week, then compile them into a single presentation image with a cohesive layout.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["daily art", "compilation", "consistency", "practice", "layout"]
+    },
+    {
+      "id": "art_336",
+      "category": "Digital Art - Clip Studio",
+      "title": "Liquify Tool Character",
+      "description": "Create a character sketch then use Clip Studio's liquify/mesh transform tools to explore different proportions and styles.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "tags": ["clip studio", "liquify", "transform", "exploration", "character"]
+    },
+    {
+      "id": "art_337",
+      "category": "Digital Art",
+      "title": "Neon Glow Effect Mastery",
+      "description": "Create an illustration with realistic neon glow effects. Layer glows, use color dodge, and add environmental light bounce.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["neon", "glow", "lighting", "effects", "night scene"]
+    },
+    {
+      "id": "art_338",
+      "category": "Digital Art",
+      "title": "Lineart Variation Study",
+      "description": "Draw the same subject 5 times with different lineart styles: clean vector, sketchy, brush pen, varying weight, no lines (painterly).",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["lineart", "styles", "variation", "study", "technique"]
+    },
+    {
+      "id": "art_339",
+      "category": "Digital Art",
+      "title": "Render Material Spheres",
+      "description": "Render 6 spheres with different materials: metal, glass, plastic, wood, fabric, and skin. Focus on how light interacts with each.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["rendering", "materials", "spheres", "lighting", "study"]
+    },
+    {
+      "id": "art_340",
+      "category": "Digital Art - Clip Studio",
+      "title": "Story Creator Comic",
+      "description": "Use Clip Studio's Story feature to create and manage a multi-page comic project. Set up pages, export settings, and work through panels.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["clip studio", "story", "comic", "multi-page", "management"]
+    },
+    {
+      "id": "art_341",
+      "category": "Digital Art",
+      "title": "Art Challenge Participation",
+      "description": "Join an ongoing art challenge (Inktober style, DrawThisInYourStyle, character design challenge) and complete at least 5 prompts.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["challenge", "community", "prompts", "participation", "social"]
+    },
+    {
+      "id": "art_342",
+      "category": "Digital Art",
+      "title": "Reference Photo Redraw",
+      "description": "Find an old digital piece from 1+ years ago and redraw it with your current skills. Document the improvement.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["redraw", "improvement", "comparison", "growth", "reflection"]
+    },
+    {
+      "id": "art_343",
+      "category": "Digital Art - Clip Studio",
+      "title": "Workspace Customization",
+      "description": "Fully customize your Clip Studio workspace. Create custom tool arrangements, shortcuts, and window layouts for your workflow.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["clip studio", "workspace", "customization", "efficiency", "setup"]
+    },
+    {
+      "id": "art_344",
+      "category": "Digital Art",
+      "title": "Album Cover Design",
+      "description": "Design an album cover for a fictional band. Include band name, album title, and create a cohesive visual concept.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["album cover", "music", "design", "typography", "concept"]
+    },
+    {
+      "id": "art_345",
+      "category": "Digital Art",
+      "title": "Book Cover Illustration",
+      "description": "Create a book cover illustration for your favorite book or a fictional story. Include title and author placement considerations.",
+      "energy_level": "high",
+      "difficulty": "complex",
+      "tags": ["book cover", "illustration", "publishing", "design", "narrative"]
+    },
+    {
+      "id": "art_346",
+      "category": "Digital Art - Clip Studio",
+      "title": "Asset Store Deep Dive",
+      "description": "Spend an hour exploring Clip Studio's Asset Store. Download 20 free materials and organize them. Try each one in a small test sketch.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "tags": ["clip studio", "asset store", "materials", "exploration", "resources"]
+    },
+    {
+      "id": "art_347",
+      "category": "Digital Art",
+      "title": "Lighting Study: Same Scene, 4 Times",
+      "description": "Draw the same simple scene with 4 different lighting conditions: noon sun, sunset, moonlight, and artificial lamp light.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["lighting", "study", "mood", "time of day", "atmosphere"]
+    },
+    {
+      "id": "art_348",
+      "category": "Digital Art",
+      "title": "Creature Design from Silhouette",
+      "description": "Create 10 random silhouettes, then pick the 3 most interesting and develop them into full creature designs with details and color.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["creature design", "silhouette", "ideation", "development", "creativity"]
+    },
+    {
+      "id": "art_349",
+      "category": "Digital Art - Clip Studio",
+      "title": "Quick Mask Selection Practice",
+      "description": "Practice Clip Studio's quick mask and selection tools by creating complex compositions with clean edges and color fills.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "tags": ["clip studio", "selection", "quick mask", "technique", "efficiency"]
+    },
+    {
+      "id": "art_350",
+      "category": "Digital Art",
+      "title": "Digital Art Process Documentation",
+      "description": "Document your entire illustration process from sketch to finish. Save progress screenshots and write notes about decisions made.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "tags": ["process", "documentation", "learning", "tutorial", "education"]
     }
   ]
 }

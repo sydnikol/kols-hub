@@ -1,0 +1,1008 @@
+{
+  "module": "Movement Ideas",
+  "version": "1.0",
+  "generated_at": "2025-12-24",
+  "total_ideas": 100,
+  "items": [
+    {
+      "id": "move_001",
+      "category": "Low Energy",
+      "title": "Seated Neck Rolls",
+      "description": "Gently roll your head in slow circles, 5 times each direction. Releases tension from screen time.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "2 min",
+      "tags": ["seated", "stretching", "neck", "tension"]
+    },
+    {
+      "id": "move_002",
+      "category": "Low Energy",
+      "title": "Ankle Alphabet",
+      "description": "Lift one foot and draw the alphabet with your toes. Great for circulation and ankle mobility.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "3 min",
+      "tags": ["seated", "circulation", "ankles", "gentle"]
+    },
+    {
+      "id": "move_003",
+      "category": "Low Energy",
+      "title": "Seated Cat-Cow",
+      "description": "Sit upright, arch back on inhale (cow), round on exhale (cat). Mobilizes spine gently.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "2 min",
+      "tags": ["seated", "spine", "breathing", "mobility"]
+    },
+    {
+      "id": "move_004",
+      "category": "Low Energy",
+      "title": "Shoulder Shrugs",
+      "description": "Raise shoulders to ears, hold 3 seconds, release. Repeat 10 times. Releases upper trap tension.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "1 min",
+      "tags": ["seated", "shoulders", "tension", "quick"]
+    },
+    {
+      "id": "move_005",
+      "category": "Low Energy",
+      "title": "Wrist Circles",
+      "description": "Circle wrists 10 times each direction. Essential for anyone typing or using devices.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "1 min",
+      "tags": ["seated", "wrists", "computer", "preventive"]
+    },
+    {
+      "id": "move_006",
+      "category": "Low Energy",
+      "title": "Lying Hip Opener",
+      "description": "Lie on back, knees bent, let knees fall to one side. Hold 30 seconds each side.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "3 min",
+      "tags": ["lying", "hips", "relaxing", "stretch"]
+    },
+    {
+      "id": "move_007",
+      "category": "Low Energy",
+      "title": "Diaphragmatic Breathing",
+      "description": "Hand on belly, breathe so belly rises. 10 deep breaths. Movement for your internal organs.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "3 min",
+      "tags": ["breathing", "relaxing", "lying", "restorative"]
+    },
+    {
+      "id": "move_008",
+      "category": "Low Energy",
+      "title": "Finger Stretches",
+      "description": "Spread fingers wide, make fists, repeat. Add prayer stretch for wrist flexors.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "2 min",
+      "tags": ["hands", "seated", "preventive", "arthritis"]
+    },
+    {
+      "id": "move_009",
+      "category": "Low Energy",
+      "title": "Seated Twist",
+      "description": "Sit tall, twist gently to each side. Hold 20 seconds. Keep hips facing forward.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "2 min",
+      "tags": ["seated", "spine", "twist", "digestion"]
+    },
+    {
+      "id": "move_010",
+      "category": "Low Energy",
+      "title": "Face Massage",
+      "description": "Gently massage forehead, temples, jaw. Release facial tension we hold unconsciously.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "3 min",
+      "tags": ["face", "massage", "tension", "relaxing"]
+    },
+    {
+      "id": "move_011",
+      "category": "Medium Energy",
+      "title": "Standing March",
+      "description": "March in place for 2 minutes. Lift knees to comfortable height. Gets blood flowing.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "duration": "2 min",
+      "tags": ["standing", "cardio", "gentle", "circulation"]
+    },
+    {
+      "id": "move_012",
+      "category": "Medium Energy",
+      "title": "Wall Push-Ups",
+      "description": "Stand arm's length from wall, do push-ups against it. 10-15 reps. Upper body without floor work.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "duration": "2 min",
+      "tags": ["standing", "strength", "arms", "chest"]
+    },
+    {
+      "id": "move_013",
+      "category": "Medium Energy",
+      "title": "Standing Side Stretch",
+      "description": "Reach one arm overhead, lean to opposite side. 30 seconds each side.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "duration": "2 min",
+      "tags": ["standing", "stretch", "sides", "spine"]
+    },
+    {
+      "id": "move_014",
+      "category": "Medium Energy",
+      "title": "Calf Raises",
+      "description": "Rise onto tiptoes, lower slowly. 15-20 reps. Use wall for balance if needed.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "duration": "2 min",
+      "tags": ["standing", "calves", "strength", "balance"]
+    },
+    {
+      "id": "move_015",
+      "category": "Medium Energy",
+      "title": "Arm Circles",
+      "description": "Extend arms, make small circles, gradually larger. 30 seconds each direction.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "duration": "2 min",
+      "tags": ["standing", "shoulders", "warmup", "mobility"]
+    },
+    {
+      "id": "move_016",
+      "category": "Medium Energy",
+      "title": "Hip Circles",
+      "description": "Hands on hips, circle hips like hula hoop. 10 times each direction.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "duration": "2 min",
+      "tags": ["standing", "hips", "mobility", "fun"]
+    },
+    {
+      "id": "move_017",
+      "category": "Medium Energy",
+      "title": "Toe Touches (Standing)",
+      "description": "Stand tall, reach down toward toes, roll up slowly. 8-10 reps. Don't bounce.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "duration": "3 min",
+      "tags": ["standing", "hamstrings", "back", "flexibility"]
+    },
+    {
+      "id": "move_018",
+      "category": "Medium Energy",
+      "title": "Desk Squats",
+      "description": "Stand from chair, lower back down with control. 10-15 reps. Functional movement.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "duration": "3 min",
+      "tags": ["standing", "legs", "functional", "office"]
+    },
+    {
+      "id": "move_019",
+      "category": "Medium Energy",
+      "title": "Standing Quad Stretch",
+      "description": "Hold ankle behind you, keep knees together. 30 seconds each leg.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "duration": "2 min",
+      "tags": ["standing", "quads", "balance", "stretch"]
+    },
+    {
+      "id": "move_020",
+      "category": "Medium Energy",
+      "title": "Shoulder Blade Squeezes",
+      "description": "Pull shoulder blades together, hold 5 seconds. 10 reps. Counteracts forward posture.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "duration": "2 min",
+      "tags": ["standing", "posture", "back", "office"]
+    },
+    {
+      "id": "move_021",
+      "category": "Medium Energy",
+      "title": "Step Ups",
+      "description": "Use stairs or sturdy step. Step up and down, alternating legs. 2-3 minutes.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "duration": "3 min",
+      "tags": ["cardio", "legs", "stairs", "functional"]
+    },
+    {
+      "id": "move_022",
+      "category": "Medium Energy",
+      "title": "Gentle Lunges",
+      "description": "Step forward, lower back knee toward ground (not touching). 8 each leg.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "duration": "4 min",
+      "tags": ["standing", "legs", "balance", "strength"]
+    },
+    {
+      "id": "move_023",
+      "category": "Medium Energy",
+      "title": "Torso Twists",
+      "description": "Stand with arms extended, twist side to side. 20 total twists. Keep hips stable.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "duration": "2 min",
+      "tags": ["standing", "core", "twist", "warmup"]
+    },
+    {
+      "id": "move_024",
+      "category": "Medium Energy",
+      "title": "Heel-Toe Walks",
+      "description": "Walk placing heel directly in front of opposite toes. Balance and coordination.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "duration": "3 min",
+      "tags": ["walking", "balance", "coordination", "fun"]
+    },
+    {
+      "id": "move_025",
+      "category": "Medium Energy",
+      "title": "Standing Figure-4",
+      "description": "Cross ankle over opposite knee while standing. Hold wall for balance. 30 seconds each.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "duration": "2 min",
+      "tags": ["standing", "hips", "glutes", "balance"]
+    },
+    {
+      "id": "move_026",
+      "category": "High Energy",
+      "title": "Jumping Jacks",
+      "description": "Classic cardio move. Modify with step-jacks if jumping is difficult. 30 seconds on, 30 rest.",
+      "energy_level": "high",
+      "difficulty": "easy",
+      "duration": "3 min",
+      "tags": ["cardio", "whole-body", "classic", "energizing"]
+    },
+    {
+      "id": "move_027",
+      "category": "High Energy",
+      "title": "High Knees",
+      "description": "Jog in place bringing knees high. 30 seconds. Modify to marching if needed.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "duration": "3 min",
+      "tags": ["cardio", "legs", "core", "intense"]
+    },
+    {
+      "id": "move_028",
+      "category": "High Energy",
+      "title": "Burpees (Modified)",
+      "description": "Squat, step back to plank, step forward, stand. Add jump if able. 8-10 reps.",
+      "energy_level": "high",
+      "difficulty": "hard",
+      "duration": "5 min",
+      "tags": ["whole-body", "cardio", "strength", "challenging"]
+    },
+    {
+      "id": "move_029",
+      "category": "High Energy",
+      "title": "Mountain Climbers",
+      "description": "In plank, alternate driving knees toward chest. 30 seconds. Core and cardio.",
+      "energy_level": "high",
+      "difficulty": "hard",
+      "duration": "3 min",
+      "tags": ["core", "cardio", "plank", "intense"]
+    },
+    {
+      "id": "move_030",
+      "category": "High Energy",
+      "title": "Dance Break",
+      "description": "Put on favorite upbeat song, dance freely for 3-5 minutes. Best cardio is fun cardio.",
+      "energy_level": "high",
+      "difficulty": "easy",
+      "duration": "5 min",
+      "tags": ["dance", "cardio", "fun", "mood-boost"]
+    },
+    {
+      "id": "move_031",
+      "category": "Yoga",
+      "title": "Child's Pose",
+      "description": "Knees wide, sit back on heels, reach arms forward. Rest forehead. 1-3 minutes.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "3 min",
+      "tags": ["yoga", "restorative", "hips", "relaxing"]
+    },
+    {
+      "id": "move_032",
+      "category": "Yoga",
+      "title": "Downward Dog",
+      "description": "Inverted V shape. Pedal heels, relax neck. 30-60 seconds.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "duration": "2 min",
+      "tags": ["yoga", "stretch", "whole-body", "classic"]
+    },
+    {
+      "id": "move_033",
+      "category": "Yoga",
+      "title": "Cat-Cow Flow",
+      "description": "On hands and knees, alternate arching and rounding spine with breath. 1-2 minutes.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "2 min",
+      "tags": ["yoga", "spine", "breathing", "gentle"]
+    },
+    {
+      "id": "move_034",
+      "category": "Yoga",
+      "title": "Warrior 2",
+      "description": "Wide stance, front knee bent, arms extended. Hold 30-60 seconds each side.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "duration": "3 min",
+      "tags": ["yoga", "legs", "strength", "grounding"]
+    },
+    {
+      "id": "move_035",
+      "category": "Yoga",
+      "title": "Tree Pose",
+      "description": "Stand on one leg, other foot on calf or thigh (not knee). Balance practice.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "duration": "3 min",
+      "tags": ["yoga", "balance", "focus", "standing"]
+    },
+    {
+      "id": "move_036",
+      "category": "Yoga",
+      "title": "Seated Forward Fold",
+      "description": "Sit with legs extended, fold forward from hips. Hold 1-2 minutes.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "3 min",
+      "tags": ["yoga", "hamstrings", "calming", "seated"]
+    },
+    {
+      "id": "move_037",
+      "category": "Yoga",
+      "title": "Cobra Pose",
+      "description": "Lie on stomach, press up with arms, open chest. Hold 30 seconds.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "2 min",
+      "tags": ["yoga", "back", "chest-opener", "spine"]
+    },
+    {
+      "id": "move_038",
+      "category": "Yoga",
+      "title": "Bridge Pose",
+      "description": "Lie on back, feet flat, lift hips. Hold 30 seconds. Glutes and back.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "duration": "2 min",
+      "tags": ["yoga", "glutes", "back", "strength"]
+    },
+    {
+      "id": "move_039",
+      "category": "Yoga",
+      "title": "Legs Up the Wall",
+      "description": "Lie with legs vertical against wall. 5-15 minutes. Deeply restorative.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "10 min",
+      "tags": ["yoga", "restorative", "circulation", "relaxing"]
+    },
+    {
+      "id": "move_040",
+      "category": "Yoga",
+      "title": "Supine Twist",
+      "description": "Lie on back, knees to chest, let knees fall to one side. 1 minute each side.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "3 min",
+      "tags": ["yoga", "spine", "twist", "relaxing"]
+    },
+    {
+      "id": "move_041",
+      "category": "Strength",
+      "title": "Plank Hold",
+      "description": "Hold plank position on hands or forearms. Start with 20-30 seconds, build up.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "duration": "2 min",
+      "tags": ["core", "strength", "isometric", "foundational"]
+    },
+    {
+      "id": "move_042",
+      "category": "Strength",
+      "title": "Glute Bridges",
+      "description": "Lie on back, feet flat, squeeze glutes to lift hips. 15-20 reps.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "duration": "3 min",
+      "tags": ["glutes", "back", "lying", "essential"]
+    },
+    {
+      "id": "move_043",
+      "category": "Strength",
+      "title": "Bird Dog",
+      "description": "On hands and knees, extend opposite arm and leg. Alternate. 10 each side.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "duration": "3 min",
+      "tags": ["core", "balance", "back", "stability"]
+    },
+    {
+      "id": "move_044",
+      "category": "Strength",
+      "title": "Dead Bug",
+      "description": "Lie on back, arms up, knees bent 90°. Lower opposite arm/leg. 10 each side.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "duration": "3 min",
+      "tags": ["core", "coordination", "lying", "stability"]
+    },
+    {
+      "id": "move_045",
+      "category": "Strength",
+      "title": "Tricep Dips",
+      "description": "Use sturdy chair, dip down bending elbows. 10-15 reps.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "duration": "3 min",
+      "tags": ["arms", "triceps", "chair", "upper-body"]
+    },
+    {
+      "id": "move_046",
+      "category": "Strength",
+      "title": "Superman",
+      "description": "Lie face down, lift arms and legs simultaneously. Hold 5 seconds. 10 reps.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "duration": "3 min",
+      "tags": ["back", "lying", "posture", "strength"]
+    },
+    {
+      "id": "move_047",
+      "category": "Strength",
+      "title": "Side Plank",
+      "description": "Support on one forearm, stack feet, lift hips. 20-30 seconds each side.",
+      "energy_level": "medium",
+      "difficulty": "hard",
+      "duration": "3 min",
+      "tags": ["core", "obliques", "balance", "challenging"]
+    },
+    {
+      "id": "move_048",
+      "category": "Strength",
+      "title": "Wall Sit",
+      "description": "Back against wall, slide down to seated position. Hold 30-60 seconds.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "duration": "2 min",
+      "tags": ["legs", "isometric", "quads", "wall"]
+    },
+    {
+      "id": "move_049",
+      "category": "Strength",
+      "title": "Bicycle Crunches",
+      "description": "Lie on back, alternate elbow to opposite knee. 20 total (10 each side).",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "duration": "3 min",
+      "tags": ["core", "obliques", "lying", "classic"]
+    },
+    {
+      "id": "move_050",
+      "category": "Strength",
+      "title": "Resistance Band Rows",
+      "description": "Loop band around door handle, pull back squeezing shoulder blades. 15 reps.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "duration": "3 min",
+      "tags": ["back", "posture", "band", "upper-body"]
+    },
+    {
+      "id": "move_051",
+      "category": "Walking",
+      "title": "10-Minute Walk",
+      "description": "Just 10 minutes of walking. Around the block, in a mall, or even in place.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "duration": "10 min",
+      "tags": ["walking", "cardio", "accessible", "outdoor"]
+    },
+    {
+      "id": "move_052",
+      "category": "Walking",
+      "title": "Walking Meeting",
+      "description": "Take phone calls while walking. Pacing counts as movement.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "duration": "varies",
+      "tags": ["walking", "work", "multitasking", "productive"]
+    },
+    {
+      "id": "move_053",
+      "category": "Walking",
+      "title": "Nature Walk",
+      "description": "Walk in a park or green space. Nature exposure adds mental health benefits.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "duration": "20 min",
+      "tags": ["walking", "nature", "mental-health", "outdoor"]
+    },
+    {
+      "id": "move_054",
+      "category": "Walking",
+      "title": "Interval Walking",
+      "description": "Alternate 2 minutes brisk, 2 minutes normal pace. 15-20 minutes total.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "duration": "20 min",
+      "tags": ["walking", "intervals", "cardio", "varied"]
+    },
+    {
+      "id": "move_055",
+      "category": "Walking",
+      "title": "Post-Meal Walk",
+      "description": "15-minute walk after meals. Aids digestion and blood sugar regulation.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "15 min",
+      "tags": ["walking", "digestion", "blood-sugar", "routine"]
+    },
+    {
+      "id": "move_056",
+      "category": "Mobility",
+      "title": "Hip Flexor Stretch",
+      "description": "Half-kneeling, lean forward into front hip. 30-60 seconds each side.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "3 min",
+      "tags": ["hips", "stretch", "sitting", "essential"]
+    },
+    {
+      "id": "move_057",
+      "category": "Mobility",
+      "title": "Thoracic Rotation",
+      "description": "On hands and knees, place hand behind head, rotate to open chest. 10 each side.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "3 min",
+      "tags": ["spine", "rotation", "upper-back", "posture"]
+    },
+    {
+      "id": "move_058",
+      "category": "Mobility",
+      "title": "90/90 Hip Stretch",
+      "description": "Sit with legs in 90° angles, shift weight between hips. Hip opener.",
+      "energy_level": "low",
+      "difficulty": "medium",
+      "duration": "5 min",
+      "tags": ["hips", "seated", "mobility", "deep"]
+    },
+    {
+      "id": "move_059",
+      "category": "Mobility",
+      "title": "World's Greatest Stretch",
+      "description": "Lunge, rotate toward front leg, reach up. Best all-in-one mobility move.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "duration": "5 min",
+      "tags": ["whole-body", "mobility", "dynamic", "comprehensive"]
+    },
+    {
+      "id": "move_060",
+      "category": "Mobility",
+      "title": "Shoulder Pass-Throughs",
+      "description": "With stick or band, pass overhead from front to back. Shoulder mobility.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "3 min",
+      "tags": ["shoulders", "mobility", "equipment", "essential"]
+    },
+    {
+      "id": "move_061",
+      "category": "Chair Exercises",
+      "title": "Seated Leg Lifts",
+      "description": "Sit tall, straighten and lift one leg. Hold 5 seconds. 10 each leg.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "3 min",
+      "tags": ["seated", "legs", "quads", "accessible"]
+    },
+    {
+      "id": "move_062",
+      "category": "Chair Exercises",
+      "title": "Seated Arm Raises",
+      "description": "Sit tall, raise arms overhead, lower slowly. 15 reps.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "2 min",
+      "tags": ["seated", "shoulders", "accessible", "gentle"]
+    },
+    {
+      "id": "move_063",
+      "category": "Chair Exercises",
+      "title": "Seated Marching",
+      "description": "Sit at edge of chair, march legs alternating. 1-2 minutes.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "2 min",
+      "tags": ["seated", "cardio", "legs", "accessible"]
+    },
+    {
+      "id": "move_064",
+      "category": "Chair Exercises",
+      "title": "Chair Yoga Flow",
+      "description": "Seated sun salutation variation. Arms up, fold forward, twist each side.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "5 min",
+      "tags": ["seated", "yoga", "flow", "accessible"]
+    },
+    {
+      "id": "move_065",
+      "category": "Chair Exercises",
+      "title": "Seated Figure-4",
+      "description": "Cross ankle over opposite knee, lean forward gently. 30 seconds each.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "2 min",
+      "tags": ["seated", "hips", "glutes", "stretch"]
+    },
+    {
+      "id": "move_066",
+      "category": "Balance",
+      "title": "Single Leg Stand",
+      "description": "Stand on one leg near wall for safety. 30 seconds each leg.",
+      "energy_level": "low",
+      "difficulty": "medium",
+      "duration": "2 min",
+      "tags": ["balance", "standing", "foundational", "falls-prevention"]
+    },
+    {
+      "id": "move_067",
+      "category": "Balance",
+      "title": "Tandem Stand",
+      "description": "Stand heel-to-toe like on a tightrope. Hold 30 seconds each foot forward.",
+      "energy_level": "low",
+      "difficulty": "medium",
+      "duration": "2 min",
+      "tags": ["balance", "standing", "coordination", "challenging"]
+    },
+    {
+      "id": "move_068",
+      "category": "Balance",
+      "title": "Eyes Closed Balance",
+      "description": "Stand on one leg, close eyes. Start with 5 seconds, build up.",
+      "energy_level": "low",
+      "difficulty": "hard",
+      "duration": "3 min",
+      "tags": ["balance", "proprioception", "advanced", "challenging"]
+    },
+    {
+      "id": "move_069",
+      "category": "Balance",
+      "title": "Weight Shifts",
+      "description": "Stand feet together, shift weight side to side, forward and back.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "2 min",
+      "tags": ["balance", "standing", "beginner", "awareness"]
+    },
+    {
+      "id": "move_070",
+      "category": "Balance",
+      "title": "Clock Reaches",
+      "description": "Stand on one leg, reach other foot to 12, 3, 6, 9 o'clock positions.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "duration": "4 min",
+      "tags": ["balance", "dynamic", "legs", "coordination"]
+    },
+    {
+      "id": "move_071",
+      "category": "Chronic Illness Friendly",
+      "title": "Bed Stretches",
+      "description": "Stretch while still in bed - point/flex feet, knee hugs, gentle twists.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "5 min",
+      "tags": ["bed", "gentle", "morning", "accessible"]
+    },
+    {
+      "id": "move_072",
+      "category": "Chronic Illness Friendly",
+      "title": "Hourly Micro-Movement",
+      "description": "Set timer, do 30 seconds of any movement every hour. Prevents stiffness.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "30 sec",
+      "tags": ["micro", "routine", "pacing", "sustainable"]
+    },
+    {
+      "id": "move_073",
+      "category": "Chronic Illness Friendly",
+      "title": "Gentle Water Exercise",
+      "description": "If pool available, water reduces joint stress. Even walking in water helps.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "duration": "15 min",
+      "tags": ["water", "pool", "joint-friendly", "therapeutic"]
+    },
+    {
+      "id": "move_074",
+      "category": "Chronic Illness Friendly",
+      "title": "Resistance Band Arms",
+      "description": "Light resistance band exercises from seated position. Low intensity, effective.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "5 min",
+      "tags": ["bands", "seated", "strength", "gentle"]
+    },
+    {
+      "id": "move_075",
+      "category": "Chronic Illness Friendly",
+      "title": "Pacing Practice",
+      "description": "Do 50% of what you think you can, rest, repeat. Builds without crashing.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "varies",
+      "tags": ["pacing", "sustainable", "chronic-illness", "strategy"]
+    },
+    {
+      "id": "move_076",
+      "category": "Fun Movement",
+      "title": "Shake It Off",
+      "description": "Put on upbeat music, shake entire body for 2-3 minutes. Releases tension.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "duration": "3 min",
+      "tags": ["fun", "music", "release", "energizing"]
+    },
+    {
+      "id": "move_077",
+      "category": "Fun Movement",
+      "title": "Air Guitar",
+      "description": "Put on rock music, play imaginary guitar. Full body movement disguised as fun.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "duration": "5 min",
+      "tags": ["fun", "music", "silly", "cardio"]
+    },
+    {
+      "id": "move_078",
+      "category": "Fun Movement",
+      "title": "Follow a Dance Video",
+      "description": "YouTube has endless dance tutorials. Learn moves at your own pace.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "duration": "10 min",
+      "tags": ["dance", "video", "learning", "fun"]
+    },
+    {
+      "id": "move_079",
+      "category": "Fun Movement",
+      "title": "Play Active Video Games",
+      "description": "Ring Fit, Just Dance, Beat Saber, Wii Sports. Gaming that moves you.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "duration": "20 min",
+      "tags": ["gaming", "tech", "fun", "cardio"]
+    },
+    {
+      "id": "move_080",
+      "category": "Fun Movement",
+      "title": "Hula Hoop",
+      "description": "Hula hooping is excellent core work and fun. Modern weighted hoops easier to use.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "duration": "10 min",
+      "tags": ["fun", "core", "coordination", "nostalgic"]
+    },
+    {
+      "id": "move_081",
+      "category": "Workplace",
+      "title": "Deskercise Routine",
+      "description": "5-minute sequence: neck rolls, shoulder shrugs, wrist circles, ankle circles, seated twists.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "5 min",
+      "tags": ["office", "desk", "routine", "discrete"]
+    },
+    {
+      "id": "move_082",
+      "category": "Workplace",
+      "title": "Bathroom Break Stretches",
+      "description": "Use bathroom trips for quick stretches. Standing hamstring stretch, arm reaches.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "2 min",
+      "tags": ["office", "break", "discrete", "stretching"]
+    },
+    {
+      "id": "move_083",
+      "category": "Workplace",
+      "title": "Take Stairs",
+      "description": "Choose stairs over elevator. Even one floor counts.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "duration": "varies",
+      "tags": ["stairs", "cardio", "habit", "workplace"]
+    },
+    {
+      "id": "move_084",
+      "category": "Workplace",
+      "title": "Walking Lunch",
+      "description": "Eat lunch, then walk for remaining break time. Fresh air and movement.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "duration": "15 min",
+      "tags": ["walking", "lunch", "outdoor", "routine"]
+    },
+    {
+      "id": "move_085",
+      "category": "Workplace",
+      "title": "Standing Desk Time",
+      "description": "Alternate sitting and standing if desk allows. Even 15 minutes helps.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "varies",
+      "tags": ["standing", "desk", "posture", "habit"]
+    },
+    {
+      "id": "move_086",
+      "category": "Morning Routine",
+      "title": "Sun Salutation",
+      "description": "Traditional yoga flow to energize the morning. 3-5 rounds.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "duration": "10 min",
+      "tags": ["yoga", "flow", "morning", "energizing"]
+    },
+    {
+      "id": "move_087",
+      "category": "Morning Routine",
+      "title": "Morning Stretch Sequence",
+      "description": "Cat-cow, child's pose, downward dog, forward fold, arms overhead. Wake up the body.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "5 min",
+      "tags": ["stretching", "morning", "gentle", "routine"]
+    },
+    {
+      "id": "move_088",
+      "category": "Morning Routine",
+      "title": "Cold Water Face Splash + Stretch",
+      "description": "Splash face with cold water, then stretch for 3 minutes. Alert and mobile.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "5 min",
+      "tags": ["morning", "alert", "routine", "quick"]
+    },
+    {
+      "id": "move_089",
+      "category": "Morning Routine",
+      "title": "Jumping in Place",
+      "description": "30 seconds of gentle jumping to get blood flowing. Modify to bouncing.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "duration": "1 min",
+      "tags": ["morning", "energizing", "cardio", "quick"]
+    },
+    {
+      "id": "move_090",
+      "category": "Morning Routine",
+      "title": "Morning Dance Party",
+      "description": "One upbeat song while getting ready. Dance while brushing teeth or making coffee.",
+      "energy_level": "medium",
+      "difficulty": "easy",
+      "duration": "4 min",
+      "tags": ["morning", "dance", "fun", "mood-boost"]
+    },
+    {
+      "id": "move_091",
+      "category": "Evening Wind-Down",
+      "title": "Evening Yin Yoga",
+      "description": "Long-held passive stretches. 3-5 minutes per pose. Deeply relaxing.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "15 min",
+      "tags": ["yoga", "evening", "relaxing", "passive"]
+    },
+    {
+      "id": "move_092",
+      "category": "Evening Wind-Down",
+      "title": "Foam Rolling",
+      "description": "Roll out tight spots - calves, thighs, upper back. 10-15 minutes before bed.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "15 min",
+      "tags": ["recovery", "foam-roller", "evening", "tension"]
+    },
+    {
+      "id": "move_093",
+      "category": "Evening Wind-Down",
+      "title": "Gentle Forward Folds",
+      "description": "Standing or seated forward folds. Calms nervous system. 3-5 minutes.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "5 min",
+      "tags": ["stretching", "calming", "evening", "simple"]
+    },
+    {
+      "id": "move_094",
+      "category": "Evening Wind-Down",
+      "title": "Body Scan with Movement",
+      "description": "Lie down, tense and release each body part head to toe.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "10 min",
+      "tags": ["relaxation", "evening", "progressive", "sleep-prep"]
+    },
+    {
+      "id": "move_095",
+      "category": "Evening Wind-Down",
+      "title": "Supported Fish Pose",
+      "description": "Lie on pillow under upper back, arms out. Opens chest, calms breathing.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "5 min",
+      "tags": ["restorative", "chest-opener", "relaxing", "supported"]
+    },
+    {
+      "id": "move_096",
+      "category": "Outdoor",
+      "title": "Park Bench Workout",
+      "description": "Use bench for step-ups, incline push-ups, tricep dips, seated twists.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "duration": "15 min",
+      "tags": ["outdoor", "bench", "bodyweight", "creative"]
+    },
+    {
+      "id": "move_097",
+      "category": "Outdoor",
+      "title": "Trail Walking",
+      "description": "Uneven terrain engages more muscles than flat surfaces. Nature bonus.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "duration": "30 min",
+      "tags": ["walking", "nature", "trails", "balance"]
+    },
+    {
+      "id": "move_098",
+      "category": "Outdoor",
+      "title": "Grounding/Earthing",
+      "description": "Walk barefoot on grass or earth. Stretch while connected to ground.",
+      "energy_level": "low",
+      "difficulty": "easy",
+      "duration": "10 min",
+      "tags": ["barefoot", "nature", "grounding", "mindful"]
+    },
+    {
+      "id": "move_099",
+      "category": "Outdoor",
+      "title": "Outdoor Yoga",
+      "description": "Take your yoga practice outside. Fresh air and nature enhance the experience.",
+      "energy_level": "medium",
+      "difficulty": "medium",
+      "duration": "20 min",
+      "tags": ["yoga", "outdoor", "nature", "mindful"]
+    },
+    {
+      "id": "move_100",
+      "category": "Outdoor",
+      "title": "Playground Workout",
+      "description": "Use playground equipment for pull-ups, hanging, climbing. Free outdoor gym.",
+      "energy_level": "high",
+      "difficulty": "medium",
+      "duration": "20 min",
+      "tags": ["playground", "bodyweight", "creative", "fun"]
+    }
+  ]
+}

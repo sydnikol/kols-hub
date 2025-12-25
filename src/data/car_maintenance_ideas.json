@@ -1,0 +1,458 @@
+{
+  "module": "Car Maintenance Ideas",
+  "version": "1.0",
+  "total_ideas": 50,
+  "description": "Essential car care and maintenance tips for vehicle longevity and safety",
+  "items": [
+    {
+      "id": "car_001",
+      "category": "Weekly Checks",
+      "title": "Tire Pressure Check",
+      "description": "Check tire pressure when tires are cold. Refer to door sticker for correct PSI. Low pressure wastes fuel and wears tires unevenly.",
+      "difficulty": "easy",
+      "frequency": "weekly",
+      "tags": ["tires", "pressure", "safety", "fuel-efficiency"]
+    },
+    {
+      "id": "car_002",
+      "category": "Weekly Checks",
+      "title": "Windshield Washer Fluid",
+      "description": "Check and top off windshield washer fluid. Use winter formula in cold climates to prevent freezing.",
+      "difficulty": "easy",
+      "frequency": "weekly",
+      "tags": ["fluids", "visibility", "safety", "easy"]
+    },
+    {
+      "id": "car_003",
+      "category": "Weekly Checks",
+      "title": "Exterior Light Check",
+      "description": "Walk around car and verify all lights work: headlights, taillights, brake lights, turn signals.",
+      "difficulty": "easy",
+      "frequency": "weekly",
+      "tags": ["lights", "safety", "visibility", "check"]
+    },
+    {
+      "id": "car_004",
+      "category": "Weekly Checks",
+      "title": "Visual Tire Inspection",
+      "description": "Look for cuts, bulges, embedded objects, or uneven wear patterns on all tires including spare.",
+      "difficulty": "easy",
+      "frequency": "weekly",
+      "tags": ["tires", "visual", "safety", "inspection"]
+    },
+    {
+      "id": "car_005",
+      "category": "Monthly Checks",
+      "title": "Oil Level Check",
+      "description": "Check engine oil with dipstick when engine is cool. Oil should be between min and max marks.",
+      "difficulty": "easy",
+      "frequency": "monthly",
+      "tags": ["oil", "engine", "levels", "dipstick"]
+    },
+    {
+      "id": "car_006",
+      "category": "Monthly Checks",
+      "title": "Coolant Level Check",
+      "description": "Check coolant level in overflow tank when engine is cold. Never open radiator cap when hot.",
+      "difficulty": "easy",
+      "frequency": "monthly",
+      "tags": ["coolant", "engine", "overheating", "fluids"]
+    },
+    {
+      "id": "car_007",
+      "category": "Monthly Checks",
+      "title": "Brake Fluid Check",
+      "description": "Check brake fluid level in master cylinder reservoir. Low level may indicate brake wear.",
+      "difficulty": "easy",
+      "frequency": "monthly",
+      "tags": ["brakes", "fluids", "safety", "levels"]
+    },
+    {
+      "id": "car_008",
+      "category": "Monthly Checks",
+      "title": "Power Steering Fluid",
+      "description": "Check power steering fluid level and condition. Dark or burnt smell indicates needed change.",
+      "difficulty": "easy",
+      "frequency": "monthly",
+      "tags": ["steering", "fluids", "levels", "check"]
+    },
+    {
+      "id": "car_009",
+      "category": "Monthly Checks",
+      "title": "Transmission Fluid Check",
+      "description": "Check transmission fluid level and color (should be pink/red, not brown). Follow owner's manual procedure.",
+      "difficulty": "medium",
+      "frequency": "monthly",
+      "tags": ["transmission", "fluids", "levels", "condition"]
+    },
+    {
+      "id": "car_010",
+      "category": "Monthly Checks",
+      "title": "Air Filter Visual Check",
+      "description": "Hold engine air filter up to light. Replace if you can't see light through it clearly.",
+      "difficulty": "easy",
+      "frequency": "monthly",
+      "tags": ["air-filter", "engine", "efficiency", "visual"]
+    },
+    {
+      "id": "car_011",
+      "category": "Regular Service",
+      "title": "Oil Change",
+      "description": "Change engine oil and filter according to manufacturer schedule. Typically every 5,000-7,500 miles for synthetic.",
+      "difficulty": "medium",
+      "frequency": "per-schedule",
+      "tags": ["oil", "filter", "service", "engine"]
+    },
+    {
+      "id": "car_012",
+      "category": "Regular Service",
+      "title": "Tire Rotation",
+      "description": "Rotate tires every 5,000-8,000 miles for even wear. Front-to-back or cross pattern depending on drive type.",
+      "difficulty": "medium",
+      "frequency": "every-5000-miles",
+      "tags": ["tires", "rotation", "wear", "service"]
+    },
+    {
+      "id": "car_013",
+      "category": "Regular Service",
+      "title": "Air Filter Replacement",
+      "description": "Replace engine air filter every 15,000-30,000 miles or as needed based on driving conditions.",
+      "difficulty": "easy",
+      "frequency": "every-15000-miles",
+      "tags": ["air-filter", "replacement", "engine", "efficiency"]
+    },
+    {
+      "id": "car_014",
+      "category": "Regular Service",
+      "title": "Cabin Air Filter Replacement",
+      "description": "Replace cabin air filter every 15,000-25,000 miles for clean air inside vehicle.",
+      "difficulty": "easy",
+      "frequency": "every-15000-miles",
+      "tags": ["cabin-filter", "air-quality", "hvac", "replacement"]
+    },
+    {
+      "id": "car_015",
+      "category": "Regular Service",
+      "title": "Brake Pad Inspection",
+      "description": "Inspect brake pad thickness through wheel spokes. Replace when less than 3mm thick.",
+      "difficulty": "medium",
+      "frequency": "every-10000-miles",
+      "tags": ["brakes", "pads", "safety", "inspection"]
+    },
+    {
+      "id": "car_016",
+      "category": "Regular Service",
+      "title": "Spark Plug Replacement",
+      "description": "Replace spark plugs per manufacturer schedule. Iridium/platinum last 60,000-100,000 miles.",
+      "difficulty": "hard",
+      "frequency": "per-schedule",
+      "tags": ["spark-plugs", "engine", "ignition", "service"]
+    },
+    {
+      "id": "car_017",
+      "category": "Regular Service",
+      "title": "Coolant Flush",
+      "description": "Flush and replace coolant every 30,000-50,000 miles or per manufacturer recommendation.",
+      "difficulty": "medium",
+      "frequency": "every-30000-miles",
+      "tags": ["coolant", "flush", "cooling-system", "service"]
+    },
+    {
+      "id": "car_018",
+      "category": "Regular Service",
+      "title": "Transmission Service",
+      "description": "Change transmission fluid and filter per manufacturer schedule, typically every 30,000-60,000 miles.",
+      "difficulty": "hard",
+      "frequency": "every-30000-miles",
+      "tags": ["transmission", "fluid", "service", "filter"]
+    },
+    {
+      "id": "car_019",
+      "category": "Regular Service",
+      "title": "Battery Check and Clean",
+      "description": "Inspect battery terminals for corrosion. Clean with baking soda solution and apply protectant.",
+      "difficulty": "easy",
+      "frequency": "quarterly",
+      "tags": ["battery", "terminals", "corrosion", "cleaning"]
+    },
+    {
+      "id": "car_020",
+      "category": "Regular Service",
+      "title": "Wiper Blade Replacement",
+      "description": "Replace wiper blades every 6-12 months or when they leave streaks or skip.",
+      "difficulty": "easy",
+      "frequency": "biannually",
+      "tags": ["wipers", "visibility", "replacement", "easy"]
+    },
+    {
+      "id": "car_021",
+      "category": "Seasonal",
+      "title": "Winter Tire Swap",
+      "description": "Install winter tires when temperatures consistently drop below 45°F for better traction.",
+      "difficulty": "medium",
+      "frequency": "seasonal",
+      "tags": ["tires", "winter", "seasonal", "safety"]
+    },
+    {
+      "id": "car_022",
+      "category": "Seasonal",
+      "title": "Summer Tire Swap",
+      "description": "Switch back to all-season or summer tires when temperatures consistently above 45°F.",
+      "difficulty": "medium",
+      "frequency": "seasonal",
+      "tags": ["tires", "summer", "seasonal", "performance"]
+    },
+    {
+      "id": "car_023",
+      "category": "Seasonal",
+      "title": "AC System Check",
+      "description": "Test air conditioning before summer. Weak cooling may indicate low refrigerant or other issues.",
+      "difficulty": "easy",
+      "frequency": "annually-spring",
+      "tags": ["ac", "cooling", "spring", "comfort"]
+    },
+    {
+      "id": "car_024",
+      "category": "Seasonal",
+      "title": "Heater and Defrost Check",
+      "description": "Test heating and defrost before winter. Ensure quick and effective windshield clearing.",
+      "difficulty": "easy",
+      "frequency": "annually-fall",
+      "tags": ["heater", "defrost", "fall", "visibility"]
+    },
+    {
+      "id": "car_025",
+      "category": "Seasonal",
+      "title": "Winter Emergency Kit",
+      "description": "Stock car with blanket, flashlight, jumper cables, ice scraper, sand/kitty litter for traction.",
+      "difficulty": "easy",
+      "frequency": "annually-fall",
+      "tags": ["emergency", "winter", "kit", "preparedness"]
+    },
+    {
+      "id": "car_026",
+      "category": "Cleaning",
+      "title": "Exterior Wash",
+      "description": "Wash exterior regularly to remove dirt, salt, and contaminants that damage paint.",
+      "difficulty": "easy",
+      "frequency": "biweekly",
+      "tags": ["washing", "exterior", "paint", "protection"]
+    },
+    {
+      "id": "car_027",
+      "category": "Cleaning",
+      "title": "Undercarriage Wash",
+      "description": "Wash undercarriage especially after winter to remove salt that causes rust.",
+      "difficulty": "easy",
+      "frequency": "monthly-winter",
+      "tags": ["undercarriage", "salt", "rust", "prevention"]
+    },
+    {
+      "id": "car_028",
+      "category": "Cleaning",
+      "title": "Interior Vacuum",
+      "description": "Vacuum seats, floor mats, and carpet to remove dirt and debris.",
+      "difficulty": "easy",
+      "frequency": "biweekly",
+      "tags": ["interior", "vacuum", "cleaning", "carpets"]
+    },
+    {
+      "id": "car_029",
+      "category": "Cleaning",
+      "title": "Dashboard and Console Wipe",
+      "description": "Clean dashboard, console, and door panels with appropriate cleaner.",
+      "difficulty": "easy",
+      "frequency": "weekly",
+      "tags": ["interior", "dashboard", "cleaning", "surfaces"]
+    },
+    {
+      "id": "car_030",
+      "category": "Cleaning",
+      "title": "Window Cleaning Inside",
+      "description": "Clean interior windows for clear visibility and reduced glare.",
+      "difficulty": "easy",
+      "frequency": "biweekly",
+      "tags": ["windows", "interior", "visibility", "cleaning"]
+    },
+    {
+      "id": "car_031",
+      "category": "Cleaning",
+      "title": "Leather Conditioning",
+      "description": "Apply leather conditioner to seats and surfaces to prevent cracking and fading.",
+      "difficulty": "easy",
+      "frequency": "quarterly",
+      "tags": ["leather", "conditioning", "seats", "protection"]
+    },
+    {
+      "id": "car_032",
+      "category": "Cleaning",
+      "title": "Wax and Sealant Application",
+      "description": "Apply wax or sealant after washing to protect paint from UV and contaminants.",
+      "difficulty": "medium",
+      "frequency": "quarterly",
+      "tags": ["wax", "sealant", "paint", "protection"]
+    },
+    {
+      "id": "car_033",
+      "category": "Safety Checks",
+      "title": "Horn Test",
+      "description": "Test that horn works properly for safety signaling.",
+      "difficulty": "easy",
+      "frequency": "monthly",
+      "tags": ["horn", "safety", "signaling", "test"]
+    },
+    {
+      "id": "car_034",
+      "category": "Safety Checks",
+      "title": "Seatbelt Inspection",
+      "description": "Check all seatbelts for smooth operation and secure latching.",
+      "difficulty": "easy",
+      "frequency": "monthly",
+      "tags": ["seatbelts", "safety", "restraints", "inspection"]
+    },
+    {
+      "id": "car_035",
+      "category": "Safety Checks",
+      "title": "Emergency Flashers Test",
+      "description": "Verify hazard lights/emergency flashers work from both interior and exterior.",
+      "difficulty": "easy",
+      "frequency": "monthly",
+      "tags": ["hazards", "flashers", "safety", "visibility"]
+    },
+    {
+      "id": "car_036",
+      "category": "Safety Checks",
+      "title": "Jack and Tools Check",
+      "description": "Verify spare tire, jack, and lug wrench are present and in working condition.",
+      "difficulty": "easy",
+      "frequency": "quarterly",
+      "tags": ["spare", "jack", "tools", "emergency"]
+    },
+    {
+      "id": "car_037",
+      "category": "Safety Checks",
+      "title": "First Aid Kit Stock",
+      "description": "Check and restock car first aid kit. Include bandages, antiseptic, and medication.",
+      "difficulty": "easy",
+      "frequency": "biannually",
+      "tags": ["first-aid", "emergency", "medical", "stock"]
+    },
+    {
+      "id": "car_038",
+      "category": "Documentation",
+      "title": "Registration Renewal Tracking",
+      "description": "Track registration expiration and renew before deadline. Keep current registration in car.",
+      "difficulty": "easy",
+      "frequency": "annually",
+      "tags": ["registration", "legal", "documents", "renewal"]
+    },
+    {
+      "id": "car_039",
+      "category": "Documentation",
+      "title": "Insurance Card Update",
+      "description": "Replace expired insurance cards in vehicle with current versions.",
+      "difficulty": "easy",
+      "frequency": "per-renewal",
+      "tags": ["insurance", "documents", "legal", "cards"]
+    },
+    {
+      "id": "car_040",
+      "category": "Documentation",
+      "title": "Service Record Keeping",
+      "description": "Maintain records of all maintenance and repairs for resale value and warranty.",
+      "difficulty": "easy",
+      "frequency": "ongoing",
+      "tags": ["records", "documentation", "history", "value"]
+    },
+    {
+      "id": "car_041",
+      "category": "Long-Term Care",
+      "title": "Belt and Hose Inspection",
+      "description": "Inspect serpentine belt and hoses for cracks, bulges, or wear. Replace preventatively.",
+      "difficulty": "medium",
+      "frequency": "every-30000-miles",
+      "tags": ["belts", "hoses", "inspection", "preventive"]
+    },
+    {
+      "id": "car_042",
+      "category": "Long-Term Care",
+      "title": "Timing Belt/Chain Replacement",
+      "description": "Replace timing belt per manufacturer schedule (typically 60,000-100,000 miles). Critical component.",
+      "difficulty": "hard",
+      "frequency": "per-schedule",
+      "tags": ["timing-belt", "engine", "critical", "service"]
+    },
+    {
+      "id": "car_043",
+      "category": "Long-Term Care",
+      "title": "Suspension Inspection",
+      "description": "Check for worn shocks, struts, and bushings. Signs include bouncing, uneven tire wear, or noise.",
+      "difficulty": "medium",
+      "frequency": "every-50000-miles",
+      "tags": ["suspension", "shocks", "struts", "handling"]
+    },
+    {
+      "id": "car_044",
+      "category": "Long-Term Care",
+      "title": "Exhaust System Check",
+      "description": "Inspect exhaust for rust, holes, or loose components. Listen for unusual sounds.",
+      "difficulty": "medium",
+      "frequency": "annually",
+      "tags": ["exhaust", "rust", "inspection", "emissions"]
+    },
+    {
+      "id": "car_045",
+      "category": "Long-Term Care",
+      "title": "Wheel Alignment Check",
+      "description": "Check wheel alignment annually or if car pulls to one side. Prevents uneven tire wear.",
+      "difficulty": "hard",
+      "frequency": "annually",
+      "tags": ["alignment", "wheels", "tire-wear", "handling"]
+    },
+    {
+      "id": "car_046",
+      "category": "Fuel Efficiency",
+      "title": "Track Fuel Economy",
+      "description": "Monitor miles per gallon to detect early signs of engine or fuel system issues.",
+      "difficulty": "easy",
+      "frequency": "ongoing",
+      "tags": ["fuel", "efficiency", "tracking", "monitoring"]
+    },
+    {
+      "id": "car_047",
+      "category": "Fuel Efficiency",
+      "title": "Remove Excess Weight",
+      "description": "Clear trunk of unnecessary items. Extra weight reduces fuel efficiency.",
+      "difficulty": "easy",
+      "frequency": "monthly",
+      "tags": ["weight", "fuel", "efficiency", "declutter"]
+    },
+    {
+      "id": "car_048",
+      "category": "Fuel Efficiency",
+      "title": "Fuel System Cleaner",
+      "description": "Add fuel system cleaner to tank every 3,000 miles to clean injectors and intake.",
+      "difficulty": "easy",
+      "frequency": "every-3000-miles",
+      "tags": ["fuel", "cleaner", "injectors", "maintenance"]
+    },
+    {
+      "id": "car_049",
+      "category": "Technology",
+      "title": "Diagnostic Code Check",
+      "description": "Use OBD2 scanner to check for diagnostic trouble codes, especially if check engine light on.",
+      "difficulty": "medium",
+      "frequency": "as-needed",
+      "tags": ["obd2", "diagnostics", "codes", "troubleshooting"]
+    },
+    {
+      "id": "car_050",
+      "category": "Technology",
+      "title": "Software Updates",
+      "description": "Check for and apply any available vehicle software or infotainment updates.",
+      "difficulty": "medium",
+      "frequency": "quarterly",
+      "tags": ["software", "updates", "infotainment", "technology"]
+    }
+  ]
+}

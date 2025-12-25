@@ -1,1407 +1,207 @@
 {
   "module": "Sewing Ideas",
-  "version": "1.0",
-  "generated_at": "2025-11-18",
+  "version": "2.0",
+  "generated_at": "2025-12-10",
   "items": [
-    {
-      "id": "sewing_ideas_001",
-      "category": "Upcycling",
-      "title": "Sewing Ideas Idea 1",
-      "description": "Placeholder idea #1 in 'Upcycling'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_002",
-      "category": "Alterations",
-      "title": "Sewing Ideas Idea 2",
-      "description": "Placeholder idea #2 in 'Alterations'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_003",
-      "category": "Costumes",
-      "title": "Sewing Ideas Idea 3",
-      "description": "Placeholder idea #3 in 'Costumes'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_004",
-      "category": "Alterations",
-      "title": "Sewing Ideas Idea 4",
-      "description": "Placeholder idea #4 in 'Alterations'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_005",
-      "category": "Upcycling",
-      "title": "Sewing Ideas Idea 5",
-      "description": "Placeholder idea #5 in 'Upcycling'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_006",
-      "category": "Upcycling",
-      "title": "Sewing Ideas Idea 6",
-      "description": "Placeholder idea #6 in 'Upcycling'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_007",
-      "category": "Costumes",
-      "title": "Sewing Ideas Idea 7",
-      "description": "Placeholder idea #7 in 'Costumes'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_008",
-      "category": "Upcycling",
-      "title": "Sewing Ideas Idea 8",
-      "description": "Placeholder idea #8 in 'Upcycling'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_009",
-      "category": "Accessories",
-      "title": "Sewing Ideas Idea 9",
-      "description": "Placeholder idea #9 in 'Accessories'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_010",
-      "category": "Accessories",
-      "title": "Sewing Ideas Idea 10",
-      "description": "Placeholder idea #10 in 'Accessories'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_011",
-      "category": "Alterations",
-      "title": "Sewing Ideas Idea 11",
-      "description": "Placeholder idea #11 in 'Alterations'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_012",
-      "category": "Repairs",
-      "title": "Sewing Ideas Idea 12",
-      "description": "Placeholder idea #12 in 'Repairs'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_013",
-      "category": "Accessories",
-      "title": "Sewing Ideas Idea 13",
-      "description": "Placeholder idea #13 in 'Accessories'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_014",
-      "category": "Repairs",
-      "title": "Sewing Ideas Idea 14",
-      "description": "Placeholder idea #14 in 'Repairs'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_015",
-      "category": "Upcycling",
-      "title": "Sewing Ideas Idea 15",
-      "description": "Placeholder idea #15 in 'Upcycling'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_016",
-      "category": "Accessories",
-      "title": "Sewing Ideas Idea 16",
-      "description": "Placeholder idea #16 in 'Accessories'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_017",
-      "category": "Clothing",
-      "title": "Sewing Ideas Idea 17",
-      "description": "Placeholder idea #17 in 'Clothing'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_018",
-      "category": "Home Decor",
-      "title": "Sewing Ideas Idea 18",
-      "description": "Placeholder idea #18 in 'Home Decor'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_019",
-      "category": "Alterations",
-      "title": "Sewing Ideas Idea 19",
-      "description": "Placeholder idea #19 in 'Alterations'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_020",
-      "category": "Slow Fashion",
-      "title": "Sewing Ideas Idea 20",
-      "description": "Placeholder idea #20 in 'Slow Fashion'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_021",
-      "category": "Upcycling",
-      "title": "Sewing Ideas Idea 21",
-      "description": "Placeholder idea #21 in 'Upcycling'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_022",
-      "category": "Slow Fashion",
-      "title": "Sewing Ideas Idea 22",
-      "description": "Placeholder idea #22 in 'Slow Fashion'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_023",
-      "category": "Slow Fashion",
-      "title": "Sewing Ideas Idea 23",
-      "description": "Placeholder idea #23 in 'Slow Fashion'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_024",
-      "category": "Repairs",
-      "title": "Sewing Ideas Idea 24",
-      "description": "Placeholder idea #24 in 'Repairs'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_025",
-      "category": "Costumes",
-      "title": "Sewing Ideas Idea 25",
-      "description": "Placeholder idea #25 in 'Costumes'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_026",
-      "category": "Slow Fashion",
-      "title": "Sewing Ideas Idea 26",
-      "description": "Placeholder idea #26 in 'Slow Fashion'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_027",
-      "category": "Accessories",
-      "title": "Sewing Ideas Idea 27",
-      "description": "Placeholder idea #27 in 'Accessories'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_028",
-      "category": "Repairs",
-      "title": "Sewing Ideas Idea 28",
-      "description": "Placeholder idea #28 in 'Repairs'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_029",
-      "category": "Accessories",
-      "title": "Sewing Ideas Idea 29",
-      "description": "Placeholder idea #29 in 'Accessories'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_030",
-      "category": "Upcycling",
-      "title": "Sewing Ideas Idea 30",
-      "description": "Placeholder idea #30 in 'Upcycling'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_031",
-      "category": "Upcycling",
-      "title": "Sewing Ideas Idea 31",
-      "description": "Placeholder idea #31 in 'Upcycling'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_032",
-      "category": "Upcycling",
-      "title": "Sewing Ideas Idea 32",
-      "description": "Placeholder idea #32 in 'Upcycling'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_033",
-      "category": "Upcycling",
-      "title": "Sewing Ideas Idea 33",
-      "description": "Placeholder idea #33 in 'Upcycling'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_034",
-      "category": "Home Decor",
-      "title": "Sewing Ideas Idea 34",
-      "description": "Placeholder idea #34 in 'Home Decor'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_035",
-      "category": "Upcycling",
-      "title": "Sewing Ideas Idea 35",
-      "description": "Placeholder idea #35 in 'Upcycling'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_036",
-      "category": "Home Decor",
-      "title": "Sewing Ideas Idea 36",
-      "description": "Placeholder idea #36 in 'Home Decor'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_037",
-      "category": "Alterations",
-      "title": "Sewing Ideas Idea 37",
-      "description": "Placeholder idea #37 in 'Alterations'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_038",
-      "category": "Costumes",
-      "title": "Sewing Ideas Idea 38",
-      "description": "Placeholder idea #38 in 'Costumes'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_039",
-      "category": "Home Decor",
-      "title": "Sewing Ideas Idea 39",
-      "description": "Placeholder idea #39 in 'Home Decor'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_040",
-      "category": "Slow Fashion",
-      "title": "Sewing Ideas Idea 40",
-      "description": "Placeholder idea #40 in 'Slow Fashion'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_041",
-      "category": "Slow Fashion",
-      "title": "Sewing Ideas Idea 41",
-      "description": "Placeholder idea #41 in 'Slow Fashion'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_042",
-      "category": "Upcycling",
-      "title": "Sewing Ideas Idea 42",
-      "description": "Placeholder idea #42 in 'Upcycling'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_043",
-      "category": "Slow Fashion",
-      "title": "Sewing Ideas Idea 43",
-      "description": "Placeholder idea #43 in 'Slow Fashion'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_044",
-      "category": "Alterations",
-      "title": "Sewing Ideas Idea 44",
-      "description": "Placeholder idea #44 in 'Alterations'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_045",
-      "category": "Accessories",
-      "title": "Sewing Ideas Idea 45",
-      "description": "Placeholder idea #45 in 'Accessories'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_046",
-      "category": "Alterations",
-      "title": "Sewing Ideas Idea 46",
-      "description": "Placeholder idea #46 in 'Alterations'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_047",
-      "category": "Home Decor",
-      "title": "Sewing Ideas Idea 47",
-      "description": "Placeholder idea #47 in 'Home Decor'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_048",
-      "category": "Clothing",
-      "title": "Sewing Ideas Idea 48",
-      "description": "Placeholder idea #48 in 'Clothing'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_049",
-      "category": "Accessories",
-      "title": "Sewing Ideas Idea 49",
-      "description": "Placeholder idea #49 in 'Accessories'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_050",
-      "category": "Repairs",
-      "title": "Sewing Ideas Idea 50",
-      "description": "Placeholder idea #50 in 'Repairs'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_051",
-      "category": "Costumes",
-      "title": "Sewing Ideas Idea 51",
-      "description": "Placeholder idea #51 in 'Costumes'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_052",
-      "category": "Upcycling",
-      "title": "Sewing Ideas Idea 52",
-      "description": "Placeholder idea #52 in 'Upcycling'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_053",
-      "category": "Accessories",
-      "title": "Sewing Ideas Idea 53",
-      "description": "Placeholder idea #53 in 'Accessories'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_054",
-      "category": "Repairs",
-      "title": "Sewing Ideas Idea 54",
-      "description": "Placeholder idea #54 in 'Repairs'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_055",
-      "category": "Clothing",
-      "title": "Sewing Ideas Idea 55",
-      "description": "Placeholder idea #55 in 'Clothing'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_056",
-      "category": "Repairs",
-      "title": "Sewing Ideas Idea 56",
-      "description": "Placeholder idea #56 in 'Repairs'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_057",
-      "category": "Repairs",
-      "title": "Sewing Ideas Idea 57",
-      "description": "Placeholder idea #57 in 'Repairs'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_058",
-      "category": "Upcycling",
-      "title": "Sewing Ideas Idea 58",
-      "description": "Placeholder idea #58 in 'Upcycling'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_059",
-      "category": "Repairs",
-      "title": "Sewing Ideas Idea 59",
-      "description": "Placeholder idea #59 in 'Repairs'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_060",
-      "category": "Costumes",
-      "title": "Sewing Ideas Idea 60",
-      "description": "Placeholder idea #60 in 'Costumes'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_061",
-      "category": "Alterations",
-      "title": "Sewing Ideas Idea 61",
-      "description": "Placeholder idea #61 in 'Alterations'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_062",
-      "category": "Costumes",
-      "title": "Sewing Ideas Idea 62",
-      "description": "Placeholder idea #62 in 'Costumes'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_063",
-      "category": "Alterations",
-      "title": "Sewing Ideas Idea 63",
-      "description": "Placeholder idea #63 in 'Alterations'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_064",
-      "category": "Repairs",
-      "title": "Sewing Ideas Idea 64",
-      "description": "Placeholder idea #64 in 'Repairs'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_065",
-      "category": "Alterations",
-      "title": "Sewing Ideas Idea 65",
-      "description": "Placeholder idea #65 in 'Alterations'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_066",
-      "category": "Costumes",
-      "title": "Sewing Ideas Idea 66",
-      "description": "Placeholder idea #66 in 'Costumes'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_067",
-      "category": "Repairs",
-      "title": "Sewing Ideas Idea 67",
-      "description": "Placeholder idea #67 in 'Repairs'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_068",
-      "category": "Clothing",
-      "title": "Sewing Ideas Idea 68",
-      "description": "Placeholder idea #68 in 'Clothing'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_069",
-      "category": "Home Decor",
-      "title": "Sewing Ideas Idea 69",
-      "description": "Placeholder idea #69 in 'Home Decor'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_070",
-      "category": "Upcycling",
-      "title": "Sewing Ideas Idea 70",
-      "description": "Placeholder idea #70 in 'Upcycling'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_071",
-      "category": "Upcycling",
-      "title": "Sewing Ideas Idea 71",
-      "description": "Placeholder idea #71 in 'Upcycling'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_072",
-      "category": "Costumes",
-      "title": "Sewing Ideas Idea 72",
-      "description": "Placeholder idea #72 in 'Costumes'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_073",
-      "category": "Slow Fashion",
-      "title": "Sewing Ideas Idea 73",
-      "description": "Placeholder idea #73 in 'Slow Fashion'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_074",
-      "category": "Alterations",
-      "title": "Sewing Ideas Idea 74",
-      "description": "Placeholder idea #74 in 'Alterations'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_075",
-      "category": "Costumes",
-      "title": "Sewing Ideas Idea 75",
-      "description": "Placeholder idea #75 in 'Costumes'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_076",
-      "category": "Home Decor",
-      "title": "Sewing Ideas Idea 76",
-      "description": "Placeholder idea #76 in 'Home Decor'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_077",
-      "category": "Slow Fashion",
-      "title": "Sewing Ideas Idea 77",
-      "description": "Placeholder idea #77 in 'Slow Fashion'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_078",
-      "category": "Accessories",
-      "title": "Sewing Ideas Idea 78",
-      "description": "Placeholder idea #78 in 'Accessories'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_079",
-      "category": "Accessories",
-      "title": "Sewing Ideas Idea 79",
-      "description": "Placeholder idea #79 in 'Accessories'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_080",
-      "category": "Repairs",
-      "title": "Sewing Ideas Idea 80",
-      "description": "Placeholder idea #80 in 'Repairs'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_081",
-      "category": "Costumes",
-      "title": "Sewing Ideas Idea 81",
-      "description": "Placeholder idea #81 in 'Costumes'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_082",
-      "category": "Alterations",
-      "title": "Sewing Ideas Idea 82",
-      "description": "Placeholder idea #82 in 'Alterations'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_083",
-      "category": "Slow Fashion",
-      "title": "Sewing Ideas Idea 83",
-      "description": "Placeholder idea #83 in 'Slow Fashion'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_084",
-      "category": "Clothing",
-      "title": "Sewing Ideas Idea 84",
-      "description": "Placeholder idea #84 in 'Clothing'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_085",
-      "category": "Accessories",
-      "title": "Sewing Ideas Idea 85",
-      "description": "Placeholder idea #85 in 'Accessories'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_086",
-      "category": "Accessories",
-      "title": "Sewing Ideas Idea 86",
-      "description": "Placeholder idea #86 in 'Accessories'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_087",
-      "category": "Upcycling",
-      "title": "Sewing Ideas Idea 87",
-      "description": "Placeholder idea #87 in 'Upcycling'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_088",
-      "category": "Repairs",
-      "title": "Sewing Ideas Idea 88",
-      "description": "Placeholder idea #88 in 'Repairs'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_089",
-      "category": "Accessories",
-      "title": "Sewing Ideas Idea 89",
-      "description": "Placeholder idea #89 in 'Accessories'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_090",
-      "category": "Clothing",
-      "title": "Sewing Ideas Idea 90",
-      "description": "Placeholder idea #90 in 'Clothing'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_091",
-      "category": "Upcycling",
-      "title": "Sewing Ideas Idea 91",
-      "description": "Placeholder idea #91 in 'Upcycling'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_092",
-      "category": "Home Decor",
-      "title": "Sewing Ideas Idea 92",
-      "description": "Placeholder idea #92 in 'Home Decor'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_093",
-      "category": "Repairs",
-      "title": "Sewing Ideas Idea 93",
-      "description": "Placeholder idea #93 in 'Repairs'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_094",
-      "category": "Repairs",
-      "title": "Sewing Ideas Idea 94",
-      "description": "Placeholder idea #94 in 'Repairs'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_095",
-      "category": "Accessories",
-      "title": "Sewing Ideas Idea 95",
-      "description": "Placeholder idea #95 in 'Accessories'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_096",
-      "category": "Accessories",
-      "title": "Sewing Ideas Idea 96",
-      "description": "Placeholder idea #96 in 'Accessories'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_097",
-      "category": "Costumes",
-      "title": "Sewing Ideas Idea 97",
-      "description": "Placeholder idea #97 in 'Costumes'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_098",
-      "category": "Slow Fashion",
-      "title": "Sewing Ideas Idea 98",
-      "description": "Placeholder idea #98 in 'Slow Fashion'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_099",
-      "category": "Clothing",
-      "title": "Sewing Ideas Idea 99",
-      "description": "Placeholder idea #99 in 'Clothing'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_100",
-      "category": "Upcycling",
-      "title": "Sewing Ideas Idea 100",
-      "description": "Placeholder idea #100 in 'Upcycling'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_101",
-      "category": "Home Decor",
-      "title": "Sewing Ideas Idea 101",
-      "description": "Placeholder idea #101 in 'Home Decor'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_102",
-      "category": "Accessories",
-      "title": "Sewing Ideas Idea 102",
-      "description": "Placeholder idea #102 in 'Accessories'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_103",
-      "category": "Repairs",
-      "title": "Sewing Ideas Idea 103",
-      "description": "Placeholder idea #103 in 'Repairs'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_104",
-      "category": "Accessories",
-      "title": "Sewing Ideas Idea 104",
-      "description": "Placeholder idea #104 in 'Accessories'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_105",
-      "category": "Home Decor",
-      "title": "Sewing Ideas Idea 105",
-      "description": "Placeholder idea #105 in 'Home Decor'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_106",
-      "category": "Upcycling",
-      "title": "Sewing Ideas Idea 106",
-      "description": "Placeholder idea #106 in 'Upcycling'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_107",
-      "category": "Slow Fashion",
-      "title": "Sewing Ideas Idea 107",
-      "description": "Placeholder idea #107 in 'Slow Fashion'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_108",
-      "category": "Accessories",
-      "title": "Sewing Ideas Idea 108",
-      "description": "Placeholder idea #108 in 'Accessories'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_109",
-      "category": "Upcycling",
-      "title": "Sewing Ideas Idea 109",
-      "description": "Placeholder idea #109 in 'Upcycling'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_110",
-      "category": "Clothing",
-      "title": "Sewing Ideas Idea 110",
-      "description": "Placeholder idea #110 in 'Clothing'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_111",
-      "category": "Repairs",
-      "title": "Sewing Ideas Idea 111",
-      "description": "Placeholder idea #111 in 'Repairs'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_112",
-      "category": "Clothing",
-      "title": "Sewing Ideas Idea 112",
-      "description": "Placeholder idea #112 in 'Clothing'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_113",
-      "category": "Accessories",
-      "title": "Sewing Ideas Idea 113",
-      "description": "Placeholder idea #113 in 'Accessories'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_114",
-      "category": "Repairs",
-      "title": "Sewing Ideas Idea 114",
-      "description": "Placeholder idea #114 in 'Repairs'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_115",
-      "category": "Alterations",
-      "title": "Sewing Ideas Idea 115",
-      "description": "Placeholder idea #115 in 'Alterations'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_116",
-      "category": "Clothing",
-      "title": "Sewing Ideas Idea 116",
-      "description": "Placeholder idea #116 in 'Clothing'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_117",
-      "category": "Home Decor",
-      "title": "Sewing Ideas Idea 117",
-      "description": "Placeholder idea #117 in 'Home Decor'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_118",
-      "category": "Home Decor",
-      "title": "Sewing Ideas Idea 118",
-      "description": "Placeholder idea #118 in 'Home Decor'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_119",
-      "category": "Home Decor",
-      "title": "Sewing Ideas Idea 119",
-      "description": "Placeholder idea #119 in 'Home Decor'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_120",
-      "category": "Repairs",
-      "title": "Sewing Ideas Idea 120",
-      "description": "Placeholder idea #120 in 'Repairs'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_121",
-      "category": "Slow Fashion",
-      "title": "Sewing Ideas Idea 121",
-      "description": "Placeholder idea #121 in 'Slow Fashion'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_122",
-      "category": "Costumes",
-      "title": "Sewing Ideas Idea 122",
-      "description": "Placeholder idea #122 in 'Costumes'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_123",
-      "category": "Alterations",
-      "title": "Sewing Ideas Idea 123",
-      "description": "Placeholder idea #123 in 'Alterations'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_124",
-      "category": "Alterations",
-      "title": "Sewing Ideas Idea 124",
-      "description": "Placeholder idea #124 in 'Alterations'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_125",
-      "category": "Slow Fashion",
-      "title": "Sewing Ideas Idea 125",
-      "description": "Placeholder idea #125 in 'Slow Fashion'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_126",
-      "category": "Upcycling",
-      "title": "Sewing Ideas Idea 126",
-      "description": "Placeholder idea #126 in 'Upcycling'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_127",
-      "category": "Slow Fashion",
-      "title": "Sewing Ideas Idea 127",
-      "description": "Placeholder idea #127 in 'Slow Fashion'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_128",
-      "category": "Repairs",
-      "title": "Sewing Ideas Idea 128",
-      "description": "Placeholder idea #128 in 'Repairs'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_129",
-      "category": "Alterations",
-      "title": "Sewing Ideas Idea 129",
-      "description": "Placeholder idea #129 in 'Alterations'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_130",
-      "category": "Slow Fashion",
-      "title": "Sewing Ideas Idea 130",
-      "description": "Placeholder idea #130 in 'Slow Fashion'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_131",
-      "category": "Alterations",
-      "title": "Sewing Ideas Idea 131",
-      "description": "Placeholder idea #131 in 'Alterations'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_132",
-      "category": "Home Decor",
-      "title": "Sewing Ideas Idea 132",
-      "description": "Placeholder idea #132 in 'Home Decor'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_133",
-      "category": "Clothing",
-      "title": "Sewing Ideas Idea 133",
-      "description": "Placeholder idea #133 in 'Clothing'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_134",
-      "category": "Upcycling",
-      "title": "Sewing Ideas Idea 134",
-      "description": "Placeholder idea #134 in 'Upcycling'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_135",
-      "category": "Repairs",
-      "title": "Sewing Ideas Idea 135",
-      "description": "Placeholder idea #135 in 'Repairs'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_136",
-      "category": "Repairs",
-      "title": "Sewing Ideas Idea 136",
-      "description": "Placeholder idea #136 in 'Repairs'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_137",
-      "category": "Upcycling",
-      "title": "Sewing Ideas Idea 137",
-      "description": "Placeholder idea #137 in 'Upcycling'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_138",
-      "category": "Slow Fashion",
-      "title": "Sewing Ideas Idea 138",
-      "description": "Placeholder idea #138 in 'Slow Fashion'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_139",
-      "category": "Home Decor",
-      "title": "Sewing Ideas Idea 139",
-      "description": "Placeholder idea #139 in 'Home Decor'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_140",
-      "category": "Slow Fashion",
-      "title": "Sewing Ideas Idea 140",
-      "description": "Placeholder idea #140 in 'Slow Fashion'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_141",
-      "category": "Costumes",
-      "title": "Sewing Ideas Idea 141",
-      "description": "Placeholder idea #141 in 'Costumes'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_142",
-      "category": "Home Decor",
-      "title": "Sewing Ideas Idea 142",
-      "description": "Placeholder idea #142 in 'Home Decor'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_143",
-      "category": "Repairs",
-      "title": "Sewing Ideas Idea 143",
-      "description": "Placeholder idea #143 in 'Repairs'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_144",
-      "category": "Upcycling",
-      "title": "Sewing Ideas Idea 144",
-      "description": "Placeholder idea #144 in 'Upcycling'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_145",
-      "category": "Upcycling",
-      "title": "Sewing Ideas Idea 145",
-      "description": "Placeholder idea #145 in 'Upcycling'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_146",
-      "category": "Alterations",
-      "title": "Sewing Ideas Idea 146",
-      "description": "Placeholder idea #146 in 'Alterations'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_147",
-      "category": "Repairs",
-      "title": "Sewing Ideas Idea 147",
-      "description": "Placeholder idea #147 in 'Repairs'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_148",
-      "category": "Accessories",
-      "title": "Sewing Ideas Idea 148",
-      "description": "Placeholder idea #148 in 'Accessories'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_149",
-      "category": "Costumes",
-      "title": "Sewing Ideas Idea 149",
-      "description": "Placeholder idea #149 in 'Costumes'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_150",
-      "category": "Clothing",
-      "title": "Sewing Ideas Idea 150",
-      "description": "Placeholder idea #150 in 'Clothing'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_151",
-      "category": "Slow Fashion",
-      "title": "Sewing Ideas Idea 151",
-      "description": "Placeholder idea #151 in 'Slow Fashion'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_152",
-      "category": "Home Decor",
-      "title": "Sewing Ideas Idea 152",
-      "description": "Placeholder idea #152 in 'Home Decor'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_153",
-      "category": "Alterations",
-      "title": "Sewing Ideas Idea 153",
-      "description": "Placeholder idea #153 in 'Alterations'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_154",
-      "category": "Home Decor",
-      "title": "Sewing Ideas Idea 154",
-      "description": "Placeholder idea #154 in 'Home Decor'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_155",
-      "category": "Home Decor",
-      "title": "Sewing Ideas Idea 155",
-      "description": "Placeholder idea #155 in 'Home Decor'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_156",
-      "category": "Costumes",
-      "title": "Sewing Ideas Idea 156",
-      "description": "Placeholder idea #156 in 'Costumes'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_157",
-      "category": "Clothing",
-      "title": "Sewing Ideas Idea 157",
-      "description": "Placeholder idea #157 in 'Clothing'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_158",
-      "category": "Upcycling",
-      "title": "Sewing Ideas Idea 158",
-      "description": "Placeholder idea #158 in 'Upcycling'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_159",
-      "category": "Costumes",
-      "title": "Sewing Ideas Idea 159",
-      "description": "Placeholder idea #159 in 'Costumes'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_160",
-      "category": "Costumes",
-      "title": "Sewing Ideas Idea 160",
-      "description": "Placeholder idea #160 in 'Costumes'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_161",
-      "category": "Alterations",
-      "title": "Sewing Ideas Idea 161",
-      "description": "Placeholder idea #161 in 'Alterations'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_162",
-      "category": "Alterations",
-      "title": "Sewing Ideas Idea 162",
-      "description": "Placeholder idea #162 in 'Alterations'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_163",
-      "category": "Repairs",
-      "title": "Sewing Ideas Idea 163",
-      "description": "Placeholder idea #163 in 'Repairs'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_164",
-      "category": "Home Decor",
-      "title": "Sewing Ideas Idea 164",
-      "description": "Placeholder idea #164 in 'Home Decor'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_165",
-      "category": "Repairs",
-      "title": "Sewing Ideas Idea 165",
-      "description": "Placeholder idea #165 in 'Repairs'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_166",
-      "category": "Costumes",
-      "title": "Sewing Ideas Idea 166",
-      "description": "Placeholder idea #166 in 'Costumes'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_167",
-      "category": "Alterations",
-      "title": "Sewing Ideas Idea 167",
-      "description": "Placeholder idea #167 in 'Alterations'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_168",
-      "category": "Slow Fashion",
-      "title": "Sewing Ideas Idea 168",
-      "description": "Placeholder idea #168 in 'Slow Fashion'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_169",
-      "category": "Clothing",
-      "title": "Sewing Ideas Idea 169",
-      "description": "Placeholder idea #169 in 'Clothing'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_170",
-      "category": "Upcycling",
-      "title": "Sewing Ideas Idea 170",
-      "description": "Placeholder idea #170 in 'Upcycling'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_171",
-      "category": "Costumes",
-      "title": "Sewing Ideas Idea 171",
-      "description": "Placeholder idea #171 in 'Costumes'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_172",
-      "category": "Upcycling",
-      "title": "Sewing Ideas Idea 172",
-      "description": "Placeholder idea #172 in 'Upcycling'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_173",
-      "category": "Slow Fashion",
-      "title": "Sewing Ideas Idea 173",
-      "description": "Placeholder idea #173 in 'Slow Fashion'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_174",
-      "category": "Slow Fashion",
-      "title": "Sewing Ideas Idea 174",
-      "description": "Placeholder idea #174 in 'Slow Fashion'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_175",
-      "category": "Upcycling",
-      "title": "Sewing Ideas Idea 175",
-      "description": "Placeholder idea #175 in 'Upcycling'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_176",
-      "category": "Alterations",
-      "title": "Sewing Ideas Idea 176",
-      "description": "Placeholder idea #176 in 'Alterations'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_177",
-      "category": "Repairs",
-      "title": "Sewing Ideas Idea 177",
-      "description": "Placeholder idea #177 in 'Repairs'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_178",
-      "category": "Costumes",
-      "title": "Sewing Ideas Idea 178",
-      "description": "Placeholder idea #178 in 'Costumes'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_179",
-      "category": "Repairs",
-      "title": "Sewing Ideas Idea 179",
-      "description": "Placeholder idea #179 in 'Repairs'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_180",
-      "category": "Slow Fashion",
-      "title": "Sewing Ideas Idea 180",
-      "description": "Placeholder idea #180 in 'Slow Fashion'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_181",
-      "category": "Accessories",
-      "title": "Sewing Ideas Idea 181",
-      "description": "Placeholder idea #181 in 'Accessories'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_182",
-      "category": "Upcycling",
-      "title": "Sewing Ideas Idea 182",
-      "description": "Placeholder idea #182 in 'Upcycling'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_183",
-      "category": "Accessories",
-      "title": "Sewing Ideas Idea 183",
-      "description": "Placeholder idea #183 in 'Accessories'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_184",
-      "category": "Alterations",
-      "title": "Sewing Ideas Idea 184",
-      "description": "Placeholder idea #184 in 'Alterations'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_185",
-      "category": "Accessories",
-      "title": "Sewing Ideas Idea 185",
-      "description": "Placeholder idea #185 in 'Accessories'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_186",
-      "category": "Alterations",
-      "title": "Sewing Ideas Idea 186",
-      "description": "Placeholder idea #186 in 'Alterations'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_187",
-      "category": "Repairs",
-      "title": "Sewing Ideas Idea 187",
-      "description": "Placeholder idea #187 in 'Repairs'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_188",
-      "category": "Accessories",
-      "title": "Sewing Ideas Idea 188",
-      "description": "Placeholder idea #188 in 'Accessories'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_189",
-      "category": "Alterations",
-      "title": "Sewing Ideas Idea 189",
-      "description": "Placeholder idea #189 in 'Alterations'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_190",
-      "category": "Alterations",
-      "title": "Sewing Ideas Idea 190",
-      "description": "Placeholder idea #190 in 'Alterations'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_191",
-      "category": "Clothing",
-      "title": "Sewing Ideas Idea 191",
-      "description": "Placeholder idea #191 in 'Clothing'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_192",
-      "category": "Home Decor",
-      "title": "Sewing Ideas Idea 192",
-      "description": "Placeholder idea #192 in 'Home Decor'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_193",
-      "category": "Accessories",
-      "title": "Sewing Ideas Idea 193",
-      "description": "Placeholder idea #193 in 'Accessories'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_194",
-      "category": "Repairs",
-      "title": "Sewing Ideas Idea 194",
-      "description": "Placeholder idea #194 in 'Repairs'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_195",
-      "category": "Repairs",
-      "title": "Sewing Ideas Idea 195",
-      "description": "Placeholder idea #195 in 'Repairs'.",
-      "energy_level": "high"
-    },
-    {
-      "id": "sewing_ideas_196",
-      "category": "Alterations",
-      "title": "Sewing Ideas Idea 196",
-      "description": "Placeholder idea #196 in 'Alterations'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_197",
-      "category": "Home Decor",
-      "title": "Sewing Ideas Idea 197",
-      "description": "Placeholder idea #197 in 'Home Decor'.",
-      "energy_level": "low"
-    },
-    {
-      "id": "sewing_ideas_198",
-      "category": "Repairs",
-      "title": "Sewing Ideas Idea 198",
-      "description": "Placeholder idea #198 in 'Repairs'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_199",
-      "category": "Home Decor",
-      "title": "Sewing Ideas Idea 199",
-      "description": "Placeholder idea #199 in 'Home Decor'.",
-      "energy_level": "medium"
-    },
-    {
-      "id": "sewing_ideas_200",
-      "category": "Alterations",
-      "title": "Sewing Ideas Idea 200",
-      "description": "Placeholder idea #200 in 'Alterations'.",
-      "energy_level": "high"
-    }
+    {"id": "sewing_001", "category": "Upcycling", "title": "Transform Old Jeans into Tote Bag", "description": "Cut the legs off old jeans, sew the bottom closed, and add handles from the remaining denim. Perfect sturdy shopping bag.", "energy_level": "medium", "difficulty": "beginner", "tags": ["denim", "bags", "recycled"]},
+    {"id": "sewing_002", "category": "Alterations", "title": "Take In Waist of Pants", "description": "Remove waistband, take in side seams evenly, reattach waistband. Use pins to mark before sewing for even fit.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["fit", "pants", "waist"]},
+    {"id": "sewing_003", "category": "Costumes", "title": "Victorian Lace Collar Accessory", "description": "Layer vintage lace pieces into a detachable collar. Add ribbon tie or brooch closure for gothic elegance.", "energy_level": "low", "difficulty": "beginner", "tags": ["gothic", "lace", "victorian"]},
+    {"id": "sewing_004", "category": "Repairs", "title": "Patch Hole with Visible Mending", "description": "Use contrasting thread and fabric patches to create decorative visible mending. Embrace the imperfection as art.", "energy_level": "low", "difficulty": "beginner", "tags": ["mending", "sustainable", "decorative"]},
+    {"id": "sewing_005", "category": "Accessories", "title": "Leather Harness Belt", "description": "Cut leather straps, add metal O-rings and buckles. Create adjustable gothic body harness worn over clothing.", "energy_level": "high", "difficulty": "advanced", "tags": ["leather", "gothic", "hardware"]},
+    {"id": "sewing_006", "category": "Home Decor", "title": "Patchwork Throw Pillow", "description": "Combine fabric scraps into patchwork squares, add pillow backing with zipper or envelope closure.", "energy_level": "medium", "difficulty": "beginner", "tags": ["patchwork", "pillows", "scraps"]},
+    {"id": "sewing_007", "category": "Clothing", "title": "Basic A-Line Skirt", "description": "Two-piece pattern with elastic waistband. Perfect beginner garment that's forgiving on fit.", "energy_level": "medium", "difficulty": "beginner", "tags": ["skirt", "elastic", "basic"]},
+    {"id": "sewing_008", "category": "Slow Fashion", "title": "Capsule Wardrobe Planning", "description": "Design 5 interchangeable pieces that create 15+ outfits. Sketch designs before cutting fabric.", "energy_level": "low", "difficulty": "intermediate", "tags": ["planning", "capsule", "minimal"]},
+    {"id": "sewing_009", "category": "Upcycling", "title": "T-Shirt to Tank Top Conversion", "description": "Cut sleeves and reshape neckline. Finish raw edges with binding or leave raw for casual look.", "energy_level": "low", "difficulty": "beginner", "tags": ["t-shirt", "casual", "quick"]},
+    {"id": "sewing_010", "category": "Alterations", "title": "Shorten Dress Hem", "description": "Mark new length while wearing heels, cut with seam allowance, fold and press before stitching.", "energy_level": "low", "difficulty": "beginner", "tags": ["hemming", "dress", "length"]},
+    {"id": "sewing_011", "category": "Costumes", "title": "Renaissance Faire Chemise", "description": "Loose-fitting gathered peasant blouse with drawstring neckline. Comfortable base layer for costumes.", "energy_level": "high", "difficulty": "intermediate", "tags": ["renaissance", "costume", "gathered"]},
+    {"id": "sewing_012", "category": "Repairs", "title": "Replace Broken Zipper", "description": "Seam rip old zipper, pin new zipper in place, use zipper foot to sew close to teeth.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["zipper", "repair", "essential"]},
+    {"id": "sewing_013", "category": "Accessories", "title": "Fabric Headband with Twist", "description": "Two fabric tubes twisted together at center, elastic at back. Quick gift or accessory project.", "energy_level": "low", "difficulty": "beginner", "tags": ["headband", "quick", "gift"]},
+    {"id": "sewing_014", "category": "Home Decor", "title": "Linen Napkin Set", "description": "Cut squares of linen, mitered corners for professional finish. Practice basic hemming skills.", "energy_level": "medium", "difficulty": "beginner", "tags": ["linen", "napkins", "kitchen"]},
+    {"id": "sewing_015", "category": "Clothing", "title": "Wrap Cardigan", "description": "Knit or jersey fabric, self-tie closure. Flattering on all body types, adjustable fit.", "energy_level": "high", "difficulty": "intermediate", "tags": ["cardigan", "wrap", "knit"]},
+    {"id": "sewing_016", "category": "Slow Fashion", "title": "Make a Toile First", "description": "Test fit with cheap muslin before cutting good fabric. Mark adjustments directly on fabric.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["fitting", "muslin", "practice"]},
+    {"id": "sewing_017", "category": "Upcycling", "title": "Sweater to Fingerless Gloves", "description": "Cut sleeves from old sweater, hem raw edges. Add thumb holes for fingerless mitts.", "energy_level": "low", "difficulty": "beginner", "tags": ["sweater", "gloves", "winter"]},
+    {"id": "sewing_018", "category": "Alterations", "title": "Add Side Slits to Tight Skirt", "description": "Unpick side seam from hem up 4-6 inches. Hem raw edges for walking ease.", "energy_level": "low", "difficulty": "beginner", "tags": ["skirt", "mobility", "comfort"]},
+    {"id": "sewing_019", "category": "Costumes", "title": "Steampunk Arm Bracers", "description": "Faux leather with metal gear embellishments. Lacing or buckle closure for adjustable fit.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["steampunk", "leather", "armor"]},
+    {"id": "sewing_020", "category": "Repairs", "title": "Reinforce Button Shank", "description": "Sew through button with thread anchor behind, wrap thread around shank for strength.", "energy_level": "low", "difficulty": "beginner", "tags": ["buttons", "quick", "strengthen"]},
+    {"id": "sewing_021", "category": "Accessories", "title": "Velvet Choker with Pendant", "description": "Cut velvet ribbon, add adjustable closure and center pendant or cameo decoration.", "energy_level": "low", "difficulty": "beginner", "tags": ["choker", "velvet", "jewelry"]},
+    {"id": "sewing_022", "category": "Home Decor", "title": "Fabric Book Covers", "description": "Protect books with removable fabric sleeves. Add ribbon bookmark and pocket inside.", "energy_level": "low", "difficulty": "beginner", "tags": ["books", "covers", "gift"]},
+    {"id": "sewing_023", "category": "Clothing", "title": "Gathered Midi Skirt", "description": "Rectangle of fabric gathered onto waistband. Dramatic silhouette with minimal shaping required.", "energy_level": "medium", "difficulty": "beginner", "tags": ["skirt", "gathered", "romantic"]},
+    {"id": "sewing_024", "category": "Slow Fashion", "title": "Clothing Repair Log", "description": "Document repairs with before/after photos. Track techniques learned and materials used.", "energy_level": "low", "difficulty": "beginner", "tags": ["documentation", "learning", "tracking"]},
+    {"id": "sewing_025", "category": "Upcycling", "title": "Curtains to Dress Conversion", "description": "Vintage curtains have beautiful prints. Use Sound of Music inspired patterns for dramatic effect.", "energy_level": "high", "difficulty": "advanced", "tags": ["curtains", "dress", "vintage"]},
+    {"id": "sewing_026", "category": "Alterations", "title": "Convert Dress to Skirt", "description": "Remove bodice above waist seam, add elastic or zipper waistband to remaining skirt portion.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["conversion", "skirt", "reuse"]},
+    {"id": "sewing_027", "category": "Costumes", "title": "Witch Hat from Scratch", "description": "Buckram or heavy interfacing for structure, covered in fabric. Wide brim and pointed crown.", "energy_level": "high", "difficulty": "advanced", "tags": ["witch", "hat", "halloween"]},
+    {"id": "sewing_028", "category": "Repairs", "title": "Elastic Replacement in Waistband", "description": "Cut small opening, thread new elastic through casing with safety pin, sew ends together.", "energy_level": "low", "difficulty": "beginner", "tags": ["elastic", "waistband", "repair"]},
+    {"id": "sewing_029", "category": "Accessories", "title": "Drawstring Jewelry Pouch", "description": "Circle of fabric with gathered top, ribbon drawstring. Protective travel storage for jewelry.", "energy_level": "low", "difficulty": "beginner", "tags": ["pouch", "jewelry", "travel"]},
+    {"id": "sewing_030", "category": "Home Decor", "title": "Fabric Wall Hanging", "description": "Layer fabrics in abstract or landscape design. Display on wooden dowel with yarn hanger.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["wall-art", "abstract", "decor"]},
+    {"id": "sewing_031", "category": "Clothing", "title": "Palazzo Pants", "description": "Wide-leg comfortable pants with elastic waist. Flowy and flattering, great for beginners.", "energy_level": "medium", "difficulty": "beginner", "tags": ["pants", "comfortable", "wide-leg"]},
+    {"id": "sewing_032", "category": "Slow Fashion", "title": "Quality Over Quantity Mindset", "description": "Invest time in one well-made piece rather than rushing through multiple items.", "energy_level": "low", "difficulty": "beginner", "tags": ["mindful", "quality", "patience"]},
+    {"id": "sewing_033", "category": "Upcycling", "title": "Men's Shirt to Women's Blouse", "description": "Take in sides for fitted shape, adjust collar or remove it, shorten sleeves and hem.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["shirt", "conversion", "gender"]},
+    {"id": "sewing_034", "category": "Alterations", "title": "Add Darts for Better Fit", "description": "Pinch excess fabric to determine dart size, mark and sew from wide end to point.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["darts", "fitting", "shaping"]},
+    {"id": "sewing_035", "category": "Costumes", "title": "Vampire Cape with Stand-Up Collar", "description": "Full circle cape in black with red lining. Wire in collar for dramatic standing effect.", "energy_level": "high", "difficulty": "intermediate", "tags": ["cape", "vampire", "dramatic"]},
+    {"id": "sewing_036", "category": "Repairs", "title": "Patch Knees on Children's Pants", "description": "Add fun shaped patches (hearts, stars) to worn knees. Double layer for durability.", "energy_level": "low", "difficulty": "beginner", "tags": ["kids", "patches", "fun"]},
+    {"id": "sewing_037", "category": "Accessories", "title": "Gothic Lace Fan Case", "description": "Protective sleeve for decorative fans with snap or button closure and hanging loop.", "energy_level": "low", "difficulty": "beginner", "tags": ["fan", "gothic", "protection"]},
+    {"id": "sewing_038", "category": "Home Decor", "title": "Cathedral Window Quilt Block", "description": "Folded fabric technique creates stained glass effect without complicated piecing.", "energy_level": "high", "difficulty": "advanced", "tags": ["quilting", "folded", "decorative"]},
+    {"id": "sewing_039", "category": "Clothing", "title": "Simple Shift Dress", "description": "Boxy silhouette with minimal darts. Classic style that works in any fabric weight.", "energy_level": "medium", "difficulty": "beginner", "tags": ["dress", "simple", "classic"]},
+    {"id": "sewing_040", "category": "Slow Fashion", "title": "Fabric Stash Organization", "description": "Sort by color, weight, or project type. Photograph collection for planning on-the-go.", "energy_level": "medium", "difficulty": "beginner", "tags": ["organization", "stash", "planning"]},
+    {"id": "sewing_041", "category": "Upcycling", "title": "Leather Jacket Patch Collection", "description": "Add band patches, studs, and safety pins to thrifted leather jacket for punk aesthetic.", "energy_level": "medium", "difficulty": "beginner", "tags": ["leather", "punk", "customization"]},
+    {"id": "sewing_042", "category": "Alterations", "title": "Taper Wide Leg Pants", "description": "Measure desired taper, mark from knee down, sew new seam and trim excess.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["pants", "tapering", "modern"]},
+    {"id": "sewing_043", "category": "Costumes", "title": "Fairy Wings with Wire Frame", "description": "Bend wire into wing shapes, stretch sheer fabric over frame, add glitter and iridescence.", "energy_level": "high", "difficulty": "intermediate", "tags": ["fairy", "wings", "magical"]},
+    {"id": "sewing_044", "category": "Repairs", "title": "Fix Ripped Seam", "description": "Pin edges together, backstitch at beginning and end, match original stitch length.", "energy_level": "low", "difficulty": "beginner", "tags": ["seam", "basic", "repair"]},
+    {"id": "sewing_045", "category": "Accessories", "title": "Fabric-Covered Button Earrings", "description": "Cover button forms with fabric scraps, attach earring posts for unique statement jewelry.", "energy_level": "low", "difficulty": "beginner", "tags": ["earrings", "buttons", "fabric"]},
+    {"id": "sewing_046", "category": "Home Decor", "title": "Draft Stopper Snake", "description": "Long tube filled with rice or stuffing for door bottoms. Add button eyes for character.", "energy_level": "low", "difficulty": "beginner", "tags": ["home", "practical", "cute"]},
+    {"id": "sewing_047", "category": "Clothing", "title": "Peasant Top with Elastic Neckline", "description": "Gathered neckline can be worn on or off shoulders. Romantic bohemian style.", "energy_level": "medium", "difficulty": "beginner", "tags": ["top", "peasant", "romantic"]},
+    {"id": "sewing_048", "category": "Slow Fashion", "title": "Learn One New Technique Monthly", "description": "Focus on mastering buttonholes, zippers, or gathering before moving to next skill.", "energy_level": "low", "difficulty": "intermediate", "tags": ["learning", "skills", "progress"]},
+    {"id": "sewing_049", "category": "Upcycling", "title": "Wine Cork Pin Cushion", "description": "Stuff small fabric pouch, glue wine cork as base. Decorative and functional.", "energy_level": "low", "difficulty": "beginner", "tags": ["pincushion", "cork", "recycled"]},
+    {"id": "sewing_050", "category": "Alterations", "title": "Let Out Side Seams", "description": "Unpick existing seam, press flat, sew with smaller seam allowance for extra room.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["sizing", "expansion", "comfort"]},
+    {"id": "sewing_051", "category": "Costumes", "title": "Medieval Hooded Cloak", "description": "Semi-circle cloak with attached hood. Lined for warmth, perfect for LARP or conventions.", "energy_level": "high", "difficulty": "intermediate", "tags": ["cloak", "medieval", "hooded"]},
+    {"id": "sewing_052", "category": "Repairs", "title": "Sashiko Mending", "description": "Japanese running stitch technique for decorative reinforcement. Creates beautiful patterns.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["sashiko", "japanese", "decorative"]},
+    {"id": "sewing_053", "category": "Accessories", "title": "Scrunchie Hair Ties", "description": "Quick fabric tube with elastic inside. Use up scraps and match to outfits.", "energy_level": "low", "difficulty": "beginner", "tags": ["scrunchie", "hair", "quick"]},
+    {"id": "sewing_054", "category": "Home Decor", "title": "Hanging Fabric Planter Cover", "description": "Fabric basket with macramé or ribbon hanger to disguise plain plant pots.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["plants", "hanging", "cover"]},
+    {"id": "sewing_055", "category": "Clothing", "title": "Kimono-Style Jacket", "description": "Open-front jacket with wide sleeves. No closures needed, drapes beautifully.", "energy_level": "medium", "difficulty": "beginner", "tags": ["kimono", "jacket", "layering"]},
+    {"id": "sewing_056", "category": "Slow Fashion", "title": "Repair Before Replace", "description": "Challenge yourself to fix 5 items before buying anything new. Build mending skills.", "energy_level": "low", "difficulty": "beginner", "tags": ["repair", "challenge", "sustainable"]},
+    {"id": "sewing_057", "category": "Upcycling", "title": "Necktie Quilt", "description": "Cut ties into strips or triangles for unique vintage fabric quilts.", "energy_level": "high", "difficulty": "advanced", "tags": ["ties", "quilt", "vintage"]},
+    {"id": "sewing_058", "category": "Alterations", "title": "Raise Neckline with Lace Insert", "description": "Add modest lace panel to low-cut top. Match or contrast color for different effects.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["neckline", "lace", "modesty"]},
+    {"id": "sewing_059", "category": "Costumes", "title": "Corset Waist Cincher", "description": "Boned outer layer for over-dress wearing. Lacing back for adjustability.", "energy_level": "high", "difficulty": "advanced", "tags": ["corset", "boned", "shaping"]},
+    {"id": "sewing_060", "category": "Repairs", "title": "Replace Worn Collar", "description": "Detach old collar, use as pattern for new fabric. Interface for structure.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["collar", "replacement", "refresh"]},
+    {"id": "sewing_061", "category": "Accessories", "title": "Quilted Phone Case", "description": "Padded fabric sleeve with velcro or button closure to protect device.", "energy_level": "low", "difficulty": "beginner", "tags": ["phone", "quilted", "protective"]},
+    {"id": "sewing_062", "category": "Home Decor", "title": "Fabric Coasters", "description": "Layer fabric, batting, and backing. Quilt simple pattern and bind edges.", "energy_level": "low", "difficulty": "beginner", "tags": ["coasters", "quilted", "gift"]},
+    {"id": "sewing_063", "category": "Clothing", "title": "Elastic Waist Shorts", "description": "Simple two-piece pattern with casing waistband. Summer wardrobe essential.", "energy_level": "medium", "difficulty": "beginner", "tags": ["shorts", "elastic", "summer"]},
+    {"id": "sewing_064", "category": "Slow Fashion", "title": "Cost Per Wear Calculation", "description": "Track how often you wear handmade items. Justifies time investment in quality.", "energy_level": "low", "difficulty": "beginner", "tags": ["tracking", "value", "mindful"]},
+    {"id": "sewing_065", "category": "Upcycling", "title": "Pillowcase Dress for Child", "description": "Simple gathered dress from decorative pillowcase. Add ribbon straps and trim.", "energy_level": "low", "difficulty": "beginner", "tags": ["kids", "pillowcase", "quick"]},
+    {"id": "sewing_066", "category": "Alterations", "title": "Add Hidden Pocket to Dress", "description": "Cut opening in side seam, attach pocket bag inside. Functional and invisible.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["pocket", "hidden", "functional"]},
+    {"id": "sewing_067", "category": "Costumes", "title": "Pirate Sash and Headscarf", "description": "Wide fabric strip for waist sash, triangle for head. Distress edges for authentic look.", "energy_level": "low", "difficulty": "beginner", "tags": ["pirate", "accessories", "distressed"]},
+    {"id": "sewing_068", "category": "Repairs", "title": "Reattach Fallen Hem", "description": "Press old crease line, pin in place, hand stitch or machine hem for durability.", "energy_level": "low", "difficulty": "beginner", "tags": ["hem", "quick", "essential"]},
+    {"id": "sewing_069", "category": "Accessories", "title": "Reversible Market Bag", "description": "Two coordinating fabrics, same pattern. French seams hide all raw edges.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["bag", "reversible", "shopping"]},
+    {"id": "sewing_070", "category": "Home Decor", "title": "Fabric Basket Organizers", "description": "Structured fabric boxes with interfacing for desk or bathroom organization.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["baskets", "storage", "organization"]},
+    {"id": "sewing_071", "category": "Clothing", "title": "Circle Skirt", "description": "Full circle or half circle pattern creates beautiful twirl. Perfect for dancing.", "energy_level": "medium", "difficulty": "beginner", "tags": ["skirt", "circle", "twirl"]},
+    {"id": "sewing_072", "category": "Slow Fashion", "title": "Natural Fiber Preference", "description": "Choose cotton, linen, wool over synthetics for breathability and longevity.", "energy_level": "low", "difficulty": "beginner", "tags": ["natural", "fibers", "quality"]},
+    {"id": "sewing_073", "category": "Upcycling", "title": "Bedsheet to Summer Dress", "description": "Vintage printed sheets have yards of fabric for full skirts or simple dresses.", "energy_level": "high", "difficulty": "intermediate", "tags": ["sheets", "dress", "vintage"]},
+    {"id": "sewing_074", "category": "Alterations", "title": "Shorten Straps on Tank", "description": "Unpick at shoulder, cut excess, re-sew. Essential fit adjustment for thrift finds.", "energy_level": "low", "difficulty": "beginner", "tags": ["straps", "fit", "shoulders"]},
+    {"id": "sewing_075", "category": "Costumes", "title": "Elf or Pixie Ears", "description": "Flesh-toned fabric over wire armature. Spirit gum attachment for fantasy looks.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["elf", "ears", "fantasy"]},
+    {"id": "sewing_076", "category": "Repairs", "title": "Darn Wool Socks", "description": "Weave thread over holes in wool socks using darning egg. Extend sock life significantly.", "energy_level": "low", "difficulty": "beginner", "tags": ["darning", "socks", "wool"]},
+    {"id": "sewing_077", "category": "Accessories", "title": "Tassel Earrings", "description": "Wrap thread around cardboard, tie and cut. Add jump rings to earring hooks.", "energy_level": "low", "difficulty": "beginner", "tags": ["tassels", "earrings", "thread"]},
+    {"id": "sewing_078", "category": "Home Decor", "title": "Appliqué Tea Towels", "description": "Fuse fabric shapes to plain towels, zigzag stitch edges. Personalized kitchen gifts.", "energy_level": "low", "difficulty": "beginner", "tags": ["applique", "towels", "kitchen"]},
+    {"id": "sewing_079", "category": "Clothing", "title": "Tube Top", "description": "Stretch fabric, elastic at top. Simple summer essential in any print.", "energy_level": "low", "difficulty": "beginner", "tags": ["tube", "summer", "simple"]},
+    {"id": "sewing_080", "category": "Slow Fashion", "title": "Handmade Gift Giving", "description": "Make sewn items for gifts instead of buying. More meaningful and sustainable.", "energy_level": "medium", "difficulty": "beginner", "tags": ["gifts", "handmade", "meaningful"]},
+    {"id": "sewing_081", "category": "Upcycling", "title": "Button Art from Vintage Collection", "description": "Sort and arrange buttons into patterns on fabric backing. Frame as wall art.", "energy_level": "low", "difficulty": "beginner", "tags": ["buttons", "art", "collection"]},
+    {"id": "sewing_082", "category": "Alterations", "title": "Convert Long Sleeves to Short", "description": "Measure, cut, hem. Save removed sleeves for patches or other projects.", "energy_level": "low", "difficulty": "beginner", "tags": ["sleeves", "conversion", "summer"]},
+    {"id": "sewing_083", "category": "Costumes", "title": "Victorian Mourning Bonnet", "description": "Black fabric over buckram form with lace trim and ribbons. Historical accuracy optional.", "energy_level": "high", "difficulty": "advanced", "tags": ["victorian", "bonnet", "mourning"]},
+    {"id": "sewing_084", "category": "Repairs", "title": "Fix Broken Belt Loop", "description": "Cut matching fabric strip, fold edges under, attach at top and bottom securely.", "energy_level": "low", "difficulty": "beginner", "tags": ["belt", "loop", "quick"]},
+    {"id": "sewing_085", "category": "Accessories", "title": "Fabric Watch Band", "description": "Replace worn leather or silicone with fabric covered elastic or ribbon.", "energy_level": "low", "difficulty": "beginner", "tags": ["watch", "band", "custom"]},
+    {"id": "sewing_086", "category": "Home Decor", "title": "Curtain Tie-Backs", "description": "Fabric tubes with magnetic or button closures. Coordinate with existing curtains.", "energy_level": "low", "difficulty": "beginner", "tags": ["curtains", "tiebacks", "decor"]},
+    {"id": "sewing_087", "category": "Clothing", "title": "Maxi Dress with Empire Waist", "description": "High waistline flatters all figures. Gathered skirt falls from under bust.", "energy_level": "high", "difficulty": "intermediate", "tags": ["maxi", "empire", "flattering"]},
+    {"id": "sewing_088", "category": "Slow Fashion", "title": "Mending Party with Friends", "description": "Gather to repair clothes together. Share skills, thread, and conversation.", "energy_level": "medium", "difficulty": "beginner", "tags": ["social", "mending", "community"]},
+    {"id": "sewing_089", "category": "Upcycling", "title": "Sweater to Hat and Mittens", "description": "Felted wool sweater cut into hat and mitten shapes. No hems needed on felted fabric.", "energy_level": "medium", "difficulty": "beginner", "tags": ["sweater", "felted", "winter"]},
+    {"id": "sewing_090", "category": "Alterations", "title": "Add Elastic Back to Dress", "description": "Replace back zipper with elastic shirring for comfortable, adjustable fit.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["elastic", "shirring", "comfort"]},
+    {"id": "sewing_091", "category": "Costumes", "title": "Animal Ears Headband", "description": "Stuffed fabric triangles on headband base. Cat, fox, or bunny ears for costumes.", "energy_level": "low", "difficulty": "beginner", "tags": ["ears", "headband", "animal"]},
+    {"id": "sewing_092", "category": "Repairs", "title": "Iron-On Patches for Quick Fixes", "description": "Fusible webbing and fabric scraps for fast repairs when no time to sew.", "energy_level": "low", "difficulty": "beginner", "tags": ["iron-on", "fusible", "quick"]},
+    {"id": "sewing_093", "category": "Accessories", "title": "Fabric Key Fob", "description": "Short strap with key ring hardware. Matching set for different keys.", "energy_level": "low", "difficulty": "beginner", "tags": ["keychain", "fob", "quick"]},
+    {"id": "sewing_094", "category": "Home Decor", "title": "Fabric Photo Frame Cover", "description": "Padded fabric sleeve over plain frame. Easily changeable seasonal decor.", "energy_level": "low", "difficulty": "beginner", "tags": ["frame", "cover", "padded"]},
+    {"id": "sewing_095", "category": "Clothing", "title": "Romper or Jumpsuit", "description": "Connected top and shorts/pants. Comfortable one-piece outfit.", "energy_level": "high", "difficulty": "intermediate", "tags": ["romper", "jumpsuit", "connected"]},
+    {"id": "sewing_096", "category": "Slow Fashion", "title": "Sew Clothes That Fit Current Body", "description": "Don't wait to lose/gain weight. Dress for the body you have today.", "energy_level": "low", "difficulty": "beginner", "tags": ["body-positive", "present", "fit"]},
+    {"id": "sewing_097", "category": "Upcycling", "title": "Denim Pocket Organizer", "description": "Cut pockets from old jeans, attach to backing fabric for wall or door storage.", "energy_level": "medium", "difficulty": "beginner", "tags": ["denim", "pockets", "organization"]},
+    {"id": "sewing_098", "category": "Alterations", "title": "Narrow Wide Shoulders", "description": "Move shoulder seams inward for better proportion on oversized vintage finds.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["shoulders", "proportion", "fit"]},
+    {"id": "sewing_099", "category": "Costumes", "title": "Plague Doctor Mask", "description": "Leather or faux leather beak shape with eye holes. Historical or steampunk styling.", "energy_level": "high", "difficulty": "advanced", "tags": ["plague", "mask", "leather"]},
+    {"id": "sewing_100", "category": "Repairs", "title": "Reinforce Stress Points", "description": "Add extra stitching or bar tacks to areas that experience high stress before they fail.", "energy_level": "low", "difficulty": "beginner", "tags": ["preventive", "reinforce", "durability"]},
+    {"id": "sewing_101", "category": "Accessories", "title": "Fabric Bookmark", "description": "Ribbon or fabric strip with decorative ends. Add elastic loop for secure closure.", "energy_level": "low", "difficulty": "beginner", "tags": ["bookmark", "reading", "gift"]},
+    {"id": "sewing_102", "category": "Home Decor", "title": "Rag Rug from Old Clothes", "description": "Cut strips, braid or crochet together for colorful, washable floor covering.", "energy_level": "high", "difficulty": "intermediate", "tags": ["rug", "braided", "recycled"]},
+    {"id": "sewing_103", "category": "Clothing", "title": "Woven Bodice Dress", "description": "Fabric strips woven together for unique bodice texture on simple dress pattern.", "energy_level": "high", "difficulty": "advanced", "tags": ["woven", "bodice", "texture"]},
+    {"id": "sewing_104", "category": "Slow Fashion", "title": "One In One Out Rule", "description": "For every new item made or bought, donate or recycle one existing item.", "energy_level": "low", "difficulty": "beginner", "tags": ["minimalism", "rule", "balance"]},
+    {"id": "sewing_105", "category": "Upcycling", "title": "Grocery Bag from T-Shirts", "description": "No-sew option: cut handles and fringe bottom, tie knots. Sew version is sturdier.", "energy_level": "low", "difficulty": "beginner", "tags": ["t-shirt", "bag", "no-sew"]},
+    {"id": "sewing_106", "category": "Alterations", "title": "Add Gusset for More Room", "description": "Insert triangular or diamond piece at seam for extra ease in tight areas.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["gusset", "expansion", "mobility"]},
+    {"id": "sewing_107", "category": "Costumes", "title": "Gloves with Claws", "description": "Attach sculpted claws to glove fingertips. Werewolf, witch, or fantasy creature costume.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["claws", "gloves", "creature"]},
+    {"id": "sewing_108", "category": "Repairs", "title": "Fix Stretched Neckline", "description": "Run elastic thread through neckline, gather to original size. Quick t-shirt rescue.", "energy_level": "low", "difficulty": "beginner", "tags": ["neckline", "elastic", "stretched"]},
+    {"id": "sewing_109", "category": "Accessories", "title": "Glasses Case", "description": "Padded fabric case with snap or zipper closure. Protect eyewear in style.", "energy_level": "low", "difficulty": "beginner", "tags": ["glasses", "case", "protective"]},
+    {"id": "sewing_110", "category": "Home Decor", "title": "Lavender Sachets", "description": "Small fabric pouches filled with dried lavender for drawers and closets.", "energy_level": "low", "difficulty": "beginner", "tags": ["sachets", "lavender", "aromatherapy"]},
+    {"id": "sewing_111", "category": "Clothing", "title": "Infinity Scarf", "description": "Loop of fabric, continuous circle. Can be worn multiple ways.", "energy_level": "low", "difficulty": "beginner", "tags": ["scarf", "infinity", "versatile"]},
+    {"id": "sewing_112", "category": "Slow Fashion", "title": "Shop Your Own Closet", "description": "Rediscover forgotten pieces, plan alterations to make them wearable again.", "energy_level": "low", "difficulty": "beginner", "tags": ["closet", "rediscover", "inventory"]},
+    {"id": "sewing_113", "category": "Upcycling", "title": "Fabric Flower Pins", "description": "Rolled or folded fabric flowers with pin backs. Wear on jackets or bags.", "energy_level": "low", "difficulty": "beginner", "tags": ["flowers", "pins", "fabric"]},
+    {"id": "sewing_114", "category": "Alterations", "title": "Reshape Boxy Shirt", "description": "Add waist darts or princess seams to create flattering shape from oversized shirt.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["shaping", "fitted", "darts"]},
+    {"id": "sewing_115", "category": "Costumes", "title": "Dragon Scale Armor", "description": "Layered fabric or foam scales on base garment. Color gradient for realistic effect.", "energy_level": "high", "difficulty": "advanced", "tags": ["dragon", "scales", "fantasy"]},
+    {"id": "sewing_116", "category": "Repairs", "title": "Fix Unraveling Buttonhole", "description": "Overcast existing buttonhole with thread to prevent further damage.", "energy_level": "low", "difficulty": "beginner", "tags": ["buttonhole", "unraveling", "repair"]},
+    {"id": "sewing_117", "category": "Accessories", "title": "Fabric Bead Necklace", "description": "Wrap wooden or foam beads in fabric scraps, string on cord for unique jewelry.", "energy_level": "low", "difficulty": "beginner", "tags": ["beads", "necklace", "wrapped"]},
+    {"id": "sewing_118", "category": "Home Decor", "title": "Fabric Covered Boxes", "description": "Transform plain cardboard boxes with glued fabric for decorative storage.", "energy_level": "medium", "difficulty": "beginner", "tags": ["boxes", "storage", "covered"]},
+    {"id": "sewing_119", "category": "Clothing", "title": "Peplum Top", "description": "Fitted bodice with flared waist ruffle. Flattering silhouette that adds interest.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["peplum", "top", "flattering"]},
+    {"id": "sewing_120", "category": "Slow Fashion", "title": "Know Your Measurements", "description": "Keep updated measurements recorded for accurate online shopping and pattern selection.", "energy_level": "low", "difficulty": "beginner", "tags": ["measurements", "fit", "accuracy"]},
+    {"id": "sewing_121", "category": "Upcycling", "title": "Coin Purse from Dress Shirt Cuff", "description": "Button cuff becomes closure for tiny purse. Lined interior for durability.", "energy_level": "low", "difficulty": "beginner", "tags": ["cuff", "purse", "upcycle"]},
+    {"id": "sewing_122", "category": "Alterations", "title": "Add Lining to See-Through Garment", "description": "Cut lining pieces from pattern, attach at seams for modesty in sheer fabrics.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["lining", "sheer", "modesty"]},
+    {"id": "sewing_123", "category": "Costumes", "title": "Mermaid Tail Blanket", "description": "Fleece or knit tail-shaped sleeping bag. Fin at bottom, open at waist.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["mermaid", "blanket", "cozy"]},
+    {"id": "sewing_124", "category": "Repairs", "title": "Replace Elastic Cuffs", "description": "Unpick old elastic, measure and insert new. Common jacket and hoodie repair.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["cuffs", "elastic", "sleeves"]},
+    {"id": "sewing_125", "category": "Accessories", "title": "Bow Tie from Scraps", "description": "Classic or oversized bow tie from small fabric pieces. Self-tie or pre-tied.", "energy_level": "low", "difficulty": "beginner", "tags": ["bowtie", "formal", "scraps"]},
+    {"id": "sewing_126", "category": "Home Decor", "title": "Fabric Garland", "description": "Fabric strips tied on string for festive party or permanent room decoration.", "energy_level": "low", "difficulty": "beginner", "tags": ["garland", "party", "decoration"]},
+    {"id": "sewing_127", "category": "Clothing", "title": "Overalls or Dungarees", "description": "Classic workwear style with bib front and adjustable straps.", "energy_level": "high", "difficulty": "intermediate", "tags": ["overalls", "workwear", "sturdy"]},
+    {"id": "sewing_128", "category": "Slow Fashion", "title": "Audit Before Shopping", "description": "Check what you already own before making or buying something similar.", "energy_level": "low", "difficulty": "beginner", "tags": ["audit", "inventory", "mindful"]},
+    {"id": "sewing_129", "category": "Upcycling", "title": "Embroidery on Stained Clothing", "description": "Cover stains with decorative embroidery. Turn damage into design feature.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["embroidery", "stains", "repair"]},
+    {"id": "sewing_130", "category": "Alterations", "title": "Convert Pants to Capris", "description": "Shorten to mid-calf, hem or add cuff detail. New style from worn-out hems.", "energy_level": "low", "difficulty": "beginner", "tags": ["capris", "conversion", "summer"]},
+    {"id": "sewing_131", "category": "Costumes", "title": "Foam Armor Pieces", "description": "EVA foam cut and shaped for shoulder armor, gauntlets, or chest plates.", "energy_level": "high", "difficulty": "advanced", "tags": ["foam", "armor", "cosplay"]},
+    {"id": "sewing_132", "category": "Repairs", "title": "Fix Snag in Knit Fabric", "description": "Pull snag to inside with blunt needle, distribute pulled thread along nearby stitches.", "energy_level": "low", "difficulty": "beginner", "tags": ["snag", "knit", "invisible"]},
+    {"id": "sewing_133", "category": "Accessories", "title": "Wrist Pin Cushion", "description": "Small cushion on elastic wristband for keeping pins handy while sewing.", "energy_level": "low", "difficulty": "beginner", "tags": ["pincushion", "wrist", "practical"]},
+    {"id": "sewing_134", "category": "Home Decor", "title": "Quilted Pot Holders", "description": "Layered fabric with insulated batting. Essential kitchen item, great beginner project.", "energy_level": "medium", "difficulty": "beginner", "tags": ["potholder", "quilted", "kitchen"]},
+    {"id": "sewing_135", "category": "Clothing", "title": "Hooded Vest", "description": "Sleeveless hoodie for layering. Works in fleece, denim, or quilted fabric.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["vest", "hooded", "layering"]},
+    {"id": "sewing_136", "category": "Slow Fashion", "title": "Calculate True Hourly Wage", "description": "Consider if buying cheap clothes costs more in replacement than making quality.", "energy_level": "low", "difficulty": "beginner", "tags": ["cost", "value", "comparison"]},
+    {"id": "sewing_137", "category": "Upcycling", "title": "Memory Quilt from Baby Clothes", "description": "Preserve favorite outgrown items in quilt form. Sentimental keepsake project.", "energy_level": "high", "difficulty": "intermediate", "tags": ["memory", "quilt", "baby"]},
+    {"id": "sewing_138", "category": "Alterations", "title": "Add Crotch Gusset to Pants", "description": "Insert diamond-shaped piece for better mobility in tight pants.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["gusset", "mobility", "comfort"]},
+    {"id": "sewing_139", "category": "Costumes", "title": "Hobbit Foot Covers", "description": "Furry tops with padded rubber soles. Elastic to stay on, walk normally.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["hobbit", "feet", "fantasy"]},
+    {"id": "sewing_140", "category": "Repairs", "title": "Resew Falling Lining", "description": "Tack lining back in place at seams, hem, and armholes. Common coat repair.", "energy_level": "medium", "difficulty": "beginner", "tags": ["lining", "coat", "tacking"]},
+    {"id": "sewing_141", "category": "Accessories", "title": "Zipper Pouch Set", "description": "Nested pouches in small, medium, large for bags or travel organization.", "energy_level": "medium", "difficulty": "beginner", "tags": ["zipper", "pouch", "travel"]},
+    {"id": "sewing_142", "category": "Home Decor", "title": "Fabric Bowl Covers", "description": "Elastic-edge circles to replace plastic wrap for food storage.", "energy_level": "low", "difficulty": "beginner", "tags": ["bowl", "covers", "eco"]},
+    {"id": "sewing_143", "category": "Clothing", "title": "Convertible Dress", "description": "Multiple wrap and tie options create different looks from one garment.", "energy_level": "high", "difficulty": "advanced", "tags": ["convertible", "versatile", "wrap"]},
+    {"id": "sewing_144", "category": "Slow Fashion", "title": "Skill Building Over Speed", "description": "Take time to learn techniques properly rather than rushing through projects.", "energy_level": "low", "difficulty": "beginner", "tags": ["patience", "learning", "quality"]},
+    {"id": "sewing_145", "category": "Upcycling", "title": "Denim Coaster Set", "description": "Cut circles from jeans, stack and sew together for sturdy drink coasters.", "energy_level": "low", "difficulty": "beginner", "tags": ["denim", "coasters", "sturdy"]},
+    {"id": "sewing_146", "category": "Alterations", "title": "Reshape Square Neckline to V", "description": "Cut center front point, finish edges with bias binding for new neckline shape.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["neckline", "reshape", "v-neck"]},
+    {"id": "sewing_147", "category": "Costumes", "title": "Raven or Crow Wings", "description": "Black fabric layered feathers on harness base. Dramatic wingspan for costumes.", "energy_level": "high", "difficulty": "advanced", "tags": ["wings", "raven", "feathers"]},
+    {"id": "sewing_148", "category": "Repairs", "title": "Patch Inner Thigh Wear", "description": "Reinforce worn area with coordinating patch before holes appear.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["thigh", "reinforcement", "preventive"]},
+    {"id": "sewing_149", "category": "Accessories", "title": "Cord Keeper Wraps", "description": "Small fabric rectangles with snaps to organize cables and chargers.", "energy_level": "low", "difficulty": "beginner", "tags": ["cord", "organization", "travel"]},
+    {"id": "sewing_150", "category": "Home Decor", "title": "Door Stop Fabric Weight", "description": "Heavy bean-filled fabric shape. Practical and decorative door prop.", "energy_level": "low", "difficulty": "beginner", "tags": ["doorstop", "weighted", "practical"]},
+    {"id": "sewing_151", "category": "Clothing", "title": "Gathered Sleeve Blouse", "description": "Volume at sleeve cap or wrist for romantic, vintage-inspired look.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["sleeves", "gathered", "romantic"]},
+    {"id": "sewing_152", "category": "Slow Fashion", "title": "Seasonal Wardrobe Rotation", "description": "Store off-season clothes, assess and repair before rotating back into use.", "energy_level": "medium", "difficulty": "beginner", "tags": ["seasonal", "rotation", "maintenance"]},
+    {"id": "sewing_153", "category": "Upcycling", "title": "Wine Bottle Gift Bags", "description": "Fabric bags sized for wine bottles with ribbon drawstring tops.", "energy_level": "low", "difficulty": "beginner", "tags": ["wine", "gift", "bags"]},
+    {"id": "sewing_154", "category": "Alterations", "title": "Add Kick Pleat to Tight Skirt", "description": "Insert pleat at back hem for walking ease without changing overall fit.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["pleat", "skirt", "mobility"]},
+    {"id": "sewing_155", "category": "Costumes", "title": "Time Period Apron", "description": "Victorian, Edwardian, or 1950s style apron for costume or kitchen use.", "energy_level": "medium", "difficulty": "beginner", "tags": ["apron", "vintage", "period"]},
+    {"id": "sewing_156", "category": "Repairs", "title": "Fix Torn Belt Loop", "description": "Remove damaged loop, cut new fabric strip, attach securely at both ends.", "energy_level": "low", "difficulty": "beginner", "tags": ["belt loop", "replacement", "repair"]},
+    {"id": "sewing_157", "category": "Accessories", "title": "Fabric Cuff Bracelet", "description": "Wide fabric band with button or snap closure. Quilted or plain.", "energy_level": "low", "difficulty": "beginner", "tags": ["cuff", "bracelet", "jewelry"]},
+    {"id": "sewing_158", "category": "Home Decor", "title": "Holiday Stockings", "description": "Lined stockings with cuff and hanging loop. Personalize with names or embroidery.", "energy_level": "medium", "difficulty": "beginner", "tags": ["stockings", "holiday", "personalized"]},
+    {"id": "sewing_159", "category": "Clothing", "title": "Paperbag Waist Pants", "description": "Gathered waist with tie belt for trendy, comfortable fit.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["paperbag", "waist", "trendy"]},
+    {"id": "sewing_160", "category": "Slow Fashion", "title": "Learn Fabric Content Care", "description": "Understand how to wash and store different fibers for longevity.", "energy_level": "low", "difficulty": "beginner", "tags": ["care", "fabric", "longevity"]},
+    {"id": "sewing_161", "category": "Upcycling", "title": "Stuffed Animal from Old Clothes", "description": "Create memory toy from beloved worn-out garments. Great for baby clothes.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["stuffed", "memory", "toy"]},
+    {"id": "sewing_162", "category": "Alterations", "title": "Add Waist Ties to Dress", "description": "Sew ribbon or fabric ties at side seams for adjustable waist definition.", "energy_level": "low", "difficulty": "beginner", "tags": ["ties", "waist", "definition"]},
+    {"id": "sewing_163", "category": "Costumes", "title": "Jester Hat with Bells", "description": "Three-pointed hat with bells at each tip. Bright contrasting colors.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["jester", "hat", "bells"]},
+    {"id": "sewing_164", "category": "Repairs", "title": "Repair Torn Pocket", "description": "Patch hole from inside, reinforce pocket opening with extra stitching.", "energy_level": "low", "difficulty": "beginner", "tags": ["pocket", "patch", "interior"]},
+    {"id": "sewing_165", "category": "Accessories", "title": "Sleep Mask", "description": "Padded fabric eye mask with elastic strap. Block light for better rest.", "energy_level": "low", "difficulty": "beginner", "tags": ["sleep", "mask", "comfort"]},
+    {"id": "sewing_166", "category": "Home Decor", "title": "Fabric Covered Journal", "description": "Wrap plain notebook in fabric for personalized diary or sketchbook.", "energy_level": "low", "difficulty": "beginner", "tags": ["journal", "covered", "gift"]},
+    {"id": "sewing_167", "category": "Clothing", "title": "Dolman Sleeve Top", "description": "Batwing sleeves cut in one piece with body. Easy fit, comfortable style.", "energy_level": "medium", "difficulty": "beginner", "tags": ["dolman", "batwing", "easy"]},
+    {"id": "sewing_168", "category": "Slow Fashion", "title": "Support Local Fabric Shops", "description": "Buy from independent stores to find unique fabrics and expert advice.", "energy_level": "low", "difficulty": "beginner", "tags": ["local", "shopping", "community"]},
+    {"id": "sewing_169", "category": "Upcycling", "title": "Patchwork Baby Quilt", "description": "Small squares of varied fabrics for colorful sensory-rich baby blanket.", "energy_level": "high", "difficulty": "intermediate", "tags": ["baby", "patchwork", "quilt"]},
+    {"id": "sewing_170", "category": "Alterations", "title": "Remove Shoulder Pads", "description": "Snip threads attaching pads, update style of vintage garments.", "energy_level": "low", "difficulty": "beginner", "tags": ["shoulder pads", "vintage", "update"]},
+    {"id": "sewing_171", "category": "Costumes", "title": "Superhero Cape", "description": "Simple rectangle cape with neck closure. Add logo to back for character.", "energy_level": "low", "difficulty": "beginner", "tags": ["cape", "superhero", "kids"]},
+    {"id": "sewing_172", "category": "Repairs", "title": "Fix Torn Seam Under Arm", "description": "High-stress area, sew with reinforced stitch or serge for durability.", "energy_level": "low", "difficulty": "beginner", "tags": ["underarm", "seam", "stress"]},
+    {"id": "sewing_173", "category": "Accessories", "title": "Ear Warmer Headband", "description": "Wide fabric band to cover ears in cold weather. Fleece or double-layer.", "energy_level": "low", "difficulty": "beginner", "tags": ["headband", "winter", "ears"]},
+    {"id": "sewing_174", "category": "Home Decor", "title": "Table Runner", "description": "Long narrow fabric piece with finished ends for dining table decor.", "energy_level": "medium", "difficulty": "beginner", "tags": ["table", "runner", "dining"]},
+    {"id": "sewing_175", "category": "Clothing", "title": "Halter Top", "description": "Ties behind neck, open back style. Great for summer from minimal fabric.", "energy_level": "low", "difficulty": "beginner", "tags": ["halter", "summer", "minimal"]},
+    {"id": "sewing_176", "category": "Slow Fashion", "title": "Host Clothing Swap", "description": "Exchange unwanted clothes with friends instead of discarding.", "energy_level": "medium", "difficulty": "beginner", "tags": ["swap", "community", "exchange"]},
+    {"id": "sewing_177", "category": "Upcycling", "title": "Book Page Covered Buttons", "description": "Mod podge book pages onto button forms for literary-themed decoration.", "energy_level": "low", "difficulty": "beginner", "tags": ["buttons", "book", "literary"]},
+    {"id": "sewing_178", "category": "Alterations", "title": "Turn Dress into Skirt and Top", "description": "Cut at waist, hem raw edges to create two coordinating pieces from one.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["separation", "two-piece", "conversion"]},
+    {"id": "sewing_179", "category": "Costumes", "title": "Skeleton Bodysuit", "description": "Black base with white bone shapes appliqued or painted for Halloween.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["skeleton", "bones", "halloween"]},
+    {"id": "sewing_180", "category": "Repairs", "title": "Replace Missing Hook on Bra", "description": "Sew new hook and eye closure. Extend bra life significantly.", "energy_level": "low", "difficulty": "beginner", "tags": ["hook", "bra", "closure"]},
+    {"id": "sewing_181", "category": "Accessories", "title": "Luggage Tags", "description": "Durable fabric tags with clear window for contact info. Find bags easily.", "energy_level": "low", "difficulty": "beginner", "tags": ["luggage", "tags", "travel"]},
+    {"id": "sewing_182", "category": "Home Decor", "title": "Hot Water Bottle Cover", "description": "Cozy fabric cover to prevent burns and keep water warm longer.", "energy_level": "low", "difficulty": "beginner", "tags": ["hot water", "cover", "cozy"]},
+    {"id": "sewing_183", "category": "Clothing", "title": "High-Waisted Shorts", "description": "Flattering vintage-inspired silhouette with button or zipper front.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["shorts", "high-waist", "vintage"]},
+    {"id": "sewing_184", "category": "Slow Fashion", "title": "Document Your Makes", "description": "Photograph finished projects with notes on patterns and modifications.", "energy_level": "low", "difficulty": "beginner", "tags": ["documentation", "photos", "portfolio"]},
+    {"id": "sewing_185", "category": "Upcycling", "title": "Fabric Scrap Bunting", "description": "Triangle pennants strung on ribbon for party or room decoration.", "energy_level": "low", "difficulty": "beginner", "tags": ["bunting", "party", "scraps"]},
+    {"id": "sewing_186", "category": "Alterations", "title": "Widen Too-Narrow Neckline", "description": "Cut wider opening, finish with facing or bias binding.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["neckline", "widen", "comfort"]},
+    {"id": "sewing_187", "category": "Costumes", "title": "Greek Toga", "description": "Draped fabric secured at shoulder. Simple ancient costume from one cloth.", "energy_level": "low", "difficulty": "beginner", "tags": ["toga", "greek", "draped"]},
+    {"id": "sewing_188", "category": "Repairs", "title": "Reattach Detached Sleeve", "description": "Pin carefully at shoulder seam, sew with matching thread for invisible repair.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["sleeve", "shoulder", "seam"]},
+    {"id": "sewing_189", "category": "Accessories", "title": "Camera Strap Cover", "description": "Padded fabric cover for camera strap. Adds comfort and style.", "energy_level": "low", "difficulty": "beginner", "tags": ["camera", "strap", "padded"]},
+    {"id": "sewing_190", "category": "Home Decor", "title": "Fabric Hanging Ornaments", "description": "Stuffed shapes for holiday tree or year-round decoration.", "energy_level": "low", "difficulty": "beginner", "tags": ["ornaments", "stuffed", "holiday"]},
+    {"id": "sewing_191", "category": "Clothing", "title": "Cocoon Cardigan", "description": "Oversized wrap-front style without buttons. Cozy layering piece.", "energy_level": "medium", "difficulty": "beginner", "tags": ["cocoon", "cardigan", "cozy"]},
+    {"id": "sewing_192", "category": "Slow Fashion", "title": "Fiber Content Awareness", "description": "Read labels, choose natural fibers when possible for comfort and sustainability.", "energy_level": "low", "difficulty": "beginner", "tags": ["fibers", "labels", "natural"]},
+    {"id": "sewing_193", "category": "Upcycling", "title": "Eye Pillow from Scraps", "description": "Small pillow filled with flax seed and lavender for relaxation.", "energy_level": "low", "difficulty": "beginner", "tags": ["eye pillow", "relaxation", "aromatherapy"]},
+    {"id": "sewing_194", "category": "Alterations", "title": "Add Patch Pockets", "description": "Simple topstitched pockets added to pants, skirts, or jackets.", "energy_level": "low", "difficulty": "beginner", "tags": ["pockets", "patch", "functional"]},
+    {"id": "sewing_195", "category": "Costumes", "title": "Mad Scientist Lab Coat", "description": "Oversized white coat with fake stains and burn marks for costume.", "energy_level": "medium", "difficulty": "beginner", "tags": ["scientist", "lab coat", "costume"]},
+    {"id": "sewing_196", "category": "Repairs", "title": "Fix Twisted Straps", "description": "Detach straps, untwist, reattach at correct angle. Common tank top issue.", "energy_level": "low", "difficulty": "beginner", "tags": ["straps", "twisted", "tank"]},
+    {"id": "sewing_197", "category": "Accessories", "title": "Fabric Gift Tags", "description": "Reusable cloth tags for gifts. More sustainable than paper.", "energy_level": "low", "difficulty": "beginner", "tags": ["tags", "gift", "reusable"]},
+    {"id": "sewing_198", "category": "Home Decor", "title": "Chair Cushion with Ties", "description": "Padded seat cover with ribbon ties to attach to chair back.", "energy_level": "medium", "difficulty": "beginner", "tags": ["cushion", "chair", "padded"]},
+    {"id": "sewing_199", "category": "Clothing", "title": "Cropped Hoodie", "description": "Shorter length hoodie for layering over high-waisted bottoms.", "energy_level": "medium", "difficulty": "intermediate", "tags": ["cropped", "hoodie", "casual"]},
+    {"id": "sewing_200", "category": "Slow Fashion", "title": "Celebrate Imperfection", "description": "Embrace wabi-sabi aesthetic. Handmade items don't need to be perfect to be beautiful.", "energy_level": "low", "difficulty": "beginner", "tags": ["wabi-sabi", "imperfect", "handmade"]}
   ]
 }
