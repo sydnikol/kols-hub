@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Palette, Plus, Edit2, Trash2, Clock, Image, Tag, X, Check } from 'lucide-react';
+import { Palette, Plus, Edit2, Trash2, Clock, Image, Tag, X, Check, ExternalLink, Brush, Monitor } from 'lucide-react';
 import toast from 'react-hot-toast';
+import { useAICreativeTools, AICreativeService } from '../../services/ai-creative-tools-integration';
 
 interface ArtProject {
   id: string;
@@ -283,6 +284,19 @@ export default function ArtPortfolio() {
   const filteredProjects = getFilteredProjects();
   const stats = getTotalStats();
   const selectedProjectData = projects.find(p => p.id === selectedProject);
+  const [showArtApps, setShowArtApps] = useState(false);
+
+  // Digital art tools integration
+  const { digitalArtApps, launchApp, openWebsite, isDesktopApp } = useAICreativeTools();
+
+  const handleLaunchApp = async (appId: string) => {
+    const result = await launchApp(appId);
+    if (result.success) {
+      toast.success(result.message);
+    } else {
+      toast.error(result.message);
+    }
+  };
 
   return (
     <div className="space-y-6">
@@ -297,14 +311,122 @@ export default function ArtPortfolio() {
             {stats.totalProjects} projects • {stats.completedProjects} completed • {Math.round(stats.totalHours)}h total
           </p>
         </div>
-        <button
-          onClick={() => setIsAddingProject(!isAddingProject)}
-          className="px-4 py-2 bg-gradient-to-r from-purple-600 to-violet-600 text-white rounded-lg hover:from-purple-500 hover:to-violet-500 transition-all flex items-center gap-2"
-        >
-          {isAddingProject ? <X className="w-4 h-4" /> : <Plus className="w-4 h-4" />}
-          {isAddingProject ? 'Cancel' : 'New Project'}
-        </button>
+        <div className="flex gap-2">
+          <button
+            onClick={() => setShowArtApps(!showArtApps)}
+            className="px-4 py-2 bg-gradient-to-r from-pink-600 to-purple-600 text-white rounded-lg hover:from-pink-500 hover:to-purple-500 transition-all flex items-center gap-2"
+            title="Digital Art Software"
+          >
+            <Brush className="w-4 h-4" />
+            Art Apps
+          </button>
+          <button
+            onClick={() => setIsAddingProject(!isAddingProject)}
+            className="px-4 py-2 bg-gradient-to-r from-purple-600 to-violet-600 text-white rounded-lg hover:from-purple-500 hover:to-violet-500 transition-all flex items-center gap-2"
+          >
+            {isAddingProject ? <X className="w-4 h-4" /> : <Plus className="w-4 h-4" />}
+            {isAddingProject ? 'Cancel' : 'New Project'}
+          </button>
+        </div>
       </div>
+
+      {/* Digital Art Apps Panel */}
+      {showArtApps && (
+        <div className="bg-gradient-to-br from-pink-900/30 to-purple-900/30 rounded-xl p-6 border border-pink-500/20">
+          <div className="flex items-center justify-between mb-4">
+            <h3 className="text-xl font-semibold text-white flex items-center gap-2">
+              <Monitor className="w-5 h-5 text-pink-400" />
+              Digital Art Software
+            </h3>
+            <button
+              onClick={() => setShowArtApps(false)}
+              className="p-1 hover:bg-white/10 rounded-lg transition-colors"
+            >
+              <X className="w-5 h-5 text-pink-200" />
+            </button>
+          </div>
+          <p className="text-pink-200/70 text-sm mb-4">
+            Launch your favorite digital art applications or visit their websites.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+            {digitalArtApps.map((app: AICreativeService) => (
+              <div
+                key={app.id}
+                className="bg-black/30 rounded-lg p-4 border border-pink-500/20 hover:border-pink-400/40 transition-all"
+              >
+                <div className="flex items-start justify-between mb-2">
+                  <div>
+                    <h4 className="text-white font-medium">{app.name}</h4>
+                    <span className={`text-xs px-2 py-0.5 rounded-full ${
+                      app.pricing === 'free' ? 'bg-green-500/20 text-green-300' :
+                      app.pricing === 'freemium' ? 'bg-blue-500/20 text-blue-300' :
+                      'bg-purple-500/20 text-purple-300'
+                    }`}>
+                      {app.pricing}
+                    </span>
+                  </div>
+                  <div className="flex gap-1">
+                    {isDesktopApp(app.id) && (
+                      <button
+                        onClick={() => handleLaunchApp(app.id)}
+                        className="p-2 bg-pink-500/20 text-pink-300 rounded-lg hover:bg-pink-500/30 transition-all"
+                        title={`Launch ${app.name}`}
+                      >
+                        <Monitor className="w-4 h-4" />
+                      </button>
+                    )}
+                    <button
+                      onClick={() => openWebsite(app.id)}
+                      className="p-2 bg-purple-500/20 text-purple-300 rounded-lg hover:bg-purple-500/30 transition-all"
+                      title="Visit Website"
+                    >
+                      <ExternalLink className="w-4 h-4" />
+                    </button>
+                  </div>
+                </div>
+                <p className="text-pink-200/70 text-xs line-clamp-2">{app.description}</p>
+                <div className="mt-2 flex flex-wrap gap-1">
+                  {app.features.slice(0, 3).map((feature, idx) => (
+                    <span
+                      key={idx}
+                      className="text-[10px] px-1.5 py-0.5 bg-pink-500/10 text-pink-300/80 rounded"
+                    >
+                      {feature}
+                    </span>
+                  ))}
+                  {app.features.length > 3 && (
+                    <span className="text-[10px] px-1.5 py-0.5 bg-pink-500/10 text-pink-300/80 rounded">
+                      +{app.features.length - 3} more
+                    </span>
+                  )}
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Quick Launch Clip Studio */}
+          <div className="mt-4 p-4 bg-gradient-to-r from-pink-600/20 to-purple-600/20 rounded-lg border border-pink-500/30">
+            <div className="flex items-center justify-between">
+              <div>
+                <h4 className="text-white font-medium flex items-center gap-2">
+                  <Brush className="w-4 h-4 text-pink-400" />
+                  Quick Launch Clip Studio Paint
+                </h4>
+                <p className="text-pink-200/70 text-xs mt-1">
+                  Professional digital art software for illustration, manga, and animation
+                </p>
+              </div>
+              <button
+                onClick={() => handleLaunchApp('clipstudio')}
+                className="px-4 py-2 bg-gradient-to-r from-pink-600 to-purple-600 text-white rounded-lg hover:from-pink-500 hover:to-purple-500 transition-all flex items-center gap-2 font-medium"
+              >
+                <Monitor className="w-4 h-4" />
+                Launch
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Filter Tabs */}
       <div className="flex gap-2 bg-black/30 p-1 rounded-lg">

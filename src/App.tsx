@@ -126,6 +126,8 @@ import { useIntegrations } from './contexts/IntegrationContext';
 // Import components normally - they're needed for initial render
 import MedicationTracker from './components/MedicationTracker';
 import AvatarDressingRoom from './components/avatar/AvatarDressingRoom';
+import QuickActionsWidget from './components/QuickActionsWidget';
+import EmergencyQuickAccess from './components/EmergencyQuickAccess';
 
 // Import all pages
 
@@ -811,6 +813,12 @@ const App: React.FC = () => {
             },
           }}
         />
+
+        {/* Quick Actions Floating Widget */}
+        <QuickActionsWidget />
+
+        {/* Emergency Quick Access */}
+        <EmergencyQuickAccess />
         </div>
       </Router>
     </IntegrationProvider>

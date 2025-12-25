@@ -64,9 +64,9 @@ const MobileDownloads: React.FC = () => {
   const downloads: DownloadOption[] = [
     {
       platform: 'Android',
-      version: '5.6.0',
+      version: '5.7.0',
       size: '~482 MB',
-      downloadUrl: '/downloads/KolHub-v5.6.0.apk',
+      downloadUrl: '/downloads/KolHub-v5.7.0.apk',
       icon: <Smartphone className="w-10 h-10" />,
       gradient: 'from-green-500 to-emerald-600',
       bgGradient: 'from-green-500/20 to-emerald-600/20',
@@ -82,7 +82,7 @@ const MobileDownloads: React.FC = () => {
     },
     {
       platform: 'iOS',
-      version: '5.6.0',
+      version: '5.7.0',
       size: 'Web App',
       downloadUrl: 'https://kolshub.net',
       icon: <Apple className="w-10 h-10" />,
@@ -100,7 +100,7 @@ const MobileDownloads: React.FC = () => {
     },
     {
       platform: 'Desktop',
-      version: '5.6.0',
+      version: '5.7.0',
       size: 'PWA',
       downloadUrl: 'https://kolshub.net',
       icon: <Monitor className="w-10 h-10" />,
@@ -139,7 +139,7 @@ const MobileDownloads: React.FC = () => {
   ];
 
   const stats = [
-    { value: '150+', label: 'Features' },
+    { value: '9000+', label: 'Features' },
     { value: '100%', label: 'Free' },
     { value: '5.0', label: 'Rating' },
     { value: '0', label: 'Ads' },
@@ -161,7 +161,7 @@ const MobileDownloads: React.FC = () => {
           <div className="flex justify-center mb-6">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-purple-500/20 border border-purple-500/30 rounded-full text-purple-300 text-sm">
               <Sparkles className="w-4 h-4" />
-              <span>Version 5.6.0 — Your Self-Evolving Personal OS</span>
+              <span>Version 5.7.0 — Your Self-Evolving Personal OS</span>
             </div>
           </div>
 
@@ -286,7 +286,7 @@ const MobileDownloads: React.FC = () => {
         <div className="text-center mb-10">
           <h2 className="text-3xl font-bold text-white mb-3">Everything You Need</h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Over 150 integrated features designed to simplify your daily life
+            Over 9,000 integrated features designed to simplify your daily life
           </p>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
