@@ -4,7 +4,7 @@
   "version": "2.0.0",
   "created_at": "2025-11-12T08:51:40.763917",
   "description": "Comprehensive idea libraries for daily planning, health management, creative expression, and spiritual practice",
-  "total_ideas": 1600,
+  "total_ideas": 4500,
   "libraries": [
     {
       "key": "ideas_food",
@@ -205,6 +205,128 @@
         "Finance Tracker",
         "Community Tools"
       ]
+    },
+    {
+      "key": "ai_tools",
+      "name": "Free AI Tools Directory",
+      "path": "/data/ai_tools_ideas.json",
+      "description": "342 free AI tools for creativity, productivity, development, and more",
+      "count": 342,
+      "categories": [
+        "Image Generators",
+        "Video Generation",
+        "Music Creation",
+        "Code Generation",
+        "Writing Tools",
+        "3D Generation",
+        "Local AI",
+        "Chatbots & LLMs"
+      ]
+    },
+    {
+      "key": "mental_health",
+      "name": "Mental Health Ideas",
+      "path": "/data/mentalHealthIdeas.json",
+      "description": "150 mental health support ideas for CPTSD, anxiety, and depression",
+      "count": 150
+    },
+    {
+      "key": "sleep_ideas",
+      "name": "Sleep & Rest Ideas",
+      "path": "/data/sleep_ideas.json",
+      "description": "100 sleep hygiene and rest optimization ideas",
+      "count": 100
+    },
+    {
+      "key": "movement_ideas",
+      "name": "Movement & Exercise Ideas",
+      "path": "/data/movement_ideas.json",
+      "description": "100 gentle movement and exercise ideas for chronic illness",
+      "count": 100
+    },
+    {
+      "key": "accessibility_ideas",
+      "name": "Accessibility Ideas",
+      "path": "/data/accessibility_ideas.json",
+      "description": "100 accessibility accommodation ideas",
+      "count": 100
+    },
+    {
+      "key": "learning_ideas",
+      "name": "Learning & Education Ideas",
+      "path": "/data/learning_ideas.json",
+      "description": "200 learning ideas across art, coding, music, and more",
+      "count": 200
+    },
+    {
+      "key": "household_ideas",
+      "name": "Household Management Ideas",
+      "path": "/data/household_ideas.json",
+      "description": "100 low-spoon household management ideas",
+      "count": 100
+    },
+    {
+      "key": "car_maintenance",
+      "name": "Car Maintenance Ideas",
+      "path": "/data/car_maintenance_ideas.json",
+      "description": "50 car maintenance and care ideas",
+      "count": 50
+    },
+    {
+      "key": "pet_care",
+      "name": "Pet Care Ideas",
+      "path": "/data/pet_care_ideas.json",
+      "description": "100 pet care and enrichment ideas",
+      "count": 100
+    },
+    {
+      "key": "partner_ideas",
+      "name": "Partner & Relationship Ideas",
+      "path": "/data/partner_ideas.json",
+      "description": "Relationship activities and date ideas",
+      "count": 100
+    },
+    {
+      "key": "music_ideas",
+      "name": "Music Ideas",
+      "path": "/data/music_ideas.json",
+      "description": "100 music listening and discovery ideas",
+      "count": 100
+    },
+    {
+      "key": "gaming_ideas",
+      "name": "Gaming Ideas",
+      "path": "/data/gaming_ideas.json",
+      "description": "Gaming activity and social gaming ideas",
+      "count": 100
+    },
+    {
+      "key": "entertainment_ideas",
+      "name": "Entertainment Ideas",
+      "path": "/data/entertainment_ideas.json",
+      "description": "Movies, shows, and entertainment ideas",
+      "count": 100
+    },
+    {
+      "key": "reading_ideas",
+      "name": "Reading Ideas",
+      "path": "/data/reading_ideas.json",
+      "description": "Reading recommendations and book ideas",
+      "count": 100
+    },
+    {
+      "key": "coloring_ideas",
+      "name": "Coloring Ideas",
+      "path": "/data/coloring_ideas.json",
+      "description": "Coloring and art therapy ideas",
+      "count": 100
+    },
+    {
+      "key": "caretaking_ideas",
+      "name": "Caretaking Ideas",
+      "path": "/data/caretaking_ideas.json",
+      "description": "Self-care and caretaking activity ideas",
+      "count": 100
     }
   ],
   "usage": {
@@ -219,13 +341,7 @@
     "ai_suggestions": "Kol AI Companion draws from these libraries to make contextual suggestions based on user state, preferences, and patterns"
   },
   "expansion_plans": {
-    "upcoming_libraries": [
-      "Relationship communication scripts (200 ideas)",
-      "Advocacy action templates (150 ideas)",
-      "Travel preparation checklists (100 ideas)",
-      "Emergency preparedness plans (75 ideas)",
-      "Seasonal ritual calendars (365 ideas)"
-    ],
+    "upcoming_libraries": [],
     "community_contributions": "Future feature will allow users to submit ideas to expand libraries"
   }
 }
