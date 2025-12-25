@@ -65,8 +65,8 @@ const MobileDownloads: React.FC = () => {
     {
       platform: 'Android',
       version: '5.6.0',
-      size: '~242 MB',
-      downloadUrl: 'https://github.com/sydnikol/kols-hub/releases/download/v5.6.0/KolHub-v5.6.0.apk',
+      size: '~482 MB',
+      downloadUrl: '/downloads/KolHub-v5.6.0.apk',
       icon: <Smartphone className="w-10 h-10" />,
       gradient: 'from-green-500 to-emerald-600',
       bgGradient: 'from-green-500/20 to-emerald-600/20',
