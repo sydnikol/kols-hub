@@ -1,2 +1,3 @@
 // Entertainment Discovery exports
-export { EntertainmentDiscovery, default } from './EntertainmentDiscovery';
+export { default as EntertainmentDiscovery } from './EntertainmentDiscovery';
+export { default } from './EntertainmentDiscovery';

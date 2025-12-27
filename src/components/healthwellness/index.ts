@@ -1,2 +1,3 @@
 // Health Wellness Center exports
-export { HealthWellnessCenter, default } from './HealthWellnessCenter';
+export { default as HealthWellnessCenter } from './HealthWellnessCenter';
+export { default } from './HealthWellnessCenter';

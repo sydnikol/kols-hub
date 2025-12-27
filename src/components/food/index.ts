@@ -1,5 +1,6 @@
 // Food Nutrition Guide exports
-export { FoodNutritionGuide, default } from './FoodNutritionGuide';
+export { default as FoodNutritionGuide } from './FoodNutritionGuide';
+export { default } from './FoodNutritionGuide';
 
 // Recipe and Cooking Companion exports
 export { RecipeBook } from './RecipeBook';

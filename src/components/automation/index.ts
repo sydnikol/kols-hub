@@ -1,2 +1,3 @@
 // Automation Ideas Lab exports
-export { AutomationIdeasLab, default } from './AutomationIdeasLab';
+export { default as AutomationIdeasLab } from './AutomationIdeasLab';
+export { default } from './AutomationIdeasLab';

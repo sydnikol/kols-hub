@@ -1,2 +1,3 @@
 // Financial Planning Hub exports
-export { FinancialPlanningHub, default } from './FinancialPlanningHub';
+export { default as FinancialPlanningHub } from './FinancialPlanningHub';
+export { default } from './FinancialPlanningHub';
