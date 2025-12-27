@@ -252,3 +252,4 @@ jdk-17*
 *.apk
 public/downloads/
 dist/downloads/
+public/downloads/*.apk
