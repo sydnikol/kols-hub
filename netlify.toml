@@ -18,6 +18,12 @@
   to = "/downloads/:splat"
   status = 200
 
+# Download page - serve static HTML
+[[redirects]]
+  from = "/download"
+  to = "/download.html"
+  status = 200
+
 # Redirect rules for SPA
 [[redirects]]
   from = "/*"
@@ -69,11 +75,11 @@
 # VITE_READY_PLAYER_ME_APP_ID
 # VITE_APP_URL
 
-# Build plugins
-[[plugins]]
-  package = "@netlify/plugin-lighthouse"
-  [plugins.inputs]
-    output_path = "lighthouse-report.html"
+# Build plugins disabled for now
+# [[plugins]]
+#   package = "@netlify/plugin-lighthouse"
+#   [plugins.inputs]
+#     output_path = "lighthouse-report.html"
 
 # Dev server
 [dev]
