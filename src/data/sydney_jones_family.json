@@ -1,21 +1,57 @@
 {
   "familyName": "Jones",
   "focusPerson": "Sydney Jones",
-  "lastUpdated": "2025-12-06",
+  "nickname": "Kol",
+  "lastUpdated": "2025-12-25",
   "source": "Ancestry.com - Sydney Jones Family Tree",
   "ancestors": [
     {
       "id": "sydney-jones",
       "name": "Sydney Jones",
+      "nickname": "Kol",
       "birthYear": 1999,
       "birthDate": "September 7, 1999",
       "birthPlace": "Urbana, Champaign, Illinois, USA",
       "relation": "Self",
       "generation": 0,
-      "sex": "F",
-      "culturalBackground": ["African American"],
+      "sex": "Non-binary",
+      "pronouns": "they/them",
+      "culturalBackground": [
+        "African American",
+        "Blackfoot (Siksika)"
+      ],
+      "partners": [
+        {
+          "name": "Da'Veon",
+          "relationship": "Partner"
+        },
+        {
+          "name": "Quincy",
+          "relationship": "Partner"
+        }
+      ],
+      "healthConditions": [
+        {
+          "condition": "Hypermobile Ehlers-Danlos Syndrome (hEDS)",
+          "type": "Genetic/Connective Tissue",
+          "status": "Active"
+        },
+        {
+          "condition": "Postural Orthostatic Tachycardia Syndrome (POTS)",
+          "type": "Autonomic/Cardiovascular",
+          "status": "Active"
+        },
+        {
+          "condition": "Chronic Pain Syndrome",
+          "type": "Pain Management",
+          "status": "Active"
+        }
+      ],
       "stories": [
-        "Sydney was born in Urbana, Illinois and has deep roots in both Pennsylvania and the American South."
+        "Sydney was born in Urbana, Illinois and has deep roots in both Pennsylvania and the American South.",
+        "Through their maternal grandmother Jacquie, Sydney carries Blackfoot (Siksika) Native American heritage.",
+        "Sydney uses they/them pronouns and goes by the nickname Kol.",
+        "Despite living with hEDS, POTS, and chronic pain, Sydney continues to build and create."
       ]
     },
     {
@@ -34,7 +70,9 @@
         "Herndon, Virginia (2018-2020)",
         "Ashburn, Virginia (2019-2020)"
       ],
-      "culturalBackground": ["African American"],
+      "culturalBackground": [
+        "African American"
+      ],
       "stories": [
         "James was born in Pittsburgh and later lived in several states including Illinois, Texas, and Virginia."
       ]
@@ -60,9 +98,13 @@
         "Lithonia, Georgia (1996-1997)",
         "Overland Park, Kansas (2006-2020)"
       ],
-      "culturalBackground": ["African American"],
+      "culturalBackground": [
+        "African American",
+        "Blackfoot (Siksika) - through mother"
+      ],
       "stories": [
-        "Linda was born at Fort Gordon, Georgia and attended Fayetteville State University."
+        "Linda was born at Fort Gordon, Georgia and attended Fayetteville State University.",
+        "Linda carries Blackfoot heritage through her mother Jacquie."
       ]
     },
     {
@@ -82,7 +124,9 @@
         "Allegheny, Pennsylvania (1942)"
       ],
       "burialPlace": "Pittsburgh, Allegheny County, Pennsylvania",
-      "culturalBackground": ["African American"],
+      "culturalBackground": [
+        "African American"
+      ],
       "stories": [
         "James Collins Jones Sr. was born in Alabama and moved to Pittsburgh as a young child.",
         "He lived in Pittsburgh for most of his life until his passing in 1982."
@@ -106,7 +150,9 @@
       "residences": [
         "Pittsburgh, Pennsylvania (1922-2009)"
       ],
-      "culturalBackground": ["African American"],
+      "culturalBackground": [
+        "African American"
+      ],
       "stories": [
         "Elizabeth was a lifelong Pittsburgh resident.",
         "She worked operating a punch press and lived independently."
@@ -130,9 +176,22 @@
         "Fayetteville, North Carolina (1984-2019)"
       ],
       "burialPlace": "Fayetteville, Cumberland County, North Carolina",
-      "culturalBackground": ["African American"],
+      "culturalBackground": [
+        "African American",
+        "Blackfoot (Siksika) - Half"
+      ],
+      "nativeHeritage": {
+        "tribe": "Blackfoot",
+        "nation": "Siksika",
+        "confederacy": "Blackfoot Confederacy",
+        "traditionalTerritory": "Northern Great Plains (Montana, Alberta, Saskatchewan)",
+        "percentage": "50%",
+        "notes": "Jacquie was half Blackfoot, connecting the family to the Siksika people of the Blackfoot Confederacy"
+      },
       "stories": [
         "Jacquie Ella was born in Florence, Alabama and later settled in Fayetteville, North Carolina.",
+        "She was half Blackfoot (Siksika), carrying the heritage of the great plains tribes.",
+        "Her Blackfoot ancestry connects the family to the Siksika people of the Blackfoot Confederacy.",
         "She passed away in Kansas City, Missouri in 2024 and was laid to rest in Fayetteville."
       ]
     },
@@ -143,7 +202,9 @@
       "relation": "Maternal Great-Grandmother",
       "generation": 3,
       "sex": "F",
-      "culturalBackground": ["African American"],
+      "culturalBackground": [
+        "African American"
+      ],
       "stories": [
         "Eva Mae is an ancestor through the maternal line."
       ]
@@ -161,10 +222,22 @@
       "Pittsburgh, Pennsylvania",
       "Alabama",
       "North Carolina",
-      "Georgia"
+      "Georgia",
+      "Northern Great Plains (Blackfoot Territory)"
     ]
   },
-  "culturalHeritage": ["African American"],
+  "culturalHeritage": [
+    "African American",
+    "Blackfoot (Siksika) Native American"
+  ],
+  "nativeAmericanHeritage": {
+    "tribe": "Blackfoot",
+    "nation": "Siksika",
+    "confederacy": "Blackfoot Confederacy",
+    "traditionalTerritory": "Northern Great Plains - Montana, Alberta, Saskatchewan",
+    "lineage": "Through maternal grandmother Jacquie Ella Vaughn (50% Blackfoot)",
+    "currentGeneration": "Sydney carries this heritage as approximately 12.5% Blackfoot"
+  },
   "familyMigration": [
     {
       "from": "Alabama",
@@ -177,6 +250,53 @@
       "to": "Illinois",
       "period": "1990s",
       "notes": "Family expansion to the Midwest"
+    },
+    {
+      "from": "Northern Great Plains",
+      "to": "Alabama",
+      "period": "Historical",
+      "notes": "Blackfoot heritage entering the family line through Jacquie's ancestry"
     }
-  ]
+  ],
+  "healthInformation": {
+    "focusPerson": "Sydney Jones",
+    "conditions": [
+      {
+        "name": "Hypermobile Ehlers-Danlos Syndrome (hEDS)",
+        "category": "Genetic/Connective Tissue Disorder",
+        "description": "A hereditary connective tissue disorder characterized by joint hypermobility, skin hyperextensibility, and tissue fragility",
+        "inherited": true
+      },
+      {
+        "name": "Postural Orthostatic Tachycardia Syndrome (POTS)",
+        "category": "Autonomic Nervous System Disorder",
+        "description": "A condition that affects blood flow and causes an abnormal increase in heart rate when standing",
+        "commonlyComorbidWith": [
+          "hEDS"
+        ]
+      },
+      {
+        "name": "Chronic Pain Syndrome",
+        "category": "Pain Disorder",
+        "description": "Persistent pain that affects daily life, often associated with hEDS",
+        "relatedTo": [
+          "hEDS"
+        ]
+      }
+    ],
+    "emergencyContacts": [
+      {
+        "name": "Da'Veon",
+        "relationship": "Partner"
+      },
+      {
+        "name": "Mom",
+        "relationship": "Mother"
+      },
+      {
+        "name": "Quincy",
+        "relationship": "Partner"
+      }
+    ]
+  }
 }

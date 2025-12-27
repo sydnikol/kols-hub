@@ -112,7 +112,50 @@ const TrendsCorrelationsPage = React.lazy(() => import('./pages/health/TrendsCor
 const SelfAdvocacyHub = React.lazy(() => import('./pages/advocacy/SelfAdvocacyHub'));
 const AIAvatarTeacherPage = React.lazy(() => import('./pages/AIAvatarTeacherPage'));
 const GothicApartmentPage = React.lazy(() => import('./pages/GothicApartmentPage'));
+const GothicDollhousePage = React.lazy(() => import('./pages/GothicDollhousePage'));
+const AIToolsDirectoryPage = React.lazy(() => import('./pages/AIToolsDirectoryPage'));
 const PhoneConnectorPage = React.lazy(() => import('./pages/PhoneConnectorPage'));
+const PetCompanionSystem = React.lazy(() => import('./components/pets/PetCompanionSystem'));
+const DailyActivityOracle = React.lazy(() => import('./components/oracle/DailyActivityOracle'));
+const HoodooPracticeHub = React.lazy(() => import('./components/spiritual/HoodooPracticeHub'));
+const GothicThemeGallery = React.lazy(() => import('./components/themes/GothicThemeGallery'));
+const AchievementSystem = React.lazy(() => import('./components/achievements/AchievementSystem'));
+const IdeasDiscoveryHub = React.lazy(() => import('./components/ideas/IdeasDiscoveryHub'));
+const AICompanionsHub = React.lazy(() => import('./components/companions/AICompanionsHub'));
+const AdventureGenerator = React.lazy(() => import('./components/dnd/AdventureGenerator'));
+const EmergencyCardBuilder = React.lazy(() => import('./components/emergency/EmergencyCardBuilder'));
+const FamilyTreeExplorer = React.lazy(() => import('./components/family/FamilyTreeExplorer'));
+const DreamJournal = React.lazy(() => import('./components/dreams/DreamJournal'));
+const HistoricalFiguresGallery = React.lazy(() => import('./components/history/HistoricalFiguresGallery'));
+const PassiveLearningAcademy = React.lazy(() => import('./components/learning/PassiveLearningAcademy'));
+const CaregiverSupportHandbook = React.lazy(() => import('./components/caregiver/CaregiverSupportHandbook'));
+const MoodColoringStudio = React.lazy(() => import('./components/coloring/MoodColoringStudio'));
+const AdaptiveMovementTracker = React.lazy(() => import('./components/movement/AdaptiveMovementTracker'));
+const PartnerRelationshipHub = React.lazy(() => import('./components/partner/PartnerRelationshipHub'));
+const SleepSanctuaryTracker = React.lazy(() => import('./components/sleep/SleepSanctuaryTracker'));
+const AccessibilityToolkit = React.lazy(() => import('./components/accessibility/AccessibilityToolkit'));
+const SewingProjectPlanner = React.lazy(() => import('./components/sewing/SewingProjectPlanner'));
+const HouseholdManagementHub = React.lazy(() => import('./components/household/HouseholdManagementHub'));
+const MusicActivityHub = React.lazy(() => import('./components/music/MusicActivityHub'));
+const ReadingCompanion = React.lazy(() => import('./components/reading/ReadingCompanion'));
+const GamingActivityPlanner = React.lazy(() => import('./components/gaming/GamingActivityPlanner'));
+const CarMaintenanceTracker = React.lazy(() => import('./components/car/CarMaintenanceTracker'));
+const ArtProjectStudio = React.lazy(() => import('./components/art/ArtProjectStudio'));
+const PetCareCompanion = React.lazy(() => import('./components/pet/PetCareCompanion'));
+const MentalHealthToolkit = React.lazy(() => import('./components/mentalhealth/MentalHealthToolkit'));
+const FinancialPlanningHub = React.lazy(() => import('./components/financial/FinancialPlanningHub'));
+const FoodNutritionGuide = React.lazy(() => import('./components/food/FoodNutritionGuide'));
+const HealthWellnessCenter = React.lazy(() => import('./components/healthwellness/HealthWellnessCenter'));
+const PassiveIncomeExplorer = React.lazy(() => import('./components/passiveincome/PassiveIncomeExplorer'));
+const AutomationIdeasLab = React.lazy(() => import('./components/automation/AutomationIdeasLab'));
+const EntertainmentDiscovery = React.lazy(() => import('./components/entertainment/EntertainmentDiscovery'));
+const DnDAdventureHooks = React.lazy(() => import('./components/dnd/DnDAdventureHooks'));
+const HoodooSpiritualGuide = React.lazy(() => import('./components/spiritual/HoodooSpiritualGuide'));
+const HoodooRitualLibrary = React.lazy(() => import('./components/rituals/HoodooRitualLibrary'));
+const AICharacterGallery = React.lazy(() => import('./components/characters/AICharacterGallery'));
+const GothicThemeExplorer = React.lazy(() => import('./components/themes/GothicThemeExplorer'));
+const PassiveIncomeCalculator = React.lazy(() => import('./components/income/PassiveIncomeCalculator'));
+const PassiveIncomeExecutor = React.lazy(() => import('./components/income/PassiveIncomeExecutor'));
 import { BrowserRouter as Router, Routes, Route, NavLink, useNavigate } from 'react-router-dom';
 import {
   Menu, X, Home, Heart, Brain, Music, Palette, Book,
@@ -322,7 +365,15 @@ const App: React.FC = () => {
         { path: '/vitals', name: 'Vitals Monitor', icon: Activity },
         { path: '/mental-health', name: 'Mental Health', icon: Brain },
         { path: '/emergency', name: 'Emergency Support', icon: Shield },
+        { path: '/emergency-cards', name: 'Emergency Card Builder', icon: Shield },
         { path: '/contacts', name: 'Phone Contacts', icon: Phone },
+        { path: '/movement-tracker', name: 'Adaptive Movement Tracker', icon: Activity },
+        { path: '/sleep-sanctuary', name: 'Sleep Sanctuary Tracker', icon: Moon },
+        { path: '/accessibility-toolkit', name: 'Accessibility Toolkit', icon: Shield },
+        { path: '/pet-care-companion', name: 'Pet Care Companion', icon: Heart },
+        { path: '/mental-health-toolkit', name: 'Mental Health Toolkit', icon: Brain },
+        { path: '/food-nutrition-guide', name: 'Food Nutrition Guide', icon: Activity },
+        { path: '/health-wellness-center', name: 'Health Wellness Center', icon: Heart },
       ]
     },
     {
@@ -338,10 +389,20 @@ const App: React.FC = () => {
         { path: '/chronomuse', name: 'ChronoMuse AI', icon: Sparkles },
         { path: '/inworld-ai', name: 'Inworld AI Characters', icon: Users },
         { path: '/mcp-servers', name: 'MCP Servers', icon: Brain },
+        { path: '/ai-tools', name: 'AI Tools Directory', icon: Sparkles },
+        { path: '/ai-companions', name: 'AI Companions Hub', icon: MessageCircle },
         { path: '/avatar', name: '3D Avatar', icon: Users },
         { path: '/ai-avatar-teacher', name: 'AI Avatar Teacher', icon: Users },
         { path: '/gothic-apartment', name: 'Gothic Apartment', icon: Home },
+        { path: '/gothic-dollhouse', name: 'Gothic Dollhouse', icon: Sparkles },
+        { path: '/pet-companion', name: 'Pet Companions', icon: Heart },
+        { path: '/activity-oracle', name: 'Activity Oracle', icon: Sparkles },
+        { path: '/achievements', name: 'Achievements', icon: Sparkles },
+        { path: '/dream-journal', name: 'Dream Journal', icon: Moon },
         { path: '/sanctum', name: 'Sanctum Rooms', icon: Home },
+        { path: '/ai-character-gallery', name: 'AI Character Gallery', icon: Users },
+        { path: '/hoodoo-spiritual-guide', name: 'Hoodoo Spiritual Guide', icon: Sparkles },
+        { path: '/hoodoo-ritual-library', name: 'Hoodoo Ritual Library', icon: Sparkles },
       ]
     },
     {
@@ -357,6 +418,10 @@ const App: React.FC = () => {
         { path: '/wardrobe', name: 'Virtual Wardrobe', icon: Heart },
         { path: '/fashion', name: 'Fashion Hub', icon: Sparkles },
         { path: '/sewing', name: 'Sewing Studio', icon: Palette },
+        { path: '/sewing-projects', name: 'Sewing Project Planner', icon: Palette },
+        { path: '/coloring-studio', name: 'Mood Coloring Studio', icon: Palette },
+        { path: '/music-hub', name: 'Music Activity Hub', icon: Music },
+        { path: '/art-studio', name: 'Art Project Studio', icon: Palette },
       ]
     },
     {
@@ -370,6 +435,7 @@ const App: React.FC = () => {
         { path: '/scripts', name: 'Self-Advocacy Scripts', icon: Book },
         { path: '/handbooks', name: 'Support Handbooks', icon: Shield },
         { path: '/community', name: 'Community Organizing', icon: Users },
+        { path: '/caregiver-handbook', name: 'Caregiver Support Handbook', icon: Heart },
       ]
     },
     {
@@ -382,6 +448,9 @@ const App: React.FC = () => {
         { path: '/credits', name: 'College Credits', icon: Calendar },
         { path: '/languages', name: 'Language Learning', icon: MessageSquare },
         { path: '/skills', name: 'Skill Development', icon: Code },
+        { path: '/learning-academy', name: 'Passive Learning Academy', icon: Book },
+        { path: '/historical-figures', name: 'Historical Figures Gallery', icon: Users },
+        { path: '/reading-companion', name: 'Reading Companion', icon: Book },
       ]
     },
     {
@@ -399,6 +468,10 @@ const App: React.FC = () => {
         { path: '/income-builder', name: 'Income Builder', icon: DollarSign },
         { path: '/benefits', name: 'Disability Benefits', icon: Shield },
         { path: '/budget', name: 'Spoon-Cost Budget', icon: Activity },
+        { path: '/financial-planning', name: 'Financial Planning Hub', icon: DollarSign },
+        { path: '/passive-income-explorer', name: 'Passive Income Explorer', icon: DollarSign },
+        { path: '/passive-income-calculator', name: 'Passive Income Calculator', icon: DollarSign },
+        { path: '/income-executor', name: 'AI Income Executor', icon: DollarSign },
       ]
     },
     {
@@ -409,10 +482,14 @@ const App: React.FC = () => {
       routes: [
         { path: '/gaming', name: 'Gaming Hub', icon: Gamepad2 },
         { path: '/dnd', name: 'D&D Game', icon: Gamepad2 },
+        { path: '/adventure-generator', name: 'Adventure Generator', icon: Gamepad2 },
         { path: '/campaigns', name: 'Campaign Manager', icon: Book },
         { path: '/hulu-streaming', name: 'Hulu Streaming Hub', icon: Activity },
         { path: '/entertainment-library', name: 'Entertainment Library', icon: Music },
         { path: '/entertainment', name: 'Entertainment Hub', icon: Music },
+        { path: '/gaming-planner', name: 'Gaming Activity Planner', icon: Gamepad2 },
+        { path: '/entertainment-discovery', name: 'Entertainment Discovery', icon: Music },
+        { path: '/dnd-adventure-hooks', name: 'D&D Adventure Hooks', icon: Gamepad2 },
       ]
     },
     {
@@ -428,6 +505,11 @@ const App: React.FC = () => {
         { path: '/developer', name: 'Developer Tools', icon: Code },
         { path: '/kolhub', name: 'KOL Hub (9000+ ideas)', icon: Sparkles },
         { path: '/ideas', name: 'Ideas Vault', icon: Sparkles },
+        { path: '/ideas-hub', name: 'Ideas Discovery Hub', icon: Sparkles },
+        { path: '/hoodoo', name: 'Hoodoo Practice Hub', icon: Sparkles },
+        { path: '/household-hub', name: 'Household Management Hub', icon: Home },
+        { path: '/car-maintenance', name: 'Car Maintenance Tracker', icon: Activity },
+        { path: '/automation-ideas', name: 'Automation Ideas Lab', icon: Code },
       ]
     },
     {
@@ -439,6 +521,8 @@ const App: React.FC = () => {
         { path: '/relationships', name: 'Relationship Dashboard', icon: Heart },
         { path: '/kollective', name: 'Kollective', icon: Users },
         { path: '/ancestry', name: 'Family Heritage', icon: Users },
+        { path: '/family-tree', name: 'Family Tree Explorer', icon: Users },
+        { path: '/partner-hub', name: 'Partner Relationship Hub', icon: Heart },
       ]
     },
     {
@@ -450,6 +534,8 @@ const App: React.FC = () => {
         { path: '/settings', name: 'Settings', icon: Settings },
         { path: '/integrations-status', name: 'Integrations', icon: Activity },
         { path: '/theme-studio', name: 'Theme Studio', icon: Palette },
+        { path: '/theme-gallery', name: 'Theme Gallery', icon: Palette },
+        { path: '/gothic-theme-explorer', name: 'Gothic Theme Explorer', icon: Palette },
         { path: '/backup', name: 'Backup & Sync', icon: Shield },
         { path: '/about', name: 'About KOL OS', icon: Sparkles },
       ]
@@ -648,6 +734,7 @@ const App: React.FC = () => {
               <Route path="/mental-health" element={<MentalHealthPage />} />
               <Route path="/mental-health-dashboard" element={<MentalHealthDashboard />} />
               <Route path="/emergency" element={<CrisisSupportPage />} />
+              <Route path="/emergency-cards" element={<EmergencyCardBuilder />} />
               <Route path="/contacts" element={<PhoneContactsPage />} />
               <Route path="/fitness" element={<FitnessHubPage />} />
               <Route path="/nutrition" element={<NutritionHubPage />} />
@@ -666,6 +753,35 @@ const App: React.FC = () => {
               <Route path="/avatar" element={<AvatarDressingRoom />} />
               <Route path="/ai-avatar-teacher" element={<AIAvatarTeacherPage />} />
               <Route path="/gothic-apartment" element={<GothicApartmentPage />} />
+              <Route path="/gothic-dollhouse" element={<GothicDollhousePage />} />
+              <Route path="/ai-tools" element={<AIToolsDirectoryPage />} />
+              <Route path="/pet-companion" element={<PetCompanionSystem />} />
+              <Route path="/activity-oracle" element={<DailyActivityOracle />} />
+              <Route path="/hoodoo" element={<HoodooPracticeHub />} />
+              <Route path="/theme-gallery" element={<GothicThemeGallery />} />
+              <Route path="/achievements" element={<AchievementSystem />} />
+              <Route path="/ideas-hub" element={<IdeasDiscoveryHub />} />
+              <Route path="/ai-companions" element={<AICompanionsHub />} />
+              <Route path="/dream-journal" element={<DreamJournal />} />
+              <Route path="/historical-figures" element={<HistoricalFiguresGallery />} />
+              <Route path="/learning-academy" element={<PassiveLearningAcademy />} />
+              <Route path="/caregiver-handbook" element={<CaregiverSupportHandbook />} />
+              <Route path="/coloring-studio" element={<MoodColoringStudio />} />
+              <Route path="/movement-tracker" element={<AdaptiveMovementTracker />} />
+              <Route path="/sleep-sanctuary" element={<SleepSanctuaryTracker />} />
+              <Route path="/accessibility-toolkit" element={<AccessibilityToolkit />} />
+              <Route path="/sewing-projects" element={<SewingProjectPlanner />} />
+              <Route path="/partner-hub" element={<PartnerRelationshipHub />} />
+              <Route path="/household-hub" element={<HouseholdManagementHub />} />
+              <Route path="/music-hub" element={<MusicActivityHub />} />
+              <Route path="/reading-companion" element={<ReadingCompanion />} />
+              <Route path="/gaming-planner" element={<GamingActivityPlanner />} />
+              <Route path="/car-maintenance" element={<CarMaintenanceTracker />} />
+              <Route path="/art-studio" element={<ArtProjectStudio />} />
+              <Route path="/pet-care-companion" element={<PetCareCompanion />} />
+              <Route path="/mental-health-toolkit" element={<MentalHealthToolkit />} />
+              <Route path="/food-nutrition-guide" element={<FoodNutritionGuide />} />
+              <Route path="/health-wellness-center" element={<HealthWellnessCenter />} />
               <Route path="/sanctum" element={<ChronoMusePage />} />
 
               {/* Creative & Music */}
@@ -710,11 +826,15 @@ const App: React.FC = () => {
               <Route path="/investments" element={<InvestmentsHubPage />} />
               <Route path="/debt" element={<DebtManagementHubPage />} />
               <Route path="/savings" element={<SavingsGoalsHubPage />} />
+              <Route path="/financial-planning" element={<FinancialPlanningHub />} />
+              <Route path="/passive-income-explorer" element={<PassiveIncomeExplorer />} />
+              <Route path="/income-executor" element={<PassiveIncomeExecutor />} />
 
               {/* Gaming & Entertainment */}
               <Route path="/gaming" element={<GamingHubPage />} />
               <Route path="/boardgames" element={<BoardGamesPage />} />
               <Route path="/dnd" element={<DnDPage />} />
+              <Route path="/adventure-generator" element={<AdventureGenerator />} />
               <Route path="/campaigns" element={<DnDPage />} />
               <Route path="/hulu-streaming" element={<HuluStreamingHub />} />
               <Route path="/entertainment" element={<EntertainmentHubPage />} />
@@ -722,6 +842,7 @@ const App: React.FC = () => {
               <Route path="/streaming" element={<StreamingHubPage />} />
               <Route path="/reading" element={<ReadingHubPage />} />
               <Route path="/podcasts" element={<PodcastsHubPage />} />
+              <Route path="/entertainment-discovery" element={<EntertainmentDiscovery />} />
 
               {/* Automation & Tools */}
               <Route path="/automation" element={<AutomationPage />} />
@@ -732,6 +853,13 @@ const App: React.FC = () => {
               <Route path="/ideas" element={<IdeasVaultPage />} />
               <Route path="/pixel-watch" element={<PixelWatchPage />} />
               <Route path="/smarthome" element={<SmartHomePage />} />
+              <Route path="/automation-ideas" element={<AutomationIdeasLab />} />
+              <Route path="/dnd-adventure-hooks" element={<DnDAdventureHooks />} />
+              <Route path="/hoodoo-spiritual-guide" element={<HoodooSpiritualGuide />} />
+              <Route path="/hoodoo-ritual-library" element={<HoodooRitualLibrary />} />
+              <Route path="/ai-character-gallery" element={<AICharacterGallery />} />
+              <Route path="/gothic-theme-explorer" element={<GothicThemeExplorer />} />
+              <Route path="/passive-income-calculator" element={<PassiveIncomeCalculator />} />
 
               {/* Relationships */}
               <Route path="/relationships" element={<RelationshipDashboardPage />} />
@@ -740,6 +868,7 @@ const App: React.FC = () => {
               <Route path="/networking" element={<NetworkingHubPage />} />
               <Route path="/mentorship" element={<MentorshipHubPage />} />
               <Route path="/ancestry" element={<AncestryPage />} />
+              <Route path="/family-tree" element={<FamilyTreeExplorer />} />
 
               {/* Life Management */}
               <Route path="/goals" element={<GoalsHubPage />} />

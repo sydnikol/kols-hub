@@ -1,7 +1,7 @@
 {
   "module": "Free AI Tools",
   "version": "1.0",
-  "total_ideas": 342,
+  "total_ideas": 442,
   "source": "AIxploria.com and additional curated tools",
   "description": "Comprehensive directory of free AI tools for creativity, productivity, development, and more",
   "items": [
@@ -11,7 +11,12 @@
       "title": "Seedream 4.5",
       "description": "Create professional images with consistent 4K images, detailed typography, and faithful reproduction of details.",
       "url": "seedream.ai",
-      "tags": ["image-generation", "4k", "typography", "professional"]
+      "tags": [
+        "image-generation",
+        "4k",
+        "typography",
+        "professional"
+      ]
     },
     {
       "id": "ai_002",
@@ -19,7 +24,12 @@
       "title": "GPT Image 1.5",
       "description": "Generate and edit images directly in ChatGPT with 4x faster processing.",
       "url": "openai.com",
-      "tags": ["chatgpt", "image-editing", "fast", "openai"]
+      "tags": [
+        "chatgpt",
+        "image-editing",
+        "fast",
+        "openai"
+      ]
     },
     {
       "id": "ai_003",
@@ -27,7 +37,12 @@
       "title": "Anifun AI",
       "description": "Create characters, manga, and animated illustrations with AI.",
       "url": "anifun.ai",
-      "tags": ["manga", "anime", "characters", "illustration"]
+      "tags": [
+        "manga",
+        "anime",
+        "characters",
+        "illustration"
+      ]
     },
     {
       "id": "ai_004",
@@ -35,7 +50,12 @@
       "title": "ColorifyAI",
       "description": "AI-powered coloring page generator that creates printable coloring pages from text prompts or uploaded images.",
       "url": "colorifyai.com",
-      "tags": ["coloring", "printable", "art", "kids"]
+      "tags": [
+        "coloring",
+        "printable",
+        "art",
+        "kids"
+      ]
     },
     {
       "id": "ai_005",
@@ -43,7 +63,12 @@
       "title": "Hunyuan Image 3.0",
       "description": "Native open-source multimodal image generator with commercial-grade quality.",
       "url": "hunyuan.tencent.com",
-      "tags": ["open-source", "multimodal", "commercial", "tencent"]
+      "tags": [
+        "open-source",
+        "multimodal",
+        "commercial",
+        "tencent"
+      ]
     },
     {
       "id": "ai_006",
@@ -51,7 +76,12 @@
       "title": "GenTube",
       "description": "Ultra-fast AI image generator creating high-quality photos and illustrations.",
       "url": "gentube.ai",
-      "tags": ["fast", "photos", "illustrations", "quality"]
+      "tags": [
+        "fast",
+        "photos",
+        "illustrations",
+        "quality"
+      ]
     },
     {
       "id": "ai_007",
@@ -59,7 +89,12 @@
       "title": "Tat Ink",
       "description": "Create unique tattoo designs in seconds with AI tattoo generator.",
       "url": "tatink.ai",
-      "tags": ["tattoo", "design", "unique", "creative"]
+      "tags": [
+        "tattoo",
+        "design",
+        "unique",
+        "creative"
+      ]
     },
     {
       "id": "ai_008",
@@ -67,7 +102,12 @@
       "title": "AI Vector",
       "description": "Instantly convert your images into clean, scalable SVG vector files.",
       "url": "aivector.ai",
-      "tags": ["vector", "svg", "conversion", "scalable"]
+      "tags": [
+        "vector",
+        "svg",
+        "conversion",
+        "scalable"
+      ]
     },
     {
       "id": "ai_009",
@@ -75,7 +115,12 @@
       "title": "Photo Editor AI",
       "description": "Edit and enhance photos with background removal, retouching, and style transfer.",
       "url": "photoeditorai.io",
-      "tags": ["editing", "background-removal", "retouching", "style"]
+      "tags": [
+        "editing",
+        "background-removal",
+        "retouching",
+        "style"
+      ]
     },
     {
       "id": "ai_010",
@@ -83,7 +128,12 @@
       "title": "EnhancePhoto AI",
       "description": "Enhance your photos for free up to 16K resolution. AI removes blur and enhances details.",
       "url": "enhancephoto.ai",
-      "tags": ["enhancement", "16k", "blur-removal", "details"]
+      "tags": [
+        "enhancement",
+        "16k",
+        "blur-removal",
+        "details"
+      ]
     },
     {
       "id": "ai_011",
@@ -91,7 +141,12 @@
       "title": "Video Watermark Remover",
       "description": "Remove logos, text, or watermarks from videos with background reconstruction.",
       "url": "videowatermarkremover.ai",
-      "tags": ["watermark", "removal", "video", "logos"]
+      "tags": [
+        "watermark",
+        "removal",
+        "video",
+        "logos"
+      ]
     },
     {
       "id": "ai_012",
@@ -99,7 +154,12 @@
       "title": "AI Background Remover",
       "description": "Remove video backgrounds without green screen and replace with images, colors, or videos.",
       "url": "aibackgroundremover.ai",
-      "tags": ["background", "removal", "video", "green-screen"]
+      "tags": [
+        "background",
+        "removal",
+        "video",
+        "green-screen"
+      ]
     },
     {
       "id": "ai_013",
@@ -107,7 +167,12 @@
       "title": "VisualGPT",
       "description": "Chat with your photos, generate images, and access the best models available in a single interface.",
       "url": "visualgpt.ai",
-      "tags": ["chat", "photos", "generation", "multi-model"]
+      "tags": [
+        "chat",
+        "photos",
+        "generation",
+        "multi-model"
+      ]
     },
     {
       "id": "ai_014",
@@ -115,7 +180,12 @@
       "title": "Seedream 4.0",
       "description": "Create and edit ultra-fast 4K images with multimodal generation and precise editing.",
       "url": "seedream.ai",
-      "tags": ["4k", "fast", "multimodal", "editing"]
+      "tags": [
+        "4k",
+        "fast",
+        "multimodal",
+        "editing"
+      ]
     },
     {
       "id": "ai_015",
@@ -123,7 +193,12 @@
       "title": "Qwen Image Edit",
       "description": "Alibaba's AI model for image editing - easily edit text, apply styles, and rotate objects.",
       "url": "qwen.alibaba.com",
-      "tags": ["alibaba", "text-editing", "styles", "objects"]
+      "tags": [
+        "alibaba",
+        "text-editing",
+        "styles",
+        "objects"
+      ]
     },
     {
       "id": "ai_016",
@@ -131,7 +206,12 @@
       "title": "EzRemove AI",
       "description": "Remove backgrounds from images in seconds with optimal accuracy for transparent PNG files.",
       "url": "ezremove.ai",
-      "tags": ["background", "png", "transparent", "fast"]
+      "tags": [
+        "background",
+        "png",
+        "transparent",
+        "fast"
+      ]
     },
     {
       "id": "ai_017",
@@ -139,7 +219,12 @@
       "title": "Nano Banana Gemini",
       "description": "Edit images in ultra-realistic ways using AI with character consistency and creative merging.",
       "url": "nanobanana.ai",
-      "tags": ["realistic", "character", "consistency", "merging"]
+      "tags": [
+        "realistic",
+        "character",
+        "consistency",
+        "merging"
+      ]
     },
     {
       "id": "ai_018",
@@ -147,7 +232,12 @@
       "title": "Wan2.6",
       "description": "Generate 1080p videos at 24 frames per second with consistent voiceovers and lip-syncing.",
       "url": "wan.ai",
-      "tags": ["1080p", "voiceover", "lip-sync", "video"]
+      "tags": [
+        "1080p",
+        "voiceover",
+        "lip-sync",
+        "video"
+      ]
     },
     {
       "id": "ai_019",
@@ -155,7 +245,12 @@
       "title": "Seedance 1.5 Pro",
       "description": "Create cinematic 1080p videos with synchronized audio and sophisticated camera movements.",
       "url": "seedance.ai",
-      "tags": ["cinematic", "audio-sync", "camera", "professional"]
+      "tags": [
+        "cinematic",
+        "audio-sync",
+        "camera",
+        "professional"
+      ]
     },
     {
       "id": "ai_020",
@@ -163,7 +258,12 @@
       "title": "Kamo-1 Kinetix",
       "description": "Create videos with full cinematic control using a model that understands and manipulates the scene in 3D.",
       "url": "kinetix.ai",
-      "tags": ["cinematic", "3d", "control", "scene"]
+      "tags": [
+        "cinematic",
+        "3d",
+        "control",
+        "scene"
+      ]
     },
     {
       "id": "ai_021",
@@ -171,7 +271,12 @@
       "title": "HunyuanVideo 1.5",
       "description": "Generate smooth 480p cinematic videos at up to 60 fps from text prompts.",
       "url": "hunyuan.tencent.com",
-      "tags": ["60fps", "text-to-video", "smooth", "tencent"]
+      "tags": [
+        "60fps",
+        "text-to-video",
+        "smooth",
+        "tencent"
+      ]
     },
     {
       "id": "ai_022",
@@ -179,7 +284,12 @@
       "title": "LongCat Video",
       "description": "Generate long videos up to 4 minutes while maintaining consistency.",
       "url": "longcat.video",
-      "tags": ["long-form", "consistency", "4-minutes", "extended"]
+      "tags": [
+        "long-form",
+        "consistency",
+        "4-minutes",
+        "extended"
+      ]
     },
     {
       "id": "ai_023",
@@ -187,7 +297,12 @@
       "title": "Odyssey-2",
       "description": "Real-time AI video generator that responds to your prompts at lightning speed generating 20 FPS.",
       "url": "odyssey.ai",
-      "tags": ["real-time", "fast", "20fps", "responsive"]
+      "tags": [
+        "real-time",
+        "fast",
+        "20fps",
+        "responsive"
+      ]
     },
     {
       "id": "ai_024",
@@ -195,7 +310,12 @@
       "title": "LTX-2",
       "description": "Generate realistic video scenes at 24 FPS from text/images using open-source video modeling.",
       "url": "ltx.ai",
-      "tags": ["open-source", "24fps", "realistic", "text-to-video"]
+      "tags": [
+        "open-source",
+        "24fps",
+        "realistic",
+        "text-to-video"
+      ]
     },
     {
       "id": "ai_025",
@@ -203,7 +323,12 @@
       "title": "Wan2.5",
       "description": "Generate AI videos up to 10 seconds long in 1080p resolution, with smooth movements and synchronized audio.",
       "url": "wan.ai",
-      "tags": ["1080p", "10-seconds", "smooth", "audio"]
+      "tags": [
+        "1080p",
+        "10-seconds",
+        "smooth",
+        "audio"
+      ]
     },
     {
       "id": "ai_026",
@@ -211,7 +336,12 @@
       "title": "Waver 1.0",
       "description": "Generate realistic 1080p videos with natural movements and consistent multi-shot narration.",
       "url": "waver.ai",
-      "tags": ["1080p", "natural", "multi-shot", "narration"]
+      "tags": [
+        "1080p",
+        "natural",
+        "multi-shot",
+        "narration"
+      ]
     },
     {
       "id": "ai_027",
@@ -219,7 +349,12 @@
       "title": "AI Video Generator",
       "description": "All-in-one video generator platform including Veo3, Runway, and other models.",
       "url": "aivideogenerator.ai",
-      "tags": ["all-in-one", "veo3", "runway", "multi-model"]
+      "tags": [
+        "all-in-one",
+        "veo3",
+        "runway",
+        "multi-model"
+      ]
     },
     {
       "id": "ai_028",
@@ -227,7 +362,12 @@
       "title": "CapCut",
       "description": "A free, smart, and easy-to-use video editor for PC and mobile.",
       "url": "capcut.com",
-      "tags": ["editor", "free", "mobile", "pc"]
+      "tags": [
+        "editor",
+        "free",
+        "mobile",
+        "pc"
+      ]
     },
     {
       "id": "ai_029",
@@ -235,7 +375,12 @@
       "title": "Video Compress",
       "description": "Compress your videos quickly and for free with AI reducing file size without quality loss.",
       "url": "videocompress.ai",
-      "tags": ["compression", "quality", "free", "fast"]
+      "tags": [
+        "compression",
+        "quality",
+        "free",
+        "fast"
+      ]
     },
     {
       "id": "ai_030",
@@ -243,7 +388,12 @@
       "title": "LipSync.video",
       "description": "Free online AI lip sync tool that focuses on synchronizing audio with lip movements.",
       "url": "lipsync.video",
-      "tags": ["lip-sync", "audio", "synchronization", "free"]
+      "tags": [
+        "lip-sync",
+        "audio",
+        "synchronization",
+        "free"
+      ]
     },
     {
       "id": "ai_031",
@@ -251,7 +401,12 @@
       "title": "Wan 2.2 Animate",
       "description": "Animate characters with highly realistic movements and expressions in videos.",
       "url": "wan.ai",
-      "tags": ["animation", "characters", "expressions", "realistic"]
+      "tags": [
+        "animation",
+        "characters",
+        "expressions",
+        "realistic"
+      ]
     },
     {
       "id": "ai_032",
@@ -259,7 +414,12 @@
       "title": "Hunyuan Video-Foley",
       "description": "Add realistic sounds to AI videos with automatic synchronization of effects.",
       "url": "hunyuan.tencent.com",
-      "tags": ["sound", "foley", "sync", "effects"]
+      "tags": [
+        "sound",
+        "foley",
+        "sync",
+        "effects"
+      ]
     },
     {
       "id": "ai_033",
@@ -267,7 +427,12 @@
       "title": "Face Swap AI",
       "description": "Swap faces in high definition on your photos and videos, without adding any watermarks.",
       "url": "faceswap.ai",
-      "tags": ["face-swap", "hd", "no-watermark", "free"]
+      "tags": [
+        "face-swap",
+        "hd",
+        "no-watermark",
+        "free"
+      ]
     },
     {
       "id": "ai_034",
@@ -275,7 +440,12 @@
       "title": "Deep Swap AI",
       "description": "Create hyperrealistic video montages by replacing any face with virtually undetectable results.",
       "url": "deepswap.ai",
-      "tags": ["hyperrealistic", "undetectable", "montage", "video"]
+      "tags": [
+        "hyperrealistic",
+        "undetectable",
+        "montage",
+        "video"
+      ]
     },
     {
       "id": "ai_035",
@@ -283,7 +453,12 @@
       "title": "Vidmage",
       "description": "Swap faces in your photos, videos, and GIFs in seconds with simultaneous multi-face swapping capability.",
       "url": "vidmage.ai",
-      "tags": ["multi-face", "gifs", "photos", "videos"]
+      "tags": [
+        "multi-face",
+        "gifs",
+        "photos",
+        "videos"
+      ]
     },
     {
       "id": "ai_036",
@@ -291,7 +466,12 @@
       "title": "Higgsfield FaceSwap",
       "description": "Create strikingly realistic face swaps in your photos and videos.",
       "url": "higgsfield.ai",
-      "tags": ["realistic", "photos", "videos", "face-swap"]
+      "tags": [
+        "realistic",
+        "photos",
+        "videos",
+        "face-swap"
+      ]
     },
     {
       "id": "ai_037",
@@ -299,7 +479,12 @@
       "title": "AI Face Swap Video",
       "description": "Create ultra-realistic AI face swaps on videos or photos for free.",
       "url": "aifaceswap.video",
-      "tags": ["ultra-realistic", "free", "video", "photo"]
+      "tags": [
+        "ultra-realistic",
+        "free",
+        "video",
+        "photo"
+      ]
     },
     {
       "id": "ai_038",
@@ -307,7 +492,12 @@
       "title": "AI Halloween",
       "description": "Turn any photo into a Halloween-themed image in seconds with spooky effects.",
       "url": "aihalloween.ai",
-      "tags": ["halloween", "spooky", "effects", "fun"]
+      "tags": [
+        "halloween",
+        "spooky",
+        "effects",
+        "fun"
+      ]
     },
     {
       "id": "ai_039",
@@ -315,7 +505,12 @@
       "title": "Sharp Apple",
       "description": "Generates photorealistic 3D representations from single photos in under a second.",
       "url": "github.com/sharpapple",
-      "tags": ["3d", "photorealistic", "fast", "single-photo"]
+      "tags": [
+        "3d",
+        "photorealistic",
+        "fast",
+        "single-photo"
+      ]
     },
     {
       "id": "ai_040",
@@ -323,7 +518,12 @@
       "title": "Meta SAM 3D",
       "description": "Reconstruct objects and humans in 3D from photos with detailed scene and mesh creation.",
       "url": "meta.ai/sam3d",
-      "tags": ["meta", "reconstruction", "mesh", "scene"]
+      "tags": [
+        "meta",
+        "reconstruction",
+        "mesh",
+        "scene"
+      ]
     },
     {
       "id": "ai_041",
@@ -331,7 +531,12 @@
       "title": "Depth Anything 3",
       "description": "Estimate depth and reconstruct 3D scenes from one or more images.",
       "url": "depth-anything.ai",
-      "tags": ["depth", "estimation", "3d-scenes", "reconstruction"]
+      "tags": [
+        "depth",
+        "estimation",
+        "3d-scenes",
+        "reconstruction"
+      ]
     },
     {
       "id": "ai_042",
@@ -339,7 +544,12 @@
       "title": "Marble by World Labs",
       "description": "Create persistent 3D worlds from a prompt, image, or video.",
       "url": "worldlabs.ai/marble",
-      "tags": ["3d-worlds", "persistent", "prompt", "creation"]
+      "tags": [
+        "3d-worlds",
+        "persistent",
+        "prompt",
+        "creation"
+      ]
     },
     {
       "id": "ai_043",
@@ -347,7 +557,12 @@
       "title": "Seed3D",
       "description": "Turn a simple photo into a realistic, simulation-ready 3D model with PBR textures and geometry.",
       "url": "seed3d.ai",
-      "tags": ["pbr", "textures", "geometry", "simulation"]
+      "tags": [
+        "pbr",
+        "textures",
+        "geometry",
+        "simulation"
+      ]
     },
     {
       "id": "ai_044",
@@ -355,7 +570,12 @@
       "title": "NVIDIA Nemotron 3",
       "description": "Build specialized AI agents with a family of open-source models optimized for multi-agent systems.",
       "url": "nvidia.com/nemotron",
-      "tags": ["nvidia", "open-source", "agents", "multi-agent"]
+      "tags": [
+        "nvidia",
+        "open-source",
+        "agents",
+        "multi-agent"
+      ]
     },
     {
       "id": "ai_045",
@@ -363,7 +583,12 @@
       "title": "T5Gemma 2",
       "description": "Family of open-source encoder-decoder models with 2-9 billion parameters.",
       "url": "google.com/t5gemma",
-      "tags": ["google", "encoder-decoder", "open-source", "parameters"]
+      "tags": [
+        "google",
+        "encoder-decoder",
+        "open-source",
+        "parameters"
+      ]
     },
     {
       "id": "ai_046",
@@ -371,7 +596,12 @@
       "title": "Gemini 3 Flash",
       "description": "Professional-level intelligence with extreme speed and efficiency.",
       "url": "google.com/gemini",
-      "tags": ["google", "fast", "professional", "efficient"]
+      "tags": [
+        "google",
+        "fast",
+        "professional",
+        "efficient"
+      ]
     },
     {
       "id": "ai_047",
@@ -379,7 +609,12 @@
       "title": "DeepSeek V3.2",
       "description": "Open source LLM specializing in mathematics and reasoning with 671 billion parameters.",
       "url": "deepseek.com",
-      "tags": ["open-source", "math", "reasoning", "671b"]
+      "tags": [
+        "open-source",
+        "math",
+        "reasoning",
+        "671b"
+      ]
     },
     {
       "id": "ai_048",
@@ -387,7 +622,12 @@
       "title": "Gemini 3",
       "description": "Google's multimodal model featuring advanced reasoning, contextual understanding, and autonomous agents.",
       "url": "google.com/gemini",
-      "tags": ["google", "multimodal", "reasoning", "agents"]
+      "tags": [
+        "google",
+        "multimodal",
+        "reasoning",
+        "agents"
+      ]
     },
     {
       "id": "ai_049",
@@ -395,7 +635,12 @@
       "title": "Grok 4.1",
       "description": "Upgraded version with reduced hallucinations, superior emotional intelligence, and increased creativity.",
       "url": "x.ai/grok",
-      "tags": ["xai", "emotional", "creative", "reduced-hallucination"]
+      "tags": [
+        "xai",
+        "emotional",
+        "creative",
+        "reduced-hallucination"
+      ]
     },
     {
       "id": "ai_050",
@@ -403,7 +648,12 @@
       "title": "Ernie 5.0",
       "description": "Baidu's multimodal model capable of understanding and generating text, images, sound, and video.",
       "url": "baidu.com/ernie",
-      "tags": ["baidu", "multimodal", "text", "video"]
+      "tags": [
+        "baidu",
+        "multimodal",
+        "text",
+        "video"
+      ]
     },
     {
       "id": "ai_051",
@@ -411,7 +661,12 @@
       "title": "Kimi K2 Thinking",
       "description": "Open-source model capable of step-by-step reasoning and multi-step workflows.",
       "url": "kimi.ai",
-      "tags": ["open-source", "reasoning", "step-by-step", "workflows"]
+      "tags": [
+        "open-source",
+        "reasoning",
+        "step-by-step",
+        "workflows"
+      ]
     },
     {
       "id": "ai_052",
@@ -419,7 +674,12 @@
       "title": "MiniMax M2",
       "description": "Open-source LLM with 200 billion parameters that operates at lower costs than comparable models.",
       "url": "minimax.ai",
-      "tags": ["open-source", "200b", "low-cost", "efficient"]
+      "tags": [
+        "open-source",
+        "200b",
+        "low-cost",
+        "efficient"
+      ]
     },
     {
       "id": "ai_053",
@@ -427,7 +687,12 @@
       "title": "GLM-4.6",
       "description": "LLM expert in coding, research, writing, and translation on 200k tokens.",
       "url": "zhipuai.com",
-      "tags": ["coding", "research", "writing", "200k-context"]
+      "tags": [
+        "coding",
+        "research",
+        "writing",
+        "200k-context"
+      ]
     },
     {
       "id": "ai_054",
@@ -435,7 +700,12 @@
       "title": "DeepSeek-V3.1",
       "description": "Open source model with 685 billion parameters excelling in coding and AI reasoning.",
       "url": "deepseek.com",
-      "tags": ["open-source", "685b", "coding", "reasoning"]
+      "tags": [
+        "open-source",
+        "685b",
+        "coding",
+        "reasoning"
+      ]
     },
     {
       "id": "ai_055",
@@ -443,7 +713,12 @@
       "title": "Hermes 4",
       "description": "Uncensored open-source AI model rivaling ChatGPT on mathematical benchmarks.",
       "url": "hermes.ai",
-      "tags": ["uncensored", "open-source", "math", "benchmarks"]
+      "tags": [
+        "uncensored",
+        "open-source",
+        "math",
+        "benchmarks"
+      ]
     },
     {
       "id": "ai_056",
@@ -451,7 +726,12 @@
       "title": "Noiz Agent",
       "description": "Creates podcasts and audiobooks using cinematic emotional voice cloning that laughs, whispers, and breathes naturally.",
       "url": "noiz.ai",
-      "tags": ["podcast", "audiobook", "voice-cloning", "emotional"]
+      "tags": [
+        "podcast",
+        "audiobook",
+        "voice-cloning",
+        "emotional"
+      ]
     },
     {
       "id": "ai_057",
@@ -459,7 +739,12 @@
       "title": "Vibe Architect",
       "description": "Connect mockups to real backends without coding. Create AI agents and deploy applications from prompts.",
       "url": "vibearchitect.ai",
-      "tags": ["no-code", "backends", "deployment", "prompts"]
+      "tags": [
+        "no-code",
+        "backends",
+        "deployment",
+        "prompts"
+      ]
     },
     {
       "id": "ai_058",
@@ -467,7 +752,12 @@
       "title": "Kogents AI",
       "description": "Deploy intelligent agents working 24/7 for customer service, sales prospecting, or HR tasks.",
       "url": "kogents.ai",
-      "tags": ["24/7", "customer-service", "sales", "hr"]
+      "tags": [
+        "24/7",
+        "customer-service",
+        "sales",
+        "hr"
+      ]
     },
     {
       "id": "ai_059",
@@ -475,7 +765,12 @@
       "title": "Manus Browser Operator",
       "description": "Agent controls your browser, fills forms, and pulls data from tabs to deliver reliable results.",
       "url": "manus.ai",
-      "tags": ["browser", "automation", "forms", "data"]
+      "tags": [
+        "browser",
+        "automation",
+        "forms",
+        "data"
+      ]
     },
     {
       "id": "ai_060",
@@ -483,7 +778,12 @@
       "title": "Game-TARS",
       "description": "Train universal game agents capable of playing and reasoning in 3D worlds.",
       "url": "game-tars.ai",
-      "tags": ["gaming", "3d-worlds", "reasoning", "training"]
+      "tags": [
+        "gaming",
+        "3d-worlds",
+        "reasoning",
+        "training"
+      ]
     },
     {
       "id": "ai_061",
@@ -491,7 +791,12 @@
       "title": "Aardvark",
       "description": "Automatically detect and fix security vulnerabilities in your code with autonomous AI agent based on GPT-5.",
       "url": "aardvark.ai",
-      "tags": ["security", "vulnerabilities", "code", "gpt-5"]
+      "tags": [
+        "security",
+        "vulnerabilities",
+        "code",
+        "gpt-5"
+      ]
     },
     {
       "id": "ai_062",
@@ -499,7 +804,12 @@
       "title": "CodeMender",
       "description": "Automatically secure your code with AI that detects, analyzes, and fixes vulnerabilities in real time.",
       "url": "codemender.ai",
-      "tags": ["security", "real-time", "code", "analysis"]
+      "tags": [
+        "security",
+        "real-time",
+        "code",
+        "analysis"
+      ]
     },
     {
       "id": "ai_063",
@@ -507,7 +817,12 @@
       "title": "Tongyi DeepResearch",
       "description": "Automate web searches with a 30B parameter AI agent for legal analysis and in-depth reports.",
       "url": "tongyi.alibaba.com",
-      "tags": ["research", "legal", "reports", "30b"]
+      "tags": [
+        "research",
+        "legal",
+        "reports",
+        "30b"
+      ]
     },
     {
       "id": "ai_064",
@@ -515,7 +830,12 @@
       "title": "Huhu AI",
       "description": "AI agents for e-commerce automation, including virtual model generation and product photography.",
       "url": "huhu.ai",
-      "tags": ["e-commerce", "virtual-models", "photography", "automation"]
+      "tags": [
+        "e-commerce",
+        "virtual-models",
+        "photography",
+        "automation"
+      ]
     },
     {
       "id": "ai_065",
@@ -523,7 +843,12 @@
       "title": "Devstral2 Mistral",
       "description": "Code faster with open-source models and a CLI agent that explores, modifies, and executes multi-file changes.",
       "url": "mistral.ai/devstral",
-      "tags": ["coding", "cli", "multi-file", "open-source"]
+      "tags": [
+        "coding",
+        "cli",
+        "multi-file",
+        "open-source"
+      ]
     },
     {
       "id": "ai_066",
@@ -531,7 +856,12 @@
       "title": "Google AI Studio",
       "description": "Google's free platform for developing generative AI applications. Experiment, prototype, and deploy powerful models.",
       "url": "aistudio.google.com",
-      "tags": ["google", "free", "prototype", "deploy"]
+      "tags": [
+        "google",
+        "free",
+        "prototype",
+        "deploy"
+      ]
     },
     {
       "id": "ai_067",
@@ -539,7 +869,12 @@
       "title": "Cocoon",
       "description": "Run GPU workloads in confidential environment with Intel TDX cryptographic integrity protection.",
       "url": "cocoon.ai",
-      "tags": ["gpu", "confidential", "intel", "security"]
+      "tags": [
+        "gpu",
+        "confidential",
+        "intel",
+        "security"
+      ]
     },
     {
       "id": "ai_068",
@@ -547,7 +882,12 @@
       "title": "Genkit Google",
       "description": "Open-source framework designed to create production-ready AI applications.",
       "url": "firebase.google.com/genkit",
-      "tags": ["google", "open-source", "framework", "production"]
+      "tags": [
+        "google",
+        "open-source",
+        "framework",
+        "production"
+      ]
     },
     {
       "id": "ai_069",
@@ -555,7 +895,12 @@
       "title": "Grok Code Fast 1",
       "description": "Expert coding reasoning model designed by xAI team: fast and economical.",
       "url": "x.ai/grok",
-      "tags": ["xai", "coding", "fast", "economical"]
+      "tags": [
+        "xai",
+        "coding",
+        "fast",
+        "economical"
+      ]
     },
     {
       "id": "ai_070",
@@ -563,7 +908,12 @@
       "title": "Stackoverflow.ai",
       "description": "Fix bugs and develop faster with AI powered by Stack Overflow's knowledge base.",
       "url": "stackoverflow.ai",
-      "tags": ["stackoverflow", "bugs", "knowledge", "development"]
+      "tags": [
+        "stackoverflow",
+        "bugs",
+        "knowledge",
+        "development"
+      ]
     },
     {
       "id": "ai_071",
@@ -571,7 +921,12 @@
       "title": "Google Antigravity",
       "description": "AI development platform powered by Gemini 3 that plans, codes, tests, and debugs applications autonomously.",
       "url": "google.com/antigravity",
-      "tags": ["google", "gemini", "autonomous", "testing"]
+      "tags": [
+        "google",
+        "gemini",
+        "autonomous",
+        "testing"
+      ]
     },
     {
       "id": "ai_072",
@@ -579,7 +934,12 @@
       "title": "Cloudflare Vibe SDK",
       "description": "Open-source AI web application generator for quickly creating and hosting AI apps.",
       "url": "cloudflare.com/vibe",
-      "tags": ["cloudflare", "open-source", "hosting", "web-apps"]
+      "tags": [
+        "cloudflare",
+        "open-source",
+        "hosting",
+        "web-apps"
+      ]
     },
     {
       "id": "ai_073",
@@ -587,7 +947,12 @@
       "title": "Hunyuan GameCraft",
       "description": "Tencent's open-source AI model for creating interactive video games and real-time environment simulations.",
       "url": "hunyuan.tencent.com",
-      "tags": ["tencent", "games", "simulation", "open-source"]
+      "tags": [
+        "tencent",
+        "games",
+        "simulation",
+        "open-source"
+      ]
     },
     {
       "id": "ai_074",
@@ -595,7 +960,12 @@
       "title": "Open Lovable",
       "description": "Open-source AI tool for cloning websites and generating complete React applications in seconds.",
       "url": "github.com/open-lovable",
-      "tags": ["open-source", "react", "website-clone", "fast"]
+      "tags": [
+        "open-source",
+        "react",
+        "website-clone",
+        "fast"
+      ]
     },
     {
       "id": "ai_075",
@@ -603,7 +973,12 @@
       "title": "Landing Page AI Builder",
       "description": "Create stunning landing pages in seconds with a free AI website builder.",
       "url": "landingpageai.com",
-      "tags": ["landing-page", "website", "free", "fast"]
+      "tags": [
+        "landing-page",
+        "website",
+        "free",
+        "fast"
+      ]
     },
     {
       "id": "ai_076",
@@ -611,7 +986,12 @@
       "title": "AI Landing Page",
       "description": "Generate landing pages quickly with AI: simple, fast, and effective.",
       "url": "ailandingpage.com",
-      "tags": ["landing-page", "simple", "fast", "effective"]
+      "tags": [
+        "landing-page",
+        "simple",
+        "fast",
+        "effective"
+      ]
     },
     {
       "id": "ai_077",
@@ -619,7 +999,12 @@
       "title": "Dechecker",
       "description": "Text checker identifying AI-generated passages to enhance writing authenticity.",
       "url": "dechecker.ai",
-      "tags": ["ai-detection", "text", "authenticity", "writing"]
+      "tags": [
+        "ai-detection",
+        "text",
+        "authenticity",
+        "writing"
+      ]
     },
     {
       "id": "ai_078",
@@ -627,7 +1012,12 @@
       "title": "MyDetector",
       "description": "Comprehensive suite including AI detection, humanization, image detection, grammar correction, and plagiarism checking.",
       "url": "mydetector.ai",
-      "tags": ["ai-detection", "humanization", "plagiarism", "grammar"]
+      "tags": [
+        "ai-detection",
+        "humanization",
+        "plagiarism",
+        "grammar"
+      ]
     },
     {
       "id": "ai_079",
@@ -635,7 +1025,12 @@
       "title": "Clever AI Humanizer",
       "description": "Pass under the radar of AI detectors. Transforms robotic text into more human, fluid, and natural content.",
       "url": "cleverhumanizer.ai",
-      "tags": ["humanizer", "bypass", "natural", "content"]
+      "tags": [
+        "humanizer",
+        "bypass",
+        "natural",
+        "content"
+      ]
     },
     {
       "id": "ai_080",
@@ -643,7 +1038,12 @@
       "title": "Disco Google",
       "description": "Transform open browser tabs into personalized AI-powered web applications.",
       "url": "google.com/disco",
-      "tags": ["google", "browser", "tabs", "personalized"]
+      "tags": [
+        "google",
+        "browser",
+        "tabs",
+        "personalized"
+      ]
     },
     {
       "id": "ai_081",
@@ -651,7 +1051,12 @@
       "title": "AI Prompt Optimizer",
       "description": "Get professional prompts using a tool that converts your ideas into clear, structured instructions.",
       "url": "promptoptimizer.ai",
-      "tags": ["prompts", "optimization", "structured", "professional"]
+      "tags": [
+        "prompts",
+        "optimization",
+        "structured",
+        "professional"
+      ]
     },
     {
       "id": "ai_082",
@@ -659,7 +1064,12 @@
       "title": "Liminary",
       "description": "Instantly find key information in your notes and documents to maintain focus and recall.",
       "url": "liminary.ai",
-      "tags": ["notes", "documents", "search", "focus"]
+      "tags": [
+        "notes",
+        "documents",
+        "search",
+        "focus"
+      ]
     },
     {
       "id": "ai_083",
@@ -667,7 +1077,12 @@
       "title": "myNeutron AI Memory",
       "description": "Keep your notes, emails, and web pages in one place with semantic search and smart summaries.",
       "url": "myneutron.ai",
-      "tags": ["notes", "emails", "semantic-search", "summaries"]
+      "tags": [
+        "notes",
+        "emails",
+        "semantic-search",
+        "summaries"
+      ]
     },
     {
       "id": "ai_084",
@@ -675,7 +1090,12 @@
       "title": "AI Calendar ClickUp",
       "description": "Optimize time management with AI calendar compatible with Google Calendar and Outlook.",
       "url": "clickup.com/calendar",
-      "tags": ["calendar", "time-management", "google", "outlook"]
+      "tags": [
+        "calendar",
+        "time-management",
+        "google",
+        "outlook"
+      ]
     },
     {
       "id": "ai_085",
@@ -683,7 +1103,12 @@
       "title": "Mixboard Google Labs",
       "description": "AI tool from Google Labs to visualize and refine your ideas through interactive inspiration boards.",
       "url": "labs.google.com/mixboard",
-      "tags": ["google", "inspiration", "visualization", "ideas"]
+      "tags": [
+        "google",
+        "inspiration",
+        "visualization",
+        "ideas"
+      ]
     },
     {
       "id": "ai_086",
@@ -691,7 +1116,12 @@
       "title": "Magic Cue",
       "description": "Google's AI anticipating smartphone needs and providing instant relevant information.",
       "url": "google.com/magiccue",
-      "tags": ["google", "anticipation", "smartphone", "instant"]
+      "tags": [
+        "google",
+        "anticipation",
+        "smartphone",
+        "instant"
+      ]
     },
     {
       "id": "ai_087",
@@ -699,7 +1129,12 @@
       "title": "Google Skills",
       "description": "Access over 3,000 courses, AI certifications from Google Cloud, DeepMind, and Grow with Google on a single platform.",
       "url": "grow.google/skills",
-      "tags": ["courses", "certifications", "google", "learning"]
+      "tags": [
+        "courses",
+        "certifications",
+        "google",
+        "learning"
+      ]
     },
     {
       "id": "ai_088",
@@ -707,7 +1142,12 @@
       "title": "DeepSeek Math V2",
       "description": "Model with 685 billion parameters effective for formal demonstrations and rigorous derivations.",
       "url": "deepseek.com",
-      "tags": ["math", "formal", "derivations", "685b"]
+      "tags": [
+        "math",
+        "formal",
+        "derivations",
+        "685b"
+      ]
     },
     {
       "id": "ai_089",
@@ -715,7 +1155,12 @@
       "title": "Career Aptitude Test",
       "description": "Structured test assessing skills and preferences to identify suitable tech careers with action plans.",
       "url": "careeraptitude.ai",
-      "tags": ["career", "aptitude", "tech", "assessment"]
+      "tags": [
+        "career",
+        "aptitude",
+        "tech",
+        "assessment"
+      ]
     },
     {
       "id": "ai_090",
@@ -723,7 +1168,12 @@
       "title": "AI Quests by Google",
       "description": "Take part in Google's interactive quests and discover how AI can solve real-world problems.",
       "url": "google.com/aiquests",
-      "tags": ["google", "interactive", "learning", "problems"]
+      "tags": [
+        "google",
+        "interactive",
+        "learning",
+        "problems"
+      ]
     },
     {
       "id": "ai_091",
@@ -731,7 +1181,12 @@
       "title": "Grammar Checker",
       "description": "Instantly correct grammar, punctuation, and spelling mistakes using advanced AI.",
       "url": "grammarchecker.ai",
-      "tags": ["grammar", "punctuation", "spelling", "correction"]
+      "tags": [
+        "grammar",
+        "punctuation",
+        "spelling",
+        "correction"
+      ]
     },
     {
       "id": "ai_092",
@@ -739,7 +1194,12 @@
       "title": "Grokipedia",
       "description": "Explore a 100% AI encyclopedia, an alternative to Wikipedia with over 880,000 AI-generated topics.",
       "url": "grokipedia.ai",
-      "tags": ["encyclopedia", "wikipedia", "ai-generated", "knowledge"]
+      "tags": [
+        "encyclopedia",
+        "wikipedia",
+        "ai-generated",
+        "knowledge"
+      ]
     },
     {
       "id": "ai_093",
@@ -747,7 +1207,12 @@
       "title": "Guided Learning Gemini",
       "description": "AI tutor helping explore topics in depth with personalized learning approaches.",
       "url": "google.com/gemini/learning",
-      "tags": ["tutor", "personalized", "learning", "gemini"]
+      "tags": [
+        "tutor",
+        "personalized",
+        "learning",
+        "gemini"
+      ]
     },
     {
       "id": "ai_094",
@@ -755,7 +1220,12 @@
       "title": "Interview Q&A AI",
       "description": "Generates customized simulations and helps you structure powerful responses for interview preparation.",
       "url": "interviewqa.ai",
-      "tags": ["interview", "preparation", "simulation", "responses"]
+      "tags": [
+        "interview",
+        "preparation",
+        "simulation",
+        "responses"
+      ]
     },
     {
       "id": "ai_095",
@@ -763,7 +1233,12 @@
       "title": "ATS Resume Checker",
       "description": "Analyze how compatible your resume is with recruiters' ATS systems and get optimization recommendations.",
       "url": "atsresumechecker.ai",
-      "tags": ["resume", "ats", "optimization", "recruiters"]
+      "tags": [
+        "resume",
+        "ats",
+        "optimization",
+        "recruiters"
+      ]
     },
     {
       "id": "ai_096",
@@ -771,7 +1246,12 @@
       "title": "Appark",
       "description": "Quickly decipher the mobile app market with AI. Analyze trends, spy on your competitors.",
       "url": "appark.ai",
-      "tags": ["mobile-apps", "market", "trends", "competitors"]
+      "tags": [
+        "mobile-apps",
+        "market",
+        "trends",
+        "competitors"
+      ]
     },
     {
       "id": "ai_097",
@@ -779,7 +1259,12 @@
       "title": "TaxTools AI",
       "description": "Suite of smart tools that decode the tax code, automate calculations, and optimize returns.",
       "url": "taxtools.ai",
-      "tags": ["tax", "calculations", "automation", "optimization"]
+      "tags": [
+        "tax",
+        "calculations",
+        "automation",
+        "optimization"
+      ]
     },
     {
       "id": "ai_098",
@@ -787,7 +1272,12 @@
       "title": "Shopify SimGym",
       "description": "Simulate the buyer experience on your Shopify store with AI profiles that browse your pages like real customers.",
       "url": "shopify.com/simgym",
-      "tags": ["shopify", "simulation", "buyer", "testing"]
+      "tags": [
+        "shopify",
+        "simulation",
+        "buyer",
+        "testing"
+      ]
     },
     {
       "id": "ai_099",
@@ -795,7 +1285,12 @@
       "title": "Perplexity Patents",
       "description": "Search patents using natural language to explore abstracts and prior art.",
       "url": "perplexity.ai/patents",
-      "tags": ["patents", "search", "natural-language", "prior-art"]
+      "tags": [
+        "patents",
+        "search",
+        "natural-language",
+        "prior-art"
+      ]
     },
     {
       "id": "ai_100",
@@ -803,7 +1298,12 @@
       "title": "Tax Refund Calculator",
       "description": "Platform that guides you through the necessary steps and helps you identify applicable credits and deductions.",
       "url": "taxrefundcalculator.ai",
-      "tags": ["tax", "refund", "credits", "deductions"]
+      "tags": [
+        "tax",
+        "refund",
+        "credits",
+        "deductions"
+      ]
     },
     {
       "id": "ai_101",
@@ -811,7 +1311,12 @@
       "title": "Tax Brackets",
       "description": "Instantly calculate your taxes in over 50 countries. Compare income, tax brackets, and effective rates.",
       "url": "taxbrackets.ai",
-      "tags": ["tax", "global", "calculation", "comparison"]
+      "tags": [
+        "tax",
+        "global",
+        "calculation",
+        "comparison"
+      ]
     },
     {
       "id": "ai_102",
@@ -819,7 +1324,12 @@
       "title": "Salary Calculator",
       "description": "Get a salary assessment that analyzes your career path, specific skills, and current market dynamics.",
       "url": "salarycalculator.ai",
-      "tags": ["salary", "career", "skills", "market"]
+      "tags": [
+        "salary",
+        "career",
+        "skills",
+        "market"
+      ]
     },
     {
       "id": "ai_103",
@@ -827,7 +1337,12 @@
       "title": "PayCalculator",
       "description": "Instantly calculate your net pay and see exactly where every dollar goes with complete transparency.",
       "url": "paycalculator.ai",
-      "tags": ["pay", "net", "transparency", "breakdown"]
+      "tags": [
+        "pay",
+        "net",
+        "transparency",
+        "breakdown"
+      ]
     },
     {
       "id": "ai_104",
@@ -835,7 +1350,12 @@
       "title": "TaxTip.ai",
       "description": "International platform for personalized tax advice powered by AI with guides and regulations.",
       "url": "taxtip.ai",
-      "tags": ["tax", "international", "advice", "regulations"]
+      "tags": [
+        "tax",
+        "international",
+        "advice",
+        "regulations"
+      ]
     },
     {
       "id": "ai_105",
@@ -843,7 +1363,12 @@
       "title": "Pomelli Google",
       "description": "Create your marketing campaigns in one click by analyzing websites and generating personalized social media content.",
       "url": "google.com/pomelli",
-      "tags": ["marketing", "campaigns", "social-media", "google"]
+      "tags": [
+        "marketing",
+        "campaigns",
+        "social-media",
+        "google"
+      ]
     },
     {
       "id": "ai_106",
@@ -851,7 +1376,12 @@
       "title": "TV ads by Vibe",
       "description": "Create professional TV ads in 2 minutes: paste your URL, and AI automatically generates scripts, visuals, and voiceovers.",
       "url": "vibe.co/tvads",
-      "tags": ["tv-ads", "scripts", "visuals", "voiceover"]
+      "tags": [
+        "tv-ads",
+        "scripts",
+        "visuals",
+        "voiceover"
+      ]
     },
     {
       "id": "ai_107",
@@ -859,7 +1389,12 @@
       "title": "VDraw",
       "description": "AI tool to generate professional carousels and images for your social media.",
       "url": "vdraw.ai",
-      "tags": ["carousels", "images", "social-media", "professional"]
+      "tags": [
+        "carousels",
+        "images",
+        "social-media",
+        "professional"
+      ]
     },
     {
       "id": "ai_108",
@@ -867,7 +1402,12 @@
       "title": "Free WhatsApp Bulk Sender",
       "description": "Send personalized WhatsApp campaigns without saving contacts, import CSV lists, schedule with anti-blocking intervals.",
       "url": "whatsappbulksender.ai",
-      "tags": ["whatsapp", "bulk", "campaigns", "scheduling"]
+      "tags": [
+        "whatsapp",
+        "bulk",
+        "campaigns",
+        "scheduling"
+      ]
     },
     {
       "id": "ai_109",
@@ -875,7 +1415,12 @@
       "title": "Canva Creative OS",
       "description": "Ultimate suite for creation and marketing with video editor, emails, and design.",
       "url": "canva.com",
-      "tags": ["canva", "design", "video", "emails"]
+      "tags": [
+        "canva",
+        "design",
+        "video",
+        "emails"
+      ]
     },
     {
       "id": "ai_110",
@@ -883,7 +1428,12 @@
       "title": "PDF Translator",
       "description": "Get your PDF files translated online for free in over 100 languages.",
       "url": "pdftranslator.ai",
-      "tags": ["pdf", "translation", "100-languages", "free"]
+      "tags": [
+        "pdf",
+        "translation",
+        "100-languages",
+        "free"
+      ]
     },
     {
       "id": "ai_111",
@@ -891,7 +1441,12 @@
       "title": "AI Dubbing",
       "description": "Translate and dub your videos into any language with voice cloning and lip-sync.",
       "url": "aidubbing.ai",
-      "tags": ["dubbing", "translation", "voice-cloning", "lip-sync"]
+      "tags": [
+        "dubbing",
+        "translation",
+        "voice-cloning",
+        "lip-sync"
+      ]
     },
     {
       "id": "ai_112",
@@ -899,7 +1454,12 @@
       "title": "Image Translator",
       "description": "Instantly identify and translate text from any image, screenshot, or document.",
       "url": "imagetranslator.ai",
-      "tags": ["image", "ocr", "translation", "documents"]
+      "tags": [
+        "image",
+        "ocr",
+        "translation",
+        "documents"
+      ]
     },
     {
       "id": "ai_113",
@@ -907,7 +1467,12 @@
       "title": "Canary-1b-v2",
       "description": "Open-source AI from Nvidia for speech recognition and translation in 25 European languages.",
       "url": "nvidia.com/canary",
-      "tags": ["nvidia", "speech", "european", "open-source"]
+      "tags": [
+        "nvidia",
+        "speech",
+        "european",
+        "open-source"
+      ]
     },
     {
       "id": "ai_114",
@@ -915,7 +1480,12 @@
       "title": "ElevenLabs Scribe V2",
       "description": "Get live transcripts with ultra-low latency of 150 ms, support for over 90 languages.",
       "url": "elevenlabs.io/scribe",
-      "tags": ["transcription", "live", "90-languages", "fast"]
+      "tags": [
+        "transcription",
+        "live",
+        "90-languages",
+        "fast"
+      ]
     },
     {
       "id": "ai_115",
@@ -923,7 +1493,12 @@
       "title": "VibeVoice 1.5B Microsoft",
       "description": "Open-source TTS model generating expressive, long audio conversations with multiple speakers.",
       "url": "microsoft.com/vibevoice",
-      "tags": ["microsoft", "tts", "expressive", "multi-speaker"]
+      "tags": [
+        "microsoft",
+        "tts",
+        "expressive",
+        "multi-speaker"
+      ]
     },
     {
       "id": "ai_116",
@@ -931,7 +1506,12 @@
       "title": "KittenTTS Web",
       "description": "Ultra-lightweight AI model under 25 MB for text-to-speech generation directly in browsers.",
       "url": "kittentts.ai",
-      "tags": ["lightweight", "browser", "tts", "25mb"]
+      "tags": [
+        "lightweight",
+        "browser",
+        "tts",
+        "25mb"
+      ]
     },
     {
       "id": "ai_117",
@@ -939,7 +1519,12 @@
       "title": "Space DJ (Magenta Google)",
       "description": "Pilot a spaceship through the musical universe and generate AI music.",
       "url": "magenta.tensorflow.org/spacedj",
-      "tags": ["google", "magenta", "music-generation", "interactive"]
+      "tags": [
+        "google",
+        "magenta",
+        "music-generation",
+        "interactive"
+      ]
     },
     {
       "id": "ai_118",
@@ -947,7 +1532,12 @@
       "title": "Stable Audio 2.5",
       "description": "Generate high-quality music and sounds up to 3 minutes long in less than 2 seconds.",
       "url": "stability.ai/stable-audio",
-      "tags": ["music", "sounds", "3-minutes", "fast"]
+      "tags": [
+        "music",
+        "sounds",
+        "3-minutes",
+        "fast"
+      ]
     },
     {
       "id": "ai_119",
@@ -955,7 +1545,14 @@
       "title": "BandLab",
       "description": "Free online music creation platform with AI-powered tools for mixing, mastering, and collaboration. Includes virtual instruments, samples, and a social community for musicians.",
       "url": "bandlab.com",
-      "tags": ["music-creation", "daw", "collaboration", "free", "mixing", "mastering"]
+      "tags": [
+        "music-creation",
+        "daw",
+        "collaboration",
+        "free",
+        "mixing",
+        "mastering"
+      ]
     },
     {
       "id": "ai_120",
@@ -963,7 +1560,12 @@
       "title": "Live Avatar Alibaba",
       "description": "Create animated videos featuring talking characters based on your voice. Generation is done in real time.",
       "url": "alibaba.com/liveavatar",
-      "tags": ["avatars", "talking", "real-time", "alibaba"]
+      "tags": [
+        "avatars",
+        "talking",
+        "real-time",
+        "alibaba"
+      ]
     },
     {
       "id": "ai_121",
@@ -971,7 +1573,12 @@
       "title": "StableAvatar",
       "description": "Generate realistic talking avatar videos from audio files with high-fidelity lip synchronization.",
       "url": "stableavatar.ai",
-      "tags": ["avatar", "talking", "lip-sync", "realistic"]
+      "tags": [
+        "avatar",
+        "talking",
+        "lip-sync",
+        "realistic"
+      ]
     },
     {
       "id": "ai_122",
@@ -979,7 +1586,12 @@
       "title": "Infinite Adventure",
       "description": "Create and experience a limitless, AI-driven text adventure with solo or cooperative multiplayer gameplay.",
       "url": "infiniteadventure.ai",
-      "tags": ["text-adventure", "rpg", "multiplayer", "ai-driven"]
+      "tags": [
+        "text-adventure",
+        "rpg",
+        "multiplayer",
+        "ai-driven"
+      ]
     },
     {
       "id": "ai_123",
@@ -987,7 +1599,12 @@
       "title": "RTFM",
       "description": "Create consistent 3D worlds at 60 frames per second on a single H100 GPU with realistic reflections and shadows.",
       "url": "rtfm.ai",
-      "tags": ["3d-worlds", "60fps", "gpu", "realistic"]
+      "tags": [
+        "3d-worlds",
+        "60fps",
+        "gpu",
+        "realistic"
+      ]
     },
     {
       "id": "ai_124",
@@ -995,7 +1612,12 @@
       "title": "NerdyTips",
       "description": "Get more reliable Football predictions thanks to AI capable of analyzing matches.",
       "url": "nerdytips.ai",
-      "tags": ["football", "predictions", "sports", "analysis"]
+      "tags": [
+        "football",
+        "predictions",
+        "sports",
+        "analysis"
+      ]
     },
     {
       "id": "ai_125",
@@ -1003,7 +1625,12 @@
       "title": "MoviePong",
       "description": "Challenge friends in movie trivia by swapping actors and films.",
       "url": "moviepong.ai",
-      "tags": ["trivia", "movies", "social", "fun"]
+      "tags": [
+        "trivia",
+        "movies",
+        "social",
+        "fun"
+      ]
     },
     {
       "id": "ai_126",
@@ -1011,7 +1638,12 @@
       "title": "SIMA 2",
       "description": "AI agent that learns, reasons, and plays live in virtual 3D worlds.",
       "url": "deepmind.google/sima",
-      "tags": ["deepmind", "3d-worlds", "reasoning", "gaming"]
+      "tags": [
+        "deepmind",
+        "3d-worlds",
+        "reasoning",
+        "gaming"
+      ]
     },
     {
       "id": "ai_127",
@@ -1019,7 +1651,12 @@
       "title": "Dreamer 4",
       "description": "Generate realistic videos or simulations of environments and agents using deep reinforcement learning.",
       "url": "dreamer.ai",
-      "tags": ["reinforcement-learning", "simulation", "environments", "agents"]
+      "tags": [
+        "reinforcement-learning",
+        "simulation",
+        "environments",
+        "agents"
+      ]
     },
     {
       "id": "ai_128",
@@ -1027,7 +1664,12 @@
       "title": "Decart XR",
       "description": "Experience realistic AI-generated VR/Web worlds in real time on Meta Quest with instant environmental modifications.",
       "url": "decart.ai/xr",
-      "tags": ["vr", "meta-quest", "real-time", "immersive"]
+      "tags": [
+        "vr",
+        "meta-quest",
+        "real-time",
+        "immersive"
+      ]
     },
     {
       "id": "ai_129",
@@ -1035,7 +1677,12 @@
       "title": "Mirage 2",
       "description": "AI game engine creating virtual worlds and real-time gaming experiences without coding.",
       "url": "mirage.ai",
-      "tags": ["game-engine", "no-code", "virtual-worlds", "real-time"]
+      "tags": [
+        "game-engine",
+        "no-code",
+        "virtual-worlds",
+        "real-time"
+      ]
     },
     {
       "id": "ai_130",
@@ -1043,7 +1690,12 @@
       "title": "Yan AI",
       "description": "Interactive, real-time video simulations at 1080p/60 fps with multimodal generation capabilities.",
       "url": "yan.ai",
-      "tags": ["video", "1080p", "60fps", "interactive"]
+      "tags": [
+        "video",
+        "1080p",
+        "60fps",
+        "interactive"
+      ]
     },
     {
       "id": "ai_131",
@@ -1051,7 +1703,12 @@
       "title": "Matrix-Game 2.0",
       "description": "Open-source model generating interactive worlds responding to keyboard and mouse actions.",
       "url": "matrix-game.ai",
-      "tags": ["open-source", "interactive", "keyboard", "mouse"]
+      "tags": [
+        "open-source",
+        "interactive",
+        "keyboard",
+        "mouse"
+      ]
     },
     {
       "id": "ai_132",
@@ -1059,7 +1716,12 @@
       "title": "ChatGPT Atlas",
       "description": "The agentic AI browser from OpenAI. It integrates ChatGPT to search, analyze, and act on your pages.",
       "url": "openai.com/atlas",
-      "tags": ["openai", "browser", "search", "agentic"]
+      "tags": [
+        "openai",
+        "browser",
+        "search",
+        "agentic"
+      ]
     },
     {
       "id": "ai_133",
@@ -1067,7 +1729,12 @@
       "title": "TIME AI",
       "description": "Chat with over a century of journalism and explore article archives.",
       "url": "time.com/ai",
-      "tags": ["journalism", "archives", "history", "chat"]
+      "tags": [
+        "journalism",
+        "archives",
+        "history",
+        "chat"
+      ]
     },
     {
       "id": "ai_134",
@@ -1075,7 +1742,12 @@
       "title": "Ask Brave",
       "description": "Search for private information online with privacy-respecting AI. Enjoy detailed answers without tracking or manipulation.",
       "url": "search.brave.com",
-      "tags": ["privacy", "brave", "no-tracking", "detailed"]
+      "tags": [
+        "privacy",
+        "brave",
+        "no-tracking",
+        "detailed"
+      ]
     },
     {
       "id": "ai_135",
@@ -1083,7 +1755,12 @@
       "title": "ChatGPT Shopping",
       "description": "Turn ChatGPT into a shopping assistant that compares products, prices, and reviews.",
       "url": "openai.com/shopping",
-      "tags": ["shopping", "comparison", "prices", "reviews"]
+      "tags": [
+        "shopping",
+        "comparison",
+        "prices",
+        "reviews"
+      ]
     },
     {
       "id": "ai_136",
@@ -1091,7 +1768,12 @@
       "title": "TripTap",
       "description": "Plan your trips with ease thanks to AI that finds, plans, and books flights, hotels, activities, and personalized itineraries.",
       "url": "triptap.ai",
-      "tags": ["travel", "booking", "itinerary", "planning"]
+      "tags": [
+        "travel",
+        "booking",
+        "itinerary",
+        "planning"
+      ]
     },
     {
       "id": "ai_137",
@@ -1099,7 +1781,12 @@
       "title": "Google Flight Deals",
       "description": "AI tool helping travelers find optimal flight deals based on travel preferences.",
       "url": "google.com/flights",
-      "tags": ["flights", "deals", "travel", "google"]
+      "tags": [
+        "flights",
+        "deals",
+        "travel",
+        "google"
+      ]
     },
     {
       "id": "ai_138",
@@ -1107,7 +1794,12 @@
       "title": "EasyComment",
       "description": "All-in-one social media toolkit for Instagram, Facebook, TikTok, Twitter & YouTube.",
       "url": "easycomment.ai",
-      "tags": ["social-media", "instagram", "tiktok", "youtube"]
+      "tags": [
+        "social-media",
+        "instagram",
+        "tiktok",
+        "youtube"
+      ]
     },
     {
       "id": "ai_139",
@@ -1115,7 +1807,12 @@
       "title": "Sentence Rewriter",
       "description": "Automatically rewrite sentences for clarity with formal/informal modes.",
       "url": "sentencerewriter.ai",
-      "tags": ["rewriting", "clarity", "formal", "informal"]
+      "tags": [
+        "rewriting",
+        "clarity",
+        "formal",
+        "informal"
+      ]
     },
     {
       "id": "ai_140",
@@ -1123,7 +1820,12 @@
       "title": "refont.ai",
       "description": "Create fonts, signatures, and calligraphy very quickly with AI.",
       "url": "refont.ai",
-      "tags": ["fonts", "signatures", "calligraphy", "typography"]
+      "tags": [
+        "fonts",
+        "signatures",
+        "calligraphy",
+        "typography"
+      ]
     },
     {
       "id": "ai_141",
@@ -1131,7 +1833,12 @@
       "title": "TripleTen Burnout Test",
       "description": "Interactive questionnaire assessing stress levels and detecting early signs of burnout.",
       "url": "tripleten.com/burnout",
-      "tags": ["burnout", "stress", "assessment", "health"]
+      "tags": [
+        "burnout",
+        "stress",
+        "assessment",
+        "health"
+      ]
     },
     {
       "id": "ai_142",
@@ -1139,7 +1846,12 @@
       "title": "WeatherNext 2",
       "description": "Forecast the weather 8 times faster with this Google DeepMind AI model.",
       "url": "deepmind.google/weathernext",
-      "tags": ["weather", "forecast", "deepmind", "fast"]
+      "tags": [
+        "weather",
+        "forecast",
+        "deepmind",
+        "fast"
+      ]
     },
     {
       "id": "ai_143",
@@ -1147,7 +1859,12 @@
       "title": "DeepSomatic",
       "description": "Open-source AI from Google that accurately identifies genetic variants in tumors for cancer detection.",
       "url": "google.com/deepsomatic",
-      "tags": ["cancer", "genetics", "detection", "google"]
+      "tags": [
+        "cancer",
+        "genetics",
+        "detection",
+        "google"
+      ]
     },
     {
       "id": "ai_144",
@@ -1155,7 +1872,12 @@
       "title": "Opera Neon",
       "description": "AI browser to automate your actions on the web: voice commands, advanced search, autonomous tab management.",
       "url": "opera.com/neon",
-      "tags": ["browser", "automation", "voice", "search"]
+      "tags": [
+        "browser",
+        "automation",
+        "voice",
+        "search"
+      ]
     },
     {
       "id": "ai_145",
@@ -1163,7 +1885,12 @@
       "title": "Perch 2.0",
       "description": "Google DeepMind's model helps bioacoustics specialists detect endangered species.",
       "url": "deepmind.google/perch",
-      "tags": ["bioacoustics", "species", "conservation", "deepmind"]
+      "tags": [
+        "bioacoustics",
+        "species",
+        "conservation",
+        "deepmind"
+      ]
     },
     {
       "id": "ai_146",
@@ -1171,7 +1898,12 @@
       "title": "Shopify Logo Free",
       "description": "Quickly create a free logo: thousands of professional templates to customize.",
       "url": "shopify.com/logo-maker",
-      "tags": ["logo", "templates", "free", "shopify"]
+      "tags": [
+        "logo",
+        "templates",
+        "free",
+        "shopify"
+      ]
     },
     {
       "id": "ai_147",
@@ -1179,7 +1911,12 @@
       "title": "Amazon Nova",
       "description": "Range of multimodal AI models that generate text, images and video with high performance.",
       "url": "aws.amazon.com/nova",
-      "tags": ["amazon", "multimodal", "text", "video"]
+      "tags": [
+        "amazon",
+        "multimodal",
+        "text",
+        "video"
+      ]
     },
     {
       "id": "ai_148",
@@ -1187,7 +1924,12 @@
       "title": "Gemini in Chrome",
       "description": "Google's Gemini assistant built right into Chrome. Analyze web pages, compare tabs, search history.",
       "url": "google.com/chrome/gemini",
-      "tags": ["google", "gemini", "chrome", "browser"]
+      "tags": [
+        "google",
+        "gemini",
+        "chrome",
+        "browser"
+      ]
     },
     {
       "id": "ai_149",
@@ -1195,7 +1937,12 @@
       "title": "Google AI Edge Gallery",
       "description": "Mobile app to run generative AI models locally on Android with privacy guaranteed.",
       "url": "developers.google.com/edge",
-      "tags": ["android", "local", "privacy", "mobile"]
+      "tags": [
+        "android",
+        "local",
+        "privacy",
+        "mobile"
+      ]
     },
     {
       "id": "ai_150",
@@ -1203,7 +1950,12 @@
       "title": "Claude for Chrome",
       "description": "Automate your web tasks directly in Chrome with AI that reads, clicks, and navigates websites.",
       "url": "anthropic.com/claude-chrome",
-      "tags": ["anthropic", "chrome", "automation", "browser"]
+      "tags": [
+        "anthropic",
+        "chrome",
+        "automation",
+        "browser"
+      ]
     },
     {
       "id": "ai_151",
@@ -1211,7 +1963,12 @@
       "title": "Face Shape Detector",
       "description": "Analyzes facial structure and provides styling recommendations for hairstyles and glasses.",
       "url": "faceshapedetector.ai",
-      "tags": ["face-shape", "hairstyles", "glasses", "styling"]
+      "tags": [
+        "face-shape",
+        "hairstyles",
+        "glasses",
+        "styling"
+      ]
     },
     {
       "id": "ai_152",
@@ -1219,7 +1976,12 @@
       "title": "HeritCoin",
       "description": "Scan any coin or banknote, and this AI will reveal its history, rarity, and market value.",
       "url": "heritcoin.ai",
-      "tags": ["coins", "banknotes", "history", "value"]
+      "tags": [
+        "coins",
+        "banknotes",
+        "history",
+        "value"
+      ]
     },
     {
       "id": "ai_153",
@@ -1227,7 +1989,12 @@
       "title": "Infinite Adventure",
       "description": "Create and experience a limitless, AI-driven text adventure with solo or cooperative multiplayer gameplay.",
       "url": "infiniteadventure.ai",
-      "tags": ["storytelling", "adventure", "rpg", "creative"]
+      "tags": [
+        "storytelling",
+        "adventure",
+        "rpg",
+        "creative"
+      ]
     },
     {
       "id": "ai_154",
@@ -1235,7 +2002,12 @@
       "title": "Video Understanding",
       "description": "Understand and edit videos with object detection and comprehensive editing instructions.",
       "url": "vidi2.ai",
-      "tags": ["video", "object-detection", "editing", "understanding"]
+      "tags": [
+        "video",
+        "object-detection",
+        "editing",
+        "understanding"
+      ]
     },
     {
       "id": "ai_155",
@@ -1243,7 +2015,12 @@
       "title": "FamilyPro",
       "description": "Free image generator and editor powered by Runway Gen-4, without watermarks.",
       "url": "familypro.ai",
-      "tags": ["runway", "no-watermark", "free", "gen-4"]
+      "tags": [
+        "runway",
+        "no-watermark",
+        "free",
+        "gen-4"
+      ]
     },
     {
       "id": "ai_156",
@@ -1251,7 +2028,12 @@
       "title": "FastVLM by Apple",
       "description": "Analyze images and text 85 times faster on iPhone/iPad with this ultra-compact AI.",
       "url": "apple.com/fastvlm",
-      "tags": ["apple", "iphone", "fast", "compact"]
+      "tags": [
+        "apple",
+        "iphone",
+        "fast",
+        "compact"
+      ]
     },
     {
       "id": "ai_157",
@@ -1259,7 +2041,12 @@
       "title": "Suno AI",
       "description": "Create complete songs with vocals, lyrics, and instrumentals from text prompts. Free tier available.",
       "url": "suno.ai",
-      "tags": ["music", "vocals", "lyrics", "text-to-music"]
+      "tags": [
+        "music",
+        "vocals",
+        "lyrics",
+        "text-to-music"
+      ]
     },
     {
       "id": "ai_158",
@@ -1267,7 +2054,12 @@
       "title": "Udio",
       "description": "AI music generation platform that creates high-quality songs across any genre from text descriptions.",
       "url": "udio.com",
-      "tags": ["music", "generation", "genres", "high-quality"]
+      "tags": [
+        "music",
+        "generation",
+        "genres",
+        "high-quality"
+      ]
     },
     {
       "id": "ai_159",
@@ -1275,7 +2067,12 @@
       "title": "Leonardo AI",
       "description": "Create production-quality visual assets with unprecedented quality, speed, and style-consistency.",
       "url": "leonardo.ai",
-      "tags": ["art", "images", "consistent", "professional"]
+      "tags": [
+        "art",
+        "images",
+        "consistent",
+        "professional"
+      ]
     },
     {
       "id": "ai_160",
@@ -1283,7 +2080,12 @@
       "title": "Playground AI",
       "description": "Free AI image generator with various models. Create and edit images with powerful tools.",
       "url": "playground.ai",
-      "tags": ["images", "free", "editing", "models"]
+      "tags": [
+        "images",
+        "free",
+        "editing",
+        "models"
+      ]
     },
     {
       "id": "ai_161",
@@ -1291,7 +2093,13 @@
       "title": "Oobabooga Text Generation WebUI",
       "description": "Open-source web UI for running large language models locally. Supports LLaMA, GPT-J, Falcon, and many more models with full customization.",
       "url": "github.com/oobabooga/text-generation-webui",
-      "tags": ["local-ai", "llm", "open-source", "self-hosted", "llama"]
+      "tags": [
+        "local-ai",
+        "llm",
+        "open-source",
+        "self-hosted",
+        "llama"
+      ]
     },
     {
       "id": "ai_162",
@@ -1299,7 +2107,13 @@
       "title": "AUTOMATIC1111 Stable Diffusion WebUI",
       "description": "The most popular open-source web interface for Stable Diffusion. Run AI image generation locally with extensions, ControlNet, and unlimited customization.",
       "url": "github.com/AUTOMATIC1111/stable-diffusion-webui",
-      "tags": ["local-ai", "stable-diffusion", "image-generation", "open-source", "self-hosted"]
+      "tags": [
+        "local-ai",
+        "stable-diffusion",
+        "image-generation",
+        "open-source",
+        "self-hosted"
+      ]
     },
     {
       "id": "ai_163",
@@ -1307,7 +2121,13 @@
       "title": "OpenAI Whisper",
       "description": "Open-source automatic speech recognition system by OpenAI. Transcribe audio in multiple languages with high accuracy, runs locally.",
       "url": "github.com/openai/whisper",
-      "tags": ["speech-recognition", "transcription", "openai", "open-source", "local-ai"]
+      "tags": [
+        "speech-recognition",
+        "transcription",
+        "openai",
+        "open-source",
+        "local-ai"
+      ]
     },
     {
       "id": "ai_164",
@@ -1315,7 +2135,13 @@
       "title": "LLaMA (Meta)",
       "description": "Meta's open-source large language model family. Foundation model for many fine-tuned variants like Alpaca, Vicuna, and more.",
       "url": "huggingface.co/docs/transformers/main/model_doc/llama",
-      "tags": ["llm", "meta", "open-source", "foundation-model", "local-ai"]
+      "tags": [
+        "llm",
+        "meta",
+        "open-source",
+        "foundation-model",
+        "local-ai"
+      ]
     },
     {
       "id": "ai_165",
@@ -1323,7 +2149,13 @@
       "title": "MUA AI (Makeup AI)",
       "description": "AI-powered virtual makeup try-on and beauty assistant. Test different makeup looks, get personalized recommendations.",
       "url": "mua.ai",
-      "tags": ["makeup", "beauty", "virtual-try-on", "fashion", "cosmetics"]
+      "tags": [
+        "makeup",
+        "beauty",
+        "virtual-try-on",
+        "fashion",
+        "cosmetics"
+      ]
     },
     {
       "id": "ai_166",
@@ -1331,7 +2163,12 @@
       "title": "Freebeat.ai 9.0",
       "description": "The world's first AI music video agent. Transforms songs into professional music videos with automatic beat detection and synchronization.",
       "url": "freebeat.ai",
-      "tags": ["music-video", "beat-detection", "sync", "video-generation"]
+      "tags": [
+        "music-video",
+        "beat-detection",
+        "sync",
+        "video-generation"
+      ]
     },
     {
       "id": "ai_167",
@@ -1339,7 +2176,13 @@
       "title": "AnySummary",
       "description": "AI-powered tool to efficiently analyze and summarize lengthy audio and video interview files.",
       "url": "anysummary.ai",
-      "tags": ["summarization", "audio", "video", "interviews", "transcription"]
+      "tags": [
+        "summarization",
+        "audio",
+        "video",
+        "interviews",
+        "transcription"
+      ]
     },
     {
       "id": "ai_168",
@@ -1347,7 +2190,12 @@
       "title": "Dora AI",
       "description": "AI-powered website builder designed to streamline creation of websites without templates or coding.",
       "url": "dora.run",
-      "tags": ["website", "no-code", "design", "builder"]
+      "tags": [
+        "website",
+        "no-code",
+        "design",
+        "builder"
+      ]
     },
     {
       "id": "ai_169",
@@ -1355,7 +2203,12 @@
       "title": "PDF.ai",
       "description": "AI-powered tool to revolutionize how users interact with PDF documents via conversational interface.",
       "url": "pdf.ai",
-      "tags": ["pdf", "documents", "chat", "conversational"]
+      "tags": [
+        "pdf",
+        "documents",
+        "chat",
+        "conversational"
+      ]
     },
     {
       "id": "ai_170",
@@ -1363,7 +2216,12 @@
       "title": "Chat With Data",
       "description": "No-code, generative AI analytics platform enabling plain English queries for data insights.",
       "url": "chatwithdata.ai",
-      "tags": ["analytics", "data", "no-code", "natural-language"]
+      "tags": [
+        "analytics",
+        "data",
+        "no-code",
+        "natural-language"
+      ]
     },
     {
       "id": "ai_171",
@@ -1371,7 +2229,12 @@
       "title": "Free Profile Picture Maker",
       "description": "Free, AI-powered tool to create perfect profile pictures with various customization options.",
       "url": "pfpmaker.com",
-      "tags": ["profile-picture", "avatar", "free", "customization"]
+      "tags": [
+        "profile-picture",
+        "avatar",
+        "free",
+        "customization"
+      ]
     },
     {
       "id": "ai_172",
@@ -1379,7 +2242,12 @@
       "title": "Google Opal",
       "description": "Build, edit, and share AI mini-apps using natural language, no code required.",
       "url": "opal.google.com",
-      "tags": ["google", "no-code", "apps", "natural-language"]
+      "tags": [
+        "google",
+        "no-code",
+        "apps",
+        "natural-language"
+      ]
     },
     {
       "id": "ai_173",
@@ -1387,7 +2255,12 @@
       "title": "Qoder",
       "description": "Agentic coding platform for real software development with AI agents.",
       "url": "qoder.ai",
-      "tags": ["coding", "agents", "development", "agentic"]
+      "tags": [
+        "coding",
+        "agents",
+        "development",
+        "agentic"
+      ]
     },
     {
       "id": "ai_174",
@@ -1395,7 +2268,12 @@
       "title": "Kin AI",
       "description": "Emotionally intelligent and private personal AI companion for support and coaching.",
       "url": "kin.ai",
-      "tags": ["companion", "emotional", "coaching", "private"]
+      "tags": [
+        "companion",
+        "emotional",
+        "coaching",
+        "private"
+      ]
     },
     {
       "id": "ai_175",
@@ -1403,7 +2281,13 @@
       "title": "Media.io",
       "description": "Free online AI tools for video, image, and audio generation and editing.",
       "url": "media.io",
-      "tags": ["video", "audio", "image", "editing", "free"]
+      "tags": [
+        "video",
+        "audio",
+        "image",
+        "editing",
+        "free"
+      ]
     },
     {
       "id": "ai_176",
@@ -1411,7 +2295,12 @@
       "title": "Ask AI Questions Online",
       "description": "Get clear answers to any question with free AI-powered Q&A tool. No sign-ups, no limits.",
       "url": "askai.online",
-      "tags": ["qa", "answers", "free", "no-signup"]
+      "tags": [
+        "qa",
+        "answers",
+        "free",
+        "no-signup"
+      ]
     },
     {
       "id": "ai_177",
@@ -1419,7 +2308,12 @@
       "title": "Ai Humanize",
       "description": "AI text humanizer built to turn AI-generated content into human-like text.",
       "url": "aihumanize.com",
-      "tags": ["humanizer", "content", "writing", "bypass"]
+      "tags": [
+        "humanizer",
+        "content",
+        "writing",
+        "bypass"
+      ]
     },
     {
       "id": "ai_178",
@@ -1427,7 +2321,12 @@
       "title": "Drezily AI",
       "description": "AI-driven shopping assistant combining conversational search and visual image search.",
       "url": "drezily.ai",
-      "tags": ["shopping", "search", "visual", "assistant"]
+      "tags": [
+        "shopping",
+        "search",
+        "visual",
+        "assistant"
+      ]
     },
     {
       "id": "ai_179",
@@ -1435,7 +2334,12 @@
       "title": "BoltAI Web Designer",
       "description": "Browser-based AI development platform that converts natural language into websites.",
       "url": "bolt.new",
-      "tags": ["website", "natural-language", "browser", "builder"]
+      "tags": [
+        "website",
+        "natural-language",
+        "browser",
+        "builder"
+      ]
     },
     {
       "id": "ai_180",
@@ -1443,7 +2347,12 @@
       "title": "AutoPPT AI",
       "description": "AI presentation generator that produces entire PowerPoint decks from prompts.",
       "url": "autoppt.ai",
-      "tags": ["powerpoint", "presentations", "slides", "automation"]
+      "tags": [
+        "powerpoint",
+        "presentations",
+        "slides",
+        "automation"
+      ]
     },
     {
       "id": "ai_181",
@@ -1451,7 +2360,12 @@
       "title": "GPT Humanizer AI",
       "description": "Advanced AI humanizer tool that rewrites machine-generated or robotic-sounding content.",
       "url": "gpthumanizer.ai",
-      "tags": ["humanizer", "gpt", "rewriting", "content"]
+      "tags": [
+        "humanizer",
+        "gpt",
+        "rewriting",
+        "content"
+      ]
     },
     {
       "id": "ai_182",
@@ -1459,7 +2373,12 @@
       "title": "Lexica AI",
       "description": "Free AI image generator tool combining an extensive prompt library with generation.",
       "url": "lexica.art",
-      "tags": ["images", "prompts", "library", "free"]
+      "tags": [
+        "images",
+        "prompts",
+        "library",
+        "free"
+      ]
     },
     {
       "id": "ai_183",
@@ -1467,7 +2386,12 @@
       "title": "Resumly.ai",
       "description": "All-in-one AI job search automation tool for resumes and applications.",
       "url": "resumly.ai",
-      "tags": ["resume", "job-search", "automation", "career"]
+      "tags": [
+        "resume",
+        "job-search",
+        "automation",
+        "career"
+      ]
     },
     {
       "id": "ai_184",
@@ -1475,7 +2399,12 @@
       "title": "AI Emoji Design",
       "description": "Personal AI emoji generator that instantly transforms your ideas into custom emojis.",
       "url": "aiemojidesign.com",
-      "tags": ["emoji", "custom", "design", "fun"]
+      "tags": [
+        "emoji",
+        "custom",
+        "design",
+        "fun"
+      ]
     },
     {
       "id": "ai_185",
@@ -1483,7 +2412,12 @@
       "title": "SellerPic AI Fashion Model",
       "description": "AI SaaS for e-commerce brands with virtual fashion models and product photography.",
       "url": "sellerpic.ai",
-      "tags": ["e-commerce", "fashion", "models", "photography"]
+      "tags": [
+        "e-commerce",
+        "fashion",
+        "models",
+        "photography"
+      ]
     },
     {
       "id": "ai_186",
@@ -1491,7 +2425,12 @@
       "title": "GPT Powered AI Logo Maker",
       "description": "Advanced AI logo generator powered by GPT for professional logos.",
       "url": "logomaker.ai",
-      "tags": ["logo", "gpt", "design", "branding"]
+      "tags": [
+        "logo",
+        "gpt",
+        "design",
+        "branding"
+      ]
     },
     {
       "id": "ai_187",
@@ -1499,7 +2438,12 @@
       "title": "Sidekicker AI",
       "description": "Streamlined suite of AI-powered writing tools with plagiarism and AI detection.",
       "url": "sidekicker.ai",
-      "tags": ["writing", "plagiarism", "detection", "tools"]
+      "tags": [
+        "writing",
+        "plagiarism",
+        "detection",
+        "tools"
+      ]
     },
     {
       "id": "ai_188",
@@ -1507,7 +2451,12 @@
       "title": "GenFreeAI",
       "description": "100% free AI-powered image generation platform with no limits.",
       "url": "genfreeai.com",
-      "tags": ["images", "free", "unlimited", "generation"]
+      "tags": [
+        "images",
+        "free",
+        "unlimited",
+        "generation"
+      ]
     },
     {
       "id": "ai_189",
@@ -1515,7 +2464,12 @@
       "title": "SelfSync AI",
       "description": "AI-powered personality assessment platform for recruiting and self-discovery.",
       "url": "selfsync.ai",
-      "tags": ["personality", "assessment", "recruiting", "hr"]
+      "tags": [
+        "personality",
+        "assessment",
+        "recruiting",
+        "hr"
+      ]
     },
     {
       "id": "ai_190",
@@ -1523,7 +2477,12 @@
       "title": "Secta AI Headshot Generator",
       "description": "Complete personal portrait studio for professional AI-generated headshots.",
       "url": "secta.ai",
-      "tags": ["headshots", "portraits", "professional", "photos"]
+      "tags": [
+        "headshots",
+        "portraits",
+        "professional",
+        "photos"
+      ]
     },
     {
       "id": "ai_191",
@@ -1531,7 +2490,12 @@
       "title": "HitPaw FotorPea AI",
       "description": "Advanced, AI-powered photo enhancer designed to restore clarity and quality.",
       "url": "hitpaw.com",
-      "tags": ["enhancement", "restoration", "clarity", "photos"]
+      "tags": [
+        "enhancement",
+        "restoration",
+        "clarity",
+        "photos"
+      ]
     },
     {
       "id": "ai_192",
@@ -1539,7 +2503,12 @@
       "title": "Excelmatic AI",
       "description": "AI tool for spreadsheet automation and Excel formula generation.",
       "url": "excelmatic.ai",
-      "tags": ["excel", "spreadsheets", "formulas", "automation"]
+      "tags": [
+        "excel",
+        "spreadsheets",
+        "formulas",
+        "automation"
+      ]
     },
     {
       "id": "ai_193",
@@ -1547,7 +2516,12 @@
       "title": "Aden AI",
       "description": "AI-native, multi-agent operation tool designed for business leaders and teams.",
       "url": "aden.ai",
-      "tags": ["business", "multi-agent", "operations", "teams"]
+      "tags": [
+        "business",
+        "multi-agent",
+        "operations",
+        "teams"
+      ]
     },
     {
       "id": "ai_194",
@@ -1555,7 +2529,12 @@
       "title": "ComfyUI",
       "description": "Powerful node-based UI for Stable Diffusion with advanced workflows and customization.",
       "url": "github.com/comfyanonymous/ComfyUI",
-      "tags": ["stable-diffusion", "nodes", "workflow", "local-ai"]
+      "tags": [
+        "stable-diffusion",
+        "nodes",
+        "workflow",
+        "local-ai"
+      ]
     },
     {
       "id": "ai_195",
@@ -1563,7 +2542,12 @@
       "title": "LM Studio",
       "description": "Desktop app to run local LLMs like LLaMA, Mistral, and more with easy UI and no coding required.",
       "url": "lmstudio.ai",
-      "tags": ["local-ai", "llm", "desktop", "easy"]
+      "tags": [
+        "local-ai",
+        "llm",
+        "desktop",
+        "easy"
+      ]
     },
     {
       "id": "ai_196",
@@ -1571,7 +2555,12 @@
       "title": "Ollama",
       "description": "Run open-source LLMs locally with simple command-line interface. Supports LLaMA, Mistral, CodeLlama, and more.",
       "url": "ollama.ai",
-      "tags": ["local-ai", "llm", "cli", "open-source"]
+      "tags": [
+        "local-ai",
+        "llm",
+        "cli",
+        "open-source"
+      ]
     },
     {
       "id": "ai_197",
@@ -1579,7 +2568,12 @@
       "title": "GPT4All",
       "description": "Open-source ecosystem of chatbots trained on massive collections of assistant interactions.",
       "url": "gpt4all.io",
-      "tags": ["local-ai", "chatbot", "open-source", "offline"]
+      "tags": [
+        "local-ai",
+        "chatbot",
+        "open-source",
+        "offline"
+      ]
     },
     {
       "id": "ai_198",
@@ -1587,7 +2581,12 @@
       "title": "Jan AI",
       "description": "Open-source alternative to ChatGPT that runs 100% offline on your computer.",
       "url": "jan.ai",
-      "tags": ["local-ai", "offline", "chatgpt-alternative", "open-source"]
+      "tags": [
+        "local-ai",
+        "offline",
+        "chatgpt-alternative",
+        "open-source"
+      ]
     },
     {
       "id": "ai_199",
@@ -1595,7 +2594,12 @@
       "title": "Pinokio",
       "description": "One-click installer for running AI apps locally including Stable Diffusion, LLMs, and more.",
       "url": "pinokio.computer",
-      "tags": ["local-ai", "installer", "one-click", "easy"]
+      "tags": [
+        "local-ai",
+        "installer",
+        "one-click",
+        "easy"
+      ]
     },
     {
       "id": "ai_200",
@@ -1603,7 +2607,12 @@
       "title": "Kobold AI",
       "description": "Browser-based front-end for AI-assisted writing with multiple backend support.",
       "url": "github.com/KoboldAI/KoboldAI-Client",
-      "tags": ["local-ai", "writing", "roleplaying", "stories"]
+      "tags": [
+        "local-ai",
+        "writing",
+        "roleplaying",
+        "stories"
+      ]
     },
     {
       "id": "ai_201",
@@ -1611,7 +2620,12 @@
       "title": "SillyTavern",
       "description": "Frontend for power users to interact with LLMs for roleplay and creative writing.",
       "url": "github.com/SillyTavern/SillyTavern",
-      "tags": ["local-ai", "roleplay", "creative", "frontend"]
+      "tags": [
+        "local-ai",
+        "roleplay",
+        "creative",
+        "frontend"
+      ]
     },
     {
       "id": "ai_202",
@@ -1619,7 +2633,12 @@
       "title": "Continue.dev",
       "description": "Open-source AI code assistant for VS Code and JetBrains. Works with any LLM.",
       "url": "continue.dev",
-      "tags": ["coding", "vscode", "assistant", "open-source"]
+      "tags": [
+        "coding",
+        "vscode",
+        "assistant",
+        "open-source"
+      ]
     },
     {
       "id": "ai_203",
@@ -1627,7 +2646,12 @@
       "title": "Codeium",
       "description": "Free AI code completion and search tool supporting 70+ languages.",
       "url": "codeium.com",
-      "tags": ["coding", "completion", "free", "multilingual"]
+      "tags": [
+        "coding",
+        "completion",
+        "free",
+        "multilingual"
+      ]
     },
     {
       "id": "ai_204",
@@ -1635,7 +2659,12 @@
       "title": "Tabnine",
       "description": "AI code assistant with whole-line and full-function code completions.",
       "url": "tabnine.com",
-      "tags": ["coding", "completion", "assistant", "ide"]
+      "tags": [
+        "coding",
+        "completion",
+        "assistant",
+        "ide"
+      ]
     },
     {
       "id": "ai_205",
@@ -1643,7 +2672,12 @@
       "title": "Craiyon (DALL-E Mini)",
       "description": "Free AI image generator, formerly known as DALL-E Mini. Generate images from text.",
       "url": "craiyon.com",
-      "tags": ["images", "free", "dalle", "text-to-image"]
+      "tags": [
+        "images",
+        "free",
+        "dalle",
+        "text-to-image"
+      ]
     },
     {
       "id": "ai_206",
@@ -1651,7 +2685,12 @@
       "title": "Ideogram AI",
       "description": "AI image generator excelling at text rendering in images with high quality.",
       "url": "ideogram.ai",
-      "tags": ["images", "text-rendering", "quality", "free"]
+      "tags": [
+        "images",
+        "text-rendering",
+        "quality",
+        "free"
+      ]
     },
     {
       "id": "ai_207",
@@ -1659,7 +2698,12 @@
       "title": "NightCafe Studio",
       "description": "AI art generator with multiple algorithms including Stable Diffusion and DALL-E.",
       "url": "nightcafe.studio",
-      "tags": ["art", "multiple-models", "community", "generation"]
+      "tags": [
+        "art",
+        "multiple-models",
+        "community",
+        "generation"
+      ]
     },
     {
       "id": "ai_208",
@@ -1667,7 +2711,12 @@
       "title": "Blue Willow",
       "description": "Free AI image generator on Discord with Stable Diffusion models.",
       "url": "bluewillow.ai",
-      "tags": ["images", "discord", "free", "stable-diffusion"]
+      "tags": [
+        "images",
+        "discord",
+        "free",
+        "stable-diffusion"
+      ]
     },
     {
       "id": "ai_209",
@@ -1675,7 +2724,12 @@
       "title": "Tensor Art",
       "description": "Free AI art platform with thousands of models and styles to create images.",
       "url": "tensor.art",
-      "tags": ["art", "models", "styles", "free"]
+      "tags": [
+        "art",
+        "models",
+        "styles",
+        "free"
+      ]
     },
     {
       "id": "ai_210",
@@ -1683,7 +2737,12 @@
       "title": "Civitai",
       "description": "Platform to share and discover AI art models, LoRAs, embeddings for Stable Diffusion.",
       "url": "civitai.com",
-      "tags": ["models", "lora", "stable-diffusion", "community"]
+      "tags": [
+        "models",
+        "lora",
+        "stable-diffusion",
+        "community"
+      ]
     },
     {
       "id": "ai_211",
@@ -1691,7 +2750,12 @@
       "title": "Mage.space",
       "description": "Free, fast, unlimited Stable Diffusion image generator with no filtering.",
       "url": "mage.space",
-      "tags": ["stable-diffusion", "free", "unlimited", "unfiltered"]
+      "tags": [
+        "stable-diffusion",
+        "free",
+        "unlimited",
+        "unfiltered"
+      ]
     },
     {
       "id": "ai_212",
@@ -1699,7 +2763,12 @@
       "title": "Pika Labs",
       "description": "AI video generation platform creating videos from text and images.",
       "url": "pika.art",
-      "tags": ["video", "text-to-video", "generation", "creative"]
+      "tags": [
+        "video",
+        "text-to-video",
+        "generation",
+        "creative"
+      ]
     },
     {
       "id": "ai_213",
@@ -1707,7 +2776,12 @@
       "title": "Runway ML",
       "description": "Professional AI video tools including Gen-2 for text-to-video generation.",
       "url": "runwayml.com",
-      "tags": ["video", "professional", "gen-2", "creative"]
+      "tags": [
+        "video",
+        "professional",
+        "gen-2",
+        "creative"
+      ]
     },
     {
       "id": "ai_214",
@@ -1715,7 +2789,12 @@
       "title": "ElevenLabs",
       "description": "AI voice generator and text-to-speech with realistic voices and voice cloning.",
       "url": "elevenlabs.io",
-      "tags": ["voice", "tts", "cloning", "realistic"]
+      "tags": [
+        "voice",
+        "tts",
+        "cloning",
+        "realistic"
+      ]
     },
     {
       "id": "ai_215",
@@ -1723,7 +2802,12 @@
       "title": "Coqui TTS",
       "description": "Open-source deep learning toolkit for text-to-speech with voice cloning.",
       "url": "github.com/coqui-ai/TTS",
-      "tags": ["tts", "open-source", "voice-cloning", "local"]
+      "tags": [
+        "tts",
+        "open-source",
+        "voice-cloning",
+        "local"
+      ]
     },
     {
       "id": "ai_216",
@@ -1731,7 +2815,12 @@
       "title": "Bark by Suno",
       "description": "Open-source text-to-audio model that can generate speech, music, and sound effects.",
       "url": "github.com/suno-ai/bark",
-      "tags": ["tts", "music", "sound-effects", "open-source"]
+      "tags": [
+        "tts",
+        "music",
+        "sound-effects",
+        "open-source"
+      ]
     },
     {
       "id": "ai_217",
@@ -1739,7 +2828,12 @@
       "title": "Tortoise TTS",
       "description": "Multi-voice text-to-speech system with high-quality realistic output.",
       "url": "github.com/neonbjb/tortoise-tts",
-      "tags": ["tts", "multi-voice", "realistic", "open-source"]
+      "tags": [
+        "tts",
+        "multi-voice",
+        "realistic",
+        "open-source"
+      ]
     },
     {
       "id": "ai_218",
@@ -1747,7 +2841,12 @@
       "title": "RVC (Retrieval-based Voice Conversion)",
       "description": "Open-source voice conversion tool for changing voices in audio.",
       "url": "github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
-      "tags": ["voice-conversion", "open-source", "audio", "local"]
+      "tags": [
+        "voice-conversion",
+        "open-source",
+        "audio",
+        "local"
+      ]
     },
     {
       "id": "ai_219",
@@ -1755,7 +2854,12 @@
       "title": "Perplexity AI",
       "description": "AI-powered search engine that provides cited answers with sources.",
       "url": "perplexity.ai",
-      "tags": ["search", "answers", "citations", "sources"]
+      "tags": [
+        "search",
+        "answers",
+        "citations",
+        "sources"
+      ]
     },
     {
       "id": "ai_220",
@@ -1763,7 +2867,12 @@
       "title": "Claude (Anthropic)",
       "description": "Advanced AI assistant with long context window and strong reasoning capabilities.",
       "url": "claude.ai",
-      "tags": ["assistant", "anthropic", "reasoning", "long-context"]
+      "tags": [
+        "assistant",
+        "anthropic",
+        "reasoning",
+        "long-context"
+      ]
     },
     {
       "id": "ai_221",
@@ -1771,7 +2880,12 @@
       "title": "Poe by Quora",
       "description": "Platform to chat with multiple AI models including GPT-4, Claude, and custom bots.",
       "url": "poe.com",
-      "tags": ["multi-model", "chat", "bots", "quora"]
+      "tags": [
+        "multi-model",
+        "chat",
+        "bots",
+        "quora"
+      ]
     },
     {
       "id": "ai_222",
@@ -1779,7 +2893,12 @@
       "title": "Character.AI",
       "description": "Chat with AI characters or create your own for roleplay and conversation.",
       "url": "character.ai",
-      "tags": ["characters", "roleplay", "conversation", "creative"]
+      "tags": [
+        "characters",
+        "roleplay",
+        "conversation",
+        "creative"
+      ]
     },
     {
       "id": "ai_223",
@@ -1787,7 +2906,12 @@
       "title": "Pi (Inflection AI)",
       "description": "Personal AI companion focused on being kind, curious, and supportive.",
       "url": "pi.ai",
-      "tags": ["companion", "supportive", "personal", "conversation"]
+      "tags": [
+        "companion",
+        "supportive",
+        "personal",
+        "conversation"
+      ]
     },
     {
       "id": "ai_224",
@@ -1795,7 +2919,12 @@
       "title": "Elicit",
       "description": "AI research assistant that helps find and analyze academic papers.",
       "url": "elicit.org",
-      "tags": ["research", "papers", "academic", "analysis"]
+      "tags": [
+        "research",
+        "papers",
+        "academic",
+        "analysis"
+      ]
     },
     {
       "id": "ai_225",
@@ -1803,7 +2932,12 @@
       "title": "Consensus",
       "description": "AI-powered academic search engine with evidence-based answers from research.",
       "url": "consensus.app",
-      "tags": ["research", "academic", "evidence", "search"]
+      "tags": [
+        "research",
+        "academic",
+        "evidence",
+        "search"
+      ]
     },
     {
       "id": "ai_226",
@@ -1811,7 +2945,12 @@
       "title": "Semantic Scholar",
       "description": "AI-powered research tool to find scientific papers and understand connections.",
       "url": "semanticscholar.org",
-      "tags": ["research", "papers", "scientific", "ai-powered"]
+      "tags": [
+        "research",
+        "papers",
+        "scientific",
+        "ai-powered"
+      ]
     },
     {
       "id": "ai_227",
@@ -1819,7 +2958,12 @@
       "title": "Rytr",
       "description": "AI writing assistant for generating content, emails, and copy in multiple tones.",
       "url": "rytr.me",
-      "tags": ["writing", "content", "emails", "copy"]
+      "tags": [
+        "writing",
+        "content",
+        "emails",
+        "copy"
+      ]
     },
     {
       "id": "ai_228",
@@ -1827,7 +2971,12 @@
       "title": "Copy.ai",
       "description": "AI copywriting tool for marketing copy, social media, and more.",
       "url": "copy.ai",
-      "tags": ["copywriting", "marketing", "social-media", "content"]
+      "tags": [
+        "copywriting",
+        "marketing",
+        "social-media",
+        "content"
+      ]
     },
     {
       "id": "ai_229",
@@ -1835,7 +2984,12 @@
       "title": "Writesonic",
       "description": "AI writer for articles, ads, product descriptions, and more with SEO focus.",
       "url": "writesonic.com",
-      "tags": ["writing", "seo", "articles", "ads"]
+      "tags": [
+        "writing",
+        "seo",
+        "articles",
+        "ads"
+      ]
     },
     {
       "id": "ai_230",
@@ -1843,7 +2997,12 @@
       "title": "Jasper AI",
       "description": "Enterprise AI writing platform for marketing teams and content creators.",
       "url": "jasper.ai",
-      "tags": ["enterprise", "marketing", "content", "teams"]
+      "tags": [
+        "enterprise",
+        "marketing",
+        "content",
+        "teams"
+      ]
     },
     {
       "id": "ai_231",
@@ -1851,7 +3010,12 @@
       "title": "QuillBot",
       "description": "AI paraphrasing and grammar checking tool with summarizer and citation generator.",
       "url": "quillbot.com",
-      "tags": ["paraphrasing", "grammar", "summarizer", "citations"]
+      "tags": [
+        "paraphrasing",
+        "grammar",
+        "summarizer",
+        "citations"
+      ]
     },
     {
       "id": "ai_232",
@@ -1859,7 +3023,12 @@
       "title": "Figma AI",
       "description": "AI features in Figma for generating designs, prototypes, and design systems.",
       "url": "figma.com",
-      "tags": ["design", "prototypes", "ui", "figma"]
+      "tags": [
+        "design",
+        "prototypes",
+        "ui",
+        "figma"
+      ]
     },
     {
       "id": "ai_233",
@@ -1867,7 +3036,12 @@
       "title": "Uizard",
       "description": "AI-powered UI design tool that turns sketches and ideas into designs.",
       "url": "uizard.io",
-      "tags": ["ui", "design", "sketches", "prototypes"]
+      "tags": [
+        "ui",
+        "design",
+        "sketches",
+        "prototypes"
+      ]
     },
     {
       "id": "ai_234",
@@ -1875,7 +3049,12 @@
       "title": "Galileo AI",
       "description": "AI design tool that generates editable UI designs from text descriptions.",
       "url": "usegalileo.ai",
-      "tags": ["ui", "design", "text-to-design", "editable"]
+      "tags": [
+        "ui",
+        "design",
+        "text-to-design",
+        "editable"
+      ]
     },
     {
       "id": "ai_235",
@@ -1883,7 +3062,12 @@
       "title": "Meshy AI",
       "description": "AI-powered 3D model generator from text or images with textures.",
       "url": "meshy.ai",
-      "tags": ["3d", "models", "textures", "generation"]
+      "tags": [
+        "3d",
+        "models",
+        "textures",
+        "generation"
+      ]
     },
     {
       "id": "ai_236",
@@ -1891,7 +3075,12 @@
       "title": "Luma AI",
       "description": "Create photorealistic 3D captures and renders with AI using just your phone.",
       "url": "lumalabs.ai",
-      "tags": ["3d", "photorealistic", "captures", "phone"]
+      "tags": [
+        "3d",
+        "photorealistic",
+        "captures",
+        "phone"
+      ]
     },
     {
       "id": "ai_237",
@@ -1899,7 +3088,12 @@
       "title": "Kaedim",
       "description": "Turn 2D images into 3D models with AI in minutes.",
       "url": "kaedim3d.com",
-      "tags": ["3d", "2d-to-3d", "models", "fast"]
+      "tags": [
+        "3d",
+        "2d-to-3d",
+        "models",
+        "fast"
+      ]
     },
     {
       "id": "ai_238",
@@ -1907,7 +3101,12 @@
       "title": "Notion AI",
       "description": "AI assistant built into Notion for writing, summarizing, and brainstorming.",
       "url": "notion.so/ai",
-      "tags": ["productivity", "writing", "summarizing", "notion"]
+      "tags": [
+        "productivity",
+        "writing",
+        "summarizing",
+        "notion"
+      ]
     },
     {
       "id": "ai_239",
@@ -1915,7 +3114,12 @@
       "title": "Mem AI",
       "description": "AI-powered note-taking app that automatically organizes and connects your notes.",
       "url": "mem.ai",
-      "tags": ["notes", "organization", "connections", "ai-powered"]
+      "tags": [
+        "notes",
+        "organization",
+        "connections",
+        "ai-powered"
+      ]
     },
     {
       "id": "ai_240",
@@ -1923,7 +3127,12 @@
       "title": "Taskade AI",
       "description": "AI-powered productivity platform for tasks, notes, and team collaboration.",
       "url": "taskade.com",
-      "tags": ["tasks", "notes", "collaboration", "teams"]
+      "tags": [
+        "tasks",
+        "notes",
+        "collaboration",
+        "teams"
+      ]
     },
     {
       "id": "ai_241",
@@ -1931,7 +3140,13 @@
       "title": "Hamster AI",
       "description": "Free AI platform with text-to-code, text-to-image, image-to-image transformation, and chatbots from OpenAI, Claude, Deepseek, and Mistral.",
       "url": "hamsterai.net",
-      "tags": ["code-generation", "image-generation", "chatbot", "multi-model", "free"]
+      "tags": [
+        "code-generation",
+        "image-generation",
+        "chatbot",
+        "multi-model",
+        "free"
+      ]
     },
     {
       "id": "ai_242",
@@ -1939,7 +3154,12 @@
       "title": "Hamster CodeAI",
       "description": "Describe what you want and get clean, functional code in seconds for prototypes and automation.",
       "url": "hamsterai.net",
-      "tags": ["code", "programming", "automation", "free"]
+      "tags": [
+        "code",
+        "programming",
+        "automation",
+        "free"
+      ]
     },
     {
       "id": "ai_243",
@@ -1947,7 +3167,13 @@
       "title": "SEO GPT",
       "description": "Free AI tool for creating search-engine-optimized content. Over 300 content types for titles, meta descriptions, and more with live web data analysis.",
       "url": "seovendor.co/seo-gpt",
-      "tags": ["seo", "content", "meta-description", "titles", "free"]
+      "tags": [
+        "seo",
+        "content",
+        "meta-description",
+        "titles",
+        "free"
+      ]
     },
     {
       "id": "ai_244",
@@ -1955,7 +3181,13 @@
       "title": "DeepAI",
       "description": "Free AI platform with image generator, video generator, music generator, chat, photo editor, and more.",
       "url": "deepai.org",
-      "tags": ["image-generation", "video", "music", "chat", "free"]
+      "tags": [
+        "image-generation",
+        "video",
+        "music",
+        "chat",
+        "free"
+      ]
     },
     {
       "id": "ai_245",
@@ -1963,7 +3195,11 @@
       "title": "DeepAI Background Remover",
       "description": "Free AI tool to remove backgrounds from images instantly.",
       "url": "deepai.org/machine-learning-model/background-remover",
-      "tags": ["background-removal", "image-editing", "free"]
+      "tags": [
+        "background-removal",
+        "image-editing",
+        "free"
+      ]
     },
     {
       "id": "ai_246",
@@ -1971,7 +3207,12 @@
       "title": "DeepAI Colorizer",
       "description": "Add color to black and white photos using AI.",
       "url": "deepai.org/machine-learning-model/colorizer",
-      "tags": ["colorization", "photos", "restoration", "free"]
+      "tags": [
+        "colorization",
+        "photos",
+        "restoration",
+        "free"
+      ]
     },
     {
       "id": "ai_247",
@@ -1979,7 +3220,12 @@
       "title": "DeepAI Super Resolution",
       "description": "Upscale and enhance image quality with AI-powered super resolution.",
       "url": "deepai.org/machine-learning-model/waifu2x",
-      "tags": ["upscaling", "enhancement", "quality", "free"]
+      "tags": [
+        "upscaling",
+        "enhancement",
+        "quality",
+        "free"
+      ]
     },
     {
       "id": "ai_248",
@@ -1987,7 +3233,12 @@
       "title": "DeepAI Math AI",
       "description": "Solve mathematical problems with AI assistance.",
       "url": "deepai.org/math-ai",
-      "tags": ["math", "equations", "education", "free"]
+      "tags": [
+        "math",
+        "equations",
+        "education",
+        "free"
+      ]
     },
     {
       "id": "ai_249",
@@ -1995,7 +3246,13 @@
       "title": "RDMC AI",
       "description": "AI-powered digital marketing platform for content creation, social media automation, and audience targeting. Integrates OpenAI, Gemini, Midjourney.",
       "url": "rdmc.ai",
-      "tags": ["marketing", "social-media", "automation", "content", "multi-model"]
+      "tags": [
+        "marketing",
+        "social-media",
+        "automation",
+        "content",
+        "multi-model"
+      ]
     },
     {
       "id": "ai_250",
@@ -2003,7 +3260,12 @@
       "title": "ToolBaz AI Writer",
       "description": "Free AI writing assistant for blog posts, articles, paragraphs, and any type of content.",
       "url": "toolbaz.com/ai-writer",
-      "tags": ["writing", "blog", "articles", "free"]
+      "tags": [
+        "writing",
+        "blog",
+        "articles",
+        "free"
+      ]
     },
     {
       "id": "ai_251",
@@ -2011,7 +3273,12 @@
       "title": "ToolBaz Blog Writer",
       "description": "Generate complete blog posts with AI including outlines, introductions, and full articles.",
       "url": "toolbaz.com/ai-blog-writer",
-      "tags": ["blog", "writing", "articles", "free"]
+      "tags": [
+        "blog",
+        "writing",
+        "articles",
+        "free"
+      ]
     },
     {
       "id": "ai_252",
@@ -2019,7 +3286,12 @@
       "title": "ToolBaz Story Generator",
       "description": "Create original stories, character profiles, plot twists, and dialogue with AI.",
       "url": "toolbaz.com/story-generator",
-      "tags": ["stories", "creative-writing", "fiction", "free"]
+      "tags": [
+        "stories",
+        "creative-writing",
+        "fiction",
+        "free"
+      ]
     },
     {
       "id": "ai_253",
@@ -2027,7 +3299,12 @@
       "title": "ToolBaz Poem Generator",
       "description": "Generate poems, haikus, love poems, and song lyrics with AI.",
       "url": "toolbaz.com/poem-generator",
-      "tags": ["poetry", "lyrics", "creative", "free"]
+      "tags": [
+        "poetry",
+        "lyrics",
+        "creative",
+        "free"
+      ]
     },
     {
       "id": "ai_254",
@@ -2035,7 +3312,12 @@
       "title": "ToolBaz Email Writer",
       "description": "AI-powered email composer for professional emails, cover letters, and business correspondence.",
       "url": "toolbaz.com/email-writer",
-      "tags": ["email", "professional", "business", "free"]
+      "tags": [
+        "email",
+        "professional",
+        "business",
+        "free"
+      ]
     },
     {
       "id": "ai_255",
@@ -2043,7 +3325,12 @@
       "title": "ToolBaz Plagiarism Remover",
       "description": "Paraphrase and rewrite content to avoid plagiarism while keeping the meaning.",
       "url": "toolbaz.com/plagiarism-remover",
-      "tags": ["paraphrase", "rewriting", "plagiarism", "free"]
+      "tags": [
+        "paraphrase",
+        "rewriting",
+        "plagiarism",
+        "free"
+      ]
     },
     {
       "id": "ai_256",
@@ -2051,7 +3338,12 @@
       "title": "ToolBaz Summarizer",
       "description": "Condense long articles and documents into concise summaries.",
       "url": "toolbaz.com/ai-summarizer",
-      "tags": ["summary", "condensing", "articles", "free"]
+      "tags": [
+        "summary",
+        "condensing",
+        "articles",
+        "free"
+      ]
     },
     {
       "id": "ai_257",
@@ -2059,7 +3351,12 @@
       "title": "ToolBaz Code Writer",
       "description": "Generate programming code including Python from natural language descriptions.",
       "url": "toolbaz.com/ai-code-writer",
-      "tags": ["code", "programming", "python", "free"]
+      "tags": [
+        "code",
+        "programming",
+        "python",
+        "free"
+      ]
     },
     {
       "id": "ai_258",
@@ -2067,7 +3364,12 @@
       "title": "ToolBaz Essay Writer",
       "description": "AI essay writer for academic papers, thesis statements, and research papers.",
       "url": "toolbaz.com/ai-essay-writer",
-      "tags": ["essay", "academic", "research", "free"]
+      "tags": [
+        "essay",
+        "academic",
+        "research",
+        "free"
+      ]
     },
     {
       "id": "ai_259",
@@ -2075,7 +3377,12 @@
       "title": "ToolBaz Math Solver",
       "description": "Solve math equations, differential equations, and homework problems step by step.",
       "url": "toolbaz.com/math-equation-solver",
-      "tags": ["math", "equations", "homework", "free"]
+      "tags": [
+        "math",
+        "equations",
+        "homework",
+        "free"
+      ]
     },
     {
       "id": "ai_260",
@@ -2083,7 +3390,12 @@
       "title": "ToolBaz Homework Helper",
       "description": "AI assistant for homework, assignments, and study notes across all subjects.",
       "url": "toolbaz.com/homework-helper",
-      "tags": ["homework", "study", "education", "free"]
+      "tags": [
+        "homework",
+        "study",
+        "education",
+        "free"
+      ]
     },
     {
       "id": "ai_261",
@@ -2091,7 +3403,12 @@
       "title": "ToolBaz Product Description",
       "description": "Generate compelling product descriptions and marketing copy.",
       "url": "toolbaz.com/product-description",
-      "tags": ["ecommerce", "marketing", "copywriting", "free"]
+      "tags": [
+        "ecommerce",
+        "marketing",
+        "copywriting",
+        "free"
+      ]
     },
     {
       "id": "ai_262",
@@ -2099,7 +3416,12 @@
       "title": "ToolBaz Script Generator",
       "description": "Create scripts for videos, presentations, and speeches.",
       "url": "toolbaz.com/ai-script-generator",
-      "tags": ["scripts", "video", "presentations", "free"]
+      "tags": [
+        "scripts",
+        "video",
+        "presentations",
+        "free"
+      ]
     },
     {
       "id": "ai_263",
@@ -2107,7 +3429,11 @@
       "title": "ToolBaz Image Generator",
       "description": "Convert text descriptions into images with AI.",
       "url": "toolbaz.com/ai-image-generator",
-      "tags": ["image-generation", "text-to-image", "free"]
+      "tags": [
+        "image-generation",
+        "text-to-image",
+        "free"
+      ]
     },
     {
       "id": "ai_264",
@@ -2115,7 +3441,12 @@
       "title": "ToolBaz Text to Speech",
       "description": "Convert written text to natural-sounding speech audio.",
       "url": "toolbaz.com/text-to-speech",
-      "tags": ["tts", "voice", "audio", "free"]
+      "tags": [
+        "tts",
+        "voice",
+        "audio",
+        "free"
+      ]
     },
     {
       "id": "ai_265",
@@ -2123,7 +3454,12 @@
       "title": "ToolBaz Rap Lyrics Generator",
       "description": "Create rap lyrics, diss tracks, and hip-hop verses with AI.",
       "url": "toolbaz.com/rap-lyrics-generator",
-      "tags": ["rap", "lyrics", "music", "free"]
+      "tags": [
+        "rap",
+        "lyrics",
+        "music",
+        "free"
+      ]
     },
     {
       "id": "ai_266",
@@ -2131,7 +3467,12 @@
       "title": "ToolBaz Roleplay Scenario",
       "description": "Generate interactive roleplay scenarios and character interactions.",
       "url": "toolbaz.com/roleplay-scenario",
-      "tags": ["roleplay", "creative", "interactive", "free"]
+      "tags": [
+        "roleplay",
+        "creative",
+        "interactive",
+        "free"
+      ]
     },
     {
       "id": "ai_267",
@@ -2139,7 +3480,12 @@
       "title": "ToolBaz Recipe Generator",
       "description": "Create cooking recipes based on ingredients or cuisine preferences.",
       "url": "toolbaz.com/ai-recipe-generator",
-      "tags": ["cooking", "recipes", "food", "free"]
+      "tags": [
+        "cooking",
+        "recipes",
+        "food",
+        "free"
+      ]
     },
     {
       "id": "ai_268",
@@ -2147,7 +3493,12 @@
       "title": "ToolBaz LinkedIn Summary",
       "description": "Generate professional LinkedIn profile summaries and job descriptions.",
       "url": "toolbaz.com/linkedin-summary",
-      "tags": ["linkedin", "professional", "resume", "free"]
+      "tags": [
+        "linkedin",
+        "professional",
+        "resume",
+        "free"
+      ]
     },
     {
       "id": "ai_269",
@@ -2155,7 +3506,12 @@
       "title": "ToolBaz Legal Document Generator",
       "description": "Create legal documents and contracts with AI assistance.",
       "url": "toolbaz.com/legal-document-generator",
-      "tags": ["legal", "contracts", "documents", "free"]
+      "tags": [
+        "legal",
+        "contracts",
+        "documents",
+        "free"
+      ]
     },
     {
       "id": "ai_270",
@@ -2163,7 +3519,12 @@
       "title": "DeepAI Music Generator",
       "description": "Create original music compositions with AI from text prompts.",
       "url": "deepai.org/machine-learning-model/text2music",
-      "tags": ["music", "composition", "audio", "free"]
+      "tags": [
+        "music",
+        "composition",
+        "audio",
+        "free"
+      ]
     },
     {
       "id": "ai_271",
@@ -2171,7 +3532,12 @@
       "title": "DeepAI Video Generator",
       "description": "Generate short videos from text descriptions using AI.",
       "url": "deepai.org/machine-learning-model/text2video",
-      "tags": ["video", "text-to-video", "generation", "free"]
+      "tags": [
+        "video",
+        "text-to-video",
+        "generation",
+        "free"
+      ]
     },
     {
       "id": "ai_272",
@@ -2179,7 +3545,11 @@
       "title": "DeepAI Photo Editor",
       "description": "Edit and manipulate photos with AI-powered tools.",
       "url": "deepai.org/machine-learning-model/photo-editor",
-      "tags": ["photo-editing", "manipulation", "free"]
+      "tags": [
+        "photo-editing",
+        "manipulation",
+        "free"
+      ]
     },
     {
       "id": "ai_273",
@@ -2187,7 +3557,12 @@
       "title": "DeepAI Expand Image",
       "description": "Extend image boundaries with AI outpainting to add more content.",
       "url": "deepai.org/machine-learning-model/image-outpainting",
-      "tags": ["outpainting", "expansion", "image-editing", "free"]
+      "tags": [
+        "outpainting",
+        "expansion",
+        "image-editing",
+        "free"
+      ]
     },
     {
       "id": "ai_274",
@@ -2195,7 +3570,12 @@
       "title": "DeepAI Voice Chat",
       "description": "Have voice conversations with AI for realistic dialogue.",
       "url": "deepai.org/voice-chat",
-      "tags": ["voice", "conversation", "chat", "free"]
+      "tags": [
+        "voice",
+        "conversation",
+        "chat",
+        "free"
+      ]
     },
     {
       "id": "ai_275",
@@ -2203,7 +3583,13 @@
       "title": "Open-Sora",
       "description": "Open-source video generation AI. Text-to-video, image-to-video with customizable resolutions and motion control. Apache 2.0 licensed.",
       "url": "github.com/hpcaitech/Open-Sora",
-      "tags": ["video", "open-source", "text-to-video", "image-to-video", "free"]
+      "tags": [
+        "video",
+        "open-source",
+        "text-to-video",
+        "image-to-video",
+        "free"
+      ]
     },
     {
       "id": "ai_276",
@@ -2211,7 +3597,13 @@
       "title": "MeshLRM",
       "description": "Large reconstruction model for high-quality 3D mesh generation from single images. Fast and accurate 3D asset creation.",
       "url": "github.com/NVlabs/MeshLRM",
-      "tags": ["3d", "mesh", "reconstruction", "nvidia", "open-source"]
+      "tags": [
+        "3d",
+        "mesh",
+        "reconstruction",
+        "nvidia",
+        "open-source"
+      ]
     },
     {
       "id": "ai_277",
@@ -2219,7 +3611,12 @@
       "title": "Video2Game",
       "description": "AI that converts real-world videos into playable 3D game environments. Transforms video footage into interactive games.",
       "url": "video2game.github.io",
-      "tags": ["gaming", "video-to-3d", "game-development", "interactive"]
+      "tags": [
+        "gaming",
+        "video-to-3d",
+        "game-development",
+        "interactive"
+      ]
     },
     {
       "id": "ai_278",
@@ -2227,7 +3624,13 @@
       "title": "GPT-4o",
       "description": "OpenAI's flagship multimodal AI. Handles text, images, audio, and video. Free tier available in ChatGPT with advanced reasoning capabilities.",
       "url": "chat.openai.com",
-      "tags": ["chatgpt", "multimodal", "openai", "gpt4", "free-tier"]
+      "tags": [
+        "chatgpt",
+        "multimodal",
+        "openai",
+        "gpt4",
+        "free-tier"
+      ]
     },
     {
       "id": "ai_279",
@@ -2235,7 +3638,13 @@
       "title": "VIVERSE",
       "description": "Immersive 3D metaverse platform with AI avatars, virtual worlds, no-code 3D creation tools. Free tier with AI assistants and NPCs.",
       "url": "viverse.com",
-      "tags": ["metaverse", "vr", "3d-worlds", "avatars", "free-tier"]
+      "tags": [
+        "metaverse",
+        "vr",
+        "3d-worlds",
+        "avatars",
+        "free-tier"
+      ]
     },
     {
       "id": "ai_280",
@@ -2243,7 +3652,13 @@
       "title": "VIVERSE for Business",
       "description": "Enterprise virtual spaces with AI-powered productivity tools, training environments, and lifelike AI personas.",
       "url": "viverse.com/business",
-      "tags": ["enterprise", "vr", "training", "collaboration", "ai-personas"]
+      "tags": [
+        "enterprise",
+        "vr",
+        "training",
+        "collaboration",
+        "ai-personas"
+      ]
     },
     {
       "id": "ai_281",
@@ -2251,7 +3666,13 @@
       "title": "Meshy",
       "description": "AI-powered 3D model generator. Create textured 3D models from text or images. Free tier available for game assets and design.",
       "url": "meshy.ai",
-      "tags": ["3d", "text-to-3d", "game-assets", "texturing", "free-tier"]
+      "tags": [
+        "3d",
+        "text-to-3d",
+        "game-assets",
+        "texturing",
+        "free-tier"
+      ]
     },
     {
       "id": "ai_282",
@@ -2259,7 +3680,13 @@
       "title": "MasterpieceX",
       "description": "AI 3D generative platform for creating game-ready 3D models and characters with automatic rigging and animation.",
       "url": "masterpiecex.com",
-      "tags": ["3d", "game-ready", "rigging", "animation", "characters"]
+      "tags": [
+        "3d",
+        "game-ready",
+        "rigging",
+        "animation",
+        "characters"
+      ]
     },
     {
       "id": "ai_283",
@@ -2267,7 +3694,13 @@
       "title": "Fotor",
       "description": "Free AI photo editor with background remover, image enhancer, AI art generator, collage maker, and design templates.",
       "url": "fotor.com",
-      "tags": ["photo-editing", "background-remover", "ai-art", "design", "free"]
+      "tags": [
+        "photo-editing",
+        "background-remover",
+        "ai-art",
+        "design",
+        "free"
+      ]
     },
     {
       "id": "ai_284",
@@ -2275,7 +3708,13 @@
       "title": "VIVERSE Avatar",
       "description": "AI-powered avatar creator for metaverse and VR. Create realistic or stylized 3D avatars from photos with customizable features.",
       "url": "viverse.com/avatar",
-      "tags": ["avatar", "3d", "ai-face", "metaverse", "free"]
+      "tags": [
+        "avatar",
+        "3d",
+        "ai-face",
+        "metaverse",
+        "free"
+      ]
     },
     {
       "id": "ai_285",
@@ -2283,7 +3722,13 @@
       "title": "KIRI Engine",
       "description": "AI-powered 3D scanning and photogrammetry app. Turn photos into 3D models using your smartphone. Free tier with export options.",
       "url": "kiriengine.com",
-      "tags": ["3d-scanning", "photogrammetry", "mobile", "3d-models", "free"]
+      "tags": [
+        "3d-scanning",
+        "photogrammetry",
+        "mobile",
+        "3d-models",
+        "free"
+      ]
     },
     {
       "id": "ai_286",
@@ -2291,7 +3736,13 @@
       "title": "Polycam",
       "description": "3D capture app using LiDAR and photogrammetry. Scan rooms, objects, and people with iPhone or Android. Free tier available.",
       "url": "poly.cam",
-      "tags": ["3d-scanning", "lidar", "photogrammetry", "mobile", "free"]
+      "tags": [
+        "3d-scanning",
+        "lidar",
+        "photogrammetry",
+        "mobile",
+        "free"
+      ]
     },
     {
       "id": "ai_287",
@@ -2299,7 +3750,12 @@
       "title": "EM3D",
       "description": "Easy 3D scanning app for creating detailed 3D models from photos. Professional photogrammetry on mobile devices.",
       "url": "em3d.io",
-      "tags": ["3d-scanning", "photogrammetry", "mobile", "3d-models"]
+      "tags": [
+        "3d-scanning",
+        "photogrammetry",
+        "mobile",
+        "3d-models"
+      ]
     },
     {
       "id": "ai_288",
@@ -2307,7 +3763,13 @@
       "title": "Heges",
       "description": "3D scanner app for iOS with LiDAR support. Create high-quality 3D scans of objects, rooms, and people in real-time.",
       "url": "hege.sh",
-      "tags": ["3d-scanning", "lidar", "ios", "real-time", "mobile"]
+      "tags": [
+        "3d-scanning",
+        "lidar",
+        "ios",
+        "real-time",
+        "mobile"
+      ]
     },
     {
       "id": "ai_289",
@@ -2315,7 +3777,13 @@
       "title": "VIVERSE Studio",
       "description": "No-code 3D world building platform. Create interactive virtual spaces with AI-powered tools, templates, and assets for metaverse experiences.",
       "url": "viverse.com/studio",
-      "tags": ["3d-creation", "no-code", "metaverse", "virtual-worlds", "free"]
+      "tags": [
+        "3d-creation",
+        "no-code",
+        "metaverse",
+        "virtual-worlds",
+        "free"
+      ]
     },
     {
       "id": "ai_290",
@@ -2323,7 +3791,13 @@
       "title": "DogRecon",
       "description": "AI-powered 3D reconstruction from images. Generate detailed 3D models from 2D photos using neural radiance fields and gaussian splatting.",
       "url": "dogrecon.com",
-      "tags": ["3d-reconstruction", "nerf", "gaussian-splatting", "ai", "images-to-3d"]
+      "tags": [
+        "3d-reconstruction",
+        "nerf",
+        "gaussian-splatting",
+        "ai",
+        "images-to-3d"
+      ]
     },
     {
       "id": "ai_291",
@@ -2331,7 +3805,13 @@
       "title": "VIVERSE Create",
       "description": "Browser-based 3D creation tool for building virtual worlds. Drag-and-drop editor with AI assets, animations, and interactivity.",
       "url": "viverse.com/create",
-      "tags": ["3d-creation", "browser-based", "virtual-worlds", "no-code", "free"]
+      "tags": [
+        "3d-creation",
+        "browser-based",
+        "virtual-worlds",
+        "no-code",
+        "free"
+      ]
     },
     {
       "id": "ai_292",
@@ -2339,7 +3819,13 @@
       "title": "Grok",
       "description": "AI assistant integrated with X (Twitter) featuring uncensored responses, reasoning modes, and image generation capabilities.",
       "url": "grok.x.ai",
-      "tags": ["chatbot", "x-twitter", "image-generation", "reasoning", "free"]
+      "tags": [
+        "chatbot",
+        "x-twitter",
+        "image-generation",
+        "reasoning",
+        "free"
+      ]
     },
     {
       "id": "ai_293",
@@ -2347,7 +3833,13 @@
       "title": "Google Gemini",
       "description": "Google's AI with over 1 million tokens of context and audio overview features. Free tier available.",
       "url": "gemini.google.com",
-      "tags": ["chatbot", "google", "long-context", "multimodal", "free"]
+      "tags": [
+        "chatbot",
+        "google",
+        "long-context",
+        "multimodal",
+        "free"
+      ]
     },
     {
       "id": "ai_294",
@@ -2355,7 +3847,13 @@
       "title": "Synthesia",
       "description": "Generate realistic AI human avatar videos by converting text to video with 240+ avatars in 140+ languages.",
       "url": "synthesia.io",
-      "tags": ["video", "avatars", "text-to-video", "multilingual", "free-tier"]
+      "tags": [
+        "video",
+        "avatars",
+        "text-to-video",
+        "multilingual",
+        "free-tier"
+      ]
     },
     {
       "id": "ai_295",
@@ -2363,7 +3861,13 @@
       "title": "Google Veo",
       "description": "Creates creative AI videos with realistic physics. Veo 3 adds audio generation to video clips.",
       "url": "deepmind.google/veo",
-      "tags": ["video", "google", "text-to-video", "audio", "free-tier"]
+      "tags": [
+        "video",
+        "google",
+        "text-to-video",
+        "audio",
+        "free-tier"
+      ]
     },
     {
       "id": "ai_296",
@@ -2371,7 +3875,13 @@
       "title": "OpusClip",
       "description": "Break longer videos into short social media clips with auto-captioning and viral hook detection.",
       "url": "opus.pro",
-      "tags": ["video-editing", "social-media", "clips", "captions", "viral"]
+      "tags": [
+        "video-editing",
+        "social-media",
+        "clips",
+        "captions",
+        "viral"
+      ]
     },
     {
       "id": "ai_297",
@@ -2379,7 +3889,13 @@
       "title": "Nano Banana (Gemini Flash)",
       "description": "Fast image editor for almost any edit including background swaps and style transformations.",
       "url": "gemini.google.com",
-      "tags": ["image-editing", "fast", "style-transfer", "google", "free"]
+      "tags": [
+        "image-editing",
+        "fast",
+        "style-transfer",
+        "google",
+        "free"
+      ]
     },
     {
       "id": "ai_298",
@@ -2387,7 +3903,13 @@
       "title": "Fathom",
       "description": "AI notetaker that records calls, generates transcripts, and tracks action items automatically.",
       "url": "fathom.video",
-      "tags": ["meetings", "transcription", "notes", "action-items", "free"]
+      "tags": [
+        "meetings",
+        "transcription",
+        "notes",
+        "action-items",
+        "free"
+      ]
     },
     {
       "id": "ai_299",
@@ -2395,7 +3917,13 @@
       "title": "Nyota",
       "description": "Premium meeting assistant with CRM automation and follow-up task creation.",
       "url": "nyota.ai",
-      "tags": ["meetings", "crm", "automation", "tasks", "free-trial"]
+      "tags": [
+        "meetings",
+        "crm",
+        "automation",
+        "tasks",
+        "free-trial"
+      ]
     },
     {
       "id": "ai_300",
@@ -2403,7 +3931,13 @@
       "title": "n8n",
       "description": "Visual workflow builder for automating repetitive tasks across apps. Open-source with free tier.",
       "url": "n8n.io",
-      "tags": ["automation", "workflows", "no-code", "open-source", "free"]
+      "tags": [
+        "automation",
+        "workflows",
+        "no-code",
+        "open-source",
+        "free"
+      ]
     },
     {
       "id": "ai_301",
@@ -2411,7 +3945,13 @@
       "title": "Manus",
       "description": "AI agent combining LLMs to perform tasks from slide creation to programming autonomously.",
       "url": "manus.im",
-      "tags": ["ai-agents", "automation", "slides", "programming", "free-tier"]
+      "tags": [
+        "ai-agents",
+        "automation",
+        "slides",
+        "programming",
+        "free-tier"
+      ]
     },
     {
       "id": "ai_302",
@@ -2419,7 +3959,13 @@
       "title": "Deep Research (OpenAI)",
       "description": "Finds, analyzes, and synthesizes hundreds of online sources into comprehensive reports.",
       "url": "chat.openai.com",
-      "tags": ["research", "analysis", "synthesis", "reports", "free-tier"]
+      "tags": [
+        "research",
+        "analysis",
+        "synthesis",
+        "reports",
+        "free-tier"
+      ]
     },
     {
       "id": "ai_303",
@@ -2427,7 +3973,13 @@
       "title": "NotebookLM",
       "description": "Organizes materials and creates AI-generated podcast audio summaries from your documents.",
       "url": "notebooklm.google.com",
-      "tags": ["research", "notes", "podcast", "summaries", "free"]
+      "tags": [
+        "research",
+        "notes",
+        "podcast",
+        "summaries",
+        "free"
+      ]
     },
     {
       "id": "ai_304",
@@ -2435,7 +3987,13 @@
       "title": "Sudowrite",
       "description": "The ultimate weapon against writer's block for fiction with narrative enhancement tools.",
       "url": "sudowrite.com",
-      "tags": ["writing", "fiction", "creative", "narrative", "storytelling"]
+      "tags": [
+        "writing",
+        "fiction",
+        "creative",
+        "narrative",
+        "storytelling"
+      ]
     },
     {
       "id": "ai_305",
@@ -2443,7 +4001,13 @@
       "title": "Google AI Mode",
       "description": "Google's AI-blended search providing summarized answers with integrated Gemini.",
       "url": "google.com",
-      "tags": ["search", "ai-summaries", "google", "gemini", "free"]
+      "tags": [
+        "search",
+        "ai-summaries",
+        "google",
+        "gemini",
+        "free"
+      ]
     },
     {
       "id": "ai_306",
@@ -2451,7 +4015,13 @@
       "title": "ChatGPT Search",
       "description": "Web search integrated into ChatGPT with conversational follow-ups and no ads.",
       "url": "chat.openai.com",
-      "tags": ["search", "chatgpt", "conversational", "web", "free"]
+      "tags": [
+        "search",
+        "chatgpt",
+        "conversational",
+        "web",
+        "free"
+      ]
     },
     {
       "id": "ai_307",
@@ -2459,7 +4029,13 @@
       "title": "Canva Magic Studio",
       "description": "AI suite including Magic Design, Write, Edit, Eraser, and Animate for content creation.",
       "url": "canva.com/magic",
-      "tags": ["design", "graphics", "ai-tools", "templates", "free-tier"]
+      "tags": [
+        "design",
+        "graphics",
+        "ai-tools",
+        "templates",
+        "free-tier"
+      ]
     },
     {
       "id": "ai_308",
@@ -2467,7 +4043,12 @@
       "title": "Looka",
       "description": "AI logo and brand design tool generating brand essentials like business cards and social media kits.",
       "url": "looka.com",
-      "tags": ["logo", "branding", "design", "business-cards"]
+      "tags": [
+        "logo",
+        "branding",
+        "design",
+        "business-cards"
+      ]
     },
     {
       "id": "ai_309",
@@ -2475,7 +4056,13 @@
       "title": "Lovable",
       "description": "Build apps and websites by prompting requirements. Fast-growing AI app builder.",
       "url": "lovable.dev",
-      "tags": ["app-builder", "no-code", "websites", "prompts", "free-tier"]
+      "tags": [
+        "app-builder",
+        "no-code",
+        "websites",
+        "prompts",
+        "free-tier"
+      ]
     },
     {
       "id": "ai_310",
@@ -2483,7 +4070,13 @@
       "title": "Cursor",
       "description": "AI-powered IDE (fork of VS Code) with file-aware code suggestions and AI pair programming.",
       "url": "cursor.sh",
-      "tags": ["coding", "ide", "vscode", "ai-pair-programming", "free-tier"]
+      "tags": [
+        "coding",
+        "ide",
+        "vscode",
+        "ai-pair-programming",
+        "free-tier"
+      ]
     },
     {
       "id": "ai_311",
@@ -2491,7 +4084,13 @@
       "title": "Notion Q&A",
       "description": "Queries company knowledge bases across Notion and Slack with sourced answers.",
       "url": "notion.so",
-      "tags": ["knowledge", "qa", "notion", "slack", "enterprise"]
+      "tags": [
+        "knowledge",
+        "qa",
+        "notion",
+        "slack",
+        "enterprise"
+      ]
     },
     {
       "id": "ai_312",
@@ -2499,7 +4098,12 @@
       "title": "Guru",
       "description": "Integrated knowledge platform surfacing answers directly in context within workflows.",
       "url": "getguru.com",
-      "tags": ["knowledge", "workflows", "enterprise", "search"]
+      "tags": [
+        "knowledge",
+        "workflows",
+        "enterprise",
+        "search"
+      ]
     },
     {
       "id": "ai_313",
@@ -2507,7 +4111,13 @@
       "title": "HubSpot AI Email Writer",
       "description": "Generates personalized email copy at scale with tone adjustment and CRM logging.",
       "url": "hubspot.com",
-      "tags": ["email", "marketing", "crm", "personalization", "free-tier"]
+      "tags": [
+        "email",
+        "marketing",
+        "crm",
+        "personalization",
+        "free-tier"
+      ]
     },
     {
       "id": "ai_314",
@@ -2515,7 +4125,12 @@
       "title": "Fyxer",
       "description": "Executive assistant automating email categorization, draft suggestions, and meeting notes.",
       "url": "fyxer.ai",
-      "tags": ["email", "automation", "drafts", "executive-assistant"]
+      "tags": [
+        "email",
+        "automation",
+        "drafts",
+        "executive-assistant"
+      ]
     },
     {
       "id": "ai_315",
@@ -2523,7 +4138,13 @@
       "title": "Shortwave",
       "description": "Email organizer with superior search and fast AI-assisted drafting.",
       "url": "shortwave.com",
-      "tags": ["email", "search", "drafting", "organization", "free-tier"]
+      "tags": [
+        "email",
+        "search",
+        "drafting",
+        "organization",
+        "free-tier"
+      ]
     },
     {
       "id": "ai_316",
@@ -2531,7 +4152,13 @@
       "title": "Reclaim",
       "description": "Calendar optimizer that automatically manages tasks, meetings, and focus blocks.",
       "url": "reclaim.ai",
-      "tags": ["calendar", "scheduling", "tasks", "focus-time", "free-tier"]
+      "tags": [
+        "calendar",
+        "scheduling",
+        "tasks",
+        "focus-time",
+        "free-tier"
+      ]
     },
     {
       "id": "ai_317",
@@ -2539,7 +4166,13 @@
       "title": "Clockwise",
       "description": "Calendar AI protecting focus time by rescheduling flexible meetings automatically.",
       "url": "getclockwise.com",
-      "tags": ["calendar", "focus-time", "meetings", "automation", "free"]
+      "tags": [
+        "calendar",
+        "focus-time",
+        "meetings",
+        "automation",
+        "free"
+      ]
     },
     {
       "id": "ai_318",
@@ -2547,7 +4180,13 @@
       "title": "Gamma",
       "description": "Generates full presentations from prompts, notes, or PDFs with sleek design.",
       "url": "gamma.app",
-      "tags": ["presentations", "slides", "ai-design", "pdf", "free-tier"]
+      "tags": [
+        "presentations",
+        "slides",
+        "ai-design",
+        "pdf",
+        "free-tier"
+      ]
     },
     {
       "id": "ai_319",
@@ -2555,7 +4194,13 @@
       "title": "Teal Resume Builder",
       "description": "Generates polished resumes with results-driven phrasing and includes job tracking.",
       "url": "tealhq.com",
-      "tags": ["resume", "job-search", "career", "tracking", "free"]
+      "tags": [
+        "resume",
+        "job-search",
+        "career",
+        "tracking",
+        "free"
+      ]
     },
     {
       "id": "ai_320",
@@ -2563,7 +4208,13 @@
       "title": "Kickresume",
       "description": "Creates ATS-compliant resumes with 40+ professional templates and personal website.",
       "url": "kickresume.com",
-      "tags": ["resume", "ats", "templates", "portfolio", "free-tier"]
+      "tags": [
+        "resume",
+        "ats",
+        "templates",
+        "portfolio",
+        "free-tier"
+      ]
     },
     {
       "id": "ai_321",
@@ -2571,7 +4222,13 @@
       "title": "Murf",
       "description": "Drag-and-drop voiceover tool with clean interface for explainer videos and presentations.",
       "url": "murf.ai",
-      "tags": ["voice", "tts", "voiceover", "videos", "free-tier"]
+      "tags": [
+        "voice",
+        "tts",
+        "voiceover",
+        "videos",
+        "free-tier"
+      ]
     },
     {
       "id": "ai_322",
@@ -2579,7 +4236,13 @@
       "title": "Suno",
       "description": "Generates original, royalty-free music from text prompts in various styles and genres.",
       "url": "suno.ai",
-      "tags": ["music", "generation", "royalty-free", "text-to-music", "free-tier"]
+      "tags": [
+        "music",
+        "generation",
+        "royalty-free",
+        "text-to-music",
+        "free-tier"
+      ]
     },
     {
       "id": "ai_323",
@@ -2587,7 +4250,13 @@
       "title": "Udio",
       "description": "Music AI favored by musicians for iteration and customization control over generated tracks.",
       "url": "udio.com",
-      "tags": ["music", "generation", "customization", "musicians", "free-tier"]
+      "tags": [
+        "music",
+        "generation",
+        "customization",
+        "musicians",
+        "free-tier"
+      ]
     },
     {
       "id": "ai_324",
@@ -2595,7 +4264,13 @@
       "title": "AdCreative",
       "description": "Generates polished ad creatives for Facebook, Instagram, and Google Ads campaigns.",
       "url": "adcreative.ai",
-      "tags": ["ads", "marketing", "social-media", "creatives", "design"]
+      "tags": [
+        "ads",
+        "marketing",
+        "social-media",
+        "creatives",
+        "design"
+      ]
     },
     {
       "id": "ai_325",
@@ -2603,7 +4278,13 @@
       "title": "AirOps",
       "description": "Content operations engine for scalable content creation and SEO optimization.",
       "url": "airops.com",
-      "tags": ["content", "seo", "marketing", "scalable", "operations"]
+      "tags": [
+        "content",
+        "seo",
+        "marketing",
+        "scalable",
+        "operations"
+      ]
     },
     {
       "id": "ai_326",
@@ -2611,7 +4292,13 @@
       "title": "Attio",
       "description": "Modern CRM with solid built-in data enrichment for SMEs and startups.",
       "url": "attio.com",
-      "tags": ["crm", "sales", "data-enrichment", "startups", "free-tier"]
+      "tags": [
+        "crm",
+        "sales",
+        "data-enrichment",
+        "startups",
+        "free-tier"
+      ]
     },
     {
       "id": "ai_327",
@@ -2619,7 +4306,13 @@
       "title": "Dechecker AI",
       "description": "Identifies text generated by models like ChatGPT and Claude with high accuracy.",
       "url": "dechecker.ai",
-      "tags": ["ai-detection", "chatgpt", "claude", "text-analysis", "free"]
+      "tags": [
+        "ai-detection",
+        "chatgpt",
+        "claude",
+        "text-analysis",
+        "free"
+      ]
     },
     {
       "id": "ai_328",
@@ -2627,7 +4320,13 @@
       "title": "Maestro AI",
       "description": "Orchestrates autonomous coding agents across desktop and CLI for automated development.",
       "url": "maestro.ai",
-      "tags": ["coding", "agents", "automation", "cli", "developer"]
+      "tags": [
+        "coding",
+        "agents",
+        "automation",
+        "cli",
+        "developer"
+      ]
     },
     {
       "id": "ai_329",
@@ -2635,7 +4334,13 @@
       "title": "Edubrain",
       "description": "AI-powered homework assistant providing step-by-step solutions and explanations.",
       "url": "edubrain.ai",
-      "tags": ["education", "homework", "tutoring", "explanations", "free"]
+      "tags": [
+        "education",
+        "homework",
+        "tutoring",
+        "explanations",
+        "free"
+      ]
     },
     {
       "id": "ai_330",
@@ -2643,7 +4348,12 @@
       "title": "Aigazou",
       "description": "Free AI image generator that creates high-quality images from text descriptions.",
       "url": "aigazou.com",
-      "tags": ["image-generation", "text-to-image", "free", "art"]
+      "tags": [
+        "image-generation",
+        "text-to-image",
+        "free",
+        "art"
+      ]
     },
     {
       "id": "ai_331",
@@ -2651,7 +4361,13 @@
       "title": "Devstral CLI",
       "description": "Open-source coding models designed for autonomous code automation on your machine.",
       "url": "github.com/mistralai/devstral",
-      "tags": ["coding", "local-ai", "automation", "open-source", "cli"]
+      "tags": [
+        "coding",
+        "local-ai",
+        "automation",
+        "open-source",
+        "cli"
+      ]
     },
     {
       "id": "ai_332",
@@ -2659,7 +4375,13 @@
       "title": "FoundryLocal",
       "description": "Runs AI models on-device using ONNX Runtime to maintain data privacy.",
       "url": "foundrylocal.ai",
-      "tags": ["local-ai", "privacy", "onnx", "on-device", "free"]
+      "tags": [
+        "local-ai",
+        "privacy",
+        "onnx",
+        "on-device",
+        "free"
+      ]
     },
     {
       "id": "ai_333",
@@ -2667,7 +4389,13 @@
       "title": "Nuraform",
       "description": "Generates branded forms from prompts with customizable input types and styling.",
       "url": "nuraform.com",
-      "tags": ["forms", "no-code", "branding", "prompts", "free"]
+      "tags": [
+        "forms",
+        "no-code",
+        "branding",
+        "prompts",
+        "free"
+      ]
     },
     {
       "id": "ai_334",
@@ -2675,7 +4403,13 @@
       "title": "Nametastic",
       "description": "AI-powered domain name generator that creates and ranks up to 1,000 name suggestions.",
       "url": "nametastic.io",
-      "tags": ["domains", "naming", "branding", "generator", "free"]
+      "tags": [
+        "domains",
+        "naming",
+        "branding",
+        "generator",
+        "free"
+      ]
     },
     {
       "id": "ai_335",
@@ -2683,7 +4417,13 @@
       "title": "DeepSeek V3",
       "description": "Advanced open-source LLM offering leading performance comparable to proprietary models.",
       "url": "deepseek.com",
-      "tags": ["llm", "open-source", "chat", "reasoning", "free"]
+      "tags": [
+        "llm",
+        "open-source",
+        "chat",
+        "reasoning",
+        "free"
+      ]
     },
     {
       "id": "ai_336",
@@ -2691,7 +4431,13 @@
       "title": "AntiGravity (Google)",
       "description": "IDE for developers featuring tab autocompletion and natural language code commands.",
       "url": "google.com/antigravity",
-      "tags": ["ide", "coding", "google", "autocompletion", "developer"]
+      "tags": [
+        "ide",
+        "coding",
+        "google",
+        "autocompletion",
+        "developer"
+      ]
     },
     {
       "id": "ai_337",
@@ -2699,7 +4445,12 @@
       "title": "Face Shape Detector",
       "description": "Analyzes your facial structure from an uploaded photo to determine face shape.",
       "url": "faceshapedetector.com",
-      "tags": ["beauty", "face-analysis", "photos", "free"]
+      "tags": [
+        "beauty",
+        "face-analysis",
+        "photos",
+        "free"
+      ]
     },
     {
       "id": "ai_338",
@@ -2707,7 +4458,13 @@
       "title": "Super Humanizer AI",
       "description": "Transforms AI-generated text into natural, human-like content to bypass detection.",
       "url": "superhumanizer.ai",
-      "tags": ["paraphrasing", "humanize", "ai-detection", "writing", "free"]
+      "tags": [
+        "paraphrasing",
+        "humanize",
+        "ai-detection",
+        "writing",
+        "free"
+      ]
     },
     {
       "id": "ai_339",
@@ -2715,7 +4472,13 @@
       "title": "Plagiarism Checker (TopAI)",
       "description": "Detects potential plagiarism in documents up to 3,000 words with detailed reports.",
       "url": "topai.tools/plagiarism-checker",
-      "tags": ["plagiarism", "writing", "checking", "academic", "free"]
+      "tags": [
+        "plagiarism",
+        "writing",
+        "checking",
+        "academic",
+        "free"
+      ]
     },
     {
       "id": "ai_340",
@@ -2723,7 +4486,13 @@
       "title": "AIFreeBox",
       "description": "Platform offering over 500 AI tools for content creation, writing, and more in one place.",
       "url": "aifreebox.com",
-      "tags": ["multi-tool", "content", "writing", "free", "all-in-one"]
+      "tags": [
+        "multi-tool",
+        "content",
+        "writing",
+        "free",
+        "all-in-one"
+      ]
     },
     {
       "id": "ai_341",
@@ -2731,7 +4500,13 @@
       "title": "Read.ai",
       "description": "Meeting intelligence tool that transcribes, summarizes and surfaces action items automatically.",
       "url": "read.ai",
-      "tags": ["meetings", "transcription", "summaries", "action-items", "free"]
+      "tags": [
+        "meetings",
+        "transcription",
+        "summaries",
+        "action-items",
+        "free"
+      ]
     },
     {
       "id": "ai_342",
@@ -2739,7 +4514,1314 @@
       "title": "Aitubo",
       "description": "AI image generator known for anime and stylized art, popular for unique illustration styles.",
       "url": "aitubo.ai",
-      "tags": ["anime", "illustration", "art", "stylized", "free"]
+      "tags": [
+        "anime",
+        "illustration",
+        "art",
+        "stylized",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_343",
+      "category": "Personal Assistants",
+      "title": "Claude",
+      "description": "Anthropic's AI assistant known for long context windows and helpful, harmless, and honest responses.",
+      "url": "claude.ai",
+      "tags": [
+        "chatbot",
+        "assistant",
+        "conversation",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_344",
+      "category": "Personal Assistants",
+      "title": "Perplexity AI",
+      "description": "AI-powered search engine that provides answers with cited sources and real-time information.",
+      "url": "perplexity.ai",
+      "tags": [
+        "search",
+        "research",
+        "citations",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_345",
+      "category": "Personal Assistants",
+      "title": "Poe",
+      "description": "Platform offering access to multiple AI chatbots including GPT-4, Claude, and custom bots.",
+      "url": "poe.com",
+      "tags": [
+        "chatbot",
+        "multi-model",
+        "conversation",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_346",
+      "category": "Personal Assistants",
+      "title": "Google Gemini",
+      "description": "Google's conversational AI assistant with integration across Google services and multimodal capabilities.",
+      "url": "gemini.google.com",
+      "tags": [
+        "chatbot",
+        "google",
+        "multimodal",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_347",
+      "category": "Personal Assistants",
+      "title": "Microsoft Copilot",
+      "description": "Microsoft's AI companion integrated with Windows, Edge, and Office for productivity assistance.",
+      "url": "copilot.microsoft.com",
+      "tags": [
+        "assistant",
+        "microsoft",
+        "productivity",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_348",
+      "category": "Personal Assistants",
+      "title": "Character.AI",
+      "description": "Create and chat with AI characters for entertainment, roleplay, and creative storytelling.",
+      "url": "character.ai",
+      "tags": [
+        "chatbot",
+        "roleplay",
+        "entertainment",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_349",
+      "category": "Personal Assistants",
+      "title": "Pi AI",
+      "description": "Personal AI assistant by Inflection AI focused on supportive, empathetic conversations.",
+      "url": "pi.ai",
+      "tags": [
+        "chatbot",
+        "personal",
+        "empathetic",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_350",
+      "category": "Personal Assistants",
+      "title": "HuggingChat",
+      "description": "Open-source alternative to ChatGPT powered by Hugging Face's language models.",
+      "url": "huggingface.co/chat",
+      "tags": [
+        "chatbot",
+        "open-source",
+        "conversation",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_351",
+      "category": "Personal Assistants",
+      "title": "You.com",
+      "description": "AI search engine with integrated chat, code, and creative writing modes.",
+      "url": "you.com",
+      "tags": [
+        "search",
+        "chatbot",
+        "multi-mode",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_352",
+      "category": "Personal Assistants",
+      "title": "Replika",
+      "description": "AI companion app designed for emotional support and personal growth conversations.",
+      "url": "replika.com",
+      "tags": [
+        "companion",
+        "emotional-support",
+        "personal",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_353",
+      "category": "Personal Assistants",
+      "title": "ChatSonic",
+      "description": "Conversational AI with real-time data, image generation, and voice interaction capabilities.",
+      "url": "writesonic.com/chat",
+      "tags": [
+        "chatbot",
+        "voice",
+        "image-gen",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_354",
+      "category": "Personal Assistants",
+      "title": "Claude Code",
+      "description": "Anthropic's official CLI tool for Claude, enabling AI-powered coding assistance in terminal.",
+      "url": "claude.ai/code",
+      "tags": [
+        "coding",
+        "cli",
+        "terminal",
+        "assistant",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_355",
+      "category": "Personal Assistants",
+      "title": "Mistral Chat",
+      "description": "European AI chatbot by Mistral AI offering powerful language understanding and generation.",
+      "url": "chat.mistral.ai",
+      "tags": [
+        "chatbot",
+        "european",
+        "conversation",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_356",
+      "category": "Personal Assistants",
+      "title": "DeepSeek Chat",
+      "description": "Advanced AI assistant with strong reasoning capabilities and code understanding.",
+      "url": "chat.deepseek.com",
+      "tags": [
+        "chatbot",
+        "reasoning",
+        "coding",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_357",
+      "category": "Personal Assistants",
+      "title": "Grok",
+      "description": "xAI's conversational assistant with real-time access to X (Twitter) for current information.",
+      "url": "x.ai",
+      "tags": [
+        "chatbot",
+        "real-time",
+        "twitter",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_358",
+      "category": "Voice & Audio",
+      "title": "ElevenLabs",
+      "description": "Premium AI voice generation and cloning with natural-sounding speech synthesis.",
+      "url": "elevenlabs.io",
+      "tags": [
+        "voice",
+        "tts",
+        "voice-cloning",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_359",
+      "category": "Voice & Audio",
+      "title": "Murf AI",
+      "description": "AI voiceover studio with 120+ voices for video narration, presentations, and podcasts.",
+      "url": "murf.ai",
+      "tags": [
+        "voice",
+        "voiceover",
+        "narration",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_360",
+      "category": "Voice & Audio",
+      "title": "Suno AI",
+      "description": "Generate complete songs with vocals from text prompts, create music in any genre.",
+      "url": "suno.ai",
+      "tags": [
+        "music",
+        "song-generation",
+        "vocals",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_361",
+      "category": "Voice & Audio",
+      "title": "Udio",
+      "description": "AI music creation platform for generating professional-quality tracks with lyrics.",
+      "url": "udio.com",
+      "tags": [
+        "music",
+        "song-generation",
+        "lyrics",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_362",
+      "category": "Voice & Audio",
+      "title": "PlayHT",
+      "description": "Realistic AI voice generator with emotion control and ultra-low latency streaming.",
+      "url": "play.ht",
+      "tags": [
+        "voice",
+        "tts",
+        "emotion",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_363",
+      "category": "Voice & Audio",
+      "title": "Resemble AI",
+      "description": "AI voice cloning and generation for games, audiobooks, and real-time applications.",
+      "url": "resemble.ai",
+      "tags": [
+        "voice-cloning",
+        "voice",
+        "real-time",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_364",
+      "category": "Voice & Audio",
+      "title": "Descript Overdub",
+      "description": "Create an AI clone of your voice for seamless audio editing and correction.",
+      "url": "descript.com",
+      "tags": [
+        "voice-cloning",
+        "editing",
+        "podcasting",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_365",
+      "category": "Voice & Audio",
+      "title": "Speechify",
+      "description": "Text-to-speech app that converts documents, articles, and PDFs into natural audio.",
+      "url": "speechify.com",
+      "tags": [
+        "tts",
+        "reading",
+        "accessibility",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_366",
+      "category": "Voice & Audio",
+      "title": "Riverside AI",
+      "description": "AI-powered podcast and video recording with transcription and audio enhancement.",
+      "url": "riverside.fm",
+      "tags": [
+        "podcasting",
+        "recording",
+        "transcription",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_367",
+      "category": "Voice & Audio",
+      "title": "Adobe Podcast AI",
+      "description": "Free AI audio enhancement tool that removes background noise and improves speech quality.",
+      "url": "podcast.adobe.com",
+      "tags": [
+        "audio-enhancement",
+        "noise-removal",
+        "podcasting",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_368",
+      "category": "Video Creation",
+      "title": "Runway Gen-3",
+      "description": "State-of-the-art AI video generation from text and images with cinematic quality.",
+      "url": "runwayml.com",
+      "tags": [
+        "video-generation",
+        "text-to-video",
+        "ai-video",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_369",
+      "category": "Video Creation",
+      "title": "Pika Labs",
+      "description": "Transform text and images into dynamic 3D animated videos with camera controls.",
+      "url": "pika.art",
+      "tags": [
+        "video-generation",
+        "3d-animation",
+        "text-to-video",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_370",
+      "category": "Video Creation",
+      "title": "HeyGen",
+      "description": "Create AI avatar videos with voice cloning for marketing, training, and presentations.",
+      "url": "heygen.com",
+      "tags": [
+        "avatar",
+        "video",
+        "voice-cloning",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_371",
+      "category": "Video Creation",
+      "title": "Synthesia",
+      "description": "Professional AI video generation with 140+ avatars and 120+ languages for training videos.",
+      "url": "synthesia.io",
+      "tags": [
+        "avatar",
+        "video",
+        "multilingual",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_372",
+      "category": "Video Creation",
+      "title": "Luma AI",
+      "description": "Generate stunning cinematic videos from text prompts with Dream Machine.",
+      "url": "lumalabs.ai",
+      "tags": [
+        "video-generation",
+        "cinematic",
+        "text-to-video",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_373",
+      "category": "Video Creation",
+      "title": "D-ID",
+      "description": "Bring photos to life with AI-powered talking avatars and video generation.",
+      "url": "d-id.com",
+      "tags": [
+        "avatar",
+        "talking-head",
+        "video",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_374",
+      "category": "Video Creation",
+      "title": "Kaiber AI",
+      "description": "Transform images and videos into artistic animations with music synchronization.",
+      "url": "kaiber.ai",
+      "tags": [
+        "animation",
+        "music-video",
+        "artistic",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_375",
+      "category": "Video Creation",
+      "title": "Descript Video",
+      "description": "Edit videos as easily as editing text documents with AI-powered features.",
+      "url": "descript.com",
+      "tags": [
+        "video-editing",
+        "transcription",
+        "automation",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_376",
+      "category": "Video Creation",
+      "title": "Pictory AI",
+      "description": "Transform scripts and articles into engaging videos with stock footage and voiceovers.",
+      "url": "pictory.ai",
+      "tags": [
+        "video",
+        "script-to-video",
+        "automation",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_377",
+      "category": "Video Creation",
+      "title": "InVideo AI",
+      "description": "Generate YouTube videos from text prompts with AI script writing and editing.",
+      "url": "invideo.io",
+      "tags": [
+        "video",
+        "youtube",
+        "automation",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_378",
+      "category": "Video Creation",
+      "title": "CapCut AI",
+      "description": "Free video editor with AI background removal, auto-captions, and effects.",
+      "url": "capcut.com",
+      "tags": [
+        "video-editing",
+        "captions",
+        "effects",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_379",
+      "category": "Video Creation",
+      "title": "Wondershare Filmora",
+      "description": "Video editor with AI-powered features like motion tracking and auto-reframe.",
+      "url": "filmora.wondershare.com",
+      "tags": [
+        "video-editing",
+        "motion-tracking",
+        "effects",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_380",
+      "category": "Video Creation",
+      "title": "OpusClip",
+      "description": "AI-powered tool that transforms long videos into viral short clips for social media.",
+      "url": "opus.pro",
+      "tags": [
+        "video-clipping",
+        "shorts",
+        "social-media",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_381",
+      "category": "Video Creation",
+      "title": "Haiper AI",
+      "description": "Create fun and creative AI videos from text descriptions with unique artistic styles.",
+      "url": "haiper.ai",
+      "tags": [
+        "video-generation",
+        "text-to-video",
+        "artistic",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_382",
+      "category": "Video Creation",
+      "title": "Steve.AI",
+      "description": "Convert blog posts and scripts into animated videos and live-action content.",
+      "url": "steve.ai",
+      "tags": [
+        "animation",
+        "blog-to-video",
+        "automation",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_383",
+      "category": "Coding Assistants",
+      "title": "Cursor",
+      "description": "AI-first code editor with intelligent code completion and chat built on VS Code.",
+      "url": "cursor.sh",
+      "tags": [
+        "coding",
+        "ide",
+        "autocomplete",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_384",
+      "category": "Coding Assistants",
+      "title": "GitHub Copilot",
+      "description": "AI pair programmer that suggests code and entire functions in real-time.",
+      "url": "github.com/features/copilot",
+      "tags": [
+        "coding",
+        "autocomplete",
+        "github",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_385",
+      "category": "Coding Assistants",
+      "title": "Replit AI",
+      "description": "Cloud-based IDE with AI code generation, debugging, and collaboration features.",
+      "url": "replit.com",
+      "tags": [
+        "coding",
+        "cloud-ide",
+        "collaboration",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_386",
+      "category": "Coding Assistants",
+      "title": "Bolt.new",
+      "description": "Build and deploy full-stack web apps instantly with AI-powered code generation.",
+      "url": "bolt.new",
+      "tags": [
+        "coding",
+        "web-dev",
+        "deployment",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_387",
+      "category": "Coding Assistants",
+      "title": "v0.dev",
+      "description": "Vercel's AI tool for generating React components and UI from text descriptions.",
+      "url": "v0.dev",
+      "tags": [
+        "coding",
+        "react",
+        "ui-generation",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_388",
+      "category": "Coding Assistants",
+      "title": "Codeium",
+      "description": "Free AI code autocomplete supporting 70+ languages with context-aware suggestions.",
+      "url": "codeium.com",
+      "tags": [
+        "coding",
+        "autocomplete",
+        "multi-language",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_389",
+      "category": "Coding Assistants",
+      "title": "Tabnine",
+      "description": "AI code assistant with privacy-focused local model options and team learning.",
+      "url": "tabnine.com",
+      "tags": [
+        "coding",
+        "autocomplete",
+        "privacy",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_390",
+      "category": "Coding Assistants",
+      "title": "Amazon CodeWhisperer",
+      "description": "AWS's AI coding companion with built-in security scanning and AWS optimization.",
+      "url": "aws.amazon.com/codewhisperer",
+      "tags": [
+        "coding",
+        "aws",
+        "security",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_391",
+      "category": "Coding Assistants",
+      "title": "Sourcegraph Cody",
+      "description": "AI assistant that understands your entire codebase for contextual help and refactoring.",
+      "url": "sourcegraph.com/cody",
+      "tags": [
+        "coding",
+        "codebase-analysis",
+        "refactoring",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_392",
+      "category": "Coding Assistants",
+      "title": "Windsurf",
+      "description": "AI-powered IDE combining the best of Cursor and v0 for rapid development.",
+      "url": "codeium.com/windsurf",
+      "tags": [
+        "coding",
+        "ide",
+        "rapid-dev",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_393",
+      "category": "Coding Assistants",
+      "title": "Phind",
+      "description": "AI search engine specifically designed for developers with code examples and explanations.",
+      "url": "phind.com",
+      "tags": [
+        "search",
+        "coding",
+        "documentation",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_394",
+      "category": "Coding Assistants",
+      "title": "CodePal",
+      "description": "Collection of AI coding tools for code generation, debugging, and documentation.",
+      "url": "codepal.ai",
+      "tags": [
+        "coding",
+        "debugging",
+        "documentation",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_395",
+      "category": "Coding Assistants",
+      "title": "Pieces for Developers",
+      "description": "AI-powered code snippet manager with context-aware search and sharing.",
+      "url": "pieces.app",
+      "tags": [
+        "coding",
+        "snippets",
+        "productivity",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_396",
+      "category": "Coding Assistants",
+      "title": "Blackbox AI",
+      "description": "Code generation and search tool with real-time code suggestions across languages.",
+      "url": "blackbox.ai",
+      "tags": [
+        "coding",
+        "search",
+        "code-generation",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_397",
+      "category": "Coding Assistants",
+      "title": "Continue.dev",
+      "description": "Open-source AI code assistant plugin for VS Code and JetBrains IDEs.",
+      "url": "continue.dev",
+      "tags": [
+        "coding",
+        "open-source",
+        "ide-plugin",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_398",
+      "category": "3D & Design",
+      "title": "Meshy AI",
+      "description": "Generate 3D models from text and images for games, VR, and 3D printing.",
+      "url": "meshy.ai",
+      "tags": [
+        "3d-modeling",
+        "text-to-3d",
+        "game-dev",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_399",
+      "category": "3D & Design",
+      "title": "Spline AI",
+      "description": "AI-powered 3D design tool with text-to-3D generation and web integration.",
+      "url": "spline.design",
+      "tags": [
+        "3d-design",
+        "web-3d",
+        "text-to-3d",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_400",
+      "category": "3D & Design",
+      "title": "Figma AI",
+      "description": "AI features in Figma for auto-layout suggestions, design system matching, and content generation.",
+      "url": "figma.com",
+      "tags": [
+        "design",
+        "ui-ux",
+        "prototyping",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_401",
+      "category": "3D & Design",
+      "title": "Canva Magic Studio",
+      "description": "Comprehensive AI design suite with text-to-image, background removal, and video editing.",
+      "url": "canva.com",
+      "tags": [
+        "design",
+        "graphics",
+        "all-in-one",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_402",
+      "category": "3D & Design",
+      "title": "Uizard",
+      "description": "Transform sketches and screenshots into editable UI designs with AI.",
+      "url": "uizard.io",
+      "tags": [
+        "ui-design",
+        "wireframe",
+        "prototyping",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_403",
+      "category": "3D & Design",
+      "title": "Rosebud AI",
+      "description": "Generate complete game assets and 3D environments from text descriptions.",
+      "url": "rosebud.ai",
+      "tags": [
+        "game-assets",
+        "3d",
+        "game-dev",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_404",
+      "category": "3D & Design",
+      "title": "Khroma",
+      "description": "AI color palette generator that learns your preferences for design projects.",
+      "url": "khroma.co",
+      "tags": [
+        "colors",
+        "design",
+        "palette",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_405",
+      "category": "3D & Design",
+      "title": "Microsoft Designer",
+      "description": "AI-powered graphic design tool for social media posts, invitations, and branding.",
+      "url": "designer.microsoft.com",
+      "tags": [
+        "design",
+        "graphics",
+        "social-media",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_406",
+      "category": "3D & Design",
+      "title": "Framer AI",
+      "description": "Generate website designs and prototypes from text prompts with live code output.",
+      "url": "framer.com",
+      "tags": [
+        "web-design",
+        "prototyping",
+        "no-code",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_407",
+      "category": "3D & Design",
+      "title": "Stylar AI",
+      "description": "AI-powered image composition and editing tool with precise control layers.",
+      "url": "stylar.ai",
+      "tags": [
+        "image-editing",
+        "composition",
+        "design",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_408",
+      "category": "Healthcare & Wellness",
+      "title": "Ada Health",
+      "description": "AI symptom checker that helps identify potential health conditions and next steps.",
+      "url": "ada.com",
+      "tags": [
+        "health",
+        "symptom-checker",
+        "medical",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_409",
+      "category": "Healthcare & Wellness",
+      "title": "Wysa",
+      "description": "AI mental health chatbot offering CBT-based therapy and emotional support.",
+      "url": "wysa.io",
+      "tags": [
+        "mental-health",
+        "therapy",
+        "chatbot",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_410",
+      "category": "Healthcare & Wellness",
+      "title": "Woebot",
+      "description": "Evidence-based mental health chatbot providing cognitive behavioral therapy techniques.",
+      "url": "woebot.io",
+      "tags": [
+        "mental-health",
+        "cbt",
+        "therapy",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_411",
+      "category": "Healthcare & Wellness",
+      "title": "Headspace AI",
+      "description": "Personalized meditation and mindfulness recommendations based on your mood and goals.",
+      "url": "headspace.com",
+      "tags": [
+        "meditation",
+        "mindfulness",
+        "wellness",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_412",
+      "category": "Healthcare & Wellness",
+      "title": "Flo Health",
+      "description": "AI-powered period tracker and women's health assistant with personalized insights.",
+      "url": "flo.health",
+      "tags": [
+        "womens-health",
+        "tracking",
+        "health",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_413",
+      "category": "Healthcare & Wellness",
+      "title": "MyFitnessPal AI",
+      "description": "AI nutrition coach with meal planning, calorie tracking, and personalized recommendations.",
+      "url": "myfitnesspal.com",
+      "tags": [
+        "nutrition",
+        "fitness",
+        "tracking",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_414",
+      "category": "Healthcare & Wellness",
+      "title": "Youper",
+      "description": "AI therapy assistant for anxiety and depression with mood tracking and CBT exercises.",
+      "url": "youper.ai",
+      "tags": [
+        "mental-health",
+        "anxiety",
+        "mood-tracking",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_415",
+      "category": "Healthcare & Wellness",
+      "title": "Skinive",
+      "description": "AI-powered skin analysis app for detecting potential skin conditions from photos.",
+      "url": "skinive.com",
+      "tags": [
+        "dermatology",
+        "skin-analysis",
+        "health",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_416",
+      "category": "Healthcare & Wellness",
+      "title": "Buoy Health",
+      "description": "AI health assistant that helps navigate symptoms and find appropriate care.",
+      "url": "buoy.com",
+      "tags": [
+        "symptom-checker",
+        "health",
+        "medical",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_417",
+      "category": "Healthcare & Wellness",
+      "title": "Lark Health",
+      "description": "AI health coach for diabetes prevention, weight loss, and chronic disease management.",
+      "url": "lark.com",
+      "tags": [
+        "health-coach",
+        "diabetes",
+        "wellness",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_418",
+      "category": "Productivity",
+      "title": "Notion AI",
+      "description": "AI writing assistant integrated into Notion for summaries, brainstorming, and content generation.",
+      "url": "notion.so",
+      "tags": [
+        "notes",
+        "writing",
+        "productivity",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_419",
+      "category": "Productivity",
+      "title": "Obsidian AI",
+      "description": "AI plugins for Obsidian offering smart suggestions, linking, and content generation.",
+      "url": "obsidian.md",
+      "tags": [
+        "notes",
+        "knowledge-management",
+        "writing",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_420",
+      "category": "Productivity",
+      "title": "Motion",
+      "description": "AI calendar assistant that automatically schedules tasks and optimizes your day.",
+      "url": "usemotion.com",
+      "tags": [
+        "calendar",
+        "scheduling",
+        "time-management",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_421",
+      "category": "Productivity",
+      "title": "Reclaim AI",
+      "description": "Smart calendar app that defends time for habits, tasks, and meetings automatically.",
+      "url": "reclaim.ai",
+      "tags": [
+        "calendar",
+        "time-blocking",
+        "productivity",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_422",
+      "category": "Productivity",
+      "title": "Magical AI",
+      "description": "Text expander and automation tool that works across all your apps with AI.",
+      "url": "magical.so",
+      "tags": [
+        "automation",
+        "text-expansion",
+        "productivity",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_423",
+      "category": "Productivity",
+      "title": "Superhuman AI",
+      "description": "Lightning-fast email client with AI-powered features for inbox management.",
+      "url": "superhuman.com",
+      "tags": [
+        "email",
+        "productivity",
+        "inbox",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_424",
+      "category": "Productivity",
+      "title": "Mem AI",
+      "description": "Self-organizing workspace that uses AI to surface relevant notes and information.",
+      "url": "mem.ai",
+      "tags": [
+        "notes",
+        "knowledge-management",
+        "search",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_425",
+      "category": "Productivity",
+      "title": "Taskade AI",
+      "description": "AI-powered team workspace with mind maps, task lists, and video chat.",
+      "url": "taskade.com",
+      "tags": [
+        "tasks",
+        "collaboration",
+        "mind-mapping",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_426",
+      "category": "Productivity",
+      "title": "Todoist AI",
+      "description": "Smart task suggestions and natural language processing for better task management.",
+      "url": "todoist.com",
+      "tags": [
+        "tasks",
+        "planning",
+        "productivity",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_427",
+      "category": "Productivity",
+      "title": "Clockwise",
+      "description": "AI calendar optimization tool that creates focus time and resolves scheduling conflicts.",
+      "url": "getclockwise.com",
+      "tags": [
+        "calendar",
+        "focus-time",
+        "scheduling",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_428",
+      "category": "Writing & Research",
+      "title": "Jasper AI",
+      "description": "AI content platform for marketing copy, blog posts, and social media content.",
+      "url": "jasper.ai",
+      "tags": [
+        "copywriting",
+        "content",
+        "marketing",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_429",
+      "category": "Writing & Research",
+      "title": "Copy.ai",
+      "description": "AI copywriting tool for sales emails, product descriptions, and ad copy.",
+      "url": "copy.ai",
+      "tags": [
+        "copywriting",
+        "marketing",
+        "content",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_430",
+      "category": "Writing & Research",
+      "title": "Writesonic",
+      "description": "AI writing assistant for articles, ads, landing pages, and product descriptions.",
+      "url": "writesonic.com",
+      "tags": [
+        "writing",
+        "content",
+        "marketing",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_431",
+      "category": "Writing & Research",
+      "title": "Rytr",
+      "description": "Affordable AI writing assistant supporting 30+ languages and 20+ tones.",
+      "url": "rytr.me",
+      "tags": [
+        "writing",
+        "multilingual",
+        "content",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_432",
+      "category": "Writing & Research",
+      "title": "Wordtune",
+      "description": "AI writing companion that rewrites and rephrases for clarity and tone.",
+      "url": "wordtune.com",
+      "tags": [
+        "rewriting",
+        "editing",
+        "writing",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_433",
+      "category": "Writing & Research",
+      "title": "Elicit",
+      "description": "AI research assistant that finds and summarizes academic papers relevant to your question.",
+      "url": "elicit.org",
+      "tags": [
+        "research",
+        "academic",
+        "papers",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_434",
+      "category": "Writing & Research",
+      "title": "Consensus",
+      "description": "AI-powered search engine for scientific research with evidence-based answers.",
+      "url": "consensus.app",
+      "tags": [
+        "research",
+        "science",
+        "academic",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_435",
+      "category": "Writing & Research",
+      "title": "Scholarcy",
+      "description": "AI tool that reads research papers and generates summary flashcards with key findings.",
+      "url": "scholarcy.com",
+      "tags": [
+        "research",
+        "summaries",
+        "academic",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_436",
+      "category": "Writing & Research",
+      "title": "Semantic Scholar",
+      "description": "Free AI-powered academic search engine with paper summaries and citation analysis.",
+      "url": "semanticscholar.org",
+      "tags": [
+        "research",
+        "academic",
+        "citations",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_437",
+      "category": "Writing & Research",
+      "title": "Compose AI",
+      "description": "Chrome extension that autocompletes your writing across all websites using AI.",
+      "url": "compose.ai",
+      "tags": [
+        "writing",
+        "autocomplete",
+        "browser-extension",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_438",
+      "category": "Music Creation",
+      "title": "Stable Audio",
+      "description": "Generate high-quality music and sound effects from text descriptions by Stability AI.",
+      "url": "stableaudio.com",
+      "tags": [
+        "music",
+        "audio",
+        "sound-effects",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_439",
+      "category": "Music Creation",
+      "title": "AIVA",
+      "description": "AI music composer for creating soundtracks for games, films, and commercials.",
+      "url": "aiva.ai",
+      "tags": [
+        "music",
+        "composition",
+        "soundtrack",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_440",
+      "category": "Music Creation",
+      "title": "Soundraw",
+      "description": "Generate royalty-free background music customized to your content's mood and length.",
+      "url": "soundraw.io",
+      "tags": [
+        "music",
+        "royalty-free",
+        "background-music",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_441",
+      "category": "Music Creation",
+      "title": "Beatoven.ai",
+      "description": "Create unique mood-based music for videos and podcasts with AI composition.",
+      "url": "beatoven.ai",
+      "tags": [
+        "music",
+        "mood-based",
+        "video-music",
+        "free"
+      ]
+    },
+    {
+      "id": "ai_442",
+      "category": "Music Creation",
+      "title": "Loudly",
+      "description": "AI music generator for creating, customizing, and discovering royalty-free music.",
+      "url": "loudly.com",
+      "tags": [
+        "music",
+        "royalty-free",
+        "customization",
+        "free"
+      ]
     }
   ]
 }
