@@ -180,6 +180,7 @@ const UnifiedSearchComponent = React.lazy(() => import('./components/search/Unif
 const UniversalAppsPage = React.lazy(() => import('./pages/UniversalAppsPage'));
 const ShadowLibraryPage = React.lazy(() => import('./pages/ShadowLibraryPage'));
 const MediaPlayerPage = React.lazy(() => import('./pages/MediaPlayerPage'));
+const UnifiedCommandCenter = React.lazy(() => import('./components/hub/UnifiedCommandCenter'));
 
 import { BrowserRouter as Router, Routes, Route, NavLink, useNavigate, Navigate } from 'react-router-dom';
 import {
@@ -1102,6 +1103,11 @@ const App: React.FC = () => {
           <DollGuideSystem
             onNavigate={(path) => window.location.href = path}
           />
+        </Suspense>
+
+        {/* Unified Command Center - All Features Integrated */}
+        <Suspense fallback={null}>
+          <UnifiedCommandCenter />
         </Suspense>
         </div>
       </Router>
