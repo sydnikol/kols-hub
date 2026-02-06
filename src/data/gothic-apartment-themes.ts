@@ -3178,6 +3178,267 @@ export const GOTHIC_THEMES: GothicTheme[] = [
     specialEffects: ['feather fall', 'crown glow'],
     isHoliday: false,
     season: 'all'
+  },
+
+  // ==================== GOTHIC BRATZ THEMES (116-150) ====================
+  {
+    id: 'bratz-midnight-glam',
+    name: 'Bratz Midnight Glam ☽',
+    category: 'romantic-gothic',
+    description: 'Fierce Bratz energy meets gothic glamour - platform boots and velvet everywhere',
+    colors: { primary: '#2D1B4E', secondary: '#1A0F2E', accent: '#FF1493', background: '#0D0A12', surface: '#1E1428', text: '#FFE4EC', textMuted: '#C890B0', glow: '#FF69B4' },
+    ambiance: { lighting: 'moonlight', mood: 'fierce', scent: 'dark jasmine', sound: 'city night', temperature: 'warm' },
+    decorations: ['platform boot displays', 'oversized mirrors', 'glossy lip art', 'fashion sketches'],
+    specialEffects: ['sparkle dust', 'mirror reflections'],
+    isHoliday: false, season: 'all'
+  },
+  {
+    id: 'bratz-cyber-punk',
+    name: 'Bratz Cyber Queen ⚡',
+    category: 'steampunk',
+    description: 'Futuristic Bratz with neon accents and holographic everything',
+    colors: { primary: '#0A0E1A', secondary: '#050810', accent: '#00FFFF', background: '#020408', surface: '#0C1018', text: '#E0FFFF', textMuted: '#60A0A0', glow: '#00CED1' },
+    ambiance: { lighting: 'ethereal', mood: 'electric', scent: 'metallic rain', sound: 'synth waves', temperature: 'cool' },
+    decorations: ['holographic screens', 'LED strips', 'cyber accessories', 'neon signs'],
+    specialEffects: ['hologram projections', 'data streams'],
+    isHoliday: false, season: 'all'
+  },
+  {
+    id: 'bratz-witch-coven',
+    name: 'Bratz Witch Coven 🔮',
+    category: 'witchy',
+    description: 'Magical Bratz witches with crystals, herbs, and spell books',
+    colors: { primary: '#1A0A2E', secondary: '#0D0518', accent: '#9400D3', background: '#05010A', surface: '#120820', text: '#E8D0FF', textMuted: '#A080C0', glow: '#BA55D3' },
+    ambiance: { lighting: 'candlelight', mood: 'mystical', scent: 'sage and lavender', sound: 'bubbling cauldron', temperature: 'warm' },
+    decorations: ['crystal grids', 'spell books', 'herb jars', 'moon phase art'],
+    specialEffects: ['magic sparkles', 'potion mist'],
+    isHoliday: false, season: 'all'
+  },
+  {
+    id: 'bratz-royal-throne',
+    name: 'Bratz Royal Throne 👑',
+    category: 'royal',
+    description: 'Queens only - gold accents, velvet thrones, crown collection',
+    colors: { primary: '#2A1A10', secondary: '#1A0A08', accent: '#FFD700', background: '#0A0504', surface: '#221208', text: '#FFF8E0', textMuted: '#C0A060', glow: '#FFA500' },
+    ambiance: { lighting: 'candlelight', mood: 'regal', scent: 'royal amber', sound: 'classical strings', temperature: 'warm' },
+    decorations: ['golden thrones', 'crown displays', 'royal portraits', 'velvet curtains'],
+    specialEffects: ['golden shimmer', 'royal spotlight'],
+    isHoliday: false, season: 'all'
+  },
+  {
+    id: 'bratz-vampire-kiss',
+    name: 'Bratz Vampire Kiss 🧛‍♀️',
+    category: 'vampire',
+    description: 'Immortal Bratz elegance with blood red accents and gothic romance',
+    colors: { primary: '#1A0808', secondary: '#0D0404', accent: '#8B0000', background: '#050202', surface: '#180808', text: '#FFE8E8', textMuted: '#C08080', glow: '#DC143C' },
+    ambiance: { lighting: 'candlelight', mood: 'seductive', scent: 'dark roses', sound: 'haunting violin', temperature: 'cool' },
+    decorations: ['velvet coffins', 'red wine glasses', 'gothic candelabras', 'portrait gallery'],
+    specialEffects: ['blood drip', 'mist swirls'],
+    isHoliday: false, season: 'all'
+  },
+  {
+    id: 'bratz-celestial-diva',
+    name: 'Bratz Celestial Diva ✨',
+    category: 'celestial',
+    description: 'Star-studded Bratz in cosmic purples and silver stardust',
+    colors: { primary: '#0A0A1A', secondary: '#050510', accent: '#C0C0C0', background: '#020208', surface: '#0C0C18', text: '#E8E8FF', textMuted: '#8888C0', glow: '#FFFAFA' },
+    ambiance: { lighting: 'starlight', mood: 'dreamy', scent: 'moonflower', sound: 'cosmic hum', temperature: 'cool' },
+    decorations: ['star projectors', 'moon sculptures', 'galaxy prints', 'crystal stars'],
+    specialEffects: ['shooting stars', 'nebula clouds'],
+    isHoliday: false, season: 'all'
+  },
+  {
+    id: 'bratz-dark-academia',
+    name: 'Bratz Dark Academia 📚',
+    category: 'dark-academia',
+    description: 'Scholarly Bratz with plaid, leather, and ancient books',
+    colors: { primary: '#1A1410', secondary: '#0D0A08', accent: '#8B4513', background: '#050404', surface: '#181210', text: '#F0E8E0', textMuted: '#A09080', glow: '#CD853F' },
+    ambiance: { lighting: 'candlelight', mood: 'studious', scent: 'old books', sound: 'quill scratching', temperature: 'warm' },
+    decorations: ['antique desks', 'book stacks', 'vintage globes', 'leather journals'],
+    specialEffects: ['dust motes', 'page flutter'],
+    isHoliday: false, season: 'all'
+  },
+  {
+    id: 'bratz-forest-fairy',
+    name: 'Bratz Forest Fairy 🌿',
+    category: 'nature-gothic',
+    description: 'Enchanted forest Bratz with moss, mushrooms, and fairy lights',
+    colors: { primary: '#0A1A10', secondary: '#040D08', accent: '#228B22', background: '#020804', surface: '#081408', text: '#E8FFF0', textMuted: '#80C090', glow: '#32CD32' },
+    ambiance: { lighting: 'ethereal', mood: 'enchanted', scent: 'forest moss', sound: 'fairy whispers', temperature: 'cool' },
+    decorations: ['mushroom lights', 'ivy curtains', 'fairy wings', 'moss carpets'],
+    specialEffects: ['fireflies', 'pollen drift'],
+    isHoliday: false, season: 'all'
+  },
+  {
+    id: 'bratz-art-nouveau',
+    name: 'Bratz Art Nouveau 🎨',
+    category: 'art-nouveau',
+    description: 'Flowing curves and organic beauty in the Bratz style',
+    colors: { primary: '#1A180A', secondary: '#0D0C04', accent: '#DAA520', background: '#080704', surface: '#181408', text: '#FFF8E0', textMuted: '#C0B080', glow: '#FFD700' },
+    ambiance: { lighting: 'twilight', mood: 'artistic', scent: 'lily', sound: 'soft piano', temperature: 'warm' },
+    decorations: ['mucha prints', 'flowing vases', 'peacock feathers', 'stained glass'],
+    specialEffects: ['flowing patterns', 'golden shimmer'],
+    isHoliday: false, season: 'all'
+  },
+  {
+    id: 'bratz-baroque-palace',
+    name: 'Bratz Baroque Palace 🎭',
+    category: 'baroque',
+    description: 'Over-the-top ornate luxury in true Bratz fashion',
+    colors: { primary: '#2A1A18', secondary: '#1A0A08', accent: '#B8860B', background: '#0A0404', surface: '#221210', text: '#FFF0E8', textMuted: '#C09080', glow: '#FFD700' },
+    ambiance: { lighting: 'candlelight', mood: 'opulent', scent: 'rose and gold', sound: 'orchestral', temperature: 'warm' },
+    decorations: ['gilded frames', 'cherub statues', 'crystal chandeliers', 'brocade fabric'],
+    specialEffects: ['gold dust', 'candlelight dance'],
+    isHoliday: false, season: 'all'
+  },
+
+  // ==================== DISABILITY-FRIENDLY THEMES (151-160) ====================
+  {
+    id: 'spoonie-sanctuary',
+    name: 'Spoonie Sanctuary ☽',
+    category: 'romantic-gothic',
+    description: 'Gentle, calming space designed for chronic illness warriors',
+    colors: { primary: '#1A1820', secondary: '#0D0C10', accent: '#8A7FBA', background: '#080708', surface: '#141218', text: '#F0E8FF', textMuted: '#A098C0', glow: '#9370DB' },
+    ambiance: { lighting: 'twilight', mood: 'soothing', scent: 'lavender', sound: 'gentle rain', temperature: 'cozy' },
+    decorations: ['soft pillows', 'heating pads', 'pill organizers', 'water bottles'],
+    specialEffects: ['gentle glow', 'calming waves'],
+    isHoliday: false, season: 'all'
+  },
+  {
+    id: 'pots-palace',
+    name: 'POTS Palace',
+    category: 'romantic-gothic',
+    description: 'Low-stim, accessible gothic sanctuary for dysautonomia warriors',
+    colors: { primary: '#1A1A1A', secondary: '#101010', accent: '#6B5B95', background: '#080808', surface: '#141414', text: '#E8E8E8', textMuted: '#A0A0A0', glow: '#9B89B3' },
+    ambiance: { lighting: 'twilight', mood: 'calm', scent: 'peppermint', sound: 'white noise', temperature: 'cool' },
+    decorations: ['compression sock display', 'salt shakers', 'recliners', 'electrolyte bar'],
+    specialEffects: ['slow fade', 'soft pulse'],
+    isHoliday: false, season: 'all'
+  },
+  {
+    id: 'eds-elegance',
+    name: 'EDS Elegance',
+    category: 'romantic-gothic',
+    description: 'Zebra print meets gothic for the hypermobile community',
+    colors: { primary: '#1A1A1E', secondary: '#0D0D10', accent: '#4A4A7A', background: '#050508', surface: '#12121A', text: '#E8E8F0', textMuted: '#9898B0', glow: '#6A5ACD' },
+    ambiance: { lighting: 'moonlight', mood: 'supportive', scent: 'vanilla', sound: 'soft music', temperature: 'warm' },
+    decorations: ['zebra accents', 'joint supports', 'comfortable seating', 'stretch reminders'],
+    specialEffects: ['gentle shimmer', 'supportive glow'],
+    isHoliday: false, season: 'all'
+  },
+
+  // ==================== CULTURAL HERITAGE THEMES (161-180) ====================
+  {
+    id: 'african-diaspora-gothic',
+    name: 'African Diaspora Gothic ☽',
+    category: 'mystical',
+    description: 'Honoring African American heritage with gothic elegance',
+    colors: { primary: '#1A0A18', secondary: '#0D0410', accent: '#9B4DCA', background: '#050208', surface: '#140A14', text: '#F0E0F0', textMuted: '#A080A0', glow: '#DA70D6' },
+    ambiance: { lighting: 'candlelight', mood: 'ancestral', scent: 'shea and sandalwood', sound: 'drums', temperature: 'warm' },
+    decorations: ['kente accents', 'ancestor altar', 'african masks', 'adinkra symbols'],
+    specialEffects: ['spirit glow', 'ancestral presence'],
+    isHoliday: false, season: 'all'
+  },
+  {
+    id: 'blackfoot-night-sky',
+    name: 'Blackfoot Night Sky ☠️',
+    category: 'celestial',
+    description: 'Honoring Siksika heritage under the vast Montana sky',
+    colors: { primary: '#0A0A1A', secondary: '#040410', accent: '#00CED1', background: '#020208', surface: '#0C0C18', text: '#E8F0FF', textMuted: '#80A0C0', glow: '#48D1CC' },
+    ambiance: { lighting: 'starlight', mood: 'sacred', scent: 'sweetgrass', sound: 'wind and drums', temperature: 'cool' },
+    decorations: ['star quilts', 'buffalo imagery', 'feather accents', 'beadwork'],
+    specialEffects: ['aurora borealis', 'sacred fire'],
+    isHoliday: false, season: 'all'
+  },
+  {
+    id: 'pittsburgh-steel-gothic',
+    name: 'Pittsburgh Steel Gothic',
+    category: 'steampunk',
+    description: 'Honoring Pittsburgh Black community and steel heritage',
+    colors: { primary: '#181818', secondary: '#0C0C0C', accent: '#FFD700', background: '#060606', surface: '#121212', text: '#F8F8F8', textMuted: '#A0A0A0', glow: '#FFA500' },
+    ambiance: { lighting: 'firelight', mood: 'industrial', scent: 'iron and smoke', sound: 'factory echoes', temperature: 'warm' },
+    decorations: ['steel beams', 'bridge imagery', 'golden accents', 'steelers pride'],
+    specialEffects: ['forge glow', 'steam wisps'],
+    isHoliday: false, season: 'all'
+  },
+  {
+    id: 'southern-gothic-roots',
+    name: 'Southern Gothic Roots',
+    category: 'classic-gothic',
+    description: 'Alabama roots and Southern gothic heritage',
+    colors: { primary: '#1A1410', secondary: '#0D0A08', accent: '#CD5C5C', background: '#050404', surface: '#181210', text: '#F8F0E8', textMuted: '#B09080', glow: '#E9967A' },
+    ambiance: { lighting: 'twilight', mood: 'haunting', scent: 'magnolia', sound: 'cicadas', temperature: 'warm' },
+    decorations: ['spanish moss', 'antebellum columns', 'wrought iron', 'porch swings'],
+    specialEffects: ['firefly lights', 'mist'],
+    isHoliday: false, season: 'summer'
+  },
+  {
+    id: 'hoodoo-altar-room',
+    name: 'Hoodoo Altar Room 🔮',
+    category: 'witchy',
+    description: 'Sacred space for rootwork and ancestral magic',
+    colors: { primary: '#1A0A0A', secondary: '#0D0404', accent: '#9B30FF', background: '#050202', surface: '#140808', text: '#F8E8E8', textMuted: '#B08080', glow: '#9932CC' },
+    ambiance: { lighting: 'candlelight', mood: 'sacred', scent: 'florida water', sound: 'spirit songs', temperature: 'warm' },
+    decorations: ['ancestor photos', 'candle collections', 'herb jars', 'mojo bags'],
+    specialEffects: ['candle flicker', 'spirit presence'],
+    isHoliday: false, season: 'all'
+  },
+
+  // ==================== MORE BRATZ LIFESTYLE THEMES (181-200) ====================
+  {
+    id: 'bratz-sleepover',
+    name: 'Bratz Sleepover Party 🌙',
+    category: 'romantic-gothic',
+    description: 'Ultimate gothic sleepover with pillow fights and secrets',
+    colors: { primary: '#1A1020', secondary: '#0D0810', accent: '#FF69B4', background: '#050408', surface: '#141018', text: '#FFE4EC', textMuted: '#C090A0', glow: '#FF1493' },
+    ambiance: { lighting: 'moonlight', mood: 'playful', scent: 'cotton candy', sound: 'giggling', temperature: 'cozy' },
+    decorations: ['plush pillows', 'fairy lights', 'popcorn bowls', 'face masks'],
+    specialEffects: ['pillow feathers', 'starlight'],
+    isHoliday: false, season: 'all'
+  },
+  {
+    id: 'bratz-fashion-studio',
+    name: 'Bratz Fashion Studio 👗',
+    category: 'art-nouveau',
+    description: 'Design studio for creating fierce gothic fashion',
+    colors: { primary: '#181018', secondary: '#0C0810', accent: '#FF00FF', background: '#040408', surface: '#140C14', text: '#FFE8FF', textMuted: '#C080C0', glow: '#DA70D6' },
+    ambiance: { lighting: 'twilight', mood: 'creative', scent: 'fabric', sound: 'sewing machine', temperature: 'warm' },
+    decorations: ['dress forms', 'fabric swatches', 'sketch pads', 'runway'],
+    specialEffects: ['sparkle trail', 'spotlight'],
+    isHoliday: false, season: 'all'
+  },
+  {
+    id: 'bratz-gaming-dungeon',
+    name: 'Bratz Gaming Dungeon 🎮',
+    category: 'steampunk',
+    description: 'Gothic gaming setup with RGB and skulls',
+    colors: { primary: '#0A0A18', secondary: '#040410', accent: '#00FF00', background: '#020208', surface: '#0C0C14', text: '#E8FFE8', textMuted: '#80C080', glow: '#32CD32' },
+    ambiance: { lighting: 'ethereal', mood: 'focused', scent: 'energy drink', sound: 'game music', temperature: 'cool' },
+    decorations: ['gaming chair', 'RGB lighting', 'skull headphone stand', 'game collection'],
+    specialEffects: ['RGB wave', 'victory sparkle'],
+    isHoliday: false, season: 'all'
+  },
+  {
+    id: 'bratz-music-studio',
+    name: 'Bratz Music Studio 🎵',
+    category: 'baroque',
+    description: 'Recording studio for fierce Bratz beats',
+    colors: { primary: '#1A1018', secondary: '#0D0810', accent: '#FF4500', background: '#050408', surface: '#140C14', text: '#FFE8E0', textMuted: '#C08070', glow: '#FF6347' },
+    ambiance: { lighting: 'twilight', mood: 'creative', scent: 'incense', sound: 'beat drops', temperature: 'warm' },
+    decorations: ['microphones', 'sound panels', 'vinyl records', 'guitar display'],
+    specialEffects: ['sound waves', 'spotlight'],
+    isHoliday: false, season: 'all'
+  },
+  {
+    id: 'bratz-spa-retreat',
+    name: 'Bratz Spa Retreat 🛁',
+    category: 'romantic-gothic',
+    description: 'Self-care sanctuary for gothic glamour queens',
+    colors: { primary: '#181820', secondary: '#0C0C10', accent: '#E6E6FA', background: '#040408', surface: '#141418', text: '#F8F0FF', textMuted: '#A098B0', glow: '#DDA0DD' },
+    ambiance: { lighting: 'candlelight', mood: 'relaxing', scent: 'lavender bath', sound: 'water drops', temperature: 'warm' },
+    decorations: ['bath bombs', 'face masks', 'candles', 'plush robes'],
+    specialEffects: ['steam swirls', 'bubble sparkle'],
+    isHoliday: false, season: 'all'
   }
 ];
 

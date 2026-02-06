@@ -30,13 +30,14 @@ const HuluStreamingHub = React.lazy(() => import('./pages/HuluStreamingHub'));
 const EnterpriseMonitoringDashboard = React.lazy(() => import('./pages/EnterpriseMonitoringDashboard'));
 const MCPServersHub = React.lazy(() => import('./pages/MCPServersHub'));
 const MobileDownloads = React.lazy(() => import('./components/MobileDownloads'));
+const ComprehensiveDownloads = React.lazy(() => import('./components/ComprehensiveDownloads'));
 const InworldAIHub = React.lazy(() => import('./pages/InworldAIHub'));
 const ZapierAutomationHub = React.lazy(() => import('./pages/ZapierAutomationHub'));
 const AIConfigurationHub = React.lazy(() => import('./pages/AIConfigurationHub'));
 const AICharacterHub = React.lazy(() => import('./pages/AICharacterHub'));
 const ClaudeChatPage = React.lazy(() => import('./pages/ClaudeChatPage'));
 const AdvocacyHubPage = React.lazy(() => import('./pages/AdvocacyHubPage'));
-const CaregiverDashboardPage = React.lazy(() => import('./pages/CaregiverDashboardPage'));
+// CaregiverDashboardPage removed - consolidated into CaregiverDashboard
 const CarManagementHubPage = React.lazy(() => import('./pages/CarManagementHubPage'));
 const CertificationsHubPage = React.lazy(() => import('./pages/CertificationsHubPage'));
 const CommunityEventsHubPage = React.lazy(() => import('./pages/CommunityEventsHubPage'));
@@ -80,6 +81,10 @@ const PodcastsHubPage = React.lazy(() => import('./pages/PodcastsHubPage'));
 const ReadingHubPage = React.lazy(() => import('./pages/ReadingHubPage'));
 const ResearchHubPage = React.lazy(() => import('./pages/ResearchHubPage'));
 const SavingsGoalsHubPage = React.lazy(() => import('./pages/SavingsGoalsHubPage'));
+const AnnaArchiveLibraryPage = React.lazy(() => import('./pages/AnnaArchiveLibraryPage'));
+const FreeSoftwareCompliancePage = React.lazy(() => import('./pages/FreeSoftwareCompliancePage'));
+const LibreResourcesHubPage = React.lazy(() => import('./pages/LibreResourcesHubPage'));
+const DirectAccessHubPage = React.lazy(() => import('./pages/DirectAccessHubPage'));
 const SewingStudioPage = React.lazy(() => import('./pages/SewingStudioPage'));
 const SkillsDevelopmentHubPage = React.lazy(() => import('./pages/SkillsDevelopmentHubPage'));
 const SleepTrackingHubPage = React.lazy(() => import('./pages/SleepTrackingHubPage'));
@@ -98,7 +103,7 @@ const BudgetingHubPage = React.lazy(() => import('./pages/BudgetingHubPage'));
 const SyncBackupPage = React.lazy(() => import('./pages/SyncBackupPage'));
 const UnifiedDashboard = React.lazy(() => import('./pages/UnifiedDashboard'));
 const CaregiverDashboard = React.lazy(() => import('./pages/CaregiverDashboard'));
-const VirtualWardrobePage = React.lazy(() => import('./pages/VirtualWardrobePage'));
+// VirtualWardrobePage removed - consolidated into FashionHubPage
 const AncestryPage = React.lazy(() => import('./pages/AncestryPage'));
 const PhoneContactsPage = React.lazy(() => import('./pages/PhoneContactsPage'));
 const AILifeManagerPage = React.lazy(() => import('./pages/AILifeManagerPage'));
@@ -107,12 +112,16 @@ const ThemeStudioPage = React.lazy(() => import('./pages/ThemeStudioPage'));
 const SmartHomePage = React.lazy(() => import('./pages/SmartHomePage'));
 const DnDPage = React.lazy(() => import('./pages/DnDPage'));
 const AllFeaturesHub = React.lazy(() => import('./pages/AllFeaturesHub'));
+const SimpleLanding = React.lazy(() => import('./pages/SimpleLanding'));
 const HealthLogsHub = React.lazy(() => import('./pages/health/HealthLogsHub'));
 const TrendsCorrelationsPage = React.lazy(() => import('./pages/health/TrendsCorrelationsPage'));
 const SelfAdvocacyHub = React.lazy(() => import('./pages/advocacy/SelfAdvocacyHub'));
 const AIAvatarTeacherPage = React.lazy(() => import('./pages/AIAvatarTeacherPage'));
 const GothicApartmentPage = React.lazy(() => import('./pages/GothicApartmentPage'));
 const GothicDollhousePage = React.lazy(() => import('./pages/GothicDollhousePage'));
+const GothicBratzDollhousePage = React.lazy(() => import('./pages/GothicBratzDollhousePage'));
+const GothicMansionGamePage = React.lazy(() => import('./pages/GothicMansionGamePage'));
+const LivingRoomPage = React.lazy(() => import('./pages/LivingRoomPage'));
 const AIToolsDirectoryPage = React.lazy(() => import('./pages/AIToolsDirectoryPage'));
 const PhoneConnectorPage = React.lazy(() => import('./pages/PhoneConnectorPage'));
 const PetCompanionSystem = React.lazy(() => import('./components/pets/PetCompanionSystem'));
@@ -156,12 +165,26 @@ const AICharacterGallery = React.lazy(() => import('./components/characters/AICh
 const GothicThemeExplorer = React.lazy(() => import('./components/themes/GothicThemeExplorer'));
 const PassiveIncomeCalculator = React.lazy(() => import('./components/income/PassiveIncomeCalculator'));
 const PassiveIncomeExecutor = React.lazy(() => import('./components/income/PassiveIncomeExecutor'));
-import { BrowserRouter as Router, Routes, Route, NavLink, useNavigate } from 'react-router-dom';
+const CreativePracticeStudio = React.lazy(() => import('./components/studio/CreativePracticeStudio'));
+const EmulatorHub = React.lazy(() => import('./components/gaming/EmulatorHub'));
+
+// New Dollhouse Sorority Components
+const LanguageLearningPage = React.lazy(() => import('./pages/LanguageLearningPage'));
+const CommunicationHubPage = React.lazy(() => import('./pages/CommunicationHubPage'));
+const StreamingHubFullPage = React.lazy(() => import('./pages/StreamingHubFullPage'));
+const GameArcadePage = React.lazy(() => import('./pages/GameArcadePage'));
+const SewingCraftsPage = React.lazy(() => import('./pages/SewingCraftsPage'));
+const OpenCulturePage = React.lazy(() => import('./pages/OpenCulturePage'));
+const DollGuideSystem = React.lazy(() => import('./components/dolls/DollGuideSystem'));
+const UnifiedSearchComponent = React.lazy(() => import('./components/search/UnifiedSearch'));
+const UniversalAppsPage = React.lazy(() => import('./pages/UniversalAppsPage'));
+
+import { BrowserRouter as Router, Routes, Route, NavLink, useNavigate, Navigate } from 'react-router-dom';
 import {
   Menu, X, Home, Heart, Brain, Music, Palette, Book,
   DollarSign, Users, Settings, Moon, Sun, Wifi, WifiOff,
   Calendar, Pill, Activity, Shield, Code, Gamepad2,
-  Sparkles, Package, MessageSquare, MessageCircle, ChevronRight, Phone, LogIn, LogOut, User
+  Sparkles, Package, MessageSquare, MessageCircle, ChevronRight, Phone, LogIn, LogOut, User, Database, Zap
 } from 'lucide-react';
 import toast, { Toaster } from 'react-hot-toast';
 import { useIntegrations } from './contexts/IntegrationContext';
@@ -395,6 +418,7 @@ const App: React.FC = () => {
         { path: '/ai-avatar-teacher', name: 'AI Avatar Teacher', icon: Users },
         { path: '/gothic-apartment', name: 'Gothic Apartment', icon: Home },
         { path: '/gothic-dollhouse', name: 'Gothic Dollhouse', icon: Sparkles },
+        { path: '/gothic-bratz-dollhouse', name: '🏰 Gothic Bratz Dollhouse', icon: Sparkles },
         { path: '/pet-companion', name: 'Pet Companions', icon: Heart },
         { path: '/activity-oracle', name: 'Activity Oracle', icon: Sparkles },
         { path: '/achievements', name: 'Achievements', icon: Sparkles },
@@ -436,6 +460,18 @@ const App: React.FC = () => {
         { path: '/handbooks', name: 'Support Handbooks', icon: Shield },
         { path: '/community', name: 'Community Organizing', icon: Users },
         { path: '/caregiver-handbook', name: 'Caregiver Support Handbook', icon: Heart },
+      ]
+    },
+    {
+      id: 'resources',
+      name: 'Resources & Libraries',
+      icon: Database,
+      color: 'from-cyan-500 to-blue-500',
+      routes: [
+        { path: '/direct-access', name: 'Direct Access Hub (45+ Resources)', icon: Zap },
+        { path: '/anna-archive', name: 'Anna\'s Archive Library', icon: Book },
+        { path: '/libre-resources', name: 'Libre Resources Hub', icon: Heart },
+        { path: '/free-software', name: 'Free Software Compliance', icon: Shield },
       ]
     },
     {
@@ -481,6 +517,7 @@ const App: React.FC = () => {
       color: 'from-pink-500 to-purple-500',
       routes: [
         { path: '/gaming', name: 'Gaming Hub', icon: Gamepad2 },
+        { path: '/emulator', name: 'Retro Emulator', icon: Gamepad2 },
         { path: '/dnd', name: 'D&D Game', icon: Gamepad2 },
         { path: '/adventure-generator', name: 'Adventure Generator', icon: Gamepad2 },
         { path: '/campaigns', name: 'Campaign Manager', icon: Book },
@@ -538,6 +575,46 @@ const App: React.FC = () => {
         { path: '/gothic-theme-explorer', name: 'Gothic Theme Explorer', icon: Palette },
         { path: '/backup', name: 'Backup & Sync', icon: Shield },
         { path: '/about', name: 'About KOL OS', icon: Sparkles },
+      ]
+    },
+    {
+      id: 'dollhouse',
+      name: '🏰 Gothic Bratz Dollhouse',
+      icon: Home,
+      color: 'from-purple-600 to-pink-600',
+      routes: [
+        { path: '/gothic-bratz-dollhouse', name: 'Enter Dollhouse', icon: Home },
+        { path: '/dollhouse/foyer', name: 'Grand Foyer (Dashboard)', icon: Home },
+        { path: '/dollhouse/wardrobe', name: 'Wardrobe Palace', icon: Sparkles },
+        { path: '/dollhouse/apothecary', name: 'Apothecary (Health)', icon: Heart },
+        { path: '/dollhouse/gaming', name: 'Gaming Den', icon: Gamepad2 },
+        { path: '/dollhouse/library', name: 'Library Study', icon: Book },
+        { path: '/dollhouse/studio', name: 'Creative Studio', icon: Palette },
+        { path: '/dollhouse/music', name: 'Music Room', icon: Music },
+        { path: '/dollhouse/tarot', name: 'Fortune Teller Alcove', icon: Sparkles },
+        { path: '/dollhouse/dreams', name: 'Dream Archives', icon: Moon },
+        { path: '/dollhouse/ancestors', name: 'Ancestor Hall', icon: Users },
+        { path: '/dollhouse/garden', name: 'Cloud Garden (Wellness)', icon: Sparkles },
+        { path: '/dollhouse/observatory', name: 'Rooftop Observatory', icon: Moon },
+        { path: '/dollhouse/kitchen', name: 'Kitchen Lab', icon: Activity },
+        { path: '/dollhouse/pets', name: 'Pet Sanctuary', icon: Heart },
+        { path: '/dollhouse/guests', name: 'Guest Quarters', icon: Users },
+        { path: '/dollhouse/office', name: 'Office Hub', icon: Calendar },
+      ]
+    },
+    {
+      id: 'sorority',
+      name: '✨ Sorority of Knowledge',
+      icon: Book,
+      color: 'from-purple-500 to-indigo-500',
+      routes: [
+        { path: '/universal-apps', name: '🚀 Universal App Launcher (80+)', icon: Sparkles },
+        { path: '/language-learning', name: '🌍 Language Learning Hub', icon: MessageSquare },
+        { path: '/openculture', name: '📚 Free Courses & Books', icon: Book },
+        { path: '/sewing-crafts', name: '✂️ Sewing & Crafts', icon: Palette },
+        { path: '/game-arcade', name: '🎮 Game Arcade', icon: Gamepad2 },
+        { path: '/streaming-full', name: '📺 Streaming Hub', icon: Activity },
+        { path: '/communication-hub', name: '💬 Communication Hub', icon: MessageCircle },
       ]
     },
     {
@@ -717,195 +794,249 @@ const App: React.FC = () => {
               </div>
             }>
             <Routes>
-              <Route path="/" element={<UnifiedDashboard />} />
+              <Route path="/" element={<GothicMansionGamePage />} />
+              <Route path="/landing" element={<SimpleLanding />} />
               <Route path="/dashboard" element={<UnifiedDashboard />} />
+              <Route path="/game" element={<GothicMansionGamePage />} />
+              <Route path="/mansion" element={<GothicMansionGamePage />} />
               <Route path="/caregiver" element={<CaregiverDashboard />} />
               <Route path="/home" element={<HomePage />} />
               <Route path="/login" element={<LoginPage />} />
               <Route path="/auth/callback" element={<AuthCallbackPage />} />
-              <Route path="/download" element={<MobileDownloads />} />
+              <Route path="/download" element={<ComprehensiveDownloads />} />
+              <Route path="/downloads" element={<ComprehensiveDownloads />} />
 
-              {/* Health & Wellness */}
+              {/* Health & Wellness - Core Pages */}
               <Route path="/health" element={<HealthDashboardPage />} />
               <Route path="/health/logs" element={<HealthLogsHub />} />
               <Route path="/health/trends" element={<TrendsCorrelationsPage />} />
               <Route path="/medications" element={<MedicationTracker />} />
-              <Route path="/vitals" element={<HealthDashboardPage />} />
-              <Route path="/mental-health" element={<MentalHealthPage />} />
-              <Route path="/mental-health-dashboard" element={<MentalHealthDashboard />} />
               <Route path="/emergency" element={<CrisisSupportPage />} />
               <Route path="/emergency-cards" element={<EmergencyCardBuilder />} />
               <Route path="/contacts" element={<PhoneContactsPage />} />
-              <Route path="/fitness" element={<FitnessHubPage />} />
-              <Route path="/nutrition" element={<NutritionHubPage />} />
-              <Route path="/sleep" element={<SleepTrackingHubPage />} />
-              <Route path="/therapy" element={<TherapyHubPage />} />
-              <Route path="/wellness" element={<WellnessHubPage />} />
+              {/* Health Redirects - Consolidated to HealthDashboardPage */}
+              <Route path="/vitals" element={<Navigate to="/health" replace />} />
+              <Route path="/mental-health" element={<Navigate to="/health" replace />} />
+              <Route path="/mental-health-dashboard" element={<Navigate to="/health" replace />} />
+              <Route path="/fitness" element={<Navigate to="/health" replace />} />
+              <Route path="/nutrition" element={<Navigate to="/health" replace />} />
+              <Route path="/sleep" element={<Navigate to="/health" replace />} />
+              <Route path="/therapy" element={<Navigate to="/health" replace />} />
+              <Route path="/wellness" element={<Navigate to="/health" replace />} />
 
-              {/* AI & Companion */}
+              {/* AI & Companion - Core Pages */}
               <Route path="/ai-config" element={<AIConfigurationHub />} />
               <Route path="/claude-chat" element={<ClaudeChatPage />} />
               <Route path="/ai-characters" element={<AICharacterHub />} />
-              <Route path="/ai-life-manager" element={<AILifeManagerPage />} />
-              <Route path="/chronomuse" element={<ChronoMusePage />} />
-              <Route path="/inworld-ai" element={<InworldAIHub />} />
-              <Route path="/mcp-servers" element={<MCPServersHub />} />
-              <Route path="/avatar" element={<AvatarDressingRoom />} />
-              <Route path="/ai-avatar-teacher" element={<AIAvatarTeacherPage />} />
-              <Route path="/gothic-apartment" element={<GothicApartmentPage />} />
-              <Route path="/gothic-dollhouse" element={<GothicDollhousePage />} />
               <Route path="/ai-tools" element={<AIToolsDirectoryPage />} />
-              <Route path="/pet-companion" element={<PetCompanionSystem />} />
-              <Route path="/activity-oracle" element={<DailyActivityOracle />} />
-              <Route path="/hoodoo" element={<HoodooPracticeHub />} />
-              <Route path="/theme-gallery" element={<GothicThemeGallery />} />
+              <Route path="/avatar" element={<AvatarDressingRoom />} />
+              <Route path="/gothic-apartment" element={<GothicApartmentPage />} />
               <Route path="/achievements" element={<AchievementSystem />} />
-              <Route path="/ideas-hub" element={<IdeasDiscoveryHub />} />
-              <Route path="/ai-companions" element={<AICompanionsHub />} />
               <Route path="/dream-journal" element={<DreamJournal />} />
               <Route path="/historical-figures" element={<HistoricalFiguresGallery />} />
+              <Route path="/coloring-studio" element={<MoodColoringStudio />} />
+              {/* AI Redirects - Consolidated to AICharacterHub */}
+              <Route path="/ai-life-manager" element={<Navigate to="/ai-characters" replace />} />
+              <Route path="/chronomuse" element={<Navigate to="/ai-characters" replace />} />
+              <Route path="/ai-avatar-teacher" element={<Navigate to="/ai-characters" replace />} />
+              <Route path="/ai-companions" element={<Navigate to="/ai-characters" replace />} />
+              <Route path="/inworld-ai" element={<Navigate to="/ai-tools" replace />} />
+              <Route path="/sanctum" element={<Navigate to="/ai-characters" replace />} />
+              <Route path="/music" element={<Navigate to="/ai-characters" replace />} />
+              {/* Gothic Redirects */}
+              <Route path="/gothic-dollhouse" element={<GothicDollhousePage />} />
+              <Route path="/gothic-bratz-dollhouse" element={<GothicBratzDollhousePage />} />
+              <Route path="/living-room" element={<LivingRoomPage />} />
+              <Route path="/entertainment-center" element={<LivingRoomPage />} />
+              <Route path="/bratz-dollhouse" element={<GothicBratzDollhousePage />} />
+              <Route path="/dollhouse" element={<GothicBratzDollhousePage />} />
+              {/* Dollhouse Room Direct Links */}
+              <Route path="/dollhouse/foyer" element={<Navigate to="/gothic-bratz-dollhouse?room=grand-foyer" replace />} />
+              <Route path="/dollhouse/ancestors" element={<Navigate to="/gothic-bratz-dollhouse?room=ancestor-hall" replace />} />
+              <Route path="/dollhouse/wardrobe" element={<Navigate to="/gothic-bratz-dollhouse?room=wardrobe-palace" replace />} />
+              <Route path="/dollhouse/library" element={<Navigate to="/gothic-bratz-dollhouse?room=library-study" replace />} />
+              <Route path="/dollhouse/apothecary" element={<Navigate to="/gothic-bratz-dollhouse?room=apothecary" replace />} />
+              <Route path="/dollhouse/office" element={<Navigate to="/gothic-bratz-dollhouse?room=office-hub" replace />} />
+              <Route path="/dollhouse/gaming" element={<Navigate to="/gothic-bratz-dollhouse?room=gaming-den" replace />} />
+              <Route path="/dollhouse/observatory" element={<Navigate to="/gothic-bratz-dollhouse?room=rooftop-observatory" replace />} />
+              <Route path="/dollhouse/dreams" element={<Navigate to="/gothic-bratz-dollhouse?room=dream-archives" replace />} />
+              <Route path="/dollhouse/tarot" element={<Navigate to="/gothic-bratz-dollhouse?room=fortune-teller-alcove" replace />} />
+              <Route path="/dollhouse/garden" element={<Navigate to="/gothic-bratz-dollhouse?room=cloud-garden" replace />} />
+              <Route path="/dollhouse/studio" element={<Navigate to="/gothic-bratz-dollhouse?room=creative-studio" replace />} />
+              <Route path="/dollhouse/kitchen" element={<Navigate to="/gothic-bratz-dollhouse?room=kitchen-lab" replace />} />
+              <Route path="/dollhouse/music" element={<Navigate to="/gothic-bratz-dollhouse?room=music-room" replace />} />
+              <Route path="/dollhouse/pets" element={<Navigate to="/gothic-bratz-dollhouse?room=pet-sanctuary" replace />} />
+              <Route path="/dollhouse/guests" element={<Navigate to="/gothic-bratz-dollhouse?room=guest-quarters" replace />} />
+              <Route path="/theme-gallery" element={<Navigate to="/gothic-apartment" replace />} />
+              {/* Activity Components - Keep unique ones */}
+              <Route path="/pet-companion" element={<PetCompanionSystem />} />
+              <Route path="/activity-oracle" element={<DailyActivityOracle />} />
               <Route path="/learning-academy" element={<PassiveLearningAcademy />} />
               <Route path="/caregiver-handbook" element={<CaregiverSupportHandbook />} />
-              <Route path="/coloring-studio" element={<MoodColoringStudio />} />
-              <Route path="/movement-tracker" element={<AdaptiveMovementTracker />} />
-              <Route path="/sleep-sanctuary" element={<SleepSanctuaryTracker />} />
-              <Route path="/accessibility-toolkit" element={<AccessibilityToolkit />} />
-              <Route path="/sewing-projects" element={<SewingProjectPlanner />} />
-              <Route path="/partner-hub" element={<PartnerRelationshipHub />} />
-              <Route path="/household-hub" element={<HouseholdManagementHub />} />
-              <Route path="/music-hub" element={<MusicActivityHub />} />
-              <Route path="/reading-companion" element={<ReadingCompanion />} />
-              <Route path="/gaming-planner" element={<GamingActivityPlanner />} />
-              <Route path="/car-maintenance" element={<CarMaintenanceTracker />} />
-              <Route path="/art-studio" element={<ArtProjectStudio />} />
-              <Route path="/pet-care-companion" element={<PetCareCompanion />} />
-              <Route path="/mental-health-toolkit" element={<MentalHealthToolkit />} />
-              <Route path="/food-nutrition-guide" element={<FoodNutritionGuide />} />
-              <Route path="/health-wellness-center" element={<HealthWellnessCenter />} />
-              <Route path="/sanctum" element={<ChronoMusePage />} />
+              {/* Health-related redirects */}
+              <Route path="/movement-tracker" element={<Navigate to="/health" replace />} />
+              <Route path="/sleep-sanctuary" element={<Navigate to="/health" replace />} />
+              <Route path="/mental-health-toolkit" element={<Navigate to="/health" replace />} />
+              <Route path="/food-nutrition-guide" element={<Navigate to="/health" replace />} />
+              <Route path="/health-wellness-center" element={<Navigate to="/health" replace />} />
+              <Route path="/accessibility-toolkit" element={<Navigate to="/advocacy" replace />} />
+              {/* Creative redirects */}
+              <Route path="/sewing-projects" element={<Navigate to="/creative" replace />} />
+              <Route path="/music-hub" element={<Navigate to="/creative" replace />} />
+              <Route path="/art-studio" element={<Navigate to="/creative" replace />} />
+              <Route path="/reading-companion" element={<Navigate to="/entertainment-library" replace />} />
+              {/* Home redirects */}
+              <Route path="/household-hub" element={<Navigate to="/home" replace />} />
+              <Route path="/pet-care-companion" element={<Navigate to="/home" replace />} />
+              <Route path="/car-maintenance" element={<Navigate to="/car" replace />} />
+              {/* Relationship redirects */}
+              <Route path="/partner-hub" element={<Navigate to="/relationships" replace />} />
+              {/* Spirituality routes */}
+              <Route path="/hoodoo" element={<HoodooPracticeHub />} />
+              <Route path="/ideas-hub" element={<IdeasDiscoveryHub />} />
+              {/* Gaming redirects */}
+              <Route path="/gaming-planner" element={<Navigate to="/gaming" replace />} />
 
-              {/* Creative & Music */}
-              <Route path="/music" element={<ChronoMusePage />} />
+              {/* Creative & Music - Core Pages */}
               <Route path="/creative" element={<CreativeArtsDashboardPage />} />
-              <Route path="/poetry" element={<CreativeArtsDashboardPage />} />
-              <Route path="/photography" element={<MediaLibraryPage />} />
               <Route path="/media" element={<MediaLibraryPage />} />
+              <Route path="/practice-studio" element={<CreativePracticeStudio />} />
+              <Route path="/emulator" element={<EmulatorHub />} />
+              <Route path="/retro-gaming" element={<EmulatorHub />} />
+              {/* Creative Redirects */}
+              <Route path="/poetry" element={<Navigate to="/creative" replace />} />
+              <Route path="/photography" element={<Navigate to="/media" replace />} />
 
-              {/* Advocacy & Support */}
+              {/* Advocacy & Support - Core Pages */}
               <Route path="/advocacy" element={<AdvocacyHubPage />} />
-              <Route path="/advocacy/hub" element={<SelfAdvocacyHub />} />
-              <Route path="/scripts" element={<AdvocacyHubPage />} />
-              <Route path="/handbooks" element={<AdvocacyHubPage />} />
               <Route path="/community" element={<CommunityEventsHubPage />} />
-              <Route path="/medical-advocacy" element={<MedicalAdvocacyHubPage />} />
-              <Route path="/caregiver" element={<CaregiverDashboardPage />} />
+              <Route path="/caregiver" element={<CaregiverDashboard />} />
+              {/* Advocacy Redirects */}
+              <Route path="/advocacy/hub" element={<Navigate to="/advocacy" replace />} />
+              <Route path="/scripts" element={<Navigate to="/advocacy" replace />} />
+              <Route path="/handbooks" element={<Navigate to="/advocacy" replace />} />
+              <Route path="/medical-advocacy" element={<Navigate to="/advocacy" replace />} />
 
-              {/* Education & Learning */}
+              {/* Education & Learning - Core Pages */}
               <Route path="/education" element={<LearningHubPage />} />
-              <Route path="/credits" element={<CertificationsHubPage />} />
-              <Route path="/certifications" element={<CertificationsHubPage />} />
-              <Route path="/languages" element={<LearningHubPage />} />
-              <Route path="/skills" element={<SkillsDevelopmentHubPage />} />
-              <Route path="/courses" element={<CourseManagementHubPage />} />
-              <Route path="/study" element={<StudyTrackingHubPage />} />
-              <Route path="/research" element={<ResearchHubPage />} />
+              <Route path="/direct-access" element={<DirectAccessHubPage />} />
+              <Route path="/anna-archive" element={<AnnaArchiveLibraryPage />} />
+              <Route path="/libre-resources" element={<LibreResourcesHubPage />} />
+              {/* Education Redirects */}
+              <Route path="/credits" element={<Navigate to="/education" replace />} />
+              <Route path="/certifications" element={<Navigate to="/education" replace />} />
+              <Route path="/languages" element={<Navigate to="/education" replace />} />
+              <Route path="/skills" element={<Navigate to="/education" replace />} />
+              <Route path="/courses" element={<Navigate to="/education" replace />} />
+              <Route path="/study" element={<Navigate to="/education" replace />} />
+              <Route path="/research" element={<Navigate to="/education" replace />} />
 
-              {/* Financial & Income */}
+              {/* Financial & Income - Core Pages */}
               <Route path="/financial" element={<FinanceDashboardPage />} />
-              <Route path="/real-money" element={<RealMoneyDashboard />} />
-              <Route path="/passive-income" element={<AIPassiveIncomePage />} />
               <Route path="/income-builder" element={<PassiveIncomeBuilderPage />} />
-              <Route path="/passive-income-dashboard" element={<PassiveIncomeDashboardPage />} />
-              <Route path="/content-monetization" element={<ContentMonetizationPage />} />
-              <Route path="/real-money-plan" element={<RealMoneyActionPlan />} />
               <Route path="/content-generation-hub" element={<ContentGenerationHub />} />
-              <Route path="/zapier-automation" element={<ZapierAutomationHub />} />
-              <Route path="/benefits" element={<DisabilityAccommodationsHubPage />} />
-              <Route path="/budget" element={<BudgetingHubPage />} />
-              <Route path="/expenses" element={<ExpenseTrackingHubPage />} />
-              <Route path="/investments" element={<InvestmentsHubPage />} />
-              <Route path="/debt" element={<DebtManagementHubPage />} />
-              <Route path="/savings" element={<SavingsGoalsHubPage />} />
-              <Route path="/financial-planning" element={<FinancialPlanningHub />} />
-              <Route path="/passive-income-explorer" element={<PassiveIncomeExplorer />} />
-              <Route path="/income-executor" element={<PassiveIncomeExecutor />} />
+              {/* Financial Redirects */}
+              <Route path="/real-money" element={<Navigate to="/financial" replace />} />
+              <Route path="/passive-income" element={<Navigate to="/financial" replace />} />
+              <Route path="/passive-income-dashboard" element={<Navigate to="/financial" replace />} />
+              <Route path="/content-monetization" element={<Navigate to="/financial" replace />} />
+              <Route path="/real-money-plan" element={<Navigate to="/income-builder" replace />} />
+              <Route path="/zapier-automation" element={<Navigate to="/automation" replace />} />
+              <Route path="/benefits" element={<Navigate to="/advocacy" replace />} />
+              <Route path="/budget" element={<Navigate to="/financial" replace />} />
+              <Route path="/expenses" element={<Navigate to="/financial" replace />} />
+              <Route path="/investments" element={<Navigate to="/financial" replace />} />
+              <Route path="/debt" element={<Navigate to="/financial" replace />} />
+              <Route path="/savings" element={<Navigate to="/financial" replace />} />
+              <Route path="/financial-planning" element={<Navigate to="/financial" replace />} />
+              <Route path="/passive-income-explorer" element={<Navigate to="/income-builder" replace />} />
+              <Route path="/income-executor" element={<Navigate to="/income-builder" replace />} />
 
-              {/* Gaming & Entertainment */}
+              {/* Gaming & Entertainment - Core Pages */}
               <Route path="/gaming" element={<GamingHubPage />} />
-              <Route path="/boardgames" element={<BoardGamesPage />} />
               <Route path="/dnd" element={<DnDPage />} />
-              <Route path="/adventure-generator" element={<AdventureGenerator />} />
-              <Route path="/campaigns" element={<DnDPage />} />
-              <Route path="/hulu-streaming" element={<HuluStreamingHub />} />
-              <Route path="/entertainment" element={<EntertainmentHubPage />} />
               <Route path="/entertainment-library" element={<EntertainmentLibraryPage />} />
-              <Route path="/streaming" element={<StreamingHubPage />} />
-              <Route path="/reading" element={<ReadingHubPage />} />
-              <Route path="/podcasts" element={<PodcastsHubPage />} />
-              <Route path="/entertainment-discovery" element={<EntertainmentDiscovery />} />
+              {/* Gaming & Entertainment Redirects */}
+              <Route path="/boardgames" element={<Navigate to="/entertainment-library" replace />} />
+              <Route path="/adventure-generator" element={<Navigate to="/dnd" replace />} />
+              <Route path="/campaigns" element={<Navigate to="/dnd" replace />} />
+              <Route path="/hulu-streaming" element={<Navigate to="/entertainment-library" replace />} />
+              <Route path="/entertainment" element={<Navigate to="/entertainment-library" replace />} />
+              <Route path="/streaming" element={<Navigate to="/entertainment-library" replace />} />
+              <Route path="/reading" element={<Navigate to="/entertainment-library" replace />} />
+              <Route path="/podcasts" element={<Navigate to="/entertainment-library" replace />} />
+              <Route path="/entertainment-discovery" element={<Navigate to="/entertainment-library" replace />} />
 
-              {/* Automation & Tools */}
+              {/* Automation & Tools - Core Pages */}
               <Route path="/automation" element={<AutomationPage />} />
-              <Route path="/enterprise-monitoring" element={<EnterpriseMonitoringDashboard />} />
-              <Route path="/mcp-servers" element={<MCPServersHub />} />
-              <Route path="/developer" element={<UIGeneratorPage />} />
+              <Route path="/free-software" element={<FreeSoftwareCompliancePage />} />
               <Route path="/kolhub" element={<GoogleEcosystemPage />} />
-              <Route path="/ideas" element={<IdeasVaultPage />} />
               <Route path="/pixel-watch" element={<PixelWatchPage />} />
-              <Route path="/smarthome" element={<SmartHomePage />} />
-              <Route path="/automation-ideas" element={<AutomationIdeasLab />} />
-              <Route path="/dnd-adventure-hooks" element={<DnDAdventureHooks />} />
-              <Route path="/hoodoo-spiritual-guide" element={<HoodooSpiritualGuide />} />
-              <Route path="/hoodoo-ritual-library" element={<HoodooRitualLibrary />} />
-              <Route path="/ai-character-gallery" element={<AICharacterGallery />} />
-              <Route path="/gothic-theme-explorer" element={<GothicThemeExplorer />} />
-              <Route path="/passive-income-calculator" element={<PassiveIncomeCalculator />} />
+              {/* Automation Redirects */}
+              <Route path="/enterprise-monitoring" element={<Navigate to="/automation" replace />} />
+              <Route path="/mcp-servers" element={<Navigate to="/automation" replace />} />
+              <Route path="/developer" element={<Navigate to="/automation" replace />} />
+              <Route path="/ideas" element={<Navigate to="/goals" replace />} />
+              <Route path="/smarthome" element={<Navigate to="/automation" replace />} />
+              <Route path="/automation-ideas" element={<Navigate to="/automation" replace />} />
+              <Route path="/dnd-adventure-hooks" element={<Navigate to="/dnd" replace />} />
+              <Route path="/ai-character-gallery" element={<Navigate to="/ai-characters" replace />} />
+              <Route path="/gothic-theme-explorer" element={<Navigate to="/gothic-apartment" replace />} />
+              <Route path="/passive-income-calculator" element={<Navigate to="/income-builder" replace />} />
+              {/* Spirituality Redirects */}
+              <Route path="/hoodoo-spiritual-guide" element={<Navigate to="/spirituality" replace />} />
+              <Route path="/hoodoo-ritual-library" element={<Navigate to="/spirituality" replace />} />
 
-              {/* Relationships */}
+              {/* Relationships - Core Pages */}
               <Route path="/relationships" element={<RelationshipDashboardPage />} />
-              <Route path="/kollective" element={<KollectivePage />} />
-              <Route path="/social" element={<SocialConnectionHubPage />} />
-              <Route path="/networking" element={<NetworkingHubPage />} />
-              <Route path="/mentorship" element={<MentorshipHubPage />} />
               <Route path="/ancestry" element={<AncestryPage />} />
               <Route path="/family-tree" element={<FamilyTreeExplorer />} />
+              {/* Relationships Redirects */}
+              <Route path="/kollective" element={<Navigate to="/community" replace />} />
+              <Route path="/social" element={<Navigate to="/relationships" replace />} />
+              <Route path="/networking" element={<Navigate to="/relationships" replace />} />
+              <Route path="/mentorship" element={<Navigate to="/relationships" replace />} />
 
-              {/* Life Management */}
+              {/* Life Management - Core Pages */}
               <Route path="/goals" element={<GoalsHubPage />} />
-              <Route path="/habits" element={<HabitsHubPage />} />
-              <Route path="/journaling" element={<JournalingHubPage />} />
-              <Route path="/time-management" element={<TimeManagementHubPage />} />
-              <Route path="/memories" element={<MemoriesHubPage />} />
+              {/* Life Management Redirects */}
+              <Route path="/habits" element={<Navigate to="/goals" replace />} />
+              <Route path="/journaling" element={<Navigate to="/goals" replace />} />
+              <Route path="/time-management" element={<Navigate to="/goals" replace />} />
+              <Route path="/memories" element={<Navigate to="/goals" replace />} />
 
-              {/* Home & Living */}
+              {/* Home & Living - Core Pages */}
               <Route path="/home" element={<HomeManagementHubPage />} />
-              <Route path="/home-maintenance" element={<HomeMaintenanceHubPage />} />
               <Route path="/car" element={<CarManagementHubPage />} />
               <Route path="/housing" element={<HousingHubPage />} />
-              <Route path="/cooking" element={<CookingHubPage />} />
-              <Route path="/food" element={<FoodHubPage />} />
-              <Route path="/gardening" element={<GardeningHubPage />} />
-              <Route path="/pets" element={<PetCareHubPage />} />
-              <Route path="/fashion" element={<FashionHubPage />} />
-              <Route path="/wardrobe" element={<VirtualWardrobePage />} />
-              <Route path="/sewing" element={<SewingStudioPage />} />
+              <Route path="/wardrobe" element={<FashionHubPage />} />
+              <Route path="/travel" element={<TravelHubPage />} />
+              {/* Home Redirects */}
+              <Route path="/home-maintenance" element={<Navigate to="/home" replace />} />
+              <Route path="/cooking" element={<Navigate to="/home" replace />} />
+              <Route path="/food" element={<Navigate to="/home" replace />} />
+              <Route path="/gardening" element={<Navigate to="/home" replace />} />
+              <Route path="/pets" element={<Navigate to="/home" replace />} />
+              <Route path="/fashion" element={<Navigate to="/creative" replace />} />
+              <Route path="/sewing" element={<Navigate to="/creative" replace />} />
 
-              {/* Resources & Support */}
+              {/* Resources & Support - Core Pages */}
               <Route path="/emergency-prep" element={<EmergencyPrepHubPage />} />
               <Route path="/employment" element={<EmploymentHubPage />} />
-              <Route path="/legal" element={<LegalResourcesHubPage />} />
               <Route path="/medical-portals" element={<MedicalPortalsHubPage />} />
               <Route path="/transportation" element={<TransportationHubPage />} />
-              <Route path="/travel" element={<TravelHubPage />} />
               <Route path="/identity" element={<IdentityHubPage />} />
-              <Route path="/disability" element={<DisabilityAccommodationsHubPage />} />
+              {/* Resources Redirects */}
+              <Route path="/legal" element={<Navigate to="/advocacy" replace />} />
+              <Route path="/disability" element={<Navigate to="/advocacy" replace />} />
 
-              {/* Hobbies & Activities */}
+              {/* Hobbies & Activities - Core Pages */}
               <Route path="/hobbies" element={<HobbiesHubPage />} />
               <Route path="/volunteer" element={<VolunteerHubPage />} />
               <Route path="/spirituality" element={<SpiritualityHubPage />} />
-              <Route path="/kitchen-witch" element={<KitchenWitchPage />} />
               <Route path="/hearing" element={<HearingCompanionPage />} />
+              {/* Hobbies Redirects */}
+              <Route path="/kitchen-witch" element={<Navigate to="/spirituality" replace />} />
 
               {/* Sync & Backup */}
               <Route path="/sync" element={<SyncBackupPage />} />
@@ -922,6 +1053,17 @@ const App: React.FC = () => {
 
               {/* Phone Integration */}
               <Route path="/phone-connector" element={<PhoneConnectorPage />} />
+
+              {/* Dollhouse Sorority - New Learning & Entertainment */}
+              <Route path="/language-learning" element={<LanguageLearningPage />} />
+              <Route path="/communication-hub" element={<CommunicationHubPage />} />
+              <Route path="/streaming-full" element={<StreamingHubFullPage />} />
+              <Route path="/game-arcade" element={<GameArcadePage />} />
+              <Route path="/sewing-crafts" element={<SewingCraftsPage />} />
+              <Route path="/openculture" element={<OpenCulturePage />} />
+              <Route path="/free-learning" element={<OpenCulturePage />} />
+              <Route path="/universal-apps" element={<UniversalAppsPage />} />
+              <Route path="/apps" element={<UniversalAppsPage />} />
 
               {/* Fallback */}
               <Route path="*" element={<HomePage />} />
@@ -948,6 +1090,13 @@ const App: React.FC = () => {
 
         {/* Emergency Quick Access */}
         <EmergencyQuickAccess />
+
+        {/* AI Doll Guide System - Sorority of Knowledge */}
+        <Suspense fallback={null}>
+          <DollGuideSystem
+            onNavigate={(path) => window.location.href = path}
+          />
+        </Suspense>
         </div>
       </Router>
     </IntegrationProvider>
@@ -970,6 +1119,34 @@ const HomePage: React.FC = () => {
           <p className="mt-4 text-gray-500">
             Your Self-Evolving Digital Ecosystem • 9,000+ Features • Always Growing
           </p>
+        </div>
+
+        {/* Featured: Gothic Bratz Dollhouse */}
+        <div className="mb-8 p-6 bg-gradient-to-r from-purple-900/50 via-pink-900/50 to-purple-900/50 rounded-2xl border-2 border-purple-500/40 hover:border-purple-400/60 transition-all">
+          <NavLink to="/gothic-bratz-dollhouse" className="block">
+            <div className="flex flex-col md:flex-row items-center gap-6">
+              <div className="w-24 h-24 rounded-full bg-gradient-to-br from-purple-600 via-pink-600 to-purple-600 flex items-center justify-center text-5xl animate-pulse">
+                🏰
+              </div>
+              <div className="text-center md:text-left flex-1">
+                <h2 className="text-3xl font-bold bg-gradient-to-r from-purple-300 via-pink-300 to-purple-300 bg-clip-text text-transparent">
+                  Gothic Bratz Dollhouse
+                </h2>
+                <p className="text-gray-300 mt-2">
+                  Your 16-room luxury gothic sanctuary • 220+ AI Bratz dolls • 600+ wardrobe items •
+                  Video game quality UI with achievements & unlockables
+                </p>
+                <div className="flex flex-wrap gap-2 mt-3 justify-center md:justify-start">
+                  <span className="px-3 py-1 bg-purple-600/40 rounded-full text-xs text-purple-200">16 Rooms</span>
+                  <span className="px-3 py-1 bg-pink-600/40 rounded-full text-xs text-pink-200">220+ Dolls</span>
+                  <span className="px-3 py-1 bg-indigo-600/40 rounded-full text-xs text-indigo-200">600+ Items</span>
+                  <span className="px-3 py-1 bg-purple-600/40 rounded-full text-xs text-purple-200">Spoon Tracker</span>
+                  <span className="px-3 py-1 bg-pink-600/40 rounded-full text-xs text-pink-200">Multiplayer</span>
+                </div>
+              </div>
+              <ChevronRight size={32} className="text-purple-400" />
+            </div>
+          </NavLink>
         </div>
 
         {/* Quick Access Grid */}
@@ -1016,18 +1193,33 @@ const HomePage: React.FC = () => {
             path="/kolhub"
             gradient="from-pink-500 to-purple-500"
           />
+          <QuickAccessCard
+            title="Bratz Dollhouse"
+            description="16 rooms, 220+ dolls, 600+ wardrobe items - your gothic sanctuary"
+            icon={Home}
+            path="/gothic-bratz-dollhouse"
+            gradient="from-purple-600 to-pink-600"
+          />
         </div>
 
         {/* Stats Banner */}
         <div className="mt-12 bg-gradient-to-r from-purple-900/30 to-pink-900/30 rounded-xl p-8 backdrop-blur-lg border border-purple-500/20">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6 text-center">
             <div>
               <div className="text-3xl font-bold text-purple-400">9,000+</div>
               <div className="text-sm text-gray-400">Features</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-pink-400">10</div>
-              <div className="text-sm text-gray-400">Categories</div>
+              <div className="text-3xl font-bold text-pink-400">16</div>
+              <div className="text-sm text-gray-400">Dollhouse Rooms</div>
+            </div>
+            <div>
+              <div className="text-3xl font-bold text-indigo-400">220+</div>
+              <div className="text-sm text-gray-400">AI Bratz Dolls</div>
+            </div>
+            <div>
+              <div className="text-3xl font-bold text-fuchsia-400">600+</div>
+              <div className="text-sm text-gray-400">Wardrobe Items</div>
             </div>
             <div>
               <div className="text-3xl font-bold text-green-400">100%</div>
