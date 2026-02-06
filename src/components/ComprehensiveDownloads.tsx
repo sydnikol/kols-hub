@@ -291,7 +291,7 @@ const ComprehensiveDownloads: React.FC = () => {
   const downloads: DownloadOption[] = [
     {
       platform: 'Android',
-      version: '10.3.0',
+      version: '10.4.0',
       size: '~95 MB',
       downloadUrl: 'https://kols-hub.netlify.app',
       icon: <Smartphone className="w-8 h-8" />,
@@ -308,7 +308,7 @@ const ComprehensiveDownloads: React.FC = () => {
     },
     {
       platform: 'iOS',
-      version: '10.3.0',
+      version: '10.4.0',
       size: 'PWA (~15 MB)',
       downloadUrl: 'https://kols-hub.netlify.app',
       icon: <Apple className="w-8 h-8" />,
@@ -325,7 +325,7 @@ const ComprehensiveDownloads: React.FC = () => {
     },
     {
       platform: 'Windows',
-      version: '10.3.0',
+      version: '10.4.0',
       size: 'PWA (~15 MB)',
       downloadUrl: 'https://kols-hub.netlify.app',
       icon: <Monitor className="w-8 h-8" />,
@@ -342,7 +342,7 @@ const ComprehensiveDownloads: React.FC = () => {
     },
     {
       platform: 'macOS',
-      version: '10.3.0',
+      version: '10.4.0',
       size: 'PWA (~15 MB)',
       downloadUrl: 'https://kols-hub.netlify.app',
       icon: <Monitor className="w-8 h-8" />,
@@ -359,7 +359,7 @@ const ComprehensiveDownloads: React.FC = () => {
     },
     {
       platform: 'Linux',
-      version: '10.3.0',
+      version: '10.4.0',
       size: 'PWA (~15 MB)',
       downloadUrl: 'https://kols-hub.netlify.app',
       icon: <Cpu className="w-8 h-8" />,
@@ -375,7 +375,7 @@ const ComprehensiveDownloads: React.FC = () => {
     },
     {
       platform: 'Web App',
-      version: '10.3.0',
+      version: '10.4.0',
       size: 'Instant',
       downloadUrl: 'https://kols-hub.netlify.app',
       icon: <Globe className="w-8 h-8" />,
@@ -432,10 +432,10 @@ const ComprehensiveDownloads: React.FC = () => {
   ];
 
   const stats = [
-    { value: '15', label: 'ROOMS', icon: '🚪' },
+    { value: '60+', label: 'EMULATORS', icon: '🎮' },
     { value: '100+', label: 'MEDIA', icon: '📺' },
     { value: '80+', label: 'APPS', icon: '📱' },
-    { value: '10.3', label: 'VERSION', icon: '✨' },
+    { value: '10.4', label: 'VERSION', icon: '✨' },
   ];
 
   const hour = new Date().getHours();

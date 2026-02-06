@@ -182,6 +182,7 @@ const ShadowLibraryPage = React.lazy(() => import('./pages/ShadowLibraryPage'));
 const MediaPlayerPage = React.lazy(() => import('./pages/MediaPlayerPage'));
 const UnifiedCommandCenter = React.lazy(() => import('./components/hub/UnifiedCommandCenter'));
 const DollhouseWorld = React.lazy(() => import('./components/dollhouse/DollhouseWorld'));
+const EmulatorHubPage = React.lazy(() => import('./pages/EmulatorHubPage'));
 
 import { BrowserRouter as Router, Routes, Route, NavLink, useNavigate, Navigate } from 'react-router-dom';
 import {
@@ -1072,6 +1073,8 @@ const App: React.FC = () => {
               <Route path="/libraries" element={<ShadowLibraryPage />} />
               <Route path="/media-player" element={<MediaPlayerPage />} />
               <Route path="/watch" element={<MediaPlayerPage />} />
+              <Route path="/emulators" element={<EmulatorHubPage />} />
+              <Route path="/emulator-hub" element={<EmulatorHubPage />} />
 
               {/* Fallback */}
               <Route path="*" element={<HomePage />} />
