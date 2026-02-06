@@ -181,6 +181,7 @@ const UniversalAppsPage = React.lazy(() => import('./pages/UniversalAppsPage'));
 const ShadowLibraryPage = React.lazy(() => import('./pages/ShadowLibraryPage'));
 const MediaPlayerPage = React.lazy(() => import('./pages/MediaPlayerPage'));
 const UnifiedCommandCenter = React.lazy(() => import('./components/hub/UnifiedCommandCenter'));
+const DollhouseWorld = React.lazy(() => import('./components/dollhouse/DollhouseWorld'));
 
 import { BrowserRouter as Router, Routes, Route, NavLink, useNavigate, Navigate } from 'react-router-dom';
 import {
@@ -1108,6 +1109,11 @@ const App: React.FC = () => {
         {/* Unified Command Center - All Features Integrated */}
         <Suspense fallback={null}>
           <UnifiedCommandCenter />
+        </Suspense>
+
+        {/* Living Dollhouse World */}
+        <Suspense fallback={null}>
+          <DollhouseWorld />
         </Suspense>
         </div>
       </Router>
