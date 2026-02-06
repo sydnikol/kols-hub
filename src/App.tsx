@@ -183,6 +183,7 @@ const MediaPlayerPage = React.lazy(() => import('./pages/MediaPlayerPage'));
 const UnifiedCommandCenter = React.lazy(() => import('./components/hub/UnifiedCommandCenter'));
 const DollhouseWorld = React.lazy(() => import('./components/dollhouse/DollhouseWorld'));
 const EmulatorHubPage = React.lazy(() => import('./pages/EmulatorHubPage'));
+const AdaptiveSupportPage = React.lazy(() => import('./pages/AdaptiveSupportPage'));
 
 import { BrowserRouter as Router, Routes, Route, NavLink, useNavigate, Navigate } from 'react-router-dom';
 import {
@@ -1075,6 +1076,13 @@ const App: React.FC = () => {
               <Route path="/watch" element={<MediaPlayerPage />} />
               <Route path="/emulators" element={<EmulatorHubPage />} />
               <Route path="/emulator-hub" element={<EmulatorHubPage />} />
+
+              {/* Adaptive Support Hub - Merged from adaptive-support-hub */}
+              <Route path="/adaptive-support" element={<AdaptiveSupportPage />} />
+              <Route path="/adaptive" element={<AdaptiveSupportPage />} />
+              <Route path="/body-weather" element={<AdaptiveSupportPage />} />
+              <Route path="/wardrobe-comfort" element={<AdaptiveSupportPage />} />
+              <Route path="/daily-life" element={<AdaptiveSupportPage />} />
 
               {/* Fallback */}
               <Route path="*" element={<HomePage />} />
