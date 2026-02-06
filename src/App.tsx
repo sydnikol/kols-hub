@@ -179,6 +179,7 @@ const DollGuideSystem = React.lazy(() => import('./components/dolls/DollGuideSys
 const UnifiedSearchComponent = React.lazy(() => import('./components/search/UnifiedSearch'));
 const UniversalAppsPage = React.lazy(() => import('./pages/UniversalAppsPage'));
 const ShadowLibraryPage = React.lazy(() => import('./pages/ShadowLibraryPage'));
+const MediaPlayerPage = React.lazy(() => import('./pages/MediaPlayerPage'));
 
 import { BrowserRouter as Router, Routes, Route, NavLink, useNavigate, Navigate } from 'react-router-dom';
 import {
@@ -1067,6 +1068,8 @@ const App: React.FC = () => {
               <Route path="/apps" element={<UniversalAppsPage />} />
               <Route path="/shadow-library" element={<ShadowLibraryPage />} />
               <Route path="/libraries" element={<ShadowLibraryPage />} />
+              <Route path="/media-player" element={<MediaPlayerPage />} />
+              <Route path="/watch" element={<MediaPlayerPage />} />
 
               {/* Fallback */}
               <Route path="*" element={<HomePage />} />
