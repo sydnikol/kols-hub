@@ -184,6 +184,7 @@ const UnifiedCommandCenter = React.lazy(() => import('./components/hub/UnifiedCo
 const DollhouseWorld = React.lazy(() => import('./components/dollhouse/DollhouseWorld'));
 const EmulatorHubPage = React.lazy(() => import('./pages/EmulatorHubPage'));
 const AdaptiveSupportPage = React.lazy(() => import('./pages/AdaptiveSupportPage'));
+const TorrentHubPage = React.lazy(() => import('./pages/TorrentHubPage'));
 
 import { BrowserRouter as Router, Routes, Route, NavLink, useNavigate, Navigate } from 'react-router-dom';
 import {
@@ -1083,6 +1084,11 @@ const App: React.FC = () => {
               <Route path="/body-weather" element={<AdaptiveSupportPage />} />
               <Route path="/wardrobe-comfort" element={<AdaptiveSupportPage />} />
               <Route path="/daily-life" element={<AdaptiveSupportPage />} />
+
+              {/* Torrent Hub - qBittorrent & PikaTorrent integrated */}
+              <Route path="/torrents" element={<TorrentHubPage />} />
+              <Route path="/torrent-hub" element={<TorrentHubPage />} />
+              <Route path="/downloads-hub" element={<TorrentHubPage />} />
 
               {/* Fallback */}
               <Route path="*" element={<HomePage />} />
