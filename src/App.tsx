@@ -178,6 +178,7 @@ const OpenCulturePage = React.lazy(() => import('./pages/OpenCulturePage'));
 const DollGuideSystem = React.lazy(() => import('./components/dolls/DollGuideSystem'));
 const UnifiedSearchComponent = React.lazy(() => import('./components/search/UnifiedSearch'));
 const UniversalAppsPage = React.lazy(() => import('./pages/UniversalAppsPage'));
+const ShadowLibraryPage = React.lazy(() => import('./pages/ShadowLibraryPage'));
 
 import { BrowserRouter as Router, Routes, Route, NavLink, useNavigate, Navigate } from 'react-router-dom';
 import {
@@ -1064,6 +1065,8 @@ const App: React.FC = () => {
               <Route path="/free-learning" element={<OpenCulturePage />} />
               <Route path="/universal-apps" element={<UniversalAppsPage />} />
               <Route path="/apps" element={<UniversalAppsPage />} />
+              <Route path="/shadow-library" element={<ShadowLibraryPage />} />
+              <Route path="/libraries" element={<ShadowLibraryPage />} />
 
               {/* Fallback */}
               <Route path="*" element={<HomePage />} />
