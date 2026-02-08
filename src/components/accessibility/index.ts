@@ -19,3 +19,23 @@ export type { AccessibilitySettings as LegacyAccessibilitySettings } from './Acc
 
 // Accessibility Toolkit
 export { AccessibilityToolkit } from './AccessibilityToolkit';
+
+// Accessibility Engine (Enhanced with System Degradation Modes)
+export {
+  AccessibilityEngineProvider,
+  AccessibilityEnginePanel,
+  useAccessibilityEngine,
+  DEGRADATION_MODES,
+  FONT_SIZE_VALUES,
+  LINE_SPACING_VALUES,
+  DEFAULT_ACCESSIBILITY_ENGINE_SETTINGS,
+} from './AccessibilityEngine';
+export type {
+  AccessibilityEngineSettings,
+  AccessibilityEngineContextType,
+  DegradationMode,
+  DegradationModeConfig,
+  SensorySettings,
+  FontSizeLevel,
+  LineSpacingLevel,
+} from './AccessibilityEngine';
