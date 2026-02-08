@@ -305,7 +305,7 @@ const AppHeader: React.FC<{
   sidebarOpen: boolean;
   setSidebarOpen: (value: boolean) => void;
 }> = ({ darkMode, setDarkMode, isOnline, sidebarOpen, setSidebarOpen }) => {
-  const { isAuthenticated, user, login, logout } = useIntegrations();
+  const { isAuthenticated, isGuestUser, user, login, logout } = useIntegrations();
   const navigate = useNavigate();
 
   return (
@@ -341,17 +341,35 @@ const AppHeader: React.FC<{
           {/* Auth Status */}
           {isAuthenticated ? (
             <div className="flex items-center space-x-2">
-              <div className="hidden md:flex items-center space-x-2 px-3 py-1 bg-green-900/30 rounded-lg border border-green-500/30">
-                <User size={16} className="text-green-400" />
-                <span className="text-sm text-green-300">{user?.email}</span>
-              </div>
-              <button
-                onClick={logout}
-                className="p-2 rounded-lg hover:bg-red-800/50 transition-colors text-red-400"
-                title="Sign Out"
-              >
-                <LogOut size={20} />
-              </button>
+              {isGuestUser ? (
+                <>
+                  <div className="hidden md:flex items-center space-x-2 px-3 py-1 bg-purple-900/30 rounded-lg border border-purple-500/30">
+                    <User size={16} className="text-purple-400" />
+                    <span className="text-sm text-purple-300">Guest</span>
+                  </div>
+                  <button
+                    onClick={() => navigate('/login')}
+                    className="px-3 py-1 bg-purple-600 hover:bg-purple-700 rounded-lg transition-colors text-sm"
+                    title="Upgrade to Google Account"
+                  >
+                    Upgrade
+                  </button>
+                </>
+              ) : (
+                <>
+                  <div className="hidden md:flex items-center space-x-2 px-3 py-1 bg-green-900/30 rounded-lg border border-green-500/30">
+                    <User size={16} className="text-green-400" />
+                    <span className="text-sm text-green-300">{user?.email}</span>
+                  </div>
+                  <button
+                    onClick={logout}
+                    className="p-2 rounded-lg hover:bg-red-800/50 transition-colors text-red-400"
+                    title="Sign Out"
+                  >
+                    <LogOut size={20} />
+                  </button>
+                </>
+              )}
             </div>
           ) : (
             <button
@@ -820,11 +838,20 @@ const App: React.FC = () => {
               <Route path="/health/old" element={<HealthDashboardPage />} />
               <Route path="/health/logs" element={<HealthLogsHub />} />
               <Route path="/health/trends" element={<TrendsCorrelationsPage />} />
+              <Route path="/health/er-visits" element={<HealthLogsHub />} />
+              <Route path="/health/med-effects" element={<HealthLogsHub />} />
+              <Route path="/health/appointment-notes" element={<HealthLogsHub />} />
+              <Route path="/health/triggers" element={<HealthLogsHub />} />
+              <Route path="/health/flare-journal" element={<HealthLogsHub />} />
+              <Route path="/health/symptoms" element={<HealthLogsHub />} />
+              <Route path="/health/documents" element={<HealthLogsHub />} />
+              <Route path="/health/supplies" element={<HealthLogsHub />} />
+              <Route path="/health/care-team" element={<HealthLogsHub />} />
               <Route path="/medications" element={<MedicationTracker />} />
               <Route path="/emergency" element={<CrisisSupportPage />} />
               <Route path="/emergency-cards" element={<EmergencyCardBuilder />} />
               <Route path="/contacts" element={<PhoneContactsPage />} />
-              {/* Health Redirects - Consolidated to HealthDashboardPage */}
+              {/* Health Redirects - Consolidated to HealthDashboard */}
               <Route path="/vitals" element={<Navigate to="/health" replace />} />
               <Route path="/mental-health" element={<Navigate to="/health" replace />} />
               <Route path="/mental-health-dashboard" element={<Navigate to="/health" replace />} />
@@ -919,6 +946,7 @@ const App: React.FC = () => {
 
               {/* Advocacy & Support - Core Pages */}
               <Route path="/advocacy" element={<AdvocacyHubPage />} />
+              <Route path="/advocacy/self" element={<SelfAdvocacyHub />} />
               <Route path="/community" element={<CommunityEventsHubPage />} />
               <Route path="/caregiver" element={<CaregiverDashboard />} />
               {/* Advocacy Redirects */}
@@ -926,6 +954,7 @@ const App: React.FC = () => {
               <Route path="/scripts" element={<Navigate to="/advocacy" replace />} />
               <Route path="/handbooks" element={<Navigate to="/advocacy" replace />} />
               <Route path="/medical-advocacy" element={<Navigate to="/advocacy" replace />} />
+              <Route path="/self-advocacy" element={<Navigate to="/advocacy/self" replace />} />
 
               {/* Education & Learning - Core Pages */}
               <Route path="/education" element={<LearningHubPage />} />

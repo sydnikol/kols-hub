@@ -35,9 +35,11 @@ interface IntegrationContextType {
   authService: any;
   realMoneyConnector: any;
   isAuthenticated: boolean;
+  isGuestUser: boolean;
   user: any | null;
   servicesLoaded: boolean;
   login: () => Promise<void>;
+  loginAsGuest: () => void;
   logout: () => void;
   getFinancialSnapshot: () => Promise<any>;
   getLearningSnapshot: () => Promise<any>;
@@ -52,6 +54,7 @@ const IntegrationContext = createContext<IntegrationContextType | undefined>(und
 
 export const IntegrationProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [isGuestUser, setIsGuestUser] = useState(false);
   const [user, setUser] = useState<any>(null);
   const [servicesLoaded, setServicesLoaded] = useState(false);
 
@@ -64,6 +67,7 @@ export const IntegrationProvider: React.FC<{ children: React.ReactNode }> = ({ c
       if (loaded && authService) {
         try {
           setIsAuthenticated(authService.isAuthenticated?.() || false);
+          setIsGuestUser(authService.isGuestUser?.() || false);
           setUser(authService.getCurrentUser?.() || null);
         } catch (e) {
           console.error('Auth check failed:', e);
@@ -81,6 +85,7 @@ export const IntegrationProvider: React.FC<{ children: React.ReactNode }> = ({ c
       try {
         const authenticated = authService.isAuthenticated?.() || false;
         setIsAuthenticated(authenticated);
+        setIsGuestUser(authService.isGuestUser?.() || false);
         setUser(authService.getCurrentUser?.() || null);
       } catch (e) {
         console.error('Auth check failed:', e);
@@ -97,11 +102,21 @@ export const IntegrationProvider: React.FC<{ children: React.ReactNode }> = ({ c
     }
   };
 
+  const loginAsGuest = () => {
+    if (authService?.loginAsGuest) {
+      const guestUser = authService.loginAsGuest();
+      setIsAuthenticated(true);
+      setIsGuestUser(true);
+      setUser(guestUser);
+    }
+  };
+
   const logout = () => {
     if (authService?.logout) {
       authService.logout();
     }
     setIsAuthenticated(false);
+    setIsGuestUser(false);
     setUser(null);
   };
 
@@ -138,9 +153,11 @@ export const IntegrationProvider: React.FC<{ children: React.ReactNode }> = ({ c
     authService,
     realMoneyConnector,
     isAuthenticated,
+    isGuestUser,
     user,
     servicesLoaded,
     login,
+    loginAsGuest,
     logout,
     getFinancialSnapshot,
     getLearningSnapshot,

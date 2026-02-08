@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import {
   TrendingUp, AlertCircle, Pill, FileText, Zap, Image,
-  Bell, Stethoscope, AlertTriangle, Heart, Building
+  Bell, Stethoscope, AlertTriangle, Heart, Building, Hospital
 } from 'lucide-react';
 
 // Comprehensive Health Logs Hub - All V1 Health Features
