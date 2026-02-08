@@ -85,6 +85,7 @@ const SavingsGoalsHubPage = React.lazy(() => import('./pages/SavingsGoalsHubPage
 const AnnaArchiveLibraryPage = React.lazy(() => import('./pages/AnnaArchiveLibraryPage'));
 const FreeSoftwareCompliancePage = React.lazy(() => import('./pages/FreeSoftwareCompliancePage'));
 const LibreResourcesHubPage = React.lazy(() => import('./pages/LibreResourcesHubPage'));
+const LibreResourcesHub = React.lazy(() => import('./pages/LibreResourcesHub'));
 const DirectAccessHubPage = React.lazy(() => import('./pages/DirectAccessHubPage'));
 const SewingStudioPage = React.lazy(() => import('./pages/SewingStudioPage'));
 const SkillsDevelopmentHubPage = React.lazy(() => import('./pages/SkillsDevelopmentHubPage'));
@@ -1063,22 +1064,26 @@ const App: React.FC = () => {
               {/* Phone Integration */}
               <Route path="/phone-connector" element={<PhoneConnectorPage />} />
 
-              {/* Dollhouse Sorority - New Learning & Entertainment */}
+              {/* Consolidated Routes - Redirects to main hubs */}
               <Route path="/language-learning" element={<LanguageLearningPage />} />
-              <Route path="/communication-hub" element={<CommunicationHubPage />} />
-              <Route path="/streaming-full" element={<StreamingHubFullPage />} />
-              <Route path="/game-arcade" element={<GameArcadePage />} />
-              <Route path="/sewing-crafts" element={<SewingCraftsPage />} />
-              <Route path="/openculture" element={<OpenCulturePage />} />
-              <Route path="/free-learning" element={<OpenCulturePage />} />
-              <Route path="/universal-apps" element={<UniversalAppsPage />} />
-              <Route path="/apps" element={<UniversalAppsPage />} />
-              <Route path="/shadow-library" element={<ShadowLibraryPage />} />
-              <Route path="/libraries" element={<ShadowLibraryPage />} />
-              <Route path="/media-player" element={<MediaPlayerPage />} />
-              <Route path="/watch" element={<MediaPlayerPage />} />
-              <Route path="/emulators" element={<EmulatorHubPage />} />
-              <Route path="/emulator-hub" element={<EmulatorHubPage />} />
+              <Route path="/communication-hub" element={<Navigate to="/social" replace />} />
+              <Route path="/streaming-full" element={<Navigate to="/streaming" replace />} />
+              <Route path="/game-arcade" element={<Navigate to="/gaming" replace />} />
+              <Route path="/sewing-crafts" element={<Navigate to="/sewing" replace />} />
+              <Route path="/openculture" element={<Navigate to="/libre-resources" replace />} />
+              <Route path="/free-learning" element={<Navigate to="/libre-resources" replace />} />
+              <Route path="/universal-apps" element={<Navigate to="/libre-resources" replace />} />
+              <Route path="/apps" element={<Navigate to="/libre-resources" replace />} />
+              <Route path="/shadow-library" element={<Navigate to="/libre-resources" replace />} />
+              <Route path="/libraries" element={<Navigate to="/libre-resources" replace />} />
+              <Route path="/media-player" element={<Navigate to="/entertainment" replace />} />
+              <Route path="/watch" element={<Navigate to="/entertainment" replace />} />
+              <Route path="/emulators" element={<Navigate to="/gaming" replace />} />
+              <Route path="/emulator-hub" element={<Navigate to="/gaming" replace />} />
+              {/* Libre Resources Hub - All free/open content */}
+              <Route path="/libre-resources" element={<LibreResourcesHub />} />
+              <Route path="/libre" element={<LibreResourcesHub />} />
+              <Route path="/open-source" element={<LibreResourcesHub />} />
 
               {/* Adaptive Support Hub - Merged from adaptive-support-hub */}
               <Route path="/adaptive-support" element={<AdaptiveSupportPage />} />

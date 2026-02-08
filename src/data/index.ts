@@ -17,3 +17,7 @@ export * from './sewing-crafts-database';
 // Health & Life System
 export * from './kol-master-feature-list';
 export * from './sydney-complete-health-profile';
+
+// Libre Resources (Open Source, Public Domain, Creative Commons)
+export * from './libre-resources-complete';
+export * from './rpg-systems';
