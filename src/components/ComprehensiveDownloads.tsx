@@ -288,94 +288,98 @@ const ComprehensiveDownloads: React.FC = () => {
     }
   }, []);
 
+  const GITHUB_REPO = 'sydnikol/kols-hub';
+  const VERSION = '10.7.0';
+
   const downloads: DownloadOption[] = [
     {
       platform: 'Android',
-      version: '10.4.0',
+      version: VERSION,
       size: '~95 MB',
-      downloadUrl: 'https://kolshub.net',
+      downloadUrl: `https://github.com/${GITHUB_REPO}/releases/latest/download/app-release.apk`,
       icon: <Smartphone className="w-8 h-8" />,
       roomType: 'conservatory',
       available: true,
-      buttonText: 'ACQUIRE ARTIFACT',
+      buttonText: 'DOWNLOAD APK',
       artifact: 'The Emerald Portal Stone',
-      badge: 'NEW: Sorority of Knowledge!',
+      badge: 'Native Android App!',
       instructions: [
-        'Open in Chrome on Android',
-        'Tap menu → "Add to Home Screen"',
-        'Install as PWA for native-like experience',
+        'Download the APK file directly',
+        'Enable "Install from unknown sources"',
+        'Install and launch the manor!',
       ]
     },
     {
       platform: 'iOS',
-      version: '10.4.0',
-      size: 'PWA (~15 MB)',
-      downloadUrl: 'https://kolshub.net',
+      version: VERSION,
+      size: '~80 MB',
+      downloadUrl: `https://github.com/${GITHUB_REPO}/releases/latest/download/KolHub-iOS-Simulator.zip`,
       icon: <Apple className="w-8 h-8" />,
       roomType: 'parlor',
       available: true,
-      buttonText: 'SUMMON TO HOME',
+      buttonText: 'DOWNLOAD IOS',
       artifact: 'The Silver Apple Sigil',
-      badge: '80+ Embedded Apps!',
+      badge: 'Simulator Build',
       instructions: [
-        'Open in Safari\'s scrying mirror',
-        'Tap Share → Add to Home Screen',
-        'Launch from your altar (home screen)',
+        'Download iOS Simulator build',
+        'For real device: Use PWA below',
+        'Or TestFlight coming soon!',
       ]
     },
     {
       platform: 'Windows',
-      version: '10.4.0',
-      size: 'PWA (~15 MB)',
-      downloadUrl: 'https://kolshub.net',
+      version: VERSION,
+      size: '~120 MB',
+      downloadUrl: `https://github.com/${GITHUB_REPO}/actions/workflows/build-desktop.yml`,
       icon: <Monitor className="w-8 h-8" />,
       roomType: 'study',
       available: true,
-      buttonText: 'OBTAIN TOME',
+      buttonText: 'GET WINDOWS APP',
       artifact: 'The Azure Window Grimoire',
-      badge: 'Universal App Launcher!',
+      badge: 'Native Desktop App!',
       instructions: [
-        'Open in Edge or Chrome browser',
-        'Click install icon in address bar',
-        'Or menu → "Install Kol\'s Hub"',
+        'Download from GitHub Actions',
+        'Run the installer (.exe)',
+        'Launch from Start Menu!',
       ]
     },
     {
       platform: 'macOS',
-      version: '10.4.0',
-      size: 'PWA (~15 MB)',
-      downloadUrl: 'https://kolshub.net',
+      version: VERSION,
+      size: '~110 MB',
+      downloadUrl: `https://github.com/${GITHUB_REPO}/actions/workflows/build-desktop.yml`,
       icon: <Monitor className="w-8 h-8" />,
       roomType: 'tower',
       available: true,
-      buttonText: 'CLAIM RELIC',
+      buttonText: 'GET MAC APP',
       artifact: 'The Obsidian Mac Orb',
-      badge: 'AI Doll Guides!',
+      badge: 'Native Desktop App!',
       instructions: [
-        'Open in Chrome or Safari',
-        'Chrome: Click install in address bar',
-        'Safari: File → Add to Dock',
+        'Download from GitHub Actions',
+        'Open the .dmg file',
+        'Drag to Applications folder!',
       ]
     },
     {
       platform: 'Linux',
-      version: '10.4.0',
-      size: 'PWA (~15 MB)',
-      downloadUrl: 'https://kolshub.net',
+      version: VERSION,
+      size: '~100 MB',
+      downloadUrl: `https://github.com/${GITHUB_REPO}/actions/workflows/build-desktop.yml`,
       icon: <Cpu className="w-8 h-8" />,
       roomType: 'attic',
       available: true,
-      buttonText: 'RETRIEVE SCROLL',
+      buttonText: 'GET LINUX APP',
       artifact: 'The Penguin\'s Ancient Scroll',
+      badge: 'AppImage + Deb!',
       instructions: [
-        'Open in Chrome or Firefox',
-        'Click install icon in address bar',
-        'PWA works on all distros',
+        'Download AppImage or .deb',
+        'Make AppImage executable',
+        'Run and enjoy the manor!',
       ]
     },
     {
       platform: 'Web App',
-      version: '10.4.0',
+      version: VERSION,
       size: 'Instant',
       downloadUrl: 'https://kolshub.net',
       icon: <Globe className="w-8 h-8" />,
@@ -383,11 +387,11 @@ const ComprehensiveDownloads: React.FC = () => {
       available: true,
       buttonText: 'ENTER PORTAL',
       artifact: 'The Ethereal Web Gateway',
-      badge: 'Media Player + Libraries!',
+      badge: 'PWA - Install Anywhere!',
       instructions: [
         'Works in any browser sanctum',
-        'No installation ritual required',
-        'Instant access to the manor',
+        'Click install in address bar',
+        'Instant access to the manor!',
       ]
     },
   ];
@@ -435,7 +439,7 @@ const ComprehensiveDownloads: React.FC = () => {
     { value: '60+', label: 'EMULATORS', icon: '🎮' },
     { value: '100+', label: 'MEDIA', icon: '📺' },
     { value: '80+', label: 'APPS', icon: '📱' },
-    { value: '10.4', label: 'VERSION', icon: '✨' },
+    { value: '10.7', label: 'VERSION', icon: '✨' },
   ];
 
   const hour = new Date().getHours();
@@ -607,15 +611,26 @@ const ComprehensiveDownloads: React.FC = () => {
               Choose your artifact and begin your journey through Kol's Manor.
             </p>
 
-            <div className="flex justify-center gap-4">
+            <div className="flex flex-wrap justify-center gap-4">
               <a
-                href="https://kolshub.net/download/KolHub-v9.1.0.apk"
+                href={`https://github.com/${GITHUB_REPO}/releases/latest/download/app-release.apk`}
                 className="group relative"
               >
                 <div className="absolute -inset-1 bg-gradient-to-r from-amber-600/40 to-amber-800/40 rounded-lg blur opacity-60 group-hover:opacity-100 transition-opacity" />
                 <div className="relative flex items-center gap-2 px-6 py-3 bg-gradient-to-b from-amber-900/80 to-amber-950/80 rounded-lg border-2 border-amber-700/50 group-hover:border-amber-600/70 transition-all shadow-lg shadow-black/50">
-                  <Download className="w-5 h-5 text-amber-400" />
-                  <span className="font-black text-amber-200 font-serif">ACQUIRE NOW</span>
+                  <Smartphone className="w-5 h-5 text-amber-400" />
+                  <span className="font-black text-amber-200 font-serif">ANDROID APK</span>
+                </div>
+              </a>
+
+              <a
+                href={`https://github.com/${GITHUB_REPO}/releases`}
+                className="group relative"
+              >
+                <div className="absolute -inset-1 bg-gradient-to-r from-purple-600/40 to-purple-800/40 rounded-lg blur opacity-60 group-hover:opacity-100 transition-opacity" />
+                <div className="relative flex items-center gap-2 px-6 py-3 bg-gradient-to-b from-purple-900/80 to-purple-950/80 rounded-lg border-2 border-purple-700/50 group-hover:border-purple-600/70 transition-all shadow-lg shadow-black/50">
+                  <Package className="w-5 h-5 text-purple-400" />
+                  <span className="font-black text-purple-200 font-serif">ALL RELEASES</span>
                 </div>
               </a>
 
@@ -638,7 +653,7 @@ const ComprehensiveDownloads: React.FC = () => {
             ))}
           </div>
           <p className="text-amber-700/40 text-xs font-serif italic">
-            Kol's Manor v9.0 • Gothic Bratz Dollhouse • Est. 2025
+            Kol's Manor v{VERSION} • Gothic Bratz Dollhouse • Est. 2025
           </p>
         </footer>
       </div>
