@@ -929,24 +929,166 @@ export const SPOON_THEORY_CONFIG = {
   recoveryBonus: 2 // Extra spoons after good rest
 };
 
+// ===== COMPREHENSIVE CARE TEAM =====
+export const CARE_TEAM = [
+  {
+    name: 'Amanda Sommerville',
+    role: 'Primary Care',
+    facility: 'Truman Medical Centers',
+    manages: ['Overall care coordination', 'PrEP', 'Asthma', 'General health'],
+    isPrimary: true
+  },
+  {
+    name: 'Dr. John Lee',
+    role: 'Cardiology',
+    facility: "Saint Luke's",
+    manages: ['POTS', 'Cardiovascular monitoring']
+  },
+  {
+    name: 'Sarah Ifteqar',
+    role: 'Rheumatology',
+    manages: ['Seronegative RA', 'Inflammatory arthritis', 'Methotrexate management']
+  },
+  {
+    name: 'Fei Cao',
+    role: 'Pain Management',
+    manages: ['Chronic pain', 'LDN', 'Pain medications']
+  },
+  {
+    name: 'Gastroenterology',
+    role: 'GI Specialist',
+    facility: 'Truman',
+    manages: ['GI dysmotility', 'GERD', 'Constipation']
+  },
+  {
+    name: 'Dr. Salma Velazquez',
+    role: 'Psychiatry',
+    manages: ['C-PTSD', 'Depression', 'Anxiety', 'Medication management']
+  },
+  {
+    name: 'Bridgit Banks',
+    role: 'Therapy',
+    manages: ['Trauma-focused therapy', 'EMDR', 'Coping strategies']
+  },
+  {
+    name: 'Kinesphere',
+    role: 'Physical Therapy',
+    manages: ['EDS management', 'Balance training', 'Core stabilization', 'Joint protection']
+  }
+];
+
+// ===== POTS EPISODE IDENTIFICATION =====
+export const POTS_EPISODE_PROTOCOL = {
+  symptoms: [
+    'Sudden dizziness',
+    'Tachycardia (+30 bpm on standing)',
+    'Visual changes (static, halos, blind spots)',
+    'Pallor',
+    'Slurred speech',
+    'Weakness / collapse'
+  ],
+  immediateCareProtocol: [
+    '1. Sit or lie down immediately',
+    '2. Elevate legs',
+    '3. Hydration with electrolytes',
+    '4. Cool environment',
+    '5. Monitor vitals',
+    '6. Gradual re-standing'
+  ],
+  emergencyProtocol: [
+    'Calm tones only',
+    'No rushing',
+    'Ask yes/no questions',
+    'Provide water',
+    'Quiet environment',
+    'Call Quincy or Da\'Veon',
+    'If medical emergency: 911 + notify partners'
+  ]
+};
+
+// ===== PSYCHOSOCIAL CONSIDERATIONS =====
+export const PSYCHOSOCIAL_CONSIDERATIONS = {
+  background: [
+    'Severe medical gaslighting history',
+    'Requires trauma-informed care',
+    'Intersectional discrimination (Black, queer, disabled)',
+    'High sensitivity to abandonment cues'
+  ],
+  absoluteCareRules: [
+    'Believe reported symptoms',
+    'Never minimize pain',
+    'Do not attribute symptoms to anxiety',
+    'Respect autonomy and consent',
+    'Written instructions preferred',
+    'Consistency builds safety'
+  ],
+  communicationPreferences: [
+    'Written over verbal when possible',
+    'Clear, direct communication',
+    'Advance notice of changes',
+    'Validation of experiences',
+    'Patience during processing time'
+  ]
+};
+
+// ===== FUNCTIONAL IMPACT SUMMARY =====
+export const FUNCTIONAL_IMPACT = {
+  limitations: [
+    'Unable to work consistently or safely',
+    'Requires pacing and frequent rest',
+    'High fall risk during POTS episodes',
+    'Limited standing tolerance',
+    'Cognitive impairment during flares',
+    'Requires assistance with ADLs during bad days'
+  ],
+  physicalTherapyFocus: [
+    'Daily home PT program',
+    'Balance training',
+    'Core stabilization',
+    'Joint protection focus',
+    'Requires supervision during flares'
+  ],
+  summaryStatement: 'Kol is a multiply disabled, chronically ill, neurodivergent individual with complex multisystem disease requiring comprehensive, trauma-informed, accessible care. Functional limitations are severe, fluctuating, and medically documented. Full disability support is medically necessary for survival and quality of life.'
+};
+
 // ===== EMERGENCY INFORMATION =====
 export const EMERGENCY_INFO = {
-  conditions: ['EDS', 'POTS', 'Asthma', 'On immunosuppressant (MTX)'],
+  conditions: ['EDS', 'POTS', 'Asthma', 'On immunosuppressant (MTX)', 'C-PTSD', 'AuDHD'],
   allergies: ['Ketorolac', 'Latex', 'Oranges (migraine trigger)'],
   bloodType: 'A Positive',
-  emergencyContact: {
-    name: 'Mary Jones',
-    relationship: 'Mother',
-    phone: '913-638-8640'
-  },
+  emergencyContacts: [
+    {
+      name: 'Quincy',
+      relationship: 'Partner',
+      priority: 1
+    },
+    {
+      name: 'Da\'Veon',
+      relationship: 'Partner',
+      priority: 2
+    },
+    {
+      name: 'Mary Jones',
+      relationship: 'Mother',
+      phone: '913-638-8640',
+      priority: 3
+    }
+  ],
   instructions: [
     'Has POTS - may need IV fluids, keep legs elevated',
     'Has EDS - joints are hypermobile, be careful with positioning',
     'On Methotrexate - immunosuppressed, watch for infection signs',
     'Latex allergy - use non-latex gloves and equipment',
-    'Rescue inhaler in bag for asthma'
+    'Rescue inhaler in bag for asthma',
+    'Has C-PTSD - use calm tones, no rushing, trauma-informed approach',
+    'Neurodivergent - may need extra processing time, prefer written instructions'
   ],
-  doNotUse: ['Ketorolac (Toradol)', 'Latex products']
+  doNotUse: ['Ketorolac (Toradol)', 'Latex products'],
+  emergencyMedications: [
+    'Albuterol inhaler (rescue)',
+    'Ondansetron (nausea)',
+    'Electrolytes for POTS episodes'
+  ]
 };
 
 // Helper function to get medication by name
