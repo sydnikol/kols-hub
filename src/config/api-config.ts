@@ -1,11 +1,13 @@
 // API Configuration Manager
+// NOTE: All API keys should come from environment variables, never hardcode!
+
 export const API_CONFIG = {
   youtube: {
-    apiKey: 'AIzaSyCYX4XRr7j2oKC-Xu6qNCMyIX6WF9ep5gY',
-    clientId: '982711879367-2jcmmge9k858eercf865i2jo1c4v37p8.apps.googleusercontent.com'
+    apiKey: import.meta.env.VITE_YOUTUBE_API_KEY || '',
+    clientId: import.meta.env.VITE_YOUTUBE_OAUTH_CLIENT_ID || ''
   }
 };
-// API Configuration Manager - Part 2
+
 export interface YouTubeConfig {
   apiKey: string;
   clientId: string;
@@ -14,11 +16,17 @@ export interface YouTubeConfig {
 }
 
 export const getYouTubeConfig = (): YouTubeConfig => ({
-  apiKey: import.meta.env.VITE_YOUTUBE_API_KEY || 'AIzaSyCYX4XRr7j2oKC-Xu6qNCMyIX6WF9ep5gY',
-  clientId: import.meta.env.VITE_YOUTUBE_OAUTH_CLIENT_ID || '982711879367-2jcmmge9k858eercf865i2jo1c4v37p8.apps.googleusercontent.com',
+  apiKey: import.meta.env.VITE_YOUTUBE_API_KEY || '',
+  clientId: import.meta.env.VITE_YOUTUBE_OAUTH_CLIENT_ID || '',
   scopes: [
     'https://www.googleapis.com/auth/youtube.readonly',
     'https://www.googleapis.com/auth/youtube.force-ssl'
   ],
   redirectUri: typeof window !== 'undefined' ? `${window.location.origin}/oauth/youtube` : 'http://localhost:5173/oauth/youtube'
 });
+
+// Validation helper
+export const isYouTubeConfigured = (): boolean => {
+  const config = getYouTubeConfig();
+  return Boolean(config.apiKey && config.clientId);
+};

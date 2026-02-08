@@ -19,7 +19,8 @@ export class GeminiAIService {
   private baseUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent';
 
   private constructor() {
-    this.apiKey = import.meta.env.VITE_GEMINI_API_KEY || 'AIzaSyDhwNAO5BqqpsRqyGwma97PkkJ6bHmCWr0';
+    // API key must come from environment variables - never hardcode!
+    this.apiKey = import.meta.env.VITE_GEMINI_API_KEY || '';
   }
 
   static getInstance(): GeminiAIService {
