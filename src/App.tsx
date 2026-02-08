@@ -8,6 +8,7 @@ const IntegrationsStatusPage = React.lazy(() => import('./pages/IntegrationsStat
 const RealMoneyDashboard = React.lazy(() => import('./pages/RealMoneyDashboard'));
 const ChronoMusePage = React.lazy(() => import('./pages/ChronoMusePage'));
 const HealthDashboardPage = React.lazy(() => import('./pages/HealthDashboardPage'));
+const HealthDashboard = React.lazy(() => import('./pages/HealthDashboard'));
 const MentalHealthPage = React.lazy(() => import('./pages/MentalHealthPage'));
 const MentalHealthDashboard = React.lazy(() => import('./pages/MentalHealthDashboard'));
 const LearningHubPage = React.lazy(() => import('./pages/LearningHubPage'));
@@ -814,7 +815,8 @@ const App: React.FC = () => {
               <Route path="/downloads" element={<ComprehensiveDownloads />} />
 
               {/* Health & Wellness - Core Pages */}
-              <Route path="/health" element={<HealthDashboardPage />} />
+              <Route path="/health" element={<HealthDashboard />} />
+              <Route path="/health/old" element={<HealthDashboardPage />} />
               <Route path="/health/logs" element={<HealthLogsHub />} />
               <Route path="/health/trends" element={<TrendsCorrelationsPage />} />
               <Route path="/medications" element={<MedicationTracker />} />
