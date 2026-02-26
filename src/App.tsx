@@ -309,19 +309,19 @@ const AppHeader: React.FC<{
   const navigate = useNavigate();
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-purple-900/90 via-black/90 to-pink-900/90 backdrop-blur-lg border-b border-purple-500/20">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-[#080808]/96 via-[#0c0c0a]/96 to-[#080808]/96 backdrop-blur-xl border-b border-[rgba(212,175,55,0.15)] shadow-[0_4px_30px_rgba(0,0,0,0.5),0_0_60px_rgba(212,175,55,0.03)]">
       <div className="flex items-center justify-between px-4 py-3">
         <div className="flex items-center space-x-4">
           <button
             onClick={() => setSidebarOpen(!sidebarOpen)}
-            className="p-2 rounded-lg hover:bg-purple-800/50 transition-colors"
+            className="p-2 rounded-lg hover:bg-neutral-800/50 transition-colors"
           >
             {sidebarOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
 
           <div className="flex items-center space-x-2">
-            <Sparkles className="text-purple-400" size={24} />
-            <h1 className="text-xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+            <Sparkles className="text-amber-400" size={24} />
+            <h1 className="text-xl font-bold bg-gradient-to-r from-amber-400 to-amber-300 bg-clip-text text-transparent">
               Kol's Hub
             </h1>
           </div>
@@ -343,13 +343,13 @@ const AppHeader: React.FC<{
             <div className="flex items-center space-x-2">
               {isGuestUser ? (
                 <>
-                  <div className="hidden md:flex items-center space-x-2 px-3 py-1 bg-purple-900/30 rounded-lg border border-purple-500/30">
-                    <User size={16} className="text-purple-400" />
-                    <span className="text-sm text-purple-300">Guest</span>
+                  <div className="hidden md:flex items-center space-x-2 px-3 py-1 bg-neutral-900/30 rounded-lg border border-amber-500/30">
+                    <User size={16} className="text-amber-400" />
+                    <span className="text-sm text-amber-300">Guest</span>
                   </div>
                   <button
                     onClick={() => navigate('/login')}
-                    className="px-3 py-1 bg-purple-600 hover:bg-purple-700 rounded-lg transition-colors text-sm"
+                    className="px-3 py-1 bg-amber-600 hover:bg-amber-700 rounded-lg transition-colors text-sm"
                     title="Upgrade to Google Account"
                   >
                     Upgrade
@@ -374,7 +374,7 @@ const AppHeader: React.FC<{
           ) : (
             <button
               onClick={() => navigate('/login')}
-              className="flex items-center space-x-2 px-4 py-2 bg-purple-600 hover:bg-purple-700 rounded-lg transition-colors"
+              className="flex items-center space-x-2 px-4 py-2 bg-amber-600 hover:bg-amber-700 rounded-lg transition-colors"
             >
               <LogIn size={18} />
               <span className="hidden md:inline">Sign In</span>
@@ -384,7 +384,7 @@ const AppHeader: React.FC<{
           {/* Theme Toggle */}
           <button
             onClick={() => setDarkMode(!darkMode)}
-            className="p-2 rounded-lg hover:bg-purple-800/50 transition-colors"
+            className="p-2 rounded-lg hover:bg-neutral-800/50 transition-colors"
           >
             {darkMode ? <Sun size={20} /> : <Moon size={20} />}
           </button>
@@ -406,7 +406,7 @@ const App: React.FC = () => {
       id: 'health',
       name: 'Health & Wellness',
       icon: Heart,
-      color: 'from-red-500 to-pink-500',
+      color: 'from-red-500 to-amber-500',
       routes: [
         { path: '/health', name: 'Health Dashboard', icon: Activity },
         { path: '/health/logs', name: 'Health Logs Hub', icon: Activity },
@@ -430,7 +430,7 @@ const App: React.FC = () => {
       id: 'ai',
       name: 'AI & Companion',
       icon: Brain,
-      color: 'from-purple-500 to-indigo-500',
+      color: 'from-amber-500 to-yellow-600',
       routes: [
         { path: '/ai-config', name: 'AI Configuration Hub', icon: Settings },
         { path: '/claude-chat', name: 'Claude AI Chat', icon: MessageCircle },
@@ -541,7 +541,7 @@ const App: React.FC = () => {
       id: 'gaming',
       name: 'Gaming & Entertainment',
       icon: Gamepad2,
-      color: 'from-pink-500 to-purple-500',
+      color: 'from-amber-500 to-amber-500',
       routes: [
         { path: '/gaming', name: 'Gaming Hub', icon: Gamepad2 },
         { path: '/emulator', name: 'Retro Emulator', icon: Gamepad2 },
@@ -580,7 +580,7 @@ const App: React.FC = () => {
       id: 'relationship',
       name: 'Relationships',
       icon: Users,
-      color: 'from-red-500 to-pink-500',
+      color: 'from-red-500 to-amber-500',
       routes: [
         { path: '/relationships', name: 'Relationship Dashboard', icon: Heart },
         { path: '/kollective', name: 'Kollective', icon: Users },
@@ -608,7 +608,7 @@ const App: React.FC = () => {
       id: 'dollhouse',
       name: '🏰 Gothic Bratz Dollhouse',
       icon: Home,
-      color: 'from-purple-600 to-pink-600',
+      color: 'from-amber-600 to-amber-600',
       routes: [
         { path: '/gothic-bratz-dollhouse', name: 'Enter Dollhouse', icon: Home },
         { path: '/dollhouse/foyer', name: 'Grand Foyer (Dashboard)', icon: Home },
@@ -633,7 +633,7 @@ const App: React.FC = () => {
       id: 'sorority',
       name: '✨ Sorority of Knowledge',
       icon: Book,
-      color: 'from-purple-500 to-indigo-500',
+      color: 'from-amber-500 to-yellow-600',
       routes: [
         { path: '/universal-apps', name: '🚀 Universal App Launcher (80+)', icon: Sparkles },
         { path: '/language-learning', name: '🌍 Language Learning Hub', icon: MessageSquare },
@@ -648,7 +648,7 @@ const App: React.FC = () => {
       id: 'all-features',
       name: 'Browse All Features',
       icon: Sparkles,
-      color: 'from-purple-500 to-pink-500',
+      color: 'from-amber-500 to-amber-500',
       routes: [
         { path: '/all-features', name: 'All 9,000+ Features', icon: Sparkles },
         { path: '/mega-dashboard', name: 'Mega Feature Dashboard (9,999,999+)', icon: Package },
@@ -732,7 +732,7 @@ const App: React.FC = () => {
         )}
 
         {/* Sidebar Navigation */}
-        <aside className={`fixed left-0 top-16 bottom-0 z-40 w-72 md:w-80 bg-gradient-to-b from-purple-950/95 via-black/95 to-pink-950/95 backdrop-blur-lg border-r border-purple-500/20 transform transition-transform duration-300 ease-in-out ${
+        <aside className={`fixed left-0 top-16 bottom-0 z-40 w-72 md:w-80 bg-gradient-to-b from-neutral-950/95 via-black/95 to-stone-950/95 backdrop-blur-lg border-r border-amber-500/20 transform transition-transform duration-300 ease-in-out ${
           sidebarOpen ? 'translate-x-0' : '-translate-x-full'
         } overflow-y-auto shadow-2xl`}>
           <div className="p-4">
@@ -741,7 +741,7 @@ const App: React.FC = () => {
               <select
                 value={currentCategory}
                 onChange={(e) => setCurrentCategory(e.target.value)}
-                className="w-full px-3 py-2 bg-purple-900/30 border border-purple-500/20 rounded-lg focus:outline-none focus:border-purple-400"
+                className="w-full px-3 py-2 bg-neutral-900/30 border border-amber-500/20 rounded-lg focus:outline-none focus:border-amber-400"
               >
                 <option value="all">All Categories</option>
                 {navigationCategories.map(cat => (
@@ -768,8 +768,8 @@ const App: React.FC = () => {
                           className={({ isActive }) => `
                             flex items-center space-x-2 px-3 py-2 rounded-lg transition-all
                             ${isActive 
-                              ? 'bg-purple-800/50 text-purple-300' 
-                              : 'hover:bg-purple-900/30 text-gray-400 hover:text-white'
+                              ? 'bg-neutral-800/50 text-amber-300' 
+                              : 'hover:bg-neutral-900/30 text-gray-400 hover:text-white'
                             }
                           `}
                           onClick={() => setSidebarOpen(false)}
@@ -785,7 +785,7 @@ const App: React.FC = () => {
             </nav>
 
             {/* Quick Stats */}
-            <div className="mt-8 p-4 bg-purple-900/20 rounded-lg border border-purple-500/20">
+            <div className="mt-8 p-4 bg-neutral-900/20 rounded-lg border border-amber-500/20">
               <h4 className="text-sm font-semibold mb-3">System Status</h4>
               <div className="space-y-2 text-xs text-gray-400">
                 <div className="flex justify-between">
@@ -802,7 +802,7 @@ const App: React.FC = () => {
                 </div>
                 <div className="flex justify-between">
                   <span>Version</span>
-                  <span className="text-purple-400">4.0.0</span>
+                  <span className="text-amber-400">4.0.0</span>
                 </div>
               </div>
             </div>
@@ -815,7 +815,7 @@ const App: React.FC = () => {
             <Suspense fallback={
               <div className="flex items-center justify-center min-h-screen">
                 <div className="text-center">
-                  <div className="inline-block animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-purple-500 mb-4"></div>
+                  <div className="inline-block animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-amber-500 mb-4"></div>
                   <p className="text-lg">Loading...</p>
                 </div>
               </div>
@@ -1181,7 +1181,7 @@ const HomePage: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         {/* Hero Section */}
         <div className="text-center mb-12">
-          <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent">
+          <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-amber-400 via-amber-300 to-amber-400 bg-clip-text text-transparent">
             Welcome to Kol's Hub
           </h1>
           <p className="text-xl text-gray-400">
@@ -1193,14 +1193,14 @@ const HomePage: React.FC = () => {
         </div>
 
         {/* Featured: Gothic Bratz Dollhouse */}
-        <div className="mb-8 p-6 bg-gradient-to-r from-purple-900/50 via-pink-900/50 to-purple-900/50 rounded-2xl border-2 border-purple-500/40 hover:border-purple-400/60 transition-all">
+        <div className="mb-8 p-6 bg-gradient-to-r from-neutral-900/50 via-stone-900/50 to-neutral-900/50 rounded-2xl border-2 border-amber-500/40 hover:border-amber-400/60 transition-all">
           <NavLink to="/gothic-bratz-dollhouse" className="block">
             <div className="flex flex-col md:flex-row items-center gap-6">
-              <div className="w-24 h-24 rounded-full bg-gradient-to-br from-purple-600 via-pink-600 to-purple-600 flex items-center justify-center text-5xl animate-pulse">
+              <div className="w-24 h-24 rounded-full bg-gradient-to-br from-amber-600 via-amber-600 to-amber-600 flex items-center justify-center text-5xl animate-pulse">
                 🏰
               </div>
               <div className="text-center md:text-left flex-1">
-                <h2 className="text-3xl font-bold bg-gradient-to-r from-purple-300 via-pink-300 to-purple-300 bg-clip-text text-transparent">
+                <h2 className="text-3xl font-bold bg-gradient-to-r from-amber-300 via-amber-200 to-amber-300 bg-clip-text text-transparent">
                   Gothic Bratz Dollhouse
                 </h2>
                 <p className="text-gray-300 mt-2">
@@ -1208,14 +1208,14 @@ const HomePage: React.FC = () => {
                   Video game quality UI with achievements & unlockables
                 </p>
                 <div className="flex flex-wrap gap-2 mt-3 justify-center md:justify-start">
-                  <span className="px-3 py-1 bg-purple-600/40 rounded-full text-xs text-purple-200">16 Rooms</span>
-                  <span className="px-3 py-1 bg-pink-600/40 rounded-full text-xs text-pink-200">220+ Dolls</span>
+                  <span className="px-3 py-1 bg-amber-600/40 rounded-full text-xs text-amber-200">16 Rooms</span>
+                  <span className="px-3 py-1 bg-amber-600/40 rounded-full text-xs text-amber-200">220+ Dolls</span>
                   <span className="px-3 py-1 bg-indigo-600/40 rounded-full text-xs text-indigo-200">600+ Items</span>
-                  <span className="px-3 py-1 bg-purple-600/40 rounded-full text-xs text-purple-200">Spoon Tracker</span>
-                  <span className="px-3 py-1 bg-pink-600/40 rounded-full text-xs text-pink-200">Multiplayer</span>
+                  <span className="px-3 py-1 bg-amber-600/40 rounded-full text-xs text-amber-200">Spoon Tracker</span>
+                  <span className="px-3 py-1 bg-amber-600/40 rounded-full text-xs text-amber-200">Multiplayer</span>
                 </div>
               </div>
-              <ChevronRight size={32} className="text-purple-400" />
+              <ChevronRight size={32} className="text-amber-400" />
             </div>
           </NavLink>
         </div>
@@ -1227,14 +1227,14 @@ const HomePage: React.FC = () => {
             description="Import your med_list_20250930_181636.xls and track daily medications"
             icon={Pill}
             path="/medications"
-            gradient="from-red-500 to-pink-500"
+            gradient="from-red-500 to-amber-500"
           />
           <QuickAccessCard
             title="ChronoMuse AI"
             description="Your gothic futurist AI companion with 6 sanctum rooms"
             icon={Brain}
             path="/chronomuse"
-            gradient="from-purple-500 to-indigo-500"
+            gradient="from-amber-500 to-yellow-600"
           />
           <QuickAccessCard
             title="Health Dashboard"
@@ -1262,26 +1262,26 @@ const HomePage: React.FC = () => {
             description="Browse 9,000+ feature ideas and contribute new ones"
             icon={Sparkles}
             path="/kolhub"
-            gradient="from-pink-500 to-purple-500"
+            gradient="from-amber-500 to-amber-500"
           />
           <QuickAccessCard
             title="Bratz Dollhouse"
             description="16 rooms, 220+ dolls, 600+ wardrobe items - your gothic sanctuary"
             icon={Home}
             path="/gothic-bratz-dollhouse"
-            gradient="from-purple-600 to-pink-600"
+            gradient="from-amber-600 to-amber-600"
           />
         </div>
 
         {/* Stats Banner */}
-        <div className="mt-12 bg-gradient-to-r from-purple-900/30 to-pink-900/30 rounded-xl p-8 backdrop-blur-lg border border-purple-500/20">
+        <div className="mt-12 bg-gradient-to-r from-neutral-900/30 to-stone-900/30 rounded-xl p-8 backdrop-blur-lg border border-amber-500/20">
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6 text-center">
             <div>
-              <div className="text-3xl font-bold text-purple-400">9,000+</div>
+              <div className="text-3xl font-bold text-amber-400">9,000+</div>
               <div className="text-sm text-gray-400">Features</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-pink-400">16</div>
+              <div className="text-3xl font-bold text-amber-300">16</div>
               <div className="text-sm text-gray-400">Dollhouse Rooms</div>
             </div>
             <div>
@@ -1326,7 +1326,7 @@ const QuickAccessCard: React.FC<QuickAccessCardProps> = ({
   return (
     <NavLink
       to={path}
-      className="block p-6 bg-black/40 backdrop-blur-lg rounded-xl border border-purple-500/20 hover:border-purple-400/40 transition-all hover:transform hover:scale-105"
+      className="block p-6 bg-black/40 backdrop-blur-lg rounded-xl border border-amber-500/20 hover:border-amber-400/40 transition-all hover:transform hover:scale-105"
     >
       <div className={`w-12 h-12 rounded-lg bg-gradient-to-r ${gradient} p-2 mb-4`}>
         <Icon className="w-full h-full text-white" />

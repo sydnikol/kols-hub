@@ -1,9 +1,116 @@
 {
   "patient_info": {
-    "name": "SYDNEY JONES",
-    "portal": "myUHealth - University Health",
-    "last_updated": "2025-11-12"
+    "name": "Kol N Jones",
+    "legal_name": "Sydney N Jones",
+    "dob": "09/07/1999",
+    "age": 26,
+    "pronouns": "They/She",
+    "identity": "AFAB | Black | Queer | Nonbinary | Polyamorous",
+    "mrn": "02209531",
+    "location": "Kansas City, MO",
+    "portal": "myUHealth - University Health / mySaintLuke's",
+    "pcp": "Amanda Sommerville, MD",
+    "last_updated": "2026-02-26"
   },
+  "core_diagnoses": {
+    "connective_tissue_musculoskeletal": [
+      "Ehlers-Danlos Syndrome – Hypermobile Type (hEDS / Type III)",
+      "Generalized joint hypermobility",
+      "Recurrent subluxations/dislocations",
+      "Chronic musculoskeletal pain",
+      "Hypotonia",
+      "Poor proprioception",
+      "Early-onset arthritis",
+      "TMJ dysfunction",
+      "Hip dysplasia",
+      "Pes planus (flat feet)",
+      "Poor wound healing, easy bruising, atrophic scarring",
+      "Seronegative Rheumatoid Arthritis / Inflammatory Arthritis"
+    ],
+    "autonomic_cardiovascular": [
+      "Postural Orthostatic Tachycardia Syndrome (POTS)",
+      "Orthostatic intolerance",
+      "Tachycardia upon standing",
+      "Syncope / near-syncope (up to 3x/day, 3x/week)",
+      "Heat intolerance",
+      "Blood pooling"
+    ],
+    "neurological": [
+      "Migraines (including visual migraines / aura)",
+      "Brain fog",
+      "Dissociation episodes",
+      "Sleep disturbances"
+    ],
+    "respiratory": ["Asthma"],
+    "gastrointestinal": [
+      "Chronic GI dysmotility",
+      "GERD",
+      "Nausea",
+      "Constipation (requires daily management)"
+    ],
+    "psychiatric_neurodevelopmental": [
+      "Complex PTSD (C-PTSD) – medical trauma, abandonment trauma",
+      "AuDHD (Autism Spectrum + ADHD)",
+      "Depression",
+      "Anxiety",
+      "Emotional dysregulation",
+      "Sensory processing differences",
+      "Rejection Sensitivity Dysphoria (RSD)"
+    ],
+    "sleep": ["Obstructive Sleep Apnea Syndrome"],
+    "other": [
+      "Chronic pain syndrome",
+      "Neurodivergence",
+      "Trauma history (medical + interpersonal)",
+      "Gender dysphoria",
+      "Recurring hives"
+    ]
+  },
+  "surgical_history": [
+    {
+      "procedure": "Hysterectomy",
+      "date": null,
+      "notes": "On file at Saint Luke's"
+    }
+  ],
+  "functional_impact": [
+    "Unable to work consistently or safely",
+    "Requires pacing and frequent rest",
+    "High fall risk during POTS episodes",
+    "Limited standing tolerance",
+    "Cognitive impairment during flares",
+    "Requires assistance with ADLs during bad days"
+  ],
+  "care_team": {
+    "primary_care": {"name": "Amanda Sommerville, MD", "system": "Truman Medical Centers"},
+    "cardiology": {"name": "John Lee, MD", "system": "Saint Luke's Cardiovascular Consultants - Blue Springs"},
+    "rheumatology": {"name": "Sarah Ifteqar, MD", "system": ""},
+    "pain_management": {"name": "Fei Cao, MD", "system": ""},
+    "gastroenterology": {"name": "", "system": "Truman"},
+    "psychiatry": {"name": "Dr. Salma Velazquez", "system": ""},
+    "therapy": {"name": "Bridgit Banks", "system": ""},
+    "physical_therapy": {"name": "", "system": "Kinesphere"},
+    "neurology": {"name": "Parashar Koirala, MD", "system": ""}
+  },
+  "pots_emergency_protocol": {
+    "symptoms": ["Sudden dizziness", "Tachycardia (+30 bpm on standing)", "Visual changes (static, halos, blind spots)", "Pallor", "Slurred speech", "Weakness / collapse"],
+    "immediate_care": ["Sit or lie down immediately", "Elevate legs", "Hydration with electrolytes", "Cool environment", "Monitor vitals", "Gradual re-standing"],
+    "emergency_protocol": ["Calm tones only", "No rushing", "Ask yes/no questions", "Provide water", "Quiet environment", "Call Quincy or Da'Veon", "If medical emergency: 911 + notify partners"]
+  },
+  "psychosocial_considerations": [
+    "Severe medical gaslighting history",
+    "Requires trauma-informed care",
+    "Intersectional discrimination (Black, queer, disabled)",
+    "High sensitivity to abandonment cues"
+  ],
+  "absolute_care_rules": [
+    "Believe reported symptoms",
+    "Never minimize pain",
+    "Do not attribute symptoms to anxiety",
+    "Respect autonomy and consent",
+    "Written instructions preferred",
+    "Consistency builds safety"
+  ],
   "medications": [
     {
       "id": "naltrexone-ldn",
