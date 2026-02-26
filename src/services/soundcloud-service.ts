@@ -91,8 +91,13 @@ class SoundCloudService {
       },
     });
 
-    // Load client ID from localStorage
-    this.clientId = localStorage.getItem('soundcloud_client_id') || '';
+    // Load client ID from environment variable first, then fall back to localStorage
+    this.clientId = import.meta.env.VITE_SOUNDCLOUD_CLIENT_ID || localStorage.getItem('soundcloud_client_id') || '';
+
+    // Log graceful fallback status
+    if (!this.clientId) {
+      console.warn('⚠️ SoundCloud Client ID not configured. Set VITE_SOUNDCLOUD_CLIENT_ID environment variable or configure via UI.');
+    }
   }
 
   // 🔐 CONFIGURATION
@@ -108,7 +113,7 @@ class SoundCloudService {
   // 🎵 API CALLS
   private async soundcloudRequest(endpoint: string, params: Record<string, string> = {}): Promise<any> {
     if (!this.clientId) {
-      throw new Error('SoundCloud client ID not set');
+      throw new Error('SoundCloud client ID not configured. Please set VITE_SOUNDCLOUD_CLIENT_ID environment variable or configure via API Configuration.');
     }
 
     const queryParams = new URLSearchParams({

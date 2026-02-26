@@ -184,6 +184,12 @@ const ShadowLibraryPage = React.lazy(() => import('./pages/ShadowLibraryPage'));
 const MediaPlayerPage = React.lazy(() => import('./pages/MediaPlayerPage'));
 const UnifiedCommandCenter = React.lazy(() => import('./components/hub/UnifiedCommandCenter'));
 const DollhouseWorld = React.lazy(() => import('./components/dollhouse/DollhouseWorld'));
+const DollhouseMediaCenter = React.lazy(() => import('./components/dollhouse/DollhouseMediaCenter'));
+const DollhouseLibrary = React.lazy(() => import('./components/dollhouse/DollhouseLibrary'));
+const DollhouseMusicStudio = React.lazy(() => import('./components/dollhouse/DollhouseMusicStudio'));
+const DollhouseArcade = React.lazy(() => import('./components/dollhouse/DollhouseArcade'));
+const DollhouseSoftwareWorkshop = React.lazy(() => import('./components/dollhouse/DollhouseSoftwareWorkshop'));
+const DollhouseAILounge = React.lazy(() => import('./components/dollhouse/DollhouseAILounge'));
 const EmulatorHubPage = React.lazy(() => import('./pages/EmulatorHubPage'));
 const AdaptiveSupportPage = React.lazy(() => import('./pages/AdaptiveSupportPage'));
 const TorrentHubPage = React.lazy(() => import('./pages/TorrentHubPage'));
@@ -627,6 +633,12 @@ const App: React.FC = () => {
         { path: '/dollhouse/pets', name: 'Pet Sanctuary', icon: Heart },
         { path: '/dollhouse/guests', name: 'Guest Quarters', icon: Users },
         { path: '/dollhouse/office', name: 'Office Hub', icon: Calendar },
+        { path: '/dollhouse/media-center', name: '🎬 Media Center', icon: Activity },
+        { path: '/dollhouse/reading-room', name: '📚 Library & Reading Room', icon: Book },
+        { path: '/dollhouse/music-studio', name: '🎵 Music Studio', icon: Music },
+        { path: '/dollhouse/arcade', name: '🎮 Arcade & Gaming', icon: Gamepad2 },
+        { path: '/dollhouse/workshop', name: '🔧 Software Workshop', icon: Code },
+        { path: '/dollhouse/ai-lounge', name: '🤖 AI Lounge', icon: MessageSquare },
       ]
     },
     {
@@ -904,6 +916,12 @@ const App: React.FC = () => {
               <Route path="/dollhouse/music" element={<Navigate to="/gothic-bratz-dollhouse?room=music-room" replace />} />
               <Route path="/dollhouse/pets" element={<Navigate to="/gothic-bratz-dollhouse?room=pet-sanctuary" replace />} />
               <Route path="/dollhouse/guests" element={<Navigate to="/gothic-bratz-dollhouse?room=guest-quarters" replace />} />
+              <Route path="/dollhouse/media-center" element={<DollhouseMediaCenter />} />
+              <Route path="/dollhouse/reading-room" element={<DollhouseLibrary />} />
+              <Route path="/dollhouse/music-studio" element={<DollhouseMusicStudio />} />
+              <Route path="/dollhouse/arcade" element={<DollhouseArcade />} />
+              <Route path="/dollhouse/workshop" element={<DollhouseSoftwareWorkshop />} />
+              <Route path="/dollhouse/ai-lounge" element={<DollhouseAILounge />} />
               <Route path="/theme-gallery" element={<Navigate to="/gothic-apartment" replace />} />
               {/* Activity Components - Keep unique ones */}
               <Route path="/pet-companion" element={<PetCompanionSystem />} />

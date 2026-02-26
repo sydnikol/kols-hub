@@ -365,30 +365,30 @@ const UniversalMediaPlayer: React.FC = () => {
     .filter(Boolean) as MediaContent[];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-950 via-indigo-950 to-gray-950 p-6">
+    <div className="min-h-screen bg-gradient-to-br from-[#0a0010] via-[#9B30FF]/10 to-[#0a0010] p-6">
       {/* Now Playing Modal */}
       {selectedMedia && (
         <div className={`fixed inset-0 bg-black z-50 flex flex-col ${isFullscreen ? '' : 'p-4'}`}>
-          <div className="flex items-center justify-between p-4 bg-gradient-to-r from-indigo-900 to-purple-900 border-b border-indigo-500/30">
+          <div className="flex items-center justify-between p-4 bg-gradient-to-r from-[#FF1493] to-[#9B30FF] border-b border-[#FF1493]/30">
             <div className="flex items-center gap-4">
               <span className="text-3xl">{selectedMedia.type === 'video' ? '🎬' : '🎵'}</span>
               <div>
                 <h2 className="text-white font-bold text-lg">{selectedMedia.title}</h2>
                 {selectedMedia.artist && (
-                  <p className="text-indigo-300 text-sm">{selectedMedia.artist}</p>
+                  <p className="text-[#E0A0FF] text-sm">{selectedMedia.artist}</p>
                 )}
               </div>
             </div>
             <div className="flex items-center gap-2">
               <button
                 onClick={() => setIsFullscreen(!isFullscreen)}
-                className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg transition-colors"
+                className="px-4 py-2 bg-[#9B30FF] hover:bg-[#9B30FF]/80 text-white rounded-lg transition-colors"
               >
                 {isFullscreen ? '⬜ Exit Fullscreen' : '⛶ Fullscreen'}
               </button>
               <button
                 onClick={() => setSelectedMedia(null)}
-                className="px-4 py-2 bg-red-600 hover:bg-red-500 text-white rounded-lg transition-colors"
+                className="px-4 py-2 bg-[#FF1493] hover:bg-[#FF1493]/80 text-white rounded-lg transition-colors"
               >
                 ✕ Close
               </button>
@@ -406,27 +406,27 @@ const UniversalMediaPlayer: React.FC = () => {
           </div>
 
           {!isFullscreen && (
-            <div className="p-4 bg-gray-900/90 border-t border-indigo-500/30">
+            <div className="p-4 bg-[#0a0010]/90 border-t border-[#9B30FF]/30">
               <div className="flex flex-wrap gap-2 items-center">
-                <span className="text-sm text-gray-400">Source: {selectedMedia.source}</span>
+                <span className="text-sm text-[#E0A0FF]">Source: {selectedMedia.source}</span>
                 {selectedMedia.duration && (
-                  <span className="text-sm px-2 py-0.5 bg-indigo-500/20 text-indigo-300 rounded">
+                  <span className="text-sm px-2 py-0.5 bg-[#9B30FF]/20 text-[#E0A0FF] rounded">
                     {selectedMedia.duration}
                   </span>
                 )}
                 {selectedMedia.year && (
-                  <span className="text-sm px-2 py-0.5 bg-purple-500/20 text-purple-300 rounded">
+                  <span className="text-sm px-2 py-0.5 bg-[#FF1493]/20 text-[#FF1493] rounded">
                     {selectedMedia.year}
                   </span>
                 )}
                 {selectedMedia.genre?.map((g, i) => (
-                  <span key={i} className="text-xs px-2 py-0.5 bg-gray-700 text-gray-300 rounded">
+                  <span key={i} className="text-xs px-2 py-0.5 bg-[#9B30FF]/30 text-[#E0A0FF] rounded">
                     {g}
                   </span>
                 ))}
               </div>
               {selectedMedia.description && (
-                <p className="text-gray-400 text-sm mt-2">{selectedMedia.description}</p>
+                <p className="text-[#E0A0FF] text-sm mt-2">{selectedMedia.description}</p>
               )}
             </div>
           )}
@@ -439,18 +439,18 @@ const UniversalMediaPlayer: React.FC = () => {
           <div className="flex items-center gap-4">
             <span className="text-5xl">📺</span>
             <div>
-              <h1 className="text-3xl font-bold text-white">Universal Media Player</h1>
-              <p className="text-indigo-300">Free films, audiobooks, music & educational content</p>
+              <h1 className="text-3xl font-bold text-[#F5E6FF]">Universal Media Player</h1>
+              <p className="text-[#E0A0FF]">Free films, audiobooks, music & educational content</p>
             </div>
           </div>
           <div className="flex gap-4 text-center">
-            <div className="px-4 py-2 bg-indigo-900/30 rounded-lg border border-indigo-500/20">
-              <div className="text-xl font-bold text-indigo-300">{ALL_MEDIA.length}</div>
-              <div className="text-xs text-gray-400">Media Items</div>
+            <div className="px-4 py-2 bg-[#9B30FF]/20 rounded-lg border border-[#9B30FF]/40">
+              <div className="text-xl font-bold text-[#FF1493]">{ALL_MEDIA.length}</div>
+              <div className="text-xs text-[#E0A0FF]">Media Items</div>
             </div>
-            <div className="px-4 py-2 bg-purple-900/30 rounded-lg border border-purple-500/20">
-              <div className="text-xl font-bold text-purple-300">100%</div>
-              <div className="text-xs text-gray-400">Free & Legal</div>
+            <div className="px-4 py-2 bg-[#FF1493]/20 rounded-lg border border-[#FF1493]/40">
+              <div className="text-xl font-bold text-[#FF1493]">100%</div>
+              <div className="text-xs text-[#E0A0FF]">Free & Legal</div>
             </div>
           </div>
         </div>
@@ -465,7 +465,7 @@ const UniversalMediaPlayer: React.FC = () => {
               placeholder="Search films, audiobooks, music..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full px-4 py-3 pl-12 bg-gray-900/80 border border-indigo-500/30 rounded-xl text-white placeholder-gray-400 focus:border-indigo-400 focus:outline-none"
+              className="w-full px-4 py-3 pl-12 bg-[#9B30FF]/10 border border-[#9B30FF]/40 rounded-xl text-[#F5E6FF] placeholder-[#E0A0FF]/50 focus:border-[#FF1493] focus:outline-none"
             />
             <span className="absolute left-4 top-1/2 -translate-y-1/2 text-xl">🔍</span>
           </div>
@@ -478,8 +478,8 @@ const UniversalMediaPlayer: React.FC = () => {
               onClick={() => setSelectedCategory(cat.id)}
               className={`px-4 py-2 rounded-lg whitespace-nowrap transition-all ${
                 selectedCategory === cat.id
-                  ? 'bg-indigo-600 text-white'
-                  : 'bg-gray-800 text-gray-300 hover:bg-gray-700'
+                  ? 'bg-[#FF1493] text-white border border-[#FF1493]'
+                  : 'bg-[#9B30FF]/20 text-[#E0A0FF] hover:bg-[#9B30FF]/40 border border-[#9B30FF]/40'
               }`}
             >
               {cat.icon} {cat.name}
@@ -491,7 +491,7 @@ const UniversalMediaPlayer: React.FC = () => {
       {/* Recently Played */}
       {recentMedia.length > 0 && (
         <div className="max-w-7xl mx-auto mb-8">
-          <h2 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
+          <h2 className="text-xl font-bold text-[#F5E6FF] mb-4 flex items-center gap-2">
             <span>⏱️</span> Recently Played
           </h2>
           <div className="flex gap-4 overflow-x-auto pb-4">
@@ -499,11 +499,11 @@ const UniversalMediaPlayer: React.FC = () => {
               <button
                 key={media.id}
                 onClick={() => playMedia(media)}
-                className="flex-shrink-0 w-48 p-4 bg-gradient-to-br from-gray-900 to-indigo-900/50 rounded-xl border border-indigo-500/30 hover:border-indigo-400/50 transition-all text-left"
+                className="flex-shrink-0 w-48 p-4 bg-gradient-to-br from-[#9B30FF]/20 to-[#FF1493]/10 rounded-xl border border-[#9B30FF]/40 hover:border-[#FF1493] transition-all text-left"
               >
                 <div className="text-3xl mb-2">{media.type === 'video' ? '🎬' : '🎵'}</div>
-                <h4 className="text-white font-medium text-sm line-clamp-1">{media.title}</h4>
-                <p className="text-xs text-gray-400 line-clamp-1">{media.artist}</p>
+                <h4 className="text-[#F5E6FF] font-medium text-sm line-clamp-1">{media.title}</h4>
+                <p className="text-xs text-[#E0A0FF] line-clamp-1">{media.artist}</p>
               </button>
             ))}
           </div>
@@ -512,16 +512,16 @@ const UniversalMediaPlayer: React.FC = () => {
 
       {/* Media Grid */}
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-xl font-bold text-white mb-4">
+        <h2 className="text-xl font-bold text-[#F5E6FF] mb-4">
           {selectedCategory === 'all' ? 'All Media' : MEDIA_CATEGORIES.find(c => c.id === selectedCategory)?.name}
-          <span className="text-sm text-gray-400 ml-2">({filteredMedia.length} items)</span>
+          <span className="text-sm text-[#E0A0FF] ml-2">({filteredMedia.length} items)</span>
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
           {filteredMedia.map(media => (
             <div
               key={media.id}
-              className="bg-gradient-to-br from-gray-900 to-indigo-900/30 rounded-xl border border-indigo-500/20 overflow-hidden hover:border-indigo-400/40 transition-all group cursor-pointer"
+              className="bg-gradient-to-br from-[#9B30FF]/20 to-[#FF1493]/10 rounded-xl border border-[#9B30FF]/40 overflow-hidden hover:border-[#FF1493] transition-all group cursor-pointer"
               onClick={() => playMedia(media)}
             >
               <div className="aspect-video bg-gray-800 flex items-center justify-center relative overflow-hidden">
@@ -550,22 +550,22 @@ const UniversalMediaPlayer: React.FC = () => {
               </div>
 
               <div className="p-4">
-                <h3 className="text-white font-bold text-sm line-clamp-1 group-hover:text-indigo-300 transition-colors">
+                <h3 className="text-[#F5E6FF] font-bold text-sm line-clamp-1 group-hover:text-[#FF1493] transition-colors">
                   {media.title}
                 </h3>
                 {media.artist && (
-                  <p className="text-gray-400 text-xs mt-1 line-clamp-1">{media.artist}</p>
+                  <p className="text-[#E0A0FF] text-xs mt-1 line-clamp-1">{media.artist}</p>
                 )}
                 <div className="flex items-center gap-2 mt-2">
-                  <span className="text-xs px-2 py-0.5 bg-indigo-500/20 text-indigo-300 rounded">
+                  <span className="text-xs px-2 py-0.5 bg-[#9B30FF]/20 text-[#E0A0FF] rounded">
                     {media.source}
                   </span>
                   {media.year && (
-                    <span className="text-xs text-gray-500">{media.year}</span>
+                    <span className="text-xs text-[#E0A0FF]/60">{media.year}</span>
                   )}
                 </div>
                 {media.description && (
-                  <p className="text-gray-500 text-xs mt-2 line-clamp-2">{media.description}</p>
+                  <p className="text-[#E0A0FF]/70 text-xs mt-2 line-clamp-2">{media.description}</p>
                 )}
               </div>
             </div>
@@ -573,7 +573,7 @@ const UniversalMediaPlayer: React.FC = () => {
         </div>
 
         {filteredMedia.length === 0 && (
-          <div className="text-center py-12 text-gray-400">
+          <div className="text-center py-12 text-[#E0A0FF]">
             <span className="text-5xl mb-4 block">📭</span>
             <p>No media found matching your search.</p>
           </div>
@@ -581,8 +581,8 @@ const UniversalMediaPlayer: React.FC = () => {
       </div>
 
       {/* Info Footer */}
-      <div className="max-w-7xl mx-auto mt-8 p-4 bg-green-900/20 border border-green-500/30 rounded-lg">
-        <p className="text-green-200 text-sm text-center">
+      <div className="max-w-7xl mx-auto mt-8 p-4 bg-[#FF1493]/10 border border-[#FF1493]/30 rounded-lg">
+        <p className="text-[#FF1493] text-sm text-center">
           ✅ All content is free, legal, and in the public domain or Creative Commons licensed.
           Sources include Internet Archive, LibriVox, and educational channels.
         </p>

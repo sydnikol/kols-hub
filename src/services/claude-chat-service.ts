@@ -82,6 +82,20 @@ class ClaudeChatService {
   private conversations: Map<string, ClaudeConversation> = new Map();
   private currentConversationId: string | null = null;
 
+  constructor() {
+    // Initialize from Vite env var on construction
+    const envApiKey = import.meta.env.VITE_ANTHROPIC_API_KEY;
+    if (envApiKey) {
+      this.config = {
+        apiKey: envApiKey,
+        model: 'claude-3-5-sonnet-20241022',
+        maxTokens: 4096,
+        temperature: 0.7
+      };
+      console.log('Claude Chat Service initialized from VITE_ANTHROPIC_API_KEY');
+    }
+  }
+
   /**
    * Initialize Claude with API key
    */
@@ -172,8 +186,15 @@ class ClaudeChatService {
     onStream?: (chunk: string) => void
   ): Promise<ClaudeMessage | null> {
     if (!this.config?.apiKey) {
-      console.error('Claude not configured');
-      return null;
+      console.error('Claude not configured. Set VITE_ANTHROPIC_API_KEY environment variable or call initialize()');
+      // Return a fallback response
+      const fallbackMessage: ClaudeMessage = {
+        id: `msg-${Date.now()}-fallback`,
+        role: 'assistant',
+        content: 'Claude API is not configured. Please set your API key to enable AI chat features.',
+        timestamp: new Date()
+      };
+      return fallbackMessage;
     }
 
     const convId = conversationId || this.currentConversationId;
@@ -263,8 +284,8 @@ class ClaudeChatService {
     persona: ClaudePersona = 'assistant'
   ): Promise<string | null> {
     if (!this.config?.apiKey) {
-      console.error('Claude not configured');
-      return null;
+      console.error('Claude not configured. Set VITE_ANTHROPIC_API_KEY environment variable or call initialize()');
+      return 'Claude API is not configured. Please set your API key to enable AI chat features.';
     }
 
     try {

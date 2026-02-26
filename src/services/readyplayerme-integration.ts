@@ -148,9 +148,18 @@ class ReadyPlayerMeIntegrationService {
   private baseUrl = 'https://api.readyplayer.me/v1';
   private avatarApiUrl = 'https://models.readyplayer.me';
 
+  constructor() {
+    // Initialize from Vite env var on construction
+    const envAppId = import.meta.env.VITE_READYPLAYER_ME_APP_ID;
+    if (envAppId) {
+      this.applicationId = envAppId;
+      console.log('Ready Player Me app ID loaded from VITE_READYPLAYER_ME_APP_ID');
+    }
+  }
+
   initialize(config: ReadyPlayerMeConfig): boolean {
     try {
-      this.applicationId = config.applicationId || null;
+      this.applicationId = config.applicationId || import.meta.env.VITE_READYPLAYER_ME_APP_ID || null;
       this.subdomain = config.subdomain || null;
       this.apiKey = config.apiKey || null;
       this.organizationId = config.organizationId || null;
@@ -164,12 +173,14 @@ class ReadyPlayerMeIntegrationService {
   }
 
   isConfigured(): boolean {
-    if (this.applicationId || this.subdomain) return true;
+    // Check Vite env vars first, then instance vars, then localStorage
+    const envAppId = import.meta.env.VITE_READYPLAYER_ME_APP_ID;
+    if (this.applicationId || this.subdomain || envAppId) return true;
     try {
       const savedConfig = localStorage.getItem('readyplayerme_config');
       if (savedConfig) {
         const config = JSON.parse(savedConfig);
-        this.applicationId = config.applicationId;
+        this.applicationId = config.applicationId || envAppId;
         this.subdomain = config.subdomain;
         this.apiKey = config.apiKey;
         this.organizationId = config.organizationId;

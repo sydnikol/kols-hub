@@ -1,23 +1,40 @@
 {
   "patient_info": {
-    "name": "Kol",
-    "pronouns": "they/them",
-    "date_of_birth": "",
+    "full_name": "JONES, SYDNEY NICOLE",
+    "first_name": "SYDNEY",
+    "middle_name": "NICOLE",
+    "last_name": "JONES",
+    "admin_sex": "Female",
+    "date_of_birth": "1999-09-07",
+    "age": 25,
+    "address": "317 OLIVE ST APT 1, KANSAS CITY, MO 641242186",
+    "phone_primary": "+19136388640",
+    "phone_type": "Home",
+    "email": "kol.health1999@gmail.com",
+    "marital_status": "Single",
+    "religion": "Other",
+    "race": "Black or African American",
+    "ethnic_group": "Not Hispanic, Latino, or Spanish Origin",
+    "language": "en-US",
+    "ssn_last_four": "0374",
+    "blood_type": "A POS",
     "medical_record_numbers": {
-      "mySaintLukes": "",
-      "myUHealth": "",
+      "children_mercy": "",
+      "saint_lukes": "",
+      "university_health": "",
       "other": []
     },
-    "created_date": "2025-11-20",
-    "last_updated": "2025-11-20",
+    "created_date": "2026-02-26",
+    "last_updated": "2026-02-26",
     "version": "1.0"
   },
-  
+
   "emergency_contacts": [
     {
       "name": "Da'Veon",
       "relationship": "Partner",
       "phone": "",
+      "email": "",
       "can_make_medical_decisions": true,
       "priority": 1
     },
@@ -25,6 +42,7 @@
       "name": "Mom",
       "relationship": "Mother",
       "phone": "",
+      "email": "",
       "can_make_medical_decisions": true,
       "priority": 2
     },
@@ -32,31 +50,440 @@
       "name": "Quincy",
       "relationship": "Partner",
       "phone": "",
+      "email": "",
       "can_make_medical_decisions": true,
       "priority": 3
     }
   ],
-  
+
+  "care_team": {
+    "primary_care_provider": {
+      "name": "Sommerville, Amanda",
+      "title": "Primary Care Provider",
+      "address": "2301 Holmes Street, Kansas City, MO 64108",
+      "phone": "+18164041000",
+      "fax": "",
+      "email": "",
+      "portal": "MySaintLukes"
+    }
+  },
+
+  "allergies": [
+    {
+      "allergen": "Toradol (ketorolac)",
+      "type": "medication",
+      "reaction": "swelling",
+      "severity": "moderate",
+      "status": "active",
+      "date_discovered": "",
+      "source": "Children's Mercy",
+      "notes": ""
+    },
+    {
+      "allergen": "ketorolac",
+      "type": "medication",
+      "reaction": "Swelling",
+      "severity": "moderate",
+      "status": "active",
+      "date_discovered": "",
+      "source": "University Health",
+      "notes": ""
+    },
+    {
+      "allergen": "Latex",
+      "type": "environmental",
+      "reaction": "",
+      "severity": "unknown",
+      "status": "active",
+      "date_discovered": "",
+      "source": "Children's Mercy",
+      "notes": ""
+    },
+    {
+      "allergen": "Orange fruit",
+      "type": "food",
+      "reaction": "",
+      "severity": "unknown",
+      "status": "active",
+      "date_discovered": "",
+      "source": "Children's Mercy",
+      "notes": ""
+    },
+    {
+      "allergen": "Oranges",
+      "type": "food",
+      "reaction": "Migraine",
+      "severity": "moderate",
+      "status": "active",
+      "date_discovered": "",
+      "source": "University Health",
+      "notes": ""
+    }
+  ],
+
+  "conditions": {
+    "problem_list": [
+      {
+        "condition_name": "Abdominal bloating",
+        "icd10_code": "",
+        "status": "active",
+        "date_onset": "",
+        "source": "University Health",
+        "severity": "unknown"
+      },
+      {
+        "condition_name": "Abdominal cramping",
+        "icd10_code": "",
+        "status": "active",
+        "date_onset": "",
+        "source": "University Health",
+        "severity": "unknown"
+      },
+      {
+        "condition_name": "Allergy",
+        "icd10_code": "",
+        "status": "active",
+        "date_onset": "",
+        "source": "Children's Mercy",
+        "severity": "unknown"
+      },
+      {
+        "condition_name": "Allodynia",
+        "icd10_code": "M79.7",
+        "status": "active",
+        "date_onset": "2016-02-11",
+        "source": "Children's Mercy",
+        "severity": "moderate"
+      },
+      {
+        "condition_name": "Anxiety",
+        "icd10_code": "F41.9",
+        "status": "active",
+        "date_onset": "",
+        "source": "University Health",
+        "severity": "unknown"
+      },
+      {
+        "condition_name": "Asthma",
+        "icd10_code": "J45.9",
+        "status": "active",
+        "date_onset": "",
+        "source": "Children's Mercy, University Health",
+        "severity": "moderate"
+      },
+      {
+        "condition_name": "ADHD (Attention-Deficit/Hyperactivity Disorder)",
+        "icd10_code": "F90.9",
+        "status": "active",
+        "date_onset": "",
+        "source": "University Health",
+        "severity": "unknown"
+      },
+      {
+        "condition_name": "Back pain",
+        "icd10_code": "M54.9",
+        "status": "active",
+        "date_onset": "2015-12-10",
+        "source": "Children's Mercy",
+        "severity": "moderate"
+      },
+      {
+        "condition_name": "BMI 25.0-25.9, adult",
+        "icd10_code": "Z68.25",
+        "status": "active",
+        "date_onset": "",
+        "source": "University Health",
+        "severity": "mild"
+      },
+      {
+        "condition_name": "Cervical lymphadenopathy",
+        "icd10_code": "R59.0",
+        "status": "active",
+        "date_onset": "",
+        "source": "University Health",
+        "severity": "mild"
+      },
+      {
+        "condition_name": "Change in bowel habit",
+        "icd10_code": "K59.8",
+        "status": "active",
+        "date_onset": "",
+        "source": "University Health",
+        "severity": "unknown"
+      },
+      {
+        "condition_name": "Chronic headache",
+        "icd10_code": "R51.9",
+        "status": "active",
+        "date_onset": "",
+        "source": "University Health",
+        "severity": "moderate"
+      },
+      {
+        "condition_name": "Chronic pain syndrome",
+        "icd10_code": "M79.7",
+        "status": "active",
+        "date_onset": "2010, 2016-02-11",
+        "source": "Children's Mercy",
+        "severity": "severe"
+      },
+      {
+        "condition_name": "Chronic generalized pain",
+        "icd10_code": "R52.9",
+        "status": "active",
+        "date_onset": "",
+        "source": "University Health",
+        "severity": "severe"
+      },
+      {
+        "condition_name": "Class 2 obesity with BMI of 36.0 to 36.9 in adult",
+        "icd10_code": "E66.9",
+        "status": "active",
+        "date_onset": "",
+        "source": "University Health",
+        "severity": "moderate"
+      },
+      {
+        "condition_name": "Constipation",
+        "icd10_code": "K59.0",
+        "status": "active",
+        "date_onset": "",
+        "source": "University Health",
+        "severity": "mild"
+      },
+      {
+        "condition_name": "Depression",
+        "icd10_code": "F32.9",
+        "status": "active",
+        "date_onset": "",
+        "source": "Children's Mercy",
+        "severity": "moderate"
+      },
+      {
+        "condition_name": "Dizziness",
+        "icd10_code": "R42",
+        "status": "active",
+        "date_onset": "",
+        "source": "University Health",
+        "severity": "moderate"
+      },
+      {
+        "condition_name": "Ehlers-Danlos syndrome",
+        "icd10_code": "Q79.6",
+        "status": "active",
+        "date_onset": "2010",
+        "source": "Children's Mercy",
+        "severity": "severe"
+      },
+      {
+        "condition_name": "Ehlers-Danlos syndrome, type 3",
+        "icd10_code": "Q79.602",
+        "status": "active",
+        "date_onset": "",
+        "source": "University Health",
+        "severity": "severe"
+      },
+      {
+        "condition_name": "Gender dysphoria",
+        "icd10_code": "F64.9",
+        "status": "active",
+        "date_onset": "",
+        "source": "University Health",
+        "severity": "unknown"
+      },
+      {
+        "condition_name": "Gender dysphoria in adult",
+        "icd10_code": "F64.0",
+        "status": "active",
+        "date_onset": "",
+        "source": "University Health",
+        "severity": "unknown"
+      },
+      {
+        "condition_name": "GERD (gastroesophageal reflux disease)",
+        "icd10_code": "K21.9",
+        "status": "active",
+        "date_onset": "",
+        "source": "University Health",
+        "severity": "mild"
+      },
+      {
+        "condition_name": "Hypermobility",
+        "icd10_code": "M35.7",
+        "status": "active",
+        "date_onset": "",
+        "source": "Children's Mercy",
+        "severity": "severe"
+      },
+      {
+        "condition_name": "Major depression, recurrent",
+        "icd10_code": "F33.9",
+        "status": "active",
+        "date_onset": "",
+        "source": "University Health",
+        "severity": "moderate"
+      },
+      {
+        "condition_name": "Migraine",
+        "icd10_code": "G43.9",
+        "status": "active",
+        "date_onset": "",
+        "source": "Children's Mercy",
+        "severity": "moderate"
+      },
+      {
+        "condition_name": "Muscle weakness",
+        "icd10_code": "R53.1",
+        "status": "active",
+        "date_onset": "2017-05-25",
+        "source": "Children's Mercy",
+        "severity": "moderate"
+      },
+      {
+        "condition_name": "Myofascial pain syndrome",
+        "icd10_code": "M79.7",
+        "status": "active",
+        "date_onset": "",
+        "source": "University Health",
+        "severity": "moderate"
+      },
+      {
+        "condition_name": "Nausea",
+        "icd10_code": "R11.0",
+        "status": "active",
+        "date_onset": "",
+        "source": "Children's Mercy",
+        "severity": "mild"
+      },
+      {
+        "condition_name": "Nausea and/or vomiting",
+        "icd10_code": "R11.2",
+        "status": "active",
+        "date_onset": "",
+        "source": "University Health",
+        "severity": "mild"
+      },
+      {
+        "condition_name": "Numbness and tingling",
+        "icd10_code": "R20.2",
+        "status": "active",
+        "date_onset": "",
+        "source": "University Health",
+        "severity": "mild"
+      },
+      {
+        "condition_name": "Obesity",
+        "icd10_code": "E66.9",
+        "status": "active",
+        "date_onset": "",
+        "source": "University Health",
+        "severity": "moderate"
+      },
+      {
+        "condition_name": "Obstructive sleep apnea",
+        "icd10_code": "G47.33",
+        "status": "active",
+        "date_onset": "",
+        "source": "University Health",
+        "severity": "moderate"
+      },
+      {
+        "condition_name": "Palpitations",
+        "icd10_code": "R00.2",
+        "status": "active",
+        "date_onset": "",
+        "source": "University Health",
+        "severity": "moderate"
+      },
+      {
+        "condition_name": "Paresthesia",
+        "icd10_code": "R20.2",
+        "status": "active",
+        "date_onset": "2017-05-25",
+        "source": "Children's Mercy",
+        "severity": "mild"
+      },
+      {
+        "condition_name": "Post-traumatic stress disorder (PTSD)",
+        "icd10_code": "F43.10",
+        "status": "active",
+        "date_onset": "",
+        "source": "University Health",
+        "severity": "moderate"
+      },
+      {
+        "condition_name": "POTS (postural orthostatic tachycardia syndrome)",
+        "icd10_code": "G90.A",
+        "status": "active",
+        "date_onset": "",
+        "source": "University Health",
+        "severity": "severe"
+      },
+      {
+        "condition_name": "Racing heart beat",
+        "icd10_code": "R00.0",
+        "status": "active",
+        "date_onset": "",
+        "source": "University Health",
+        "severity": "moderate"
+      },
+      {
+        "condition_name": "Seronegative rheumatoid arthritis",
+        "icd10_code": "M06.9",
+        "status": "active",
+        "date_onset": "",
+        "source": "University Health",
+        "severity": "moderate"
+      },
+      {
+        "condition_name": "Syncope",
+        "icd10_code": "R55",
+        "status": "active",
+        "date_onset": "",
+        "source": "University Health",
+        "severity": "moderate"
+      },
+      {
+        "condition_name": "Tachycardia",
+        "icd10_code": "R00.0",
+        "status": "active",
+        "date_onset": "",
+        "source": "University Health",
+        "severity": "moderate"
+      },
+      {
+        "condition_name": "Weight loss",
+        "icd10_code": "R63.4",
+        "status": "active",
+        "date_onset": "",
+        "source": "University Health",
+        "severity": "mild"
+      }
+    ]
+  },
+
   "medications": [
     {
       "id": 1,
-      "name": "",
-      "generic_name": "",
-      "dosage": "",
-      "frequency": "",
+      "name": "Truvada",
+      "generic_name": "emtricitabine-tenofovir",
+      "strength": "200 mg-300 mg",
+      "dosage": "1 tab",
+      "frequency": "Daily",
       "route": "oral",
-      "purpose": "",
-      "category": "pain_management",
+      "purpose": "HIV prevention",
+      "category": "antiviral",
       "prescriber": "",
       "prescriber_specialty": "",
-      "start_date": "",
+      "start_date": "2025-10-07",
+      "end_date": "",
       "pharmacy": "",
       "pharmacy_phone": "",
       "refill_date": "",
       "refills_remaining": 0,
       "side_effects": [],
       "effectiveness_rating": 0,
-      "times_per_day": [],
+      "times_per_day": 1,
       "with_food": "",
       "special_instructions": "",
       "interactions": [],
@@ -69,27 +496,29 @@
       "is_prn": false,
       "is_controlled": false,
       "dea_schedule": "",
-      "notes": ""
+      "notes": "Alternative combination to emtricitabine-tenofovir listed separately"
     },
     {
       "id": 2,
-      "name": "",
-      "generic_name": "",
-      "dosage": "",
-      "frequency": "",
+      "name": "folic acid",
+      "generic_name": "folic acid",
+      "strength": "1 mg",
+      "dosage": "1 tab",
+      "frequency": "Daily",
       "route": "oral",
-      "purpose": "",
-      "category": "pots_dysautonomia",
+      "purpose": "Nutritional supplement",
+      "category": "vitamin",
       "prescriber": "",
       "prescriber_specialty": "",
-      "start_date": "",
+      "start_date": "2025-05-13",
+      "end_date": "",
       "pharmacy": "",
       "pharmacy_phone": "",
       "refill_date": "",
       "refills_remaining": 0,
       "side_effects": [],
       "effectiveness_rating": 0,
-      "times_per_day": [],
+      "times_per_day": 1,
       "with_food": "",
       "special_instructions": "",
       "interactions": [],
@@ -106,23 +535,60 @@
     },
     {
       "id": 3,
-      "name": "",
-      "generic_name": "",
-      "dosage": "",
-      "frequency": "",
-      "route": "oral",
-      "purpose": "",
-      "category": "mental_health",
+      "name": "Albuterol (Eqv-ProAir HFA)",
+      "generic_name": "albuterol",
+      "strength": "90 mcg/inh",
+      "dosage": "2 PUFFS",
+      "frequency": "Every 6 hours as needed",
+      "route": "inhalation",
+      "purpose": "Asthma relief",
+      "category": "respiratory",
       "prescriber": "",
       "prescriber_specialty": "",
-      "start_date": "",
+      "start_date": "2024-09-03",
+      "end_date": "",
       "pharmacy": "",
       "pharmacy_phone": "",
       "refill_date": "",
       "refills_remaining": 0,
       "side_effects": [],
       "effectiveness_rating": 0,
-      "times_per_day": [],
+      "times_per_day": 0,
+      "with_food": "",
+      "special_instructions": "Use as needed for wheezing",
+      "interactions": [],
+      "cost_per_month": 0,
+      "insurance_covered": true,
+      "prior_auth_required": false,
+      "manufacturer": "",
+      "ndc_number": "",
+      "is_active": true,
+      "is_prn": true,
+      "is_controlled": false,
+      "dea_schedule": "",
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "name": "budesonide-formoterol",
+      "generic_name": "budesonide-formoterol",
+      "strength": "160 mcg-4.5 mcg/inh",
+      "dosage": "2 puff",
+      "frequency": "Twice daily",
+      "route": "inhalation",
+      "purpose": "Asthma maintenance",
+      "category": "respiratory",
+      "prescriber": "",
+      "prescriber_specialty": "",
+      "start_date": "2024-09-03",
+      "end_date": "",
+      "pharmacy": "",
+      "pharmacy_phone": "",
+      "refill_date": "",
+      "refills_remaining": 0,
+      "side_effects": [],
+      "effectiveness_rating": 0,
+      "times_per_day": 2,
       "with_food": "",
       "special_instructions": "",
       "interactions": [],
@@ -136,350 +602,2229 @@
       "is_controlled": false,
       "dea_schedule": "",
       "notes": ""
+    },
+    {
+      "id": 5,
+      "name": "meloxicam",
+      "generic_name": "meloxicam",
+      "strength": "15 mg",
+      "dosage": "1 tab",
+      "frequency": "Daily",
+      "route": "oral",
+      "purpose": "Pain and inflammation management",
+      "category": "pain_management",
+      "prescriber": "",
+      "prescriber_specialty": "",
+      "start_date": "2026-01-14",
+      "end_date": "2026-04-14",
+      "pharmacy": "",
+      "pharmacy_phone": "",
+      "refill_date": "",
+      "refills_remaining": 0,
+      "side_effects": [],
+      "effectiveness_rating": 0,
+      "times_per_day": 1,
+      "with_food": "",
+      "special_instructions": "Increased from 7.5 to 15 mg daily, oral or as needed",
+      "interactions": [],
+      "cost_per_month": 0,
+      "insurance_covered": true,
+      "prior_auth_required": false,
+      "manufacturer": "",
+      "ndc_number": "",
+      "is_active": true,
+      "is_prn": false,
+      "is_controlled": false,
+      "dea_schedule": "",
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "name": "cyclobenzaprine",
+      "generic_name": "cyclobenzaprine",
+      "strength": "5 mg",
+      "dosage": "1 tab",
+      "frequency": "Three times daily as needed",
+      "route": "oral",
+      "purpose": "Muscle relaxation",
+      "category": "pain_management",
+      "prescriber": "",
+      "prescriber_specialty": "",
+      "start_date": "2026-01-14",
+      "end_date": "2026-07-13",
+      "pharmacy": "",
+      "pharmacy_phone": "",
+      "refill_date": "",
+      "refills_remaining": 0,
+      "side_effects": [],
+      "effectiveness_rating": 0,
+      "times_per_day": 3,
+      "with_food": "",
+      "special_instructions": "Use as needed for muscle pain",
+      "interactions": [],
+      "cost_per_month": 0,
+      "insurance_covered": true,
+      "prior_auth_required": false,
+      "manufacturer": "",
+      "ndc_number": "",
+      "is_active": true,
+      "is_prn": true,
+      "is_controlled": false,
+      "dea_schedule": "",
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "name": "naltrexone compounding powder",
+      "generic_name": "naltrexone",
+      "strength": "4.5 mg",
+      "dosage": "4.5 mg",
+      "frequency": "Daily",
+      "route": "oral",
+      "purpose": "Low-dose naltrexone for pain and immune support",
+      "category": "pain_management",
+      "prescriber": "",
+      "prescriber_specialty": "",
+      "start_date": "2026-01-14",
+      "end_date": "2027-07-08",
+      "pharmacy": "",
+      "pharmacy_phone": "",
+      "refill_date": "",
+      "refills_remaining": 0,
+      "side_effects": [],
+      "effectiveness_rating": 0,
+      "times_per_day": 1,
+      "with_food": "",
+      "special_instructions": "Low-dose formulation",
+      "interactions": [],
+      "cost_per_month": 0,
+      "insurance_covered": true,
+      "prior_auth_required": false,
+      "manufacturer": "",
+      "ndc_number": "",
+      "is_active": true,
+      "is_prn": false,
+      "is_controlled": false,
+      "dea_schedule": "",
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "name": "thigh high compression stockings",
+      "generic_name": "compression stockings",
+      "strength": "15-20 mmHg",
+      "dosage": "1 pair",
+      "frequency": "Daily",
+      "route": "topical",
+      "purpose": "POTS management, blood pooling prevention",
+      "category": "pots_dysautonomia",
+      "prescriber": "",
+      "prescriber_specialty": "",
+      "start_date": "2024-11-26",
+      "end_date": "",
+      "pharmacy": "",
+      "pharmacy_phone": "",
+      "refill_date": "",
+      "refills_remaining": 0,
+      "side_effects": [],
+      "effectiveness_rating": 0,
+      "times_per_day": 1,
+      "with_food": "",
+      "special_instructions": "Use daily",
+      "interactions": [],
+      "cost_per_month": 0,
+      "insurance_covered": true,
+      "prior_auth_required": false,
+      "manufacturer": "",
+      "ndc_number": "",
+      "is_active": true,
+      "is_prn": false,
+      "is_controlled": false,
+      "dea_schedule": "",
+      "notes": "Medical device for POTS symptoms"
+    },
+    {
+      "id": 9,
+      "name": "D3-50",
+      "generic_name": "cholecalciferol (Vitamin D3)",
+      "strength": "1,250 mcg",
+      "dosage": "1 cap",
+      "frequency": "Weekly",
+      "route": "oral",
+      "purpose": "Vitamin D supplementation",
+      "category": "vitamin",
+      "prescriber": "",
+      "prescriber_specialty": "",
+      "start_date": "2025-08-11",
+      "end_date": "",
+      "pharmacy": "",
+      "pharmacy_phone": "",
+      "refill_date": "",
+      "refills_remaining": 0,
+      "side_effects": [],
+      "effectiveness_rating": 0,
+      "times_per_day": 0,
+      "with_food": "",
+      "special_instructions": "Weekly dosing",
+      "interactions": [],
+      "cost_per_month": 0,
+      "insurance_covered": true,
+      "prior_auth_required": false,
+      "manufacturer": "",
+      "ndc_number": "",
+      "is_active": true,
+      "is_prn": false,
+      "is_controlled": false,
+      "dea_schedule": "",
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "name": "famotidine",
+      "generic_name": "famotidine",
+      "strength": "40 mg",
+      "dosage": "1 tab",
+      "frequency": "At bedtime as needed",
+      "route": "oral",
+      "purpose": "GERD/acid reflux management",
+      "category": "gastrointestinal",
+      "prescriber": "",
+      "prescriber_specialty": "",
+      "start_date": "2025-08-11",
+      "end_date": "",
+      "pharmacy": "",
+      "pharmacy_phone": "",
+      "refill_date": "",
+      "refills_remaining": 0,
+      "side_effects": [],
+      "effectiveness_rating": 0,
+      "times_per_day": 0,
+      "with_food": "",
+      "special_instructions": "Use at bedtime as needed for dyspepsia",
+      "interactions": [],
+      "cost_per_month": 0,
+      "insurance_covered": true,
+      "prior_auth_required": false,
+      "manufacturer": "",
+      "ndc_number": "",
+      "is_active": true,
+      "is_prn": true,
+      "is_controlled": false,
+      "dea_schedule": "",
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "name": "topiramate",
+      "generic_name": "topiramate",
+      "strength": "25 mg",
+      "dosage": "2 cap",
+      "frequency": "Daily",
+      "route": "oral",
+      "purpose": "Migraine prevention, weight management",
+      "category": "neurological",
+      "prescriber": "",
+      "prescriber_specialty": "",
+      "start_date": "2025-08-11",
+      "end_date": "",
+      "pharmacy": "",
+      "pharmacy_phone": "",
+      "refill_date": "",
+      "refills_remaining": 0,
+      "side_effects": [],
+      "effectiveness_rating": 0,
+      "times_per_day": 1,
+      "with_food": "",
+      "special_instructions": "Total dose 50 mg daily",
+      "interactions": [],
+      "cost_per_month": 0,
+      "insurance_covered": true,
+      "prior_auth_required": false,
+      "manufacturer": "",
+      "ndc_number": "",
+      "is_active": true,
+      "is_prn": false,
+      "is_controlled": false,
+      "dea_schedule": "",
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "name": "midodrine",
+      "generic_name": "midodrine",
+      "strength": "2.5 mg",
+      "dosage": "1 tab",
+      "frequency": "Three times daily",
+      "route": "oral",
+      "purpose": "POTS management, blood pressure support",
+      "category": "pots_dysautonomia",
+      "prescriber": "",
+      "prescriber_specialty": "",
+      "start_date": "2025-08-11",
+      "end_date": "",
+      "pharmacy": "",
+      "pharmacy_phone": "",
+      "refill_date": "",
+      "refills_remaining": 0,
+      "side_effects": [],
+      "effectiveness_rating": 0,
+      "times_per_day": 3,
+      "with_food": "",
+      "special_instructions": "",
+      "interactions": [],
+      "cost_per_month": 0,
+      "insurance_covered": true,
+      "prior_auth_required": false,
+      "manufacturer": "",
+      "ndc_number": "",
+      "is_active": true,
+      "is_prn": false,
+      "is_controlled": false,
+      "dea_schedule": "",
+      "notes": "Vasoconstrictor for POTS"
+    },
+    {
+      "id": 13,
+      "name": "mirtazapine",
+      "generic_name": "mirtazapine",
+      "strength": "30 mg",
+      "dosage": "1 tab",
+      "frequency": "Every day before bedtime",
+      "route": "oral",
+      "purpose": "Depression and sleep support",
+      "category": "mental_health",
+      "prescriber": "",
+      "prescriber_specialty": "",
+      "start_date": "2025-08-11",
+      "end_date": "",
+      "pharmacy": "",
+      "pharmacy_phone": "",
+      "refill_date": "",
+      "refills_remaining": 0,
+      "side_effects": [],
+      "effectiveness_rating": 0,
+      "times_per_day": 1,
+      "with_food": "",
+      "special_instructions": "Take by mouth every day before bedtime",
+      "interactions": [],
+      "cost_per_month": 0,
+      "insurance_covered": true,
+      "prior_auth_required": false,
+      "manufacturer": "",
+      "ndc_number": "",
+      "is_active": true,
+      "is_prn": false,
+      "is_controlled": false,
+      "dea_schedule": "",
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "name": "Concerta",
+      "generic_name": "methylphenidate",
+      "strength": "54 mg",
+      "dosage": "1 tab",
+      "frequency": "Every morning",
+      "route": "oral",
+      "purpose": "ADHD management",
+      "category": "mental_health",
+      "prescriber": "",
+      "prescriber_specialty": "",
+      "start_date": "2025-08-11",
+      "end_date": "",
+      "pharmacy": "",
+      "pharmacy_phone": "",
+      "refill_date": "",
+      "refills_remaining": 0,
+      "side_effects": [],
+      "effectiveness_rating": 0,
+      "times_per_day": 1,
+      "with_food": "",
+      "special_instructions": "Take in morning",
+      "interactions": [],
+      "cost_per_month": 0,
+      "insurance_covered": true,
+      "prior_auth_required": true,
+      "manufacturer": "",
+      "ndc_number": "",
+      "is_active": true,
+      "is_prn": false,
+      "is_controlled": true,
+      "dea_schedule": "II",
+      "notes": "Extended-release formulation"
+    },
+    {
+      "id": 15,
+      "name": "Miralax",
+      "generic_name": "polyethylene glycol",
+      "strength": "17 gm",
+      "dosage": "17 gm",
+      "frequency": "Daily",
+      "route": "oral",
+      "purpose": "Constipation management",
+      "category": "gastrointestinal",
+      "prescriber": "",
+      "prescriber_specialty": "",
+      "start_date": "2023-10-29",
+      "end_date": "",
+      "pharmacy": "",
+      "pharmacy_phone": "",
+      "refill_date": "",
+      "refills_remaining": 0,
+      "side_effects": [],
+      "effectiveness_rating": 0,
+      "times_per_day": 1,
+      "with_food": "",
+      "special_instructions": "Dissolve in water before taking",
+      "interactions": [],
+      "cost_per_month": 0,
+      "insurance_covered": true,
+      "prior_auth_required": false,
+      "manufacturer": "",
+      "ndc_number": "",
+      "is_active": true,
+      "is_prn": false,
+      "is_controlled": false,
+      "dea_schedule": "",
+      "notes": ""
+    },
+    {
+      "id": 16,
+      "name": "methotrexate",
+      "generic_name": "methotrexate",
+      "strength": "2.5 mg",
+      "dosage": "6 tab",
+      "frequency": "Weekly",
+      "route": "oral",
+      "purpose": "Rheumatoid arthritis and autoimmune management",
+      "category": "immunosuppressant",
+      "prescriber": "",
+      "prescriber_specialty": "",
+      "start_date": "2026-01-12",
+      "end_date": "2026-02-12",
+      "pharmacy": "",
+      "pharmacy_phone": "",
+      "refill_date": "",
+      "refills_remaining": 0,
+      "side_effects": [],
+      "effectiveness_rating": 0,
+      "times_per_day": 0,
+      "with_food": "",
+      "special_instructions": "Weekly dosing",
+      "interactions": [],
+      "cost_per_month": 0,
+      "insurance_covered": true,
+      "prior_auth_required": true,
+      "manufacturer": "",
+      "ndc_number": "",
+      "is_active": true,
+      "is_prn": false,
+      "is_controlled": false,
+      "dea_schedule": "",
+      "notes": "Total weekly dose 15 mg"
+    },
+    {
+      "id": 17,
+      "name": "gabapentin",
+      "generic_name": "gabapentin",
+      "strength": "300 mg",
+      "dosage": "3 cap",
+      "frequency": "Daily",
+      "route": "oral",
+      "purpose": "Neuropathic pain management",
+      "category": "pain_management",
+      "prescriber": "",
+      "prescriber_specialty": "",
+      "start_date": "2025-08-20",
+      "end_date": "",
+      "pharmacy": "",
+      "pharmacy_phone": "",
+      "refill_date": "",
+      "refills_remaining": 0,
+      "side_effects": [],
+      "effectiveness_rating": 0,
+      "times_per_day": 1,
+      "with_food": "",
+      "special_instructions": "Total dose 900 mg daily; 1 cap AM and 2 caps PM",
+      "interactions": [],
+      "cost_per_month": 0,
+      "insurance_covered": true,
+      "prior_auth_required": false,
+      "manufacturer": "",
+      "ndc_number": "",
+      "is_active": true,
+      "is_prn": false,
+      "is_controlled": false,
+      "dea_schedule": "",
+      "notes": ""
+    },
+    {
+      "id": 18,
+      "name": "lidocaine topical 5% patch",
+      "generic_name": "lidocaine",
+      "strength": "5%",
+      "dosage": "2 patch",
+      "frequency": "Daily",
+      "route": "topical",
+      "purpose": "Localized pain relief",
+      "category": "pain_management",
+      "prescriber": "",
+      "prescriber_specialty": "",
+      "start_date": "2025-12-30",
+      "end_date": "",
+      "pharmacy": "",
+      "pharmacy_phone": "",
+      "refill_date": "",
+      "refills_remaining": 0,
+      "side_effects": [],
+      "effectiveness_rating": 0,
+      "times_per_day": 1,
+      "with_food": "",
+      "special_instructions": "",
+      "interactions": [],
+      "cost_per_month": 0,
+      "insurance_covered": true,
+      "prior_auth_required": false,
+      "manufacturer": "",
+      "ndc_number": "",
+      "is_active": true,
+      "is_prn": false,
+      "is_controlled": false,
+      "dea_schedule": "",
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "name": "emtricitabine-tenofovir",
+      "generic_name": "emtricitabine-tenofovir",
+      "strength": "200 mg-300 mg",
+      "dosage": "1 tab",
+      "frequency": "Daily",
+      "route": "oral",
+      "purpose": "HIV prevention/treatment",
+      "category": "antiviral",
+      "prescriber": "",
+      "prescriber_specialty": "",
+      "start_date": "2026-01-16",
+      "end_date": "",
+      "pharmacy": "",
+      "pharmacy_phone": "",
+      "refill_date": "",
+      "refills_remaining": 0,
+      "side_effects": [],
+      "effectiveness_rating": 0,
+      "times_per_day": 1,
+      "with_food": "",
+      "special_instructions": "",
+      "interactions": [],
+      "cost_per_month": 0,
+      "insurance_covered": true,
+      "prior_auth_required": false,
+      "manufacturer": "",
+      "ndc_number": "",
+      "is_active": true,
+      "is_prn": false,
+      "is_controlled": false,
+      "dea_schedule": "",
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "name": "propranolol",
+      "generic_name": "propranolol",
+      "strength": "20 mg",
+      "dosage": "1 tab",
+      "frequency": "Twice daily",
+      "route": "oral",
+      "purpose": "Heart rate management, migraine prevention",
+      "category": "cardiology",
+      "prescriber": "",
+      "prescriber_specialty": "",
+      "start_date": "2025-08-27",
+      "end_date": "",
+      "pharmacy": "",
+      "pharmacy_phone": "",
+      "refill_date": "",
+      "refills_remaining": 0,
+      "side_effects": [],
+      "effectiveness_rating": 0,
+      "times_per_day": 2,
+      "with_food": "",
+      "special_instructions": "",
+      "interactions": [],
+      "cost_per_month": 0,
+      "insurance_covered": true,
+      "prior_auth_required": false,
+      "manufacturer": "",
+      "ndc_number": "",
+      "is_active": true,
+      "is_prn": false,
+      "is_controlled": false,
+      "dea_schedule": "",
+      "notes": "Beta-blocker for POTS and migraine management"
+    },
+    {
+      "id": 21,
+      "name": "FluLaval PF Prefilled Syringe 2025-2026",
+      "generic_name": "influenza vaccine",
+      "strength": "vaccination",
+      "dosage": "single dose",
+      "frequency": "Annual",
+      "route": "intramuscular",
+      "purpose": "Influenza prevention",
+      "category": "immunization",
+      "prescriber": "",
+      "prescriber_specialty": "",
+      "start_date": "2025-10-17",
+      "end_date": "",
+      "pharmacy": "",
+      "pharmacy_phone": "",
+      "refill_date": "",
+      "refills_remaining": 0,
+      "side_effects": [],
+      "effectiveness_rating": 0,
+      "times_per_day": 0,
+      "with_food": "",
+      "special_instructions": "Completed",
+      "interactions": [],
+      "cost_per_month": 0,
+      "insurance_covered": true,
+      "prior_auth_required": false,
+      "manufacturer": "",
+      "ndc_number": "",
+      "is_active": false,
+      "is_prn": false,
+      "is_controlled": false,
+      "dea_schedule": "",
+      "notes": "2025-2026 influenza season vaccine"
+    },
+    {
+      "id": 22,
+      "name": "duloxetine",
+      "generic_name": "duloxetine",
+      "strength": "60 mg",
+      "dosage": "1 capsule",
+      "frequency": "Twice daily",
+      "route": "oral",
+      "purpose": "Depression and neuropathic pain management",
+      "category": "mental_health",
+      "prescriber": "",
+      "prescriber_specialty": "",
+      "start_date": "2024-04-05",
+      "end_date": "",
+      "pharmacy": "",
+      "pharmacy_phone": "",
+      "refill_date": "",
+      "refills_remaining": 0,
+      "side_effects": [],
+      "effectiveness_rating": 0,
+      "times_per_day": 2,
+      "with_food": "",
+      "special_instructions": "Take by mouth twice a day, DO NOT CRUSH OR CHEW - enteric coated",
+      "interactions": [],
+      "cost_per_month": 0,
+      "insurance_covered": true,
+      "prior_auth_required": false,
+      "manufacturer": "",
+      "ndc_number": "",
+      "is_active": true,
+      "is_prn": false,
+      "is_controlled": false,
+      "dea_schedule": "",
+      "notes": "SNRI antidepressant"
+    },
+    {
+      "id": 23,
+      "name": "Emgality Prefilled Syringe",
+      "generic_name": "erenumab",
+      "strength": "120 mg/mL",
+      "dosage": "120 mg",
+      "frequency": "Every 4 weeks",
+      "route": "subcutaneous",
+      "purpose": "Migraine prevention",
+      "category": "neurological",
+      "prescriber": "",
+      "prescriber_specialty": "",
+      "start_date": "2025-10-17",
+      "end_date": "",
+      "pharmacy": "",
+      "pharmacy_phone": "",
+      "refill_date": "",
+      "refills_remaining": 0,
+      "side_effects": [],
+      "effectiveness_rating": 0,
+      "times_per_day": 0,
+      "with_food": "",
+      "special_instructions": "Start after 4 weeks of loading dose",
+      "interactions": [],
+      "cost_per_month": 0,
+      "insurance_covered": true,
+      "prior_auth_required": true,
+      "manufacturer": "",
+      "ndc_number": "",
+      "is_active": true,
+      "is_prn": false,
+      "is_controlled": false,
+      "dea_schedule": "",
+      "notes": "CGRP monoclonal antibody for migraine"
+    },
+    {
+      "id": 24,
+      "name": "sumatriptan",
+      "generic_name": "sumatriptan",
+      "strength": "50 mg",
+      "dosage": "1 tab",
+      "frequency": "As needed",
+      "route": "oral",
+      "purpose": "Acute migraine treatment",
+      "category": "neurological",
+      "prescriber": "",
+      "prescriber_specialty": "",
+      "start_date": "2025-10-17",
+      "end_date": "",
+      "pharmacy": "",
+      "pharmacy_phone": "",
+      "refill_date": "",
+      "refills_remaining": 0,
+      "side_effects": [],
+      "effectiveness_rating": 0,
+      "times_per_day": 0,
+      "with_food": "",
+      "special_instructions": "Use as needed for migraine headache",
+      "interactions": [],
+      "cost_per_month": 0,
+      "insurance_covered": true,
+      "prior_auth_required": false,
+      "manufacturer": "",
+      "ndc_number": "",
+      "is_active": true,
+      "is_prn": true,
+      "is_controlled": false,
+      "dea_schedule": "",
+      "notes": "Triptan for acute migraine"
+    },
+    {
+      "id": 25,
+      "name": "naltrexone compounding powder 80",
+      "generic_name": "naltrexone",
+      "strength": "80 mg",
+      "dosage": "variable",
+      "frequency": "Variable",
+      "route": "oral",
+      "purpose": "Low-dose naltrexone for pain and immune support",
+      "category": "pain_management",
+      "prescriber": "",
+      "prescriber_specialty": "",
+      "start_date": "2025-03-07",
+      "end_date": "",
+      "pharmacy": "",
+      "pharmacy_phone": "",
+      "refill_date": "",
+      "refills_remaining": 0,
+      "side_effects": [],
+      "effectiveness_rating": 0,
+      "times_per_day": 0,
+      "with_food": "",
+      "special_instructions": "Compounded low-dose preparation",
+      "interactions": [],
+      "cost_per_month": 0,
+      "insurance_covered": true,
+      "prior_auth_required": false,
+      "manufacturer": "",
+      "ndc_number": "",
+      "is_active": true,
+      "is_prn": false,
+      "is_controlled": false,
+      "dea_schedule": "",
+      "notes": "Earlier date listed separately from the 4.5 mg dose"
+    },
+    {
+      "id": 26,
+      "name": "hinge lateral j knee brace",
+      "generic_name": "knee brace",
+      "strength": "medical device",
+      "dosage": "1 device",
+      "frequency": "As needed",
+      "route": "topical",
+      "purpose": "Knee stability and support",
+      "category": "medical_device",
+      "prescriber": "",
+      "prescriber_specialty": "",
+      "start_date": "2022-11-29",
+      "end_date": "",
+      "pharmacy": "",
+      "pharmacy_phone": "",
+      "refill_date": "",
+      "refills_remaining": 0,
+      "side_effects": [],
+      "effectiveness_rating": 0,
+      "times_per_day": 0,
+      "with_food": "",
+      "special_instructions": "",
+      "interactions": [],
+      "cost_per_month": 0,
+      "insurance_covered": true,
+      "prior_auth_required": false,
+      "manufacturer": "",
+      "ndc_number": "",
+      "is_active": true,
+      "is_prn": false,
+      "is_controlled": false,
+      "dea_schedule": "",
+      "notes": "EDS-related joint support"
     }
   ],
-  
-  "medication_schedule": {
-    "morning_8am": [],
-    "afternoon_2pm": [],
-    "evening_6pm": [],
-    "bedtime_10pm": [],
-    "as_needed": []
+
+  "immunizations": [
+    {
+      "vaccine_name": "FluLaval PF Prefilled Syringe 2025-2026",
+      "vaccine_type": "Influenza (Inactivated)",
+      "date_administered": "2025-10-17",
+      "site": "unknown",
+      "status": "given",
+      "administered_by": "",
+      "lot_number": "",
+      "manufacturer": "",
+      "route": "intramuscular",
+      "next_dose_due": "2026-10-01",
+      "notes": ""
+    },
+    {
+      "vaccine_name": "FluLaval PF Quadrivalent 2022-2023",
+      "vaccine_type": "Influenza (Inactivated)",
+      "date_administered": "2022-10-24",
+      "site": "unknown",
+      "status": "given",
+      "administered_by": "",
+      "lot_number": "",
+      "manufacturer": "",
+      "route": "intramuscular",
+      "next_dose_due": "2023-10-01",
+      "notes": ""
+    },
+    {
+      "vaccine_name": "COVID-19 vaccine (Pfizer)",
+      "vaccine_type": "COVID-19 (mRNA)",
+      "date_administered": "2021-12-08",
+      "site": "unknown",
+      "status": "recorded",
+      "administered_by": "",
+      "lot_number": "",
+      "manufacturer": "Pfizer-BioNTech",
+      "route": "intramuscular",
+      "next_dose_due": "as recommended",
+      "notes": "Initial series or booster dose"
+    },
+    {
+      "vaccine_name": "COVID-19 vaccine (Janssen/J&J)",
+      "vaccine_type": "COVID-19 (Viral Vector)",
+      "date_administered": "2021-04-07",
+      "site": "unknown",
+      "status": "recorded",
+      "administered_by": "",
+      "lot_number": "",
+      "manufacturer": "Janssen/Johnson & Johnson",
+      "route": "intramuscular",
+      "next_dose_due": "as recommended",
+      "notes": "Single-dose vaccine or part of series"
+    }
+  ],
+
+  "vital_signs": {
+    "baseline": {
+      "date": "2026-01-15",
+      "temperature": {
+        "value": 97.8,
+        "unit": "DegF",
+        "route": "Oral",
+        "date": "2025-12-02",
+        "status": "normal"
+      },
+      "heart_rate": {
+        "value": 111,
+        "unit": "bpm",
+        "date": "2026-01-15",
+        "status": "high",
+        "reference_range": "60-100 bpm",
+        "note": "Elevated - typical for POTS"
+      },
+      "respiratory_rate": {
+        "value": 16,
+        "unit": "BRMIN",
+        "date": "2025-12-02",
+        "status": "normal",
+        "reference_range": "12-20"
+      },
+      "blood_pressure": {
+        "systolic": 110,
+        "diastolic": 74,
+        "unit": "mmHg",
+        "date": "2026-01-15",
+        "status": "normal",
+        "reference_range": "<120/80"
+      },
+      "oxygen_saturation": {
+        "value": 98,
+        "unit": "%",
+        "date": "2026-01-15",
+        "status": "normal",
+        "reference_range": ">95%"
+      },
+      "height": {
+        "value": 165,
+        "unit": "cm",
+        "date": "2026-01-15"
+      },
+      "weight": {
+        "value": 69.8,
+        "unit": "kg",
+        "date": "2026-01-15"
+      },
+      "bmi": {
+        "value": 25.6,
+        "unit": "kg/m2",
+        "date": "2026-01-15",
+        "status": "normal",
+        "reference_range": "18.5-24.9",
+        "classification": "Overweight"
+      },
+      "bsa": {
+        "value": 1.79,
+        "unit": "m2",
+        "date": "2026-01-15"
+      }
+    },
+    "historical": [
+      {
+        "date": "2017-11-17",
+        "source": "Children's Mercy",
+        "heart_rate": {
+          "value": 79,
+          "unit": "bpm"
+        },
+        "weight": {
+          "value": 152.56,
+          "unit": "lb"
+        },
+        "height": {
+          "value": "5 ft 5.4 in"
+        },
+        "blood_pressure": {
+          "systolic": 102,
+          "diastolic": 56,
+          "unit": "mmHg"
+        },
+        "temperature": {
+          "value": 97.7,
+          "unit": "DegF"
+        }
+      }
+    ]
   },
-  
-  "allergies": [
+
+  "lab_results": {
+    "hematology": [
+      {
+        "date": "2025-08-27",
+        "source": "University Health",
+        "tests": [
+          {
+            "test_name": "WBC (White Blood Cell Count)",
+            "value": 6.80,
+            "unit": "10^3/cmm",
+            "reference_range": "4.50-11.00",
+            "status": "normal"
+          },
+          {
+            "test_name": "RBC (Red Blood Cell Count)",
+            "value": 5.18,
+            "unit": "10^6/cmm",
+            "reference_range": "4.00-5.20",
+            "status": "normal"
+          },
+          {
+            "test_name": "Hemoglobin",
+            "value": 13.9,
+            "unit": "g/dL",
+            "reference_range": "12.0-16.0",
+            "status": "normal"
+          },
+          {
+            "test_name": "Hematocrit",
+            "value": 44.0,
+            "unit": "%",
+            "reference_range": "36.0-46.0",
+            "status": "normal"
+          },
+          {
+            "test_name": "MCV (Mean Corpuscular Volume)",
+            "value": 85.0,
+            "unit": "fL",
+            "reference_range": "82.0-100.0",
+            "status": "normal"
+          },
+          {
+            "test_name": "MCH (Mean Corpuscular Hemoglobin)",
+            "value": 26.9,
+            "unit": "pg",
+            "reference_range": "26.0-34.0",
+            "status": "normal"
+          },
+          {
+            "test_name": "MCHC (Mean Corpuscular Hemoglobin Concentration)",
+            "value": 31.6,
+            "unit": "g/dL",
+            "reference_range": "31.5-36.5",
+            "status": "normal"
+          },
+          {
+            "test_name": "Platelet Count",
+            "value": 353,
+            "unit": "10^3/cmm",
+            "reference_range": "150-450",
+            "status": "normal"
+          },
+          {
+            "test_name": "RDW (Red Cell Distribution Width)",
+            "value": 15.5,
+            "unit": "%",
+            "reference_range": "11.5-14.5",
+            "status": "high"
+          }
+        ]
+      },
+      {
+        "date": "2016-08-08",
+        "source": "Children's Mercy",
+        "tests": [
+          {
+            "test_name": "WBC",
+            "value": 9.40,
+            "unit": "x10^3/mcL",
+            "reference_range": "4.50-11.00",
+            "status": "normal"
+          },
+          {
+            "test_name": "Hemoglobin",
+            "value": 12.7,
+            "unit": "gm/dL",
+            "reference_range": "12.0-16.0",
+            "status": "normal"
+          },
+          {
+            "test_name": "Hematocrit",
+            "value": 40.1,
+            "unit": "%",
+            "reference_range": "36.0-46.0",
+            "status": "normal"
+          },
+          {
+            "test_name": "Platelet",
+            "value": 303,
+            "unit": "x10^3/mcL",
+            "reference_range": "150-450",
+            "status": "normal"
+          },
+          {
+            "test_name": "RBC",
+            "value": 4.86,
+            "unit": "x10^6/mcL",
+            "reference_range": "4.00-5.20",
+            "status": "normal"
+          }
+        ]
+      }
+    ],
+    "chemistry": [
+      {
+        "date": "2026-01-15",
+        "source": "University Health",
+        "tests": [
+          {
+            "test_name": "Sodium",
+            "value": 143,
+            "unit": "mmol/L",
+            "reference_range": "136-144",
+            "status": "normal"
+          },
+          {
+            "test_name": "Potassium",
+            "value": 4.6,
+            "unit": "mmol/L",
+            "reference_range": "3.5-5.1",
+            "status": "normal"
+          },
+          {
+            "test_name": "Chloride",
+            "value": 108,
+            "unit": "mmol/L",
+            "reference_range": "95-105",
+            "status": "high"
+          },
+          {
+            "test_name": "CO2",
+            "value": 24,
+            "unit": "mmol/L",
+            "reference_range": "22-32",
+            "status": "normal"
+          },
+          {
+            "test_name": "Glucose",
+            "value": 98,
+            "unit": "mg/dL",
+            "reference_range": "70-99",
+            "status": "normal"
+          },
+          {
+            "test_name": "BUN (Blood Urea Nitrogen)",
+            "value": 14,
+            "unit": "mg/dL",
+            "reference_range": "8-20",
+            "status": "normal"
+          },
+          {
+            "test_name": "Creatinine",
+            "value": 0.71,
+            "unit": "mg/dL",
+            "reference_range": "0.90-1.30",
+            "status": "low"
+          },
+          {
+            "test_name": "Calcium",
+            "value": 9.8,
+            "unit": "mg/dL",
+            "reference_range": "8.6-10.3",
+            "status": "normal"
+          },
+          {
+            "test_name": "eGFRcr (Estimated Glomerular Filtration Rate - Creatinine)",
+            "value": 120,
+            "unit": "mL/min/1.73m2",
+            "reference_range": ">=60",
+            "status": "normal"
+          }
+        ]
+      },
+      {
+        "date": "2016-08-08",
+        "source": "Children's Mercy",
+        "tests": [
+          {
+            "test_name": "Sodium",
+            "value": 144,
+            "unit": "mmol/L",
+            "reference_range": "135-145",
+            "status": "normal"
+          },
+          {
+            "test_name": "Potassium",
+            "value": 3.6,
+            "unit": "mmol/L",
+            "reference_range": "3.5-5.2",
+            "status": "normal"
+          },
+          {
+            "test_name": "Chloride",
+            "value": 103,
+            "unit": "mmol/L",
+            "reference_range": "99-112",
+            "status": "normal"
+          },
+          {
+            "test_name": "CO2",
+            "value": 27,
+            "unit": "mmol/L",
+            "reference_range": "20-30",
+            "status": "normal"
+          },
+          {
+            "test_name": "Glucose",
+            "value": 69,
+            "unit": "mg/dL",
+            "reference_range": "65-110",
+            "status": "normal"
+          },
+          {
+            "test_name": "BUN",
+            "value": 8,
+            "unit": "mg/dL",
+            "reference_range": "5-20",
+            "status": "normal"
+          },
+          {
+            "test_name": "Creatinine",
+            "value": 0.69,
+            "unit": "mg/dL",
+            "reference_range": "0.35-0.84",
+            "status": "normal"
+          },
+          {
+            "test_name": "Calcium",
+            "value": 9.8,
+            "unit": "mg/dL",
+            "reference_range": "8.6-10.5",
+            "status": "normal"
+          },
+          {
+            "test_name": "Total Protein",
+            "value": 7.2,
+            "unit": "gm/dL",
+            "reference_range": "6.5-8.3",
+            "status": "normal"
+          },
+          {
+            "test_name": "Albumin",
+            "value": 4.0,
+            "unit": "gm/dL",
+            "reference_range": "3.0-5.1",
+            "status": "normal"
+          },
+          {
+            "test_name": "AST",
+            "value": 18,
+            "unit": "unit/L",
+            "reference_range": "12-50",
+            "status": "normal"
+          },
+          {
+            "test_name": "ALT",
+            "value": 13,
+            "unit": "unit/L",
+            "reference_range": "5-50",
+            "status": "normal"
+          }
+        ]
+      }
+    ],
+    "lipids": [
+      {
+        "date": "2025-10-06",
+        "source": "University Health",
+        "fasting_status": "Non Fasting",
+        "tests": [
+          {
+            "test_name": "Total Cholesterol",
+            "value": 231,
+            "unit": "mg/dL",
+            "reference_range": "0-200",
+            "status": "high"
+          },
+          {
+            "test_name": "HDL",
+            "value": 54.0,
+            "unit": "mg/dL",
+            "reference_range": "40.0-60.0",
+            "status": "normal"
+          },
+          {
+            "test_name": "LDL",
+            "value": 154,
+            "unit": "mg/dL",
+            "reference_range": "65-175",
+            "status": "normal"
+          },
+          {
+            "test_name": "VLDL",
+            "value": 23,
+            "unit": "mg/dL",
+            "reference_range": "5-50",
+            "status": "normal"
+          },
+          {
+            "test_name": "Triglycerides",
+            "value": 116,
+            "unit": "mg/dL",
+            "reference_range": "10-150",
+            "status": "normal"
+          }
+        ]
+      },
+      {
+        "date": "2013-12-08",
+        "source": "Children's Mercy",
+        "tests": [
+          {
+            "test_name": "Total Cholesterol",
+            "value": 232,
+            "unit": "mg/dL",
+            "reference_range": "107-200",
+            "status": "high"
+          },
+          {
+            "test_name": "HDL",
+            "value": 53,
+            "unit": "mg/dL",
+            "reference_range": "35-86",
+            "status": "normal"
+          },
+          {
+            "test_name": "LDL",
+            "value": 164,
+            "unit": "mg/dL",
+            "reference_range": "65-120",
+            "status": "high"
+          },
+          {
+            "test_name": "Triglycerides",
+            "value": 77,
+            "unit": "mg/dL",
+            "reference_range": "30-200",
+            "status": "normal"
+          },
+          {
+            "test_name": "VLDL",
+            "value": 15,
+            "unit": "mg/dL",
+            "reference_range": "6-40",
+            "status": "normal"
+          }
+        ]
+      }
+    ],
+    "liver_function": [
+      {
+        "date": "2025-08-27",
+        "source": "University Health",
+        "tests": [
+          {
+            "test_name": "AST",
+            "value": 16,
+            "unit": "U/L",
+            "reference_range": "15-41",
+            "status": "normal"
+          },
+          {
+            "test_name": "ALT",
+            "value": 12,
+            "unit": "U/L",
+            "reference_range": "14-54",
+            "status": "low"
+          },
+          {
+            "test_name": "Alkaline Phosphatase",
+            "value": 59,
+            "unit": "U/L",
+            "reference_range": "35-104",
+            "status": "normal"
+          },
+          {
+            "test_name": "Total Bilirubin",
+            "value": 0.2,
+            "unit": "mg/dL",
+            "reference_range": "0.3-1.2",
+            "status": "low"
+          },
+          {
+            "test_name": "Albumin",
+            "value": 4.3,
+            "unit": "g/dL",
+            "reference_range": "3.5-4.8",
+            "status": "normal"
+          },
+          {
+            "test_name": "Total Protein",
+            "value": 7.0,
+            "unit": "g/dL",
+            "reference_range": "6.1-8.3",
+            "status": "normal"
+          }
+        ]
+      }
+    ],
+    "thyroid": [
+      {
+        "date": "2025-03-31",
+        "source": "University Health",
+        "tests": [
+          {
+            "test_name": "TSH",
+            "value": 1.46,
+            "unit": "uIU/mL",
+            "reference_range": "0.34-5.60",
+            "status": "normal"
+          },
+          {
+            "test_name": "T4 Free",
+            "value": 0.84,
+            "unit": "ng/dL",
+            "reference_range": "0.60-1.60",
+            "status": "normal"
+          }
+        ]
+      },
+      {
+        "date": "2017-05-26",
+        "source": "Children's Mercy",
+        "tests": [
+          {
+            "test_name": "TSH",
+            "value": 0.69,
+            "unit": "mcIU/mL",
+            "reference_range": "0.35-5.50",
+            "status": "normal"
+          }
+        ]
+      },
+      {
+        "date": "2013-12-08",
+        "source": "Children's Mercy",
+        "tests": [
+          {
+            "test_name": "T4 Free",
+            "value": 1.3,
+            "unit": "nanogram/dL",
+            "reference_range": "0.8-1.9",
+            "status": "normal"
+          }
+        ]
+      }
+    ],
+    "inflammatory": [
+      {
+        "date": "2025-08-27",
+        "source": "University Health",
+        "tests": [
+          {
+            "test_name": "C-Reactive Protein",
+            "value": 1.7,
+            "unit": "mg/L",
+            "reference_range": "<=10.0",
+            "status": "normal"
+          },
+          {
+            "test_name": "Sedimentation Rate",
+            "value": 6,
+            "unit": "mm/hr",
+            "reference_range": "0-20",
+            "status": "normal"
+          },
+          {
+            "test_name": "Complement C3c",
+            "value": 89.6,
+            "unit": "mg/dL",
+            "reference_range": "81.1-157.0",
+            "status": "normal"
+          },
+          {
+            "test_name": "Complement C4",
+            "value": 25.64,
+            "unit": "mg/dL",
+            "reference_range": "12.90-39.20",
+            "status": "normal"
+          }
+        ]
+      },
+      {
+        "date": "2011-11-01",
+        "source": "Children's Mercy",
+        "tests": [
+          {
+            "test_name": "IgG",
+            "value": 1000,
+            "unit": "mg/dL",
+            "reference_range": "613-1295",
+            "status": "normal"
+          },
+          {
+            "test_name": "C3",
+            "value": 118.0,
+            "unit": "mg/dL",
+            "reference_range": "86.0-184.0",
+            "status": "normal"
+          },
+          {
+            "test_name": "C4",
+            "value": 24.0,
+            "unit": "mg/dL",
+            "reference_range": "13.0-52.0",
+            "status": "normal"
+          }
+        ]
+      }
+    ],
+    "hemoglobin_a1c": [
+      {
+        "date": "2025-10-06",
+        "source": "University Health",
+        "tests": [
+          {
+            "test_name": "HGB A1C",
+            "value": 5.4,
+            "unit": "%",
+            "reference_range": "4.6-6.2",
+            "status": "normal"
+          }
+        ]
+      }
+    ],
+    "autoimmune_panel": [
+      {
+        "date": "2022-07-25",
+        "source": "University Health",
+        "tests": [
+          {
+            "test_name": "ANA Screen",
+            "value": "Negative",
+            "status": "normal"
+          },
+          {
+            "test_name": "Chromatin",
+            "value": "Negative",
+            "status": "normal"
+          },
+          {
+            "test_name": "Ribosomal P",
+            "value": "Negative",
+            "status": "normal"
+          },
+          {
+            "test_name": "SmRNP",
+            "value": "Negative",
+            "status": "normal"
+          },
+          {
+            "test_name": "Centromere Ab",
+            "value": "Negative AU/ML",
+            "status": "normal"
+          },
+          {
+            "test_name": "DNA Ab Double-Stranded",
+            "value": "Negative",
+            "status": "normal"
+          },
+          {
+            "test_name": "JO-1 Ab",
+            "value": "Negative",
+            "status": "normal"
+          },
+          {
+            "test_name": "Smith Ab",
+            "value": "Negative",
+            "status": "normal"
+          },
+          {
+            "test_name": "Scleroderma (SCL-70)",
+            "value": "Negative",
+            "status": "normal"
+          },
+          {
+            "test_name": "Sjogren's Ab SSA",
+            "value": "Negative",
+            "status": "normal"
+          },
+          {
+            "test_name": "Sjogren's Ab SSB",
+            "value": "Negative",
+            "status": "normal"
+          },
+          {
+            "test_name": "RNP Ab",
+            "value": "Negative Units",
+            "status": "normal"
+          }
+        ]
+      }
+    ],
+    "sti_screening": [
+      {
+        "date": "2026-01-15",
+        "source": "University Health",
+        "tests": [
+          {
+            "test_name": "HIV-1/2 Ag Ab",
+            "value": "Non-Reactive",
+            "status": "normal"
+          },
+          {
+            "test_name": "Syphilis Antibody",
+            "value": "Non-Reactive",
+            "status": "normal"
+          },
+          {
+            "test_name": "Chlamydia trachomatis PCR",
+            "value": "Negative",
+            "status": "normal"
+          },
+          {
+            "test_name": "Neisseria gonorrhoeae PCR",
+            "value": "Negative",
+            "status": "normal"
+          }
+        ]
+      },
+      {
+        "date": "2025-03-21",
+        "source": "University Health",
+        "tests": [
+          {
+            "test_name": "Trichomonas vaginalis PCR",
+            "value": "Negative",
+            "status": "normal"
+          }
+        ]
+      },
+      {
+        "date": "2025-10-06",
+        "source": "University Health",
+        "tests": [
+          {
+            "test_name": "Hepatitis C Antibody",
+            "value": "Non-Reactive",
+            "status": "normal"
+          },
+          {
+            "test_name": "Hepatitis B Surface Antigen",
+            "value": "Non-Reactive",
+            "status": "normal"
+          }
+        ]
+      }
+    ],
+    "vitamins_minerals": [
+      {
+        "date": "2024-09-24",
+        "source": "University Health",
+        "tests": [
+          {
+            "test_name": "Vitamin D 25-Hydroxy",
+            "value": 31.0,
+            "unit": "ng/mL",
+            "reference_range": "30.0-100.0",
+            "status": "normal"
+          }
+        ]
+      },
+      {
+        "date": "2024-12-17",
+        "source": "University Health",
+        "tests": [
+          {
+            "test_name": "Vitamin B12",
+            "value": 458,
+            "unit": "pg/mL",
+            "reference_range": "180-914",
+            "status": "normal"
+          }
+        ]
+      },
+      {
+        "date": "2017-05-26",
+        "source": "Children's Mercy",
+        "tests": [
+          {
+            "test_name": "Vitamin D 25-OH Total",
+            "value": 39,
+            "unit": "nanogram/mL",
+            "reference_range": "30-100",
+            "status": "normal"
+          },
+          {
+            "test_name": "Folate",
+            "value": 15.7,
+            "unit": "nanogram/mL",
+            "reference_range": ">8.0",
+            "status": "normal"
+          },
+          {
+            "test_name": "Vitamin B-12",
+            "value": 1177,
+            "unit": "pg/mL",
+            "reference_range": "260-935",
+            "status": "high"
+          }
+        ]
+      }
+    ],
+    "kidney_function": [
+      {
+        "date": "2022-07-25",
+        "source": "University Health",
+        "tests": [
+          {
+            "test_name": "Cystatin C",
+            "value": 0.78,
+            "unit": "mg/L",
+            "reference_range": "0.51-1.05",
+            "status": "normal"
+          },
+          {
+            "test_name": "eGFRcr-cys",
+            "value": 124,
+            "unit": "mL/min/1.73m2",
+            "reference_range": ">=60",
+            "status": "normal"
+          }
+        ]
+      }
+    ],
+    "rheumatology": [
+      {
+        "date": "2023-06-01",
+        "source": "University Health",
+        "tests": [
+          {
+            "test_name": "CCP IGG",
+            "value": "<0.5",
+            "unit": "units/mL",
+            "status": "normal"
+          },
+          {
+            "test_name": "Rheumatoid Factor",
+            "value": "<10",
+            "unit": "IU/mL",
+            "reference_range": "<=14",
+            "status": "normal"
+          }
+        ]
+      },
+      {
+        "date": "2013-12-08",
+        "source": "Children's Mercy",
+        "tests": [
+          {
+            "test_name": "Rheumatoid Factor",
+            "value": "<8.6",
+            "unit": "IU/mL",
+            "reference_range": "0-11.9",
+            "status": "normal"
+          },
+          {
+            "test_name": "Anti-Nuclear Antibody Screen",
+            "value": 0.50,
+            "unit": "ratio",
+            "status": "normal"
+          }
+        ]
+      },
+      {
+        "date": "2011-11-01",
+        "source": "Children's Mercy",
+        "tests": [
+          {
+            "test_name": "Anti-Nuclear Antibody IFA",
+            "value": "NEGATIVE",
+            "status": "normal"
+          },
+          {
+            "test_name": "Anti-Double Stranded DNA IFA",
+            "value": "NEGATIVE",
+            "status": "normal"
+          }
+        ]
+      }
+    ],
+    "other": [
+      {
+        "date": "2025-05-13",
+        "source": "University Health",
+        "tests": [
+          {
+            "test_name": "Quantiferon TB Gold Ag",
+            "value": "Negative",
+            "status": "normal"
+          }
+        ]
+      },
+      {
+        "date": "2022-09-26",
+        "source": "University Health",
+        "tests": [
+          {
+            "test_name": "Celiac Panel",
+            "value": "No serological evidence of celiac disease",
+            "status": "normal"
+          }
+        ]
+      },
+      {
+        "date": "2017-09-06",
+        "source": "Children's Mercy",
+        "test_name": "Urinalysis",
+        "tests": [
+          {
+            "test_name": "Color",
+            "value": "AMBER",
+            "status": "abnormal"
+          },
+          {
+            "test_name": "Clarity",
+            "value": "CLEAR",
+            "status": "normal"
+          },
+          {
+            "test_name": "Specific Gravity",
+            "value": ">=1.030",
+            "status": "abnormal"
+          },
+          {
+            "test_name": "pH",
+            "value": 6.0,
+            "status": "normal"
+          },
+          {
+            "test_name": "Glucose",
+            "value": "NEGATIVE",
+            "status": "normal"
+          },
+          {
+            "test_name": "Ketones",
+            "value": "2+",
+            "status": "abnormal"
+          },
+          {
+            "test_name": "Protein",
+            "value": "1+",
+            "status": "abnormal"
+          },
+          {
+            "test_name": "Blood",
+            "value": "NEGATIVE",
+            "status": "normal"
+          },
+          {
+            "test_name": "Bilirubin",
+            "value": "NEGATIVE",
+            "status": "normal"
+          },
+          {
+            "test_name": "Urobilinogen",
+            "value": "Normal",
+            "status": "normal"
+          },
+          {
+            "test_name": "Nitrite",
+            "value": "NEGATIVE",
+            "status": "normal"
+          },
+          {
+            "test_name": "Leukocyte Esterase",
+            "value": "NEGATIVE",
+            "status": "normal"
+          }
+        ]
+      }
+    ]
+  },
+
+  "radiology": [
     {
-      "allergen": "",
-      "type": "medication",
-      "reaction": "",
-      "severity": "severe",
-      "date_discovered": "",
-      "notes": ""
+      "procedure_name": "Ultrasound Neck/Head",
+      "date": "2025-04-23",
+      "source": "University Health",
+      "reason_for_exam": "Swollen, nontender lymph node on left neck",
+      "findings": "3.4 x 1.8 x 1.1 cm lymph node with thin fatty hilum and hilar vascularity",
+      "impression": "Likely benign reactive lymph node",
+      "recommendations": "Clinical follow-up, repeat imaging as clinically indicated",
+      "radiologists": [
+        {
+          "name": "Dr. Willems",
+          "title": "DO"
+        },
+        {
+          "name": "Dr. Coleman",
+          "title": "MD"
+        }
+      ],
+      "comparison": "None noted"
+    },
+    {
+      "procedure_name": "Chest X-Ray 2 Views",
+      "date": "2024-07-06",
+      "source": "University Health",
+      "reason_for_exam": "Pleuritic chest pain, 24-year-old female",
+      "findings": "",
+      "impression": "",
+      "recommendations": "",
+      "radiologists": [],
+      "comparison": "Chest radiograph from 2023-06-01"
     }
   ],
-  
-  "diagnoses": [
+
+  "procedures": [
     {
-      "name": "Ehlers-Danlos Syndrome Type 3 - Hypermobile",
-      "icd10_code": "M35.7",
-      "date_diagnosed": "",
-      "diagnosing_provider": "",
-      "status": "active",
-      "severity": "moderate_to_severe",
-      "management_plan": "",
+      "procedure_name": "Needle Electromyography (EMG) with Nerve Conduction Studies",
+      "date": "2018-01-11",
+      "source": "Children's Mercy",
+      "location": "",
+      "provider": "",
+      "indication": "Evaluation of paresthesia and muscle weakness",
+      "findings": "",
       "notes": ""
     },
     {
-      "name": "Postural Orthostatic Tachycardia Syndrome (POTS)",
-      "icd10_code": "G90.A",
-      "date_diagnosed": "",
-      "diagnosing_provider": "",
-      "status": "active",
-      "severity": "moderate_to_severe",
-      "management_plan": "",
+      "procedure_name": "Doppler Echocardiography",
+      "date": "2016-02-11",
+      "source": "Children's Mercy",
+      "location": "",
+      "provider": "",
+      "indication": "Cardiac evaluation",
+      "findings": "",
       "notes": ""
     },
     {
-      "name": "Chronic Pain Syndrome",
-      "icd10_code": "",
-      "date_diagnosed": "",
-      "diagnosing_provider": "",
-      "status": "active",
-      "severity": "severe",
-      "management_plan": "",
+      "procedure_name": "Electrocardiogram (ECG)",
+      "date": "2016-02-11",
+      "source": "Children's Mercy",
+      "location": "",
+      "provider": "",
+      "indication": "Cardiac screening",
+      "findings": "",
+      "notes": ""
+    },
+    {
+      "procedure_name": "Electrocardiogram (ECG)",
+      "date": "2012-05-13",
+      "source": "Children's Mercy",
+      "location": "",
+      "provider": "",
+      "indication": "Cardiac evaluation",
+      "findings": "",
+      "notes": ""
+    },
+    {
+      "procedure_name": "Transthoracic Echocardiography",
+      "date": "2013-03-13",
+      "source": "Children's Mercy",
+      "location": "",
+      "provider": "",
+      "indication": "Cardiac assessment",
+      "findings": "",
+      "notes": ""
+    },
+    {
+      "procedure_name": "Acupuncture Session",
+      "date": "2016-2017",
+      "source": "Children's Mercy",
+      "location": "",
+      "provider": "",
+      "indication": "Pain management",
+      "findings": "",
+      "notes": "Multiple sessions performed during this period"
+    },
+    {
+      "procedure_name": "Health and Behavior Assessment and Intervention",
+      "date": "2014-2016",
+      "source": "Children's Mercy",
+      "location": "",
+      "provider": "",
+      "indication": "Mental health and behavioral assessment",
+      "findings": "",
+      "notes": "Multiple sessions during this period"
+    },
+    {
+      "procedure_name": "Manual Therapy",
+      "date": "2014-07-29",
+      "source": "Children's Mercy",
+      "location": "",
+      "provider": "",
+      "indication": "Pain and mobility management",
+      "findings": "",
+      "notes": ""
+    },
+    {
+      "procedure_name": "Ophthalmological Examination",
+      "date": "2013-08-29",
+      "source": "Children's Mercy",
+      "location": "",
+      "provider": "",
+      "indication": "Eye health assessment",
+      "findings": "",
+      "notes": ""
+    },
+    {
+      "procedure_name": "Ophthalmological Examination",
+      "date": "2013-06-20",
+      "source": "Children's Mercy",
+      "location": "",
+      "provider": "",
+      "indication": "Eye health assessment and refraction",
+      "findings": "",
+      "notes": ""
+    },
+    {
+      "procedure_name": "Emergency Department Visit",
+      "date": "2017-06-27",
+      "source": "Children's Mercy",
+      "location": "Emergency Department",
+      "provider": "",
+      "indication": "Acute medical issue",
+      "findings": "",
+      "notes": ""
+    },
+    {
+      "procedure_name": "Emergency Department Visit",
+      "date": "2016-08-07",
+      "source": "Children's Mercy",
+      "location": "Emergency Department",
+      "provider": "",
+      "indication": "Acute medical issue",
+      "findings": "",
+      "notes": ""
+    },
+    {
+      "procedure_name": "Emergency Department Visit",
+      "date": "2012-05-13",
+      "source": "Children's Mercy",
+      "location": "Emergency Department",
+      "provider": "",
+      "indication": "Acute medical issue",
+      "findings": "",
+      "notes": ""
+    },
+    {
+      "procedure_name": "Emergency Department Visit",
+      "date": "2012-05-03",
+      "source": "Children's Mercy",
+      "location": "Emergency Department",
+      "provider": "",
+      "indication": "Acute medical issue",
+      "findings": "",
+      "notes": ""
+    },
+    {
+      "procedure_name": "Determination of Refractive State",
+      "date": "2013-06-20",
+      "source": "Children's Mercy",
+      "location": "",
+      "provider": "",
+      "indication": "Vision assessment",
+      "findings": "",
       "notes": ""
     }
   ],
-  
+
   "healthcare_providers": [
     {
       "type": "primary_care",
-      "name": "",
-      "clinic": "",
-      "phone": "",
+      "name": "Sommerville, Amanda",
+      "title": "Primary Care Provider",
+      "clinic": "Unknown",
+      "system": "Saint Luke's Health System / University Health",
+      "phone": "+18164041000",
       "fax": "",
+      "address": "2301 Holmes Street, Kansas City, MO 64108",
+      "email": "",
       "portal": "MySaintLukes",
       "last_visit": "",
       "next_appointment": "",
+      "specialty": "Family Medicine / Internal Medicine",
       "notes": ""
     },
     {
       "type": "specialist",
-      "specialty": "rheumatology_eds",
+      "specialty": "rheumatology",
       "name": "",
+      "title": "",
       "clinic": "",
+      "system": "University Health / Saint Luke's",
       "phone": "",
       "fax": "",
+      "address": "",
+      "email": "",
       "portal": "",
       "last_visit": "",
       "next_appointment": "",
-      "notes": ""
+      "notes": "For Ehlers-Danlos Syndrome and seronegative rheumatoid arthritis management"
     },
     {
       "type": "specialist",
-      "specialty": "cardiology_pots",
+      "specialty": "cardiology",
       "name": "",
+      "title": "",
       "clinic": "",
+      "system": "University Health / Saint Luke's",
       "phone": "",
       "fax": "",
+      "address": "",
+      "email": "",
       "portal": "",
       "last_visit": "",
       "next_appointment": "",
-      "notes": ""
+      "notes": "For POTS and tachycardia management"
     },
     {
       "type": "specialist",
       "specialty": "pain_management",
       "name": "",
+      "title": "",
       "clinic": "",
+      "system": "University Health / Saint Luke's",
       "phone": "",
       "fax": "",
+      "address": "",
+      "email": "",
       "portal": "",
       "last_visit": "",
       "next_appointment": "",
-      "notes": ""
-    }
-  ],
-  
-  "vital_signs": {
-    "baseline": {
-      "blood_pressure_sitting": {
-        "systolic": 0,
-        "diastolic": 0
-      },
-      "blood_pressure_standing": {
-        "systolic": 0,
-        "diastolic": 0
-      },
-      "heart_rate_sitting": 0,
-      "heart_rate_standing": 0,
-      "orthostatic_hr_increase": 0,
-      "temperature": 0,
-      "respiratory_rate": 0,
-      "o2_saturation": 0,
-      "weight_lbs": 0,
-      "height_inches": 0
-    },
-    "pots_specific": {
-      "morning_hr_lying": 0,
-      "typical_daily_hr_range": {
-        "min": 0,
-        "max": 0
-      },
-      "triggers": []
-    }
-  },
-  
-  "symptom_tracking": {
-    "daily_symptoms": {
-      "joint_pain": {
-        "frequency": "daily",
-        "severity_average": 0,
-        "worst_joints": [],
-        "subluxations_per_week": 0,
-        "dislocations_per_month": 0
-      },
-      "pots_symptoms": {
-        "dizziness": "daily",
-        "palpitations": "daily",
-        "syncope_frequency": "weekly",
-        "heat_intolerance": true,
-        "brain_fog": "daily"
-      },
-      "fatigue": {
-        "spoons_per_day": 0,
-        "crash_frequency": "weekly",
-        "recovery_days_needed": 0
-      }
-    },
-    "triggers": {
-      "weather_changes": true,
-      "stress": true,
-      "physical_activity": true,
-      "foods": [],
-      "medications": [],
-      "other": []
-    }
-  },
-  
-  "lab_results": [
-    {
-      "date": "",
-      "test_type": "cbc",
-      "results": {
-        "hemoglobin": 0,
-        "hematocrit": 0,
-        "wbc": 0,
-        "platelets": 0
-      }
+      "notes": "For chronic pain syndrome and neuropathic pain management"
     },
     {
-      "date": "",
-      "test_type": "metabolic_panel",
-      "results": {
-        "glucose": 0,
-        "creatinine": 0,
-        "gfr": 0,
-        "sodium": 0,
-        "potassium": 0
-      }
-    },
-    {
-      "date": "",
-      "test_type": "vitamins",
-      "results": {
-        "vitamin_d": 0,
-        "b12": 0,
-        "ferritin": 0
-      }
-    }
-  ],
-  
-  "insurance": [
-    {
-      "type": "primary",
-      "company": "",
-      "policy_number": "",
-      "group_number": "",
+      "type": "specialist",
+      "specialty": "pulmonology",
+      "name": "",
+      "title": "",
+      "clinic": "",
+      "system": "University Health / Saint Luke's",
       "phone": "",
-      "coverage_details": {}
+      "fax": "",
+      "address": "",
+      "email": "",
+      "portal": "",
+      "last_visit": "",
+      "next_appointment": "",
+      "notes": "For asthma and obstructive sleep apnea management"
     },
     {
-      "type": "secondary",
-      "company": "",
-      "policy_number": "",
-      "group_number": "",
+      "type": "specialist",
+      "specialty": "psychiatry",
+      "name": "",
+      "title": "",
+      "clinic": "",
+      "system": "University Health / Saint Luke's",
       "phone": "",
-      "coverage_details": {}
+      "fax": "",
+      "address": "",
+      "email": "",
+      "portal": "",
+      "last_visit": "",
+      "next_appointment": "",
+      "notes": "For depression, anxiety, PTSD, and ADHD management"
+    },
+    {
+      "type": "specialist",
+      "specialty": "gastroenterology",
+      "name": "",
+      "title": "",
+      "clinic": "",
+      "system": "University Health / Saint Luke's",
+      "phone": "",
+      "fax": "",
+      "address": "",
+      "email": "",
+      "portal": "",
+      "last_visit": "",
+      "next_appointment": "",
+      "notes": "For GERD, constipation, and GI symptom management"
+    },
+    {
+      "type": "specialist",
+      "specialty": "neurology",
+      "name": "",
+      "title": "",
+      "clinic": "",
+      "system": "University Health / Saint Luke's",
+      "phone": "",
+      "fax": "",
+      "address": "",
+      "email": "",
+      "portal": "",
+      "last_visit": "",
+      "next_appointment": "",
+      "notes": "For migraine and neuropathic symptom management"
     }
   ],
-  
+
+  "healthcare_portals": [
+    {
+      "portal_name": "MyChildrensMercy",
+      "organization": "Children's Mercy Hospital",
+      "url": "https://mychildrensmercy.childrensmercy.org",
+      "username": "",
+      "password_set": false,
+      "two_factor_enabled": false,
+      "last_login": "",
+      "proxy_access": [],
+      "documents_available": true,
+      "notes": "Portal for historical records from childhood medical care"
+    },
+    {
+      "portal_name": "MySaintLukes",
+      "organization": "Saint Luke's Health System",
+      "url": "https://mysaintlukes.org",
+      "username": "",
+      "password_set": false,
+      "two_factor_enabled": false,
+      "last_login": "",
+      "proxy_access": ["Da'Veon"],
+      "documents_available": true,
+      "notes": "Primary portal for current medical records and appointments"
+    },
+    {
+      "portal_name": "University Health Portal",
+      "organization": "University Health System",
+      "url": "https://myuhealth.com",
+      "username": "",
+      "password_set": false,
+      "two_factor_enabled": false,
+      "last_login": "",
+      "proxy_access": ["Da'Veon"],
+      "documents_available": true,
+      "notes": "Portal for University Health System records and laboratory results"
+    }
+  ],
+
   "emergency_protocol": {
-    "critical_info": [
-      "Has EDS Type 3 - joint instability, easy bruising, slow wound healing",
-      "Has POTS - needs IV fluids, position changes slowly",
-      "Multiple medication sensitivities",
-      "Requires gentle handling for procedures"
+    "critical_conditions": [
+      "Ehlers-Danlos Syndrome Type 3 - genetic connective tissue disorder requiring gentle handling, high bleeding risk, joint instability",
+      "POTS (Postural Orthostatic Tachycardia Syndrome) - requires IV fluids, lying flat, slow position changes, continuous cardiac monitoring",
+      "Seronegative Rheumatoid Arthritis - inflammatory condition requiring immunosuppressive management",
+      "Obstructive Sleep Apnea - may require respiratory support"
     ],
-    "medications_to_avoid": [],
-    "safe_medications": [],
-    "preferred_hospital": "",
+    "medications_to_avoid": [
+      "Ketorolac (Toradol) - documented severe allergy with swelling reaction",
+      "Any NSAIDs similar to ketorolac - cross-reactivity likely"
+    ],
+    "safe_medications_to_use": [
+      "Meloxicam (currently prescribed - if NSAID needed)",
+      "Acetaminophen",
+      "Morphine (for EDS patients)",
+      "Lidocaine patch"
+    ],
+    "allergy_alerts": [
+      "Ketorolac (Toradol) - SEVERE: swelling",
+      "Latex - SEVERE: use latex-free gloves and equipment",
+      "Oranges - causes migraine reactions"
+    ],
+    "preferred_hospital": "Saint Luke's Health System or University Health affiliated facility",
+    "emergency_contact_sequence": [
+      "1st: Da'Veon (Partner) - medical decision maker",
+      "2nd: Mom (Mother) - medical decision maker",
+      "3rd: Quincy (Partner) - medical decision maker"
+    ],
     "emergency_steps": [
-      "Contact Da'Veon immediately",
-      "Access MySaintLukes portal for full records",
-      "Note: baseline vitals unusual due to POTS",
-      "Requires cardiac monitoring",
-      "Gentle BP cuff required"
-    ]
-  },
-  
-  "portal_access": {
-    "mySaintLukes": {
-      "username": "",
-      "two_factor_enabled": true,
-      "proxy_access": ["Da'Veon"],
-      "url": "https://mysaintlukes.org"
-    },
-    "myUHealth": {
-      "username": "",
-      "two_factor_enabled": true,
-      "proxy_access": ["Da'Veon"],
-      "url": "https://myuhealth.com"
-    }
-  },
-  
-  "accommodation_needs": {
-    "medical_appointments": [
-      "Longer appointment times needed",
-      "Written instructions required",
-      "Sensitivity to fluorescent lights",
-      "Need to lie down during long appointments",
-      "Require gentle blood pressure cuffs",
-      "Careful with joint manipulation"
+      "Contact Da'Veon immediately via phone +19136388640",
+      "Notify provider of EDS diagnosis and POTS condition before treatment",
+      "Access MySaintLukes and University Health portals for full medical history",
+      "Use latex-free equipment",
+      "Avoid ketorolac and related NSAIDs",
+      "Monitor heart rate and blood pressure continuously (baseline HR elevated due to POTS)",
+      "Place patient in reclined position",
+      "Establish IV access for potential fluid support (POTS management)",
+      "Gentle handling for all procedures due to EDS - avoid aggressive manipulation",
+      "Note: baseline vital signs may appear abnormal due to POTS - tachycardia is expected"
     ],
-    "communication": [
-      "Prefer written summaries",
-      "Need processing time for decisions",
-      "Brain fog affects comprehension when crashed",
-      "Partners may need to advocate when non-verbal"
-    ],
-    "equipment": {
-      "mobility_aids": [],
-      "compression_garments": [],
-      "braces": [],
-      "other": []
-    }
+    "baseline_vital_sign_notes": "Patient has POTS, so elevated heart rate (111 bpm) is normal baseline. Do not be alarmed by tachycardia. Patient also has EDS with connective tissue fragility.",
+    "physical_handling_notes": "EDS Type 3 patients have fragile connective tissue, easy bruising, and joint hypermobility. Use extreme care with joint manipulation and blood pressure measurements. Gentle handling required for all physical contact."
   },
-  
-  "family_history": {
-    "maternal": {
-      "conditions": [],
-      "notes": ""
-    },
-    "paternal": {
-      "conditions": [],
-      "notes": ""
-    },
-    "genetic_conditions": [
-      "EDS/Hypermobility",
-      "Autoimmune conditions"
-    ]
-  },
-  
-  "immunizations": [
-    {
-      "vaccine": "COVID-19",
-      "doses": [],
-      "next_due": ""
-    },
-    {
-      "vaccine": "Influenza",
-      "last_date": "",
-      "next_due": "Annually"
-    },
-    {
-      "vaccine": "Tetanus",
-      "last_date": "",
-      "next_due": "Every 10 years"
-    }
-  ],
-  
-  "physical_therapy": {
-    "current_routine": {
-      "frequency": "",
-      "focus_areas": [],
-      "exercises": []
-    },
-    "equipment": {
-      "braces": [],
-      "compression": [],
-      "mobility_aids": []
-    }
-  },
-  
-  "nutrition": {
-    "dietary_restrictions": {
-      "allergies": [],
-      "intolerances": [],
-      "medical_requirements": []
-    },
-    "supplements": {
-      "salt_for_pots": {
-        "amount_daily": "",
-        "type": ""
-      },
-      "hydration_goal_oz": 0,
-      "electrolyte_type": ""
-    }
-  },
-  
+
   "document_metadata": {
-    "created": "2025-11-20",
-    "last_updated": "",
+    "created_date": "2026-02-26",
+    "last_updated": "2026-02-26",
+    "data_sources": [
+      "Children's Mercy Hospital medical records (2007-2017)",
+      "Saint Luke's Health System medical records (2024-2026)",
+      "University Health System medical records (2023-2026)"
+    ],
+    "total_documents_reviewed": 14,
+    "document_date_range": "2007-2026",
     "version": "1.0",
-    "updated_by": "",
-    "next_review": "",
-    "format": "json",
-    "schema_version": "1.0"
+    "schema_version": "1.0",
+    "format": "JSON",
+    "compiled_by": "Medical Records Import System",
+    "next_review_date": "2026-08-26",
+    "completeness_notes": "Comprehensive import of all extracted medical data from 14 uploaded documents. All patient demographics, diagnoses, medications, immunizations, vital signs, lab results, procedures, and provider information included.",
+    "data_validation_status": "Complete",
+    "encrypted_pii": false,
+    "backup_recommended": true
   }
 }

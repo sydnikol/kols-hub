@@ -69,11 +69,11 @@ export const MusicSanctuary: React.FC = () => {
       setYoutubeAuthed(youtubeService.hasApiKey());
       setSoundcloudAuthed(soundcloudService.hasClientId());
 
-      // Load saved credentials
-      setSpotifyClientId(localStorage.getItem('spotify_client_id') || '');
-      setSpotifyClientSecret(localStorage.getItem('spotify_client_secret') || '');
-      setYoutubeApiKey(localStorage.getItem('youtube_api_key') || '');
-      setSoundcloudClientId(localStorage.getItem('soundcloud_client_id') || '');
+      // Load saved credentials (with Vite env var fallback)
+      setSpotifyClientId(import.meta.env.VITE_SPOTIFY_CLIENT_ID || localStorage.getItem('spotify_client_id') || '');
+      setSpotifyClientSecret(import.meta.env.VITE_SPOTIFY_CLIENT_SECRET || localStorage.getItem('spotify_client_secret') || '');
+      setYoutubeApiKey(import.meta.env.VITE_YOUTUBE_API_KEY || localStorage.getItem('youtube_api_key') || '');
+      setSoundcloudClientId(import.meta.env.VITE_SOUNDCLOUD_CLIENT_ID || localStorage.getItem('soundcloud_client_id') || '');
     };
 
     initServices();
@@ -313,39 +313,39 @@ export const MusicSanctuary: React.FC = () => {
         onClick={() => setActiveService('spotify')}
         className={`flex items-center space-x-2 px-4 py-2 rounded-lg transition-all ${
           activeService === 'spotify'
-            ? 'bg-green-500/20 border-2 border-green-400 text-green-300'
-            : 'bg-gray-800/50 border border-gray-700 text-gray-400 hover:border-gray-600'
+            ? 'bg-[#FF1493]/20 border-2 border-[#FF1493] text-[#FF1493]'
+            : 'bg-[#9B30FF]/20 border border-[#9B30FF]/40 text-[#E0A0FF] hover:border-[#9B30FF]/60'
         }`}
       >
         <Disc className="w-5 h-5" />
         <span>Spotify</span>
-        {spotifyAuthed && <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />}
+        {spotifyAuthed && <div className="w-2 h-2 bg-[#FF1493] rounded-full animate-pulse" />}
       </button>
 
       <button
         onClick={() => setActiveService('youtube')}
         className={`flex items-center space-x-2 px-4 py-2 rounded-lg transition-all ${
           activeService === 'youtube'
-            ? 'bg-red-500/20 border-2 border-red-400 text-red-300'
-            : 'bg-gray-800/50 border border-gray-700 text-gray-400 hover:border-gray-600'
+            ? 'bg-[#FF1493]/20 border-2 border-[#FF1493] text-[#FF1493]'
+            : 'bg-[#9B30FF]/20 border border-[#9B30FF]/40 text-[#E0A0FF] hover:border-[#9B30FF]/60'
         }`}
       >
         <Youtube className="w-5 h-5" />
         <span>YouTube</span>
-        {youtubeAuthed && <div className="w-2 h-2 bg-red-400 rounded-full animate-pulse" />}
+        {youtubeAuthed && <div className="w-2 h-2 bg-[#FF1493] rounded-full animate-pulse" />}
       </button>
 
       <button
         onClick={() => setActiveService('soundcloud')}
         className={`flex items-center space-x-2 px-4 py-2 rounded-lg transition-all ${
           activeService === 'soundcloud'
-            ? 'bg-orange-500/20 border-2 border-orange-400 text-orange-300'
-            : 'bg-gray-800/50 border border-gray-700 text-gray-400 hover:border-gray-600'
+            ? 'bg-[#FF1493]/20 border-2 border-[#FF1493] text-[#FF1493]'
+            : 'bg-[#9B30FF]/20 border border-[#9B30FF]/40 text-[#E0A0FF] hover:border-[#9B30FF]/60'
         }`}
       >
         <Headphones className="w-5 h-5" />
         <span>SoundCloud</span>
-        {soundcloudAuthed && <div className="w-2 h-2 bg-orange-400 rounded-full animate-pulse" />}
+        {soundcloudAuthed && <div className="w-2 h-2 bg-[#FF1493] rounded-full animate-pulse" />}
       </button>
     </div>
   );
@@ -356,9 +356,9 @@ export const MusicSanctuary: React.FC = () => {
 
     return (
       <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center">
-        <div className="bg-gray-900 border-2 border-purple-500 rounded-xl p-8 max-w-2xl w-full mx-4">
+        <div className="bg-[#0a0010] border-2 border-[#FF1493] rounded-xl p-8 max-w-2xl w-full mx-4">
           <div className="flex items-center justify-between mb-6">
-            <h2 className="text-2xl font-bold text-purple-300 flex items-center">
+            <h2 className="text-2xl font-bold text-[#FF1493] flex items-center">
               <Settings className="w-6 h-6 mr-2" />
               API Configuration
             </h2>
@@ -372,8 +372,8 @@ export const MusicSanctuary: React.FC = () => {
 
           <div className="space-y-6">
             {/* SPOTIFY */}
-            <div className="border border-gray-700 rounded-lg p-4">
-              <h3 className="text-green-400 font-bold mb-3 flex items-center">
+            <div className="border border-[#9B30FF] rounded-lg p-4">
+              <h3 className="text-[#FF1493] font-bold mb-3 flex items-center">
                 <Disc className="w-5 h-5 mr-2" />
                 Spotify Setup
               </h3>
@@ -383,18 +383,18 @@ export const MusicSanctuary: React.FC = () => {
                   placeholder="Client ID"
                   value={spotifyClientId}
                   onChange={(e) => setSpotifyClientId(e.target.value)}
-                  className="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-2 text-gray-200"
+                  className="w-full bg-[#9B30FF]/10 border border-[#9B30FF]/30 rounded-lg px-4 py-2 text-[#F5E6FF] placeholder-[#E0A0FF]/50"
                 />
                 <input
                   type="text"
                   placeholder="Client Secret"
                   value={spotifyClientSecret}
                   onChange={(e) => setSpotifyClientSecret(e.target.value)}
-                  className="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-2 text-gray-200"
+                  className="w-full bg-[#9B30FF]/10 border border-[#9B30FF]/30 rounded-lg px-4 py-2 text-[#F5E6FF] placeholder-[#E0A0FF]/50"
                 />
                 <button
                   onClick={handleSpotifyAuth}
-                  className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg transition-colors"
+                  className="w-full bg-[#FF1493] hover:bg-[#FF1493]/80 text-white font-bold py-2 px-4 rounded-lg transition-colors"
                 >
                   Connect Spotify
                 </button>
@@ -402,8 +402,8 @@ export const MusicSanctuary: React.FC = () => {
             </div>
 
             {/* YOUTUBE */}
-            <div className="border border-gray-700 rounded-lg p-4">
-              <h3 className="text-red-400 font-bold mb-3 flex items-center">
+            <div className="border border-[#9B30FF] rounded-lg p-4">
+              <h3 className="text-[#FF1493] font-bold mb-3 flex items-center">
                 <Youtube className="w-5 h-5 mr-2" />
                 YouTube Setup
               </h3>
@@ -413,11 +413,11 @@ export const MusicSanctuary: React.FC = () => {
                   placeholder="API Key"
                   value={youtubeApiKey}
                   onChange={(e) => setYoutubeApiKey(e.target.value)}
-                  className="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-2 text-gray-200"
+                  className="w-full bg-[#9B30FF]/10 border border-[#9B30FF]/30 rounded-lg px-4 py-2 text-[#F5E6FF] placeholder-[#E0A0FF]/50"
                 />
                 <button
                   onClick={setupYouTube}
-                  className="w-full bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-lg transition-colors"
+                  className="w-full bg-[#FF1493] hover:bg-[#FF1493]/80 text-white font-bold py-2 px-4 rounded-lg transition-colors"
                 >
                   Connect YouTube
                 </button>
@@ -425,8 +425,8 @@ export const MusicSanctuary: React.FC = () => {
             </div>
 
             {/* SOUNDCLOUD */}
-            <div className="border border-gray-700 rounded-lg p-4">
-              <h3 className="text-orange-400 font-bold mb-3 flex items-center">
+            <div className="border border-[#9B30FF] rounded-lg p-4">
+              <h3 className="text-[#FF1493] font-bold mb-3 flex items-center">
                 <Headphones className="w-5 h-5 mr-2" />
                 SoundCloud Setup
               </h3>
@@ -436,11 +436,11 @@ export const MusicSanctuary: React.FC = () => {
                   placeholder="Client ID"
                   value={soundcloudClientId}
                   onChange={(e) => setSoundcloudClientId(e.target.value)}
-                  className="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-2 text-gray-200"
+                  className="w-full bg-[#9B30FF]/10 border border-[#9B30FF]/30 rounded-lg px-4 py-2 text-[#F5E6FF] placeholder-[#E0A0FF]/50"
                 />
                 <button
                   onClick={setupSoundCloud}
-                  className="w-full bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded-lg transition-colors"
+                  className="w-full bg-[#FF1493] hover:bg-[#FF1493]/80 text-white font-bold py-2 px-4 rounded-lg transition-colors"
                 >
                   Connect SoundCloud
                 </button>
@@ -448,9 +448,9 @@ export const MusicSanctuary: React.FC = () => {
             </div>
           </div>
 
-          <div className="mt-6 p-4 bg-gray-800/50 rounded-lg border border-gray-700">
-            <p className="text-sm text-gray-400 mb-2">📚 <strong>Need help getting API keys?</strong></p>
-            <ul className="text-xs text-gray-500 space-y-1">
+          <div className="mt-6 p-4 bg-[#9B30FF]/20 rounded-lg border border-[#9B30FF]/40">
+            <p className="text-sm text-[#E0A0FF] mb-2">📚 <strong>Need help getting API keys?</strong></p>
+            <ul className="text-xs text-[#E0A0FF]/70 space-y-1">
               <li>• Spotify: https://developer.spotify.com/dashboard</li>
               <li>• YouTube: https://console.cloud.google.com/</li>
               <li>• SoundCloud: https://soundcloud.com/you/apps</li>
@@ -467,7 +467,7 @@ export const MusicSanctuary: React.FC = () => {
       {searchResults.map((item) => (
         <div
           key={item.id}
-          className="bg-gray-800/50 border border-gray-700 rounded-lg overflow-hidden hover:border-purple-500 transition-all cursor-pointer group"
+          className="bg-[#9B30FF]/20 border border-[#9B30FF]/40 rounded-lg overflow-hidden hover:border-[#FF1493] transition-all cursor-pointer group"
           onClick={() => playTrack(item)}
         >
           <div className="relative aspect-square">
@@ -477,12 +477,12 @@ export const MusicSanctuary: React.FC = () => {
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-              <Play className="w-16 h-16 text-purple-400" />
+              <Play className="w-16 h-16 text-[#FF1493]" />
             </div>
           </div>
           <div className="p-4">
-            <h3 className="font-bold text-gray-200 truncate">{item.title}</h3>
-            <p className="text-sm text-gray-400 truncate">{item.artist}</p>
+            <h3 className="font-bold text-[#F5E6FF] truncate">{item.title}</h3>
+            <p className="text-sm text-[#E0A0FF] truncate">{item.artist}</p>
             <div className="flex items-center justify-between mt-2">
               <span className="text-xs text-gray-500">{formatTime(item.duration)}</span>
               <div className="flex space-x-2">
@@ -499,13 +499,13 @@ export const MusicSanctuary: React.FC = () => {
 
   // MAIN RENDER
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900/20 to-gray-900 text-white p-4 md:p-8">
+    <div className="min-h-screen bg-gradient-to-br from-[#0a0010] via-[#9B30FF]/10 to-[#0a0010] text-[#F5E6FF] p-4 md:p-8">
       {/* HEADER */}
       <div className="max-w-7xl mx-auto mb-8">
-        <h1 className="text-4xl md:text-5xl font-bold mb-2 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-purple-400 to-purple-400">
+        <h1 className="text-4xl md:text-5xl font-bold mb-2 text-transparent bg-clip-text bg-gradient-to-r from-[#FF1493] via-[#E0A0FF] to-[#9B30FF]">
           🎵 Music Sanctuary
         </h1>
-        <p className="text-gray-400">Gothic Futurist Multimedia Hub</p>
+        <p className="text-[#E0A0FF]">Gothic Bratz Y2K Multimedia Hub</p>
       </div>
 
       <div className="max-w-7xl mx-auto">
@@ -522,23 +522,23 @@ export const MusicSanctuary: React.FC = () => {
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 onKeyPress={(e) => e.key === 'Enter' && handleSearch()}
-                className="w-full bg-gray-800/50 border border-gray-700 rounded-lg px-4 py-3 pl-12 text-gray-200 focus:border-purple-500 focus:outline-none"
+                className="w-full bg-[#9B30FF]/10 border border-[#9B30FF]/40 rounded-lg px-4 py-3 pl-12 text-[#F5E6FF] placeholder-[#E0A0FF]/50 focus:border-[#FF1493] focus:outline-none"
               />
-              <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-500" />
+              <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-[#E0A0FF]" />
             </div>
           </div>
 
           <button
             onClick={handleSearch}
             disabled={loading}
-            className="bg-purple-600 hover:bg-purple-700 px-6 py-3 rounded-lg font-bold transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+            className="bg-[#FF1493] hover:bg-[#FF1493]/80 px-6 py-3 rounded-lg font-bold transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {loading ? 'Searching...' : 'Search'}
           </button>
 
           <button
             onClick={loadPlaylists}
-            className="bg-gray-800 hover:bg-gray-700 px-6 py-3 rounded-lg font-bold transition-colors flex items-center space-x-2"
+            className="bg-[#9B30FF]/40 hover:bg-[#9B30FF]/60 px-6 py-3 rounded-lg font-bold transition-colors flex items-center space-x-2 border border-[#9B30FF]/50"
           >
             <ListMusic className="w-5 h-5" />
             <span>Playlists</span>
@@ -546,7 +546,7 @@ export const MusicSanctuary: React.FC = () => {
 
           <button
             onClick={loadTrending}
-            className="bg-gray-800 hover:bg-gray-700 px-6 py-3 rounded-lg font-bold transition-colors flex items-center space-x-2"
+            className="bg-[#9B30FF]/40 hover:bg-[#9B30FF]/60 px-6 py-3 rounded-lg font-bold transition-colors flex items-center space-x-2 border border-[#9B30FF]/50"
           >
             <TrendingUp className="w-5 h-5" />
             <span>Trending</span>
@@ -554,7 +554,7 @@ export const MusicSanctuary: React.FC = () => {
 
           <button
             onClick={() => setShowSettings(true)}
-            className="bg-gray-800 hover:bg-gray-700 px-4 py-3 rounded-lg transition-colors"
+            className="bg-[#9B30FF]/40 hover:bg-[#9B30FF]/60 px-4 py-3 rounded-lg transition-colors border border-[#9B30FF]/50"
           >
             <Settings className="w-5 h-5" />
           </button>
@@ -570,8 +570,8 @@ export const MusicSanctuary: React.FC = () => {
             renderSearchResults()
           ) : (
             <div className="text-center py-20">
-              <Music className="w-24 h-24 mx-auto mb-4 text-gray-600" />
-              <p className="text-gray-400 text-xl">
+              <Music className="w-24 h-24 mx-auto mb-4 text-[#9B30FF]/40" />
+              <p className="text-[#E0A0FF] text-xl">
                 {!spotifyAuthed && !youtubeAuthed && !soundcloudAuthed
                   ? 'Connect a service to start exploring music'
                   : 'Search for your favorite music'}
@@ -582,7 +582,7 @@ export const MusicSanctuary: React.FC = () => {
 
         {/* NOW PLAYING BAR */}
         {currentTrack && (
-          <div className="fixed bottom-0 left-0 right-0 bg-gray-900/95 backdrop-blur-sm border-t border-gray-800 p-4 z-40">
+          <div className="fixed bottom-0 left-0 right-0 bg-[#0a0010]/95 backdrop-blur-sm border-t border-[#9B30FF]/40 p-4 z-40">
             <div className="max-w-7xl mx-auto">
               <div className="flex items-center space-x-4">
                 {/* TRACK INFO */}
@@ -593,30 +593,30 @@ export const MusicSanctuary: React.FC = () => {
                     className="w-16 h-16 rounded-lg"
                   />
                   <div className="min-w-0 flex-1">
-                    <h4 className="font-bold text-gray-200 truncate">{currentTrack.title}</h4>
-                    <p className="text-sm text-gray-400 truncate">{currentTrack.artist}</p>
+                    <h4 className="font-bold text-[#F5E6FF] truncate">{currentTrack.title}</h4>
+                    <p className="text-sm text-[#E0A0FF] truncate">{currentTrack.artist}</p>
                   </div>
                 </div>
 
                 {/* PLAYBACK CONTROLS */}
                 <div className="flex items-center space-x-4">
-                  <button className="p-2 hover:bg-gray-800 rounded-full transition-colors">
+                  <button className="p-2 hover:bg-[#9B30FF]/30 rounded-full transition-colors">
                     <SkipBack className="w-5 h-5" />
                   </button>
                   <button
                     onClick={togglePlayPause}
-                    className="p-3 bg-purple-600 hover:bg-purple-700 rounded-full transition-colors"
+                    className="p-3 bg-[#FF1493] hover:bg-[#FF1493]/80 rounded-full transition-colors"
                   >
                     {isPlaying ? <Pause className="w-6 h-6" /> : <Play className="w-6 h-6" />}
                   </button>
-                  <button className="p-2 hover:bg-gray-800 rounded-full transition-colors">
+                  <button className="p-2 hover:bg-[#9B30FF]/30 rounded-full transition-colors">
                     <SkipForward className="w-5 h-5" />
                   </button>
                 </div>
 
                 {/* VOLUME */}
                 <div className="flex items-center space-x-3">
-                  <button onClick={toggleMute} className="p-2 hover:bg-gray-800 rounded-full transition-colors">
+                  <button onClick={toggleMute} className="p-2 hover:bg-[#9B30FF]/30 rounded-full transition-colors">
                     {isMuted ? <VolumeX className="w-5 h-5" /> : <Volume2 className="w-5 h-5" />}
                   </button>
                   <input
@@ -631,10 +631,10 @@ export const MusicSanctuary: React.FC = () => {
 
                 {/* ACTIONS */}
                 <div className="flex items-center space-x-2">
-                  <button className="p-2 hover:bg-gray-800 rounded-full transition-colors">
+                  <button className="p-2 hover:bg-[#FF1493]/30 rounded-full transition-colors">
                     <Heart className="w-5 h-5" />
                   </button>
-                  <button className="p-2 hover:bg-gray-800 rounded-full transition-colors">
+                  <button className="p-2 hover:bg-[#9B30FF]/30 rounded-full transition-colors">
                     <Share2 className="w-5 h-5" />
                   </button>
                 </div>

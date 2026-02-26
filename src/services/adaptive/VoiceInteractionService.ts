@@ -1,16 +1,20 @@
 import { EventEmitter } from 'events';
 import { VoiceInteractionConfig } from '../types';
 import { config } from '../config';
-import axios from 'axios';
 
 export class VoiceInteractionService extends EventEmitter {
   private activeStreams: Map<string, any>;
   private voiceConfigs: Map<string, VoiceInteractionConfig>;
+  private deepgramApiKey: string;
+  private elevenLabsApiKey: string;
 
   constructor() {
     super();
     this.activeStreams = new Map();
     this.voiceConfigs = new Map();
+    // Get API keys from Vite env vars or localStorage
+    this.deepgramApiKey = import.meta.env.VITE_DEEPGRAM_API_KEY || localStorage.getItem('deepgram_api_key') || '';
+    this.elevenLabsApiKey = import.meta.env.VITE_ELEVENLABS_API_KEY || localStorage.getItem('elevenlabs_api_key') || '';
   }
 
   async startVoiceSession(userId: string, voiceConfig: VoiceInteractionConfig): Promise<void> {
@@ -35,28 +39,32 @@ export class VoiceInteractionService extends EventEmitter {
   }
 
   async transcribeAudio(userId: string, audioBuffer: Buffer): Promise<string> {
-    if (!config.voice.deepgramApiKey) {
+    if (!this.deepgramApiKey) {
+      console.error('Deepgram API key not configured. Set VITE_DEEPGRAM_API_KEY environment variable.');
       throw new Error('Deepgram API key not configured');
     }
 
     try {
-      // Using Deepgram for speech-to-text
-      const response = await axios.post(
-        'https://api.deepgram.com/v1/listen',
-        audioBuffer,
+      // Using Deepgram for speech-to-text with fetch
+      const response = await fetch(
+        'https://api.deepgram.com/v1/listen?punctuate=true&language=' +
+        encodeURIComponent(this.voiceConfigs.get(userId)?.language || 'en'),
         {
+          method: 'POST',
           headers: {
-            'Authorization': `Token ${config.voice.deepgramApiKey}`,
+            'Authorization': `Token ${this.deepgramApiKey}`,
             'Content-Type': 'audio/wav',
           },
-          params: {
-            punctuate: true,
-            language: this.voiceConfigs.get(userId)?.language || 'en',
-          },
+          body: audioBuffer
         }
       );
 
-      const transcript = response.data.results?.channels[0]?.alternatives[0]?.transcript || '';
+      if (!response.ok) {
+        throw new Error(`Deepgram API error: ${response.statusText}`);
+      }
+
+      const data = await response.json();
+      const transcript = data.results?.channels[0]?.alternatives[0]?.transcript || '';
       this.emit('transcription', { userId, transcript });
 
       return transcript;
@@ -67,32 +75,38 @@ export class VoiceInteractionService extends EventEmitter {
   }
 
   async synthesizeSpeech(text: string, voiceId?: string): Promise<Buffer> {
-    if (!config.voice.elevenLabsApiKey) {
+    if (!this.elevenLabsApiKey) {
+      console.error('ElevenLabs API key not configured. Set VITE_ELEVENLABS_API_KEY environment variable.');
       throw new Error('ElevenLabs API key not configured');
     }
 
     try {
-      // Using ElevenLabs for text-to-speech
-      const response = await axios.post(
+      // Using ElevenLabs for text-to-speech with fetch
+      const response = await fetch(
         `https://api.elevenlabs.io/v1/text-to-speech/${voiceId || 'default'}`,
         {
-          text,
-          model_id: 'eleven_monolingual_v1',
-          voice_settings: {
-            stability: 0.5,
-            similarity_boost: 0.75,
-          },
-        },
-        {
+          method: 'POST',
           headers: {
-            'xi-api-key': config.voice.elevenLabsApiKey,
+            'xi-api-key': this.elevenLabsApiKey,
             'Content-Type': 'application/json',
           },
-          responseType: 'arraybuffer',
+          body: JSON.stringify({
+            text,
+            model_id: 'eleven_monolingual_v1',
+            voice_settings: {
+              stability: 0.5,
+              similarity_boost: 0.75,
+            },
+          })
         }
       );
 
-      return Buffer.from(response.data);
+      if (!response.ok) {
+        throw new Error(`ElevenLabs API error: ${response.statusText}`);
+      }
+
+      const buffer = await response.arrayBuffer();
+      return Buffer.from(buffer);
     } catch (error) {
       console.error('Error synthesizing speech:', error);
       throw new Error('Failed to synthesize speech');

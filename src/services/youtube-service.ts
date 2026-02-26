@@ -111,8 +111,13 @@ class YouTubeService {
       },
     });
 
-    // Load API key from localStorage
-    this.apiKey = localStorage.getItem('youtube_api_key') || '';
+    // Load API key from Vite env var, fallback to localStorage
+    this.apiKey = import.meta.env.VITE_YOUTUBE_API_KEY || localStorage.getItem('youtube_api_key') || '';
+    if (this.apiKey) {
+      console.log('YouTube API initialized from VITE_YOUTUBE_API_KEY');
+    } else {
+      console.warn('YouTube API key not configured. Set VITE_YOUTUBE_API_KEY environment variable.');
+    }
   }
 
   // 🔐 CONFIGURATION
@@ -128,7 +133,7 @@ class YouTubeService {
   // 🎥 API CALLS
   private async youtubeRequest(endpoint: string, params: Record<string, string> = {}): Promise<any> {
     if (!this.apiKey) {
-      throw new Error('YouTube API key not set');
+      throw new Error('YouTube API key not configured. Set VITE_YOUTUBE_API_KEY environment variable or call setApiKey()');
     }
 
     const queryParams = new URLSearchParams({

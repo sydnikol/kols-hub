@@ -113,9 +113,9 @@ class SpotifyService {
     // Load credentials - prefer environment variables, fallback to localStorage
     this.clientId = import.meta.env.VITE_SPOTIFY_CLIENT_ID || localStorage.getItem('spotify_client_id') || '';
     this.clientSecret = import.meta.env.VITE_SPOTIFY_CLIENT_SECRET || localStorage.getItem('spotify_client_secret') || '';
-    
+
     console.log('🎵 Spotify Service initialized');
-    console.log('   Client ID:', this.clientId ? '✅ Set' : '❌ Missing');
+    console.log('   Client ID:', this.clientId ? '✅ Set (from VITE_SPOTIFY_CLIENT_ID)' : '❌ Missing - Set VITE_SPOTIFY_CLIENT_ID env var');
     console.log('   Redirect URI:', this.redirectUri);
   }
 
@@ -247,6 +247,10 @@ class SpotifyService {
 
   // 🎵 API CALLS
   private async spotifyRequest(endpoint: string, options: RequestInit = {}): Promise<any> {
+    if (!this.accessToken) {
+      throw new Error('Spotify not authenticated. Call getAuthUrl() and complete OAuth flow.');
+    }
+
     await this.ensureValidToken();
 
     const response = await fetch(`https://api.spotify.com/v1${endpoint}`, {
